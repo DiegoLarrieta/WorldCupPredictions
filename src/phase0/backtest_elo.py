@@ -114,7 +114,13 @@ def main() -> None:
         print(f"  {lo:.1f}-{hi:.1f}   {row.predicted:>9.2f}{row.actual:>9.2f}{row.n:>8,}   {bar}{flag}")
 
     CSV_OUT.parent.mkdir(parents=True, exist_ok=True)
-    cal.to_csv(CSV_OUT, index=False)
+    out = cal.copy()
+    out["bin_range"] = out["bin"].map(lambda b: f"{b/10:.1f}-{b/10+0.1:.1f}")
+    out["predicted"] = out["predicted"].round(3)
+    out["actual"] = out["actual"].round(3)
+    out["gap"] = (out["actual"] - out["predicted"]).round(3)  # +ve = model under-predicts
+    out = out[["bin", "bin_range", "predicted", "actual", "gap", "n"]]
+    out.to_csv(CSV_OUT, index=False)
     print(f"\nCalibration table written to {CSV_OUT}")
 
 
