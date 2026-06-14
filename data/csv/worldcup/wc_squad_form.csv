@@ -1,5 +1,5 @@
 country,shirt_no,position,player,dob,caps,intl_goals,club,player_id,minutes_played,club_goals,xg,np_xg,assists,xa,has_club_form,np_xg_per90
-Czech Republic,1,GK,Matěj Kovář,2000-05-17,20,0,PSV Eindhoven,11069,,,,,,,false,
+Czech Republic,1,GK,Matěj Kovář,2000-05-17,20,0,PSV Eindhoven,90002480,2790.0,0.0,,,0.0,,true,
 Czech Republic,2,DF,David Zima,2000-11-08,25,1,Slavia Prague,9982,,,,,,,false,
 Czech Republic,3,DF,Tomáš Holeš,1993-03-31,41,2,Slavia Prague,,,,,,,,false,
 Czech Republic,4,DF,Robin Hranáč,2000-01-29,14,1,TSG Hoffenheim,13012,2261.0,1.0,2.0698564872145653,2.0698564872145653,0.0,0.12790422700345516,true,0.08239145681084072
@@ -12,7 +12,7 @@ Czech Republic,10,FW,Patrik Schick,1996-01-24,53,26,Bayer Leverkusen,1236,2005.0
 Czech Republic,11,FW,Jan Kuchta,1997-01-08,31,3,Sparta Prague,,,,,,,,false,
 Czech Republic,12,MF,Lukáš Červ,2001-04-10,17,2,Viktoria Plzeň,,,,,,,,false,
 Czech Republic,13,FW,Mojmír Chytil,1999-04-29,22,6,Slavia Prague,,,,,,,,false,
-Czech Republic,14,DF,David Jurásek,2000-08-07,18,1,Slavia Prague,12372,,,,,,,false,
+Czech Republic,14,DF,David Jurásek,2000-08-07,18,1,Slavia Prague,90004018,638.0,0.0,,,0.0,,true,
 Czech Republic,15,FW,Pavel Šulc,2000-12-29,21,5,Lyon,13735,1562.0,10.0,8.200931411236525,8.200931411236525,3.0,3.4493092335760593,true,0.47252485724154114
 Czech Republic,16,GK,Jindřich Staněk,1996-04-27,14,0,Slavia Prague,,,,,,,,false,
 Czech Republic,17,MF,Lukáš Provod,1996-10-23,38,3,Slavia Prague,,,,,,,,false,
@@ -21,14 +21,14 @@ Czech Republic,19,FW,Tomáš Chorý,1995-01-26,22,7,Slavia Prague,,,,,,,,false,
 Czech Republic,20,DF,Jaroslav Zelený,1992-08-20,23,0,Sparta Prague,,,,,,,,false,
 Czech Republic,21,DF,David Douděra,1998-05-31,17,2,Slavia Prague,90002063,750.0,2.0,,,3.0,,true,
 Czech Republic,22,MF,Tomáš Souček,1995-02-27,90,17,West Ham United,8288,2206.0,5.0,5.214208725839853,5.214208725839853,0.0,0.8217995762825012,true,0.2127283705011726
-Czech Republic,23,GK,Lukáš Horníček,2002-07-13,1,0,Braga,,,,,,,,false,
+Czech Republic,23,GK,Lukáš Horníček,2002-07-13,1,0,Braga,90002807,2959.0,0.0,,,0.0,,true,
 Czech Republic,24,MF,Alexandr Sojka,2003-04-02,2,0,Viktoria Plzeň,,,,,,,,false,
 Czech Republic,25,MF,Hugo Sochůrek,2008-06-07,1,0,Sparta Prague,90001561,457.0,0.0,,,0.0,,true,
 Czech Republic,26,FW,Denis Višinský,2003-03-21,2,1,Viktoria Plzeň,,,,,,,,false,
 Mexico,1,GK,Raúl Rangel,2000-02-25,14,0,Guadalajara,90000177,2880.0,0.0,,,0.0,,true,
 Mexico,2,DF,Jorge Sánchez,1997-12-10,59,3,PAOK,90000112,1228.0,0.0,,,1.0,,true,
 Mexico,3,DF,César Montes,1997-02-24,67,4,Lokomotiv Moscow,11288,,,,,,,false,
-Mexico,4,DF,Edson Álvarez,1997-10-24,98,7,Fenerbahçe,11926,,,,,,,false,
+Mexico,4,DF,Edson Álvarez,1997-10-24,98,7,Fenerbahçe,90004132,762.0,0.0,,,1.0,,true,
 Mexico,5,DF,Johan Vásquez,1998-10-22,46,3,Genoa,9985,3219.0,1.0,1.88552456907928,1.88552456907928,0.0,0.46500023547559977,true,0.052717369126168125
 Mexico,6,MF,Érik Lira,2000-05-08,25,0,Cruz Azul,90000104,2638.0,0.0,,,0.0,,true,
 Mexico,7,MF,Luis Romo,1995-06-05,63,4,Guadalajara,90000173,2271.0,1.0,,,2.0,,true,
@@ -40,11 +40,11 @@ Mexico,12,GK,Carlos Acevedo,1996-04-19,7,0,Santos Laguna,90000433,2859.0,0.0,,,0
 Mexico,13,GK,Guillermo Ochoa,1985-07-13,152,0,AEL Limassol,2330,,,,,,,false,
 Mexico,14,FW,Armando González,2003-04-20,7,1,Guadalajara,90000157,2381.0,24.0,,,2.0,,true,
 Mexico,15,DF,Israel Reyes,2000-05-23,34,2,América,90000012,2658.0,0.0,,,2.0,,true,
-Mexico,16,FW,Julián Quiñones,1997-03-24,22,2,Al-Qadsiah,,,,,,,,false,
+Mexico,16,FW,Julián Quiñones,1997-03-24,22,2,Al-Qadsiah,90004851,2717.0,33.0,,,4.0,,true,
 Mexico,17,MF,Orbelín Pineda,1996-03-24,92,12,AEK Athens,,,,,,,,false,
 Mexico,18,MF,Obed Vargas,2005-08-05,6,0,Atlético Madrid,90001286,2268.0,3.0,,,1.0,,true,
 Mexico,19,MF,Gilberto Mora,2008-10-14,8,0,Tijuana,90000468,1131.0,4.0,,,1.0,,true,
-Mexico,20,DF,Mateo Chávez,2004-05-12,10,0,AZ,,,,,,,,false,
+Mexico,20,DF,Mateo Chávez,2004-05-12,10,0,AZ,90002146,829.0,1.0,,,2.0,,true,
 Mexico,21,FW,César Huerta,2000-12-03,26,3,Anderlecht,,,,,,,,false,
 Mexico,22,FW,Guillermo Martínez,1995-03-15,12,3,Pumas UNAM,90000549,1346.0,9.0,,,0.0,,true,
 Mexico,23,DF,Jesús Gallardo,1994-08-15,121,3,Toluca,90000503,2156.0,5.0,,,5.0,,true,
@@ -63,7 +63,7 @@ South Africa,9,FW,Lyle Foster,2000-09-03,27,10,Burnley,7498,1375.0,3.0,3.5921845
 South Africa,10,FW,Relebohile Mofokeng,2004-10-23,13,0,Orlando Pirates,,,,,,,,false,
 South Africa,11,MF,Themba Zwane,1989-08-03,54,12,Mamelodi Sundowns,,,,,,,,false,
 South Africa,12,FW,Thapelo Maseko,2003-11-11,10,1,AEL Limassol,,,,,,,,false,
-South Africa,13,MF,Sphephelo Sithole,1999-03-03,28,1,Tondela,,,,,,,,false,
+South Africa,13,MF,Sphephelo Sithole,1999-03-03,28,1,Tondela,90003169,1543.0,1.0,,,0.0,,true,
 South Africa,14,DF,Mbekezeli Mbokazi,2005-09-19,10,1,Chicago Fire FC,,,,,,,,false,
 South Africa,15,FW,Iqraam Rayners,1995-12-19,14,4,Mamelodi Sundowns,,,,,,,,false,
 South Africa,16,GK,Sipho Chaine,1996-12-14,4,0,Orlando Pirates,,,,,,,,false,
@@ -82,9 +82,9 @@ South Korea,2,DF,Lee Han-beom,2002-06-17,8,0,Midtjylland,,,,,,,,false,
 South Korea,3,MF,Lee Gi-hyuk,2000-07-07,3,0,Gangwon FC,,,,,,,,false,
 South Korea,4,DF,Kim Min-jae,1996-11-15,79,4,Bayern Munich,10986,1621.0,1.0,0.7258729934692383,0.7258729934692383,1.0,0.4743431285023689,true,0.04030140000754561
 South Korea,5,DF,Kim Tae-hyeon,2000-09-17,7,0,Kashima Antlers,,,,,,,,false,
-South Korea,6,MF,Hwang In-beom,1996-09-20,73,6,Feyenoord,,,,,,,,false,
+South Korea,6,MF,Hwang In-beom,1996-09-20,73,6,Feyenoord,90002238,981.0,1.0,,,3.0,,true,
 South Korea,7,FW,Son Heung-min,1992-07-08,144,56,Los Angeles FC,90000975,803.0,9.0,,,2.0,,true,
-South Korea,8,MF,Paik Seung-ho,1997-03-17,27,3,Birmingham City,,,,,,,,false,
+South Korea,8,MF,Paik Seung-ho,1997-03-17,27,3,Birmingham City,90003227,3373.0,4.0,,,1.0,,true,
 South Korea,9,FW,Cho Gue-sung,1998-01-25,44,12,Midtjylland,,,,,,,,false,
 South Korea,10,MF,Lee Jae-sung,1992-08-10,105,15,Mainz 05,9783,2229.0,4.0,4.2225238950923085,4.2225238950923085,2.0,3.3260836768895388,true,0.17049221649094112
 South Korea,11,MF,Hwang Hee-chan,1996-01-26,79,17,Wolverhampton Wanderers,8845,1469.0,2.0,2.6617424860596657,1.9005736485123634,2.0,1.8815556205809116,true,0.11644086342145181
@@ -93,23 +93,23 @@ South Korea,13,DF,Lee Tae-seok,2002-07-28,15,1,Austria Wien,,,,,,,,false,
 South Korea,14,DF,Cho Wi-je,2001-08-25,1,0,Jeonbuk Hyundai Motors,,,,,,,,false,
 South Korea,15,DF,Kim Moon-hwan,1995-08-01,35,0,Daejeon Hana Citizen,,,,,,,,false,
 South Korea,16,DF,Park Jin-seob,1995-10-23,14,1,Zhejiang,,,,,,,,false,
-South Korea,17,MF,Bae Jun-ho,2003-08-21,13,2,Stoke City,,,,,,,,false,
-South Korea,18,FW,Oh Hyeon-gyu,2001-04-12,27,6,Beşiktaş,,,,,,,,false,
+South Korea,17,MF,Bae Jun-ho,2003-08-21,13,2,Stoke City,90003795,2923.0,2.0,,,3.0,,true,
+South Korea,18,FW,Oh Hyeon-gyu,2001-04-12,27,6,Beşiktaş,90004039,1084.0,6.0,,,1.0,,true,
 South Korea,19,MF,Lee Kang-in,2001-02-19,47,11,Paris Saint-Germain,7313,1527.0,3.0,3.1583685893565416,3.1583685893565416,4.0,6.6062276884913445,true,0.1861513903353561
 South Korea,20,MF,Yang Hyun-jun,2002-05-25,9,0,Celtic,,,,,,,,false,
 South Korea,21,GK,Jo Hyeon-woo,1991-09-25,48,0,Ulsan HD,,,,,,,,false,
 South Korea,22,DF,Seol Young-woo,1998-12-05,34,0,Red Star Belgrade,90002055,270.0,0.0,,,0.0,,true,
 South Korea,23,DF,Jens Castrop,2003-07-29,7,0,Borussia Mönchengladbach,13919,1613.0,3.0,4.301225297152996,4.301225297152996,1.0,1.405629888176918,true,0.23999397194282063
 South Korea,24,MF,Kim Jin-gyu,1997-02-24,22,3,Jeonbuk Hyundai Motors,,,,,,,,false,
-South Korea,25,MF,Eom Ji-sung,2002-05-09,9,2,Swansea City,,,,,,,,false,
+South Korea,25,MF,Eom Ji-sung,2002-05-09,9,2,Swansea City,90003825,2442.0,2.0,,,2.0,,true,
 South Korea,26,MF,Lee Dong-gyeong,1997-09-20,18,4,Ulsan HD,,,,,,,,false,
 Bosnia and Herzegovina,1,GK,Nikola Vasilj,1995-12-02,26,0,FC St. Pauli,12973,3060.0,0.0,0.0,0.0,0.0,0.0,true,0.0
-Bosnia and Herzegovina,2,DF,Nihad Mujakić,1998-04-15,12,1,Gaziantep,,,,,,,,false,
+Bosnia and Herzegovina,2,DF,Nihad Mujakić,1998-04-15,12,1,Gaziantep,90004078,2201.0,0.0,,,1.0,,true,
 Bosnia and Herzegovina,3,DF,Dennis Hadžikadunić,1998-07-09,32,0,Sampdoria,,,,,,,,false,
 Bosnia and Herzegovina,4,DF,Tarik Muharemović,2003-02-28,14,1,Sassuolo,13879,2837.0,2.0,2.834148694295436,2.834148694295436,2.0,0.9276836458593607,true,0.08990954617081046
 Bosnia and Herzegovina,5,DF,Sead Kolašinac,1993-06-20,65,0,Atalanta,342,1233.0,0.0,0.12279180064797401,0.12279180064797401,0.0,0.0,true,0.008962905156786424
 Bosnia and Herzegovina,6,MF,Benjamin Tahirović,2003-03-03,28,2,Brøndby,,,,,,,,false,
-Bosnia and Herzegovina,7,DF,Amar Dedić,2002-08-18,28,1,Benfica,13456,,,,,,,false,
+Bosnia and Herzegovina,7,DF,Amar Dedić,2002-08-18,28,1,Benfica,90002753,1901.0,1.0,,,4.0,,true,
 Bosnia and Herzegovina,8,MF,Armin Gigović,2002-04-06,20,1,Young Boys,9062,,,,,,,false,
 Bosnia and Herzegovina,9,FW,Samed Baždar,2004-01-31,13,1,Jagiellonia Białystok,,,,,,,,false,
 Bosnia and Herzegovina,10,FW,Ermedin Demirović,1998-03-25,40,4,VfB Stuttgart,6496,1507.0,12.0,8.664393775165081,7.906617097556591,3.0,2.179655436426401,true,0.472193456390241
@@ -118,11 +118,11 @@ Bosnia and Herzegovina,12,GK,Mladen Jurkas,2007-10-07,0,0,Borac Banja Luka,,,,,,
 Bosnia and Herzegovina,13,MF,Ivan Bašić,2002-04-30,17,0,Astana,90001787,585.0,0.0,,,0.0,,true,
 Bosnia and Herzegovina,14,MF,Ivan Šunjić,1996-10-09,11,0,Pafos,90001787,585.0,0.0,,,0.0,,true,
 Bosnia and Herzegovina,15,MF,Amar Memić,2001-01-20,13,1,Viktoria Plzeň,,,,,,,,false,
-Bosnia and Herzegovina,16,MF,Amir Hadžiahmetović,1997-03-08,36,0,Hull City,,,,,,,,false,
+Bosnia and Herzegovina,16,MF,Amir Hadžiahmetović,1997-03-08,36,0,Hull City,90003388,2119.0,0.0,,,2.0,,true,
 Bosnia and Herzegovina,17,MF,Dženis Burnić,1998-05-22,20,0,Karlsruher SC,,,,,,,,false,
 Bosnia and Herzegovina,18,DF,Nikola Katić,1996-10-10,17,2,Schalke 04,,,,,,,,false,
 Bosnia and Herzegovina,19,FW,Kerim Alajbegović,2007-09-21,10,1,Red Bull Salzburg,,,,,,,,false,
-Bosnia and Herzegovina,20,FW,Esmir Bajraktarević,2005-03-10,16,1,PSV Eindhoven,,,,,,,,false,
+Bosnia and Herzegovina,20,FW,Esmir Bajraktarević,2005-03-10,16,1,PSV Eindhoven,90002469,1074.0,4.0,,,4.0,,true,
 Bosnia and Herzegovina,21,DF,Stjepan Radeljić,1997-09-05,5,0,Rijeka,,,,,,,,false,
 Bosnia and Herzegovina,22,GK,Martin Zlomislić,1998-08-16,3,0,Rijeka,,,,,,,,false,
 Bosnia and Herzegovina,23,FW,Haris Tabaković,1994-06-20,10,4,Borussia Mönchengladbach,13013,2424.0,13.0,14.339333239942789,12.823779825121164,2.0,1.8832440096884966,true,0.47613043905152835
@@ -131,15 +131,15 @@ Bosnia and Herzegovina,25,FW,Jovo Lukić,1998-11-28,3,0,Universitatea Cluj,,,,,,
 Bosnia and Herzegovina,26,MF,Ermin Mahmić,2005-03-14,2,0,Slovan Liberec,,,,,,,,false,
 Canada,1,GK,Dayne St. Clair,1997-05-09,20,0,Inter Miami CF,90000985,2700.0,0.0,,,0.0,,true,
 Canada,2,DF,Alistair Johnston,1998-10-08,58,1,Celtic,,,,,,,,false,
-Canada,3,DF,Alfie Jones,1997-10-07,2,0,Middlesbrough,,,,,,,,false,
+Canada,3,DF,Alfie Jones,1997-10-07,2,0,Middlesbrough,90003481,1882.0,1.0,,,1.0,,true,
 Canada,4,DF,Luc de Fougerolles,2005-10-12,13,0,Dender,,,,,,,,false,
 Canada,5,DF,Joel Waterman,1996-01-24,17,0,Chicago Fire FC,90000642,1967.0,1.0,,,1.0,,true,
 Canada,6,MF,Mathieu Choinière,1999-02-07,23,0,Los Angeles FC,90000965,643.0,1.0,,,0.0,,true,
-Canada,7,MF,Stephen Eustáquio,1996-12-21,56,4,Los Angeles FC,,,,,,,,false,
+Canada,7,MF,Stephen Eustáquio,1996-12-21,56,4,Los Angeles FC,90003043,190.0,0.0,,,0.0,,true,
 Canada,8,MF,Ismaël Koné,2002-06-16,40,4,Sassuolo,13069,2795.0,6.0,5.083259547129273,5.083259547129273,0.0,1.759748755954206,true,0.16368277611507498
 Canada,9,FW,Cyle Larin,1995-04-17,90,30,Southampton,11340,,,,,,,false,
 Canada,10,FW,Jonathan David,2000-01-14,77,39,Juventus,8636,1784.0,6.0,11.464318415150046,10.703019579872489,4.0,4.232262331992388,true,0.539950539343343
-Canada,11,MF,Liam Millar,1999-09-27,41,1,Hull City,,,,,,,,false,
+Canada,11,MF,Liam Millar,1999-09-27,41,1,Hull City,90003408,1836.0,3.0,,,5.0,,true,
 Canada,12,FW,Tani Oluwaseyi,2000-05-15,24,2,Villarreal,90001007,1856.0,10.0,,,7.0,,true,
 Canada,13,DF,Derek Cornelius,1997-11-25,44,1,Rangers,12769,58.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 Canada,14,MF,Jacob Shaffelburg,1999-11-26,31,6,Los Angeles FC,90001100,1110.0,4.0,,,2.0,,true,
@@ -148,7 +148,7 @@ Canada,16,GK,Maxime Crépeau,1994-05-11,32,0,Orlando City SC,90001187,1350.0,0.0
 Canada,17,FW,Tajon Buchanan,1999-02-08,60,8,Villarreal,12322,1873.0,7.0,2.74269391130656,2.74269391130656,1.0,2.5965847074985504,true,0.1317898836185747
 Canada,18,GK,Owen Goodman,2003-11-27,0,0,Barnsley,,,,,,,,false,
 Canada,19,DF,Alphonso Davies,2000-11-02,58,15,Bayern Munich,7345,521.0,1.0,0.44130267202854156,0.44130267202854156,3.0,1.301999389193952,true,0.07623270726020871
-Canada,20,FW,Ali Ahmed,2000-10-10,24,1,Norwich City,90001379,1288.0,0.0,,,8.0,,true,
+Canada,20,FW,Ali Ahmed,2000-10-10,24,1,Norwich City,90001379,2592.0,4.0,,,11.0,,true,
 Canada,21,MF,Jonathan Osorio,1992-06-12,90,10,Toronto FC,90001359,1920.0,4.0,,,1.0,,true,
 Canada,22,DF,Richie Laryea,1995-01-07,75,1,Toronto FC,90001374,1251.0,1.0,,,1.0,,true,
 Canada,23,DF,Niko Sigur,2003-09-09,19,2,Hajduk Split,,,,,,,,false,
@@ -223,14 +223,14 @@ Brazil,13,DF,Danilo Luiz,1991-07-15,70,1,Flamengo,90001624,1410.0,1.0,,,1.0,,tru
 Brazil,14,DF,Bremer,1997-03-18,8,1,Juventus,6960,2187.0,4.0,2.7122608339414,2.7122608339414,3.0,0.4107095804065466,true,0.11161567217865843
 Brazil,15,DF,Léo Pereira,1996-01-31,4,0,Flamengo,90001647,2953.0,4.0,,,0.0,,true,
 Brazil,16,DF,Douglas Santos,1994-03-22,7,0,Zenit Saint Petersburg,,,,,,,,false,
-Brazil,17,MF,Fabinho,1993-10-23,33,0,Al-Ittihad,90001929,1275.0,0.0,,,1.0,,true,
+Brazil,17,MF,Fabinho,1993-10-23,33,0,Al-Ittihad,90004733,2640.0,1.0,,,3.0,,true,
 Brazil,18,MF,Danilo Santos,2001-04-29,4,2,Botafogo,90001482,827.0,1.0,,,3.0,,true,
 Brazil,19,FW,Endrick,2006-07-21,17,4,Lyon,12884,1253.0,5.0,6.475340409204364,5.7152452897280455,7.0,4.547948397696018,true,0.41051243102595697
 Brazil,20,MF,Lucas Paquetá,1997-08-27,63,13,Flamengo,7365,1544.0,4.0,2.440835335291922,0.9184976601973176,1.0,3.011969303712249,true,0.05353937138455867
 Brazil,21,FW,Luiz Henrique,2001-01-02,15,2,Zenit Saint Petersburg,11030,,,,,,,false,
 Brazil,22,FW,Gabriel Martinelli,2001-06-18,23,4,Arsenal,7752,1025.0,1.0,5.357063241302967,5.357063241302967,4.0,2.569171307608485,true,0.4703762846022117
-Brazil,23,GK,Ederson Moraes,1993-08-17,32,0,Fenerbahçe,6054,,,,,,,false,
-Brazil,24,DF,Roger Ibañez,1998-11-23,7,0,Al-Ahli,2566,,,,,,,false,
+Brazil,23,GK,Ederson Moraes,1993-08-17,32,0,Fenerbahçe,90004131,2131.0,0.0,,,0.0,,true,
+Brazil,24,DF,Roger Ibañez,1998-11-23,7,0,Al-Ahli,90004559,2423.0,2.0,,,2.0,,true,
 Brazil,25,FW,Igor Thiago,2001-06-26,4,2,Brentford,13222,3292.0,22.0,24.68977300822735,17.83925338834524,1.0,3.4500465877354145,true,0.4877074134116257
 Brazil,26,FW,Rayan,2006-08-03,2,1,Bournemouth,90002089,2835.0,14.0,,,1.0,,true,
 Haiti,1,GK,Johny Placide,1988-01-29,82,0,Bastia,,,,,,,,false,
@@ -252,30 +252,30 @@ Haiti,16,FW,Lenny Joseph,2000-10-12,2,1,Ferencváros,,,,,,,,false,
 Haiti,17,MF,Danley Jean Jacques,2000-05-20,31,6,Philadelphia Union,90001144,2358.0,3.0,,,3.0,,true,
 Haiti,18,FW,Wilson Isidor,2000-08-27,4,2,Sunderland,7148,1142.0,6.0,5.619414385408163,5.619414385408163,0.0,0.0,true,0.44286102862235965
 Haiti,19,FW,Yassin Fortuné,1999-01-30,4,0,Vizela,,,,,,,,false,
-Haiti,20,FW,Frantzdy Pierrot,1995-03-29,51,34,Çaykur Rizespor,,,,,,,,false,
+Haiti,20,FW,Frantzdy Pierrot,1995-03-29,51,34,Çaykur Rizespor,90004415,123.0,0.0,,,0.0,,true,
 Haiti,21,FW,Josué Casimir,2001-09-24,7,0,Auxerre,11789,1509.0,1.0,2.7384571619331837,1.9783619977533817,0.0,1.4077786430716515,true,0.11799375732127526
 Haiti,22,DF,Jean-Kévin Duverne,1997-07-12,17,1,Gent,8049,,,,,,,false,
 Haiti,23,GK,Josué Duverger,2000-04-27,7,0,Cosmos Koblenz,,,,,,,,false,
 Haiti,24,DF,Wilguens Paugain,2001-08-24,8,0,Zulte Waregem,,,,,,,,false,
 Haiti,25,MF,Dominique Simon,2000-07-29,2,0,Tatran Prešov,,,,,,,,false,
 Haiti,26,MF,Woodensky Pierre,2004-12-30,1,0,Violette,90001726,839.0,0.0,,,0.0,,true,
-Morocco,1,GK,Yassine Bounou,1991-04-05,90,0,Al-Hilal,,,,,,,,false,
+Morocco,1,GK,Yassine Bounou,1991-04-05,90,0,Al-Hilal,90004725,2340.0,0.0,,,0.0,,true,
 Morocco,2,DF,Achraf Hakimi,1998-11-04,96,11,Paris Saint-Germain,5197,1382.0,2.0,2.8018143735826015,2.8018143735826015,2.0,1.457746408879757,true,0.18246258583388866
 Morocco,3,DF,Noussair Mazraoui,1997-11-14,45,2,Manchester United,10696,990.0,0.0,0.19680644385516644,0.19680644385516644,0.0,0.2094872146844864,true,0.01789149489592422
 Morocco,4,MF,Sofyan Amrabat,1996-08-21,75,0,Real Betis,7927,1297.0,0.0,0.2392287040129304,0.2392287040129304,0.0,0.23958174046128988,true,0.01660029557529972
-Morocco,5,DF,Marwane Saâdane,1992-01-17,8,0,Al-Fateh,,,,,,,,false,
+Morocco,5,DF,Marwane Saâdane,1992-01-17,8,0,Al-Fateh,90004615,2494.0,0.0,,,1.0,,true,
 Morocco,6,MF,Ayyoub Bouaddi,2007-10-02,3,0,Lille,12162,2354.0,0.0,1.0655275946483016,1.0655275946483016,1.0,2.0039471769705415,true,0.04073809835103957
 Morocco,7,MF,Chemsdine Talbi,2005-05-09,5,0,Sunderland,13717,1556.0,4.0,2.32377387303859,2.32377387303859,1.0,0.6003798525780439,true,0.13440851450737346
 Morocco,8,MF,Azzedine Ounahi,2000-04-19,49,9,Girona,8328,1777.0,5.0,3.8501516468822956,3.106873992830515,2.0,5.440476134419441,true,0.15735433841009924
 Morocco,9,FW,Soufiane Rahimi,1996-06-02,27,6,Al Ain,,,,,,,,false,
 Morocco,10,FW,Brahim Díaz,1999-08-03,26,14,Real Madrid,6421,1243.0,1.0,1.7095827870070934,1.7095827870070934,6.0,3.635775487869978,true,0.12378314628369944
-Morocco,11,MF,Ismael Saibari,2001-01-28,31,9,PSV Eindhoven,90002103,18.0,0.0,,,0.0,,true,
+Morocco,11,MF,Ismael Saibari,2001-01-28,31,9,PSV Eindhoven,90002472,2136.0,15.0,,,8.0,,true,
 Morocco,12,GK,Munir Mohamedi,1989-05-10,52,0,RS Berkane,2106,,,,,,,false,
 Morocco,13,DF,Zakaria El Ouahdi,2001-12-31,3,0,Genk,,,,,,,,false,
 Morocco,14,DF,Issa Diop,1997-01-09,4,0,Fulham,3203,810.0,1.0,0.4416985362768173,0.4416985362768173,0.0,0.0,true,0.04907761514186859
 Morocco,15,MF,Samir El Mourabet,2005-10-06,4,0,Strasbourg,12284,2145.0,1.0,0.3717561801895499,0.3717561801895499,2.0,2.710016814060509,true,0.015598161406554543
 Morocco,16,MF,Gessime Yassine,2005-11-22,5,0,Strasbourg,14359,505.0,0.0,0.5050588417798281,0.5050588417798281,1.0,1.593078263103962,true,0.09001048665383075
-Morocco,17,FW,Amine Sbaï,2000-11-05,2,0,Angers,14131,1865.0,3.0,4.347094478085637,3.5869993288069963,1.0,2.760798776522279,true,0.17309916332044487
+Morocco,17,FW,Amine Sbaï,2000-11-05,2,0,Angers,90004603,20.0,0.0,,,0.0,,true,
 Morocco,18,DF,Chadi Riad,2003-06-17,6,1,Crystal Palace,11167,562.0,0.0,0.27994551230221987,0.27994551230221987,1.0,0.42769163846969604,true,0.044831131863344816
 Morocco,19,DF,Youssef Belammari,1998-09-20,11,0,Al Ahly,,,,,,,,false,
 Morocco,20,FW,Ayoub El Kaabi,1993-06-25,58,23,Olympiacos,,,,,,,,false,
@@ -284,7 +284,7 @@ Morocco,22,GK,Ahmed Reda Tagnaouti,1996-04-05,3,0,AS FAR,,,,,,,,false,
 Morocco,23,MF,Bilal El Khannouss,2004-05-10,37,3,VfB Stuttgart,13020,1654.0,4.0,3.092769087292254,3.092769087292254,5.0,5.275783350691199,true,0.16828852349232337
 Morocco,24,MF,Neil El Aynaoui,2001-07-02,16,2,Roma,12104,958.0,1.0,0.9577326010912657,0.9577326010912657,2.0,1.7740114629268646,true,0.08997487901692476
 Morocco,25,DF,Redouane Halhal,2003-03-05,3,0,Mechelen,,,,,,,,false,
-Morocco,26,DF,Anass Salah-Eddine,2002-01-18,9,0,PSV Eindhoven,13450,,,,,,,false,
+Morocco,26,DF,Anass Salah-Eddine,2002-01-18,9,0,PSV Eindhoven,90002465,1093.0,0.0,,,0.0,,true,
 Scotland,1,GK,Angus Gunn,1996-01-22,22,0,Nottingham Forest,5544,38.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 Scotland,2,DF,Aaron Hickey,2002-06-10,21,0,Brentford,8942,668.0,0.0,0.5498570688068867,0.5498570688068867,0.0,0.6038424372673035,true,0.07408253921050868
 Scotland,3,DF,Andy Robertson,1994-03-11,94,4,Liverpool,,,,,,,,false,
@@ -293,21 +293,21 @@ Scotland,5,DF,Grant Hanley,1991-11-20,68,2,Hibernian,,,,,,,,false,
 Scotland,6,DF,Kieran Tierney,1997-06-05,56,2,Celtic,8089,,,,,,,false,
 Scotland,7,MF,John McGinn,1994-10-18,86,20,Aston Villa,7723,2221.0,5.0,2.999398436397314,2.999398436397314,4.0,4.862495846115053,true,0.1215424850408637
 Scotland,8,MF,Tyler Fletcher,2007-03-19,2,0,Manchester United,14272,14.0,0.0,0.0,0.0,0.0,0.0,true,0.0
-Scotland,9,FW,Lyndon Dykes,1995-10-07,51,10,Charlton Athletic,,,,,,,,false,
+Scotland,9,FW,Lyndon Dykes,1995-10-07,51,10,Charlton Athletic,90003224,1950.0,5.0,,,3.0,,true,
 Scotland,10,FW,Ché Adams,1996-07-13,47,13,Torino,7700,1899.0,6.0,6.609602872282267,6.609602872282267,2.0,3.2093243608251214,true,0.31325132096124486
 Scotland,11,MF,Ryan Christie,1995-02-22,68,10,Bournemouth,10744,942.0,2.0,1.7907362105324864,1.7907362105324864,0.0,1.6195761244744062,true,0.17108944686616112
 Scotland,12,GK,Liam Kelly,1996-01-23,3,0,Rangers,,,,,,,,false,
-Scotland,13,DF,Jack Hendry,1995-05-07,38,3,Al-Ettifaq,,,,,,,,false,
+Scotland,13,DF,Jack Hendry,1995-05-07,38,3,Al-Ettifaq,90004578,2556.0,1.0,,,0.0,,true,
 Scotland,14,FW,Ross Stewart,1996-07-11,3,0,Southampton,13060,,,,,,,false,
 Scotland,15,DF,John Souttar,1996-09-25,24,2,Rangers,90001495,1530.0,0.0,,,0.0,,true,
-Scotland,16,DF,Dominic Hyam,1995-12-20,4,0,Wrexham,,,,,,,,false,
+Scotland,16,DF,Dominic Hyam,1995-12-20,4,0,Wrexham,90003246,3948.0,0.0,,,0.0,,true,
 Scotland,17,FW,Ben Gannon-Doak,2005-11-11,14,1,Bournemouth,11231,82.0,0.0,0.44585083425045013,0.44585083425045013,1.0,0.45716217160224915,true,0.4893484766163477
 Scotland,18,FW,George Hirst,1999-02-15,10,1,Ipswich Town,8563,,,,,,,false,
 Scotland,19,MF,Lewis Ferguson,1999-08-24,24,1,Bologna,11039,1576.0,1.0,0.6512357760220766,0.6512357760220766,0.0,1.5657932441681623,true,0.03718986030582924
 Scotland,20,FW,Lawrence Shankland,1995-08-10,20,7,Heart of Midlothian,,,,,,,,false,
 Scotland,21,GK,Craig Gordon,1982-12-31,84,0,Heart of Midlothian,,,,,,,,false,
 Scotland,22,DF,Nathan Patterson,2001-10-16,26,1,Everton,10292,241.0,0.0,0.1701965481042862,0.1701965481042862,0.0,0.0,true,0.06355887688541809
-Scotland,23,MF,Kenny McLean,1992-01-08,58,3,Norwich City,,,,,,,,false,
+Scotland,23,MF,Kenny McLean,1992-01-08,58,3,Norwich City,90003556,3617.0,3.0,,,3.0,,true,
 Scotland,24,DF,Anthony Ralston,1998-11-16,27,1,Celtic,,,,,,,,false,
 Scotland,25,FW,Findlay Curtis,2006-06-09,3,1,Kilmarnock,,,,,,,,false,
 Scotland,26,DF,Scott McKenna,1996-11-12,50,1,Dinamo Zagreb,10757,,,,,,,false,
@@ -316,22 +316,22 @@ Australia,2,DF,Miloš Degenek,1994-04-28,57,1,APOEL,,,,,,,,false,
 Australia,3,DF,Alessandro Circati,2003-10-10,13,1,Parma,12783,2667.0,1.0,0.736436253413558,0.736436253413558,0.0,0.2460185680538416,true,0.024851617100570014
 Australia,4,DF,Jacob Italiano,2001-07-30,5,0,Grazer AK,,,,,,,,false,
 Australia,5,DF,Jordan Bos,2002-10-29,27,4,Feyenoord,,,,,,,,false,
-Australia,6,DF,Jason Geria,1993-05-10,14,0,Albirex Niigata,,,,,,,,false,
+Australia,6,DF,Jason Geria,1993-05-10,14,0,Albirex Niigata,90004643,2724.0,5.0,,,8.0,,true,
 Australia,7,FW,Mathew Leckie,1991-02-04,80,14,Melbourne City,,,,,,,,false,
 Australia,8,MF,Connor Metcalfe,1999-11-05,36,1,FC St. Pauli,12979,536.0,0.0,0.7382826870307326,0.7382826870307326,2.0,1.1607451755553484,true,0.1239653765536678
 Australia,9,FW,Mohamed Touré,2004-03-26,10,2,Norwich City,,,,,,,,false,
-Australia,10,FW,Ajdin Hrustic,1996-07-05,37,4,Heracles Almelo,,,,,,,,false,
+Australia,10,FW,Ajdin Hrustic,1996-07-05,37,4,Heracles Almelo,90002374,2220.0,1.0,,,6.0,,true,
 Australia,11,FW,Awer Mabil,1995-09-15,38,10,Castellón,,,,,,,,false,
 Australia,12,GK,Paul Izzo,1995-01-06,4,0,Randers,,,,,,,,false,
 Australia,13,MF,Aiden O'Neill,1998-07-04,31,0,New York City FC,90001065,1506.0,0.0,,,0.0,,true,
 Australia,14,MF,Cammy Devlin,1998-06-07,5,0,Heart of Midlothian,,,,,,,,false,
 Australia,15,DF,Kai Trewin,2001-05-18,6,0,New York City FC,,,,,,,,false,
 Australia,16,DF,Aziz Behich,1990-12-16,84,3,Melbourne City,,,,,,,,false,
-Australia,17,FW,Nestory Irankunda,2006-02-09,15,5,Watford,,,,,,,,false,
+Australia,17,FW,Nestory Irankunda,2006-02-09,15,5,Watford,90003873,2031.0,4.0,,,4.0,,true,
 Australia,18,GK,Patrick Beach,2003-08-06,2,0,Melbourne City,90000595,6.0,0.0,,,0.0,,true,
-Australia,19,DF,Harry Souttar,1998-10-22,38,11,Leicester City,,,,,,,,false,
+Australia,19,DF,Harry Souttar,1998-10-22,38,11,Leicester City,90003455,177.0,1.0,,,0.0,,true,
 Australia,20,FW,Cristian Volpato,2003-11-15,1,0,Sassuolo,10084,1060.0,2.0,1.749022038653493,1.749022038653493,4.0,2.8960686875507236,true,0.14850187120642863
-Australia,21,DF,Cameron Burgess,1995-10-21,27,0,Swansea City,12755,,,,,,,false,
+Australia,21,DF,Cameron Burgess,1995-10-21,27,0,Swansea City,90003824,4140.0,0.0,,,0.0,,true,
 Australia,22,MF,Jackson Irvine,1993-03-07,82,14,FC St. Pauli,12978,1617.0,0.0,1.6277177091687918,1.6277177091687918,1.0,0.908556679263711,true,0.09059653297785483
 Australia,23,FW,Nishan Velupillay,2001-05-07,7,3,Melbourne Victory,,,,,,,,false,
 Australia,24,MF,Paul Okon-Engstler,2005-01-24,6,0,Sydney FC,,,,,,,,false,
@@ -360,44 +360,44 @@ Paraguay,20,MF,Braian Ojeda,2000-06-27,17,0,Orlando City SC,90001193,2105.0,2.0,
 Paraguay,21,FW,Gabriel Ávalos,1991-07-09,23,2,Independiente,90001931,4794.0,1.0,,,0.0,,true,
 Paraguay,22,GK,Gastón Olveira,1993-04-21,1,0,Olimpia,,,,,,,,false,
 Paraguay,23,MF,Matías Galarza,2002-02-11,15,3,Atlanta United FC,,,,,,,,false,
-Paraguay,24,MF,Gustavo Caballero,2001-09-21,2,1,Portsmouth,90001962,332.0,1.0,,,1.0,,true,
+Paraguay,24,MF,Gustavo Caballero,2001-09-21,2,1,Portsmouth,90001962,1091.0,2.0,,,1.0,,true,
 Paraguay,25,FW,Isidro Pitta,1999-08-14,5,0,Red Bull Bragantino,90001938,1093.0,7.0,,,2.0,,true,
 Paraguay,26,DF,Alexandro Maidana,2005-07-26,2,1,Talleres,,,,,,,,false,
-Turkey,1,GK,Mert Günok,1989-03-01,37,0,Fenerbahçe,,,,,,,,false,
+Turkey,1,GK,Mert Günok,1989-03-01,37,0,Fenerbahçe,90004034,1106.0,0.0,,,0.0,,true,
 Turkey,2,DF,Zeki Çelik,1997-02-17,61,3,Roma,6872,2747.0,1.0,1.7680562287569046,1.7680562287569046,2.0,2.412685915827751,true,0.05792685132439804
-Turkey,3,DF,Merih Demiral,1998-03-05,62,6,Al-Ahli,,,,,,,,false,
-Turkey,4,DF,Çağlar Söyüncü,1996-05-23,60,2,Fenerbahçe,5264,,,,,,,false,
+Turkey,3,DF,Merih Demiral,1998-03-05,62,6,Al-Ahli,90004554,1643.0,2.0,,,0.0,,true,
+Turkey,4,DF,Çağlar Söyüncü,1996-05-23,60,2,Fenerbahçe,90004156,770.0,0.0,,,1.0,,true,
 Turkey,5,MF,Salih Özcan,1998-01-11,30,1,Borussia Dortmund,5294,55.0,0.0,0.1352226883172989,0.1352226883172989,0.0,0.15148783661425114,true,0.2212734899737618
-Turkey,6,MF,Orkun Kökçü,2000-12-29,50,4,Beşiktaş,,,,,,,,false,
-Turkey,7,FW,Kerem Aktürkoğlu,1998-10-21,52,15,Fenerbahçe,,,,,,,,false,
+Turkey,6,MF,Orkun Kökçü,2000-12-29,50,4,Beşiktaş,90004041,2474.0,8.0,,,8.0,,true,
+Turkey,7,FW,Kerem Aktürkoğlu,1998-10-21,52,15,Fenerbahçe,90002774,1974.0,8.0,,,7.0,,true,
 Turkey,8,FW,Arda Güler,2005-02-25,29,6,Real Madrid,12190,2076.0,4.0,4.8113659825176,4.8113659825176,9.0,8.848396001383662,true,0.20858523045596533
-Turkey,9,FW,Deniz Gül,2004-07-02,8,2,Porto,,,,,,,,false,
+Turkey,9,FW,Deniz Gül,2004-07-02,8,2,Porto,90003026,1175.0,5.0,,,1.0,,true,
 Turkey,10,MF,Hakan Çalhanoğlu,1994-02-08,105,22,Inter Milan,189,1674.0,9.0,5.1476946249604225,1.341200515627861,4.0,3.476379970088601,true,0.07210755460364844
 Turkey,11,FW,Kenan Yıldız,2005-05-04,28,5,Juventus,11942,2877.0,10.0,8.627187782898545,7.104590082541108,6.0,10.82039262354374,true,0.22224995044445595
 Turkey,12,GK,Altay Bayındır,1998-04-14,12,0,Manchester United,12054,540.0,0.0,0.0,0.0,0.0,0.2939172387123108,true,0.0
-Turkey,13,DF,Eren Elmalı,2000-07-07,23,0,Galatasaray,,,,,,,,false,
-Turkey,14,DF,Abdülkerim Bardakcı,1994-09-07,27,2,Galatasaray,,,,,,,,false,
+Turkey,13,DF,Eren Elmalı,2000-07-07,23,0,Galatasaray,90004169,1526.0,3.0,,,0.0,,true,
+Turkey,14,DF,Abdülkerim Bardakcı,1994-09-07,27,2,Galatasaray,90004160,2541.0,0.0,,,1.0,,true,
 Turkey,15,DF,Ozan Kabak,2000-03-25,30,2,TSG Hoffenheim,7376,1731.0,4.0,4.639676934108138,4.639676934108138,0.0,0.4478818494826555,true,0.24123103643543178
-Turkey,16,MF,İsmail Yüksek,1999-01-26,32,1,Fenerbahçe,,,,,,,,false,
-Turkey,17,FW,İrfan Can Kahveci,1995-07-15,47,6,Kasımpaşa,,,,,,,,false,
-Turkey,18,DF,Mert Müldür,1999-04-03,45,3,Fenerbahçe,,,,,,,,false,
-Turkey,19,FW,Yunus Akgün,2000-07-07,19,4,Galatasaray,,,,,,,,false,
+Turkey,16,MF,İsmail Yüksek,1999-01-26,32,1,Fenerbahçe,90004159,1765.0,1.0,,,2.0,,true,
+Turkey,17,FW,İrfan Can Kahveci,1995-07-15,47,6,Kasımpaşa,90004158,1650.0,2.0,,,3.0,,true,
+Turkey,18,DF,Mert Müldür,1999-04-03,45,3,Fenerbahçe,90004141,1219.0,1.0,,,2.0,,true,
+Turkey,19,FW,Yunus Akgün,2000-07-07,19,4,Galatasaray,90004188,1813.0,7.0,,,9.0,,true,
 Turkey,20,DF,Ferdi Kadıoğlu,1999-10-07,30,2,Brighton & Hove Albion,13066,3145.0,1.0,2.019620954990387,2.019620954990387,0.0,2.244557812809944,true,0.05779519426045623
-Turkey,21,FW,Barış Alper Yılmaz,2000-05-23,35,4,Galatasaray,,,,,,,,false,
-Turkey,22,MF,Kaan Ayhan,1994-11-10,73,5,Galatasaray,,,,,,,,false,
-Turkey,23,GK,Uğurcan Çakır,1996-04-05,39,0,Galatasaray,,,,,,,,false,
-Turkey,24,FW,Oğuz Aydın,2000-10-27,11,0,Fenerbahçe,,,,,,,,false,
-Turkey,25,DF,Samet Akaydin,1994-03-13,19,1,Çaykur Rizespor,,,,,,,,false,
+Turkey,21,FW,Barış Alper Yılmaz,2000-05-23,35,4,Galatasaray,90004165,2306.0,8.0,,,11.0,,true,
+Turkey,22,MF,Kaan Ayhan,1994-11-10,73,5,Galatasaray,90004174,394.0,1.0,,,0.0,,true,
+Turkey,23,GK,Uğurcan Çakır,1996-04-05,39,0,Galatasaray,90004184,2610.0,0.0,,,0.0,,true,
+Turkey,24,FW,Oğuz Aydın,2000-10-27,11,0,Fenerbahçe,90004146,651.0,0.0,,,2.0,,true,
+Turkey,25,DF,Samet Akaydin,1994-03-13,19,1,Çaykur Rizespor,90004425,2566.0,3.0,,,1.0,,true,
 Turkey,26,FW,Can Uzun,2005-11-11,6,1,Eintracht Frankfurt,12954,1178.0,8.0,4.544798476621509,3.7870217841118574,4.0,2.6320750545710325,true,0.28933103613757827
 United States,1,GK,Matt Turner,1994-06-24,54,0,New England Revolution,90001028,900.0,0.0,,,0.0,,true,
-United States,2,DF,Sergiño Dest,2000-11-03,39,3,PSV Eindhoven,,,,,,,,false,
+United States,2,DF,Sergiño Dest,2000-11-03,39,3,PSV Eindhoven,90002491,2199.0,1.0,,,5.0,,true,
 United States,3,DF,Chris Richards,2000-03-28,36,3,Crystal Palace,8430,2819.0,1.0,1.7814537715166807,1.7814537715166807,0.0,0.4875335106626153,true,0.056875076068287074
 United States,4,MF,Tyler Adams,1999-02-14,54,2,Bournemouth,7352,1805.0,2.0,0.9289743825793266,0.9289743825793266,2.0,1.2302900850772858,true,0.04632005231697473
 United States,5,DF,Antonee Robinson,1997-08-08,54,5,Fulham,8940,1484.0,1.0,0.977246874012053,0.21607803646475077,0.0,1.090028055012226,true,0.013104463127916154
 United States,6,DF,Auston Trusty,1998-08-12,8,0,Celtic,11732,,,,,,,false,
 United States,7,MF,Giovanni Reyna,2002-11-13,38,9,Borussia Mönchengladbach,8191,485.0,1.0,0.667095934972167,0.667095934972167,0.0,1.5534863928332925,true,0.12379099824225778
 United States,8,MF,Weston McKennie,1998-08-28,66,12,Juventus,5360,2857.0,5.0,8.643968606367707,8.643968606367707,5.0,5.391984527930617,true,0.27229862603188437
-United States,9,FW,Ricardo Pepi,2003-01-09,37,13,PSV Eindhoven,90002119,882.0,0.0,,,0.0,,true,
+United States,9,FW,Ricardo Pepi,2003-01-09,37,13,PSV Eindhoven,90002488,1412.0,16.0,,,1.0,,true,
 United States,10,FW,Christian Pulisic,1998-09-18,86,33,Milan,2662,1612.0,8.0,9.544671326875687,8.78337250649929,4.0,5.038487618789077,true,0.49038680247204475
 United States,11,FW,Brenden Aaronson,2000-10-22,58,9,Leeds United,10751,2517.0,4.0,5.881288753822446,5.881288753822446,5.0,5.662709843367338,true,0.2102963797552722
 United States,12,DF,Miles Robinson,1997-03-14,40,3,FC Cincinnati,90000819,2255.0,1.0,,,0.0,,true,
@@ -407,7 +407,7 @@ United States,15,MF,Cristian Roldan,1995-06-03,47,0,Seattle Sounders FC,90001275
 United States,16,DF,Alex Freeman,2004-08-09,17,2,Villarreal,90001114,2453.0,6.0,,,3.0,,true,
 United States,17,MF,Malik Tillman,2002-05-28,30,3,Bayer Leverkusen,9860,1681.0,6.0,5.122428148984909,5.122428148984909,1.0,3.6048070788383484,true,0.27425254813125627
 United States,18,DF,Max Arfsten,2001-04-19,20,1,Columbus Crew,90000763,2562.0,4.0,,,5.0,,true,
-United States,19,FW,Haji Wright,1998-03-27,20,7,Coventry City,,,,,,,,false,
+United States,19,FW,Haji Wright,1998-03-27,20,7,Coventry City,90003337,2575.0,17.0,,,1.0,,true,
 United States,20,FW,Folarin Balogun,2001-07-03,27,9,Monaco,9690,2281.0,13.0,14.093828184530139,11.813542751595378,4.0,4.190360508859158,true,0.46611961755527576
 United States,21,FW,Timothy Weah,2000-02-22,51,7,Marseille,6601,2286.0,2.0,2.7870269222185016,2.7870269222185016,2.0,3.784172408282757,true,0.10972546937868118
 United States,22,DF,Mark McKenzie,1999-02-25,29,0,Toulouse,12842,2407.0,0.0,0.2593727596104145,0.2593727596104145,2.0,2.299533972516656,true,0.009698192091789492
@@ -416,29 +416,29 @@ United States,24,GK,Matt Freese,1998-09-02,15,0,New York City FC,90001075,2766.0
 United States,25,GK,Chris Brady,2004-03-03,1,0,Chicago Fire FC,90000690,2465.0,0.0,,,0.0,,true,
 United States,26,FW,Alejandro Zendejas,1998-02-07,14,2,América,90000002,1733.0,8.0,,,6.0,,true,
 Curaçao,1,GK,Eloy Room,1989-02-06,71,0,Miami FC,,,,,,,,false,
-Curaçao,2,DF,Shurandy Sambo,2001-08-19,8,0,Sparta Rotterdam,,,,,,,,false,
+Curaçao,2,DF,Shurandy Sambo,2001-08-19,8,0,Sparta Rotterdam,90002515,1622.0,0.0,,,1.0,,true,
 Curaçao,3,DF,Juriën Gaari,1993-12-23,60,1,Abha,,,,,,,,false,
 Curaçao,4,DF,Roshon van Eijma,1998-06-09,28,1,RKC Waalwijk,,,,,,,,false,
-Curaçao,5,DF,Sherel Floranus,1998-08-23,28,0,PEC Zwolle,,,,,,,,false,
+Curaçao,5,DF,Sherel Floranus,1998-08-23,28,0,PEC Zwolle,90002649,2794.0,1.0,,,3.0,,true,
 Curaçao,6,MF,Godfried Roemeratoe,1999-08-19,28,1,RKC Waalwijk,,,,,,,,false,
-Curaçao,7,MF,Juninho Bacuna,1997-08-07,49,15,Volendam,90000553,1360.0,8.0,,,3.0,,true,
+Curaçao,7,MF,Juninho Bacuna,1997-08-07,49,15,Volendam,90002610,928.0,0.0,,,2.0,,true,
 Curaçao,8,MF,Livano Comenencia,2004-02-03,20,2,Zürich,,,,,,,,false,
 Curaçao,9,FW,Jürgen Locadia,1993-11-07,13,1,Miami FC,,,,,,,,false,
 Curaçao,10,MF,Leandro Bacuna,1991-08-21,72,16,Iğdır,,,,,,,,false,
 Curaçao,11,FW,Jeremy Antonisse,2002-03-29,27,4,Kifisia,,,,,,,,false,
-Curaçao,12,FW,Sontje Hansen,2002-05-18,6,1,Middlesbrough,,,,,,,,false,
-Curaçao,13,FW,Tyrese Noslin,2002-09-11,7,1,Telstar,,,,,,,,false,
+Curaçao,12,FW,Sontje Hansen,2002-05-18,6,1,Middlesbrough,90003504,497.0,1.0,,,0.0,,true,
+Curaçao,13,FW,Tyrese Noslin,2002-09-11,7,1,Telstar,90002542,2293.0,2.0,,,3.0,,true,
 Curaçao,14,FW,Kenji Gorré,1994-09-29,38,6,Maccabi Haifa,90001597,39.0,0.0,,,0.0,,true,
 Curaçao,15,MF,Ar'jany Martha,2003-09-04,9,2,Rotherham United,,,,,,,,false,
 Curaçao,16,FW,Jearl Margaritha,2000-04-10,22,5,Beveren,,,,,,,,false,
-Curaçao,17,FW,Brandley Kuwas,1992-09-19,35,2,Volendam,,,,,,,,false,
-Curaçao,18,DF,Armando Obispo,1999-03-05,6,0,PSV Eindhoven,,,,,,,,false,
+Curaçao,17,FW,Brandley Kuwas,1992-09-19,35,2,Volendam,90002604,2019.0,5.0,,,4.0,,true,
+Curaçao,18,DF,Armando Obispo,1999-03-05,6,0,PSV Eindhoven,90002466,809.0,2.0,,,0.0,,true,
 Curaçao,19,FW,Gervane Kastaneer,1996-06-09,29,9,Terengganu,,,,,,,,false,
-Curaçao,20,DF,Joshua Brenet,1994-03-20,18,2,Kayserispor,90001640,28.0,0.0,,,0.0,,true,
-Curaçao,21,MF,Tahith Chong,1999-12-04,6,3,Sheffield United,7439,,,,,,,false,
+Curaçao,20,DF,Joshua Brenet,1994-03-20,18,2,Kayserispor,90004318,798.0,0.0,,,2.0,,true,
+Curaçao,21,MF,Tahith Chong,1999-12-04,6,3,Sheffield United,90003721,678.0,0.0,,,1.0,,true,
 Curaçao,22,MF,Kevin Felida,1999-11-11,19,1,Den Bosch,4202,,,,,,,false,
-Curaçao,23,DF,Riechedly Bazoer,1996-10-12,5,0,Konyaspor,,,,,,,,false,
-Curaçao,24,DF,Deveron Fonville,2003-05-16,2,0,NEC,,,,,,,,false,
+Curaçao,23,DF,Riechedly Bazoer,1996-10-12,5,0,Konyaspor,90004401,924.0,0.0,,,0.0,,true,
+Curaçao,24,DF,Deveron Fonville,2003-05-16,2,0,NEC,90002440,1470.0,0.0,,,2.0,,true,
 Curaçao,25,GK,Tyrick Bodak,2002-05-15,4,0,Telstar,,,,,,,,false,
 Curaçao,26,GK,Trevor Doornbusch,1999-07-06,8,0,VVV-Venlo,,,,,,,,false,
 Ecuador,1,GK,Hernán Galíndez,1987-03-30,35,0,Huracán,,,,,,,,false,
@@ -454,10 +454,10 @@ Ecuador,10,MF,Kendry Páez,2007-05-04,26,2,River Plate,13818,411.0,1.0,1.0802584
 Ecuador,11,FW,Kevin Rodríguez,2000-03-04,31,2,Union Saint-Gilloise,4202,,,,,,,false,
 Ecuador,12,GK,Moisés Ramírez,2000-09-09,7,0,Kifisia,90001723,385.0,0.0,,,1.0,,true,
 Ecuador,13,FW,Enner Valencia,1989-11-04,105,49,Pachuca,90000331,1614.0,6.0,,,0.0,,true,
-Ecuador,14,MF,Alan Minda,2003-05-14,20,2,Atlético Mineiro,,,,,,,,false,
+Ecuador,14,MF,Alan Minda,2003-05-14,20,2,Atlético Mineiro,90002966,2690.0,5.0,,,5.0,,true,
 Ecuador,15,MF,Pedro Vite,2002-03-09,17,1,Pumas UNAM,90000560,3708.0,6.0,,,2.0,,true,
 Ecuador,16,FW,Jordy Caicedo,1997-11-18,20,4,Huracán,,,,,,,,false,
-Ecuador,17,DF,Ángelo Preciado,1998-02-18,55,0,Atlético Mineiro,11818,,,,,,,false,
+Ecuador,17,DF,Ángelo Preciado,1998-02-18,55,0,Atlético Mineiro,90004838,1993.0,4.0,,,6.0,,true,
 Ecuador,18,MF,Denil Castillo,2004-03-24,5,0,Midtjylland,,,,,,,,false,
 Ecuador,19,FW,Gonzalo Plata,2000-11-01,50,8,Flamengo,90001633,1350.0,4.0,,,1.0,,true,
 Ecuador,20,FW,Nilson Angulo,2003-06-19,14,2,Sunderland,14424,415.0,0.0,0.9055802077054977,0.9055802077054977,0.0,0.05286954902112484,true,0.19639088841805977
@@ -485,7 +485,7 @@ Germany,15,DF,Nico Schlotterbeck,1999-12-01,27,0,Borussia Dortmund,7485,2520.0,5
 Germany,16,MF,Angelo Stiller,2001-04-04,8,0,VfB Stuttgart,9725,2752.0,2.0,3.622028611600399,2.8642519041895866,5.0,6.064722905866802,true,0.09367102884340944
 Germany,17,MF,Florian Wirtz,2003-05-03,41,11,Liverpool,8397,2426.0,5.0,7.576831823214889,7.576831823214889,3.0,5.384264823049307,true,0.28108609401868917
 Germany,18,DF,Nathaniel Brown,2003-06-16,5,0,Eintracht Frankfurt,13122,2668.0,4.0,2.06600034981966,2.06600034981966,4.0,3.1800129488110542,true,0.0696926654736767
-Germany,19,MF,Leroy Sané,1996-01-11,76,17,Galatasaray,337,,,,,,,false,
+Germany,19,MF,Leroy Sané,1996-01-11,76,17,Galatasaray,90004175,2280.0,7.0,,,5.0,,true,
 Germany,20,MF,Nadiem Amiri,1996-10-27,11,1,Mainz 05,82,2112.0,12.0,10.704714082181454,4.642500706017017,2.0,6.560079865157604,true,0.19783383690413428
 Germany,21,GK,Alexander Nübel,1996-09-30,3,0,VfB Stuttgart,2639,3060.0,0.0,0.0,0.0,1.0,0.36824002489447594,true,0.0
 Germany,22,DF,David Raum,1998-04-22,37,1,RB Leipzig,9724,2570.0,3.0,2.401866391301155,1.644089713692665,7.0,11.038921784609556,true,0.057575126160443524
@@ -493,36 +493,36 @@ Germany,23,MF,Felix Nmecha,2000-10-10,8,1,Borussia Dortmund,9202,2208.0,2.0,3.36
 Germany,24,DF,Malick Thiaw,2001-08-08,5,0,Newcastle United,8378,2968.0,4.0,5.898031393066049,5.898031393066049,0.0,0.8268706873059273,true,0.17884866084095163
 Germany,25,MF,Assan Ouédraogo,2006-05-09,1,1,RB Leipzig,13191,970.0,4.0,2.8071718588471413,2.8071718588471413,3.0,3.0103504192084074,true,0.26045924463530173
 Germany,26,FW,Deniz Undav,1996-07-19,9,6,VfB Stuttgart,10804,2261.0,19.0,19.05754723213613,18.299770614132285,6.0,5.584789767861366,true,0.728429613123355
-Ivory Coast,1,GK,Yahia Fofana,2000-08-21,35,0,Çaykur Rizespor,10829,,,,,,,false,
-Ivory Coast,2,DF,Ousmane Diomande,2003-12-04,15,1,Sporting CP,,,,,,,,false,
-Ivory Coast,3,DF,Ghislain Konan,1995-12-27,54,0,Gil Vicente,,,,,,,,false,
+Ivory Coast,1,GK,Yahia Fofana,2000-08-21,35,0,Çaykur Rizespor,90004430,2430.0,0.0,,,1.0,,true,
+Ivory Coast,2,DF,Ousmane Diomande,2003-12-04,15,1,Sporting CP,90003138,1296.0,0.0,,,1.0,,true,
+Ivory Coast,3,DF,Ghislain Konan,1995-12-27,54,0,Gil Vicente,90002945,2658.0,0.0,,,0.0,,true,
 Ivory Coast,4,MF,Jean Michaël Seri,1991-07-19,65,4,Maribor,90001650,621.0,1.0,,,3.0,,true,
-Ivory Coast,5,DF,Wilfried Singo,2000-12-25,34,1,Galatasaray,7472,,,,,,,false,
-Ivory Coast,6,MF,Seko Fofana,1995-05-07,33,7,Porto,1144,659.0,1.0,0.7612503450363874,0.7612503450363874,0.0,0.6452769339084625,true,0.10396438703076612
+Ivory Coast,5,DF,Wilfried Singo,2000-12-25,34,1,Galatasaray,90004186,951.0,2.0,,,1.0,,true,
+Ivory Coast,6,MF,Seko Fofana,1995-05-07,33,7,Porto,90003042,285.0,3.0,,,0.0,,true,
 Ivory Coast,7,DF,Odilon Kossounou,2001-01-04,35,0,Atalanta,9714,981.0,1.0,0.26420524157583714,0.26420524157583714,0.0,0.25718850269913673,true,0.02423901298860891
-Ivory Coast,8,MF,Franck Kessié,1996-12-19,103,15,Al-Ahli,,,,,,,,false,
+Ivory Coast,8,MF,Franck Kessié,1996-12-19,102,15,Al-Ahli,90004550,2165.0,5.0,,,3.0,,true,
 Ivory Coast,9,FW,Ange-Yoan Bonny,2003-10-25,1,0,Inter Milan,12784,1112.0,5.0,4.581577172502875,4.581577172502875,4.0,2.670865649357438,true,0.37081110209106005
 Ivory Coast,10,FW,Simon Adingra,2002-01-01,29,5,Monaco,11710,1536.0,4.0,3.2379786483943462,3.2379786483943462,2.0,2.1916220914572477,true,0.18972531142935622
 Ivory Coast,11,FW,Yan Diomande,2006-11-14,10,3,RB Leipzig,13561,2507.0,12.0,8.03020796738565,8.03020796738565,8.0,10.04887573234737,true,0.28828030198033844
 Ivory Coast,12,FW,Elye Wahi,2003-01-02,2,0,Nice,9182,1246.0,5.0,5.267394056543708,4.507298907265067,2.0,1.3946319539099932,true,0.32556733680084754
-Ivory Coast,13,DF,Christopher Opéri,1997-04-29,12,0,İstanbul Başakşehir,5801,,,,,,,false,
-Ivory Coast,14,FW,Oumar Diakité,2003-12-20,29,6,Cercle Brugge,11753,,,,,,,false,
+Ivory Coast,13,DF,Christopher Opéri,1997-04-29,12,0,İstanbul Başakşehir,90003996,1821.0,0.0,,,4.0,,true,
+Ivory Coast,14,FW,Oumar Diakité,2003-12-20,30,6,Cercle Brugge,11753,,,,,,,false,
 Ivory Coast,15,FW,Amad Diallo,2002-07-11,19,6,Manchester United,8127,2341.0,2.0,5.7300354186445475,5.7300354186445475,3.0,5.647227294743061,true,0.22029183582999112
 Ivory Coast,16,GK,Mohamed Koné,2002-03-07,0,0,Charleroi,,,,,,,,false,
 Ivory Coast,17,DF,Guéla Doué,2002-10-17,20,3,Strasbourg,10868,2065.0,2.0,1.8365227379836142,1.8365227379836142,6.0,2.7406088560819626,true,0.08004215322931006
-Ivory Coast,18,MF,Ibrahim Sangaré,1997-12-02,58,12,Nottingham Forest,5722,2111.0,2.0,1.5703946938738227,1.5703946938738227,2.0,1.4491914678364992,true,0.0669519291561554
-Ivory Coast,19,FW,Nicolas Pépé,1995-05-29,55,12,Villarreal,5656,2497.0,9.0,9.80356877669692,8.317013502120972,8.0,8.080096108838916,true,0.29977221273163296
-Ivory Coast,20,DF,Emmanuel Agbadou,1997-06-17,20,2,Beşiktaş,10856,1093.0,0.0,0.44676383305341005,0.44676383305341005,0.0,0.1717668529599905,true,0.03678750683879863
+Ivory Coast,18,MF,Ibrahim Sangaré,1997-12-02,57,12,Nottingham Forest,5722,2111.0,2.0,1.5703946938738227,1.5703946938738227,2.0,1.4491914678364992,true,0.0669519291561554
+Ivory Coast,19,FW,Nicolas Pépé,1995-05-29,56,12,Villarreal,5656,2497.0,9.0,9.80356877669692,8.317013502120972,8.0,8.080096108838916,true,0.29977221273163296
+Ivory Coast,20,DF,Emmanuel Agbadou,1997-06-17,20,2,Beşiktaş,90004023,1091.0,1.0,,,1.0,,true,
 Ivory Coast,21,DF,Evan Ndicka,1999-08-20,28,0,Roma,7049,2686.0,3.0,2.3948372658342123,2.3948372658342123,0.0,0.5625489521771669,true,0.08024398880308231
 Ivory Coast,22,FW,Evann Guessand,2001-07-01,21,4,Crystal Palace,8006,920.0,1.0,1.8542680740356445,1.8542680740356445,2.0,1.2377337515354156,true,0.18139578985131308
 Ivory Coast,23,GK,Alban Lafont,1999-01-23,4,0,Panathinaikos,3201,,,,,,,false,
 Ivory Coast,24,FW,Bazoumana Touré,2006-03-02,6,2,TSG Hoffenheim,13427,2379.0,5.0,5.141797917895019,5.141797917895019,9.0,7.229519298300147,true,0.19451946725958458
 Ivory Coast,25,MF,Parfait Guiagon,2001-02-22,5,0,Charleroi,,,,,,,,false,
-Ivory Coast,26,MF,Christ Inao Oulaï,2006-04-06,9,0,Trabzonspor,,,,,,,,false,
+Ivory Coast,26,MF,Christ Inao Oulaï,2006-04-06,9,0,Trabzonspor,90004466,2067.0,2.0,,,4.0,,true,
 Japan,1,GK,Zion Suzuki,2002-08-21,24,0,Parma,12781,1800.0,0.0,0.0,0.0,0.0,0.025701042264699936,true,0.0
 Japan,2,DF,Yukinari Sugawara,2000-06-28,21,2,Werder Bremen,12761,2444.0,0.0,1.6741932658478618,1.6741932658478618,6.0,2.4432157278060913,true,0.06165196150830915
 Japan,3,DF,Shōgo Taniguchi,1991-07-15,38,1,Sint-Truiden,,,,,,,,false,
-Japan,4,DF,Kō Itakura,1997-01-27,40,2,Ajax,10727,,,,,,,false,
+Japan,4,DF,Kō Itakura,1997-01-27,40,2,Ajax,90002175,1341.0,1.0,,,0.0,,true,
 Japan,5,DF,Yūto Nagatomo,1986-09-12,145,4,FC Tokyo,,,,,,,,false,
 Japan,6,FW,Shūto Machino,1999-09-30,14,5,Borussia Mönchengladbach,12934,1046.0,3.0,3.816984537988901,3.816984537988901,1.0,1.0832749512046576,true,0.32842123175812726
 Japan,7,MF,Ao Tanaka,1998-09-10,38,8,Leeds United,13834,1330.0,2.0,2.1981850005686283,2.1981850005686283,0.0,1.3577267043292522,true,0.14874936094073424
@@ -534,17 +534,17 @@ Japan,12,GK,Keisuke Ōsako,1999-07-28,11,0,Sanfrecce Hiroshima,,,,,,,,false,
 Japan,13,MF,Keito Nakamura,2000-07-28,25,10,Reims,11755,,,,,,,false,
 Japan,14,MF,Junya Itō,1993-03-09,69,15,Genk,10920,,,,,,,false,
 Japan,15,MF,Daichi Kamada,1996-08-05,49,12,Crystal Palace,6145,1924.0,0.0,1.4871895518153906,1.4871895518153906,0.0,2.585762256756425,true,0.06956707882712326
-Japan,16,DF,Tsuyoshi Watanabe,1997-02-05,11,0,Feyenoord,,,,,,,,false,
+Japan,16,DF,Tsuyoshi Watanabe,1997-02-05,11,0,Feyenoord,90002260,2634.0,2.0,,,0.0,,true,
 Japan,17,MF,Yuito Suzuki,2001-10-25,6,0,SC Freiburg,11354,1645.0,4.0,4.17771103978157,4.17771103978157,2.0,2.0996621567755938,true,0.22856777725248711
-Japan,18,FW,Ayase Ueda,1998-08-28,39,16,Feyenoord,,,,,,,,false,
-Japan,19,FW,Kōki Ogawa,1997-08-08,15,11,NEC,,,,,,,,false,
+Japan,18,FW,Ayase Ueda,1998-08-28,39,16,Feyenoord,90002227,2518.0,25.0,,,1.0,,true,
+Japan,19,FW,Kōki Ogawa,1997-08-08,15,11,NEC,90002450,1269.0,8.0,,,3.0,,true,
 Japan,20,DF,Ayumu Seko,2000-06-07,14,0,Le Havre,13742,2629.0,0.0,0.9660781314596534,0.9660781314596534,0.0,0.46013323310762644,true,0.033072282933194676
 Japan,21,DF,Hiroki Itō,1999-05-12,24,1,Bayern Munich,9715,918.0,1.0,1.4966442808508873,1.4966442808508873,2.0,1.0980801191180944,true,0.14672983145596935
-Japan,22,DF,Takehiro Tomiyasu,1998-11-05,43,1,Ajax,7931,,,,,,,false,
+Japan,22,DF,Takehiro Tomiyasu,1998-11-05,43,1,Ajax,90002189,207.0,0.0,,,0.0,,true,
 Japan,23,GK,Tomoki Hayakawa,1999-03-03,4,0,Kashima Antlers,,,,,,,,false,
 Japan,24,MF,Kaishū Sano,2000-12-30,13,0,Mainz 05,12918,3060.0,1.0,1.6013844851404428,1.6013844851404428,2.0,3.6190584171563387,true,0.047099543680601264
 Japan,25,DF,Junnosuke Suzuki,2003-07-12,6,0,Copenhagen,,,,,,,,false,
-Japan,26,FW,Kento Shiogai,2005-03-26,2,0,VfL Wolfsburg,14371,292.0,1.0,1.8814079575240612,1.8814079575240612,0.0,0.5708257630467415,true,0.5798860143053614
+Japan,26,FW,Kento Shiogai,2005-03-26,2,0,VfL Wolfsburg,90002447,371.0,7.0,,,0.0,,true,
 Netherlands,1,GK,Bart Verbruggen,2002-08-18,29,0,Brighton & Hove Albion,11711,3420.0,0.0,0.0,0.0,0.0,0.07646425813436508,true,0.0
 Netherlands,2,DF,Lutsharel Geertruida,2000-07-18,21,0,Sunderland,13064,1659.0,0.0,0.8372280839830637,0.8372280839830637,0.0,0.773734993301332,true,0.045419245062372354
 Netherlands,3,MF,Marten de Roon,1991-03-29,43,1,Atalanta,1710,2720.0,1.0,0.824793690815568,0.824793690815568,2.0,1.586717877537012,true,0.027290967710809234
@@ -553,15 +553,15 @@ Netherlands,5,DF,Nathan Aké,1995-02-18,59,5,Manchester City,579,681.0,0.0,1.096
 Netherlands,6,DF,Jan Paul van Hecke,2000-06-08,12,0,Brighton & Hove Albion,10807,3214.0,3.0,3.358578664250672,3.358578664250672,3.0,1.0255657620728016,true,0.09404856247123848
 Netherlands,7,MF,Justin Kluivert,1999-05-05,12,0,Bournemouth,6963,934.0,2.0,2.293420127592981,2.293420127592981,0.0,2.294822184368968,true,0.22099337417919515
 Netherlands,8,MF,Ryan Gravenberch,2002-05-16,27,1,Liverpool,10697,3008.0,5.0,1.5315213510766625,1.5315213510766625,3.0,2.368868850171566,true,0.04582344467982035
-Netherlands,9,FW,Wout Weghorst,1992-08-07,52,14,Ajax,7052,,,,,,,false,
+Netherlands,9,FW,Wout Weghorst,1992-08-07,52,14,Ajax,90002191,1784.0,8.0,,,4.0,,true,
 Netherlands,10,FW,Memphis Depay,1994-02-13,109,55,Corinthians,555,,,,,,,false,
 Netherlands,11,FW,Cody Gakpo,1999-05-07,50,21,Liverpool,11296,2758.0,7.0,9.826099138706923,9.826099138706923,5.0,6.592332137748599,true,0.3206486303421403
 Netherlands,12,DF,Mats Wieffer,1999-11-16,15,1,Brighton & Hove Albion,12758,1922.0,2.0,1.9274322018027306,1.9274322018027306,3.0,2.8690227568149567,true,0.09025436949128292
 Netherlands,13,GK,Robin Roefs,2003-01-17,1,0,Sunderland,13712,3150.0,0.0,0.0,0.0,0.0,0.7053439579904079,true,0.0
 Netherlands,14,MF,Tijjani Reijnders,1998-07-29,32,7,Manchester City,11965,1642.0,5.0,4.861917998641729,4.861917998641729,2.0,3.0732941813766956,true,0.2664875882324943
 Netherlands,15,DF,Micky van de Ven,2001-04-19,21,1,Tottenham Hotspur,10050,3049.0,4.0,2.4525543581694365,2.4525543581694365,1.0,1.0142897926270962,true,0.07239419227131823
-Netherlands,16,MF,Guus Til,1997-12-22,7,1,PSV Eindhoven,,,,,,,,false,
-Netherlands,17,FW,Noa Lang,1999-06-17,15,3,Galatasaray,13881,645.0,1.0,1.3651904631406069,1.3651904631406069,2.0,1.9749588575214148,true,0.19049169253124745
+Netherlands,16,MF,Guus Til,1997-12-22,7,1,PSV Eindhoven,90002471,2239.0,14.0,,,4.0,,true,
+Netherlands,17,FW,Noa Lang,1999-06-17,15,3,Galatasaray,90004181,703.0,0.0,,,3.0,,true,
 Netherlands,18,FW,Donyell Malen,1999-01-19,53,13,Roma,9749,2099.0,18.0,19.943644605576992,16.89844933897257,3.0,1.9178165346384048,true,0.724564287997871
 Netherlands,19,FW,Brian Brobbey,2002-02-01,12,1,Sunderland,9789,1943.0,7.0,7.1118853986263275,7.1118853986263275,1.0,1.5084331054240465,true,0.3294234101267985
 Netherlands,20,MF,Teun Koopmeiners,1998-02-28,28,3,Juventus,9969,1803.0,0.0,1.7949654590338469,1.7949654590338469,0.0,0.7337323613464832,true,0.08959894138272113
@@ -570,9 +570,9 @@ Netherlands,22,DF,Denzel Dumfries,1996-04-18,72,11,Inter Milan,9840,1332.0,3.0,3
 Netherlands,23,GK,Mark Flekken,1993-06-13,12,0,Bayer Leverkusen,7047,2132.0,0.0,0.0,0.0,0.0,0.07206714153289795,true,0.0
 Netherlands,24,FW,Crysencio Summerville,2001-10-30,2,0,West Ham United,9492,2509.0,5.0,5.6990333795547485,5.6990333795547485,2.0,3.23570919316262,true,0.20442925634114284
 Netherlands,25,DF,Jorrel Hato,2006-03-07,8,0,Chelsea,13776,1131.0,0.0,0.33830922096967697,0.33830922096967697,0.0,0.7095918618142605,true,0.0269211581673483
-Netherlands,26,MF,Quinten Timber,2001-06-17,11,1,Marseille,14376,1135.0,0.0,1.134893774986267,1.134893774986267,0.0,0.46001389622688293,true,0.08999157687115775
-Sweden,1,GK,Jacob Widell Zetterström,1998-07-11,3,0,Derby County,,,,,,,,false,
-Sweden,2,DF,Gustaf Lagerbielke,2000-04-10,11,2,Braga,,,,,,,,false,
+Netherlands,26,MF,Quinten Timber,2001-06-17,11,1,Marseille,90002252,1317.0,2.0,,,4.0,,true,
+Sweden,1,GK,Jacob Widell Zetterström,1998-07-11,3,0,Derby County,90003370,2880.0,0.0,,,0.0,,true,
+Sweden,2,DF,Gustaf Lagerbielke,2000-04-10,11,2,Braga,90002798,2391.0,2.0,,,0.0,,true,
 Sweden,3,DF,Victor Lindelöf,1994-07-17,76,3,Aston Villa,6080,938.0,0.0,0.15612759068608284,0.15612759068608284,1.0,0.5980998799204826,true,0.01498025923427234
 Sweden,4,DF,Isak Hien,1999-01-13,29,0,Atalanta,11053,1951.0,1.0,1.0833443198353052,1.0833443198353052,0.0,0.10725091770291328,true,0.04997487892628266
 Sweden,5,DF,Gabriel Gudmundsson,1999-04-29,24,0,Leeds United,9944,2657.0,0.0,0.8777289493009448,0.8777289493009448,0.0,3.1013932153582573,true,0.029731127375643596
@@ -582,7 +582,7 @@ Sweden,8,DF,Daniel Svensson,2002-02-12,13,0,Borussia Dortmund,13424,2454.0,2.0,2
 Sweden,9,FW,Alexander Isak,1999-09-21,58,17,Liverpool,5232,717.0,3.0,3.2453083600848913,3.2453083600848913,1.0,0.8461103290319443,true,0.407360882019024
 Sweden,10,MF,Benjamin Nygren,2001-07-08,11,3,Celtic,,,,,,,,false,
 Sweden,11,FW,Anthony Elanga,2002-04-27,30,6,Newcastle United,9524,1289.0,0.0,1.4534468036144972,1.4534468036144972,1.0,1.7495205141603947,true,0.1014819335339835
-Sweden,12,GK,Viktor Johansson,1998-09-14,12,0,Stoke City,,,,,,,,false,
+Sweden,12,GK,Viktor Johansson,1998-09-14,12,0,Stoke City,90003818,2250.0,0.0,,,1.0,,true,
 Sweden,13,MF,Ken Sema,1993-09-30,33,5,Pafos,,,,,,,,false,
 Sweden,14,DF,Hjalmar Ekdal,1998-10-21,13,0,Burnley,11704,1545.0,0.0,0.6082124067470431,0.6082124067470431,0.0,0.16814450826495886,true,0.03542984893672096
 Sweden,15,DF,Carl Starfelt,1995-06-01,18,0,Celta Vigo,7655,1492.0,0.0,0.3869095593690872,0.3869095593690872,0.0,0.07768241316080093,true,0.023339048487411425
@@ -601,14 +601,14 @@ Tunisia,1,GK,Mouhib Chamakh,2001-08-25,3,0,Club Africain,,,,,,,,false,
 Tunisia,2,DF,Ali Abdi,1993-12-20,46,7,Nice,13070,1156.0,3.0,2.4035323709249496,2.4035323709249496,0.0,2.0493611991405487,true,0.1871262226498663
 Tunisia,3,DF,Montassar Talbi,1998-05-26,64,4,Lorient,9873,2610.0,0.0,0.8630059463903308,0.8630059463903308,1.0,0.8650193754583597,true,0.029758825737597614
 Tunisia,4,DF,Omar Rekik,2001-12-20,6,0,Maribor,,,,,,,,false,
-Tunisia,5,DF,Adem Arous,2004-07-17,2,0,Kasımpaşa,,,,,,,,false,
+Tunisia,5,DF,Adem Arous,2004-07-17,2,0,Kasımpaşa,90004274,1670.0,1.0,,,0.0,,true,
 Tunisia,6,DF,Dylan Bronn,1995-06-19,52,2,Servette,8244,,,,,,,false,
 Tunisia,7,FW,Elias Achouri,1999-02-10,30,4,Copenhagen,,,,,,,,false,
 Tunisia,8,FW,Elias Saad,1999-12-27,15,4,Hannover 96,12980,518.0,0.0,0.37165308371186256,0.37165308371186256,0.0,0.6210179030895233,true,0.06457292960244716
 Tunisia,9,FW,Hazem Mastouri,1997-06-18,19,4,Dynamo Makhachkala,,,,,,,,false,
 Tunisia,10,MF,Hannibal Mejbri,2003-01-21,45,1,Burnley,9558,1251.0,1.0,0.7498194272629917,0.7498194272629917,4.0,2.8381893672049046,true,0.05394384368798501
-Tunisia,11,MF,Ismaël Gharbi,2004-04-10,17,2,FC Augsburg,9766,71.0,0.0,0.22596237063407898,0.22596237063407898,0.0,0.03212403133511543,true,0.28643117404319873
-Tunisia,12,DF,Mortadha Ben Ouanes,1994-07-02,18,0,Kasımpaşa,,,,,,,,false,
+Tunisia,11,MF,Ismaël Gharbi,2004-04-10,17,2,FC Augsburg,90002799,68.0,0.0,,,0.0,,true,
+Tunisia,12,DF,Mortadha Ben Ouanes,1994-07-02,18,0,Kasımpaşa,90004296,2272.0,2.0,,,6.0,,true,
 Tunisia,13,MF,Rani Khedira,1994-01-27,3,0,Union Berlin,5251,2854.0,5.0,2.2710952758789062,2.2710952758789062,1.0,2.3157351221889257,true,0.07161828129961512
 Tunisia,14,MF,Khalil Ayari,2005-02-02,4,0,Paris Saint-Germain,,,,,,,,false,
 Tunisia,15,MF,Hadj Mahmoud,2000-04-24,9,0,Lugano,,,,,,,,false,
@@ -616,15 +616,15 @@ Tunisia,16,GK,Aymen Dahmen,1997-01-28,37,0,CS Sfaxien,,,,,,,,false,
 Tunisia,17,MF,Ellyes Skhiri,1995-05-10,83,4,Eintracht Frankfurt,3347,1439.0,0.0,0.7644057050347328,0.7644057050347328,0.0,0.30664572678506374,true,0.047808556951442635
 Tunisia,18,FW,Rayan Elloumi,2007-09-17,4,0,Vancouver Whitecaps FC,90001401,203.0,2.0,,,0.0,,true,
 Tunisia,19,FW,Firas Chaouat,1996-05-08,30,6,Club Africain,,,,,,,,false,
-Tunisia,20,DF,Yan Valery,1999-02-22,22,0,Young Boys,,,,,,,,false,
+Tunisia,20,DF,Yan Valery,1999-02-22,22,0,Young Boys,90003760,2049.0,0.0,,,1.0,,true,
 Tunisia,21,DF,Mohamed Amine Ben Hamida,1995-12-15,13,0,Espérance de Tunis,,,,,,,,false,
 Tunisia,22,GK,Sabri Ben Hessen,1996-06-13,2,0,Étoile du Sahel,,,,,,,,false,
 Tunisia,23,DF,Moutaz Neffati,2004-09-04,5,0,IFK Norrköping,,,,,,,,false,
 Tunisia,24,DF,Raed Chikhaoui,2004-06-09,0,0,US Monastir,,,,,,,,false,
-Tunisia,25,MF,Anis Ben Slimane,2001-03-16,41,4,Norwich City,11730,,,,,,,false,
+Tunisia,25,MF,Anis Ben Slimane,2001-03-16,41,4,Norwich City,90003539,1225.0,5.0,,,2.0,,true,
 Tunisia,26,MF,Sebastian Tounekti,2002-07-13,12,1,Celtic,,,,,,,,false,
 Belgium,1,GK,Thibaut Courtois,1992-05-11,109,0,Real Madrid,680,2880.0,0.0,0.0,0.0,0.0,0.0,true,0.0
-Belgium,2,DF,Zeno Debast,2003-10-24,26,1,Sporting CP,,,,,,,,false,
+Belgium,2,DF,Zeno Debast,2003-10-24,26,1,Sporting CP,90003145,1182.0,0.0,,,2.0,,true,
 Belgium,3,DF,Arthur Theate,2000-05-25,33,1,Eintracht Frankfurt,9999,2147.0,1.0,1.423735129646957,1.423735129646957,0.0,0.5266659539192915,true,0.05968149122879652
 Belgium,4,DF,Brandon Mechele,1993-01-28,9,1,Club Brugge,,,,,,,,false,
 Belgium,5,DF,Maxim De Cuyper,2000-12-22,19,4,Brighton & Hove Albion,13711,1412.0,2.0,1.7418285254389048,1.7418285254389048,3.0,4.685627582482994,true,0.11102306465262142
@@ -636,7 +636,7 @@ Belgium,10,FW,Leandro Trossard,1994-12-04,51,12,Arsenal,7698,2026.0,6.0,6.753171
 Belgium,11,FW,Jérémy Doku,2002-05-27,43,7,Manchester City,8981,1783.0,5.0,3.9999447921290994,3.9999447921290994,5.0,7.553412737324834,true,0.2019041117732019
 Belgium,12,GK,Senne Lammens,2002-07-07,2,0,Manchester United,14056,2880.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 Belgium,13,GK,Mike Penders,2005-07-31,0,0,Strasbourg,13816,2970.0,0.0,0.0,0.0,0.0,0.0,true,0.0
-Belgium,14,FW,Dodi Lukébakio,1997-09-24,30,6,Benfica,5706,180.0,1.0,0.05466248095035553,0.05466248095035553,0.0,0.8578585088253021,true,0.027331240475177765
+Belgium,14,FW,Dodi Lukébakio,1997-09-24,30,6,Benfica,90002761,746.0,0.0,,,3.0,,true,
 Belgium,15,DF,Thomas Meunier,1991-09-12,80,10,Lille,5680,1911.0,2.0,1.4096983447670937,1.4096983447670937,2.0,2.757778810337186,true,0.06639081686501226
 Belgium,16,DF,Koni De Winter,2002-06-12,8,0,Milan,9964,1797.0,1.0,0.7965529607608914,0.7965529607608914,1.0,0.6498572872951627,true,0.039894138268492065
 Belgium,17,FW,Charles De Ketelaere,2001-03-10,30,6,Atalanta,10877,2206.0,3.0,4.545966546982527,4.545966546982527,5.0,10.652646817266941,true,0.18546554362122727
@@ -701,19 +701,19 @@ Iran,23,DF,Ramin Rezaeian,1990-03-21,74,8,Foolad,,,,,,,,false,
 Iran,24,FW,Dennis Eckert,1997-01-09,0,0,Standard Liège,,,,,,,,false,
 Iran,25,DF,Danial Eiri,2003-10-26,0,0,Malavan,,,,,,,,false,
 Iran,26,MF,Amirmohammad Razzaghinia,2006-04-11,4,0,Esteghlal,,,,,,,,false,
-New Zealand,1,GK,Max Crocombe,1993-08-12,24,0,Millwall,,,,,,,,false,
+New Zealand,1,GK,Max Crocombe,1993-08-12,24,0,Millwall,90003527,2070.0,0.0,,,0.0,,true,
 New Zealand,2,DF,Tim Payne,1994-01-10,51,3,Wellington Phoenix,,,,,,,,false,
 New Zealand,3,DF,Francis de Vries,1994-11-28,20,1,Auckland FC,,,,,,,,false,
-New Zealand,4,DF,Tyler Bindon,2005-01-27,25,3,Sheffield United,,,,,,,,false,
+New Zealand,4,DF,Tyler Bindon,2005-01-27,25,3,Sheffield United,90003724,2029.0,1.0,,,0.0,,true,
 New Zealand,5,DF,Michael Boxall,1988-08-18,63,1,Minnesota United FC,90001000,2651.0,1.0,,,1.0,,true,
 New Zealand,6,MF,Joe Bell,1999-04-27,32,1,Viking,,,,,,,,false,
 New Zealand,7,MF,Matthew Garbett,2002-04-13,37,5,Peterborough United,,,,,,,,false,
-New Zealand,8,MF,Marko Stamenić,2002-02-19,39,3,Swansea City,,,,,,,,false,
+New Zealand,8,MF,Marko Stamenić,2002-02-19,39,3,Swansea City,90003839,2492.0,3.0,,,2.0,,true,
 New Zealand,9,FW,Chris Wood,1991-12-07,90,45,Nottingham Forest,4456,913.0,3.0,3.365151971578598,3.365151971578598,0.0,0.321694266051054,true,0.33172363356196477
 New Zealand,10,MF,Sarpreet Singh,1999-02-20,28,3,Wellington Phoenix,,,,,,,,false,
 New Zealand,11,MF,Elijah Just,2000-05-01,44,9,Motherwell,,,,,,,,false,
 New Zealand,12,GK,Alex Paulsen,2002-07-04,8,0,Lechia Gdańsk,,,,,,,,false,
-New Zealand,13,DF,Liberato Cacace,2000-09-27,37,1,Wrexham,10385,,,,,,,false,
+New Zealand,13,DF,Liberato Cacace,2000-09-27,37,1,Wrexham,90003928,721.0,0.0,,,0.0,,true,
 New Zealand,14,MF,Alex Rufer,1996-06-12,26,0,Wellington Phoenix,,,,,,,,false,
 New Zealand,15,DF,Nando Pijnaker,1999-02-25,25,0,Auckland FC,,,,,,,,false,
 New Zealand,16,DF,Finn Surman,2003-09-23,19,2,Portland Timbers,90001175,2720.0,0.0,,,0.0,,true,
@@ -723,7 +723,7 @@ New Zealand,19,MF,Ben Old,2002-08-13,24,2,Saint-Étienne,12809,,,,,,,false,
 New Zealand,20,MF,Callum McCowatt,1999-04-30,32,4,Silkeborg,,,,,,,,false,
 New Zealand,21,FW,Jesse Randall,2002-08-19,11,2,Auckland FC,,,,,,,,false,
 New Zealand,22,GK,Michael Woud,1999-01-16,6,0,Auckland FC,90001650,621.0,1.0,,,3.0,,true,
-New Zealand,23,MF,Ryan Thomas,1994-12-20,25,3,PEC Zwolle,,,,,,,,false,
+New Zealand,23,MF,Ryan Thomas,1994-12-20,25,3,PEC Zwolle,90002647,2148.0,1.0,,,1.0,,true,
 New Zealand,24,DF,Callan Elliot,1999-07-07,11,0,Auckland FC,,,,,,,,false,
 New Zealand,25,MF,Lachlan Bayliss,2002-07-24,4,0,Newcastle Jets,,,,,,,,false,
 New Zealand,26,DF,Tommy Smith,1990-03-31,56,2,Braintree Town,,,,,,,,false,
@@ -733,52 +733,52 @@ Cape Verde,3,DF,Diney,1995-01-17,32,2,Al Bataeh,,,,,,,,false,
 Cape Verde,4,DF,Roberto Lopes,1992-06-17,45,0,Shamrock Rovers,7195,,,,,,,false,
 Cape Verde,5,DF,Logan Costa,2001-04-01,28,0,Villarreal,8200,21.0,0.0,0.0,0.0,0.0,0.14274899661540985,true,0.0
 Cape Verde,6,MF,Kevin Pina,1997-01-27,31,3,Krasnodar,4202,,,,,,,false,
-Cape Verde,7,MF,Jovane Cabral,1998-06-14,29,3,Estrela Amadora,10378,,,,,,,false,
+Cape Verde,7,MF,Jovane Cabral,1998-06-14,29,3,Estrela Amadora,90002895,1672.0,7.0,,,1.0,,true,
 Cape Verde,8,MF,João Paulo,1998-05-26,41,1,FCSB,90001282,479.0,0.0,,,0.0,,true,
 Cape Verde,9,FW,Gilson Benchimol,2001-12-29,21,6,Akron Tolyatti,,,,,,,,false,
-Cape Verde,10,MF,Jamiro Monteiro,1993-11-23,55,5,PEC Zwolle,,,,,,,,false,
+Cape Verde,10,MF,Jamiro Monteiro,1993-11-23,55,5,PEC Zwolle,90002638,1269.0,2.0,,,3.0,,true,
 Cape Verde,11,MF,Garry Rodrigues,1990-11-27,61,10,Apollon Limassol,90001240,1481.0,1.0,,,1.0,,true,
 Cape Verde,12,GK,Márcio Rosa,1997-02-23,11,0,Montana,,,,,,,,false,
-Cape Verde,13,DF,Sidny Lopes Cabral,2002-09-18,11,3,Benfica,,,,,,,,false,
+Cape Verde,13,DF,Sidny Lopes Cabral,2002-09-18,11,3,Benfica,90002783,1680.0,6.0,,,5.0,,true,
 Cape Verde,14,MF,Deroy Duarte,1999-07-04,33,0,Ludogorets Razgrad,,,,,,,,false,
 Cape Verde,15,MF,Laros Duarte,1997-02-28,20,1,Puskás Akadémia,,,,,,,,false,
 Cape Verde,16,MF,Yannick Semedo,1995-12-29,11,1,Farense,,,,,,,,false,
 Cape Verde,17,MF,Willy Semedo,1994-04-27,38,3,Omonia,,,,,,,,false,
-Cape Verde,18,MF,Telmo Arcanjo,2001-06-21,16,1,Vitória de Guimarães,,,,,,,,false,
-Cape Verde,19,FW,Dailon Livramento,2001-05-04,22,7,Casa Pia,12856,,,,,,,false,
-Cape Verde,20,FW,Ryan Mendes,1990-01-08,98,22,Iğdır,,,,,,,,false,
-Cape Verde,21,MF,Nuno da Costa,1991-02-10,9,2,İstanbul Başakşehir,,,,,,,,false,
+Cape Verde,18,MF,Telmo Arcanjo,2001-06-21,16,1,Vitória de Guimarães,90003198,1246.0,1.0,,,0.0,,true,
+Cape Verde,19,FW,Dailon Livramento,2001-05-04,22,7,Casa Pia,90002826,944.0,0.0,,,1.0,,true,
+Cape Verde,20,FW,Ryan Mendes,1990-01-08,98,22,Iğdır,90004362,271.0,0.0,,,0.0,,true,
+Cape Verde,21,MF,Nuno da Costa,1991-02-10,9,2,İstanbul Başakşehir,90004009,906.0,3.0,,,1.0,,true,
 Cape Verde,22,DF,Steven Moreira,1994-08-13,20,0,Columbus Crew,90000768,2457.0,1.0,,,2.0,,true,
 Cape Verde,23,GK,CJ dos Santos,2000-08-24,1,0,San Diego FC,90001250,2700.0,0.0,,,0.0,,true,
-Cape Verde,24,DF,Wagner Pina,2002-11-03,14,0,Trabzonspor,90001767,2369.0,0.0,,,2.0,,true,
+Cape Verde,24,DF,Wagner Pina,2002-11-03,14,0,Trabzonspor,90004485,2439.0,0.0,,,7.0,,true,
 Cape Verde,25,DF,Kelvin Pires,2000-06-05,6,1,SJK,,,,,,,,false,
 Cape Verde,26,MF,Hélio Varela,2002-05-03,21,0,Maccabi Tel Aviv,,,,,,,,false,
-Saudi Arabia,1,GK,Nawaf Al-Aqidi,2000-05-10,24,0,Al-Nassr,,,,,,,,false,
-Saudi Arabia,2,DF,Ali Majrashi,1999-10-02,21,0,Al-Ahli,,,,,,,,false,
-Saudi Arabia,3,DF,Ali Lajami,1996-04-24,24,1,Al-Hilal,,,,,,,,false,
-Saudi Arabia,4,DF,Abdulelah Al-Amri,1997-01-15,44,1,Al-Nassr,,,,,,,,false,
-Saudi Arabia,5,DF,Hassan Al-Tambakti,1999-02-09,54,1,Al-Hilal,,,,,,,,false,
-Saudi Arabia,6,MF,Nasser Al-Dawsari,1998-12-19,47,1,Al-Hilal,,,,,,,,false,
-Saudi Arabia,7,MF,Musab Al-Juwayr,2003-06-20,37,6,Al-Qadsiah,,,,,,,,false,
-Saudi Arabia,8,FW,Ayman Yahya,2001-05-14,26,0,Al-Nassr,,,,,,,,false,
-Saudi Arabia,9,FW,Firas Al-Buraikan,2000-05-14,72,16,Al-Ahli,,,,,,,,false,
-Saudi Arabia,10,FW,Salem Al-Dawsari,1991-08-19,111,27,Al-Hilal,,,,,,,,false,
-Saudi Arabia,11,FW,Saleh Al-Shehri,1993-11-01,59,17,Al-Ittihad,,,,,,,,false,
+Saudi Arabia,1,GK,Nawaf Al-Aqidi,2000-05-10,24,0,Al-Nassr,90004830,959.0,0.0,,,1.0,,true,
+Saudi Arabia,2,DF,Ali Majrashi,1999-10-02,21,0,Al-Ahli,90004545,2156.0,1.0,,,3.0,,true,
+Saudi Arabia,3,DF,Ali Lajami,1996-04-24,24,1,Al-Hilal,90004697,642.0,0.0,,,0.0,,true,
+Saudi Arabia,4,DF,Abdulelah Al-Amri,1997-01-15,44,1,Al-Nassr,90004813,1791.0,2.0,,,2.0,,true,
+Saudi Arabia,5,DF,Hassan Al-Tambakti,1999-02-09,54,1,Al-Hilal,90004700,2338.0,1.0,,,0.0,,true,
+Saudi Arabia,6,MF,Nasser Al-Dawsari,1998-12-19,47,1,Al-Hilal,90004715,1622.0,0.0,,,1.0,,true,
+Saudi Arabia,7,MF,Musab Al-Juwayr,2003-06-20,37,6,Al-Qadsiah,90004856,2520.0,6.0,,,11.0,,true,
+Saudi Arabia,8,FW,Ayman Yahya,2001-05-14,26,0,Al-Nassr,90004817,1247.0,2.0,,,2.0,,true,
+Saudi Arabia,9,FW,Firas Al-Buraikan,2000-05-14,72,16,Al-Ahli,90004549,1744.0,5.0,,,1.0,,true,
+Saudi Arabia,10,FW,Salem Al-Dawsari,1991-08-19,111,27,Al-Hilal,90004719,1881.0,8.0,,,8.0,,true,
+Saudi Arabia,11,FW,Saleh Al-Shehri,1993-11-01,59,17,Al-Ittihad,90004751,430.0,3.0,,,2.0,,true,
 Saudi Arabia,12,DF,Saud Abdulhamid,1999-07-18,55,1,Lens,13053,1335.0,2.0,1.1027701515704393,1.1027701515704393,4.0,2.749265618622303,true,0.07434405516205209
-Saudi Arabia,13,DF,Nawaf Boushal,1999-09-16,27,0,Al-Nassr,,,,,,,,false,
-Saudi Arabia,14,DF,Hassan Kadesh,1992-09-26,21,2,Al-Ittihad,,,,,,,,false,
-Saudi Arabia,15,MF,Abdullah Al-Khaibari,1996-08-16,42,0,Al-Nassr,,,,,,,,false,
-Saudi Arabia,16,MF,Ziyad Al-Johani,2001-11-11,12,0,Al-Ahli,,,,,,,,false,
-Saudi Arabia,17,FW,Khalid Al-Ghannam,2000-11-08,7,0,Al-Ettifaq,,,,,,,,false,
-Saudi Arabia,18,MF,Alaa Al-Hejji,1995-12-03,3,0,Neom,,,,,,,,false,
-Saudi Arabia,19,FW,Abdullah Al-Hamdan,1999-09-13,52,13,Al-Nassr,,,,,,,,false,
-Saudi Arabia,20,FW,Sultan Mandash,1994-10-17,7,2,Al-Hilal,,,,,,,,false,
+Saudi Arabia,13,DF,Nawaf Boushal,1999-09-16,27,0,Al-Nassr,90004831,1871.0,0.0,,,6.0,,true,
+Saudi Arabia,14,DF,Hassan Kadesh,1992-09-26,21,2,Al-Ittihad,90004739,2269.0,1.0,,,0.0,,true,
+Saudi Arabia,15,MF,Abdullah Al-Khaibari,1996-08-16,42,0,Al-Nassr,90004814,1685.0,0.0,,,1.0,,true,
+Saudi Arabia,16,MF,Ziyad Al-Johani,2001-11-11,12,0,Al-Ahli,90004567,1499.0,0.0,,,1.0,,true,
+Saudi Arabia,17,FW,Khalid Al-Ghannam,2000-11-08,7,0,Al-Ettifaq,90004581,2163.0,13.0,,,6.0,,true,
+Saudi Arabia,18,MF,Alaa Al-Hejji,1995-12-03,3,0,Neom,90004979,1346.0,3.0,,,1.0,,true,
+Saudi Arabia,19,FW,Abdullah Al-Hamdan,1999-09-13,52,13,Al-Nassr,90004695,327.0,3.0,,,1.0,,true,
+Saudi Arabia,20,FW,Sultan Mandash,1994-10-17,7,2,Al-Hilal,90004723,1329.0,6.0,,,5.0,,true,
 Saudi Arabia,21,GK,Mohammed Al-Owais,1991-10-10,65,0,Al-Ula,,,,,,,,false,
-Saudi Arabia,22,GK,Ahmed Al-Kassar,1991-05-08,9,0,Al-Qadsiah,,,,,,,,false,
-Saudi Arabia,23,MF,Mohamed Kanno,1994-09-22,79,8,Al-Hilal,,,,,,,,false,
-Saudi Arabia,24,DF,Moteb Al-Harbi,2000-02-20,13,0,Al-Hilal,,,,,,,,false,
-Saudi Arabia,25,DF,Jehad Thakri,2001-07-21,8,0,Al-Qadsiah,,,,,,,,false,
-Saudi Arabia,26,DF,Mohammed Abu Al-Shamat,2002-08-11,8,0,Al-Qadsiah,,,,,,,,false,
+Saudi Arabia,22,GK,Ahmed Al-Kassar,1991-05-08,9,0,Al-Qadsiah,90004840,206.0,0.0,,,0.0,,true,
+Saudi Arabia,23,MF,Mohamed Kanno,1994-09-22,79,8,Al-Hilal,90004709,2082.0,5.0,,,4.0,,true,
+Saudi Arabia,24,DF,Moteb Al-Harbi,2000-02-20,13,0,Al-Hilal,90004713,1825.0,2.0,,,2.0,,true,
+Saudi Arabia,25,DF,Jehad Thakri,2001-07-21,8,0,Al-Qadsiah,90004849,1516.0,0.0,,,0.0,,true,
+Saudi Arabia,26,DF,Mohammed Abu Al-Shamat,2002-08-11,8,0,Al-Qadsiah,90004854,2485.0,3.0,,,8.0,,true,
 Spain,1,GK,David Raya,1995-09-15,13,0,Arsenal,9676,3330.0,0.0,0.0,0.0,0.0,0.1493939720094204,true,0.0
 Spain,2,DF,Marc Pubill,2003-06-20,2,0,Atlético Madrid,10189,1377.0,1.0,1.3243792597204447,1.3243792597204447,1.0,0.6268223077058792,true,0.08656073592944083
 Spain,3,DF,Álex Grimaldo,1995-09-20,14,0,Bayer Leverkusen,11866,2539.0,8.0,6.761390760540962,4.488060817122459,7.0,10.24105754122138,true,0.15908841021702297
@@ -813,7 +813,7 @@ Uruguay,5,MF,Manuel Ugarte,2001-04-11,36,1,Manchester United,11766,850.0,0.0,0.8
 Uruguay,6,MF,Rodrigo Bentancur,1997-06-25,74,3,Tottenham Hotspur,6108,1931.0,1.0,0.9771954659372568,0.9771954659372568,1.0,0.8773890770971775,true,0.04554510198568261
 Uruguay,7,MF,Nicolás de la Cruz,1997-06-01,34,5,Flamengo,90001651,1018.0,0.0,,,0.0,,true,
 Uruguay,8,MF,Federico Valverde,1998-07-22,73,9,Real Madrid,6241,2765.0,5.0,2.2435944536700845,2.2435944536700845,8.0,5.012471796944737,true,0.07302839089703711
-Uruguay,9,FW,Darwin Núñez,1999-06-24,38,13,Al-Hilal,10720,,,,,,,false,
+Uruguay,9,FW,Darwin Núñez,1999-06-24,38,13,Al-Hilal,90004698,1247.0,6.0,,,4.0,,true,
 Uruguay,10,MF,Giorgian de Arrascaeta,1994-06-01,60,13,Flamengo,90001632,2350.0,18.0,,,14.0,,true,
 Uruguay,11,FW,Facundo Pellistri,2001-12-20,39,2,Panathinaikos,9324,,,,,,,false,
 Uruguay,12,GK,Santiago Mele,1997-09-06,8,0,Monterrey,90000280,1530.0,0.0,,,0.0,,true,
@@ -827,10 +827,10 @@ Uruguay,19,FW,Rodrigo Aguirre,1994-10-01,10,3,Tigres UANL,90000024,1752.0,5.0,,,
 Uruguay,20,MF,Maximiliano Araújo,2000-02-15,28,3,Sporting CP,,,,,,,,false,
 Uruguay,21,FW,Federico Viñas,1998-06-30,11,2,Oviedo,13705,2575.0,9.0,9.87893870100379,8.392383448779583,1.0,3.0277516916394234,true,0.29332602345249026
 Uruguay,22,MF,Joaquín Piquerez,1998-08-24,19,0,Palmeiras,90001899,2456.0,3.0,,,1.0,,true,
-Uruguay,23,GK,Fernando Muslera,1986-06-16,134,0,Estudiantes,615,,,,,,,false,
+Uruguay,23,GK,Fernando Muslera,1986-06-16,134,0,Estudiantes,90003090,579.0,1.0,,,2.0,,true,
 Uruguay,24,DF,Santiago Bueno,1998-11-09,8,0,Wolverhampton Wanderers,10945,2549.0,3.0,1.995275340974331,1.995275340974331,1.0,0.9024237375706434,true,0.07044910972447618
 Uruguay,25,MF,Juan Manuel Sanabria,2000-03-29,5,1,Real Salt Lake,90000077,1710.0,2.0,,,5.0,,true,
-Uruguay,26,MF,Rodrigo Zalazar,1999-08-12,8,2,Braga,90002052,724.0,0.0,,,0.0,,true,
+Uruguay,26,MF,Rodrigo Zalazar,1999-08-12,8,2,Braga,90002813,1940.0,16.0,,,5.0,,true,
 France,1,GK,Brice Samba,1994-04-25,4,0,Rennes,4748,2880.0,0.0,0.0,0.0,0.0,0.05737973563373089,true,0.0
 France,2,DF,Malo Gusto,2003-05-19,11,0,Chelsea,9017,2306.0,2.0,1.9418211746960878,1.9418211746960878,3.0,3.805633621290326,true,0.07578660265509449
 France,3,DF,Lucas Digne,1993-07-20,58,0,Aston Villa,1823,1857.0,0.0,0.7033488415181637,0.7033488415181637,6.0,3.052508193999529,true,0.03408798908811779
@@ -843,13 +843,13 @@ France,9,FW,Marcus Thuram,1997-08-06,34,3,Inter Milan,5992,1933.0,13.0,11.895488
 France,10,FW,Kylian Mbappé,1998-12-20,98,56,Real Madrid,3423,2623.0,25.0,25.796528611332178,19.107029650360346,5.0,7.240631651133299,true,0.6555976624218189
 France,11,FW,Michael Olise,2001-12-12,17,7,Bayern Munich,9948,2308.0,15.0,11.545709690079093,11.545709690079093,19.0,17.044203309342265,true,0.45022264822665437
 France,12,FW,Bradley Barcola,2002-09-02,20,3,Paris Saint-Germain,10016,1778.0,11.0,11.655976854264736,11.655976854264736,1.0,4.783318970352411,true,0.5900100769875288
-France,13,MF,N'Golo Kanté,1991-03-29,69,2,Fenerbahçe,,,,,,,,false,
+France,13,MF,N'Golo Kanté,1991-03-29,69,2,Fenerbahçe,90004143,2703.0,4.0,,,1.0,,true,
 France,14,MF,Adrien Rabiot,1995-04-03,59,7,Milan,3291,2636.0,6.0,4.391360659152269,4.391360659152269,4.0,4.136572854593396,true,0.1499326476948802
 France,15,DF,Ibrahima Konaté,1999-05-25,28,0,Liverpool,6326,3133.0,1.0,1.9586246628314257,1.9586246628314257,0.0,0.7252839719876647,true,0.056264353544471214
 France,16,GK,Mike Maignan,1995-07-03,40,0,Milan,3737,3296.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 France,17,DF,William Saliba,2001-03-24,32,0,Arsenal,6888,2609.0,1.0,1.5777585953474045,1.5777585953474045,0.0,1.306027840822935,true,0.054426321801941895
 France,18,MF,Warren Zaïre-Emery,2006-03-08,11,1,Paris Saint-Germain,10786,2460.0,3.0,2.0695376126095653,2.0695376126095653,4.0,4.2776061883196235,true,0.075714790705228
-France,19,DF,Théo Hernandez,1997-10-06,44,2,Al-Hilal,2547,,,,,,,false,
+France,19,DF,Théo Hernandez,1997-10-06,44,2,Al-Hilal,90004724,2740.0,5.0,,,1.0,,true,
 France,20,FW,Désiré Doué,2005-06-03,7,2,Paris Saint-Germain,10431,1372.0,7.0,8.188008099794388,7.427912965416908,4.0,3.8526204489171505,true,0.48725376595300424
 France,21,DF,Lucas Hernandez,1996-02-14,42,0,Paris Saint-Germain,2276,1749.0,0.0,0.641115945763886,0.641115945763886,3.0,1.280301958322525,true,0.032990528941537874
 France,22,FW,Jean-Philippe Mateta,1997-06-28,4,2,Crystal Palace,5735,2225.0,12.0,15.977427493780851,12.93275199458003,0.0,1.2496193014085293,true,0.523122552589754
@@ -864,16 +864,16 @@ Iraq,4,DF,Zaid Tahseen,2001-01-29,28,1,Pakhtakor,,,,,,,,false,
 Iraq,5,DF,Akam Hashim,1998-08-16,14,1,Al-Zawraa,,,,,,,,false,
 Iraq,6,DF,Manaf Younis,1996-11-16,34,1,Al-Shorta,,,,,,,,false,
 Iraq,7,MF,Youssef Amyn,2003-08-21,27,2,AEK Larnaca,,,,,,,,false,
-Iraq,8,MF,Ibrahim Bayesh,2000-05-01,76,8,Al Dhafra,12733,973.0,3.0,3.4287336245179176,3.4287336245179176,2.0,2.3628985602408648,true,0.3171490505720581
-Iraq,9,FW,Ali Al-Hamadi,2002-03-01,20,5,Luton Town,12751,,,,,,,false,
+Iraq,8,MF,Ibrahim Bayesh,2000-05-01,76,8,Al Dhafra,90004871,1021.0,1.0,,,0.0,,true,
+Iraq,9,FW,Ali Al-Hamadi,2002-03-01,20,5,Luton Town,90003418,12.0,0.0,,,0.0,,true,
 Iraq,10,FW,Mohanad Ali,2000-06-20,72,27,Dibba,,,,,,,,false,
 Iraq,11,FW,Ahmed Qasem,2003-07-12,3,0,Nashville SC,90001089,1223.0,2.0,,,1.0,,true,
-Iraq,12,GK,Jalal Hassan,1991-05-18,102,0,Al-Zawraa,,,,,,,,false,
+Iraq,12,GK,Jalal Hassan,1991-05-18,102,0,Al-Zawraa,90004816,373.0,0.0,,,0.0,,true,
 Iraq,13,FW,Ali Yousif,1996-01-19,7,1,Al-Talaba,14432,875.0,0.0,0.2759618051350117,0.2759618051350117,0.0,0.1898415144532919,true,0.028384642813886918
-Iraq,14,MF,Zidane Iqbal,2003-04-27,25,2,Utrecht,,,,,,,,false,
+Iraq,14,MF,Zidane Iqbal,2003-04-27,25,2,Utrecht,90002596,254.0,0.0,,,0.0,,true,
 Iraq,15,DF,Ahmed Maknzi,2001-09-24,7,0,Al-Karma,,,,,,,,false,
 Iraq,16,MF,Amir Al-Ammari,1997-07-27,51,3,Cracovia,,,,,,,,false,
-Iraq,17,FW,Ali Jasim,2004-01-20,36,2,Al-Najma,12998,,,,,,,false,
+Iraq,17,FW,Ali Jasim,2004-01-20,36,2,Al-Najma,90004787,1612.0,4.0,,,1.0,,true,
 Iraq,18,FW,Aymen Hussein,1996-03-22,95,33,Al-Karma,,,,,,,,false,
 Iraq,19,MF,Kevin Yakob,2000-10-10,9,0,AGF,4202,,,,,,,false,
 Iraq,20,MF,Aimar Sher,2002-12-20,7,0,Sarpsborg 08,,,,,,,,false,
@@ -895,36 +895,36 @@ Norway,9,FW,Erling Haaland,2000-07-21,50,55,Manchester City,8260,2979.0,27.0,28.
 Norway,10,MF,Martin Ødegaard,1998-12-17,68,5,Arsenal,2517,1347.0,1.0,1.219119856134057,1.219119856134057,6.0,4.978420486673713,true,0.08145566967488131
 Norway,11,FW,Jørgen Strand Larsen,2000-02-06,28,6,Crystal Palace,11070,2353.0,4.0,6.514206910505891,4.991869203746319,1.0,0.6865616654977202,true,0.1909342236877045
 Norway,12,GK,Sander Tangvik,2002-11-29,0,0,Hamburger SV,14368,90.0,0.0,0.0,0.0,0.0,0.0,true,0.0
-Norway,13,GK,Egil Selvik,1997-07-30,7,0,Watford,,,,,,,,false,
-Norway,14,MF,Fredrik Aursnes,1995-12-10,22,1,Benfica,,,,,,,,false,
+Norway,13,GK,Egil Selvik,1997-07-30,7,0,Watford,90003852,3555.0,0.0,,,0.0,,true,
+Norway,14,MF,Fredrik Aursnes,1995-12-10,22,1,Benfica,90002765,2291.0,3.0,,,3.0,,true,
 Norway,15,DF,Fredrik André Bjørkan,1998-08-21,21,1,Bodø/Glimt,13022,2763.0,1.0,0.5156588805839419,0.5156588805839419,0.0,1.24783924408257,true,0.016796706207945992
 Norway,16,DF,Marcus Holmgren Pedersen,2000-07-16,32,0,Torino,12012,2148.0,1.0,1.6248117666691542,1.6248117666691542,2.0,2.8878709357231855,true,0.06807870530736679
-Norway,17,DF,Torbjørn Heggem,1999-01-12,15,0,Bologna,13894,2109.0,0.0,1.0151279531419277,1.0151279531419277,0.0,0.050894595682621,true,0.04331982730335396
+Norway,17,DF,Torbjørn Heggem,1999-01-12,15,0,Bologna,90003912,90.0,0.0,,,0.0,,true,
 Norway,18,MF,Kristian Thorstvedt,1999-03-13,37,4,Sassuolo,10994,2450.0,4.0,6.6448559276759624,6.6448559276759624,4.0,2.6294608265161514,true,0.24409674836360679
 Norway,19,MF,Thelo Aasgaard,2002-05-02,8,5,Rangers,,,,,,,,false,
 Norway,20,MF,Antonio Nusa,2005-04-17,24,8,RB Leipzig,12941,2048.0,4.0,5.204239755868912,5.204239755868912,3.0,4.748528776690364,true,0.22870194239658304
-Norway,21,MF,Andreas Schjelderup,2004-06-01,12,1,Benfica,,,,,,,,false,
+Norway,21,MF,Andreas Schjelderup,2004-06-01,12,1,Benfica,90002755,1723.0,7.0,,,5.0,,true,
 Norway,22,MF,Oscar Bobb,2003-07-12,20,2,Fulham,11903,1046.0,0.0,1.4291031155735254,1.4291031155735254,1.0,2.017092976719141,true,0.12296298317554234
 Norway,23,MF,Jens Petter Hauge,1999-10-12,15,1,Bodø/Glimt,8974,,,,,,,false,
-Norway,24,DF,Sondre Langås,2001-02-02,3,0,Derby County,,,,,,,,false,
+Norway,24,DF,Sondre Langås,2001-02-02,3,0,Derby County,90003385,1968.0,3.0,,,1.0,,true,
 Norway,25,DF,Henrik Falchener,2003-05-08,1,0,Viking,,,,,,,,false,
 Norway,26,DF,Julian Ryerson,1997-11-17,43,1,Borussia Dortmund,7997,2288.0,0.0,1.086410315707326,1.086410315707326,15.0,10.857275873422623,true,0.04273467150946649
 Senegal,1,GK,Yehvann Diouf,1999-11-16,2,0,Nice,6709,2340.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 Senegal,2,DF,Mamadou Sarr,2005-08-29,8,0,Chelsea,11253,1405.0,0.0,0.6191816404461861,0.6191816404461861,0.0,0.04029260575771332,true,0.03966288088267384
-Senegal,3,DF,Kalidou Koulibaly,1991-06-20,103,2,Al-Hilal,,,,,,,,false,
+Senegal,3,DF,Kalidou Koulibaly,1991-06-20,103,2,Al-Hilal,90004704,1593.0,1.0,,,2.0,,true,
 Senegal,4,DF,Abdoulaye Seck,1992-06-04,22,4,Maccabi Haifa,,,,,,,,false,
 Senegal,5,MF,Idrissa Gueye,1989-09-26,131,7,Everton,668,2120.0,2.0,1.9142106398940086,1.9142106398940086,3.0,1.693690698593855,true,0.08126365924078338
 Senegal,6,MF,Pathé Ciss,1994-03-16,30,0,Rayo Vallecano,9815,1974.0,2.0,3.959737098775804,3.959737098775804,1.0,0.47962510120123625,true,0.1805351260840032
 Senegal,7,FW,Assane Diao,2005-09-07,5,0,Como,12081,1098.0,2.0,3.1755769215524197,3.1755769215524197,1.0,1.6823896700516343,true,0.260293190291182
 Senegal,8,MF,Lamine Camara,2004-01-01,33,7,Monaco,11799,1870.0,3.0,1.3439804669469595,1.3439804669469595,4.0,5.089582786895335,true,0.06468355188514778
 Senegal,9,FW,Bamba Dieng,2000-03-23,23,2,Lorient,9345,1239.0,10.0,9.474379494786263,7.954189226031303,1.0,1.150337222032249,true,0.577786142326729
-Senegal,10,FW,Sadio Mané,1992-04-10,128,55,Al-Nassr,,,,,,,,false,
+Senegal,10,FW,Sadio Mané,1992-04-10,128,55,Al-Nassr,90004834,2124.0,10.0,,,6.0,,true,
 Senegal,11,FW,Nicolas Jackson,2001-06-20,33,8,Bayern Munich,10048,991.0,8.0,8.492001624777913,8.492001624777913,1.0,2.0896335784345865,true,0.7712211364581354
-Senegal,12,FW,Cherif Ndiaye,1996-01-23,19,4,Samsunspor,,,,,,,,false,
+Senegal,12,FW,Cherif Ndiaye,1996-01-23,19,4,Samsunspor,90004437,1420.0,7.0,,,1.0,,true,
 Senegal,13,FW,Iliman Ndiaye,2000-03-06,40,4,Everton,9307,2805.0,6.0,6.143797228112817,4.6214595306664705,3.0,4.4570258148014545,true,0.14828212397860333
-Senegal,14,DF,Ismail Jakobs,1999-08-17,30,0,Galatasaray,8146,,,,,,,false,
+Senegal,14,DF,Ismail Jakobs,1999-08-17,30,0,Galatasaray,90004173,1301.0,0.0,,,1.0,,true,
 Senegal,15,DF,Krépin Diatta,1999-02-25,61,2,Monaco,9279,997.0,0.0,0.9261248912662268,0.9261248912662268,1.0,1.7593798488378525,true,0.08360204635301947
-Senegal,16,GK,Édouard Mendy,1992-03-01,57,0,Al-Ahli,,,,,,,,false,
+Senegal,16,GK,Édouard Mendy,1992-03-01,57,0,Al-Ahli,90004568,2340.0,0.0,,,0.0,,true,
 Senegal,17,MF,Pape Matar Sarr,2002-09-14,40,4,Tottenham Hotspur,9021,1347.0,2.0,2.047363305464387,2.047363305464387,4.0,2.4335668282583356,true,0.13679487564350024
 Senegal,18,FW,Ismaïla Sarr,1998-02-25,83,19,Crystal Palace,5675,2181.0,9.0,11.543307237327099,9.259800650179386,1.0,2.200463268905878,true,0.38211006809543546
 Senegal,19,DF,Moussa Niakhaté,1996-03-08,31,0,Lyon,5989,2750.0,0.0,0.17097577545791864,0.17097577545791864,2.0,0.8175685852766037,true,0.005595570833168246
@@ -940,12 +940,12 @@ Algeria,2,DF,Aïssa Mandi,1991-10-22,120,9,Lille,3237,2432.0,1.0,0.8599839098751
 Algeria,3,DF,Achref Abada,1999-06-15,9,1,USM Alger,,,,,,,,false,
 Algeria,4,DF,Mohamed Amine Tougai,2000-01-22,31,2,Espérance de Tunis,,,,,,,,false,
 Algeria,5,DF,Zineddine Belaïd,1999-03-20,13,1,JS Kabylie,,,,,,,,false,
-Algeria,6,MF,Ramiz Zerrouki,1998-05-26,54,3,Twente,,,,,,,,false,
-Algeria,7,FW,Riyad Mahrez,1991-02-21,117,38,Al-Ahli,,,,,,,,false,
-Algeria,8,MF,Houssem Aouar,1998-06-30,23,6,Al-Ittihad,5733,,,,,,,false,
+Algeria,6,MF,Ramiz Zerrouki,1998-05-26,54,3,Twente,90002559,2655.0,3.0,,,1.0,,true,
+Algeria,7,FW,Riyad Mahrez,1991-02-21,117,38,Al-Ahli,90004558,2298.0,4.0,,,8.0,,true,
+Algeria,8,MF,Houssem Aouar,1998-06-30,23,6,Al-Ittihad,90004740,1892.0,8.0,,,3.0,,true,
 Algeria,9,FW,Amine Gouiri,2000-02-16,24,12,Marseille,6401,1318.0,8.0,7.237069595605135,7.237069595605135,3.0,3.988559890538454,true,0.4941853289866936
 Algeria,10,MF,Farès Chaïbi,2002-11-28,32,3,Eintracht Frankfurt,10792,1822.0,2.0,3.5245760353282094,3.5245760353282094,9.0,5.035042706876993,true,0.1741009018548512
-Algeria,11,FW,Anis Hadj Moussa,2002-02-11,16,3,Feyenoord,,,,,,,,false,
+Algeria,11,FW,Anis Hadj Moussa,2002-02-11,16,3,Feyenoord,90002226,2545.0,11.0,,,6.0,,true,
 Algeria,12,FW,Nadhir Benbouali,2000-04-17,5,1,Győri ETO,,,,,,,,false,
 Algeria,13,DF,Jaouen Hadjam,2003-03-26,19,3,Young Boys,11344,,,,,,,false,
 Algeria,14,MF,Hicham Boudaoui,1999-09-23,35,0,Nice,8050,1697.0,1.0,2.2907996512949467,2.2907996512949467,2.0,1.5970600554719567,true,0.12149202629142322
@@ -979,7 +979,7 @@ Argentina,15,MF,Nicolás González,1998-04-06,51,6,Atlético Madrid,7074,1494.0,
 Argentina,16,FW,Thiago Almada,2001-04-26,16,5,Atlético Madrid,13358,1327.0,3.0,3.557283066213131,3.557283066213131,1.0,2.7944966796785593,true,0.24126260434000135
 Argentina,17,FW,Giuliano Simeone,2002-12-18,13,2,Atlético Madrid,9796,2153.0,4.0,6.101236687973142,6.101236687973142,6.0,5.526886135339737,true,0.25504472917676857
 Argentina,18,FW,Nico Paz,2004-09-08,9,1,Como,11541,2905.0,12.0,8.902074420824647,7.379476809874177,6.0,7.0327591598033905,true,0.22862406639885574
-Argentina,19,DF,Nicolás Otamendi,1988-02-12,132,8,Benfica,6129,540.0,0.0,0.0,0.0,0.0,0.0,true,0.0
+Argentina,19,DF,Nicolás Otamendi,1988-02-12,132,8,Benfica,90002777,2603.0,2.0,,,0.0,,true,
 Argentina,20,MF,Alexis Mac Allister,1998-12-24,46,6,Liverpool,8379,2683.0,2.0,4.071707676164806,4.071707676164806,4.0,2.849602391012013,true,0.13658355976698938
 Argentina,21,FW,José Manuel López,2000-12-06,5,0,Palmeiras,90001589,1.0,0.0,,,0.0,,true,
 Argentina,22,FW,Lautaro Martínez,1997-08-22,77,37,Inter Milan,7006,2205.0,17.0,17.13883000984788,17.13883000984788,6.0,6.291475351899862,true,0.6995440820346073
@@ -996,7 +996,7 @@ Austria,6,MF,Nicolas Seiwald,2001-05-04,47,1,RB Leipzig,11871,2730.0,0.0,1.81848
 Austria,7,FW,Marko Arnautović,1989-04-19,133,47,Red Star Belgrade,865,,,,,,,false,
 Austria,8,DF,David Alaba,1992-06-24,113,15,Real Madrid,391,419.0,0.0,0.25780999287962914,0.25780999287962914,0.0,0.0,true,0.0553768481125695
 Austria,9,MF,Marcel Sabitzer,1994-03-17,98,26,Borussia Dortmund,5248,1835.0,1.0,1.149563044309616,1.149563044309616,2.0,2.240061067044735,true,0.056381838685485255
-Austria,10,MF,Florian Grillitsch,1995-08-07,58,1,Braga,116,,,,,,,false,
+Austria,10,MF,Florian Grillitsch,1995-08-07,58,1,Braga,90002793,1129.0,1.0,,,1.0,,true,
 Austria,11,FW,Michael Gregoritsch,1994-04-18,75,24,FC Augsburg,171,926.0,6.0,6.215451763942838,5.457675086334348,2.0,1.5184729620814323,true,0.5304435829050661
 Austria,12,GK,Florian Wiegele,2001-03-21,1,0,Viktoria Plzeň,,,,,,,,false,
 Austria,13,GK,Patrick Pentz,1997-01-02,18,0,Brøndby,,,,,,,,false,
@@ -1010,7 +1010,7 @@ Austria,20,MF,Konrad Laimer,1997-05-27,57,7,Bayern Munich,6109,1997.0,3.0,2.8269
 Austria,21,FW,Patrick Wimmer,2001-05-30,30,1,VfL Wolfsburg,9730,1678.0,4.0,3.6373985055834055,3.6373985055834055,3.0,2.249568970873952,true,0.1950928876653793
 Austria,22,MF,Alexander Prass,2001-05-26,19,0,TSG Hoffenheim,12928,1269.0,3.0,1.6435396876186132,1.6435396876186132,2.0,2.1666669230908155,true,0.11656309841266761
 Austria,23,DF,Marco Friedl,1998-03-16,11,0,Werder Bremen,5340,2552.0,1.0,0.729124104604125,0.729124104604125,0.0,0.2931987326592207,true,0.025713624378672122
-Austria,24,MF,Paul Wanner,2005-12-23,3,0,PSV Eindhoven,10245,,,,,,,false,
+Austria,24,MF,Paul Wanner,2005-12-23,3,0,PSV Eindhoven,90002487,1637.0,3.0,,,3.0,,true,
 Austria,25,DF,Michael Svoboda,1998-10-15,4,0,Venezia,9887,,,,,,,false,
 Austria,26,MF,Alessandro Schöpf,1994-02-07,35,6,Wolfsberger AC,,,,,,,,false,
 Jordan,1,GK,Yazeed Abulaila,1993-01-08,76,0,Al-Hussein,,,,,,,,false,
@@ -1036,7 +1036,7 @@ Jordan,20,MF,Mohannad Abu Taha,2003-02-02,29,1,Al-Quwa Al-Jawiya,,,,,,,,false,
 Jordan,21,MF,Nizar Al-Rashdan,1999-03-23,47,4,Qatar SC,,,,,,,,false,
 Jordan,22,GK,Abdallah Al-Fakhouri,2000-01-22,11,0,Al-Wehdat,,,,,,,,false,
 Jordan,23,DF,Ihsan Haddad,1994-02-05,92,2,Al-Hussein,,,,,,,,false,
-Jordan,24,FW,Ali Azaizeh,2004-04-13,4,0,Al-Shabab,,,,,,,,false,
+Jordan,24,FW,Ali Azaizeh,2004-04-13,4,0,Al-Shabab,90004900,628.0,2.0,,,1.0,,true,
 Jordan,25,MF,Mohammad Al-Dawoud,1992-04-12,13,1,Al-Wehdat,,,,,,,,false,
 Jordan,26,DF,Anas Badawi,1997-09-13,1,0,Al-Faisaly,,,,,,,,false,
 Colombia,1,GK,David Ospina,1988-08-31,130,0,Atlético Nacional,90002063,750.0,2.0,,,3.0,,true,
@@ -1044,7 +1044,7 @@ Colombia,2,DF,Daniel Muñoz,1996-05-26,46,3,Crystal Palace,12408,2417.0,4.0,3.14
 Colombia,3,DF,Jhon Lucumí,1998-06-26,37,1,Bologna,11038,2282.0,1.0,1.3786265589296818,1.3786265589296818,0.0,0.7872928977012634,true,0.054371774892055816
 Colombia,4,DF,Santiago Arias,1992-01-13,68,0,Independiente,90001470,1419.0,0.0,,,0.0,,true,
 Colombia,5,MF,Kevin Castaño,2000-09-29,25,0,River Plate,4202,,,,,,,false,
-Colombia,6,MF,Richard Ríos,2000-06-02,32,2,Benfica,90001914,733.0,0.0,,,2.0,,true,
+Colombia,6,MF,Richard Ríos,2000-06-02,32,2,Benfica,90001914,3009.0,5.0,,,6.0,,true,
 Colombia,7,FW,Luis Díaz,1997-01-13,74,22,Bayern Munich,10408,2464.0,15.0,14.85997650027275,14.85997650027275,14.0,10.122723823413253,true,0.5427751156755469
 Colombia,8,MF,Jorge Carrascal,1998-05-25,24,2,Flamengo,90001638,821.0,2.0,,,5.0,,true,
 Colombia,9,FW,Jhon Córdoba,1993-05-11,21,6,Krasnodar,90001939,2844.0,10.0,,,7.0,,true,
@@ -1061,9 +1061,9 @@ Colombia,19,FW,Cucho Hernández,1999-04-20,9,2,Real Betis,,,,,,,,false,
 Colombia,20,MF,Juan Fernando Quintero,1993-01-18,49,6,River Plate,90001783,412.0,0.0,,,0.0,,true,
 Colombia,21,FW,Jaminton Campaz,2000-05-24,10,1,Rosario Central,,,,,,,,false,
 Colombia,22,DF,Deiver Machado,1993-09-02,15,0,Nantes,9632,1201.0,0.0,0.9087755605578423,0.9087755605578423,1.0,1.3946983963251114,true,0.0681014158619532
-Colombia,23,DF,Davinson Sánchez,1996-06-12,79,4,Galatasaray,6249,,,,,,,false,
+Colombia,23,DF,Davinson Sánchez,1996-06-12,79,4,Galatasaray,90004168,2419.0,1.0,,,0.0,,true,
 Colombia,24,GK,Álvaro Montero,1995-03-29,12,0,Vélez Sarsfield,90001513,936.0,3.0,,,3.0,,true,
-Colombia,25,FW,Luis Suárez,1997-12-02,12,5,Sporting CP,8978,,,,,,,false,
+Colombia,25,FW,Luis Suárez,1997-12-02,12,5,Sporting CP,90003133,2688.0,28.0,,,6.0,,true,
 Colombia,26,FW,Andrés Gómez,2002-09-12,8,2,Vasco da Gama,90002058,1028.0,1.0,,,5.0,,true,
 DR Congo,1,GK,Lionel Mpasi,1994-08-01,29,0,Le Havre,13745,308.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 DR Congo,2,DF,Aaron Wan-Bissaka,1997-11-26,12,0,West Ham United,5584,2093.0,0.0,0.0,0.0,2.0,1.428995594382286,true,0.0
@@ -1077,7 +1077,7 @@ DR Congo,9,FW,Brian Cipenga,1998-03-11,8,0,Castellón,,,,,,,,false,
 DR Congo,10,MF,Théo Bongonda,1995-11-20,38,7,Spartak Moscow,,,,,,,,false,
 DR Congo,11,FW,Gaël Kakuta,1991-06-21,31,5,AEL,,,,,,,,false,
 DR Congo,12,DF,Joris Kayembe,1994-08-08,26,1,Genk,,,,,,,,false,
-DR Congo,13,FW,Meschak Elia,1997-08-06,69,12,Alanyaspor,13440,,,,,,,false,
+DR Congo,13,FW,Meschak Elia,1997-08-06,69,12,Alanyaspor,90003951,819.0,3.0,,,0.0,,true,
 DR Congo,14,MF,Noah Sadiki,2004-12-17,20,0,Sunderland,13716,2914.0,0.0,1.618839449249208,1.618839449249208,1.0,0.9295975510030985,true,0.04999847303789592
 DR Congo,15,MF,Aaron Tshibola,1995-01-02,17,1,Kilmarnock,2346,3330.0,0.0,0.0,0.0,1.0,0.44070593267679214,true,0.0
 DR Congo,16,GK,Timothy Fayulu,1999-07-24,3,0,Noah,,,,,,,,false,
@@ -1089,30 +1089,30 @@ DR Congo,21,GK,Matthieu Epolo,2005-01-15,1,0,Standard Liège,,,,,,,,false,
 DR Congo,22,DF,Chancel Mbemba,1994-08-08,109,7,Lille,849,949.0,0.0,0.33667536824941635,0.33667536824941635,0.0,0.5853789737448096,true,0.03192917085610903
 DR Congo,23,FW,Simon Banza,1996-08-13,15,2,Al Jazira,,,,,,,,false,
 DR Congo,24,DF,Gédéon Kalulu,1997-08-29,28,0,Aris Limassol,10843,,,,,,,false,
-DR Congo,25,MF,Edo Kayembe,1998-06-03,43,2,Watford,,,,,,,,false,
+DR Congo,25,MF,Edo Kayembe,1998-06-03,43,2,Watford,90003850,2496.0,4.0,,,1.0,,true,
 DR Congo,26,DF,Arthur Masuaku,1993-11-07,45,4,Lens,1760,367.0,0.0,0.08971349895000458,0.08971349895000458,0.0,0.10961656272411346,true,0.022000585573570607
-Portugal,1,GK,Diogo Costa,1999-09-19,43,0,Porto,,,,,,,,false,
-Portugal,2,DF,Nélson Semedo,1993-11-16,50,0,Fenerbahçe,6163,,,,,,,false,
+Portugal,1,GK,Diogo Costa,1999-09-19,43,0,Porto,90003027,2906.0,0.0,,,0.0,,true,
+Portugal,2,DF,Nélson Semedo,1993-11-16,50,0,Fenerbahçe,90004145,1933.0,1.0,,,3.0,,true,
 Portugal,3,DF,Rúben Dias,1997-05-14,76,3,Manchester City,8961,2142.0,2.0,0.43706189282238483,0.43706189282238483,0.0,0.42255035135895014,true,0.01836394507657079
-Portugal,4,DF,Tomás Araújo,2002-05-16,5,0,Benfica,,,,,,,,false,
+Portugal,4,DF,Tomás Araújo,2002-05-16,5,0,Benfica,90002785,1684.0,1.0,,,2.0,,true,
 Portugal,5,DF,Diogo Dalot,1999-03-18,35,3,Manchester United,7281,2614.0,1.0,2.194661596789956,2.194661596789956,3.0,3.5058063408359885,true,0.07556218198588219
 Portugal,6,MF,Matheus Nunes,1998-08-27,20,2,Manchester City,11000,2865.0,1.0,0.6754733501002192,0.6754733501002192,5.0,3.0990526378154755,true,0.021219058118331496
-Portugal,7,FW,Cristiano Ronaldo,1985-02-05,228,143,Al-Nassr,90001467,3222.0,0.0,,,1.0,,true,
+Portugal,7,FW,Cristiano Ronaldo,1985-02-05,228,143,Al-Nassr,90004819,2601.0,28.0,,,2.0,,true,
 Portugal,8,MF,Bruno Fernandes,1994-09-08,89,29,Manchester United,1228,3082.0,9.0,11.931805820204318,7.364792761392891,21.0,17.75713463127613,true,0.21506533047545756
 Portugal,9,FW,Gonçalo Ramos,2001-06-20,25,10,Paris Saint-Germain,11767,1293.0,6.0,9.366714945062995,7.846524586901069,1.0,1.5339764999225736,true,0.5461618041926498
 Portugal,10,MF,Bernardo Silva,1994-08-10,109,14,Manchester City,3635,2917.0,2.0,2.899573851376772,2.899573851376772,4.0,5.2828731667250395,true,0.08946234028930733
-Portugal,11,FW,João Félix,1999-11-10,54,12,Al-Nassr,7892,,,,,,,false,
+Portugal,11,FW,João Félix,1999-11-10,54,12,Al-Nassr,90004823,2904.0,20.0,,,13.0,,true,
 Portugal,12,GK,José Sá,1993-01-17,5,0,Wolverhampton Wanderers,9740,2070.0,0.0,0.0,0.0,0.0,0.08312523365020752,true,0.0
 Portugal,13,DF,Renato Veiga,2003-07-29,13,1,Villarreal,11383,2553.0,0.0,0.19824217725545168,0.19824217725545168,0.0,0.1171861607581377,true,0.0069885608903214455
-Portugal,14,DF,Gonçalo Inácio,2001-08-25,22,2,Sporting CP,,,,,,,,false,
+Portugal,14,DF,Gonçalo Inácio,2001-08-25,22,2,Sporting CP,90003127,2502.0,2.0,,,3.0,,true,
 Portugal,15,MF,João Neves,2004-09-27,22,3,Paris Saint-Germain,12734,1280.0,5.0,3.1606192514300346,3.1606192514300346,1.0,2.4752913154661655,true,0.2222310411161743
-Portugal,16,FW,Francisco Trincão,1999-12-29,18,3,Sporting CP,,,,,,,,false,
+Portugal,16,FW,Francisco Trincão,1999-12-29,18,3,Sporting CP,90003122,2847.0,7.0,,,11.0,,true,
 Portugal,17,FW,Rafael Leão,1999-06-10,44,5,Milan,7193,1874.0,9.0,9.601861637085676,8.079263962805271,3.0,4.9774565836414695,true,0.3880116097398476
 Portugal,18,FW,Pedro Neto,2000-03-09,25,3,Chelsea,6382,2667.0,5.0,5.149658527225256,5.149658527225256,6.0,7.933838244527578,true,0.1737792528872415
 Portugal,19,FW,Gonçalo Guedes,1996-11-29,34,8,Real Sociedad,5682,1833.0,8.0,4.142274813726544,4.142274813726544,4.0,2.665413634851575,true,0.20338501540392198
-Portugal,20,DF,João Cancelo,1994-05-27,68,12,Barcelona,2379,938.0,2.0,0.9704140685498714,0.9704140685498714,2.0,3.250015649944544,true,0.09311009186512625
-Portugal,21,MF,Rúben Neves,1997-03-13,67,1,Al-Hilal,,,,,,,,false,
-Portugal,22,GK,Rui Silva,1994-02-07,3,0,Sporting CP,5109,,,,,,,false,
+Portugal,20,DF,João Cancelo,1994-05-27,68,12,Barcelona,90004701,173.0,0.0,,,0.0,,true,
+Portugal,21,MF,Rúben Neves,1997-03-13,67,1,Al-Hilal,90004717,2748.0,12.0,,,6.0,,true,
+Portugal,22,GK,Rui Silva,1994-02-07,3,0,Sporting CP,90003142,2880.0,0.0,,,0.0,,true,
 Portugal,23,MF,Vitinha,2000-02-13,38,0,Paris Saint-Germain,8777,2122.0,1.0,0.9833967238664627,0.9833967238664627,7.0,3.4552896190434694,true,0.04170862636568409
 Portugal,24,DF,Samú Costa,2000-11-27,6,0,Mallorca,10974,2731.0,7.0,4.27746016997844,4.27746016997844,2.0,1.9799835188314319,true,0.14096353544418147
 Portugal,25,DF,Nuno Mendes,2002-06-19,44,1,Paris Saint-Germain,9961,1251.0,4.0,3.810142569243908,3.0500474497675896,5.0,5.055273981764913,true,0.21942787408399925
@@ -1130,7 +1130,7 @@ Uzbekistan,10,MF,Jaloliddin Masharipov,1993-09-01,74,12,Esteghlal,,,,,,,,false,
 Uzbekistan,11,MF,Oston Urunov,2000-12-19,42,10,Persepolis,,,,,,,,false,
 Uzbekistan,12,GK,Abduvohid Nematov,2001-03-20,8,0,Nasaf,,,,,,,,false,
 Uzbekistan,13,DF,Sherzod Nasrullaev,1998-07-23,31,2,Nasaf,,,,,,,,false,
-Uzbekistan,14,FW,Eldor Shomurodov,1995-06-29,92,44,İstanbul Başakşehir,5954,,,,,,,false,
+Uzbekistan,14,FW,Eldor Shomurodov,1995-06-29,92,44,İstanbul Başakşehir,90004001,2916.0,22.0,,,5.0,,true,
 Uzbekistan,15,DF,Umar Eshmurodov,1992-11-30,29,0,Nasaf,,,,,,,,false,
 Uzbekistan,16,GK,Botirali Ergashev,1995-06-23,2,0,Neftchi Fergana,,,,,,,,false,
 Uzbekistan,17,MF,Dostonbek Khamdamov,1996-07-24,34,5,Pakhtakor,,,,,,,,false,
@@ -1138,25 +1138,25 @@ Uzbekistan,18,DF,Abdulla Abdullaev,1997-09-01,17,0,Dibba,,,,,,,,false,
 Uzbekistan,19,MF,Azizjon Ganiev,1998-02-22,19,0,Al Bataeh,,,,,,,,false,
 Uzbekistan,20,FW,Azizbek Amonov,1997-10-30,12,2,Dinamo Samarqand,,,,,,,,false,
 Uzbekistan,21,FW,Igor Sergeev,1993-04-30,83,25,Persepolis,90000958,1855.0,0.0,,,1.0,,true,
-Uzbekistan,22,MF,Abbosbek Fayzullaev,2003-10-03,32,8,İstanbul Başakşehir,,,,,,,,false,
+Uzbekistan,22,MF,Abbosbek Fayzullaev,2003-10-03,32,8,İstanbul Başakşehir,90003992,1103.0,3.0,,,3.0,,true,
 Uzbekistan,23,MF,Sherzod Esanov,2003-02-01,1,0,Bukhara,,,,,,,,false,
 Uzbekistan,24,DF,Bekhruz Karimov,2007-08-07,2,0,Surkhon Termiz,,,,,,,,false,
 Uzbekistan,25,DF,Avazbek Ulmasaliev,2000-03-27,0,0,AGMK,,,,,,,,false,
 Uzbekistan,26,DF,Jakhongir Urozov,2004-01-18,4,0,Dinamo Samarqand,,,,,,,,false,
-Croatia,1,GK,Dominik Livaković,1995-01-09,75,0,Dinamo Zagreb,,,,,,,,false,
+Croatia,1,GK,Dominik Livaković,1995-01-09,75,0,Dinamo Zagreb,90004130,90.0,0.0,,,0.0,,true,
 Croatia,2,DF,Josip Stanišić,2000-04-02,31,0,Bayern Munich,9458,1842.0,2.0,1.4695102348923683,1.4695102348923683,3.0,3.6430143248289824,true,0.07180017434327533
 Croatia,3,DF,Marin Pongračić,1997-09-11,20,0,Fiorentina,8303,2923.0,0.0,0.592979246750474,0.592979246750474,0.0,0.688893262296915,true,0.018257999386774772
 Croatia,4,DF,Joško Gvardiol,2002-01-23,48,4,Manchester City,9790,1374.0,2.0,1.8614049591124058,1.8614049591124058,2.0,0.43760474771261215,true,0.12192608902483007
 Croatia,5,DF,Duje Ćaleta-Car,1996-09-17,38,1,Real Sociedad,7007,2140.0,1.0,1.877065658569336,1.877065658569336,0.0,0.19668001495301723,true,0.07894201367814964
-Croatia,6,DF,Josip Šutalo,2000-02-28,33,0,Ajax,,,,,,,,false,
+Croatia,6,DF,Josip Šutalo,2000-02-28,33,0,Ajax,90002171,1800.0,0.0,,,0.0,,true,
 Croatia,7,MF,Nikola Moro,1998-03-12,10,0,Bologna,8626,1784.0,1.0,0.9313860163092613,0.9313860163092613,0.0,2.0523393927142024,true,0.04698696270618471
 Croatia,8,MF,Mateo Kovačić,1994-05-06,113,5,Manchester City,2254,120.0,0.0,0.09216287732124329,0.09216287732124329,1.0,0.4274698607623577,true,0.06912215799093246
 Croatia,9,FW,Andrej Kramarić,1991-06-19,116,36,TSG Hoffenheim,956,2256.0,14.0,13.078245226293802,9.289361868053675,6.0,4.530489624477923,true,0.37058624473618385
 Croatia,10,MF,Luka Modrić,1985-09-09,198,29,Milan,2250,2827.0,2.0,1.2469155695289373,1.2469155695289373,3.0,4.025909835472703,true,0.039696639992077946
 Croatia,11,FW,Ante Budimir,1991-07-22,38,6,Osasuna,1235,2995.0,17.0,19.191765047609806,13.24554404988885,0.0,1.7123363316059113,true,0.3980297043372275
-Croatia,12,GK,Ivor Pandur,2000-03-25,0,0,Hull City,,,,,,,,false,
+Croatia,12,GK,Ivor Pandur,2000-03-25,0,0,Hull City,90003399,4050.0,0.0,,,0.0,,true,
 Croatia,13,MF,Nikola Vlašić,1997-10-04,63,10,Torino,6276,3079.0,8.0,7.4081211276352406,3.601626990363002,3.0,4.68042840436101,true,0.10527652781184482
-Croatia,14,FW,Ivan Perišić,1989-02-02,154,38,PSV Eindhoven,448,,,,,,,false,
+Croatia,14,FW,Ivan Perišić,1989-02-02,154,38,PSV Eindhoven,90002473,2203.0,7.0,,,12.0,,true,
 Croatia,15,MF,Mario Pašalić,1995-02-09,85,12,Atalanta,1134,1922.0,3.0,3.4538544081151485,3.4538544081151485,4.0,6.249310817569494,true,0.16173095563494452
 Croatia,16,MF,Martin Baturina,2003-02-16,19,1,Como,13934,1579.0,6.0,1.9010922936722636,1.9010922936722636,3.0,6.69613741338253,true,0.10835864878435955
 Croatia,17,MF,Petar Sučić,2003-10-25,17,1,Inter Milan,13964,1763.0,2.0,2.181936677545309,2.181936677545309,2.0,4.040994327515364,true,0.11138644411745764
@@ -1190,7 +1190,7 @@ England,18,FW,Anthony Gordon,2001-02-24,19,3,Newcastle United,8150,1888.0,6.0,8.
 England,19,FW,Ollie Watkins,1995-12-30,22,7,Aston Villa,8865,2908.0,16.0,18.827725588344038,18.827725588344038,3.0,2.816021606326103,true,0.5827012733669062
 England,20,FW,Noni Madueke,2002-03-10,11,1,Arsenal,11357,1246.0,2.0,1.9964179322123528,1.9964179322123528,1.0,4.010977517813444,true,0.14420354245514586
 England,21,MF,Eberechi Eze,1998-06-29,17,3,Arsenal,8706,1928.0,7.0,4.807457456365228,4.807457456365228,2.0,2.63351690210402,true,0.2244145078178789
-England,22,FW,Ivan Toney,1996-03-16,8,1,Al-Ahli,998,,,,,,,false,
+England,22,FW,Ivan Toney,1996-03-16,8,1,Al-Ahli,90004552,2745.0,32.0,,,7.0,,true,
 England,23,GK,James Trafford,2002-10-10,2,0,Manchester City,9077,360.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 England,24,DF,Reece James,1999-12-08,24,1,Chelsea,8067,1927.0,2.0,1.2280184961855412,1.2280184961855412,4.0,3.9933422207832336,true,0.05735426292511609
 England,25,DF,Djed Spence,2000-08-09,6,0,Tottenham Hotspur,10764,2068.0,0.0,1.1351130530238152,1.1351130530238152,0.0,1.8603137182071805,true,0.04940047135983722
@@ -1203,16 +1203,16 @@ Ghana,5,MF,Thomas Partey,1993-06-13,57,15,Villarreal,2328,892.0,0.0,0.5110291205
 Ghana,6,DF,Abdul Mumin,1998-06-06,5,0,Rayo Vallecano,11105,77.0,0.0,0.0,0.0,0.0,0.0,true,0.0
 Ghana,7,FW,Abdul Fatawu,2004-03-08,28,3,Leicester City,12911,,,,,,,false,
 Ghana,8,MF,Kwasi Sibo,1998-06-24,8,0,Oviedo,13699,1782.0,0.0,0.3234209390357137,0.3234209390357137,0.0,0.05000315047800541,true,0.01633439086038958
-Ghana,9,FW,Jordan Ayew,1991-09-11,120,34,Leicester City,672,,,,,,,false,
-Ghana,10,FW,Brandon Thomas-Asante,1998-12-29,8,1,Coventry City,,,,,,,,false,
+Ghana,9,FW,Jordan Ayew,1991-09-11,120,34,Leicester City,90003463,2259.0,6.0,,,3.0,,true,
+Ghana,10,FW,Brandon Thomas-Asante,1998-12-29,8,1,Coventry City,90003331,1862.0,13.0,,,4.0,,true,
 Ghana,11,MF,Antoine Semenyo,2000-01-07,34,3,Manchester City,11363,3220.0,17.0,12.836786897853017,11.31444920040667,4.0,4.130169393494725,true,0.3162423689554659
 Ghana,12,GK,Joseph Anang,2000-06-08,1,0,St Patrick's Athletic,,,,,,,,false,
-Ghana,13,FW,Christopher Bonsu Baah,2004-12-14,9,0,Al-Qadsiah,,,,,,,,false,
+Ghana,13,FW,Christopher Bonsu Baah,2004-12-14,9,0,Al-Qadsiah,90004844,2666.0,3.0,,,12.0,,true,
 Ghana,14,DF,Gideon Mensah,1998-07-18,40,0,Auxerre,9807,2353.0,0.0,0.01311845239251852,0.01311845239251852,2.0,1.6474777832627296,true,0.0005017682598073382
 Ghana,15,MF,Elisha Owusu,1997-11-07,20,0,Auxerre,6333,2366.0,0.0,0.1431004349142313,0.1431004349142313,0.0,1.0085062738507986,true,0.005443380871631791
 Ghana,16,GK,Benjamin Asare,1992-07-13,11,0,Hearts of Oak,,,,,,,,false,
 Ghana,17,DF,Abdul Rahman Baba,1994-07-02,51,1,PAOK,,,,,,,,false,
-Ghana,18,DF,Jerome Opoku,1998-10-14,11,1,İstanbul Başakşehir,,,,,,,,false,
+Ghana,18,DF,Jerome Opoku,1998-10-14,11,1,İstanbul Başakşehir,90004005,2739.0,0.0,,,1.0,,true,
 Ghana,19,FW,Iñaki Williams,1994-06-15,26,2,Athletic Bilbao,2399,2188.0,3.0,8.660440864041448,7.9171632546931505,6.0,4.2092270366847515,true,0.3256602801290601
 Ghana,20,MF,Augustine Boakye,2000-11-03,0,0,Saint-Étienne,12812,,,,,,,false,
 Ghana,21,DF,Kojo Peprah Oppong,2004-06-04,4,0,Nice,13750,2440.0,1.0,1.3100588582456112,1.3100588582456112,0.0,0.5910270726308227,true,0.048321843132010246
@@ -1223,7 +1223,7 @@ Ghana,25,FW,Prince Kwabena Adu,2003-09-23,5,0,Viktoria Plzeň,,,,,,,,false,
 Ghana,26,DF,Marvin Senaya,2001-01-28,2,0,Auxerre,9092,1796.0,1.0,1.403174713253975,1.403174713253975,0.0,0.23766765743494034,true,0.07031499119869584
 Panama,1,GK,Luis Mejía,1991-03-16,56,0,Nacional,,,,,,,,false,
 Panama,2,DF,César Blackman,1998-04-02,40,3,Slovan Bratislava,,,,,,,,false,
-Panama,3,DF,José Córdoba,2001-06-03,32,1,Norwich City,90001589,1.0,0.0,,,0.0,,true,
+Panama,3,DF,José Córdoba,2001-06-03,32,1,Norwich City,90003553,2252.0,1.0,,,1.0,,true,
 Panama,4,DF,Fidel Escobar,1995-01-09,99,4,Saprissa,,,,,,,,false,
 Panama,5,DF,Edgardo Fariña,2001-10-19,18,0,Pari Nizhny Novgorod,,,,,,,,false,
 Panama,6,MF,Cristian Martínez,1997-02-06,66,2,Ironi Kiryat Shmona,,,,,,,,false,
@@ -1242,8 +1242,8 @@ Panama,18,FW,Cecilio Waterman,1991-04-13,55,15,Universidad de Concepción,,,,,,,
 Panama,19,MF,Alberto Quintero,1987-12-18,141,7,Plaza Amador,,,,,,,,false,
 Panama,20,MF,Aníbal Godoy,1990-02-10,159,4,San Diego FC,90001249,1717.0,1.0,,,1.0,,true,
 Panama,21,MF,César Yanis,1996-01-28,56,5,Cobresal,,,,,,,,false,
-Panama,22,GK,Orlando Mosquera,1994-12-25,48,0,Al-Fayha,,,,,,,,false,
-Panama,23,DF,Michael Amir Murillo,1996-02-11,94,9,Beşiktaş,12111,978.0,2.0,1.0468609929084778,1.0468609929084778,1.0,1.9396317675709724,true,0.09633690118789673
+Panama,22,GK,Orlando Mosquera,1994-12-25,48,0,Al-Fayha,90004652,2880.0,0.0,,,0.0,,true,
+Panama,23,DF,Michael Amir Murillo,1996-02-11,94,9,Beşiktaş,90004035,958.0,1.0,,,1.0,,true,
 Panama,24,FW,Azarias Londoño,2001-06-21,11,0,Universidad Católica,,,,,,,,false,
 Panama,25,DF,Roderick Miller,1992-04-03,50,2,Turan Tovuz,,,,,,,,false,
 Panama,26,DF,Jorge Gutiérrez,1998-09-01,18,0,Deportivo La Guaira,,,,,,,,false,

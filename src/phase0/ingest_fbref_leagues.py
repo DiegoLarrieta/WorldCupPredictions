@@ -4,10 +4,11 @@ Understat only covers the big-5, so World Cup players at clubs like Inter Miami 
 Al-Nassr (Saudi), or Cruz Azul (Liga MX) had no club form. FBref covers these leagues
 (custom entries in ~/soccerdata/config/league_dict.json), so we pull them here.
 
-HONEST LIMITATION: FBref has NO xG for these leagues — only goals, assists, minutes.
-So these players get a goals/minutes form signal, not the richer xG the big-5 players
-get. That asymmetry is real and the model should treat it as such (we know Mbappé's
-chance quality; for Messi in MLS we only know goals).
+HONEST LIMITATION: FBref carries xG for SOME of these leagues (e.g. Championship,
+Eredivisie/Primeira vary) but NOT others (Liga MX, MLS, Brazil, Saudi) — those get a
+goals/minutes signal only. We capture xG where it exists and leave it NULL where it
+doesn't, so the asymmetry is explicit in the data (we know Mbappé's chance quality;
+for Messi in MLS we only know goals).
 
 Appends to the existing clubs / players / player_seasons tables with synthesized IDs
 (offset so they never collide with Understat's IDs). Run AFTER ingest_nationality
@@ -25,24 +26,31 @@ from ingest import DB_PATH
 
 # Register custom FBref leagues in-process (self-contained — no external
 # ~/soccerdata config needed, so the repo reproduces anywhere). The FBref value
-# must match FBref's exact competition_name.
+# must match FBref's exact competition_name (resolved by trial).
 CUSTOM_LEAGUES = {
     "MEX-Liga MX": {"FBref": "Liga MX", "season_start": "Jul", "season_end": "May"},
     "USA-Major League Soccer": {"FBref": "Major League Soccer", "season_start": "Feb", "season_end": "Dec"},
     "BRA-Serie A": {"FBref": "Campeonato Brasileiro Série A", "season_start": "Apr", "season_end": "Dec"},
-    # NOTE: Saudi Pro League is unresolved — FBref via soccerdata rejects every name
-    # variant tried ("Saudi Pro League", "Saudi Professional League", ...). Known gap;
-    # affects mainly club form for players based in Saudi Arabia (e.g. Al-Nassr).
+    "NED-Eredivisie": {"FBref": "Eredivisie", "season_start": "Aug", "season_end": "May"},
+    "POR-Primeira Liga": {"FBref": "Primeira Liga", "season_start": "Aug", "season_end": "May"},
+    "ENG-Championship": {"FBref": "EFL Championship", "season_start": "Aug", "season_end": "May"},
+    "TUR-Super Lig": {"FBref": "Süper Lig", "season_start": "Aug", "season_end": "May"},
+    "KSA-Pro League": {"FBref": "Saudi Pro League", "season_start": "Aug", "season_end": "May"},
 }
 _config.LEAGUE_DICT.update(CUSTOM_LEAGUES)
 
-# (league, season) — MLS/Brazil run on a single calendar year; Liga MX cross-year.
+# (league, season) — MLS/Brazil run on a single calendar year; the rest cross-year.
 # All are tagged season='2526' in player_seasons = "current form" so the bridge
 # (FORM_SEASON='2526') picks them up uniformly.
 LEAGUE_SEASONS = [
     ("MEX-Liga MX", "2526"),
     ("USA-Major League Soccer", "2025"),
     ("BRA-Serie A", "2025"),
+    ("NED-Eredivisie", "2526"),
+    ("POR-Primeira Liga", "2526"),
+    ("ENG-Championship", "2526"),
+    ("TUR-Super Lig", "2526"),
+    ("KSA-Pro League", "2526"),
 ]
 ID_OFFSET = 90_000_000  # synthetic IDs live far above Understat's range
 
@@ -83,10 +91,14 @@ def pull() -> pd.DataFrame:
                     "minutes": pd.to_numeric(_col(ps, "Playing Time", "Min"), errors="coerce"),
                     "goals": pd.to_numeric(_col(ps, "Performance", "Gls"), errors="coerce"),
                     "assists": pd.to_numeric(_col(ps, "Performance", "Ast"), errors="coerce"),
+                    # xG only exists for some leagues on FBref; null where absent.
+                    "xg": pd.to_numeric(_col(ps, "Expected", "xG"), errors="coerce"),
+                    "np_xg": pd.to_numeric(_col(ps, "Expected", "npxG"), errors="coerce"),
                 }
             )
             frames.append(out.dropna(subset=["name", "club"]))
-            print(f"  {league} {season}: {len(out)} players")
+            has_xg = out["xg"].notna().any()
+            print(f"  {league} {season}: {len(out)} players (xG={'yes' if has_xg else 'no'})")
         except Exception as e:
             print(f"  ! {league} {season} skipped ({type(e).__name__}: {e})")
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
@@ -124,9 +136,10 @@ def main() -> None:
         "nationality, CAST(born AS INTEGER) FROM players_out"
     )
 
-    # append player_seasons (xG-family columns are NULL — FBref lacks them here)
+    # append player_seasons. xg/np_xg from pull() come through where the league has
+    # them; Understat-only columns (xa, shots, key_passes, xg_chain/buildup) stay NULL.
     seasons_out = df.assign(
-        season="2526", np_goals=None, xg=None, np_xg=None, xa=None,
+        season="2526", np_goals=None, xa=None,
         shots=None, key_passes=None, xg_chain=None, xg_buildup=None,
     )[
         ["player_id", "season", "club_id", "league", "position", "appearances",
