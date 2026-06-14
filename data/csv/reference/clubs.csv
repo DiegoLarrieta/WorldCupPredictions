@@ -28,9 +28,11 @@ club_id,name,league
 80,Chelsea,ENG-Premier League
 270,Clermont Foot,FRA-Ligue 1
 286,Como,ITA-Serie A
+272,Cremonese,ITA-Serie A
 78,Crystal Palace,ENG-Premier League
 127,Darmstadt,GER-Bundesliga
 132,Eintracht Frankfurt,GER-Bundesliga
+207,Elche,ESP-La Liga
 108,Empoli,ITA-Serie A
 141,Espanyol,ESP-La Liga
 72,Everton,ENG-Premier League
@@ -44,6 +46,7 @@ club_id,name,league
 142,Getafe,ESP-La Liga
 223,Girona,ESP-La Liga
 155,Granada,ESP-La Liga
+118,Hamburger SV,GER-Bundesliga
 120,Hoffenheim,GER-Bundesliga
 287,Holstein Kiel,GER-Bundesliga
 106,Inter,ITA-Serie A
@@ -53,9 +56,11 @@ club_id,name,league
 96,Lazio,ITA-Serie A
 282,Le Havre,FRA-Ligue 1
 243,Lecce,ITA-Serie A
+245,Leeds,ENG-Premier League
 159,Leganes,ESP-La Liga
 75,Leicester,ENG-Premier League
 210,Lens,FRA-Ligue 1
+151,Levante,ESP-La Liga
 160,Lille,FRA-Ligue 1
 87,Liverpool,ENG-Premier League
 179,Lorient,FRA-Ligue 1
@@ -76,12 +81,15 @@ club_id,name,league
 170,Nice,FRA-Ligue 1
 249,Nottingham Forest,ENG-Premier League
 157,Osasuna,ESP-La Liga
+290,Paris FC,FRA-Ligue 1
 161,Paris Saint Germain,FRA-Ligue 1
 230,Parma Calcio 1913,ITA-Serie A
+291,Pisa,ITA-Serie A
 136,RasenBallsport Leipzig,GER-Bundesliga
 145,Rayo Vallecano,ESP-La Liga
 153,Real Betis,ESP-La Liga
 150,Real Madrid,ESP-La Liga
+289,Real Oviedo,ESP-La Liga
 140,Real Sociedad,ESP-La Liga
 231,Real Valladolid,ESP-La Liga
 177,Reims,FRA-Ligue 1
@@ -95,6 +103,7 @@ club_id,name,league
 74,Southampton,ENG-Premier League
 288,St. Pauli,GER-Bundesliga
 225,Strasbourg,FRA-Ligue 1
+77,Sunderland,ENG-Premier League
 113,Torino,ITA-Serie A
 82,Tottenham,ENG-Premier League
 174,Toulouse,FRA-Ligue 1

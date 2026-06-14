@@ -32,7 +32,7 @@ PLAYER_LEAGUES = [
     "ITA-Serie A",
     "FRA-Ligue 1",
 ]
-PLAYER_SEASONS = ["2324", "2425"]
+PLAYER_SEASONS = ["2324", "2425", "2526"]  # 2526 = current season, aligns with 2026 squads
 
 # Understat player-season columns we keep, renamed to our schema.
 STAT_COLS = {

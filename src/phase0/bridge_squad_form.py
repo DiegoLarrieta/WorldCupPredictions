@@ -24,7 +24,7 @@ from rapidfuzz import fuzz, process
 from ingest import DB_PATH
 from ingest_nationality import norm
 
-FORM_SEASON = "2425"
+FORM_SEASON = "2526"  # current season — the form that matters for a 2026 WC predictor
 FUZZY_CUTOFF = 88
 
 
