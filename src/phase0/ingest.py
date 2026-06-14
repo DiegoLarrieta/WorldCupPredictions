@@ -219,7 +219,11 @@ def main() -> None:
     # Assign global match_ids across both sources, then resolve odds FKs.
     fact_match = pd.concat([intl, club], ignore_index=True)
     fact_match.insert(0, "match_id", range(len(fact_match)))
-    fact_odds = pd.DataFrame()
+    # Schema'd empty frame so the table persists even when odds are unavailable
+    # (e.g. football-data.co.uk 503) — DuckDB can't create a 0-column table.
+    fact_odds = pd.DataFrame(
+        columns=["match_id", "bookmaker", "market", "selection", "line", "price", "captured_at"]
+    )
     if not club_odds.empty:
         # club rows occupy the tail of fact_match; map local idx -> global match_id
         club_offset = len(intl)
