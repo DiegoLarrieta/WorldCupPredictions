@@ -1,5 +1,6 @@
-# data & local stores
-data/
+# data: track the CSV mirror (small, text, perishable snapshot), but never the
+# binary DuckDB file (regenerable from the CSVs / `make data`).
+data/*.duckdb
 *.duckdb
 *.duckdb.wal
 
