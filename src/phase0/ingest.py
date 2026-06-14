@@ -37,10 +37,16 @@ import pandas as pd
 MARTJ42_RESULTS_URL = (
     "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
 )
-# football-data.co.uk (via soccerdata) is club-only and has no internationals, so it
-# can't fuel a WC backtest — it proves the de-vig HARNESS on club matches, same code.
-ODDS_LEAGUES = ["ENG-Premier League"]
-ODDS_SEASONS = ["2324"]
+# football-data.co.uk is club-only (no internationals), so it can't fuel a WC backtest
+# — it proves the de-vig HARNESS on club matches. We download the CSVs DIRECTLY (a plain
+# browser UA): soccerdata's tls_requests fingerprint gets 503'd by football-data, but a
+# normal GET returns 200. Each entry is (league_code, season_code) → /mmz4281/{season}/{league}.csv
+ODDS_FILES = [
+    ("E0", "2324"),  # English Premier League, 2023-24
+    ("E0", "2425"),  # English Premier League, 2024-25
+]
+FOOTBALL_DATA_BASE = "https://www.football-data.co.uk/mmz4281"
+BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
 # Only weigh matches from ~1990 on into Elo's "current" picture; older matches still
 # warm the rating but their influence has long since decayed. (Full history is kept.)
@@ -140,20 +146,43 @@ def load_internationals() -> pd.DataFrame:
     return out
 
 
+def _download_csv(league: str, season: str) -> pd.DataFrame:
+    """Direct GET of one football-data.co.uk CSV with a browser UA."""
+    import io
+    import urllib.request
+
+    url = f"{FOOTBALL_DATA_BASE}/{season}/{league}.csv"
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = resp.read()
+    # football-data CSVs are latin-1 with occasional BOM/blank trailing rows.
+    df = pd.read_csv(io.BytesIO(raw), encoding="latin-1", on_bad_lines="skip")
+    df["_league"] = league
+    return df.dropna(subset=["HomeTeam", "AwayTeam"])
+
+
 def load_club_odds() -> tuple[pd.DataFrame, pd.DataFrame]:
     """football-data.co.uk club matches + their closing odds (the harness fuel)."""
-    import soccerdata as sd
+    print("  football-data.co.uk club matches + odds (direct download) ...")
+    frames = []
+    for league, season in ODDS_FILES:
+        try:
+            frames.append(_download_csv(league, season))
+            print(f"    {league} {season}: ok")
+        except Exception as e:
+            print(f"    {league} {season}: skipped ({type(e).__name__})")
+    if not frames:
+        raise ConnectionError("no football-data CSVs downloaded")
+    games = pd.concat(frames, ignore_index=True)
 
-    print("  football-data.co.uk club matches + odds (via soccerdata) ...")
-    games = sd.MatchHistory(leagues=ODDS_LEAGUES, seasons=ODDS_SEASONS).read_games().reset_index()
     matches = pd.DataFrame(
         {
-            "date": pd.to_datetime(games["date"]).dt.date,
-            "home_team": games["home_team"],
-            "away_team": games["away_team"],
+            "date": pd.to_datetime(games["Date"], dayfirst=True, errors="coerce").dt.date,
+            "home_team": games["HomeTeam"],
+            "away_team": games["AwayTeam"],
             "home_goals": games.get("FTHG"),
             "away_goals": games.get("FTAG"),
-            "tournament": ODDS_LEAGUES[0],
+            "tournament": games["_league"],
             "neutral": False,
             "is_international": False,
             "source": "football-data",

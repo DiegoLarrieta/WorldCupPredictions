@@ -37,7 +37,11 @@ SELECT
     m.date,
     m.home_team,
     m.away_team,
-    m.result,                                  -- H / D / A (actual)
+    CASE                                       -- H / D / A (actual), derived from goals
+        WHEN m.home_goals > m.away_goals THEN 'H'
+        WHEN m.home_goals = m.away_goals THEN 'D'
+        ELSE 'A'
+    END AS result,
     MAX(CASE WHEN p.selection = 'home' THEN p.implied_prob END) AS p_home,
     MAX(CASE WHEN p.selection = 'draw' THEN p.implied_prob END) AS p_draw,
     MAX(CASE WHEN p.selection = 'away' THEN p.implied_prob END) AS p_away,
