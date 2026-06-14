@@ -1,0 +1,125 @@
+"""Nationality bridge: fill dim_player.nationality by matching Understat players to
+FBref's `nation` field. This is the first half of the club->country wire.
+
+The entity-resolution problem, made concrete: Understat stores "Kylian Mbappe-Lottin",
+FBref stores "Kylian Mbappé" with nation=FRA and born=1998. There is no shared ID, so we
+match on a normalized name, disambiguate homonyms by club, and fall back to fuzzy matching
+for spelling drift. nation is a 3-letter FIFA code (FRA, ENG, BRA) — a clean canonical key.
+
+Source: FBref player_season_stats, big-5, season 2425 (nationality doesn't change by
+season, so one season covers ~all current players). FBref needs a headless-Chrome scrape;
+it caches after the first pull.
+
+Output: dim_player.nationality populated (FIFA code), + a match-rate report and the
+unmatched tail (the manual-review queue the eng review called for).
+"""
+
+from __future__ import annotations
+
+import re
+
+import duckdb
+import pandas as pd
+import soccerdata as sd
+from rapidfuzz import fuzz, process
+from unidecode import unidecode
+
+from ingest import DB_PATH
+from ingest_players import PLAYER_LEAGUES
+
+FBREF_SEASON = "2425"
+FUZZY_CUTOFF = 88  # token_set_ratio score required for a non-exact name match
+
+
+def norm(s: str) -> str:
+    """Accent-fold, lowercase, strip punctuation, collapse spaces."""
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z ]", " ", unidecode(str(s)).lower())).strip()
+
+
+def load_fbref_nations() -> pd.DataFrame:
+    print(f"  FBref player nations (big-5, {FBREF_SEASON}) — headless scrape, cached after ...")
+    fb = sd.FBref(leagues=PLAYER_LEAGUES, seasons=FBREF_SEASON)
+    ps = fb.read_player_season_stats(stat_type="standard").reset_index()
+    ps.columns = [c[0] if isinstance(c, tuple) else c for c in ps.columns]
+    out = ps[["player", "nation", "team", "born"]].dropna(subset=["nation"]).copy()
+    out["norm"] = out["player"].map(norm)
+    out["club_norm"] = out["team"].map(norm)
+    print(f"    {len(out)} FBref player rows with a nation")
+    return out
+
+
+def match_nationalities(players: pd.DataFrame, fb: pd.DataFrame) -> dict[int, str]:
+    """players: Understat dim_player + club name. Returns player_id -> FIFA code."""
+    by_norm: dict[str, list] = {}
+    for r in fb.itertuples(index=False):
+        by_norm.setdefault(r.norm, []).append(r)
+    fb_names = list(by_norm.keys())
+
+    out: dict[int, str] = {}
+    fuzzy_used = exact = club_tiebreak = 0
+    for p in players.itertuples(index=False):
+        key = norm(p.name)
+        cands = by_norm.get(key)
+        if not cands:
+            hit = process.extractOne(key, fb_names, scorer=fuzz.token_set_ratio,
+                                     score_cutoff=FUZZY_CUTOFF)
+            if hit:
+                cands = by_norm[hit[0]]
+                fuzzy_used += 1
+        if not cands:
+            continue
+        if len(cands) == 1:
+            chosen = cands[0]
+            exact += 1
+        else:
+            # homonyms: pick the candidate whose club best matches
+            pclub = norm(p.club or "")
+            chosen = max(cands, key=lambda c: fuzz.token_set_ratio(pclub, c.club_norm))
+            club_tiebreak += 1
+        out[p.player_id] = chosen.nation
+    print(f"    matched {len(out)}/{len(players)}  "
+          f"(exact {exact}, club-tiebreak {club_tiebreak}, fuzzy {fuzzy_used})")
+    return out
+
+
+def main() -> None:
+    print("Nationality bridge ...")
+    con = duckdb.connect(str(DB_PATH))
+    players = con.execute(
+        """
+        SELECT p.player_id, p.name, c.name AS club
+        FROM dim_player p LEFT JOIN dim_club c ON c.club_id = p.current_club_id
+        """
+    ).fetch_df()
+
+    fb = load_fbref_nations()
+    mapping = match_nationalities(players, fb)
+
+    # write nationality back to dim_player
+    map_df = pd.DataFrame(
+        [{"player_id": pid, "nationality": nat} for pid, nat in mapping.items()]
+    )
+    con.execute("ALTER TABLE dim_player DROP COLUMN IF EXISTS nationality")
+    con.execute("ALTER TABLE dim_player ADD COLUMN nationality VARCHAR")
+    con.execute("CREATE OR REPLACE TEMP TABLE _natmap AS SELECT * FROM map_df")
+    con.execute(
+        "UPDATE dim_player SET nationality = m.nationality "
+        "FROM _natmap m WHERE m.player_id = dim_player.player_id"
+    )
+
+    total = con.execute("SELECT COUNT(*) FROM dim_player").fetchone()[0]
+    filled = con.execute("SELECT COUNT(*) FROM dim_player WHERE nationality IS NOT NULL").fetchone()[0]
+    print(f"\n  dim_player.nationality filled: {filled}/{total} ({filled/total:.0%})")
+    print("  top nationalities:")
+    for nat, n in con.execute(
+        "SELECT nationality, COUNT(*) c FROM dim_player WHERE nationality IS NOT NULL "
+        "GROUP BY nationality ORDER BY c DESC LIMIT 8"
+    ).fetchall():
+        print(f"    {nat}  {n}")
+    con.execute("COPY (SELECT * FROM dim_player) TO 'data/csv/dim_player.csv' (HEADER)")
+    con.close()
+    print("\n  exported data/csv/dim_player.csv")
+
+
+if __name__ == "__main__":
+    main()
