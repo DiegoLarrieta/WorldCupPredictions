@@ -18,7 +18,15 @@ Guiding rules (so "gather everything" doesn't become "gather forever"):
 ## Step 0 — Spine + the harness (the thin slice)  ← START HERE
 **What:** Land the match backbone and prove the implied-probability query end to end.
 - Pull **martj42/international_results** → `fact_match` (every international, the spine).
-- Pull **ClubElo** (via soccerdata) → `team_elo` (recency-aware team strength).
+- **Compute our own Elo** from the martj42 results → `team_elo` (recency-aware national-team
+  strength). [ENG REVIEW: ClubElo rates *club* teams only, not national teams — it can't rate
+  Brazil/Morocco. We roll Elo from results we already have: `new = old + K·(result − expected)`,
+  `K` scaled by match importance + goal margin. No new source, directly recency-tunable, and
+  sanity-checkable against eloratings.net's published numbers.]
+- Build the **~210-team ISO-keyed seed map** + a **reconciliation test** (0 unmatched teams
+  after any join) BEFORE the first cross-source join. [ENG REVIEW: entity resolution isn't
+  deferrable — it bites the instant two sources meet. Teams are bounded/stable, so the map is
+  an afternoon done once; the test fails loudly on any silent drop.]
 - Backfill **closing odds** from football-data.co.uk (via soccerdata, club leagues) → `fact_odds` (long format).
 - Write the SQL: market's **vig-removed implied probability** per match (`sql/implied_prob.sql`).
 
@@ -71,9 +79,10 @@ backtest shows player form moves the needle.)
 **What:** A robust cron that snapshots **The Odds API** (free tier, ~40 books) for every
 2026 WC match a few times a day → append-only into `fact_odds` (partitioned by capture time).
 **Why:** Historical WC line-movement is expensive/unavailable, but we can *record it free,
-now*. Miss a window = data lost for 4 years — so this job must be **robust** (logging, alert
-on silent failure, idempotent re-runs). [Open design question: how robust + whether to add an
-OddsPortal scrape fallback — carried over from /plan-eng-review architecture issue 2.]
+now*. Miss a window = data lost for 4 years — so this job must be **robust**. [ENG REVIEW
+RESOLVED: idempotent re-runnable job + logs every capture + **dead-man alert** (push/email if
+a scheduled window produces zero rows) + **OddsPortal scrape fallback** for closing odds if The
+Odds API misses. This is the one job worth over-building because the cost of loss is irreversible.]
 **Done when:** A scheduled job reliably logs multi-book odds snapshots for live WC matches,
 and we can see a line move over time.
 
@@ -116,3 +125,23 @@ source_id_map           canonical_id ↔ (source, native_id) crosswalk
 - Paid sharp-line feed (Pinnacle via OddsPapi/SportsGameOdds) — defer until a backtest finds edge.
 - The actual prediction model — this whole plan is Step 1 (data); modeling is a later session.
 ```
+
+## Feasibility note (eng review)
+`src/phase0/ingest.py` currently imports ClubElo and runs on Python 3.14. Two follow-ups:
+the Elo path must be rewritten to compute national-team Elo from results (above), and
+`soccerdata` should be verified against 3.14 (lxml/pandas pins) — fall back to a 3.12 venv if
+imports fail.
+
+## GSTACK REVIEW REPORT
+
+| Review | Trigger | Why | Runs | Status | Findings |
+|--------|---------|-----|------|--------|----------|
+| CEO Review | `/plan-ceo-review` | Scope & strategy | 0 | — | — |
+| Codex Review | `/codex review` | Independent 2nd opinion | 0 | — | — |
+| Eng Review | `/plan-eng-review` | Architecture & tests (required) | 1 | issues_resolved | 3 issues, 2 critical test gaps |
+| Design Review | `/plan-design-review` | UI/UX gaps | 0 | — | — |
+| DX Review | `/plan-devex-review` | Developer experience gaps | 0 | — | — |
+
+- **VERDICT:** ENG reviewed — 3 architecture issues raised, all 3 resolved with user decisions (own-Elo, robust odds cron + OddsPortal fallback, team seed map + reconciliation test). Ready to implement Phase 0.
+
+NO UNRESOLVED DECISIONS
