@@ -74,20 +74,30 @@ TEAM_ALIASES = {
 }
 
 
+# Continental championship FINALS (not their qualifiers) + Confederations Cup.
+# These deserve elevated K — the old code lumped them with routine qualifiers,
+# which under-weighted the biggest tournaments and let CONMEBOL teams float high.
+_CONTINENTAL_FINALS = (
+    "uefa euro", "copa am", "african cup of nations", "afc asian cup",
+    "gold cup", "concacaf championship", "confederations cup",
+    "oceania nations cup", "nations league",
+)
+
+
 # --- Elo (World Football Elo method) ----------------------------------------
 def _k_factor(tournament: str, goal_diff: int) -> float:
-    """Base K by match importance, scaled up by goal margin."""
+    """Base K by match importance, scaled up by goal margin (eloratings.net tiers)."""
     t = (tournament or "").lower()
-    if "world cup" in t and "qual" not in t:
-        base = 60.0
-    elif "world cup qual" in t or "continental" in t.replace("championship", "continental"):
-        base = 50.0
-    elif "qualif" in t:
-        base = 40.0
+    if "qualif" in t:
+        base = 40.0  # any qualifier (World Cup, Euro, AFCON, ...)
+    elif "world cup" in t:
+        base = 60.0  # World Cup finals
+    elif any(name in t for name in _CONTINENTAL_FINALS):
+        base = 50.0  # continental championship finals + Confederations Cup
     elif "friendly" in t:
         base = 20.0
     else:
-        base = 40.0  # confederation cups, finals tournaments
+        base = 30.0  # minor tournaments / regional cups
     g = abs(goal_diff)
     if g == 2:
         mult = 1.5
