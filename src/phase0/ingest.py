@@ -224,6 +224,9 @@ def load_club_odds() -> tuple[pd.DataFrame, pd.DataFrame]:
 # --- entity resolution (reconciliation tripwire) ----------------------------
 def reconcile_teams(intl: pd.DataFrame) -> pd.DataFrame:
     """Canonical national-team list from the spine + a loud check for drops."""
+    # strip stray whitespace so names join cleanly across sources
+    intl["home_team"] = intl["home_team"].str.strip()
+    intl["away_team"] = intl["away_team"].str.strip()
     teams = sorted(set(intl["home_team"]) | set(intl["away_team"]))
     dim = pd.DataFrame({"team": teams})
     dim["canonical"] = dim["team"].map(lambda t: TEAM_ALIASES.get(t, t))
