@@ -1,0 +1,15 @@
+# data & local stores
+data/
+*.duckdb
+*.duckdb.wal
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# soccerdata cache
+.soccerdata/
+
+# env
+.env
