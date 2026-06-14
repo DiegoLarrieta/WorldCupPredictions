@@ -33,6 +33,12 @@ def _clean(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _clean_player(s: str) -> str:
+    """Player name without the Wikipedia role annotations that break name matching."""
+    s = re.sub(r"\s*\((?:vice-?)?captain\)", "", _clean(s), flags=re.IGNORECASE)
+    return s.strip()
+
+
 def fetch_squads() -> pd.DataFrame:
     html = urllib.request.urlopen(
         urllib.request.Request(SQUADS_URL, headers={"User-Agent": "Mozilla/5.0"}), timeout=30
@@ -66,7 +72,7 @@ def fetch_squads() -> pd.DataFrame:
                     "country": country,
                     "shirt_no": _clean(col("No.").iloc[i]),
                     "position": _clean(col("Pos.").iloc[i]),
-                    "player": _clean(col("Player").iloc[i]),
+                    "player": _clean_player(col("Player").iloc[i]),
                     "dob": bdays[i] if i < len(bdays) else None,
                     "caps": pd.to_numeric(_clean(col("Caps").iloc[i]), errors="coerce"),
                     "intl_goals": pd.to_numeric(_clean(col("Goals").iloc[i]), errors="coerce"),
