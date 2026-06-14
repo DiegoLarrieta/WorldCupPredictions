@@ -57,7 +57,9 @@ def fetch_squads() -> pd.DataFrame:
             hit = [c for c in df.columns if name in str(c)]
             return df[hit[0]] if hit else pd.Series([None] * len(df))
 
-        dob_raw = col("Date of birth").astype(str)
+        # Real birthdate lives in a hidden <span class="bday"> that read_html drops;
+        # pull it straight from the table HTML, in player row order.
+        bdays = [s.get_text(strip=True) for s in table.find_all("span", class_="bday")]
         for i in range(len(df)):
             rows.append(
                 {
@@ -65,8 +67,7 @@ def fetch_squads() -> pd.DataFrame:
                     "shirt_no": _clean(col("No.").iloc[i]),
                     "position": _clean(col("Pos.").iloc[i]),
                     "player": _clean(col("Player").iloc[i]),
-                    "dob": (re.search(r"(\d{4}-\d{2}-\d{2})", dob_raw.iloc[i]) or [None, None])[1]
-                    if re.search(r"(\d{4}-\d{2}-\d{2})", dob_raw.iloc[i]) else None,
+                    "dob": bdays[i] if i < len(bdays) else None,
                     "caps": pd.to_numeric(_clean(col("Caps").iloc[i]), errors="coerce"),
                     "intl_goals": pd.to_numeric(_clean(col("Goals").iloc[i]), errors="coerce"),
                     "club": _clean(col("Club").iloc[i]),
@@ -86,10 +87,9 @@ def main() -> None:
         print(f"  ! squads outside {MIN_SQUAD}-{MAX_SQUAD}: {bad.to_dict()}")
 
     con = duckdb.connect(str(DB_PATH))
-    con.execute("CREATE OR REPLACE TABLE national_squad AS SELECT * FROM squads")
-    con.execute("COPY (SELECT * FROM national_squad) TO 'data/csv/national_squad.csv' (HEADER)")
+    con.execute("CREATE OR REPLACE TABLE wc_squads AS SELECT * FROM squads")
     con.close()
-    print(f"  loaded national_squad ({len(squads)} rows) + exported CSV")
+    print(f"  loaded wc_squads ({len(squads)} rows)")
     print("\n  sample (Mexico):")
     for r in squads[squads["country"] == "Mexico"].head(6).itertuples(index=False):
         print(f"    {r.shirt_no:>2} {r.position:<3} {r.player:<24} {r.club}")

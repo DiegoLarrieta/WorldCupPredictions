@@ -31,7 +31,7 @@ from ingest import DB_PATH, ELO_BASE, _expected, _k_factor
 
 MIN_YEAR = 2000      # ignore early eras (different game, sparse data)
 MIN_PRIOR = 30       # both teams must have this many prior matches to be scored
-CSV_OUT = Path(__file__).resolve().parents[2] / "data" / "csv" / "elo_calibration.csv"
+CSV_OUT = Path(__file__).resolve().parents[2] / "data" / "csv" / "derived" / "elo_calibration.csv"
 
 
 def load_internationals() -> pd.DataFrame:
@@ -39,7 +39,7 @@ def load_internationals() -> pd.DataFrame:
     df = con.execute(
         """
         SELECT date, home_team, away_team, home_goals, away_goals, tournament, neutral
-        FROM fact_match
+        FROM matches
         WHERE is_international AND home_goals IS NOT NULL AND away_goals IS NOT NULL
         ORDER BY date
         """

@@ -131,7 +131,7 @@ def compute_elo(matches: pd.DataFrame) -> pd.DataFrame:
         ratings[h] = rh + k * (score - exp)
         ratings[a] = ra + k * ((1.0 - score) - (1.0 - exp))
     return pd.DataFrame(
-        {"team": list(ratings), "elo": list(ratings.values())}
+        {"team_name": list(ratings), "elo": list(ratings.values())}
     ).sort_values("elo", ascending=False).reset_index(drop=True)
 
 
@@ -227,19 +227,19 @@ def reconcile_teams(intl: pd.DataFrame) -> pd.DataFrame:
     # strip stray whitespace so names join cleanly across sources
     intl["home_team"] = intl["home_team"].str.strip()
     intl["away_team"] = intl["away_team"].str.strip()
-    teams = sorted(set(intl["home_team"]) | set(intl["away_team"]))
-    dim = pd.DataFrame({"team": teams})
-    dim["canonical"] = dim["team"].map(lambda t: TEAM_ALIASES.get(t, t))
-    # Tripwire: every team referenced in fact_match must resolve to dim_team.
+    names = sorted(set(intl["home_team"]) | set(intl["away_team"]))
+    teams = pd.DataFrame({"team_name": names})
+    teams["canonical_name"] = teams["team_name"].map(lambda t: TEAM_ALIASES.get(t, t))
+    # Tripwire: every team referenced in matches must resolve to the teams table.
     referenced = set(intl["home_team"]) | set(intl["away_team"])
-    unmatched = referenced - set(dim["team"])
+    unmatched = referenced - set(teams["team_name"])
     if unmatched:
         raise SystemExit(
-            f"RECONCILIATION FAILED: {len(unmatched)} teams in fact_match missing from "
-            f"dim_team (silent-drop risk): {sorted(unmatched)[:10]}"
+            f"RECONCILIATION FAILED: {len(unmatched)} teams in matches missing from "
+            f"teams (silent-drop risk): {sorted(unmatched)[:10]}"
         )
-    print(f"  dim_team: {len(dim)} national teams, 0 unmatched ✓")
-    return dim
+    print(f"  teams: {len(teams)} national teams, 0 unmatched ✓")
+    return teams
 
 
 def main() -> None:
@@ -247,10 +247,10 @@ def main() -> None:
     print("Phase 0 ingestion ...")
 
     intl = load_internationals()
-    dim_team = reconcile_teams(intl)
-    team_elo = compute_elo(intl)
-    print(f"  team_elo: {len(team_elo)} teams (top: "
-          f"{team_elo.iloc[0]['team']} {team_elo.iloc[0]['elo']:.0f})")
+    teams = reconcile_teams(intl)
+    team_ratings = compute_elo(intl)
+    print(f"  team_ratings: {len(team_ratings)} teams (top: "
+          f"{team_ratings.iloc[0]['team_name']} {team_ratings.iloc[0]['elo']:.0f})")
 
     try:
         club, club_odds = load_club_odds()
@@ -259,34 +259,33 @@ def main() -> None:
         club, club_odds = pd.DataFrame(), pd.DataFrame()
 
     # Assign global match_ids across both sources, then resolve odds FKs.
-    fact_match = pd.concat([intl, club], ignore_index=True)
-    fact_match.insert(0, "match_id", range(len(fact_match)))
+    matches = pd.concat([intl, club], ignore_index=True)
+    matches.insert(0, "match_id", range(len(matches)))
     # Schema'd empty frame so the table persists even when odds are unavailable
     # (e.g. football-data.co.uk 503) — DuckDB can't create a 0-column table.
-    fact_odds = pd.DataFrame(
+    match_odds = pd.DataFrame(
         columns=["match_id", "bookmaker", "market", "selection", "line", "price", "captured_at"]
     )
     if not club_odds.empty:
-        # club rows occupy the tail of fact_match; map local idx -> global match_id
+        # club rows occupy the tail of matches; map local idx -> global match_id
         club_offset = len(intl)
-        fact_odds = club_odds.assign(
+        match_odds = club_odds.assign(
             match_id=club_odds["_local_match_idx"] + club_offset
         ).drop(columns="_local_match_idx")
-        fact_odds = fact_odds[
+        match_odds = match_odds[
             ["match_id", "bookmaker", "market", "selection", "line", "price", "captured_at"]
         ]
 
     con = duckdb.connect(str(DB_PATH))
     for name, frame in (
-        ("fact_match", fact_match),
-        ("team_elo", team_elo),
-        ("dim_team", dim_team),
-        ("fact_odds", fact_odds),
+        ("matches", matches),
+        ("team_ratings", team_ratings),
+        ("teams", teams),
+        ("match_odds", match_odds),
     ):
         con.execute(f"CREATE OR REPLACE TABLE {name} AS SELECT * FROM frame")
     con.close()
     print(f"\nLoaded into {DB_PATH}")
-    print("Next: duckdb data/worldcup.duckdb < sql/implied_prob.sql")
 
 
 if __name__ == "__main__":

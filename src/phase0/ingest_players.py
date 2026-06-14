@@ -92,7 +92,7 @@ def build_tables(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
         }
     ).sort_values("name").reset_index(drop=True)
 
-    return {"dim_club": dim_club, "dim_player": dim_player, "fact_player_season": fact}
+    return {"clubs": dim_club, "players": dim_player, "player_seasons": fact}
 
 
 def main() -> None:

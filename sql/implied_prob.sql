@@ -1,18 +1,20 @@
 -- The Assignment, in SQL: turn closing 1X2 odds into the market's vig-removed
 -- implied probability for every match, then sit it next to the actual result.
--- This is the harness every future model must beat.
+-- This is the harness every future model must beat. Defines two views:
+--   market_prob      de-vigged probability per match/book/outcome
+--   match_vs_market  one row per match: market prob vs actual result
 
 -- Raw implied prob = 1 / decimal_odds. These sum to >1 because of the bookmaker
 -- margin (the "vig"). We normalize each match's three selections to sum to 1 to
 -- recover the market's true probability estimate (basic multiplicative de-vig).
-CREATE OR REPLACE VIEW market_implied_prob AS
+CREATE OR REPLACE VIEW market_prob AS
 WITH raw AS (
     SELECT
         match_id,
         bookmaker,
         selection,
         1.0 / price AS raw_prob
-    FROM fact_odds
+    FROM match_odds
     WHERE market = '1x2'
 ),
 overround AS (
@@ -46,26 +48,8 @@ SELECT
     MAX(CASE WHEN p.selection = 'draw' THEN p.implied_prob END) AS p_draw,
     MAX(CASE WHEN p.selection = 'away' THEN p.implied_prob END) AS p_away,
     MAX(p.vig)                                                  AS vig
-FROM fact_match m
-JOIN market_implied_prob p
+FROM matches m
+JOIN market_prob p
   ON p.match_id = m.match_id AND p.bookmaker = 'bet365'
 GROUP BY 1, 2, 3, 4, 5
 ORDER BY m.date;
-
--- Show it.
-SELECT * FROM match_vs_market LIMIT 20;
-
--- Sanity: the market should be "right" more often than chance. Did the favorite
--- (highest implied prob) actually win? A calibrated market lands ~50-55% here.
-SELECT
-    ROUND(AVG(
-        CASE
-            WHEN p_home >= p_draw AND p_home >= p_away AND result = 'H' THEN 1
-            WHEN p_draw >= p_home AND p_draw >= p_away AND result = 'D' THEN 1
-            WHEN p_away >= p_home AND p_away >= p_draw AND result = 'A' THEN 1
-            ELSE 0
-        END
-    ), 3) AS favorite_hit_rate,
-    COUNT(*) AS n_matches,
-    ROUND(AVG(vig), 4) AS avg_vig
-FROM match_vs_market;

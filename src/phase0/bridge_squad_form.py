@@ -61,17 +61,17 @@ def _match(squad: pd.DataFrame, players: pd.DataFrame) -> pd.Series:
 
 def main() -> None:
     con = duckdb.connect(str(DB_PATH))
-    squad = con.execute("SELECT * FROM national_squad").fetch_df()
+    squad = con.execute("SELECT * FROM wc_squads").fetch_df()
     players = con.execute(
         "SELECT p.player_id, p.name, p.born, c.name AS club "
-        "FROM dim_player p LEFT JOIN dim_club c ON c.club_id = p.current_club_id"
+        "FROM players p LEFT JOIN clubs c ON c.club_id = p.current_club_id"
     ).fetch_df()
     # current-season club form, summed across clubs within the season
     form = con.execute(
         f"""SELECT player_id,
                    SUM("minutes") minutes_played, SUM(goals) club_goals, SUM(xg) xg,
                    SUM(np_xg) np_xg, SUM(assists) assists, SUM(xa) xa
-            FROM fact_player_season WHERE season = '{FORM_SEASON}'
+            FROM player_seasons WHERE season = '{FORM_SEASON}'
             GROUP BY player_id"""
     ).fetch_df()
 
@@ -83,10 +83,7 @@ def main() -> None:
     out["np_xg_per90"] = (out["np_xg"] / (out["minutes_played"] / 90)).where(
         out["minutes_played"] >= 1)
 
-    con.execute("CREATE OR REPLACE TABLE national_squad_form AS SELECT * FROM out")
-    con.execute(
-        "COPY (SELECT * FROM national_squad_form) TO 'data/csv/national_squad_form.csv' (HEADER)"
-    )
+    con.execute("CREATE OR REPLACE TABLE wc_squad_form AS SELECT * FROM out")
 
     cov = out["has_club_form"].mean()
     print(f"  matched club form for {out['has_club_form'].sum()}/{len(out)} ({cov:.0%})")
@@ -94,25 +91,24 @@ def main() -> None:
     # --- squad_strength: graceful-degradation rollup per country ---
     con.execute(
         """
-        CREATE OR REPLACE TABLE squad_strength AS
+        CREATE OR REPLACE TABLE wc_team_strength AS
         WITH per_country AS (
             SELECT s.country,
                    COUNT(*)                                   AS squad_size,
                    SUM(CASE WHEN s.has_club_form THEN 1 ELSE 0 END) AS with_form,
-                   -- attack signal: avg np_xG/90 of the squad's 5 busiest attackers
+                   -- attack signal: avg np_xG/90 of regular starters (500+ minutes)
                    AVG(s.np_xg_per90) FILTER (WHERE s.minutes_played >= 500) AS avg_npxg_per90,
                    SUM(s.caps)                                AS total_caps,
                    SUM(s.intl_goals)                          AS total_intl_goals
-            FROM national_squad_form s GROUP BY s.country
+            FROM wc_squad_form s GROUP BY s.country
         )
         SELECT pc.*, e.elo AS team_elo
         FROM per_country pc
-        LEFT JOIN team_elo e ON e.team = pc.country
+        LEFT JOIN team_ratings e ON e.team_name = pc.country
         """
     )
-    con.execute("COPY (SELECT * FROM squad_strength) TO 'data/csv/squad_strength.csv' (HEADER)")
     con.close()
-    print("  built squad_strength + exported both CSVs")
+    print("  built wc_team_strength")
 
 
 if __name__ == "__main__":

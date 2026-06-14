@@ -7,6 +7,33 @@ exists to make this query possible:
 > "France play Croatia. Who's in France's lineup? What club is each player at? How is
 >  he doing there *right now*? Aggregate that into France's strength today."
 
+## Current schema (renamed 2026-06-14 — authoritative)
+
+Plain names, grouped into CSV folders under `data/csv/`. The ERD below uses the original
+concept names; this table is the source of truth for what exists today.
+
+| table | folder | one row per | key columns |
+|---|---|---|---|
+| `teams` | reference | national team | team_name (PK), canonical_name |
+| `team_ratings` | reference | national team | team_name, elo |
+| `clubs` | reference | club | club_id (PK), name, league |
+| `players` | reference | player (PIVOT) | player_id (PK), name, position, current_club_id→clubs, nationality, born |
+| `matches` | matches | match | match_id (PK), date, home_team, away_team, goals, is_international |
+| `match_odds` | matches | match·book·outcome | match_id→matches, bookmaker, market, selection, price |
+| `player_seasons` | form | player·season·club | player_id→players, season, club_id→clubs, minutes, goals, xg, np_xg, xa |
+| `wc_squads` | worldcup | squad player | country, shirt_no, position, player, dob, caps, intl_goals, club |
+| `wc_squad_form` | worldcup | squad player | wc_squads + player_id→players + club form + has_club_form |
+| `wc_team_strength` | worldcup | country | country, squad_size, with_form, avg_npxg_per90, total_caps, team_elo |
+| `market_prob` *(view)* | derived | match·book·outcome | de-vigged implied probability |
+| `match_vs_market` *(view)* | derived | match | market prob vs actual result |
+| `elo_calibration` *(report)* | derived | prediction bin | predicted vs actual (backtest output) |
+
+Dropped (2026-06-14): `fact_match_team_stats` — EPL-only team xG, unused in the prediction
+path, with a spurious `game_id`/`match_id` collision. The player-level `player_seasons`
+carries the form signal we actually use.
+
+Naming rule: **"team" always means a national team; "club" always means a club side.**
+
 ## Entity-Relationship diagram
 
 ```

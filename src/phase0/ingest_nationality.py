@@ -88,40 +88,38 @@ def main() -> None:
     players = con.execute(
         """
         SELECT p.player_id, p.name, c.name AS club
-        FROM dim_player p LEFT JOIN dim_club c ON c.club_id = p.current_club_id
+        FROM players p LEFT JOIN clubs c ON c.club_id = p.current_club_id
         """
     ).fetch_df()
 
     fb = load_fbref_nations()
     mapping = match_nationalities(players, fb)
 
-    # write nationality + birth year back to dim_player
+    # write nationality + birth year back to players
     map_df = pd.DataFrame(
         [{"player_id": pid, "nationality": v["nationality"], "born": v["born"]}
          for pid, v in mapping.items()]
     )
     for col in ("nationality", "born"):
-        con.execute(f"ALTER TABLE dim_player DROP COLUMN IF EXISTS {col}")
-    con.execute("ALTER TABLE dim_player ADD COLUMN nationality VARCHAR")
-    con.execute("ALTER TABLE dim_player ADD COLUMN born INTEGER")
+        con.execute(f"ALTER TABLE players DROP COLUMN IF EXISTS {col}")
+    con.execute("ALTER TABLE players ADD COLUMN nationality VARCHAR")
+    con.execute("ALTER TABLE players ADD COLUMN born INTEGER")
     con.execute("CREATE OR REPLACE TEMP TABLE _natmap AS SELECT * FROM map_df")
     con.execute(
-        "UPDATE dim_player SET nationality = m.nationality, born = m.born "
-        "FROM _natmap m WHERE m.player_id = dim_player.player_id"
+        "UPDATE players SET nationality = m.nationality, born = m.born "
+        "FROM _natmap m WHERE m.player_id = players.player_id"
     )
 
-    total = con.execute("SELECT COUNT(*) FROM dim_player").fetchone()[0]
-    filled = con.execute("SELECT COUNT(*) FROM dim_player WHERE nationality IS NOT NULL").fetchone()[0]
-    print(f"\n  dim_player.nationality filled: {filled}/{total} ({filled/total:.0%})")
+    total = con.execute("SELECT COUNT(*) FROM players").fetchone()[0]
+    filled = con.execute("SELECT COUNT(*) FROM players WHERE nationality IS NOT NULL").fetchone()[0]
+    print(f"\n  players.nationality filled: {filled}/{total} ({filled/total:.0%})")
     print("  top nationalities:")
     for nat, n in con.execute(
-        "SELECT nationality, COUNT(*) c FROM dim_player WHERE nationality IS NOT NULL "
+        "SELECT nationality, COUNT(*) c FROM players WHERE nationality IS NOT NULL "
         "GROUP BY nationality ORDER BY c DESC LIMIT 8"
     ).fetchall():
         print(f"    {nat}  {n}")
-    con.execute("COPY (SELECT * FROM dim_player) TO 'data/csv/dim_player.csv' (HEADER)")
     con.close()
-    print("\n  exported data/csv/dim_player.csv")
 
 
 if __name__ == "__main__":
