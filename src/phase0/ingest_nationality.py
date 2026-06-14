@@ -48,14 +48,14 @@ def load_fbref_nations() -> pd.DataFrame:
     return out
 
 
-def match_nationalities(players: pd.DataFrame, fb: pd.DataFrame) -> dict[int, str]:
-    """players: Understat dim_player + club name. Returns player_id -> FIFA code."""
+def match_nationalities(players: pd.DataFrame, fb: pd.DataFrame) -> dict[int, dict]:
+    """players: Understat dim_player + club name. Returns player_id -> {nation, born}."""
     by_norm: dict[str, list] = {}
     for r in fb.itertuples(index=False):
         by_norm.setdefault(r.norm, []).append(r)
     fb_names = list(by_norm.keys())
 
-    out: dict[int, str] = {}
+    out: dict[int, dict] = {}
     fuzzy_used = exact = club_tiebreak = 0
     for p in players.itertuples(index=False):
         key = norm(p.name)
@@ -76,7 +76,7 @@ def match_nationalities(players: pd.DataFrame, fb: pd.DataFrame) -> dict[int, st
             pclub = norm(p.club or "")
             chosen = max(cands, key=lambda c: fuzz.token_set_ratio(pclub, c.club_norm))
             club_tiebreak += 1
-        out[p.player_id] = chosen.nation
+        out[p.player_id] = {"nationality": chosen.nation, "born": chosen.born}
     print(f"    matched {len(out)}/{len(players)}  "
           f"(exact {exact}, club-tiebreak {club_tiebreak}, fuzzy {fuzzy_used})")
     return out
@@ -95,15 +95,18 @@ def main() -> None:
     fb = load_fbref_nations()
     mapping = match_nationalities(players, fb)
 
-    # write nationality back to dim_player
+    # write nationality + birth year back to dim_player
     map_df = pd.DataFrame(
-        [{"player_id": pid, "nationality": nat} for pid, nat in mapping.items()]
+        [{"player_id": pid, "nationality": v["nationality"], "born": v["born"]}
+         for pid, v in mapping.items()]
     )
-    con.execute("ALTER TABLE dim_player DROP COLUMN IF EXISTS nationality")
+    for col in ("nationality", "born"):
+        con.execute(f"ALTER TABLE dim_player DROP COLUMN IF EXISTS {col}")
     con.execute("ALTER TABLE dim_player ADD COLUMN nationality VARCHAR")
+    con.execute("ALTER TABLE dim_player ADD COLUMN born INTEGER")
     con.execute("CREATE OR REPLACE TEMP TABLE _natmap AS SELECT * FROM map_df")
     con.execute(
-        "UPDATE dim_player SET nationality = m.nationality "
+        "UPDATE dim_player SET nationality = m.nationality, born = m.born "
         "FROM _natmap m WHERE m.player_id = dim_player.player_id"
     )
 
