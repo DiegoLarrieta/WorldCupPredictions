@@ -1,0 +1,112 @@
+{
+  "match": "Sweden vs Tunisia",
+  "venue": "neutral (World Cup)",
+  "as_of": "2026-06-15",
+  "validation": {
+    "n": 1087,
+    "logloss_dc": 0.8393237613107905,
+    "logloss_base": 1.0477856158031484,
+    "accuracy": 0.6062557497700092
+  },
+  "expected_goals": {
+    "base": {
+      "Sweden": 1.18,
+      "Tunisia": 1.2
+    },
+    "adjusted": {
+      "Sweden": 1.4,
+      "Tunisia": 0.97
+    }
+  },
+  "win_draw_loss": {
+    "base": {
+      "Sweden": 0.347,
+      "Draw": 0.296,
+      "Tunisia": 0.356
+    },
+    "adjusted": {
+      "Sweden": 0.46,
+      "Draw": 0.288,
+      "Tunisia": 0.252
+    }
+  },
+  "over_under_2_5": {
+    "over": 0.423,
+    "under": 0.577
+  },
+  "btts": 0.477,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.136
+    },
+    {
+      "score": "1-0",
+      "prob": 0.122
+    },
+    {
+      "score": "0-0",
+      "prob": 0.102
+    },
+    {
+      "score": "2-0",
+      "prob": 0.091
+    },
+    {
+      "score": "2-1",
+      "prob": 0.089
+    }
+  ],
+  "starter_form_tilt": "Sweden attacker threat 0.43/90 vs Tunisia 0.06/90 -> +19% goal tilt to Sweden",
+  "elo": {
+    "Sweden": 1776,
+    "Tunisia": 1739,
+    "Sweden_2way_winprob": 0.554
+  },
+  "starters": {
+    "Sweden_attackers": [
+      {
+        "name": "Viktor Gyökeres",
+        "matched": true,
+        "minutes": 2255.0,
+        "goals_per90": 0.5587583148558758,
+        "npxg_per90": 0.46248921482697825
+      },
+      {
+        "name": "Alexander Isak",
+        "matched": true,
+        "minutes": 717.0,
+        "goals_per90": 0.37656903765690375,
+        "npxg_per90": 0.40736088201902404
+      },
+      {
+        "name": "Benjamin Nygren",
+        "matched": false
+      }
+    ],
+    "Tunisia_attackers": [
+      {
+        "name": "Elias Saad",
+        "matched": true,
+        "minutes": 518.0,
+        "goals_per90": 0.0,
+        "npxg_per90": 0.06457292960244716
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "matched": true,
+        "minutes": 1251.0,
+        "goals_per90": 0.07194244604316546,
+        "npxg_per90": 0.053943843687985014
+      },
+      {
+        "name": "Anis Slimane",
+        "matched": false
+      }
+    ]
+  },
+  "limits": [
+    "No international betting odds to validate against — not a value/market call.",
+    "Form coverage ~65% and asymmetric (xG vs goals-only); tilt is capped and supporting."
+  ]
+}
