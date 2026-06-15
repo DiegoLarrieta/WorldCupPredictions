@@ -1,0 +1,1040 @@
+team,date,opponent,result,GF,GA,Poss,comp
+Argentina,2018-06-16,Iceland,D,1.0,1.0,78,INT-World Cup 2018
+Argentina,2018-06-21,Croatia,L,0.0,3.0,58,INT-World Cup 2018
+Argentina,2018-06-26,Nigeria,W,2.0,1.0,66,INT-World Cup 2018
+Argentina,2018-06-30,France,L,3.0,4.0,60,INT-World Cup 2018
+Australia,2018-06-16,France,L,1.0,2.0,45,INT-World Cup 2018
+Australia,2018-06-21,Denmark,D,1.0,1.0,53,INT-World Cup 2018
+Australia,2018-06-26,Peru,L,0.0,2.0,57,INT-World Cup 2018
+Belgium,2018-06-18,Panama,W,3.0,0.0,62,INT-World Cup 2018
+Belgium,2018-06-23,Tunisia,W,5.0,2.0,50,INT-World Cup 2018
+Belgium,2018-06-28,England,W,1.0,0.0,53,INT-World Cup 2018
+Belgium,2018-07-02,Japan,W,3.0,2.0,57,INT-World Cup 2018
+Belgium,2018-07-06,Brazil,W,2.0,1.0,41,INT-World Cup 2018
+Belgium,2018-07-10,France,L,0.0,1.0,64,INT-World Cup 2018
+Belgium,2018-07-14,England,W,2.0,0.0,42,INT-World Cup 2018
+Brazil,2018-06-17,Switzerland,D,1.0,1.0,55,INT-World Cup 2018
+Brazil,2018-06-22,Costa Rica,W,2.0,0.0,72,INT-World Cup 2018
+Brazil,2018-06-27,Serbia,W,2.0,0.0,58,INT-World Cup 2018
+Brazil,2018-07-02,Mexico,W,2.0,0.0,49,INT-World Cup 2018
+Brazil,2018-07-06,Belgium,L,1.0,2.0,59,INT-World Cup 2018
+Colombia,2018-06-19,Japan,L,1.0,2.0,39,INT-World Cup 2018
+Colombia,2018-06-24,Poland,W,3.0,0.0,55,INT-World Cup 2018
+Colombia,2018-06-28,Senegal,W,1.0,0.0,59,INT-World Cup 2018
+Costa Rica,2018-06-17,Serbia,L,0.0,1.0,53,INT-World Cup 2018
+Costa Rica,2018-06-22,Brazil,L,0.0,2.0,28,INT-World Cup 2018
+Costa Rica,2018-06-27,Switzerland,D,2.0,2.0,38,INT-World Cup 2018
+Croatia,2018-06-16,Nigeria,W,2.0,0.0,55,INT-World Cup 2018
+Croatia,2018-06-21,Argentina,W,3.0,0.0,43,INT-World Cup 2018
+Croatia,2018-06-26,Iceland,W,2.0,1.0,61,INT-World Cup 2018
+Croatia,2018-07-11,England,W,2.0,1.0,55,INT-World Cup 2018
+Croatia,2018-07-15,France,L,2.0,4.0,66,INT-World Cup 2018
+Denmark,2018-06-16,Peru,W,1.0,0.0,47,INT-World Cup 2018
+Denmark,2018-06-21,Australia,D,1.0,1.0,47,INT-World Cup 2018
+Denmark,2018-06-26,France,D,0.0,0.0,32,INT-World Cup 2018
+Egypt,2018-06-15,Uruguay,L,0.0,1.0,42,INT-World Cup 2018
+Egypt,2018-06-19,Russia,L,1.0,3.0,51,INT-World Cup 2018
+Egypt,2018-06-25,Saudi Arabia,L,1.0,2.0,36,INT-World Cup 2018
+England,2018-06-18,Tunisia,W,2.0,1.0,61,INT-World Cup 2018
+England,2018-06-24,Panama,W,6.0,1.0,59,INT-World Cup 2018
+England,2018-06-28,Belgium,L,0.0,1.0,47,INT-World Cup 2018
+England,2018-07-07,Sweden,W,2.0,0.0,58,INT-World Cup 2018
+England,2018-07-11,Croatia,L,1.0,2.0,45,INT-World Cup 2018
+England,2018-07-14,Belgium,L,0.0,2.0,58,INT-World Cup 2018
+France,2018-06-16,Australia,W,2.0,1.0,55,INT-World Cup 2018
+France,2018-06-21,Peru,W,1.0,0.0,43,INT-World Cup 2018
+France,2018-06-26,Denmark,D,0.0,0.0,68,INT-World Cup 2018
+France,2018-06-30,Argentina,W,4.0,3.0,40,INT-World Cup 2018
+France,2018-07-06,Uruguay,W,2.0,0.0,61,INT-World Cup 2018
+France,2018-07-10,Belgium,W,1.0,0.0,36,INT-World Cup 2018
+France,2018-07-15,Croatia,W,4.0,2.0,34,INT-World Cup 2018
+Germany,2018-06-17,Mexico,L,0.0,1.0,67,INT-World Cup 2018
+Germany,2018-06-23,Sweden,W,2.0,1.0,76,INT-World Cup 2018
+Germany,2018-06-27,Korea Republic,L,0.0,2.0,74,INT-World Cup 2018
+IR Iran,2018-06-15,Morocco,W,1.0,0.0,32,INT-World Cup 2018
+IR Iran,2018-06-20,Spain,L,0.0,1.0,22,INT-World Cup 2018
+IR Iran,2018-06-25,Portugal,D,1.0,1.0,27,INT-World Cup 2018
+Iceland,2018-06-16,Argentina,D,1.0,1.0,22,INT-World Cup 2018
+Iceland,2018-06-22,Nigeria,L,0.0,2.0,39,INT-World Cup 2018
+Iceland,2018-06-26,Croatia,L,1.0,2.0,39,INT-World Cup 2018
+Japan,2018-06-19,Colombia,W,2.0,1.0,61,INT-World Cup 2018
+Japan,2018-06-24,Senegal,D,2.0,2.0,57,INT-World Cup 2018
+Japan,2018-06-28,Poland,L,0.0,1.0,54,INT-World Cup 2018
+Japan,2018-07-02,Belgium,L,2.0,3.0,43,INT-World Cup 2018
+Korea Republic,2018-06-18,Sweden,L,0.0,1.0,44,INT-World Cup 2018
+Korea Republic,2018-06-23,Mexico,L,1.0,2.0,42,INT-World Cup 2018
+Korea Republic,2018-06-27,Germany,W,2.0,0.0,26,INT-World Cup 2018
+Mexico,2018-06-17,Germany,W,1.0,0.0,33,INT-World Cup 2018
+Mexico,2018-06-23,Korea Republic,W,2.0,1.0,58,INT-World Cup 2018
+Mexico,2018-06-27,Sweden,L,0.0,3.0,67,INT-World Cup 2018
+Mexico,2018-07-02,Brazil,L,0.0,2.0,51,INT-World Cup 2018
+Morocco,2018-06-15,IR Iran,L,0.0,1.0,68,INT-World Cup 2018
+Morocco,2018-06-20,Portugal,L,0.0,1.0,55,INT-World Cup 2018
+Morocco,2018-06-25,Spain,D,2.0,2.0,25,INT-World Cup 2018
+Nigeria,2018-06-16,Croatia,L,0.0,2.0,45,INT-World Cup 2018
+Nigeria,2018-06-22,Iceland,W,2.0,0.0,62,INT-World Cup 2018
+Nigeria,2018-06-26,Argentina,L,1.0,2.0,34,INT-World Cup 2018
+Panama,2018-06-18,Belgium,L,0.0,3.0,38,INT-World Cup 2018
+Panama,2018-06-24,England,L,1.0,6.0,41,INT-World Cup 2018
+Panama,2018-06-28,Tunisia,L,1.0,2.0,31,INT-World Cup 2018
+Peru,2018-06-16,Denmark,L,0.0,1.0,53,INT-World Cup 2018
+Peru,2018-06-21,France,L,0.0,1.0,57,INT-World Cup 2018
+Peru,2018-06-26,Australia,W,2.0,0.0,43,INT-World Cup 2018
+Poland,2018-06-19,Senegal,L,1.0,2.0,61,INT-World Cup 2018
+Poland,2018-06-24,Colombia,L,0.0,3.0,45,INT-World Cup 2018
+Poland,2018-06-28,Japan,W,1.0,0.0,46,INT-World Cup 2018
+Portugal,2018-06-15,Spain,D,3.0,3.0,34,INT-World Cup 2018
+Portugal,2018-06-20,Morocco,W,1.0,0.0,45,INT-World Cup 2018
+Portugal,2018-06-25,IR Iran,D,1.0,1.0,73,INT-World Cup 2018
+Portugal,2018-06-30,Uruguay,L,1.0,2.0,67,INT-World Cup 2018
+Russia,2018-06-14,Saudi Arabia,W,5.0,0.0,39,INT-World Cup 2018
+Russia,2018-06-19,Egypt,W,3.0,1.0,49,INT-World Cup 2018
+Russia,2018-06-25,Uruguay,L,0.0,3.0,42,INT-World Cup 2018
+Saudi Arabia,2018-06-14,Russia,L,0.0,5.0,61,INT-World Cup 2018
+Saudi Arabia,2018-06-20,Uruguay,L,0.0,1.0,53,INT-World Cup 2018
+Saudi Arabia,2018-06-25,Egypt,W,2.0,1.0,64,INT-World Cup 2018
+Senegal,2018-06-19,Poland,W,2.0,1.0,39,INT-World Cup 2018
+Senegal,2018-06-24,Japan,D,2.0,2.0,43,INT-World Cup 2018
+Senegal,2018-06-28,Colombia,L,0.0,1.0,41,INT-World Cup 2018
+Serbia,2018-06-17,Costa Rica,W,1.0,0.0,48,INT-World Cup 2018
+Serbia,2018-06-22,Switzerland,L,1.0,2.0,38,INT-World Cup 2018
+Serbia,2018-06-27,Brazil,L,0.0,2.0,42,INT-World Cup 2018
+Spain,2018-06-15,Portugal,D,3.0,3.0,67,INT-World Cup 2018
+Spain,2018-06-20,IR Iran,W,1.0,0.0,78,INT-World Cup 2018
+Spain,2018-06-25,Morocco,D,2.0,2.0,75,INT-World Cup 2018
+Sweden,2018-06-18,Korea Republic,W,1.0,0.0,56,INT-World Cup 2018
+Sweden,2018-06-23,Germany,L,1.0,2.0,24,INT-World Cup 2018
+Sweden,2018-06-27,Mexico,W,3.0,0.0,33,INT-World Cup 2018
+Sweden,2018-07-03,Switzerland,W,1.0,0.0,33,INT-World Cup 2018
+Sweden,2018-07-07,England,L,0.0,2.0,42,INT-World Cup 2018
+Switzerland,2018-06-17,Brazil,D,1.0,1.0,45,INT-World Cup 2018
+Switzerland,2018-06-22,Serbia,W,2.0,1.0,62,INT-World Cup 2018
+Switzerland,2018-06-27,Costa Rica,D,2.0,2.0,62,INT-World Cup 2018
+Switzerland,2018-07-03,Sweden,L,0.0,1.0,67,INT-World Cup 2018
+Tunisia,2018-06-18,England,L,1.0,2.0,39,INT-World Cup 2018
+Tunisia,2018-06-23,Belgium,L,2.0,5.0,50,INT-World Cup 2018
+Tunisia,2018-06-28,Panama,W,2.0,1.0,69,INT-World Cup 2018
+Uruguay,2018-06-15,Egypt,W,1.0,0.0,58,INT-World Cup 2018
+Uruguay,2018-06-20,Saudi Arabia,W,1.0,0.0,47,INT-World Cup 2018
+Uruguay,2018-06-25,Russia,W,3.0,0.0,58,INT-World Cup 2018
+Uruguay,2018-06-30,Portugal,W,2.0,1.0,33,INT-World Cup 2018
+Uruguay,2018-07-06,France,L,0.0,2.0,39,INT-World Cup 2018
+Argentina,2020-10-08,Ecuador,W,1.0,0.0,58,INT-World Cup 2022
+Argentina,2020-10-13,Bolivia,W,2.0,1.0,43,INT-World Cup 2022
+Argentina,2020-11-12,Paraguay,D,1.0,1.0,69,INT-World Cup 2022
+Argentina,2020-11-17,Peru,W,2.0,0.0,47,INT-World Cup 2022
+Argentina,2021-06-03,Chile,D,1.0,1.0,54,INT-World Cup 2022
+Argentina,2021-06-08,Colombia,D,2.0,2.0,52,INT-World Cup 2022
+Argentina,2021-09-02,Venezuela,W,3.0,1.0,73,INT-World Cup 2022
+Argentina,2021-09-09,Bolivia,W,3.0,0.0,71,INT-World Cup 2022
+Argentina,2021-10-07,Paraguay,D,0.0,0.0,70,INT-World Cup 2022
+Argentina,2021-10-10,Uruguay,W,3.0,0.0,62,INT-World Cup 2022
+Argentina,2021-10-14,Peru,W,1.0,0.0,68,INT-World Cup 2022
+Argentina,2021-11-12,Uruguay,W,1.0,0.0,64,INT-World Cup 2022
+Argentina,2021-11-16,Brazil,D,0.0,0.0,56,INT-World Cup 2022
+Argentina,2022-01-27,Chile,W,2.0,1.0,40,INT-World Cup 2022
+Argentina,2022-02-01,Colombia,W,1.0,0.0,56,INT-World Cup 2022
+Argentina,2022-03-25,Venezuela,W,3.0,0.0,73,INT-World Cup 2022
+Argentina,2022-03-29,Ecuador,D,1.0,1.0,53,INT-World Cup 2022
+Argentina,2022-11-22,Saudi Arabia,L,1.0,2.0,69,INT-World Cup 2022
+Argentina,2022-11-26,Mexico,W,2.0,0.0,59,INT-World Cup 2022
+Argentina,2022-11-30,Poland,W,2.0,0.0,73,INT-World Cup 2022
+Argentina,2022-12-03,Australia,W,2.0,1.0,61,INT-World Cup 2022
+Argentina,2022-12-13,Croatia,W,3.0,0.0,39,INT-World Cup 2022
+Australia,2022-11-22,France,L,1.0,4.0,38,INT-World Cup 2022
+Australia,2022-11-26,Tunisia,W,1.0,0.0,42,INT-World Cup 2022
+Australia,2022-11-30,Denmark,W,1.0,0.0,31,INT-World Cup 2022
+Australia,2022-12-03,Argentina,L,1.0,2.0,39,INT-World Cup 2022
+Belgium,2021-03-24,Wales,W,3.0,1.0,75,INT-World Cup 2022
+Belgium,2021-03-27,Czechia,D,1.0,1.0,62,INT-World Cup 2022
+Belgium,2021-03-30,Belarus,W,8.0,0.0,68,INT-World Cup 2022
+Belgium,2021-09-02,Estonia,W,5.0,2.0,73,INT-World Cup 2022
+Belgium,2021-09-05,Czechia,W,3.0,0.0,54,INT-World Cup 2022
+Belgium,2021-09-08,Belarus,W,1.0,0.0,75,INT-World Cup 2022
+Belgium,2021-11-13,Estonia,W,3.0,1.0,81,INT-World Cup 2022
+Belgium,2021-11-16,Wales,D,1.0,1.0,76,INT-World Cup 2022
+Belgium,2022-11-23,Canada,W,1.0,0.0,54,INT-World Cup 2022
+Belgium,2022-11-27,Morocco,L,0.0,2.0,67,INT-World Cup 2022
+Belgium,2022-12-01,Croatia,D,0.0,0.0,52,INT-World Cup 2022
+Brazil,2020-10-09,Bolivia,W,5.0,0.0,69,INT-World Cup 2022
+Brazil,2020-10-13,Peru,W,4.0,2.0,66,INT-World Cup 2022
+Brazil,2020-11-13,Venezuela,W,1.0,0.0,74,INT-World Cup 2022
+Brazil,2020-11-17,Uruguay,W,2.0,0.0,59,INT-World Cup 2022
+Brazil,2021-06-04,Ecuador,W,2.0,0.0,66,INT-World Cup 2022
+Brazil,2021-06-08,Paraguay,W,2.0,0.0,50,INT-World Cup 2022
+Brazil,2021-09-02,Chile,W,1.0,0.0,39,INT-World Cup 2022
+Brazil,2021-09-09,Peru,W,2.0,0.0,58,INT-World Cup 2022
+Brazil,2021-10-07,Venezuela,W,3.0,1.0,67,INT-World Cup 2022
+Brazil,2021-10-10,Colombia,D,0.0,0.0,64,INT-World Cup 2022
+Brazil,2021-10-14,Uruguay,W,4.0,1.0,55,INT-World Cup 2022
+Brazil,2021-11-11,Colombia,W,1.0,0.0,63,INT-World Cup 2022
+Brazil,2021-11-16,Argentina,D,0.0,0.0,44,INT-World Cup 2022
+Brazil,2022-01-27,Ecuador,D,1.0,1.0,54,INT-World Cup 2022
+Brazil,2022-02-01,Paraguay,W,4.0,0.0,77,INT-World Cup 2022
+Brazil,2022-03-24,Chile,W,4.0,0.0,58,INT-World Cup 2022
+Brazil,2022-03-29,Bolivia,W,4.0,0.0,56,INT-World Cup 2022
+Brazil,2022-11-24,Serbia,W,2.0,0.0,59,INT-World Cup 2022
+Brazil,2022-11-28,Switzerland,W,1.0,0.0,54,INT-World Cup 2022
+Brazil,2022-12-02,Cameroon,L,0.0,1.0,65,INT-World Cup 2022
+Brazil,2022-12-05,Korea Republic,W,4.0,1.0,53,INT-World Cup 2022
+Cameroon,2022-11-24,Switzerland,L,0.0,1.0,49,INT-World Cup 2022
+Cameroon,2022-11-28,Serbia,D,3.0,3.0,41,INT-World Cup 2022
+Cameroon,2022-12-02,Brazil,W,1.0,0.0,35,INT-World Cup 2022
+Canada,2022-11-23,Belgium,L,0.0,1.0,46,INT-World Cup 2022
+Canada,2022-11-27,Croatia,L,1.0,4.0,52,INT-World Cup 2022
+Canada,2022-12-01,Morocco,L,1.0,2.0,59,INT-World Cup 2022
+Costa Rica,2022-11-23,Spain,L,0.0,7.0,18,INT-World Cup 2022
+Costa Rica,2022-11-27,Japan,W,1.0,0.0,43,INT-World Cup 2022
+Costa Rica,2022-12-01,Germany,L,2.0,4.0,32,INT-World Cup 2022
+Croatia,2021-03-24,Slovenia,L,0.0,1.0,69,INT-World Cup 2022
+Croatia,2021-03-27,Cyprus,W,1.0,0.0,69,INT-World Cup 2022
+Croatia,2021-03-30,Malta,W,3.0,0.0,67,INT-World Cup 2022
+Croatia,2021-09-01,Russia,D,0.0,0.0,60,INT-World Cup 2022
+Croatia,2021-09-04,Slovakia,W,1.0,0.0,55,INT-World Cup 2022
+Croatia,2021-09-07,Slovenia,W,3.0,0.0,64,INT-World Cup 2022
+Croatia,2021-10-08,Cyprus,W,3.0,0.0,75,INT-World Cup 2022
+Croatia,2021-10-11,Slovakia,D,2.0,2.0,69,INT-World Cup 2022
+Croatia,2021-11-11,Malta,W,7.0,1.0,67,INT-World Cup 2022
+Croatia,2021-11-14,Russia,W,1.0,0.0,68,INT-World Cup 2022
+Croatia,2022-11-23,Morocco,D,0.0,0.0,65,INT-World Cup 2022
+Croatia,2022-11-27,Canada,W,4.0,1.0,48,INT-World Cup 2022
+Croatia,2022-12-01,Belgium,D,0.0,0.0,48,INT-World Cup 2022
+Croatia,2022-12-13,Argentina,L,0.0,3.0,61,INT-World Cup 2022
+Croatia,2022-12-17,Morocco,W,2.0,1.0,51,INT-World Cup 2022
+Denmark,2021-03-25,Israel,W,2.0,0.0,50,INT-World Cup 2022
+Denmark,2021-03-28,Moldova,W,8.0,0.0,75,INT-World Cup 2022
+Denmark,2021-03-31,Austria,W,4.0,0.0,48,INT-World Cup 2022
+Denmark,2021-09-01,Scotland,W,2.0,0.0,61,INT-World Cup 2022
+Denmark,2021-09-04,Faroe Islands,W,1.0,0.0,80,INT-World Cup 2022
+Denmark,2021-09-07,Israel,W,5.0,0.0,62,INT-World Cup 2022
+Denmark,2021-10-09,Moldova,W,4.0,0.0,69,INT-World Cup 2022
+Denmark,2021-10-12,Austria,W,1.0,0.0,49,INT-World Cup 2022
+Denmark,2021-11-12,Faroe Islands,W,3.0,1.0,68,INT-World Cup 2022
+Denmark,2021-11-15,Scotland,L,0.0,2.0,59,INT-World Cup 2022
+Denmark,2022-11-22,Tunisia,D,0.0,0.0,61,INT-World Cup 2022
+Denmark,2022-11-26,France,L,1.0,2.0,52,INT-World Cup 2022
+Denmark,2022-11-30,Australia,L,0.0,1.0,69,INT-World Cup 2022
+Ecuador,2020-10-08,Argentina,L,0.0,1.0,42,INT-World Cup 2022
+Ecuador,2020-10-13,Uruguay,W,4.0,2.0,51,INT-World Cup 2022
+Ecuador,2020-11-12,Bolivia,W,3.0,2.0,62,INT-World Cup 2022
+Ecuador,2020-11-17,Colombia,W,6.0,1.0,53,INT-World Cup 2022
+Ecuador,2021-06-04,Brazil,L,0.0,2.0,34,INT-World Cup 2022
+Ecuador,2021-06-08,Peru,L,1.0,2.0,70,INT-World Cup 2022
+Ecuador,2021-09-02,Paraguay,W,2.0,0.0,64,INT-World Cup 2022
+Ecuador,2021-09-05,Chile,D,0.0,0.0,54,INT-World Cup 2022
+Ecuador,2021-09-09,Uruguay,L,0.0,1.0,46,INT-World Cup 2022
+Ecuador,2021-10-07,Bolivia,W,3.0,0.0,68,INT-World Cup 2022
+Ecuador,2021-10-10,Venezuela,L,1.0,2.0,58,INT-World Cup 2022
+Ecuador,2021-10-14,Colombia,D,0.0,0.0,38,INT-World Cup 2022
+Ecuador,2021-11-11,Venezuela,W,1.0,0.0,55,INT-World Cup 2022
+Ecuador,2021-11-16,Chile,W,2.0,0.0,47,INT-World Cup 2022
+Ecuador,2022-01-27,Brazil,D,1.0,1.0,46,INT-World Cup 2022
+Ecuador,2022-02-01,Peru,D,1.0,1.0,37,INT-World Cup 2022
+Ecuador,2022-03-24,Paraguay,L,1.0,3.0,57,INT-World Cup 2022
+Ecuador,2022-03-29,Argentina,D,1.0,1.0,47,INT-World Cup 2022
+Ecuador,2022-11-20,Qatar,W,2.0,0.0,53,INT-World Cup 2022
+Ecuador,2022-11-25,Netherlands,D,1.0,1.0,46,INT-World Cup 2022
+Ecuador,2022-11-29,Senegal,L,1.0,2.0,61,INT-World Cup 2022
+England,2021-03-25,San Marino,W,5.0,0.0,85,INT-World Cup 2022
+England,2021-03-28,Albania,W,2.0,0.0,71,INT-World Cup 2022
+England,2021-03-31,Poland,W,2.0,1.0,63,INT-World Cup 2022
+England,2021-09-02,Hungary,W,4.0,0.0,64,INT-World Cup 2022
+England,2021-09-05,Andorra,W,4.0,0.0,88,INT-World Cup 2022
+England,2021-09-08,Poland,D,1.0,1.0,63,INT-World Cup 2022
+England,2021-10-09,Andorra,W,5.0,0.0,86,INT-World Cup 2022
+England,2021-10-12,Hungary,D,1.0,1.0,64,INT-World Cup 2022
+England,2021-11-12,Albania,W,5.0,0.0,64,INT-World Cup 2022
+England,2021-11-15,San Marino,W,10.0,0.0,85,INT-World Cup 2022
+England,2022-11-21,IR Iran,W,6.0,2.0,78,INT-World Cup 2022
+England,2022-11-25,United States,D,0.0,0.0,55,INT-World Cup 2022
+England,2022-11-29,Wales,W,3.0,0.0,65,INT-World Cup 2022
+England,2022-12-04,Senegal,W,3.0,0.0,61,INT-World Cup 2022
+England,2022-12-10,France,L,1.0,2.0,57,INT-World Cup 2022
+France,2021-03-24,Ukraine,D,1.0,1.0,63,INT-World Cup 2022
+France,2021-03-28,Kazakhstan,W,2.0,0.0,63,INT-World Cup 2022
+France,2021-03-31,Bosnia-Herzegovina,W,1.0,0.0,56,INT-World Cup 2022
+France,2021-09-01,Bosnia-Herzegovina,D,1.0,1.0,54,INT-World Cup 2022
+France,2021-09-04,Ukraine,D,1.0,1.0,62,INT-World Cup 2022
+France,2021-09-07,Finland,W,2.0,0.0,64,INT-World Cup 2022
+France,2021-11-13,Kazakhstan,W,8.0,0.0,66,INT-World Cup 2022
+France,2021-11-16,Finland,W,2.0,0.0,53,INT-World Cup 2022
+France,2022-11-22,Australia,W,4.0,1.0,63,INT-World Cup 2022
+France,2022-11-26,Denmark,W,2.0,1.0,49,INT-World Cup 2022
+France,2022-11-30,Tunisia,L,0.0,1.0,66,INT-World Cup 2022
+France,2022-12-04,Poland,W,3.0,1.0,55,INT-World Cup 2022
+France,2022-12-10,England,W,2.0,1.0,43,INT-World Cup 2022
+France,2022-12-14,Morocco,W,2.0,0.0,39,INT-World Cup 2022
+Germany,2021-03-25,Iceland,W,3.0,0.0,82,INT-World Cup 2022
+Germany,2021-03-28,Romania,W,1.0,0.0,66,INT-World Cup 2022
+Germany,2021-03-31,N. Macedonia,L,1.0,2.0,70,INT-World Cup 2022
+Germany,2021-09-02,Liechtenstein,W,2.0,0.0,85,INT-World Cup 2022
+Germany,2021-09-05,Armenia,W,6.0,0.0,76,INT-World Cup 2022
+Germany,2021-09-08,Iceland,W,4.0,0.0,71,INT-World Cup 2022
+Germany,2021-10-08,Romania,W,2.0,1.0,77,INT-World Cup 2022
+Germany,2021-10-11,N. Macedonia,W,4.0,0.0,74,INT-World Cup 2022
+Germany,2021-11-11,Liechtenstein,W,9.0,0.0,82,INT-World Cup 2022
+Germany,2021-11-14,Armenia,W,4.0,1.0,75,INT-World Cup 2022
+Germany,2022-11-23,Japan,L,1.0,2.0,74,INT-World Cup 2022
+Germany,2022-11-27,Spain,D,1.0,1.0,36,INT-World Cup 2022
+Germany,2022-12-01,Costa Rica,W,4.0,2.0,68,INT-World Cup 2022
+Ghana,2022-11-24,Portugal,L,2.0,3.0,38,INT-World Cup 2022
+Ghana,2022-11-28,Korea Republic,W,3.0,2.0,37,INT-World Cup 2022
+Ghana,2022-12-02,Uruguay,L,0.0,2.0,51,INT-World Cup 2022
+IR Iran,2022-11-21,England,L,2.0,6.0,22,INT-World Cup 2022
+IR Iran,2022-11-25,Wales,W,2.0,0.0,38,INT-World Cup 2022
+IR Iran,2022-11-29,United States,L,0.0,1.0,49,INT-World Cup 2022
+Japan,2022-11-23,Germany,W,2.0,1.0,26,INT-World Cup 2022
+Japan,2022-11-27,Costa Rica,L,0.0,1.0,57,INT-World Cup 2022
+Japan,2022-12-01,Spain,W,2.0,1.0,18,INT-World Cup 2022
+Korea Republic,2022-11-24,Uruguay,D,0.0,0.0,44,INT-World Cup 2022
+Korea Republic,2022-11-28,Ghana,L,2.0,3.0,63,INT-World Cup 2022
+Korea Republic,2022-12-02,Portugal,W,2.0,1.0,39,INT-World Cup 2022
+Korea Republic,2022-12-05,Brazil,L,1.0,4.0,47,INT-World Cup 2022
+Mexico,2022-11-22,Poland,D,0.0,0.0,61,INT-World Cup 2022
+Mexico,2022-11-26,Argentina,L,0.0,2.0,42,INT-World Cup 2022
+Mexico,2022-11-30,Saudi Arabia,W,2.0,1.0,61,INT-World Cup 2022
+Morocco,2022-11-23,Croatia,D,0.0,0.0,35,INT-World Cup 2022
+Morocco,2022-11-27,Belgium,W,2.0,0.0,33,INT-World Cup 2022
+Morocco,2022-12-01,Canada,W,2.0,1.0,41,INT-World Cup 2022
+Morocco,2022-12-10,Portugal,W,1.0,0.0,27,INT-World Cup 2022
+Morocco,2022-12-14,France,L,0.0,2.0,61,INT-World Cup 2022
+Morocco,2022-12-17,Croatia,L,1.0,2.0,49,INT-World Cup 2022
+Netherlands,2021-03-24,Türkiye,L,2.0,4.0,66,INT-World Cup 2022
+Netherlands,2021-03-27,Latvia,W,2.0,0.0,77,INT-World Cup 2022
+Netherlands,2021-03-30,Gibraltar,W,7.0,0.0,80,INT-World Cup 2022
+Netherlands,2021-09-01,Norway,D,1.0,1.0,65,INT-World Cup 2022
+Netherlands,2021-09-04,Montenegro,W,4.0,0.0,72,INT-World Cup 2022
+Netherlands,2021-09-07,Türkiye,W,6.0,1.0,67,INT-World Cup 2022
+Netherlands,2021-10-08,Latvia,W,1.0,0.0,78,INT-World Cup 2022
+Netherlands,2021-10-11,Gibraltar,W,6.0,0.0,82,INT-World Cup 2022
+Netherlands,2021-11-13,Montenegro,D,2.0,2.0,74,INT-World Cup 2022
+Netherlands,2021-11-16,Norway,W,2.0,0.0,65,INT-World Cup 2022
+Netherlands,2022-11-21,Senegal,W,2.0,0.0,53,INT-World Cup 2022
+Netherlands,2022-11-25,Ecuador,D,1.0,1.0,54,INT-World Cup 2022
+Netherlands,2022-11-29,Qatar,W,2.0,0.0,63,INT-World Cup 2022
+Netherlands,2022-12-03,United States,W,3.0,1.0,42,INT-World Cup 2022
+Poland,2021-03-25,Hungary,D,3.0,3.0,64,INT-World Cup 2022
+Poland,2021-03-28,Andorra,W,3.0,0.0,85,INT-World Cup 2022
+Poland,2021-03-31,England,L,1.0,2.0,37,INT-World Cup 2022
+Poland,2021-09-02,Albania,W,4.0,1.0,49,INT-World Cup 2022
+Poland,2021-09-05,San Marino,W,7.0,1.0,76,INT-World Cup 2022
+Poland,2021-09-08,England,D,1.0,1.0,37,INT-World Cup 2022
+Poland,2021-10-09,San Marino,W,5.0,0.0,83,INT-World Cup 2022
+Poland,2021-10-12,Albania,W,1.0,0.0,60,INT-World Cup 2022
+Poland,2021-11-12,Andorra,W,4.0,1.0,79,INT-World Cup 2022
+Poland,2021-11-15,Hungary,L,1.0,2.0,63,INT-World Cup 2022
+Poland,2022-03-29,Sweden,W,2.0,0.0,39,INT-World Cup 2022
+Poland,2022-11-22,Mexico,D,0.0,0.0,39,INT-World Cup 2022
+Poland,2022-11-26,Saudi Arabia,W,2.0,0.0,36,INT-World Cup 2022
+Poland,2022-11-30,Argentina,L,0.0,2.0,27,INT-World Cup 2022
+Poland,2022-12-04,France,L,1.0,3.0,45,INT-World Cup 2022
+Portugal,2021-03-24,Azerbaijan,W,1.0,0.0,67,INT-World Cup 2022
+Portugal,2021-03-27,Serbia,D,2.0,2.0,56,INT-World Cup 2022
+Portugal,2021-03-30,Luxembourg,W,3.0,1.0,57,INT-World Cup 2022
+Portugal,2021-09-01,Rep. of Ireland,W,2.0,1.0,72,INT-World Cup 2022
+Portugal,2021-09-07,Azerbaijan,W,3.0,0.0,67,INT-World Cup 2022
+Portugal,2021-10-12,Luxembourg,W,5.0,0.0,55,INT-World Cup 2022
+Portugal,2021-11-11,Rep. of Ireland,D,0.0,0.0,51,INT-World Cup 2022
+Portugal,2021-11-14,Serbia,L,1.0,2.0,43,INT-World Cup 2022
+Portugal,2022-03-24,Türkiye,W,3.0,1.0,60,INT-World Cup 2022
+Portugal,2022-03-29,N. Macedonia,W,2.0,0.0,64,INT-World Cup 2022
+Portugal,2022-11-24,Ghana,W,3.0,2.0,62,INT-World Cup 2022
+Portugal,2022-11-28,Uruguay,W,2.0,0.0,60,INT-World Cup 2022
+Portugal,2022-12-02,Korea Republic,L,1.0,2.0,62,INT-World Cup 2022
+Portugal,2022-12-06,Switzerland,W,6.0,1.0,48,INT-World Cup 2022
+Portugal,2022-12-10,Morocco,L,0.0,1.0,73,INT-World Cup 2022
+Qatar,2022-11-20,Ecuador,L,0.0,2.0,47,INT-World Cup 2022
+Qatar,2022-11-25,Senegal,L,1.0,3.0,45,INT-World Cup 2022
+Qatar,2022-11-29,Netherlands,L,0.0,2.0,37,INT-World Cup 2022
+Saudi Arabia,2022-11-22,Argentina,W,2.0,1.0,31,INT-World Cup 2022
+Saudi Arabia,2022-11-26,Poland,L,0.0,2.0,64,INT-World Cup 2022
+Saudi Arabia,2022-11-30,Mexico,L,1.0,2.0,40,INT-World Cup 2022
+Senegal,2022-11-21,Netherlands,L,0.0,2.0,47,INT-World Cup 2022
+Senegal,2022-11-25,Qatar,W,3.0,1.0,55,INT-World Cup 2022
+Senegal,2022-11-29,Ecuador,W,2.0,1.0,39,INT-World Cup 2022
+Senegal,2022-12-04,England,L,0.0,3.0,39,INT-World Cup 2022
+Serbia,2021-03-24,Rep. of Ireland,W,3.0,2.0,56,INT-World Cup 2022
+Serbia,2021-03-27,Portugal,D,2.0,2.0,44,INT-World Cup 2022
+Serbia,2021-03-30,Azerbaijan,W,2.0,1.0,67,INT-World Cup 2022
+Serbia,2021-09-04,Luxembourg,W,4.0,1.0,54,INT-World Cup 2022
+Serbia,2021-09-07,Rep. of Ireland,D,1.0,1.0,58,INT-World Cup 2022
+Serbia,2021-10-09,Luxembourg,W,1.0,0.0,48,INT-World Cup 2022
+Serbia,2021-10-12,Azerbaijan,W,3.0,1.0,57,INT-World Cup 2022
+Serbia,2021-11-14,Portugal,W,2.0,1.0,57,INT-World Cup 2022
+Serbia,2022-11-24,Brazil,L,0.0,2.0,41,INT-World Cup 2022
+Serbia,2022-11-28,Cameroon,D,3.0,3.0,59,INT-World Cup 2022
+Serbia,2022-12-02,Switzerland,L,2.0,3.0,54,INT-World Cup 2022
+Spain,2021-03-25,Greece,D,1.0,1.0,80,INT-World Cup 2022
+Spain,2021-03-28,Georgia,W,2.0,1.0,79,INT-World Cup 2022
+Spain,2021-03-31,Kosovo,W,3.0,1.0,81,INT-World Cup 2022
+Spain,2021-09-02,Sweden,L,1.0,2.0,75,INT-World Cup 2022
+Spain,2021-09-05,Georgia,W,4.0,0.0,75,INT-World Cup 2022
+Spain,2021-09-08,Kosovo,W,2.0,0.0,73,INT-World Cup 2022
+Spain,2021-11-11,Greece,W,1.0,0.0,73,INT-World Cup 2022
+Spain,2021-11-14,Sweden,W,1.0,0.0,72,INT-World Cup 2022
+Spain,2022-11-23,Costa Rica,W,7.0,0.0,82,INT-World Cup 2022
+Spain,2022-11-27,Germany,D,1.0,1.0,64,INT-World Cup 2022
+Spain,2022-12-01,Japan,L,1.0,2.0,82,INT-World Cup 2022
+Switzerland,2021-03-25,Bulgaria,W,3.0,1.0,70,INT-World Cup 2022
+Switzerland,2021-03-28,Lithuania,W,1.0,0.0,69,INT-World Cup 2022
+Switzerland,2021-09-05,Italy,D,0.0,0.0,48,INT-World Cup 2022
+Switzerland,2021-09-08,Northern Ireland,D,0.0,0.0,75,INT-World Cup 2022
+Switzerland,2021-10-09,Northern Ireland,W,2.0,0.0,72,INT-World Cup 2022
+Switzerland,2021-10-12,Lithuania,W,4.0,0.0,70,INT-World Cup 2022
+Switzerland,2021-11-12,Italy,D,1.0,1.0,36,INT-World Cup 2022
+Switzerland,2021-11-15,Bulgaria,W,4.0,0.0,69,INT-World Cup 2022
+Switzerland,2022-11-24,Cameroon,W,1.0,0.0,51,INT-World Cup 2022
+Switzerland,2022-11-28,Brazil,L,0.0,1.0,46,INT-World Cup 2022
+Switzerland,2022-12-02,Serbia,W,3.0,2.0,46,INT-World Cup 2022
+Switzerland,2022-12-06,Portugal,L,1.0,6.0,52,INT-World Cup 2022
+Tunisia,2022-11-22,Denmark,D,0.0,0.0,39,INT-World Cup 2022
+Tunisia,2022-11-26,Australia,L,0.0,1.0,58,INT-World Cup 2022
+Tunisia,2022-11-30,France,W,1.0,0.0,34,INT-World Cup 2022
+United States,2022-11-21,Wales,D,1.0,1.0,59,INT-World Cup 2022
+United States,2022-11-25,England,D,0.0,0.0,45,INT-World Cup 2022
+United States,2022-11-29,IR Iran,W,1.0,0.0,51,INT-World Cup 2022
+United States,2022-12-03,Netherlands,L,1.0,3.0,58,INT-World Cup 2022
+Uruguay,2020-10-08,Chile,W,2.0,1.0,51,INT-World Cup 2022
+Uruguay,2020-10-13,Ecuador,L,2.0,4.0,49,INT-World Cup 2022
+Uruguay,2020-11-13,Colombia,W,3.0,0.0,37,INT-World Cup 2022
+Uruguay,2020-11-17,Brazil,L,0.0,2.0,41,INT-World Cup 2022
+Uruguay,2021-06-03,Paraguay,D,0.0,0.0,57,INT-World Cup 2022
+Uruguay,2021-06-08,Venezuela,D,0.0,0.0,56,INT-World Cup 2022
+Uruguay,2021-09-02,Peru,D,1.0,1.0,35,INT-World Cup 2022
+Uruguay,2021-09-05,Bolivia,W,4.0,2.0,55,INT-World Cup 2022
+Uruguay,2021-09-09,Ecuador,W,1.0,0.0,55,INT-World Cup 2022
+Uruguay,2021-10-07,Colombia,D,0.0,0.0,49,INT-World Cup 2022
+Uruguay,2021-10-10,Argentina,L,0.0,3.0,38,INT-World Cup 2022
+Uruguay,2021-10-14,Brazil,L,1.0,4.0,45,INT-World Cup 2022
+Uruguay,2021-11-12,Argentina,L,0.0,1.0,36,INT-World Cup 2022
+Uruguay,2021-11-16,Bolivia,L,0.0,3.0,46,INT-World Cup 2022
+Uruguay,2022-01-27,Paraguay,W,1.0,0.0,53,INT-World Cup 2022
+Uruguay,2022-02-01,Venezuela,W,4.0,1.0,42,INT-World Cup 2022
+Uruguay,2022-03-24,Peru,W,1.0,0.0,49,INT-World Cup 2022
+Uruguay,2022-03-29,Chile,W,2.0,0.0,45,INT-World Cup 2022
+Uruguay,2022-11-24,Korea Republic,D,0.0,0.0,56,INT-World Cup 2022
+Uruguay,2022-11-28,Portugal,L,0.0,2.0,40,INT-World Cup 2022
+Uruguay,2022-12-02,Ghana,W,2.0,0.0,50,INT-World Cup 2022
+Wales,2021-03-24,Belgium,L,1.0,3.0,25,INT-World Cup 2022
+Wales,2021-03-30,Czechia,W,1.0,0.0,44,INT-World Cup 2022
+Wales,2021-09-05,Belarus,W,3.0,2.0,66,INT-World Cup 2022
+Wales,2021-09-08,Estonia,D,0.0,0.0,66,INT-World Cup 2022
+Wales,2021-10-08,Czechia,D,2.0,2.0,50,INT-World Cup 2022
+Wales,2021-10-11,Estonia,W,1.0,0.0,57,INT-World Cup 2022
+Wales,2021-11-13,Belarus,W,5.0,1.0,67,INT-World Cup 2022
+Wales,2021-11-16,Belgium,D,1.0,1.0,24,INT-World Cup 2022
+Wales,2022-03-24,Austria,W,2.0,1.0,34,INT-World Cup 2022
+Wales,2022-11-21,United States,D,1.0,1.0,41,INT-World Cup 2022
+Wales,2022-11-25,IR Iran,L,0.0,2.0,62,INT-World Cup 2022
+Wales,2022-11-29,England,L,0.0,3.0,36,INT-World Cup 2022
+Austria,2019-03-21,Poland,L,0.0,1.0,58,INT-European Championship 2020
+Austria,2019-03-24,Israel,L,2.0,4.0,57,INT-European Championship 2020
+Austria,2019-06-07,Slovenia,W,1.0,0.0,55,INT-European Championship 2020
+Austria,2019-06-10,N. Macedonia,W,4.0,1.0,61,INT-European Championship 2020
+Austria,2019-09-06,Latvia,W,6.0,0.0,77,INT-European Championship 2020
+Austria,2019-09-09,Poland,D,0.0,0.0,65,INT-European Championship 2020
+Austria,2019-10-10,Israel,W,3.0,1.0,54,INT-European Championship 2020
+Austria,2019-10-13,Slovenia,W,1.0,0.0,55,INT-European Championship 2020
+Austria,2019-11-16,N. Macedonia,W,2.0,1.0,53,INT-European Championship 2020
+Austria,2019-11-19,Latvia,L,0.0,1.0,75,INT-European Championship 2020
+Austria,2021-06-13,N. Macedonia,W,3.0,1.0,63,INT-European Championship 2020
+Austria,2021-06-17,Netherlands,L,0.0,2.0,53,INT-European Championship 2020
+Austria,2021-06-21,Ukraine,W,1.0,0.0,50,INT-European Championship 2020
+Austria,2021-06-26,Italy,L,1.0,2.0,49,INT-European Championship 2020
+Belgium,2019-03-21,Russia,W,3.0,1.0,61,INT-European Championship 2020
+Belgium,2019-03-24,Cyprus,W,2.0,0.0,60,INT-European Championship 2020
+Belgium,2019-06-08,Kazakhstan,W,3.0,0.0,70,INT-European Championship 2020
+Belgium,2019-06-11,Scotland,W,3.0,0.0,71,INT-European Championship 2020
+Belgium,2019-09-06,San Marino,W,4.0,0.0,81,INT-European Championship 2020
+Belgium,2019-09-09,Scotland,W,4.0,0.0,52,INT-European Championship 2020
+Belgium,2019-10-10,San Marino,W,9.0,0.0,84,INT-European Championship 2020
+Belgium,2019-10-13,Kazakhstan,W,2.0,0.0,66,INT-European Championship 2020
+Belgium,2019-11-16,Russia,W,4.0,1.0,47,INT-European Championship 2020
+Belgium,2019-11-19,Cyprus,W,6.0,1.0,62,INT-European Championship 2020
+Belgium,2021-06-12,Russia,W,3.0,0.0,66,INT-European Championship 2020
+Belgium,2021-06-17,Denmark,W,2.0,1.0,53,INT-European Championship 2020
+Belgium,2021-06-21,Finland,W,2.0,0.0,60,INT-European Championship 2020
+Belgium,2021-06-27,Portugal,W,1.0,0.0,43,INT-European Championship 2020
+Belgium,2021-07-02,Italy,L,1.0,2.0,46,INT-European Championship 2020
+Croatia,2019-03-21,Azerbaijan,W,2.0,1.0,74,INT-European Championship 2020
+Croatia,2019-03-24,Hungary,L,1.0,2.0,64,INT-European Championship 2020
+Croatia,2019-06-08,Wales,W,2.0,1.0,63,INT-European Championship 2020
+Croatia,2019-09-06,Slovakia,W,4.0,0.0,51,INT-European Championship 2020
+Croatia,2019-09-09,Azerbaijan,D,1.0,1.0,63,INT-European Championship 2020
+Croatia,2019-10-10,Hungary,W,3.0,0.0,69,INT-European Championship 2020
+Croatia,2019-10-13,Wales,D,1.0,1.0,64,INT-European Championship 2020
+Croatia,2019-11-16,Slovakia,W,3.0,1.0,67,INT-European Championship 2020
+Croatia,2021-06-13,England,L,0.0,1.0,50,INT-European Championship 2020
+Croatia,2021-06-18,Czechia,D,1.0,1.0,49,INT-European Championship 2020
+Croatia,2021-06-22,Scotland,W,3.0,1.0,66,INT-European Championship 2020
+Croatia,2021-06-28,Spain,L,3.0,5.0,33,INT-European Championship 2020
+Czechia,2019-03-22,England,L,0.0,5.0,34,INT-European Championship 2020
+Czechia,2019-06-07,Bulgaria,W,2.0,1.0,51,INT-European Championship 2020
+Czechia,2019-06-10,Montenegro,W,3.0,0.0,50,INT-European Championship 2020
+Czechia,2019-09-07,Kosovo,L,1.0,2.0,60,INT-European Championship 2020
+Czechia,2019-09-10,Montenegro,W,3.0,0.0,53,INT-European Championship 2020
+Czechia,2019-10-11,England,W,2.0,1.0,44,INT-European Championship 2020
+Czechia,2019-11-14,Kosovo,W,2.0,1.0,59,INT-European Championship 2020
+Czechia,2019-11-17,Bulgaria,L,0.0,1.0,69,INT-European Championship 2020
+Czechia,2021-06-14,Scotland,W,2.0,0.0,42,INT-European Championship 2020
+Czechia,2021-06-18,Croatia,D,1.0,1.0,51,INT-European Championship 2020
+Czechia,2021-06-22,England,L,0.0,1.0,44,INT-European Championship 2020
+Czechia,2021-06-27,Netherlands,W,2.0,0.0,48,INT-European Championship 2020
+Czechia,2021-07-03,Denmark,L,1.0,2.0,55,INT-European Championship 2020
+Denmark,2019-03-26,Switzerland,D,3.0,3.0,45,INT-European Championship 2020
+Denmark,2019-06-07,Rep. of Ireland,D,1.0,1.0,62,INT-European Championship 2020
+Denmark,2019-06-10,Georgia,W,5.0,1.0,69,INT-European Championship 2020
+Denmark,2019-09-05,Gibraltar,W,6.0,0.0,78,INT-European Championship 2020
+Denmark,2019-09-08,Georgia,D,0.0,0.0,61,INT-European Championship 2020
+Denmark,2019-10-12,Switzerland,W,1.0,0.0,47,INT-European Championship 2020
+Denmark,2019-11-15,Gibraltar,W,6.0,0.0,80,INT-European Championship 2020
+Denmark,2019-11-18,Rep. of Ireland,D,1.0,1.0,48,INT-European Championship 2020
+Denmark,2021-06-12,Finland,L,0.0,1.0,68,INT-European Championship 2020
+Denmark,2021-06-17,Belgium,L,1.0,2.0,47,INT-European Championship 2020
+Denmark,2021-06-21,Russia,W,4.0,1.0,65,INT-European Championship 2020
+Denmark,2021-06-26,Wales,W,4.0,0.0,53,INT-European Championship 2020
+Denmark,2021-07-03,Czechia,W,2.0,1.0,45,INT-European Championship 2020
+Denmark,2021-07-07,England,L,1.0,2.0,42,INT-European Championship 2020
+England,2019-03-22,Czechia,W,5.0,0.0,66,INT-European Championship 2020
+England,2019-03-25,Montenegro,W,5.0,1.0,73,INT-European Championship 2020
+England,2019-09-07,Bulgaria,W,4.0,0.0,68,INT-European Championship 2020
+England,2019-09-10,Kosovo,W,5.0,3.0,58,INT-European Championship 2020
+England,2019-10-11,Czechia,L,1.0,2.0,56,INT-European Championship 2020
+England,2019-10-14,Bulgaria,W,6.0,0.0,72,INT-European Championship 2020
+England,2019-11-14,Montenegro,W,7.0,0.0,66,INT-European Championship 2020
+England,2019-11-17,Kosovo,W,4.0,0.0,55,INT-European Championship 2020
+England,2021-06-13,Croatia,W,1.0,0.0,50,INT-European Championship 2020
+England,2021-06-18,Scotland,D,0.0,0.0,60,INT-European Championship 2020
+England,2021-06-22,Czechia,W,1.0,0.0,56,INT-European Championship 2020
+England,2021-06-29,Germany,W,2.0,0.0,46,INT-European Championship 2020
+England,2021-07-03,Ukraine,W,4.0,0.0,52,INT-European Championship 2020
+England,2021-07-07,Denmark,W,2.0,1.0,58,INT-European Championship 2020
+Finland,2019-03-23,Italy,L,0.0,2.0,42,INT-European Championship 2020
+Finland,2019-03-26,Armenia,W,2.0,0.0,52,INT-European Championship 2020
+Finland,2019-06-08,Bosnia-Herzegovina,W,2.0,0.0,51,INT-European Championship 2020
+Finland,2019-06-11,Liechtenstein,W,2.0,0.0,80,INT-European Championship 2020
+Finland,2019-09-05,Greece,W,1.0,0.0,45,INT-European Championship 2020
+Finland,2019-09-08,Italy,L,1.0,2.0,40,INT-European Championship 2020
+Finland,2019-10-12,Bosnia-Herzegovina,L,1.0,4.0,44,INT-European Championship 2020
+Finland,2019-10-15,Armenia,W,3.0,0.0,61,INT-European Championship 2020
+Finland,2019-11-15,Liechtenstein,W,3.0,0.0,70,INT-European Championship 2020
+Finland,2019-11-18,Greece,L,1.0,2.0,41,INT-European Championship 2020
+Finland,2021-06-12,Denmark,W,1.0,0.0,32,INT-European Championship 2020
+Finland,2021-06-16,Russia,L,0.0,1.0,41,INT-European Championship 2020
+Finland,2021-06-21,Belgium,L,0.0,2.0,40,INT-European Championship 2020
+France,2019-03-22,Moldova,W,4.0,1.0,67,INT-European Championship 2020
+France,2019-03-25,Iceland,W,4.0,0.0,75,INT-European Championship 2020
+France,2019-06-08,Türkiye,L,0.0,2.0,63,INT-European Championship 2020
+France,2019-06-11,Andorra,W,4.0,0.0,86,INT-European Championship 2020
+France,2019-09-07,Albania,W,4.0,1.0,72,INT-European Championship 2020
+France,2019-09-10,Andorra,W,3.0,0.0,84,INT-European Championship 2020
+France,2019-10-11,Iceland,W,1.0,0.0,71,INT-European Championship 2020
+France,2019-10-14,Türkiye,D,1.0,1.0,64,INT-European Championship 2020
+France,2019-11-14,Moldova,W,2.0,1.0,77,INT-European Championship 2020
+France,2019-11-17,Albania,W,2.0,0.0,57,INT-European Championship 2020
+France,2021-06-15,Germany,W,1.0,0.0,38,INT-European Championship 2020
+France,2021-06-19,Hungary,D,1.0,1.0,67,INT-European Championship 2020
+France,2021-06-23,Portugal,D,2.0,2.0,52,INT-European Championship 2020
+Germany,2019-03-24,Netherlands,W,3.0,2.0,46,INT-European Championship 2020
+Germany,2019-06-08,Belarus,W,2.0,0.0,75,INT-European Championship 2020
+Germany,2019-06-11,Estonia,W,8.0,0.0,82,INT-European Championship 2020
+Germany,2019-09-06,Netherlands,L,2.0,4.0,49,INT-European Championship 2020
+Germany,2019-09-09,Northern Ireland,W,2.0,0.0,75,INT-European Championship 2020
+Germany,2019-10-13,Estonia,W,3.0,0.0,70,INT-European Championship 2020
+Germany,2019-11-16,Belarus,W,4.0,0.0,71,INT-European Championship 2020
+Germany,2019-11-19,Northern Ireland,W,6.0,1.0,72,INT-European Championship 2020
+Germany,2021-06-15,France,L,0.0,1.0,62,INT-European Championship 2020
+Germany,2021-06-19,Portugal,W,4.0,2.0,58,INT-European Championship 2020
+Germany,2021-06-23,Hungary,D,2.0,2.0,75,INT-European Championship 2020
+Germany,2021-06-29,England,L,0.0,2.0,54,INT-European Championship 2020
+Hungary,2019-03-21,Slovakia,L,0.0,2.0,44,INT-European Championship 2020
+Hungary,2019-03-24,Croatia,W,2.0,1.0,36,INT-European Championship 2020
+Hungary,2019-06-08,Azerbaijan,W,3.0,1.0,46,INT-European Championship 2020
+Hungary,2019-06-11,Wales,W,1.0,0.0,54,INT-European Championship 2020
+Hungary,2019-09-09,Slovakia,L,1.0,2.0,49,INT-European Championship 2020
+Hungary,2019-10-10,Croatia,L,0.0,3.0,32,INT-European Championship 2020
+Hungary,2019-10-13,Azerbaijan,W,1.0,0.0,52,INT-European Championship 2020
+Hungary,2019-11-19,Wales,L,0.0,2.0,59,INT-European Championship 2020
+Hungary,2020-10-08,Bulgaria,W,3.0,1.0,53,INT-European Championship 2020
+Hungary,2020-11-12,Iceland,W,2.0,1.0,73,INT-European Championship 2020
+Hungary,2021-06-15,Portugal,L,0.0,3.0,30,INT-European Championship 2020
+Hungary,2021-06-19,France,D,1.0,1.0,34,INT-European Championship 2020
+Hungary,2021-06-23,Germany,D,2.0,2.0,25,INT-European Championship 2020
+Italy,2019-03-23,Finland,W,2.0,0.0,58,INT-European Championship 2020
+Italy,2019-03-26,Liechtenstein,W,6.0,0.0,78,INT-European Championship 2020
+Italy,2019-06-08,Greece,W,3.0,0.0,70,INT-European Championship 2020
+Italy,2019-06-11,Bosnia-Herzegovina,W,2.0,1.0,65,INT-European Championship 2020
+Italy,2019-09-05,Armenia,W,3.0,1.0,74,INT-European Championship 2020
+Italy,2019-09-08,Finland,W,2.0,1.0,60,INT-European Championship 2020
+Italy,2019-10-12,Greece,W,2.0,0.0,71,INT-European Championship 2020
+Italy,2019-10-15,Liechtenstein,W,5.0,0.0,80,INT-European Championship 2020
+Italy,2019-11-15,Bosnia-Herzegovina,W,3.0,0.0,55,INT-European Championship 2020
+Italy,2019-11-18,Armenia,W,9.0,1.0,71,INT-European Championship 2020
+Italy,2021-06-11,Türkiye,W,3.0,0.0,63,INT-European Championship 2020
+Italy,2021-06-16,Switzerland,W,3.0,0.0,49,INT-European Championship 2020
+Italy,2021-06-20,Wales,W,1.0,0.0,69,INT-European Championship 2020
+Italy,2021-06-26,Austria,W,2.0,1.0,51,INT-European Championship 2020
+Italy,2021-07-02,Belgium,W,2.0,1.0,54,INT-European Championship 2020
+N. Macedonia,2019-03-21,Latvia,W,3.0,1.0,60,INT-European Championship 2020
+N. Macedonia,2019-03-24,Slovenia,D,1.0,1.0,40,INT-European Championship 2020
+N. Macedonia,2019-06-07,Poland,L,0.0,1.0,48,INT-European Championship 2020
+N. Macedonia,2019-06-10,Austria,L,1.0,4.0,39,INT-European Championship 2020
+N. Macedonia,2019-09-05,Israel,D,1.0,1.0,34,INT-European Championship 2020
+N. Macedonia,2019-09-09,Latvia,W,2.0,0.0,52,INT-European Championship 2020
+N. Macedonia,2019-10-10,Slovenia,W,2.0,1.0,46,INT-European Championship 2020
+N. Macedonia,2019-10-13,Poland,L,0.0,2.0,36,INT-European Championship 2020
+N. Macedonia,2019-11-16,Austria,L,1.0,2.0,47,INT-European Championship 2020
+N. Macedonia,2019-11-19,Israel,W,1.0,0.0,43,INT-European Championship 2020
+N. Macedonia,2020-10-08,Kosovo,W,2.0,1.0,41,INT-European Championship 2020
+N. Macedonia,2020-11-12,Georgia,W,1.0,0.0,44,INT-European Championship 2020
+N. Macedonia,2021-06-13,Austria,L,1.0,3.0,37,INT-European Championship 2020
+N. Macedonia,2021-06-17,Ukraine,L,1.0,2.0,48,INT-European Championship 2020
+N. Macedonia,2021-06-21,Netherlands,L,0.0,3.0,41,INT-European Championship 2020
+Netherlands,2019-03-21,Belarus,W,4.0,0.0,62,INT-European Championship 2020
+Netherlands,2019-03-24,Germany,L,2.0,3.0,54,INT-European Championship 2020
+Netherlands,2019-09-06,Germany,W,4.0,2.0,51,INT-European Championship 2020
+Netherlands,2019-09-09,Estonia,W,4.0,0.0,72,INT-European Championship 2020
+Netherlands,2019-10-10,Northern Ireland,W,3.0,1.0,77,INT-European Championship 2020
+Netherlands,2019-10-13,Belarus,W,2.0,1.0,76,INT-European Championship 2020
+Netherlands,2019-11-16,Northern Ireland,D,0.0,0.0,69,INT-European Championship 2020
+Netherlands,2019-11-19,Estonia,W,5.0,0.0,66,INT-European Championship 2020
+Netherlands,2021-06-13,Ukraine,W,3.0,2.0,62,INT-European Championship 2020
+Netherlands,2021-06-17,Austria,W,2.0,0.0,47,INT-European Championship 2020
+Netherlands,2021-06-21,N. Macedonia,W,3.0,0.0,59,INT-European Championship 2020
+Netherlands,2021-06-27,Czechia,L,0.0,2.0,52,INT-European Championship 2020
+Poland,2019-03-21,Austria,W,1.0,0.0,42,INT-European Championship 2020
+Poland,2019-03-24,Latvia,W,2.0,0.0,72,INT-European Championship 2020
+Poland,2019-06-07,N. Macedonia,W,1.0,0.0,52,INT-European Championship 2020
+Poland,2019-06-10,Israel,W,4.0,0.0,48,INT-European Championship 2020
+Poland,2019-09-06,Slovenia,L,0.0,2.0,65,INT-European Championship 2020
+Poland,2019-09-09,Austria,D,0.0,0.0,35,INT-European Championship 2020
+Poland,2019-10-10,Latvia,W,3.0,0.0,65,INT-European Championship 2020
+Poland,2019-10-13,N. Macedonia,W,2.0,0.0,64,INT-European Championship 2020
+Poland,2019-11-16,Israel,W,2.0,1.0,48,INT-European Championship 2020
+Poland,2019-11-19,Slovenia,W,3.0,2.0,59,INT-European Championship 2020
+Poland,2021-06-14,Slovakia,L,1.0,2.0,57,INT-European Championship 2020
+Poland,2021-06-19,Spain,D,1.0,1.0,24,INT-European Championship 2020
+Poland,2021-06-23,Sweden,L,2.0,3.0,67,INT-European Championship 2020
+Portugal,2019-03-22,Ukraine,D,0.0,0.0,59,INT-European Championship 2020
+Portugal,2019-03-25,Serbia,D,1.0,1.0,70,INT-European Championship 2020
+Portugal,2019-09-07,Serbia,W,4.0,2.0,56,INT-European Championship 2020
+Portugal,2019-09-10,Lithuania,W,5.0,1.0,66,INT-European Championship 2020
+Portugal,2019-10-11,Luxembourg,W,3.0,0.0,61,INT-European Championship 2020
+Portugal,2019-10-14,Ukraine,L,1.0,2.0,59,INT-European Championship 2020
+Portugal,2019-11-14,Lithuania,W,6.0,0.0,71,INT-European Championship 2020
+Portugal,2019-11-17,Luxembourg,W,2.0,0.0,62,INT-European Championship 2020
+Portugal,2021-06-15,Hungary,W,3.0,0.0,70,INT-European Championship 2020
+Portugal,2021-06-19,Germany,L,2.0,4.0,42,INT-European Championship 2020
+Portugal,2021-06-23,France,D,2.0,2.0,48,INT-European Championship 2020
+Portugal,2021-06-27,Belgium,L,0.0,1.0,57,INT-European Championship 2020
+Russia,2019-03-21,Belgium,L,1.0,3.0,39,INT-European Championship 2020
+Russia,2019-03-24,Kazakhstan,W,4.0,0.0,62,INT-European Championship 2020
+Russia,2019-06-08,San Marino,W,9.0,0.0,80,INT-European Championship 2020
+Russia,2019-06-11,Cyprus,W,1.0,0.0,64,INT-European Championship 2020
+Russia,2019-09-06,Scotland,W,2.0,1.0,54,INT-European Championship 2020
+Russia,2019-09-09,Kazakhstan,W,1.0,0.0,61,INT-European Championship 2020
+Russia,2019-10-10,Scotland,W,4.0,0.0,64,INT-European Championship 2020
+Russia,2019-10-13,Cyprus,W,5.0,0.0,70,INT-European Championship 2020
+Russia,2019-11-16,Belgium,L,1.0,4.0,53,INT-European Championship 2020
+Russia,2019-11-19,San Marino,W,5.0,0.0,82,INT-European Championship 2020
+Russia,2021-06-12,Belgium,L,0.0,3.0,34,INT-European Championship 2020
+Russia,2021-06-16,Finland,W,1.0,0.0,59,INT-European Championship 2020
+Russia,2021-06-21,Denmark,L,1.0,4.0,35,INT-European Championship 2020
+Scotland,2019-03-21,Kazakhstan,L,0.0,3.0,59,INT-European Championship 2020
+Scotland,2019-03-24,San Marino,W,2.0,0.0,77,INT-European Championship 2020
+Scotland,2019-06-08,Cyprus,W,2.0,1.0,53,INT-European Championship 2020
+Scotland,2019-06-11,Belgium,L,0.0,3.0,29,INT-European Championship 2020
+Scotland,2019-09-06,Russia,L,1.0,2.0,46,INT-European Championship 2020
+Scotland,2019-09-09,Belgium,L,0.0,4.0,48,INT-European Championship 2020
+Scotland,2019-10-10,Russia,L,0.0,4.0,36,INT-European Championship 2020
+Scotland,2019-10-13,San Marino,W,6.0,0.0,75,INT-European Championship 2020
+Scotland,2019-11-16,Cyprus,W,2.0,1.0,42,INT-European Championship 2020
+Scotland,2019-11-19,Kazakhstan,W,3.0,1.0,62,INT-European Championship 2020
+Scotland,2021-06-14,Czechia,L,0.0,2.0,58,INT-European Championship 2020
+Scotland,2021-06-18,England,D,0.0,0.0,40,INT-European Championship 2020
+Scotland,2021-06-22,Croatia,L,1.0,3.0,34,INT-European Championship 2020
+Slovakia,2019-03-21,Hungary,W,2.0,0.0,56,INT-European Championship 2020
+Slovakia,2019-03-24,Wales,L,0.0,1.0,58,INT-European Championship 2020
+Slovakia,2019-06-11,Azerbaijan,W,5.0,1.0,63,INT-European Championship 2020
+Slovakia,2019-09-06,Croatia,L,0.0,4.0,49,INT-European Championship 2020
+Slovakia,2019-09-09,Hungary,W,2.0,1.0,51,INT-European Championship 2020
+Slovakia,2019-10-10,Wales,D,1.0,1.0,70,INT-European Championship 2020
+Slovakia,2019-11-16,Croatia,L,1.0,3.0,33,INT-European Championship 2020
+Slovakia,2019-11-19,Azerbaijan,W,2.0,0.0,65,INT-European Championship 2020
+Slovakia,2020-11-12,Northern Ireland,W,2.0,1.0,54,INT-European Championship 2020
+Slovakia,2021-06-14,Poland,W,2.0,1.0,43,INT-European Championship 2020
+Slovakia,2021-06-18,Sweden,L,0.0,1.0,58,INT-European Championship 2020
+Slovakia,2021-06-23,Spain,L,0.0,5.0,34,INT-European Championship 2020
+Spain,2019-03-23,Norway,W,2.0,1.0,75,INT-European Championship 2020
+Spain,2019-03-26,Malta,W,2.0,0.0,84,INT-European Championship 2020
+Spain,2019-06-07,Faroe Islands,W,4.0,1.0,77,INT-European Championship 2020
+Spain,2019-06-10,Sweden,W,3.0,0.0,74,INT-European Championship 2020
+Spain,2019-09-05,Romania,W,2.0,1.0,74,INT-European Championship 2020
+Spain,2019-09-08,Faroe Islands,W,4.0,0.0,71,INT-European Championship 2020
+Spain,2019-10-12,Norway,D,1.0,1.0,62,INT-European Championship 2020
+Spain,2019-10-15,Sweden,D,1.0,1.0,75,INT-European Championship 2020
+Spain,2019-11-15,Malta,W,7.0,0.0,80,INT-European Championship 2020
+Spain,2019-11-18,Romania,W,5.0,0.0,74,INT-European Championship 2020
+Spain,2021-06-14,Sweden,D,0.0,0.0,85,INT-European Championship 2020
+Spain,2021-06-19,Poland,D,1.0,1.0,76,INT-European Championship 2020
+Spain,2021-06-23,Slovakia,W,5.0,0.0,66,INT-European Championship 2020
+Spain,2021-06-28,Croatia,W,5.0,3.0,67,INT-European Championship 2020
+Sweden,2019-03-23,Romania,W,2.0,1.0,50,INT-European Championship 2020
+Sweden,2019-03-26,Norway,D,3.0,3.0,61,INT-European Championship 2020
+Sweden,2019-06-07,Malta,W,3.0,0.0,64,INT-European Championship 2020
+Sweden,2019-06-10,Spain,L,0.0,3.0,26,INT-European Championship 2020
+Sweden,2019-09-05,Faroe Islands,W,4.0,0.0,60,INT-European Championship 2020
+Sweden,2019-09-08,Norway,D,1.0,1.0,54,INT-European Championship 2020
+Sweden,2019-10-12,Malta,W,4.0,0.0,60,INT-European Championship 2020
+Sweden,2019-10-15,Spain,D,1.0,1.0,25,INT-European Championship 2020
+Sweden,2019-11-15,Romania,W,2.0,0.0,47,INT-European Championship 2020
+Sweden,2019-11-18,Faroe Islands,W,3.0,0.0,65,INT-European Championship 2020
+Sweden,2021-06-14,Spain,D,0.0,0.0,15,INT-European Championship 2020
+Sweden,2021-06-18,Slovakia,W,1.0,0.0,42,INT-European Championship 2020
+Sweden,2021-06-23,Poland,W,3.0,2.0,33,INT-European Championship 2020
+Sweden,2021-06-29,Ukraine,L,1.0,2.0,46,INT-European Championship 2020
+Switzerland,2019-03-23,Georgia,W,2.0,0.0,64,INT-European Championship 2020
+Switzerland,2019-03-26,Denmark,D,3.0,3.0,55,INT-European Championship 2020
+Switzerland,2019-09-05,Rep. of Ireland,D,1.0,1.0,59,INT-European Championship 2020
+Switzerland,2019-09-08,Gibraltar,W,4.0,0.0,77,INT-European Championship 2020
+Switzerland,2019-10-12,Denmark,L,0.0,1.0,53,INT-European Championship 2020
+Switzerland,2019-10-15,Rep. of Ireland,W,2.0,0.0,56,INT-European Championship 2020
+Switzerland,2019-11-15,Georgia,W,1.0,0.0,68,INT-European Championship 2020
+Switzerland,2019-11-18,Gibraltar,W,6.0,1.0,75,INT-European Championship 2020
+Switzerland,2021-06-12,Wales,D,1.0,1.0,64,INT-European Championship 2020
+Switzerland,2021-06-16,Italy,L,0.0,3.0,51,INT-European Championship 2020
+Switzerland,2021-06-20,Türkiye,W,3.0,1.0,50,INT-European Championship 2020
+Türkiye,2019-03-22,Albania,W,2.0,0.0,46,INT-European Championship 2020
+Türkiye,2019-03-25,Moldova,W,4.0,0.0,59,INT-European Championship 2020
+Türkiye,2019-06-08,France,W,2.0,0.0,37,INT-European Championship 2020
+Türkiye,2019-06-11,Iceland,L,1.0,2.0,67,INT-European Championship 2020
+Türkiye,2019-09-07,Andorra,W,1.0,0.0,84,INT-European Championship 2020
+Türkiye,2019-09-10,Moldova,W,4.0,0.0,75,INT-European Championship 2020
+Türkiye,2019-10-11,Albania,W,1.0,0.0,59,INT-European Championship 2020
+Türkiye,2019-10-14,France,D,1.0,1.0,36,INT-European Championship 2020
+Türkiye,2019-11-14,Iceland,D,0.0,0.0,63,INT-European Championship 2020
+Türkiye,2019-11-17,Andorra,W,2.0,0.0,81,INT-European Championship 2020
+Türkiye,2021-06-11,Italy,L,0.0,3.0,37,INT-European Championship 2020
+Türkiye,2021-06-16,Wales,L,0.0,2.0,63,INT-European Championship 2020
+Türkiye,2021-06-20,Switzerland,L,1.0,3.0,50,INT-European Championship 2020
+Ukraine,2019-03-22,Portugal,D,0.0,0.0,41,INT-European Championship 2020
+Ukraine,2019-03-25,Luxembourg,W,2.0,1.0,62,INT-European Championship 2020
+Ukraine,2019-06-07,Serbia,W,5.0,0.0,58,INT-European Championship 2020
+Ukraine,2019-06-10,Luxembourg,W,1.0,0.0,57,INT-European Championship 2020
+Ukraine,2019-09-07,Lithuania,W,3.0,0.0,69,INT-European Championship 2020
+Ukraine,2019-10-11,Lithuania,W,2.0,0.0,68,INT-European Championship 2020
+Ukraine,2019-10-14,Portugal,W,2.0,1.0,41,INT-European Championship 2020
+Ukraine,2019-11-17,Serbia,D,2.0,2.0,47,INT-European Championship 2020
+Ukraine,2021-06-13,Netherlands,L,2.0,3.0,39,INT-European Championship 2020
+Ukraine,2021-06-17,N. Macedonia,W,2.0,1.0,53,INT-European Championship 2020
+Ukraine,2021-06-21,Austria,L,0.0,1.0,50,INT-European Championship 2020
+Ukraine,2021-06-29,Sweden,W,2.0,1.0,54,INT-European Championship 2020
+Ukraine,2021-07-03,England,L,0.0,4.0,49,INT-European Championship 2020
+Wales,2019-03-24,Slovakia,W,1.0,0.0,42,INT-European Championship 2020
+Wales,2019-06-08,Croatia,L,1.0,2.0,37,INT-European Championship 2020
+Wales,2019-06-11,Hungary,L,0.0,1.0,46,INT-European Championship 2020
+Wales,2019-09-06,Azerbaijan,W,2.0,1.0,64,INT-European Championship 2020
+Wales,2019-10-10,Slovakia,D,1.0,1.0,30,INT-European Championship 2020
+Wales,2019-10-13,Croatia,D,1.0,1.0,36,INT-European Championship 2020
+Wales,2019-11-16,Azerbaijan,W,2.0,0.0,53,INT-European Championship 2020
+Wales,2019-11-19,Hungary,W,2.0,0.0,41,INT-European Championship 2020
+Wales,2021-06-12,Switzerland,D,1.0,1.0,36,INT-European Championship 2020
+Wales,2021-06-16,Türkiye,W,2.0,0.0,37,INT-European Championship 2020
+Wales,2021-06-20,Italy,L,0.0,1.0,31,INT-European Championship 2020
+Wales,2021-06-26,Denmark,L,0.0,4.0,47,INT-European Championship 2020
+Albania,2023-03-27,Poland,L,0.0,1.0,45,INT-European Championship 2024
+Albania,2023-06-17,Moldova,W,2.0,0.0,72,INT-European Championship 2024
+Albania,2023-06-20,Faroe Islands,W,3.0,1.0,49,INT-European Championship 2024
+Albania,2023-09-07,Czechia,D,1.0,1.0,43,INT-European Championship 2024
+Albania,2023-09-10,Poland,W,2.0,0.0,39,INT-European Championship 2024
+Albania,2023-10-12,Czechia,W,3.0,0.0,36,INT-European Championship 2024
+Albania,2023-11-17,Moldova,D,1.0,1.0,53,INT-European Championship 2024
+Albania,2023-11-20,Faroe Islands,D,0.0,0.0,64,INT-European Championship 2024
+Albania,2024-06-15,Italy,L,1.0,2.0,32,INT-European Championship 2024
+Albania,2024-06-19,Croatia,D,2.0,2.0,33,INT-European Championship 2024
+Albania,2024-06-24,Spain,L,0.0,1.0,41,INT-European Championship 2024
+Austria,2023-03-24,Azerbaijan,W,4.0,1.0,51,INT-European Championship 2024
+Austria,2023-03-27,Estonia,W,2.0,1.0,66,INT-European Championship 2024
+Austria,2023-06-17,Belgium,D,1.0,1.0,44,INT-European Championship 2024
+Austria,2023-06-20,Sweden,W,2.0,0.0,63,INT-European Championship 2024
+Austria,2023-09-12,Sweden,W,3.0,1.0,53,INT-European Championship 2024
+Austria,2023-10-13,Belgium,L,2.0,3.0,58,INT-European Championship 2024
+Austria,2023-10-16,Azerbaijan,W,1.0,0.0,46,INT-European Championship 2024
+Austria,2023-11-16,Estonia,W,2.0,0.0,69,INT-European Championship 2024
+Austria,2024-06-17,France,L,0.0,1.0,52,INT-European Championship 2024
+Austria,2024-06-21,Poland,W,3.0,1.0,53,INT-European Championship 2024
+Austria,2024-06-25,Netherlands,W,3.0,2.0,48,INT-European Championship 2024
+Austria,2024-07-02,Türkiye,L,1.0,2.0,60,INT-European Championship 2024
+Belgium,2023-03-24,Sweden,W,3.0,0.0,56,INT-European Championship 2024
+Belgium,2023-06-17,Austria,D,1.0,1.0,56,INT-European Championship 2024
+Belgium,2023-06-20,Estonia,W,3.0,0.0,67,INT-European Championship 2024
+Belgium,2023-09-09,Azerbaijan,W,1.0,0.0,54,INT-European Championship 2024
+Belgium,2023-09-12,Estonia,W,5.0,0.0,75,INT-European Championship 2024
+Belgium,2023-10-13,Austria,W,3.0,2.0,42,INT-European Championship 2024
+Belgium,2023-10-16,Sweden,D,1.0,1.0,66,INT-European Championship 2024
+Belgium,2023-11-19,Azerbaijan,W,5.0,0.0,75,INT-European Championship 2024
+Belgium,2024-06-17,Slovakia,L,0.0,1.0,61,INT-European Championship 2024
+Belgium,2024-06-22,Romania,W,2.0,0.0,55,INT-European Championship 2024
+Belgium,2024-06-26,Ukraine,D,0.0,0.0,60,INT-European Championship 2024
+Belgium,2024-07-01,France,L,0.0,1.0,45,INT-European Championship 2024
+Croatia,2023-03-25,Wales,D,1.0,1.0,67,INT-European Championship 2024
+Croatia,2023-03-28,Türkiye,W,2.0,0.0,54,INT-European Championship 2024
+Croatia,2023-09-08,Latvia,W,5.0,0.0,75,INT-European Championship 2024
+Croatia,2023-09-11,Armenia,W,1.0,0.0,68,INT-European Championship 2024
+Croatia,2023-10-12,Türkiye,L,0.0,1.0,63,INT-European Championship 2024
+Croatia,2023-10-15,Wales,L,1.0,2.0,72,INT-European Championship 2024
+Croatia,2023-11-18,Latvia,W,2.0,0.0,69,INT-European Championship 2024
+Croatia,2023-11-21,Armenia,W,1.0,0.0,67,INT-European Championship 2024
+Croatia,2024-06-15,Spain,L,0.0,3.0,53,INT-European Championship 2024
+Croatia,2024-06-19,Albania,D,2.0,2.0,67,INT-European Championship 2024
+Croatia,2024-06-24,Italy,D,1.0,1.0,47,INT-European Championship 2024
+Czechia,2023-03-24,Poland,W,3.0,1.0,36,INT-European Championship 2024
+Czechia,2023-03-27,Moldova,D,0.0,0.0,68,INT-European Championship 2024
+Czechia,2023-06-17,Faroe Islands,W,3.0,0.0,60,INT-European Championship 2024
+Czechia,2023-09-07,Albania,D,1.0,1.0,57,INT-European Championship 2024
+Czechia,2023-10-12,Albania,L,0.0,3.0,64,INT-European Championship 2024
+Czechia,2023-10-15,Faroe Islands,W,1.0,0.0,71,INT-European Championship 2024
+Czechia,2023-11-17,Poland,D,1.0,1.0,39,INT-European Championship 2024
+Czechia,2023-11-20,Moldova,W,3.0,0.0,55,INT-European Championship 2024
+Czechia,2024-06-18,Portugal,L,1.0,2.0,26,INT-European Championship 2024
+Czechia,2024-06-22,Georgia,D,1.0,1.0,62,INT-European Championship 2024
+Czechia,2024-06-26,Türkiye,L,1.0,2.0,32,INT-European Championship 2024
+Denmark,2023-03-23,Finland,W,3.0,1.0,58,INT-European Championship 2024
+Denmark,2023-03-26,Kazakhstan,L,2.0,3.0,61,INT-European Championship 2024
+Denmark,2023-06-16,Northern Ireland,W,1.0,0.0,68,INT-European Championship 2024
+Denmark,2023-06-19,Slovenia,D,1.0,1.0,63,INT-European Championship 2024
+Denmark,2023-09-07,San Marino,W,4.0,0.0,85,INT-European Championship 2024
+Denmark,2023-09-10,Finland,W,1.0,0.0,64,INT-European Championship 2024
+Denmark,2023-10-14,Kazakhstan,W,3.0,1.0,64,INT-European Championship 2024
+Denmark,2023-10-17,San Marino,W,2.0,1.0,82,INT-European Championship 2024
+Denmark,2023-11-17,Slovenia,W,2.0,1.0,66,INT-European Championship 2024
+Denmark,2023-11-20,Northern Ireland,L,0.0,2.0,80,INT-European Championship 2024
+Denmark,2024-06-16,Slovenia,D,1.0,1.0,68,INT-European Championship 2024
+Denmark,2024-06-20,England,D,1.0,1.0,51,INT-European Championship 2024
+Denmark,2024-06-25,Serbia,D,0.0,0.0,53,INT-European Championship 2024
+Denmark,2024-06-29,Germany,L,0.0,2.0,46,INT-European Championship 2024
+England,2023-03-23,Italy,W,2.0,1.0,42,INT-European Championship 2024
+England,2023-03-26,Ukraine,W,2.0,0.0,58,INT-European Championship 2024
+England,2023-06-16,Malta,W,4.0,0.0,66,INT-European Championship 2024
+England,2023-06-19,N. Macedonia,W,7.0,0.0,67,INT-European Championship 2024
+England,2023-09-09,Ukraine,D,1.0,1.0,68,INT-European Championship 2024
+England,2023-10-17,Italy,W,3.0,1.0,51,INT-European Championship 2024
+England,2023-11-17,Malta,W,2.0,0.0,75,INT-European Championship 2024
+England,2023-11-20,N. Macedonia,D,1.0,1.0,75,INT-European Championship 2024
+England,2024-06-16,Serbia,W,1.0,0.0,53,INT-European Championship 2024
+England,2024-06-20,Denmark,D,1.0,1.0,49,INT-European Championship 2024
+England,2024-06-25,Slovenia,D,0.0,0.0,74,INT-European Championship 2024
+England,2024-06-30,Slovakia,W,2.0,1.0,63,INT-European Championship 2024
+England,2024-07-10,Netherlands,W,2.0,1.0,58,INT-European Championship 2024
+England,2024-07-14,Spain,L,1.0,2.0,35,INT-European Championship 2024
+France,2023-03-24,Netherlands,W,4.0,0.0,41,INT-European Championship 2024
+France,2023-03-27,Rep. of Ireland,W,1.0,0.0,65,INT-European Championship 2024
+France,2023-06-16,Gibraltar,W,3.0,0.0,82,INT-European Championship 2024
+France,2023-06-19,Greece,W,1.0,0.0,62,INT-European Championship 2024
+France,2023-09-07,Rep. of Ireland,W,2.0,0.0,68,INT-European Championship 2024
+France,2023-10-13,Netherlands,W,2.0,1.0,55,INT-European Championship 2024
+France,2023-11-18,Gibraltar,W,14.0,0.0,73,INT-European Championship 2024
+France,2023-11-21,Greece,D,2.0,2.0,67,INT-European Championship 2024
+France,2024-06-17,Austria,W,1.0,0.0,48,INT-European Championship 2024
+France,2024-06-21,Netherlands,D,0.0,0.0,63,INT-European Championship 2024
+France,2024-06-25,Poland,D,1.0,1.0,58,INT-European Championship 2024
+France,2024-07-01,Belgium,W,1.0,0.0,55,INT-European Championship 2024
+France,2024-07-09,Spain,L,1.0,2.0,42,INT-European Championship 2024
+Georgia,2023-03-28,Norway,D,1.0,1.0,34,INT-European Championship 2024
+Georgia,2023-06-17,Cyprus,W,2.0,1.0,55,INT-European Championship 2024
+Georgia,2023-06-20,Scotland,L,0.0,2.0,49,INT-European Championship 2024
+Georgia,2023-09-08,Spain,L,1.0,7.0,28,INT-European Championship 2024
+Georgia,2023-09-12,Norway,L,1.0,2.0,38,INT-European Championship 2024
+Georgia,2023-10-15,Cyprus,W,4.0,0.0,60,INT-European Championship 2024
+Georgia,2023-11-16,Scotland,D,2.0,2.0,36,INT-European Championship 2024
+Georgia,2023-11-19,Spain,L,1.0,3.0,24,INT-European Championship 2024
+Georgia,2024-03-21,Luxembourg,W,2.0,0.0,56,INT-European Championship 2024
+Georgia,2024-06-18,Türkiye,L,1.0,3.0,44,INT-European Championship 2024
+Georgia,2024-06-22,Czechia,D,1.0,1.0,38,INT-European Championship 2024
+Georgia,2024-06-26,Portugal,W,2.0,0.0,28,INT-European Championship 2024
+Georgia,2024-06-30,Spain,L,1.0,4.0,25,INT-European Championship 2024
+Germany,2024-06-14,Scotland,W,5.0,1.0,73,INT-European Championship 2024
+Germany,2024-06-19,Hungary,W,2.0,0.0,69,INT-European Championship 2024
+Germany,2024-06-23,Switzerland,D,1.0,1.0,66,INT-European Championship 2024
+Germany,2024-06-29,Denmark,W,2.0,0.0,55,INT-European Championship 2024
+Germany,2024-07-05,Spain,L,1.0,2.0,52,INT-European Championship 2024
+Hungary,2023-03-27,Bulgaria,W,3.0,0.0,55,INT-European Championship 2024
+Hungary,2023-06-17,Montenegro,D,0.0,0.0,72,INT-European Championship 2024
+Hungary,2023-06-20,Lithuania,W,2.0,0.0,72,INT-European Championship 2024
+Hungary,2023-09-07,Serbia,W,2.0,1.0,46,INT-European Championship 2024
+Hungary,2023-10-14,Serbia,W,2.0,1.0,36,INT-European Championship 2024
+Hungary,2023-10-17,Lithuania,D,2.0,2.0,65,INT-European Championship 2024
+Hungary,2023-11-16,Bulgaria,D,2.0,2.0,59,INT-European Championship 2024
+Hungary,2023-11-19,Montenegro,W,3.0,1.0,62,INT-European Championship 2024
+Hungary,2024-06-15,Switzerland,L,1.0,3.0,50,INT-European Championship 2024
+Hungary,2024-06-19,Germany,L,0.0,2.0,31,INT-European Championship 2024
+Hungary,2024-06-23,Scotland,W,1.0,0.0,42,INT-European Championship 2024
+Italy,2023-03-23,England,L,1.0,2.0,58,INT-European Championship 2024
+Italy,2023-03-26,Malta,W,2.0,0.0,69,INT-European Championship 2024
+Italy,2023-09-09,N. Macedonia,D,1.0,1.0,73,INT-European Championship 2024
+Italy,2023-09-12,Ukraine,W,2.0,1.0,64,INT-European Championship 2024
+Italy,2023-10-14,Malta,W,4.0,0.0,67,INT-European Championship 2024
+Italy,2023-10-17,England,L,1.0,3.0,49,INT-European Championship 2024
+Italy,2023-11-17,N. Macedonia,W,5.0,2.0,64,INT-European Championship 2024
+Italy,2023-11-20,Ukraine,D,0.0,0.0,59,INT-European Championship 2024
+Italy,2024-06-15,Albania,W,2.0,1.0,68,INT-European Championship 2024
+Italy,2024-06-20,Spain,L,0.0,1.0,43,INT-European Championship 2024
+Italy,2024-06-24,Croatia,D,1.0,1.0,53,INT-European Championship 2024
+Italy,2024-06-29,Switzerland,L,0.0,2.0,51,INT-European Championship 2024
+Netherlands,2023-03-24,France,L,0.0,4.0,59,INT-European Championship 2024
+Netherlands,2023-03-27,Gibraltar,W,3.0,0.0,87,INT-European Championship 2024
+Netherlands,2023-09-07,Greece,W,3.0,0.0,53,INT-European Championship 2024
+Netherlands,2023-09-10,Rep. of Ireland,W,2.0,1.0,48,INT-European Championship 2024
+Netherlands,2023-10-13,France,L,1.0,2.0,46,INT-European Championship 2024
+Netherlands,2023-10-16,Greece,W,1.0,0.0,60,INT-European Championship 2024
+Netherlands,2023-11-18,Rep. of Ireland,W,1.0,0.0,55,INT-European Championship 2024
+Netherlands,2023-11-21,Gibraltar,W,6.0,0.0,79,INT-European Championship 2024
+Netherlands,2024-06-16,Poland,W,2.0,1.0,66,INT-European Championship 2024
+Netherlands,2024-06-21,France,D,0.0,0.0,37,INT-European Championship 2024
+Netherlands,2024-06-25,Austria,L,2.0,3.0,53,INT-European Championship 2024
+Netherlands,2024-07-02,Romania,W,3.0,0.0,65,INT-European Championship 2024
+Netherlands,2024-07-06,Türkiye,W,2.0,1.0,59,INT-European Championship 2024
+Netherlands,2024-07-10,England,L,1.0,2.0,42,INT-European Championship 2024
+Poland,2023-03-24,Czechia,L,1.0,3.0,64,INT-European Championship 2024
+Poland,2023-03-27,Albania,W,1.0,0.0,55,INT-European Championship 2024
+Poland,2023-06-20,Moldova,L,2.0,3.0,73,INT-European Championship 2024
+Poland,2023-09-07,Faroe Islands,W,2.0,0.0,72,INT-European Championship 2024
+Poland,2023-09-10,Albania,L,0.0,2.0,61,INT-European Championship 2024
+Poland,2023-10-12,Faroe Islands,W,2.0,0.0,66,INT-European Championship 2024
+Poland,2023-10-15,Moldova,D,1.0,1.0,72,INT-European Championship 2024
+Poland,2023-11-17,Czechia,D,1.0,1.0,61,INT-European Championship 2024
+Poland,2024-03-21,Estonia,W,5.0,1.0,85,INT-European Championship 2024
+Poland,2024-06-16,Netherlands,L,1.0,2.0,34,INT-European Championship 2024
+Poland,2024-06-21,Austria,L,1.0,3.0,47,INT-European Championship 2024
+Poland,2024-06-25,France,D,1.0,1.0,42,INT-European Championship 2024
+Portugal,2023-03-23,Liechtenstein,W,4.0,0.0,82,INT-European Championship 2024
+Portugal,2023-03-26,Luxembourg,W,6.0,0.0,62,INT-European Championship 2024
+Portugal,2023-06-17,Bosnia-Herzegovina,W,3.0,0.0,62,INT-European Championship 2024
+Portugal,2023-06-20,Iceland,W,1.0,0.0,72,INT-European Championship 2024
+Portugal,2023-09-08,Slovakia,W,1.0,0.0,56,INT-European Championship 2024
+Portugal,2023-09-11,Luxembourg,W,9.0,0.0,66,INT-European Championship 2024
+Portugal,2023-10-13,Slovakia,W,3.0,2.0,58,INT-European Championship 2024
+Portugal,2023-10-16,Bosnia-Herzegovina,W,5.0,0.0,68,INT-European Championship 2024
+Portugal,2023-11-16,Liechtenstein,W,2.0,0.0,84,INT-European Championship 2024
+Portugal,2023-11-19,Iceland,W,2.0,0.0,74,INT-European Championship 2024
+Portugal,2024-06-18,Czechia,W,2.0,1.0,74,INT-European Championship 2024
+Portugal,2024-06-22,Türkiye,W,3.0,0.0,57,INT-European Championship 2024
+Portugal,2024-06-26,Georgia,L,0.0,2.0,72,INT-European Championship 2024
+Romania,2023-03-25,Andorra,W,2.0,0.0,71,INT-European Championship 2024
+Romania,2023-03-28,Belarus,W,2.0,1.0,52,INT-European Championship 2024
+Romania,2023-06-16,Kosovo,D,0.0,0.0,40,INT-European Championship 2024
+Romania,2023-06-19,Switzerland,D,2.0,2.0,28,INT-European Championship 2024
+Romania,2023-09-09,Israel,D,1.0,1.0,38,INT-European Championship 2024
+Romania,2023-09-12,Kosovo,W,2.0,0.0,72,INT-European Championship 2024
+Romania,2023-10-12,Belarus,D,0.0,0.0,68,INT-European Championship 2024
+Romania,2023-10-15,Andorra,W,4.0,0.0,79,INT-European Championship 2024
+Romania,2023-11-18,Israel,W,2.0,1.0,35,INT-European Championship 2024
+Romania,2023-11-21,Switzerland,W,1.0,0.0,36,INT-European Championship 2024
+Romania,2024-06-17,Ukraine,W,3.0,0.0,29,INT-European Championship 2024
+Romania,2024-06-22,Belgium,L,0.0,2.0,45,INT-European Championship 2024
+Romania,2024-06-26,Slovakia,D,1.0,1.0,42,INT-European Championship 2024
+Romania,2024-07-02,Netherlands,L,0.0,3.0,35,INT-European Championship 2024
+Scotland,2023-03-25,Cyprus,W,3.0,0.0,62,INT-European Championship 2024
+Scotland,2023-03-28,Spain,W,2.0,0.0,25,INT-European Championship 2024
+Scotland,2023-06-17,Norway,W,2.0,1.0,41,INT-European Championship 2024
+Scotland,2023-06-20,Georgia,W,2.0,0.0,51,INT-European Championship 2024
+Scotland,2023-09-08,Cyprus,W,3.0,0.0,57,INT-European Championship 2024
+Scotland,2023-10-12,Spain,L,0.0,2.0,26,INT-European Championship 2024
+Scotland,2023-11-16,Georgia,D,2.0,2.0,64,INT-European Championship 2024
+Scotland,2023-11-19,Norway,D,3.0,3.0,50,INT-European Championship 2024
+Scotland,2024-06-14,Germany,L,1.0,5.0,27,INT-European Championship 2024
+Scotland,2024-06-19,Switzerland,D,1.0,1.0,48,INT-European Championship 2024
+Scotland,2024-06-23,Hungary,L,0.0,1.0,58,INT-European Championship 2024
+Serbia,2023-03-24,Lithuania,W,2.0,0.0,60,INT-European Championship 2024
+Serbia,2023-03-27,Montenegro,W,2.0,0.0,65,INT-European Championship 2024
+Serbia,2023-06-20,Bulgaria,D,1.0,1.0,68,INT-European Championship 2024
+Serbia,2023-09-07,Hungary,L,1.0,2.0,55,INT-European Championship 2024
+Serbia,2023-09-10,Lithuania,W,3.0,1.0,65,INT-European Championship 2024
+Serbia,2023-10-14,Hungary,L,1.0,2.0,64,INT-European Championship 2024
+Serbia,2023-10-17,Montenegro,W,3.0,1.0,64,INT-European Championship 2024
+Serbia,2023-11-19,Bulgaria,D,2.0,2.0,58,INT-European Championship 2024
+Serbia,2024-06-16,England,L,0.0,1.0,47,INT-European Championship 2024
+Serbia,2024-06-20,Slovenia,D,1.0,1.0,61,INT-European Championship 2024
+Serbia,2024-06-25,Denmark,D,0.0,0.0,47,INT-European Championship 2024
+Slovakia,2023-03-23,Luxembourg,D,0.0,0.0,52,INT-European Championship 2024
+Slovakia,2023-03-26,Bosnia-Herzegovina,W,2.0,0.0,45,INT-European Championship 2024
+Slovakia,2023-06-17,Iceland,W,2.0,1.0,52,INT-European Championship 2024
+Slovakia,2023-06-20,Liechtenstein,W,1.0,0.0,76,INT-European Championship 2024
+Slovakia,2023-09-08,Portugal,L,0.0,1.0,44,INT-European Championship 2024
+Slovakia,2023-09-11,Liechtenstein,W,3.0,0.0,80,INT-European Championship 2024
+Slovakia,2023-10-13,Portugal,L,2.0,3.0,42,INT-European Championship 2024
+Slovakia,2023-10-16,Luxembourg,W,1.0,0.0,47,INT-European Championship 2024
+Slovakia,2023-11-16,Iceland,W,4.0,2.0,57,INT-European Championship 2024
+Slovakia,2023-11-19,Bosnia-Herzegovina,W,2.0,1.0,57,INT-European Championship 2024
+Slovakia,2024-06-17,Belgium,W,1.0,0.0,40,INT-European Championship 2024
+Slovakia,2024-06-21,Ukraine,L,1.0,2.0,56,INT-European Championship 2024
+Slovakia,2024-06-26,Romania,D,1.0,1.0,58,INT-European Championship 2024
+Slovakia,2024-06-30,England,L,1.0,2.0,37,INT-European Championship 2024
+Slovenia,2023-03-23,Kazakhstan,W,2.0,1.0,60,INT-European Championship 2024
+Slovenia,2023-03-26,San Marino,W,2.0,0.0,76,INT-European Championship 2024
+Slovenia,2023-06-16,Finland,L,0.0,2.0,58,INT-European Championship 2024
+Slovenia,2023-06-19,Denmark,D,1.0,1.0,37,INT-European Championship 2024
+Slovenia,2023-09-07,Northern Ireland,W,4.0,2.0,48,INT-European Championship 2024
+Slovenia,2023-09-10,San Marino,W,4.0,0.0,81,INT-European Championship 2024
+Slovenia,2023-10-14,Finland,W,3.0,0.0,43,INT-European Championship 2024
+Slovenia,2023-10-17,Northern Ireland,W,1.0,0.0,58,INT-European Championship 2024
+Slovenia,2023-11-17,Denmark,L,1.0,2.0,34,INT-European Championship 2024
+Slovenia,2023-11-20,Kazakhstan,W,2.0,1.0,59,INT-European Championship 2024
+Slovenia,2024-06-16,Denmark,D,1.0,1.0,32,INT-European Championship 2024
+Slovenia,2024-06-20,Serbia,D,1.0,1.0,39,INT-European Championship 2024
+Slovenia,2024-06-25,England,D,0.0,0.0,26,INT-European Championship 2024
+Spain,2023-03-25,Norway,W,3.0,0.0,63,INT-European Championship 2024
+Spain,2023-03-28,Scotland,L,0.0,2.0,75,INT-European Championship 2024
+Spain,2023-09-08,Georgia,W,7.0,1.0,72,INT-European Championship 2024
+Spain,2023-09-12,Cyprus,W,6.0,0.0,81,INT-European Championship 2024
+Spain,2023-10-12,Scotland,W,2.0,0.0,74,INT-European Championship 2024
+Spain,2023-10-15,Norway,W,1.0,0.0,67,INT-European Championship 2024
+Spain,2023-11-16,Cyprus,W,3.0,1.0,77,INT-European Championship 2024
+Spain,2023-11-19,Georgia,W,3.0,1.0,76,INT-European Championship 2024
+Spain,2024-06-15,Croatia,W,3.0,0.0,47,INT-European Championship 2024
+Spain,2024-06-20,Italy,W,1.0,0.0,57,INT-European Championship 2024
+Spain,2024-06-24,Albania,W,1.0,0.0,59,INT-European Championship 2024
+Spain,2024-06-30,Georgia,W,4.0,1.0,75,INT-European Championship 2024
+Spain,2024-07-05,Germany,W,2.0,1.0,49,INT-European Championship 2024
+Spain,2024-07-09,France,W,2.0,1.0,58,INT-European Championship 2024
+Spain,2024-07-14,England,W,2.0,1.0,65,INT-European Championship 2024
+Switzerland,2023-03-25,Belarus,W,5.0,0.0,71,INT-European Championship 2024
+Switzerland,2023-03-28,Israel,W,3.0,0.0,69,INT-European Championship 2024
+Switzerland,2023-06-16,Andorra,W,2.0,1.0,85,INT-European Championship 2024
+Switzerland,2023-06-19,Romania,D,2.0,2.0,73,INT-European Championship 2024
+Switzerland,2023-09-09,Kosovo,D,2.0,2.0,66,INT-European Championship 2024
+Switzerland,2023-09-12,Andorra,W,3.0,0.0,84,INT-European Championship 2024
+Switzerland,2023-10-15,Belarus,D,3.0,3.0,78,INT-European Championship 2024
+Switzerland,2023-11-15,Israel,D,1.0,1.0,50,INT-European Championship 2024
+Switzerland,2023-11-18,Kosovo,D,1.0,1.0,77,INT-European Championship 2024
+Switzerland,2023-11-21,Romania,L,0.0,1.0,64,INT-European Championship 2024
+Switzerland,2024-06-15,Hungary,W,3.0,1.0,50,INT-European Championship 2024
+Switzerland,2024-06-19,Scotland,D,1.0,1.0,52,INT-European Championship 2024
+Switzerland,2024-06-23,Germany,D,1.0,1.0,34,INT-European Championship 2024
+Switzerland,2024-06-29,Italy,W,2.0,0.0,49,INT-European Championship 2024
+Türkiye,2023-03-25,Armenia,W,2.0,1.0,59,INT-European Championship 2024
+Türkiye,2023-03-28,Croatia,L,0.0,2.0,46,INT-European Championship 2024
+Türkiye,2023-06-16,Latvia,W,3.0,2.0,69,INT-European Championship 2024
+Türkiye,2023-06-19,Wales,W,2.0,0.0,77,INT-European Championship 2024
+Türkiye,2023-09-08,Armenia,D,1.0,1.0,66,INT-European Championship 2024
+Türkiye,2023-10-12,Croatia,W,1.0,0.0,37,INT-European Championship 2024
+Türkiye,2023-10-15,Latvia,W,4.0,0.0,68,INT-European Championship 2024
+Türkiye,2023-11-21,Wales,D,1.0,1.0,61,INT-European Championship 2024
+Türkiye,2024-06-18,Georgia,W,3.0,1.0,56,INT-European Championship 2024
+Türkiye,2024-06-22,Portugal,L,0.0,3.0,43,INT-European Championship 2024
+Türkiye,2024-06-26,Czechia,W,2.0,1.0,68,INT-European Championship 2024
+Türkiye,2024-07-02,Austria,W,2.0,1.0,40,INT-European Championship 2024
+Türkiye,2024-07-06,Netherlands,L,1.0,2.0,41,INT-European Championship 2024
+Ukraine,2023-03-26,England,L,0.0,2.0,42,INT-European Championship 2024
+Ukraine,2023-06-16,N. Macedonia,W,3.0,2.0,52,INT-European Championship 2024
+Ukraine,2023-06-19,Malta,W,1.0,0.0,64,INT-European Championship 2024
+Ukraine,2023-09-09,England,D,1.0,1.0,32,INT-European Championship 2024
+Ukraine,2023-09-12,Italy,L,1.0,2.0,36,INT-European Championship 2024
+Ukraine,2023-10-14,N. Macedonia,W,2.0,0.0,45,INT-European Championship 2024
+Ukraine,2023-10-17,Malta,W,3.0,1.0,66,INT-European Championship 2024
+Ukraine,2023-11-20,Italy,D,0.0,0.0,42,INT-European Championship 2024
+Ukraine,2024-03-21,Bosnia-Herzegovina,W,2.0,1.0,66,INT-European Championship 2024
+Ukraine,2024-03-26,Iceland,W,2.0,1.0,60,INT-European Championship 2024
+Ukraine,2024-06-17,Romania,L,0.0,3.0,71,INT-European Championship 2024
+Ukraine,2024-06-21,Slovakia,W,2.0,1.0,44,INT-European Championship 2024
+Ukraine,2024-06-26,Belgium,D,0.0,0.0,40,INT-European Championship 2024
