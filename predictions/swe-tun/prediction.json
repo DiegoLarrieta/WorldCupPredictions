@@ -14,8 +14,8 @@
       "Tunisia": 1.2
     },
     "adjusted": {
-      "Sweden": 1.4,
-      "Tunisia": 0.97
+      "Sweden": 1.39,
+      "Tunisia": 0.98
     }
   },
   "win_draw_loss": {
@@ -25,16 +25,16 @@
       "Tunisia": 0.356
     },
     "adjusted": {
-      "Sweden": 0.46,
-      "Draw": 0.288,
-      "Tunisia": 0.252
+      "Sweden": 0.455,
+      "Draw": 0.289,
+      "Tunisia": 0.257
     }
   },
   "over_under_2_5": {
     "over": 0.423,
     "under": 0.577
   },
-  "btts": 0.477,
+  "btts": 0.479,
   "top_scorelines": [
     {
       "score": "1-1",
@@ -42,7 +42,7 @@
     },
     {
       "score": "1-0",
-      "prob": 0.122
+      "prob": 0.121
     },
     {
       "score": "0-0",
@@ -50,14 +50,29 @@
     },
     {
       "score": "2-0",
-      "prob": 0.091
+      "prob": 0.09
     },
     {
       "score": "2-1",
       "prob": 0.089
     }
   ],
-  "starter_form_tilt": "Sweden attacker threat 0.43/90 vs Tunisia 0.06/90 -> +19% goal tilt to Sweden",
+  "tilt": {
+    "summary": "striker +19% + possession -0.8% = net +18% to Sweden",
+    "striker": "Sweden attackers 0.43/90 vs Tunisia 0.06/90 -> +19%",
+    "possession": "Sweden 44% (n=19) vs Tunisia 48% (n=6), confidence 0.25 -> -0.8% (shrunk for thin data)"
+  },
+  "data_confidence": {
+    "Sweden": {
+      "xi_form_matched": 8,
+      "possession_matches": 19
+    },
+    "Tunisia": {
+      "xi_form_matched": 7,
+      "possession_matches": 6
+    },
+    "note": "Tunisia is thinner on both club form and possession, so its signals are down-weighted; the prediction leans more on Elo for Tunisia."
+  },
   "elo": {
     "Sweden": 1776,
     "Tunisia": 1739,

@@ -108,6 +108,26 @@ def attack_index(form):
     return float(np.mean(vals)) if vals else None
 
 
+# ---- national possession, with coverage-scaling (handle uneven data) -------
+POSS_CSV = HERE.parent / "feature-lab" / "intl_possession_raw.csv"
+POSS_SHRINK_K = 10   # a team needs ~K tournament matches before we half-trust its possession
+
+
+def team_possession(team):
+    """Return (avg possession %, n_matches) from international tournament history."""
+    import pandas as pd
+    if not POSS_CSV.exists():
+        return None, 0
+    df = pd.read_csv(POSS_CSV)
+    d = df[df["team"] == team]
+    return (float(d["Poss"].mean()), len(d)) if len(d) else (None, 0)
+
+
+def _confidence(n):
+    """Shrinkage weight n/(n+K): ~0 with no data, →1 with lots. Thin data ≈ no claim."""
+    return n / (n + POSS_SHRINK_K)
+
+
 def main():
     print("Validating Dixon-Coles (leakage-free time split) ...")
     val = validate()
@@ -129,18 +149,39 @@ def main():
     con.close()
     swe_idx, tun_idx = attack_index(swe_att), attack_index(tun_att)
 
-    # Tilt expected goals by the attackers' goal-threat gap, capped at +/-20% so a
-    # noisy club-form signal can nudge but never dominate the validated team model.
-    adj_lh, adj_la = lh, la
-    tilt_note = "no starter-form data; base model unchanged"
+    # (1) Striker-form tilt: attackers' goal-threat gap, capped at +/-20%.
+    striker_factor, striker_note = 0.0, "no starter-form data"
     if swe_idx is not None and tun_idx is not None:
         gap = swe_idx - tun_idx                      # >0 = Sweden's front line sharper
-        factor = float(np.clip(gap * 0.5, -0.20, 0.20))
-        adj_lh = lh * (1 + factor)
-        adj_la = la * (1 - factor)
-        tilt_note = (f"Sweden attacker threat {swe_idx:.2f}/90 vs Tunisia {tun_idx:.2f}/90 "
-                     f"-> {factor:+.0%} goal tilt to Sweden")
+        striker_factor = float(np.clip(gap * 0.5, -0.20, 0.20))
+        striker_note = (f"Sweden attackers {swe_idx:.2f}/90 vs Tunisia {tun_idx:.2f}/90 "
+                        f"-> {striker_factor:+.0%}")
+
+    # (2) Possession tilt, COVERAGE-SCALED: the raw signal is multiplied by each team's
+    # data confidence n/(n+K), so a team with thin tournament history (Tunisia) can't
+    # move the number much, however high its average looks.
+    swe_poss, swe_pn = team_possession(HOME)
+    tun_poss, tun_pn = team_possession(AWAY)
+    poss_factor, poss_note = 0.0, "no possession data"
+    if swe_poss is not None and tun_poss is not None:
+        conf = _confidence(swe_pn) * _confidence(tun_pn)   # shrinks toward 0 if either is thin
+        raw_gap = (swe_poss - tun_poss) / 100.0            # >0 = Sweden hogs the ball more
+        poss_factor = float(np.clip(raw_gap * 0.8 * conf, -0.10, 0.10))
+        poss_note = (f"Sweden {swe_poss:.0f}% (n={swe_pn}) vs Tunisia {tun_poss:.0f}% (n={tun_pn}), "
+                     f"confidence {conf:.2f} -> {poss_factor:+.1%} (shrunk for thin data)")
+
+    factor = float(np.clip(striker_factor + poss_factor, -0.25, 0.25))
+    adj_lh, adj_la = lh * (1 + factor), la * (1 - factor)
+    tilt_note = f"striker {striker_factor:+.0%} + possession {poss_factor:+.1%} = net {factor:+.0%} to Sweden"
     adj = M.outcomes(M.score_matrix(adj_lh, adj_la, mdl["rho"]))
+
+    # data-confidence readout per team (uneven-data honesty)
+    data_confidence = {
+        HOME: {"xi_form_matched": sum(p["matched"] for p in swe_xi), "possession_matches": swe_pn},
+        AWAY: {"xi_form_matched": sum(p["matched"] for p in tun_xi), "possession_matches": tun_pn},
+        "note": "Tunisia is thinner on both club form and possession, so its signals are "
+                "down-weighted; the prediction leans more on Elo for Tunisia.",
+    }
 
     # ---- Elo cross-check ----
     con = duckdb.connect(str(M.DB_PATH), read_only=True)
@@ -161,7 +202,8 @@ def main():
         "over_under_2_5": {"over": round(adj["over25"], 3), "under": round(adj["under25"], 3)},
         "btts": round(adj["btts"], 3),
         "top_scorelines": [{"score": f"{x}-{y}", "prob": round(p, 3)} for (x, y), p in adj["top_scores"]],
-        "starter_form_tilt": tilt_note,
+        "tilt": {"summary": tilt_note, "striker": striker_note, "possession": poss_note},
+        "data_confidence": data_confidence,
         "elo": {HOME: round(elo_h), AWAY: round(elo_a), f"{HOME}_2way_winprob": round(elo_exp_home, 3)},
         "starters": {"Sweden_attackers": swe_att, "Tunisia_attackers": tun_att},
         "limits": ["No international betting odds to validate against — not a value/market call.",
@@ -195,9 +237,18 @@ def _write_markdown(r, mdl, swe_xi, tun_xi):
         f"gives base expected goals Sweden {r['expected_goals']['base']['Sweden']} – "
         f"{r['expected_goals']['base']['Tunisia']} Tunisia → base W/D/L "
         f"{b['Sweden']:.0%}/{b['Draw']:.0%}/{b['Tunisia']:.0%}.",
-        f"2. **Starting-XI form tilt:** {r['starter_form_tilt']}.",
+        f"2. **Adjustments ({r['tilt']['summary']}):**",
+        f"   - Striker form: {r['tilt']['striker']}",
+        f"   - Possession (coverage-scaled): {r['tilt']['possession']}",
         f"3. **Elo cross-check:** Sweden {r['elo']['Sweden']} vs Tunisia {r['elo']['Tunisia']} "
         f"(Sweden 2-way win prob {r['elo']['Sweden_2way_winprob']:.0%}) — same direction, modest favourite.",
+        "",
+        "## Data confidence (uneven data, handled honestly)", "",
+        f"- Sweden: {r['data_confidence']['Sweden']['xi_form_matched']}/11 XI matched to club form, "
+        f"{r['data_confidence']['Sweden']['possession_matches']} tournament matches of possession.",
+        f"- Tunisia: {r['data_confidence']['Tunisia']['xi_form_matched']}/11 XI matched, "
+        f"{r['data_confidence']['Tunisia']['possession_matches']} possession matches.",
+        f"- {r['data_confidence']['note']}",
         "",
         "## Model validation (held-out, leakage-free)", "",
         f"- {r['validation']['n']} held-out internationals · "
