@@ -92,6 +92,11 @@ def main() -> None:
     if len(bad):
         print(f"  ! squads outside {MIN_SQUAD}-{MAX_SQUAD}: {bad.to_dict()}")
 
+    # Stable primary key for every squad player (the spine identity) — distinct from
+    # the nullable player_id FK that only links to club-form data where we have it.
+    squads = squads.sort_values(["country", "player"]).reset_index(drop=True)
+    squads.insert(0, "squad_player_id", range(1, len(squads) + 1))
+
     con = duckdb.connect(str(DB_PATH))
     con.execute("CREATE OR REPLACE TABLE wc_squads AS SELECT * FROM squads")
     con.close()

@@ -21,8 +21,8 @@ concept names; this table is the source of truth for what exists today.
 | `matches` | matches | match | match_id (PK), date, home_team, away_team, goals, is_international |
 | `match_odds` | matches | match·book·outcome | match_id→matches, bookmaker, market, selection, price |
 | `player_seasons` | form | player·season·club | player_id→players, season, club_id→clubs, minutes, goals, xg, np_xg, xa |
-| `wc_squads` | worldcup | squad player | country, shirt_no, position, player, dob, caps, intl_goals, club |
-| `wc_squad_form` | worldcup | squad player | wc_squads + player_id→players + club form + has_club_form |
+| `wc_squads` | worldcup | squad player | **squad_player_id (PK)**, country, shirt_no, position, player, dob, caps, intl_goals, club |
+| `wc_squad_form` | worldcup | squad player | squad_player_id (PK) + player_id→players (NULL if no club form) + club form + has_club_form |
 | `wc_team_strength` | worldcup | country | country, squad_size, with_form, avg_npxg_per90, total_caps, team_elo |
 | `market_prob` *(view)* | derived | match·book·outcome | de-vigged implied probability |
 | `match_vs_market` *(view)* | derived | match | market prob vs actual result |
