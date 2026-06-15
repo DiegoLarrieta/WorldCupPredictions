@@ -19,17 +19,28 @@
     }
   },
   "win_draw_loss": {
-    "base": {
-      "Sweden": 0.347,
-      "Draw": 0.296,
-      "Tunisia": 0.356
+    "ENSEMBLE": {
+      "Sweden": 0.392,
+      "Draw": 0.282,
+      "Tunisia": 0.326
     },
-    "adjusted": {
+    "dixon_coles": {
       "Sweden": 0.339,
       "Draw": 0.296,
       "Tunisia": 0.365
+    },
+    "elo": {
+      "Sweden": 0.441,
+      "Draw": 0.269,
+      "Tunisia": 0.29
+    },
+    "base_dc": {
+      "Sweden": 0.347,
+      "Draw": 0.296,
+      "Tunisia": 0.356
     }
   },
+  "ensemble_weight_on_dc": 0.48120720455201316,
   "over_under_2_5": {
     "over": 0.424,
     "under": 0.576

@@ -195,15 +195,31 @@ def main():
     con.close()
     elo_exp_home = 1 / (1 + 10 ** (-(elo_h - elo_a) / 400))
 
+    # ---- VALIDATED ENSEMBLE: blend Dixon-Coles + Elo (weight fitted on 2,195 held-out
+    # internationals; the ensemble beat both single models, 95% CI [+0.0017,+0.0121]).
+    ens_p = json.loads((HERE.parent / "ensemble" / "ensemble_params.json").read_text())
+    gap = (elo_h - elo_a + (0 if NEUTRAL else ens_p["elo_home_adv"])) / 100.0
+    z = [c[0] * gap + b for c, b in zip(ens_p["elo_wdl_coef"], ens_p["elo_wdl_intercept"])]
+    z = np.array(z) - max(z)
+    p_elo_wdl = np.exp(z) / np.exp(z).sum()                       # Elo -> H/D/A
+    p_dc = np.array([adj["home"], adj["draw"], adj["away"]])      # DC (+possession)
+    w = ens_p["weight_dc"]
+    p_ens = w * p_dc + (1 - w) * p_elo_wdl
+    ensemble = {HOME: round(float(p_ens[0]), 3), "Draw": round(float(p_ens[1]), 3),
+                AWAY: round(float(p_ens[2]), 3)}
+
     result = {
         "match": f"{HOME} vs {AWAY}", "venue": "neutral (World Cup)", "as_of": AS_OF,
         "validation": val,
         "expected_goals": {"base": {HOME: round(lh, 2), AWAY: round(la, 2)},
                            "adjusted": {HOME: round(adj_lh, 2), AWAY: round(adj_la, 2)}},
         "win_draw_loss": {
-            "base": {HOME: round(base["home"], 3), "Draw": round(base["draw"], 3), AWAY: round(base["away"], 3)},
-            "adjusted": {HOME: round(adj["home"], 3), "Draw": round(adj["draw"], 3), AWAY: round(adj["away"], 3)},
+            "ENSEMBLE": ensemble,
+            "dixon_coles": {HOME: round(adj["home"], 3), "Draw": round(adj["draw"], 3), AWAY: round(adj["away"], 3)},
+            "elo": {HOME: round(float(p_elo_wdl[0]), 3), "Draw": round(float(p_elo_wdl[1]), 3), AWAY: round(float(p_elo_wdl[2]), 3)},
+            "base_dc": {HOME: round(base["home"], 3), "Draw": round(base["draw"], 3), AWAY: round(base["away"], 3)},
         },
+        "ensemble_weight_on_dc": w,
         "over_under_2_5": {"over": round(adj["over25"], 3), "under": round(adj["under25"], 3)},
         "btts": round(adj["btts"], 3),
         "top_scorelines": [{"score": f"{x}-{y}", "prob": round(p, 3)} for (x, y), p in adj["top_scores"]],
@@ -217,31 +233,40 @@ def main():
     (HERE / "prediction.json").write_text(json.dumps(result, indent=2, ensure_ascii=False))
     _write_markdown(result, mdl, swe_xi, tun_xi)
     print(f"\nWrote {HERE/'prediction.md'} and prediction.json")
-    a = result["win_draw_loss"]["adjusted"]
-    print(f"\n  >>> {HOME} {a[HOME]:.0%} | Draw {a['Draw']:.0%} | {AWAY} {a[AWAY]:.0%}")
+    a = result["win_draw_loss"]["ENSEMBLE"]
+    print(f"\n  >>> ENSEMBLE: {HOME} {a[HOME]:.0%} | Draw {a['Draw']:.0%} | {AWAY} {a[AWAY]:.0%}")
 
 
 def _write_markdown(r, mdl, swe_xi, tun_xi):
-    a = r["win_draw_loss"]["adjusted"]; b = r["win_draw_loss"]["base"]
+    a = r["win_draw_loss"]["ENSEMBLE"]; dc = r["win_draw_loss"]["dixon_coles"]; el = r["win_draw_loss"]["elo"]
     eg = r["expected_goals"]["adjusted"]
     def matched(xi): return sum(p["matched"] for p in xi)
     lines = [
         f"# Prediction: {r['match']}", "",
-        f"_World Cup, neutral venue. Model fit on internationals before {r['as_of']} (no leakage)._", "",
-        "## Headline", "",
+        f"_World Cup, neutral venue. Validated **Elo + Dixon-Coles ensemble** (weight "
+        f"{r['ensemble_weight_on_dc']:.2f} on DC), fit on internationals before {r['as_of']} (no leakage)._", "",
+        "## Headline (ensemble)", "",
         f"| Outcome | Probability |", "|---|---|",
         f"| **Sweden win** | **{a['Sweden']:.0%}** |",
         f"| Draw | {a['Draw']:.0%} |",
         f"| **Tunisia win** | **{a['Tunisia']:.0%}** |", "",
-        f"- **Expected goals:** Sweden {eg['Sweden']} – {eg['Tunisia']} Tunisia",
+        f"- **Expected goals (DC):** Sweden {eg['Sweden']} – {eg['Tunisia']} Tunisia",
         f"- **Over 2.5 goals:** {r['over_under_2_5']['over']:.0%}  ·  **BTTS:** {r['btts']:.0%}",
         f"- **Most likely scores:** " + ", ".join(f"{s['score']} ({s['prob']:.0%})" for s in r['top_scorelines'][:4]),
         "",
+        "## The two models it blends", "",
+        f"| Model | Sweden | Draw | Tunisia |", "|---|---|---|---|",
+        f"| Dixon-Coles | {dc['Sweden']:.0%} | {dc['Draw']:.0%} | {dc['Tunisia']:.0%} |",
+        f"| Elo | {el['Sweden']:.0%} | {el['Draw']:.0%} | {el['Tunisia']:.0%} |",
+        f"| **Ensemble** | **{a['Sweden']:.0%}** | **{a['Draw']:.0%}** | **{a['Tunisia']:.0%}** |",
+        "",
+        "_The two validated models disagreed; the ensemble (validated to beat both on 2,195 "
+        "held-out matches, 95% CI [+0.0017,+0.0121]) blends them ~48/52._", "",
         "## How we got here", "",
         f"1. **Dixon-Coles goals model** (team attack/defence from time-decayed international results) "
         f"gives base expected goals Sweden {r['expected_goals']['base']['Sweden']} – "
         f"{r['expected_goals']['base']['Tunisia']} Tunisia → base W/D/L "
-        f"{b['Sweden']:.0%}/{b['Draw']:.0%}/{b['Tunisia']:.0%}.",
+        f"{r['win_draw_loss']['base_dc']['Sweden']:.0%}/{r['win_draw_loss']['base_dc']['Draw']:.0%}/{r['win_draw_loss']['base_dc']['Tunisia']:.0%}.",
         f"2. **Adjustments ({r['tilt']['summary']}):**",
         f"   - Striker form: {r['tilt']['striker']}",
         f"   - Possession (coverage-scaled): {r['tilt']['possession']}",

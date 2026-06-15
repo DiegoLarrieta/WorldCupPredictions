@@ -1,18 +1,28 @@
 # Prediction: Sweden vs Tunisia
 
-_World Cup, neutral venue. Model fit on internationals before 2026-06-15 (no leakage)._
+_World Cup, neutral venue. Validated **Elo + Dixon-Coles ensemble** (weight 0.48 on DC), fit on internationals before 2026-06-15 (no leakage)._
 
-## Headline
+## Headline (ensemble)
 
 | Outcome | Probability |
 |---|---|
-| **Sweden win** | **34%** |
-| Draw | 30% |
-| **Tunisia win** | **36%** |
+| **Sweden win** | **39%** |
+| Draw | 28% |
+| **Tunisia win** | **33%** |
 
-- **Expected goals:** Sweden 1.16 – 1.22 Tunisia
+- **Expected goals (DC):** Sweden 1.16 – 1.22 Tunisia
 - **Over 2.5 goals:** 42%  ·  **BTTS:** 49%
 - **Most likely scores:** 1-1 (14%), 0-1 (10%), 0-0 (10%), 1-0 (10%)
+
+## The two models it blends
+
+| Model | Sweden | Draw | Tunisia |
+|---|---|---|---|
+| Dixon-Coles | 34% | 30% | 36% |
+| Elo | 44% | 27% | 29% |
+| **Ensemble** | **39%** | **28%** | **33%** |
+
+_The two validated models disagreed; the ensemble (validated to beat both on 2,195 held-out matches, 95% CI [+0.0017,+0.0121]) blends them ~48/52._
 
 ## How we got here
 
