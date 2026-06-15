@@ -149,13 +149,18 @@ def main():
     con.close()
     swe_idx, tun_idx = attack_index(swe_att), attack_index(tun_att)
 
-    # (1) Striker-form tilt: attackers' goal-threat gap, capped at +/-20%.
-    striker_factor, striker_note = 0.0, "no starter-form data"
+    # (1) Striker-form tilt: REMOVED. Ablation (striker_tilt_validation.py, 5-fold CV on
+    # 154 held-out internationals) showed it HURTS held-out log-loss (-0.0142) and the
+    # fitted coefficient is ~0, not the 0.50 I had hand-tuned. Club form double-counts the
+    # Dixon-Coles attack rating and adds noise. So the validated coefficient is 0.
+    STRIKER_BETA = 0.0
+    striker_factor = 0.0
+    striker_note = "removed — ablation showed it worsened held-out prediction (fitted beta ~0)"
     if swe_idx is not None and tun_idx is not None:
-        gap = swe_idx - tun_idx                      # >0 = Sweden's front line sharper
-        striker_factor = float(np.clip(gap * 0.5, -0.20, 0.20))
-        striker_note = (f"Sweden attackers {swe_idx:.2f}/90 vs Tunisia {tun_idx:.2f}/90 "
-                        f"-> {striker_factor:+.0%}")
+        gap = swe_idx - tun_idx
+        striker_factor = float(np.clip(gap * STRIKER_BETA, -0.20, 0.20))
+        striker_note = (f"Sweden attackers {swe_idx:.2f}/90 vs Tunisia {tun_idx:.2f}/90, but "
+                        f"validated coefficient is 0 -> {striker_factor:+.0%} (tilt removed by ablation)")
 
     # (2) Possession tilt, COVERAGE-SCALED: the raw signal is multiplied by each team's
     # data confidence n/(n+K), so a team with thin tournament history (Tunisia) can't

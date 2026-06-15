@@ -14,8 +14,8 @@
       "Tunisia": 1.2
     },
     "adjusted": {
-      "Sweden": 1.38,
-      "Tunisia": 0.99
+      "Sweden": 1.16,
+      "Tunisia": 1.22
     }
   },
   "win_draw_loss": {
@@ -25,41 +25,41 @@
       "Tunisia": 0.356
     },
     "adjusted": {
-      "Sweden": 0.45,
-      "Draw": 0.289,
-      "Tunisia": 0.26
+      "Sweden": 0.339,
+      "Draw": 0.296,
+      "Tunisia": 0.365
     }
   },
   "over_under_2_5": {
-    "over": 0.423,
-    "under": 0.577
+    "over": 0.424,
+    "under": 0.576
   },
-  "btts": 0.48,
+  "btts": 0.492,
   "top_scorelines": [
     {
       "score": "1-1",
-      "prob": 0.136
+      "prob": 0.14
     },
     {
-      "score": "1-0",
-      "prob": 0.12
+      "score": "0-1",
+      "prob": 0.104
     },
     {
       "score": "0-0",
       "prob": 0.102
     },
     {
-      "score": "2-0",
-      "prob": 0.089
+      "score": "1-0",
+      "prob": 0.099
     },
     {
-      "score": "2-1",
-      "prob": 0.088
+      "score": "1-2",
+      "prob": 0.08
     }
   ],
   "tilt": {
-    "summary": "striker +19% + possession -1.5% = net +17% to Sweden",
-    "striker": "Sweden attackers 0.43/90 vs Tunisia 0.06/90 -> +19%",
+    "summary": "striker +0% + possession -1.5% = net -2% to Sweden",
+    "striker": "Sweden attackers 0.43/90 vs Tunisia 0.06/90, but validated coefficient is 0 -> +0% (tilt removed by ablation)",
     "possession": "Sweden 49% (n=37) vs Tunisia 53% (n=20), confidence 0.52 -> -1.5% (shrunk for thin data)"
   },
   "data_confidence": {
