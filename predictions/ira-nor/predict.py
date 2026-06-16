@@ -21,6 +21,21 @@ AS_OF = "2026-06-16"
 HERE = Path(__file__).resolve().parent
 ENS = json.loads((HERE.parent / "ensemble" / "ensemble_params.json").read_text())
 
+# Confirmed starting XIs (recorded as match context. NOTE: the validated model is
+# team-level — club form / lineups were shown to add no predictive value over the
+# international-results model, so these do NOT change the probability; they're stored
+# for the record and the post-match feedback loop).
+LINEUPS = {
+    "Iraq": {"formation": "4-4-2", "xi": [
+        "12 Jalal Hasan (GK)", "3 Hussein Ali", "4 Zaid Tahseen", "5 A. Hashim",
+        "23 Merchas Doski", "8 Ibrahim Bayesh", "16 Amir Al-Ammari", "24 Z. Ismael",
+        "17 Ali Jasim", "18 Aymen Hussein", "9 Ali Al-Hamadi"]},
+    "Norway": {"formation": "4-3-3", "xi": [
+        "1 Ørjan Nyland (GK)", "5 David Møller Wolfe", "17 Torbjørn Heggem",
+        "3 Kristoffer Ajer", "26 Julian Ryerson", "14 Fredrik Aursnes", "8 Sander Berge",
+        "10 M. Ødegaard", "20 Antonio Nusa", "9 Erling Haaland", "7 Alexander Sørloth"]},
+}
+
 
 def elo_wdl(eh, ea, neutral):
     gap = (eh - ea + (0 if neutral else ENS["elo_home_adv"])) / 100.0
@@ -57,6 +72,7 @@ def main():
         "over_under_2_5": {"over": round(o["over25"], 3), "under": round(o["under25"], 3)},
         "btts": round(o["btts"], 3),
         "top_scorelines": [{"score": f"{x}-{y}", "prob": round(pr, 3)} for (x, y), pr in o["top_scores"][:5]],
+        "lineups": LINEUPS,      # match context (not used by the validated team-level model)
         "actual_result": None,   # filled by the post-match step (the feedback loop)
     }
     (HERE / "prediction.json").write_text(json.dumps(result, indent=2, ensure_ascii=False))
@@ -91,6 +107,11 @@ def _write_md(r, lh, la, o):
         f"| Elo | {el[HOME]:.0%} | {el['Draw']:.0%} | {el[AWAY]:.0%} |",
         f"| **Ensemble** | **{e[HOME]:.0%}** | **{e['Draw']:.0%}** | **{e[AWAY]:.0%}** |", "",
         f"Elo: {HOME} {r['elo'][HOME]} vs {AWAY} {r['elo'][AWAY]}. Both models agree → confident {AWAY} lean.", "",
+        "## Confirmed lineups (context — not used by the validated team-level model)", "",
+        f"**{HOME} ({LINEUPS[HOME]['formation']}):** " + ", ".join(LINEUPS[HOME]["xi"]),
+        "",
+        f"**{AWAY} ({LINEUPS[AWAY]['formation']}):** " + ", ".join(LINEUPS[AWAY]["xi"]),
+        "",
         "## Actual result", "",
         "_Not yet played. The post-match step fills this in and scores the prediction (feedback loop)._",
     ]
