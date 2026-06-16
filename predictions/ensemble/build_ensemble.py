@@ -30,8 +30,8 @@ from sklearn.model_selection import KFold
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src" / "phase0"))
-sys.path.insert(0, str(ROOT / "predictions" / "swe-tun"))
-import model as M  # noqa: E402
+sys.path.insert(0, str(ROOT))
+from engine.models import dixon_coles as M  # noqa: E402
 from ingest import ELO_BASE, ELO_HOME_ADVANTAGE, _expected, _k_factor  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
@@ -153,8 +153,10 @@ def main():
               "elo_base": ELO_BASE, "elo_home_adv": ELO_HOME_ADVANTAGE,
               "validation": {"n": n, "ll_elo": ll_el, "ll_dc": ll_dc, "ll_ensemble": ll_ens,
                              "gain_ci": ci, "verdict": verdict}}
-    (HERE / "ensemble_params.json").write_text(json.dumps(params, indent=2))
-    print(f"  saved {HERE/'ensemble_params.json'}")
+    # canonical location the engine loads (single source of truth)
+    out = ROOT / "engine" / "params.json"
+    out.write_text(json.dumps(params, indent=2))
+    print(f"  saved {out}")
 
 
 if __name__ == "__main__":

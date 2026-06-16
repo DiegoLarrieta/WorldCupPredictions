@@ -24,8 +24,8 @@ import numpy as np
 from scipy.optimize import minimize_scalar
 from sklearn.model_selection import KFold
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "swe-tun"))
-import model as M  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from engine.models import dixon_coles as M  # noqa: E402
 
 WINDOWS = [
     {"test_start": "2024-06-01", "test_end": "2025-06-01", "form_season": "2324"},

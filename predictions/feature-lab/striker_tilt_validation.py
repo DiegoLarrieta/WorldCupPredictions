@@ -27,8 +27,8 @@ import numpy as np
 from scipy.optimize import minimize_scalar
 from sklearn.model_selection import KFold
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "swe-tun"))
-import model as M  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from engine.models import dixon_coles as M  # noqa: E402
 
 CUTOFF = "2025-06-01"      # fit DC before this; test after
 TILT_CAP = 0.30           # same shape as the live tilt, slightly looser for fitting

@@ -1,9 +1,10 @@
 {
   "match": "Iraq vs Norway",
-  "venue": "neutral (World Cup)",
+  "competition": "World Cup",
+  "venue": "neutral",
   "as_of": "2026-06-16",
   "model": "Elo + Dixon-Coles ensemble (validated)",
-  "ensemble_weight_on_dc": 0.48120720455201316,
+  "ensemble_weight_on_dc": 0.481,
   "win_draw_loss": {
     "ENSEMBLE": {
       "Iraq": 0.151,

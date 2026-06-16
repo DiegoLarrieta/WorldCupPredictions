@@ -1,6 +1,6 @@
 # Prediction: Iraq vs Norway
 
-_Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). neutral (World Cup), fit on internationals before 2026-06-16 (no leakage)._
+_Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, fit on internationals before 2026-06-16 (no leakage)._
 
 ## Headline (ensemble)
 
@@ -22,9 +22,9 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). neutral (World Cup), 
 | Elo | 15% | 23% | 62% |
 | **Ensemble** | **15%** | **25%** | **60%** |
 
-Elo: Iraq 1739 vs Norway 1985. Both models agree → confident Norway lean.
+Elo: Iraq 1739 vs Norway 1985.
 
-## Confirmed lineups (context — not used by the validated team-level model)
+## Confirmed lineups (context — not a model input)
 
 **Iraq (4-4-2):** 12 Jalal Hasan (GK), 3 Hussein Ali, 4 Zaid Tahseen, 5 A. Hashim, 23 Merchas Doski, 8 Ibrahim Bayesh, 16 Amir Al-Ammari, 24 Z. Ismael, 17 Ali Jasim, 18 Aymen Hussein, 9 Ali Al-Hamadi
 
