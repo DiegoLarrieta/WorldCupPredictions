@@ -1,0 +1,8 @@
+# Minimal deps to import the engine + run the test suite in CI.
+# (Excludes the heavy scraping stack — soccerdata/selenium — which is only needed
+#  to BUILD the warehouse, not to run the prediction engine or its unit tests.)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.2
+duckdb>=1.1
+pytest>=8.0
