@@ -15,11 +15,14 @@ import datetime as dt
 import json
 from pathlib import Path
 
+from engine.calibration import apply_temperature
 from engine.models.dixon_coles import DixonColesModel
 from engine.models.elo import EloModel
 from engine.ensemble import Ensemble
 
 DEFAULT_AS_OF = dt.date.today().isoformat()
+_PARAMS = json.loads((Path(__file__).resolve().parent / "params.json").read_text())
+_TEMPERATURE = _PARAMS.get("temperature", 1.0)   # 1.0 = no calibration
 
 
 def predict_match(home: str, away: str, *, neutral: bool = True,
@@ -35,6 +38,7 @@ def predict_match(home: str, away: str, *, neutral: bool = True,
 
     comp = ens.components(home, away, neutral)
     detail = dc.predict_detail(home, away, neutral)
+    ensemble_cal = apply_temperature(comp["ensemble"], _TEMPERATURE)  # honest probabilities
 
     def wdl(p):
         return {home: round(float(p[0]), 3), "Draw": round(float(p[1]), 3), away: round(float(p[2]), 3)}
@@ -44,10 +48,12 @@ def predict_match(home: str, away: str, *, neutral: bool = True,
         "competition": competition,
         "venue": "neutral" if neutral else f"{home} home",
         "as_of": as_of,
-        "model": "Elo + Dixon-Coles ensemble (validated)",
+        "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
         "ensemble_weight_on_dc": round(ens.w, 3),
+        "calibration_temperature": round(_TEMPERATURE, 3),
         "win_draw_loss": {
-            "ENSEMBLE": wdl(comp["ensemble"]),
+            "ENSEMBLE": wdl(ensemble_cal),
+            "ensemble_uncalibrated": wdl(comp["ensemble"]),
             "dixon_coles": wdl(comp["dixon_coles"]),
             "elo": wdl(comp["elo"]),
         },

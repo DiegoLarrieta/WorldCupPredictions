@@ -28,5 +28,13 @@
       0.012114133022674839
     ],
     "verdict": "ENSEMBLE WINS \u2014 beats both single models, distinguishable from zero"
+  },
+  "temperature": 0.9064448770087545,
+  "calibration": {
+    "n": 2195,
+    "rps_before": 0.16400913721470095,
+    "rps_after": 0.16390022360013928,
+    "logloss_before": 0.8514891290212897,
+    "logloss_after": 0.850335235518979
   }
 }

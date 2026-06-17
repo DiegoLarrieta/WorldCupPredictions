@@ -3,10 +3,16 @@
   "competition": "World Cup",
   "venue": "neutral",
   "as_of": "2026-06-16",
-  "model": "Elo + Dixon-Coles ensemble (validated)",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
   "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
+      "Iraq": 0.137,
+      "Draw": 0.24,
+      "Norway": 0.623
+    },
+    "ensemble_uncalibrated": {
       "Iraq": 0.151,
       "Draw": 0.251,
       "Norway": 0.597
