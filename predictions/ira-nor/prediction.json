@@ -1,0 +1,95 @@
+{
+  "match": "Iraq vs Norway",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-16",
+  "model": "Elo + Dixon-Coles ensemble (validated)",
+  "ensemble_weight_on_dc": 0.481,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Iraq": 0.151,
+      "Draw": 0.251,
+      "Norway": 0.597
+    },
+    "dixon_coles": {
+      "Iraq": 0.158,
+      "Draw": 0.271,
+      "Norway": 0.571
+    },
+    "elo": {
+      "Iraq": 0.146,
+      "Draw": 0.233,
+      "Norway": 0.622
+    }
+  },
+  "elo": {
+    "Iraq": 1739,
+    "Norway": 1985
+  },
+  "expected_goals": {
+    "Iraq": 0.69,
+    "Norway": 1.54
+  },
+  "over_under_2_5": {
+    "over": 0.385,
+    "under": 0.615
+  },
+  "btts": 0.398,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.158
+    },
+    {
+      "score": "0-2",
+      "prob": 0.128
+    },
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "0-0",
+      "prob": 0.115
+    },
+    {
+      "score": "1-2",
+      "prob": 0.088
+    }
+  ],
+  "lineups": {
+    "Iraq": {
+      "formation": "4-4-2",
+      "xi": [
+        "12 Jalal Hasan (GK)",
+        "3 Hussein Ali",
+        "4 Zaid Tahseen",
+        "5 A. Hashim",
+        "23 Merchas Doski",
+        "8 Ibrahim Bayesh",
+        "16 Amir Al-Ammari",
+        "24 Z. Ismael",
+        "17 Ali Jasim",
+        "18 Aymen Hussein",
+        "9 Ali Al-Hamadi"
+      ]
+    },
+    "Norway": {
+      "formation": "4-3-3",
+      "xi": [
+        "1 Ørjan Nyland (GK)",
+        "5 David Møller Wolfe",
+        "17 Torbjørn Heggem",
+        "3 Kristoffer Ajer",
+        "26 Julian Ryerson",
+        "14 Fredrik Aursnes",
+        "8 Sander Berge",
+        "10 M. Ødegaard",
+        "20 Antonio Nusa",
+        "9 Erling Haaland",
+        "7 Alexander Sørloth"
+      ]
+    }
+  },
+  "actual_result": null
+}
