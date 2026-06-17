@@ -6,9 +6,9 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 
 | Outcome | Probability |
 |---|---|
-| **Iraq win** | **15%** |
-| Draw | 25% |
-| **Norway win** | **60%** |
+| **Iraq win** | **14%** |
+| Draw | 24% |
+| **Norway win** | **62%** |
 
 - Expected goals: Iraq 0.69 – 1.54 Norway
 - Over 2.5: 38%  ·  BTTS: 40%
@@ -20,7 +20,7 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 |---|---|---|---|
 | Dixon-Coles | 16% | 27% | 57% |
 | Elo | 15% | 23% | 62% |
-| **Ensemble** | **15%** | **25%** | **60%** |
+| **Ensemble** | **14%** | **24%** | **62%** |
 
 Elo: Iraq 1739 vs Norway 1985.
 

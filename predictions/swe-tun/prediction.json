@@ -3,10 +3,16 @@
   "competition": "World Cup",
   "venue": "neutral",
   "as_of": "2026-06-16",
-  "model": "Elo + Dixon-Coles ensemble (validated)",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
   "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
+      "Sweden": 0.403,
+      "Draw": 0.277,
+      "Tunisia": 0.321
+    },
+    "ensemble_uncalibrated": {
       "Sweden": 0.396,
       "Draw": 0.282,
       "Tunisia": 0.322
