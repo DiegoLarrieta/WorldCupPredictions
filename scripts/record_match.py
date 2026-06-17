@@ -6,7 +6,9 @@
         --xg-home 0.7 --xg-away 2.4 --poss-home 41 --monitor
 
 Writes the canonical record under data/worldcupmatches/, fills actual_result in the
-match folder, scores the prediction, and (with --monitor) refreshes the tournament roll-up.
+match folder, scores the prediction, feeds the result into the warehouse so the NEXT
+prediction's rating replay reflects it (--no-refresh to skip), and (with --monitor)
+refreshes the tournament roll-up.
 """
 
 from __future__ import annotations
@@ -36,6 +38,8 @@ def main() -> None:
     ap.add_argument("--poss-home", type=float, default=None)
     ap.add_argument("--poss-away", type=float, default=None)
     ap.add_argument("--monitor", action="store_true", help="refresh the tournament roll-up after")
+    ap.add_argument("--no-refresh", action="store_true",
+                    help="don't feed the result into the warehouse (skip the rating update)")
     args = ap.parse_args()
 
     extra = {k: v for k, v in {
@@ -53,6 +57,13 @@ def main() -> None:
           f"RPS {sc['rps']:.4f}  log-loss {sc['log_loss']:.4f}  "
           f"Brier {sc['brier']:.4f}  surprisal {sc['surprisal']:.2f}")
     print(f"  record: data/worldcupmatches/{rec['match_key']}.json")
+
+    if not args.no_refresh:
+        # feed the result into the spine so the NEXT prediction's replay sees it
+        from engine.warehouse import append_from_record
+        info = append_from_record(rec)
+        print(f"  ratings: fed into warehouse (match_id {info['match_id']}, "
+              f"source {info['source']}) — next prediction will reflect it")
 
     if args.monitor:
         s = monitor()
