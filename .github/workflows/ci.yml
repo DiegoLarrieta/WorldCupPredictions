@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install test dependencies
+        # Light deps only — the engine runs on numpy/scipy/pandas/duckdb.
+        # The heavy scraping stack (soccerdata/selenium) is not needed for tests.
+        run: pip install -r requirements-test.txt
+
+      - name: Run tests
+        # DB-backed integration tests auto-skip (no warehouse on a clean runner);
+        # the pure-logic engine tests run and must pass.
+        run: pytest -v

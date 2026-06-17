@@ -70,6 +70,17 @@ make data          # runs the whole pipeline, writes data/worldcup.duckdb + data
 `make data` runs, in order: `ingest` (spine + Elo + odds) → `players` → `nationality`
 → `squads` → `bridge` → `backtest` → `export`. Run one step with e.g. `make squads`.
 
+## Tests
+
+```bash
+pip install -r requirements-test.txt
+pytest
+```
+
+Pure-logic engine tests (no database) run in CI on every push/PR via GitHub Actions.
+Integration tests that need the warehouse auto-skip when `data/worldcup.duckdb` is
+absent, and run locally after `make data`.
+
 ## Data structure
 
 DuckDB (`data/worldcup.duckdb`) is the source of truth; `data/csv/` is a browsable
