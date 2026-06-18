@@ -1,0 +1,42 @@
+match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Erling Haaland,5,4,2,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Aymen Hussein,3,1,1,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Ali Al-Hamadi,3,0,0,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Leo Østigard,2,1,1,0,False
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Zaid Tahseen,2,0,0,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Alexander Sørloth,2,0,0,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Kristian Thorstvedt,2,0,0,0,False
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Akam Hashim,1,0,0,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Hussein Ali,1,0,0,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Ibrahim Bayesh,1,0,0,0,True
+2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Martin Ødegaard,1,0,0,1,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Harry Kane,7,3,2,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Jude Bellingham,3,2,1,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Ezri Konsa,2,1,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Nico O'Reilly,2,1,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Anthony Gordon,2,1,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Declan Rice,1,1,0,1,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Djed Spence,1,1,0,0,False
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Marcus Rashford,1,1,1,0,False
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Petar Musa,1,1,1,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Martin Baturina,1,1,1,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Mateo Kovacic,1,1,0,0,False
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Igor Matanovic,1,1,0,0,False
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Marco Pasalic,1,1,0,0,False
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Reece James,1,0,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Elliot Anderson,1,0,0,1,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Noni Madueke,1,0,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Josko Gvardiol,1,0,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Josip Sutalo,1,0,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Mario Pasalic,1,0,0,0,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Petar Sucic,1,0,0,1,True
+2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Andrej Kramaric,1,0,0,0,False
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,Cristiano Ronaldo,3,0,0,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Yoane Wissa,2,1,1,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,Bruno Fernandes,2,0,0,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Samuel Moutoussamy,2,0,0,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Cédric Bakambu,2,0,0,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,João Neves,1,1,1,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Edo Kayembe,1,1,0,0,True
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,Francisco Conceição,1,0,0,0,False
+2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Steve Kapuadi,1,0,0,0,True

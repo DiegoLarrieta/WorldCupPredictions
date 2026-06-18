@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from engine.odds_api import OddsAPIError, extract_odds, find_event
+from engine.odds_api import OddsAPIError, extract_odds, find_event, parse_score
 
 
 # A trimmed Odds API event in the real v4 shape. Note: API's home_team is Norway
@@ -74,3 +74,24 @@ def test_totals_point_filter_omits_other_lines():
                 {"name": "Under", "price": 1.9, "point": 3.5}]}]}]}
     odds = extract_odds(ev, "A", "B", book="best", totals_point=2.5)
     assert "1x2" in odds and "ou_2.5" not in odds
+
+
+# ---- scores ----------------------------------------------------------------
+SCORE_EVENT = {
+    "home_team": "Iraq", "away_team": "Norway", "completed": True,
+    "scores": [{"name": "Iraq", "score": "1"}, {"name": "Norway", "score": "4"}],
+}
+
+
+def test_parse_score_maps_to_our_orientation():
+    # our prediction home=Iraq, away=Norway -> 1-4
+    s = parse_score(SCORE_EVENT, "Iraq", "Norway")
+    assert s == {"completed": True, "home_goals": 1, "away_goals": 4}
+    # swap our orientation -> goals swap with it
+    assert parse_score(SCORE_EVENT, "Norway", "Iraq")["home_goals"] == 4
+
+
+def test_parse_score_incomplete_game_has_no_goals():
+    live = {"home_team": "A", "away_team": "B", "completed": False,
+            "scores": [{"name": "A", "score": "1"}, {"name": "B", "score": "0"}]}
+    assert parse_score(live, "A", "B") == {"completed": False, "home_goals": None, "away_goals": None}

@@ -1,0 +1,109 @@
+{
+  "match": "England vs Croatia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-17",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "England": 0.538,
+      "Draw": 0.266,
+      "Croatia": 0.196
+    },
+    "ensemble_uncalibrated": {
+      "England": 0.518,
+      "Draw": 0.274,
+      "Croatia": 0.208
+    },
+    "dixon_coles": {
+      "England": 0.491,
+      "Draw": 0.3,
+      "Croatia": 0.209
+    },
+    "elo": {
+      "England": 0.544,
+      "Draw": 0.25,
+      "Croatia": 0.207
+    }
+  },
+  "elo": {
+    "England": 2096,
+    "Croatia": 1975
+  },
+  "expected_goals": {
+    "England": 1.35,
+    "Croatia": 0.79
+  },
+  "over_under_2_5": {
+    "over": 0.36,
+    "under": 0.64
+  },
+  "btts": 0.413,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.15
+    },
+    {
+      "score": "1-1",
+      "prob": 0.135
+    },
+    {
+      "score": "0-0",
+      "prob": 0.127
+    },
+    {
+      "score": "2-0",
+      "prob": 0.107
+    },
+    {
+      "score": "2-1",
+      "prob": 0.085
+    }
+  ],
+  "lineups": {
+    "England": {
+      "formation": "4-2-3-1",
+      "xi": [
+        "1 Jordan Pickford (GK)",
+        "24 Reece James",
+        "2 Ezri Konsa",
+        "5 John Stones",
+        "3 Nico O'Reilly",
+        "8 Elliot Anderson",
+        "4 Declan Rice",
+        "20 Noni Madueke",
+        "10 Jude Bellingham",
+        "18 Anthony Gordon",
+        "9 Harry Kane"
+      ]
+    },
+    "Croatia": {
+      "formation": "3-4-2-1",
+      "xi": [
+        "1 Dominik Livaković (GK)",
+        "4 Joško Gvardiol",
+        "22 Luka Vušković",
+        "6 Josip Šutalo",
+        "14 Ivan Perišić",
+        "17 Petar Sučić",
+        "10 Luka Modrić",
+        "2 Josip Stanišić",
+        "16 Martin Baturina",
+        "15 Mario Pašalić",
+        "26 Petar Musa"
+      ]
+    }
+  },
+  "actual_result": {
+    "score": "4-2",
+    "result": "home",
+    "scored_at": "2026-06-18T17:05:21-06:00",
+    "rps": 0.12593,
+    "log_loss": 0.6199,
+    "brier": 0.32262,
+    "surprisal": 0.6199
+  }
+}

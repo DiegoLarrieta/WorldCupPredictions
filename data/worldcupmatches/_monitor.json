@@ -1,0 +1,62 @@
+{
+  "n": 3,
+  "per_model": {
+    "ensemble": {
+      "rps": 0.14627,
+      "log_loss": 0.86456,
+      "brier": 0.53658
+    },
+    "dixon_coles": {
+      "rps": 0.14057,
+      "log_loss": 0.83195,
+      "brier": 0.50176
+    },
+    "elo": {
+      "rps": 0.15906,
+      "log_loss": 0.92548,
+      "brier": 0.57888
+    }
+  },
+  "vs_baseline": {
+    "uniform": {
+      "rps": 0.22222,
+      "log_loss": 1.09861
+    },
+    "ensemble": {
+      "rps": 0.14627,
+      "log_loss": 0.86456
+    }
+  },
+  "calibration": [
+    {
+      "bin": "0.47-0.60",
+      "n": 1,
+      "predicted": 0.538,
+      "actual": 1.0
+    },
+    {
+      "bin": "0.60-0.73",
+      "n": 2,
+      "predicted": 0.649,
+      "actual": 0.5
+    }
+  ],
+  "ensemble_beats_components": false,
+  "most_surprising": [
+    {
+      "match": "Portugal vs DR Congo",
+      "result": "draw",
+      "surprisal": 1.50058
+    },
+    {
+      "match": "England vs Croatia",
+      "result": "home",
+      "surprisal": 0.6199
+    },
+    {
+      "match": "Iraq vs Norway",
+      "result": "away",
+      "surprisal": 0.47321
+    }
+  ]
+}

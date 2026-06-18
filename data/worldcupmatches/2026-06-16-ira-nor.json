@@ -1,0 +1,241 @@
+{
+  "match_key": "2026-06-16-ira-nor",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-16-ira-nor",
+    "date": "2026-06-16",
+    "home": "Iraq",
+    "away": "Norway",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Iraq vs Norway",
+    "home": "Iraq",
+    "away": "Norway",
+    "as_of": "2026-06-16",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.137,
+      0.24,
+      0.623
+    ],
+    "components": {
+      "dixon_coles": [
+        0.158,
+        0.271,
+        0.571
+      ],
+      "elo": [
+        0.146,
+        0.233,
+        0.622
+      ]
+    },
+    "expected_goals": {
+      "Iraq": 0.69,
+      "Norway": 1.54
+    },
+    "over25": 0.385,
+    "btts": 0.398,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.158
+      },
+      {
+        "score": "0-2",
+        "prob": 0.128
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "0-0",
+        "prob": 0.115
+      },
+      {
+        "score": "1-2",
+        "prob": 0.088
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 4,
+      "result": "away",
+      "source": "oddsapi-scores",
+      "captured_at": "2026-06-18T17:05:21-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760430",
+      "player_shots": [
+        {
+          "player": "Erling Haaland",
+          "side": "away",
+          "team": "Norway",
+          "shots": 5,
+          "on_target": 4,
+          "goals": 2,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Aymen Hussein",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Ali Al-Hamadi",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Leo Østigard",
+          "side": "away",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Zaid Tahseen",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Alexander Sørloth",
+          "side": "away",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Kristian Thorstvedt",
+          "side": "away",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Akam Hashim",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Hussein Ali",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Ibrahim Bayesh",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Martin Ødegaard",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "starter": true
+        }
+      ],
+      "possession_home": 38.7,
+      "shots_home": 11,
+      "shots_on_target_home": 1,
+      "corners_home": 2,
+      "fouls_home": 12,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 61.3,
+      "shots_away": 12,
+      "shots_on_target_away": 5,
+      "corners_away": 5,
+      "fouls_away": 13,
+      "saves_away": 0,
+      "offsides_away": 0,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-18T17:10:43-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.08045,
+    "log_loss": 0.47321,
+    "brier": 0.2185,
+    "surprisal": 0.47321,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.08045,
+        "log_loss": 0.47321,
+        "brier": 0.2185,
+        "surprisal": 0.47321
+      },
+      "dixon_coles": {
+        "rps": 0.1045,
+        "log_loss": 0.56037,
+        "brier": 0.28245,
+        "surprisal": 0.56037
+      },
+      "elo": {
+        "rps": 0.08231,
+        "log_loss": 0.47581,
+        "brier": 0.21881,
+        "surprisal": 0.47581
+      }
+    }
+  }
+}
