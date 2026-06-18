@@ -1,0 +1,107 @@
+{
+  "match_key": "2026-06-17-eng-cro",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-17-eng-cro",
+    "date": "2026-06-17",
+    "home": "England",
+    "away": "Croatia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "England vs Croatia",
+    "home": "England",
+    "away": "Croatia",
+    "as_of": "2026-06-17",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.538,
+      0.266,
+      0.196
+    ],
+    "components": {
+      "dixon_coles": [
+        0.491,
+        0.3,
+        0.209
+      ],
+      "elo": [
+        0.544,
+        0.25,
+        0.207
+      ]
+    },
+    "expected_goals": {
+      "England": 1.35,
+      "Croatia": 0.79
+    },
+    "over25": 0.36,
+    "btts": 0.413,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.15
+      },
+      {
+        "score": "1-1",
+        "prob": 0.135
+      },
+      {
+        "score": "0-0",
+        "prob": 0.127
+      },
+      {
+        "score": "2-0",
+        "prob": 0.107
+      },
+      {
+        "score": "2-1",
+        "prob": 0.085
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 4,
+      "away_goals": 2,
+      "result": "home",
+      "source": "oddsapi-scores",
+      "captured_at": "2026-06-18T17:05:21-06:00"
+    },
+    "rich": null
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.12593,
+    "log_loss": 0.6199,
+    "brier": 0.32262,
+    "surprisal": 0.6199,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.12593,
+        "log_loss": 0.6199,
+        "brier": 0.32262,
+        "surprisal": 0.6199
+      },
+      "dixon_coles": {
+        "rps": 0.15138,
+        "log_loss": 0.71131,
+        "brier": 0.39276,
+        "surprisal": 0.71131
+      },
+      "elo": {
+        "rps": 0.1256,
+        "log_loss": 0.60981,
+        "brier": 0.31357,
+        "surprisal": 0.60981
+      }
+    }
+  }
+}

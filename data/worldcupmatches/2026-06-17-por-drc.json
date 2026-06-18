@@ -1,0 +1,107 @@
+{
+  "match_key": "2026-06-17-por-drc",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-17-por-drc",
+    "date": "2026-06-17",
+    "home": "Portugal",
+    "away": "DR Congo",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Portugal vs DR Congo",
+    "home": "Portugal",
+    "away": "DR Congo",
+    "as_of": "2026-06-17",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.674,
+      0.223,
+      0.103
+    ],
+    "components": {
+      "dixon_coles": [
+        0.556,
+        0.294,
+        0.15
+      ],
+      "elo": [
+        0.729,
+        0.184,
+        0.087
+      ]
+    },
+    "expected_goals": {
+      "Portugal": 1.39,
+      "DR Congo": 0.59
+    },
+    "over25": 0.319,
+    "btts": 0.344,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.183
+      },
+      {
+        "score": "0-0",
+        "prob": 0.146
+      },
+      {
+        "score": "2-0",
+        "prob": 0.133
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "2-1",
+        "prob": 0.079
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "oddsapi-scores",
+      "captured_at": "2026-06-18T17:05:21-06:00"
+    },
+    "rich": null
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.23244,
+    "log_loss": 1.50058,
+    "brier": 1.06861,
+    "surprisal": 1.50058,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.23244,
+        "log_loss": 1.50058,
+        "brier": 1.06861,
+        "surprisal": 1.50058
+      },
+      "dixon_coles": {
+        "rps": 0.16582,
+        "log_loss": 1.22418,
+        "brier": 0.83007,
+        "surprisal": 1.22418
+      },
+      "elo": {
+        "rps": 0.2695,
+        "log_loss": 1.69282,
+        "brier": 1.20487,
+        "surprisal": 1.69282
+      }
+    }
+  }
+}

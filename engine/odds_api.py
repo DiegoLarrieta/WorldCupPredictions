@@ -141,6 +141,40 @@ def _matches_point(point, target: float) -> bool:
         return False
 
 
+# ---- scores / results -----------------------------------------------------
+def fetch_scores(api_key: str | None = None, *, sport: str = DEFAULT_SPORT,
+                 days_from: int = 3, timeout: int = 30) -> list[dict]:
+    """Recent + live games with scores. Free tier allows days_from up to 3."""
+    api_key = api_key or os.environ.get("ODDS_API_KEY")
+    if not api_key:
+        raise OddsAPIError("No API key. Set ODDS_API_KEY or pass api_key=...")
+    q = urllib.parse.urlencode({"apiKey": api_key, "daysFrom": days_from, "dateFormat": "iso"})
+    url = f"{ODDS_API_BASE}/sports/{sport}/scores?{q}"
+    req = urllib.request.Request(url, headers={"User-Agent": "worldcup-predictor"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        raise OddsAPIError(f"Odds API HTTP {e.code}: {e.read().decode(errors='replace')[:300]}") from e
+    except urllib.error.URLError as e:
+        raise OddsAPIError(f"Odds API unreachable: {e.reason}") from e
+
+
+def parse_score(event: dict, home: str, away: str) -> dict:
+    """Map a /scores event to OUR home/away goals (by team name, role-independent).
+
+    Returns {'completed': bool, 'home_goals': int|None, 'away_goals': int|None}. Goals
+    are None until the game is completed (live games carry partial scores we ignore).
+    """
+    if not event.get("completed"):
+        return {"completed": False, "home_goals": None, "away_goals": None}
+    by_name = {_norm(s["name"]): int(s["score"]) for s in (event.get("scores") or [])}
+    h, a = _norm(home), _norm(away)
+    if h not in by_name or a not in by_name:
+        raise OddsAPIError(f"Score for {home}/{away} not found in event.")
+    return {"completed": True, "home_goals": by_name[h], "away_goals": by_name[a]}
+
+
 # ---- convenience ----------------------------------------------------------
 def fetch_odds(home: str, away: str, *, book: str = "best", api_key: str | None = None,
                sport: str = DEFAULT_SPORT, regions: str = DEFAULT_REGIONS,
