@@ -75,7 +75,241 @@
       "source": "oddsapi-scores",
       "captured_at": "2026-06-18T17:05:21-06:00"
     },
-    "rich": null
+    "rich": {
+      "espn_event_id": "760437",
+      "player_shots": [
+        {
+          "player": "Harry Kane",
+          "side": "home",
+          "team": "England",
+          "shots": 7,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Jude Bellingham",
+          "side": "home",
+          "team": "England",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Ezri Konsa",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Nico O'Reilly",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Anthony Gordon",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Declan Rice",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "starter": true
+        },
+        {
+          "player": "Djed Spence",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Marcus Rashford",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Petar Musa",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Martin Baturina",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Mateo Kovacic",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Igor Matanovic",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Marco Pasalic",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Reece James",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Elliot Anderson",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "starter": true
+        },
+        {
+          "player": "Noni Madueke",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Josko Gvardiol",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Josip Sutalo",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Mario Pasalic",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Petar Sucic",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "starter": true
+        },
+        {
+          "player": "Andrej Kramaric",
+          "side": "away",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        }
+      ],
+      "possession_home": 51.7,
+      "shots_home": 22,
+      "shots_on_target_home": 11,
+      "corners_home": 8,
+      "fouls_home": 10,
+      "saves_home": 3,
+      "offsides_home": 0,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 48.3,
+      "shots_away": 10,
+      "shots_on_target_away": 5,
+      "corners_away": 2,
+      "fouls_away": 12,
+      "saves_away": 7,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-18T17:10:42-06:00"
+    }
   },
   "scores": {
     "y": 0,

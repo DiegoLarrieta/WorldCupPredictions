@@ -75,7 +75,121 @@
       "source": "oddsapi-scores",
       "captured_at": "2026-06-18T17:05:21-06:00"
     },
-    "rich": null
+    "rich": {
+      "espn_event_id": "760435",
+      "player_shots": [
+        {
+          "player": "Cristiano Ronaldo",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Yoane Wissa",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Bruno Fernandes",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Samuel Moutoussamy",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Cédric Bakambu",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "João Neves",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Edo Kayembe",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Francisco Conceição",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Steve Kapuadi",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        }
+      ],
+      "possession_home": 75.4,
+      "shots_home": 7,
+      "shots_on_target_home": 1,
+      "corners_home": 5,
+      "fouls_home": 9,
+      "saves_home": 1,
+      "offsides_home": 3,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 24.6,
+      "shots_away": 8,
+      "shots_on_target_away": 2,
+      "corners_away": 4,
+      "fouls_away": 10,
+      "saves_away": 0,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-18T17:10:43-06:00"
+    }
   },
   "scores": {
     "y": 1,

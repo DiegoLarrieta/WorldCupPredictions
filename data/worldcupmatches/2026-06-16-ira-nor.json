@@ -75,7 +75,141 @@
       "source": "oddsapi-scores",
       "captured_at": "2026-06-18T17:05:21-06:00"
     },
-    "rich": null
+    "rich": {
+      "espn_event_id": "760430",
+      "player_shots": [
+        {
+          "player": "Erling Haaland",
+          "side": "away",
+          "team": "Norway",
+          "shots": 5,
+          "on_target": 4,
+          "goals": 2,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Aymen Hussein",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Ali Al-Hamadi",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Leo Østigard",
+          "side": "away",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Zaid Tahseen",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Alexander Sørloth",
+          "side": "away",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Kristian Thorstvedt",
+          "side": "away",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": false
+        },
+        {
+          "player": "Akam Hashim",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Hussein Ali",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Ibrahim Bayesh",
+          "side": "home",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "starter": true
+        },
+        {
+          "player": "Martin Ødegaard",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "starter": true
+        }
+      ],
+      "possession_home": 38.7,
+      "shots_home": 11,
+      "shots_on_target_home": 1,
+      "corners_home": 2,
+      "fouls_home": 12,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 61.3,
+      "shots_away": 12,
+      "shots_on_target_away": 5,
+      "corners_away": 5,
+      "fouls_away": 13,
+      "saves_away": 0,
+      "offsides_away": 0,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-18T17:10:43-06:00"
+    }
   },
   "scores": {
     "y": 2,

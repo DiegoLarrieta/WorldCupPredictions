@@ -90,6 +90,18 @@ Lineups/club form are stored as **context** for the record + post-match feedback
   takes the best price per selection, or pass a book key (e.g. `"pinnacle"`) for a
   sharp closing-line proxy. Or pass odds by hand: `compare_folder(folder, {"1x2":
   {"home":7.0,"draw":4.2,"away":1.55}})`.
+- **Score a week + refresh ratings:** `python scripts/score_week.py predictions/week1`
+  (pulls results from The Odds API `/scores`, scores frozen predictions, feeds results
+  into the warehouse so the next week's rating replay reflects them). Single match by
+  hand: `scripts/record_match.py`.
+- **Granular match stats (team + per-player shots):**
+  `python scripts/fetch_match_stats.py predictions/week1` — pulls possession/shots/SoT
+  and per-player shots+shots-on-target from **ESPN's open API** (`engine/espn.py`, no
+  key), attaches them to each scored record's rich layer, and rebuilds
+  `data/csv/derived/player_match_shots.csv`. This is the raw material for the player
+  shots-on-target PROP model + calibration — **not** a 1X2 feature (granular stats were
+  CI-disproven for the winner market). ESPN is the source because Sofascore/Fotmob are
+  Cloudflare-walled; ESPN gives per-player totalShots + shotsOnTarget free.
 
 ## Gotchas / hard-won facts
 
