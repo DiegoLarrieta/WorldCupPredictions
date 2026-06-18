@@ -78,6 +78,18 @@ Lineups/club form are stored as **context** for the record + post-match feedback
 - Full data pipeline: `make data`. Individual stages are Makefile targets
   (`make spine`, `make players`, ...).
 - A single match prediction: `cd predictions/<match> && python predict.py`.
+- **Model vs market (the bet decision):**
+  ```python
+  from engine.odds_api import fetch_odds
+  from engine.market import compare_folder
+  compare_folder("predictions/<match>", fetch_odds("Home", "Away"))
+  ```
+  Writes `market_compare.{json,md}` beside the prediction: per-outcome model prob,
+  de-vigged market prob, edge, and EV per 1u — value bets flagged. Odds come from
+  The Odds API (`export ODDS_API_KEY=...`, free tier ~500 req/mo); `book="best"`
+  takes the best price per selection, or pass a book key (e.g. `"pinnacle"`) for a
+  sharp closing-line proxy. Or pass odds by hand: `compare_folder(folder, {"1x2":
+  {"home":7.0,"draw":4.2,"away":1.55}})`.
 
 ## Gotchas / hard-won facts
 
