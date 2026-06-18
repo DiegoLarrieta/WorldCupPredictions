@@ -114,6 +114,8 @@ When in doubt, invoke the skill.
 
 Project skills (in `.claude/skills/`):
 - New fixture prediction → invoke **/predict-match**
+- Odds / edge / value bet for a fixture → invoke **/compare-market**
+- Record / settle a bet, or betting performance (ROI, CLOV) → invoke **/log-bet**
 
 gstack routing:
 - Product ideas / direction / "is this worth building" → invoke /office-hours
