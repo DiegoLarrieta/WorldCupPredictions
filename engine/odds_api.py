@@ -98,13 +98,17 @@ def _best_across_books(event: dict, market_key: str) -> list[dict]:
 
 
 def _book_outcomes(event: dict, market_key: str, book: str) -> list[dict]:
-    """Outcomes for a single named bookmaker (raises if it doesn't offer the market)."""
+    """Outcomes for a single named bookmaker; [] if the book doesn't offer this market.
+
+    Non-fatal so a book with only h2h (e.g. Pinnacle without a totals line) still yields
+    its 1X2. extract_odds raises only if NO market is usable for the book.
+    """
     for bk in event.get("bookmakers", []):
         if bk.get("key") == book or _norm(bk.get("title", "")) == _norm(book):
             for mk in bk.get("markets", []):
                 if mk.get("key") == market_key:
                     return mk.get("outcomes", [])
-    raise OddsAPIError(f"Book '{book}' has no '{market_key}' for this fixture.")
+    return []
 
 
 def extract_odds(event: dict, home: str, away: str, *, book: str = "best",
@@ -173,6 +177,34 @@ def parse_score(event: dict, home: str, away: str) -> dict:
     if h not in by_name or a not in by_name:
         raise OddsAPIError(f"Score for {home}/{away} not found in event.")
     return {"completed": True, "home_goals": by_name[h], "away_goals": by_name[a]}
+
+
+# ---- snapshots (open -> close capture) ------------------------------------
+def snapshot_rows(events: list[dict], books=("pinnacle", "best"),
+                  captured_at: str | None = None, totals_point: float = DEFAULT_TOTALS_POINT) -> list[dict]:
+    """Flatten current odds for every listed fixture into snapshot rows for CLOV capture.
+
+    One row per (match, market, selection, book). Captures a SHARP book (Pinnacle, the
+    closing-line reference) and 'best' (where you'd actually place) so honest CLOV is
+    possible later. Append these to a log over time to build open->close movement.
+    """
+    import datetime as dt
+    ts = captured_at or dt.datetime.now().astimezone().isoformat(timespec="seconds")
+    rows = []
+    for ev in events:
+        home, away = ev.get("home_team", ""), ev.get("away_team", "")
+        match = f"{home} vs {away}"
+        for book in books:
+            try:
+                odds = extract_odds(ev, home, away, book=book, totals_point=totals_point)
+            except OddsAPIError:
+                continue
+            for market, sels in odds.items():
+                for selection, price in sels.items():
+                    rows.append({"match": match, "commence_time": ev.get("commence_time"),
+                                 "market": market, "selection": selection, "book": book,
+                                 "price": price, "captured_at": ts})
+    return rows
 
 
 # ---- convenience ----------------------------------------------------------
