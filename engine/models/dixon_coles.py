@@ -26,11 +26,20 @@ DECAY = np.log(2) / HALFLIFE_DAYS
 # ---- functional API --------------------------------------------------------
 def fit(as_of: str) -> dict:
     """Fit on internationals strictly before `as_of`."""
+    return fit_frame(load_internationals(as_of, since=SINCE), as_of)
+
+
+def fit_frame(df, as_of: str, *, min_matches: int = MIN_MATCHES,
+              halflife_days: int = HALFLIFE_DAYS) -> dict:
+    """Fit Dixon-Coles on an arbitrary match frame (columns date, home_team, away_team,
+    hg, ag, neutral). Identical math to the international fit — lets a club backtest reuse
+    the validated model on its own data without touching the international path.
+    """
     import pandas as pd
-    df = load_internationals(as_of, since=SINCE)
+    decay = np.log(2) / halflife_days
 
     counts = pd.concat([df["home_team"], df["away_team"]]).value_counts()
-    keep = set(counts[counts >= MIN_MATCHES].index)
+    keep = set(counts[counts >= min_matches].index)
     df = df[df["home_team"].isin(keep) & df["away_team"].isin(keep)].reset_index(drop=True)
 
     teams = sorted(set(df["home_team"]) | set(df["away_team"]))
@@ -41,7 +50,7 @@ def fit(as_of: str) -> dict:
     hg, ag = df["hg"].to_numpy(), df["ag"].to_numpy()
     neutral = df["neutral"].astype(bool).to_numpy()
     days_ago = (pd.Timestamp(as_of) - df["date"]).dt.days.to_numpy()
-    w = np.exp(-DECAY * days_ago)
+    w = np.exp(-decay * days_ago)
     lg_hg, lg_ag = gammaln(hg + 1.0), gammaln(ag + 1.0)
 
     def unpack(p):
