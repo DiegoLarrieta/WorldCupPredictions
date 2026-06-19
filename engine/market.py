@@ -27,16 +27,82 @@ from pathlib import Path
 # + the fact that the price you actually get is the vigged one. Tune as edge is proven.
 DEFAULT_EV_THRESHOLD = 0.03
 
+# How to strip the bookmaker margin. Multiplicative just scales proportionally, so it
+# keeps the longshot's inflated share — but longshots are systematically OVERBET (the
+# favourite-longshot bias), so their true probability sits BELOW the proportional one.
+# Shin and power attribute more of the margin to longshots: they lift the favourite and
+# trim the longshot/draw, which is the better-calibrated estimate. Using a method that
+# corrects this matters most on exactly the underdog/draw calls our model likes to flag,
+# so we don't mistake a de-vig artifact for edge. Default Shin.
+DEFAULT_DEVIG = "shin"
 
-def devig(odds: dict[str, float]) -> dict[str, float]:
-    """Decimal odds -> de-vigged implied probabilities (multiplicative, sums to 1).
 
-    Works for any number of mutually-exclusive selections (3-way 1X2, 2-way O/U,
-    2-way BTTS). raw_prob = 1/price; normalise so the book's margin is removed.
+def devig(odds: dict[str, float], method: str = "multiplicative") -> dict[str, float]:
+    """Decimal odds -> de-vigged implied probabilities (sums to 1).
+
+    method:
+      'multiplicative' — raw/overround. Fast, but biased toward favourites.
+      'shin'           — Shin (1992): solves for the share of margin attributable to
+                         informed money; corrects the favourite-longshot bias.
+      'power'          — each implied prob raised to a common exponent until they sum
+                         to 1; also de-biases longshots, no insider-trade assumption.
+    Works for any number of mutually-exclusive selections (1X2, O/U, BTTS).
     """
     raw = {k: 1.0 / float(v) for k, v in odds.items()}
-    overround = sum(raw.values())          # > 1; the excess is the vig
-    return {k: p / overround for k, p in raw.items()}
+    if method == "multiplicative":
+        s = sum(raw.values())
+        return {k: p / s for k, p in raw.items()}
+    if method == "shin":
+        return _devig_shin(raw)
+    if method == "power":
+        return _devig_power(raw)
+    raise ValueError(f"unknown devig method '{method}' (multiplicative|shin|power)")
+
+
+def _devig_shin(raw: dict[str, float]) -> dict[str, float]:
+    """Shin's method. Solve z in [0, 0.5) so the implied probabilities sum to 1.
+
+    p_i = (sqrt(z^2 + 4(1-z) b_i^2 / B) - z) / (2(1-z)), B = sum(b_i) overround.
+    """
+    import math
+    b = list(raw.values())
+    B = sum(b)
+
+    def probs(z: float) -> list[float]:
+        return [(math.sqrt(z * z + 4 * (1 - z) * bi * bi / B) - z) / (2 * (1 - z)) for bi in b]
+
+    lo, hi = 0.0, 0.499
+    f_lo = sum(probs(lo)) - 1.0
+    f_hi = sum(probs(hi)) - 1.0
+    if f_lo * f_hi > 0:                       # no bracket (≈no vig) -> multiplicative
+        return {k: v / B for k, v in raw.items()}
+    for _ in range(60):                       # bisection
+        mid = (lo + hi) / 2
+        if (sum(probs(mid)) - 1.0) * f_lo > 0:
+            lo = mid
+        else:
+            hi = mid
+    p = probs((lo + hi) / 2)
+    s = sum(p)
+    return {k: pi / s for k, pi in zip(raw, p)}
+
+
+def _devig_power(raw: dict[str, float]) -> dict[str, float]:
+    """Power method. Find c so sum(b_i^c) = 1, then p_i = b_i^c (c >= 1 shrinks longshots less)."""
+    b = list(raw.values())
+    lo, hi = 1.0, 10.0
+    f = lambda c: sum(bi ** c for bi in b) - 1.0   # noqa: E731
+    if f(lo) <= 0:                                   # already <=1 (no vig) -> multiplicative
+        s = sum(b)
+        return {k: v / s for k, v in raw.items()}
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        if f(mid) > 0:
+            lo = mid
+        else:
+            hi = mid
+    c = (lo + hi) / 2
+    return {k: bi ** c for k, bi in zip(raw, b)}
 
 
 def vig_of(odds: dict[str, float]) -> float:
@@ -70,18 +136,20 @@ def _model_probs(prediction: dict, market: str, selections: list[str]) -> dict[s
 
 
 def compare(prediction: dict, odds: dict[str, dict[str, float]],
-            ev_threshold: float = DEFAULT_EV_THRESHOLD) -> dict:
+            ev_threshold: float = DEFAULT_EV_THRESHOLD,
+            devig_method: str = DEFAULT_DEVIG) -> dict:
     """Line the model up against the offered odds for every market provided.
 
     `odds` maps a market key ('1x2', 'ou_2.5', 'btts') to its selections' decimal
     odds. Returns a structured comparison; selections clearing `ev_threshold` are
-    flagged as value bets.
+    flagged as value bets. `devig_method` controls how the market's fair probability
+    is recovered (default Shin, which de-biases underdog/draw value calls).
     """
     markets = {}
     best = None
     for market, book in odds.items():
         model = _model_probs(prediction, market, list(book.keys()))
-        mkt = devig(book)
+        mkt = devig(book, devig_method)
         rows = []
         for sel, price in book.items():
             p = float(model[sel])
@@ -110,6 +178,7 @@ def compare(prediction: dict, odds: dict[str, dict[str, float]],
         "match": prediction.get("match"),
         "as_of": prediction.get("as_of"),
         "ev_threshold": ev_threshold,
+        "devig_method": devig_method,
         "markets": markets,
         "value_bets": value_bets,
         "best_ev": best,

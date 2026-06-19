@@ -22,6 +22,43 @@ def test_vig_is_positive_for_real_book():
     assert vig_of({"home": 8.0, "draw": 5.5, "away": 1.33}) > 0
 
 
+# ---- Shin / power de-vig ----------------------------------------------------
+def test_shin_and_power_sum_to_one():
+    odds = {"home": 8.0, "draw": 5.5, "away": 1.33}
+    for m in ("shin", "power"):
+        p = devig(odds, m)
+        assert sum(p.values()) == pytest.approx(1.0, abs=1e-6)
+
+
+def test_shin_trims_longshot_lifts_favourite():
+    # favourite-longshot correction: Shin trims the overbet longshot, lifts the favourite
+    odds = {"home": 8.0, "draw": 5.5, "away": 1.33}   # home = longshot, away = favourite
+    mult, shin = devig(odds, "multiplicative"), devig(odds, "shin")
+    assert shin["home"] < mult["home"]      # longshot gets less (it's overbet)
+    assert shin["away"] > mult["away"]      # favourite gets more
+
+
+def test_power_also_trims_longshot():
+    odds = {"home": 8.0, "draw": 5.5, "away": 1.33}
+    mult, power = devig(odds, "multiplicative"), devig(odds, "power")
+    assert power["home"] < mult["home"]
+    assert power["away"] > mult["away"]
+
+
+def test_devig_methods_agree_when_no_vig():
+    # fair two-way book (overround ~0) -> all methods nearly identical
+    odds = {"over": 2.0, "under": 2.0}
+    m, s, p = devig(odds, "multiplicative"), devig(odds, "shin"), devig(odds, "power")
+    assert m["over"] == pytest.approx(0.5)
+    assert s["over"] == pytest.approx(0.5, abs=1e-3)
+    assert p["over"] == pytest.approx(0.5, abs=1e-3)
+
+
+def test_unknown_devig_method_raises():
+    with pytest.raises(ValueError):
+        devig({"a": 2.0, "b": 2.0}, "bogus")
+
+
 def test_devig_matches_sql_method():
     # multiplicative de-vig == raw / overround, same as sql/implied_prob.sql
     odds = {"over": 2.10, "under": 1.75}
