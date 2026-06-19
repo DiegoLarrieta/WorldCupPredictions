@@ -1,0 +1,107 @@
+{
+  "match_key": "2026-06-11-mex-sou",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-11-mex-sou",
+    "date": "2026-06-11",
+    "home": "Mexico",
+    "away": "South Africa",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Mexico vs South Africa",
+    "home": "Mexico",
+    "away": "South Africa",
+    "as_of": "2026-06-11",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.711,
+      0.204,
+      0.086
+    ],
+    "components": {
+      "dixon_coles": [
+        0.606,
+        0.268,
+        0.126
+      ],
+      "elo": [
+        0.75,
+        0.174,
+        0.076
+      ]
+    },
+    "expected_goals": {
+      "Mexico": 1.54,
+      "South Africa": 0.56
+    },
+    "over25": 0.349,
+    "btts": 0.343,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.182
+      },
+      {
+        "score": "2-0",
+        "prob": 0.145
+      },
+      {
+        "score": "0-0",
+        "prob": 0.13
+      },
+      {
+        "score": "1-1",
+        "prob": 0.113
+      },
+      {
+        "score": "2-1",
+        "prob": 0.081
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "home",
+      "source": "martj42",
+      "captured_at": "2026-06-18T23:49:32-06:00"
+    },
+    "rich": null
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.04566,
+    "log_loss": 0.34208,
+    "brier": 0.13285,
+    "surprisal": 0.34208,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.04566,
+        "log_loss": 0.34208,
+        "brier": 0.13285,
+        "surprisal": 0.34208
+      },
+      "dixon_coles": {
+        "rps": 0.08556,
+        "log_loss": 0.50088,
+        "brier": 0.24294,
+        "surprisal": 0.50088
+      },
+      "elo": {
+        "rps": 0.03414,
+        "log_loss": 0.28768,
+        "brier": 0.09855,
+        "surprisal": 0.28768
+      }
+    }
+  }
+}

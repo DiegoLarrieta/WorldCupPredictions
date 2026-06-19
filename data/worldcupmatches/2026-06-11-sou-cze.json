@@ -1,0 +1,107 @@
+{
+  "match_key": "2026-06-11-sou-cze",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-11-sou-cze",
+    "date": "2026-06-11",
+    "home": "South Korea",
+    "away": "Czech Republic",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "South Korea vs Czech Republic",
+    "home": "South Korea",
+    "away": "Czech Republic",
+    "as_of": "2026-06-11",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.521,
+      0.251,
+      0.228
+    ],
+    "components": {
+      "dixon_coles": [
+        0.52,
+        0.258,
+        0.222
+      ],
+      "elo": [
+        0.486,
+        0.262,
+        0.252
+      ]
+    },
+    "expected_goals": {
+      "South Korea": 1.68,
+      "Czech Republic": 1.02
+    },
+    "over25": 0.504,
+    "btts": 0.526,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.123
+      },
+      {
+        "score": "1-0",
+        "prob": 0.106
+      },
+      {
+        "score": "2-1",
+        "prob": 0.097
+      },
+      {
+        "score": "2-0",
+        "prob": 0.095
+      },
+      {
+        "score": "0-0",
+        "prob": 0.075
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "home",
+      "source": "martj42",
+      "captured_at": "2026-06-18T23:49:32-06:00"
+    },
+    "rich": null
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.14071,
+    "log_loss": 0.65201,
+    "brier": 0.34443,
+    "surprisal": 0.65201,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.14071,
+        "log_loss": 0.65201,
+        "brier": 0.34443,
+        "surprisal": 0.65201
+      },
+      "dixon_coles": {
+        "rps": 0.13984,
+        "log_loss": 0.65393,
+        "brier": 0.34625,
+        "surprisal": 0.65393
+      },
+      "elo": {
+        "rps": 0.16385,
+        "log_loss": 0.72155,
+        "brier": 0.39634,
+        "surprisal": 0.72155
+      }
+    }
+  }
+}

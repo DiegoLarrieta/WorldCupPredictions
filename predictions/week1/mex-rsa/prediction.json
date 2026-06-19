@@ -1,0 +1,109 @@
+{
+  "match": "Mexico vs South Africa",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-11",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Mexico": 0.711,
+      "Draw": 0.204,
+      "South Africa": 0.086
+    },
+    "ensemble_uncalibrated": {
+      "Mexico": 0.681,
+      "Draw": 0.219,
+      "South Africa": 0.1
+    },
+    "dixon_coles": {
+      "Mexico": 0.606,
+      "Draw": 0.268,
+      "South Africa": 0.126
+    },
+    "elo": {
+      "Mexico": 0.75,
+      "Draw": 0.174,
+      "South Africa": 0.076
+    }
+  },
+  "elo": {
+    "Mexico": 1986,
+    "South Africa": 1665
+  },
+  "expected_goals": {
+    "Mexico": 1.54,
+    "South Africa": 0.56
+  },
+  "over_under_2_5": {
+    "over": 0.349,
+    "under": 0.651
+  },
+  "btts": 0.343,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.182
+    },
+    {
+      "score": "2-0",
+      "prob": 0.145
+    },
+    {
+      "score": "0-0",
+      "prob": 0.13
+    },
+    {
+      "score": "1-1",
+      "prob": 0.113
+    },
+    {
+      "score": "2-1",
+      "prob": 0.081
+    }
+  ],
+  "lineups": {
+    "Mexico": {
+      "formation": "4-1-2-3",
+      "xi": [
+        "1 Raul Rangel (GK)",
+        "15 Israel Reyes",
+        "3 C. Montes",
+        "5 J. Vasquez",
+        "23 J. Gallardo",
+        "6 Erik Lira",
+        "8 Alvaro Fidalgo",
+        "26 Brian Gutierrez",
+        "25 R. Alvarado",
+        "9 R. Jimenez",
+        "16 Julian Quinones"
+      ]
+    },
+    "South Africa": {
+      "formation": "5-3-2",
+      "xi": [
+        "1 R. Williams (GK)",
+        "6 A. Modiba",
+        "14 Mbekezeli Mbokazi",
+        "19 Nkosinathi Sibisi",
+        "21 Ime Okon",
+        "20 Khuliso Mudau",
+        "4 T. Mokoena",
+        "13 Siphephelo Sithole",
+        "23 Jayden Adams",
+        "15 Iqraam Rayners",
+        "9 Lyle Foster"
+      ]
+    }
+  },
+  "actual_result": {
+    "score": "2-0",
+    "result": "home",
+    "scored_at": "2026-06-18T23:49:32-06:00",
+    "rps": 0.04566,
+    "log_loss": 0.34208,
+    "brier": 0.13285,
+    "surprisal": 0.34208
+  }
+}
