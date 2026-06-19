@@ -133,44 +133,50 @@ def bet_sim(P: np.ndarray, odds: np.ndarray, y: np.ndarray, threshold: float):
             "ci": (float(np.percentile(boot, 2.5)), float(np.percentile(boot, 97.5)))}
 
 
-def main() -> None:
+def compute() -> dict:
+    """Run the full leakage-safe pipeline; return TEST-set probs for every model + market.
+
+    Shared by the edge report and the calibration analysis so the 12s walk-forward runs
+    once. Returns y, odds, per-model probability matrices, the ensemble weight, and vig.
+    """
     df = load()
     df["elo_gap"] = elo_gaps(df)
     test_mask = df["date"] >= SEASON_SPLIT
     train_mask = ~test_mask
 
-    # Elo gap -> W/D/L, fit on TRAIN only (home effect learned by the intercepts)
-    lr = LogisticRegression(max_iter=1000)
+    lr = LogisticRegression(max_iter=1000)   # Elo gap -> W/D/L, fit on TRAIN only
     lr.fit(df.loc[train_mask, ["elo_gap"]].to_numpy() / 100.0, df.loc[train_mask, "y"])
 
     def elo_probs(rows):
         return lr.predict_proba(df.loc[rows, ["elo_gap"]].to_numpy() / 100.0)
 
     DC = dc_probs(df)
-    mkt_shin = market_probs(df, "shin")
-    mkt_mult = market_probs(df, "multiplicative")
+    mkt_shin, mkt_mult = market_probs(df, "shin"), market_probs(df, "multiplicative")
 
-    # ensemble weight w (on DC) fit on TRAIN rows where DC exists
     tr = df.index[train_mask & ~np.isnan(DC[:, 0])]
-    elo_tr = elo_probs(tr)
     yo = df.loc[tr, "y"].to_numpy()
     ws = np.linspace(0, 1, 21)
-    w = ws[np.argmin([log_loss(wv * DC[tr] + (1 - wv) * elo_tr, yo) for wv in ws])]
+    w = ws[np.argmin([log_loss(wv * DC[tr] + (1 - wv) * elo_probs(tr), yo) for wv in ws])]
 
-    # ---- evaluate on TEST (rows where DC exists) ----
     te = df.index[test_mask & ~np.isnan(DC[:, 0])]
-    y = df.loc[te, "y"].to_numpy()
     elo_te = elo_probs(te)
-    ens = w * DC[te] + (1 - w) * elo_te
     odds = df.loc[te, ["o_home", "o_draw", "o_away"]].to_numpy()
+    return {
+        "y": df.loc[te, "y"].to_numpy(), "odds": odds, "w": float(w),
+        "vig": float(np.mean(1 / odds[:, 0] + 1 / odds[:, 1] + 1 / odds[:, 2]) - 1),
+        "models": {"market (Shin)": mkt_shin[te], "market (mult)": mkt_mult[te],
+                   "elo": elo_te, "dixon_coles": DC[te],
+                   "ensemble": w * DC[te] + (1 - w) * elo_te},
+    }
 
-    models = {"market (Shin)": mkt_shin[te], "market (mult)": mkt_mult[te],
-              "elo": elo_te, "dixon_coles": DC[te], "ensemble": ens}
+
+def main() -> None:
+    r = compute()
+    y, odds, w, vig, models = r["y"], r["odds"], r["w"], r["vig"], r["models"]
     sc = {name: scores(P, y) for name, P in models.items()}
-    vig = float(np.mean(1 / odds[:, 0] + 1 / odds[:, 1] + 1 / odds[:, 2]) - 1)
 
     # write + print
-    L = [f"# EPL closing-line edge test — {len(te)} out-of-sample matches (season 2024-25)",
+    L = [f"# EPL closing-line edge test — {len(y)} out-of-sample matches (season 2024-25)",
          "",
          f"_Train: 2023-24. Test: 2024-25. Ensemble weight on DC = {w:.2f}. "
          f"Mean Bet365 overround (vig) = {vig:.1%}. Market de-vigged with Shin._", "",
