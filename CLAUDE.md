@@ -14,17 +14,26 @@ market price, not just a plausible-looking prediction.
 See the approved redirect design doc:
 `~/.gstack/projects/WorldCupPrediction/diego-main-design-20260618-160643.md`.
 
-### Market tracks (priority order)
-1. **1X2** — the only market we currently hold odds for (4,560 rows in
-   `match_odds`). So it is the immediate, zero-dependency proving ground for the
-   beat-the-line harness. Efficient + hard to beat; we grind it mainly to shake
-   down the CLOV machinery and as the headline bet.
-2. **Goals / Over-Under** — provable soon. Free O/U + Asian odds exist on
-   football-data.co.uk (never ingested yet); the Dixon-Coles model already emits a
-   full goal distribution, so O/U probabilities are one transform away.
-3. **Player props (shots on target)** — the real prize, **deferred**. Needs a new
-   opponent-adjusted player-shot model + a prop-odds source (paid/scraped). Don't
-   start until tracks 1-2 prove the harness.
+### EDGE TEST RESULT (2026-06-18) — read this before betting main markets
+We ran the decisive experiment: a club-level Elo+DC trained on EPL 2023-24, tested
+out-of-sample on 2024-25 (363 matches) vs Bet365 **closing** odds
+(`predictions/edge-test/`). **The market out-predicts every model** (log-loss: market
+0.975 < DC 0.979 < ensemble 1.000 < Elo 1.024). No betting strategy has a positive-ROI
+CI above zero. Calibration-vs-market agrees: market ECE 0.019 vs ensemble 0.041, and on
+the subset where we most disagree with the line, **we're the wrong one**.
+**Conclusion: the model does NOT beat a soft closing line, so it will not beat the WC main
+line. Do not treat model-vs-market disagreement on 1X2/O-U as edge.** The opportunity is
+soft markets (props) + being faster to a soft price, not out-modeling the sharp close.
+
+### Market tracks (priority order, post-edge-test)
+1. **Player props (shots on target)** — now the **primary** target. Softer than main
+   markets and where our granular data has a real role. Model built
+   (`engine/props.py`, hierarchical shrinkage). BLOCKER: no free prop-odds source — we
+   have the signal, not prices.
+2. **Goals / Over-Under** — secondary. DC emits a goal distribution; softer than 1X2 but
+   still efficient. Worth comparing live, not assuming edge.
+3. **1X2** — headline bet only. Edge-test says we do NOT beat the close here. Bet it for
+   fun/record, not as if the model has an edge over a sharp line.
 
 ## The validated model
 
@@ -67,6 +76,12 @@ Lineups/club form are stored as **context** for the record + post-match feedback
   `predict.py` config that calls the engine, plus generated `prediction.{json,md}`.
 - `predictions/feature-lab/`, `predictions/ensemble/` — validation harnesses
   (ablation, permutation, bootstrap CI on leakage-free held-out data).
+- `predictions/edge-test/` — **the edge-existence test** (`epl_closing_line.py`,
+  `calibration_vs_market.py`) + its `RESULTS*.md`. The decisive "do we beat the close"
+  experiment. Re-run if the model changes.
+- `engine/props.py` — player shots-on-target prop model (Gamma-Poisson + Beta-Binomial
+  shrinkage). `engine/clov.py` — honest CLOV vs the sharp close. `engine/market.py` —
+  model-vs-market with Shin/power de-vig.
 - `data/csv/` — exported tables, committed to the repo. `.duckdb` is gitignored.
 - `sql/implied_prob.sql` — de-vig harness (proven: 760 club matches, vig 0.055,
   fav hit 0.572).
@@ -102,6 +117,15 @@ Lineups/club form are stored as **context** for the record + post-match feedback
   shots-on-target PROP model + calibration — **not** a 1X2 feature (granular stats were
   CI-disproven for the winner market). ESPN is the source because Sofascore/Fotmob are
   Cloudflare-walled; ESPN gives per-player totalShots + shotsOnTarget free.
+- **Edge-existence test:** `python predictions/edge-test/epl_closing_line.py` then
+  `calibration_vs_market.py` (writes `RESULTS*.md`). Run after any model change to
+  re-check whether we beat a real closing line.
+- **Prop model:** `python scripts/build_prop_model.py` -> `data/csv/derived/player_shot_rates.csv`
+  (shrunk shots/90, on-target rate, P(1+/2+ SoT); filter on `mins`).
+- **CLOV capture (run on a schedule):** `python scripts/snapshot_odds.py` appends timestamped
+  Pinnacle + best prices to `data/csv/derived/odds_snapshots.csv`. The last snapshot before
+  kickoff is the closing line; `engine.clov.grade_bet(...)` scores a bet against the sharp
+  close (Pinnacle), not best-price. Capture now — closing lines can't be recovered later.
 
 ## Gotchas / hard-won facts
 
