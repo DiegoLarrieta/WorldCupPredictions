@@ -112,3 +112,36 @@ def test_compare_handles_over_under_and_btts():
     # model under = 61.5%; at 1.4 that's EV 0.615*1.4-1 = -0.139 -> no value
     under = next(r for r in cmp["markets"]["ou_2.5"]["selections"] if r["selection"] == "under")
     assert under["value"] is False
+
+
+# ---- prop EV ---------------------------------------------------------------
+def test_prop_ev_flags_over_value():
+    from engine.market import prop_ev
+    # model 55% over; offered 2.10 -> EV 0.55*2.10-1 = +0.155 -> value
+    r = prop_ev(0.55, over_price=2.10, under_price=1.75)
+    assert r["best"]["side"] == "over"
+    assert r["best"]["ev_per_unit"] > 0
+    assert r["value"] is True
+
+
+def test_prop_ev_picks_under_when_model_is_low():
+    from engine.market import prop_ev
+    # model 30% over -> 70% under; under at 1.75 -> EV 0.70*1.75-1 = +0.225
+    r = prop_ev(0.30, over_price=2.10, under_price=1.75)
+    assert r["best"]["side"] == "under"
+    assert r["value"] is True
+
+
+def test_prop_ev_handles_one_sided_book():
+    from engine.market import prop_ev
+    r = prop_ev(0.5, over_price=2.0, under_price=None)
+    assert [s["side"] for s in r["sides"]] == ["over"]
+    assert r["sides"][0]["market_prob"] is None      # no de-vig without the pair
+
+
+def test_prop_ev_does_not_flag_one_sided_even_with_huge_ev():
+    from engine.market import prop_ev
+    # one-sided longshot: model 9% at 23.0 -> EV +1.07, but no under to de-vig -> NOT value
+    r = prop_ev(0.09, over_price=23.0, under_price=None)
+    assert r["best"]["ev_per_unit"] > 1.0
+    assert r["value"] is False

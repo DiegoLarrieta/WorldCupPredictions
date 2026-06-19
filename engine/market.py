@@ -110,6 +110,40 @@ def vig_of(odds: dict[str, float]) -> float:
     return sum(1.0 / float(v) for v in odds.values()) - 1.0
 
 
+def prop_ev(model_over_prob: float, over_price: float | None, under_price: float | None = None,
+            *, ev_threshold: float = DEFAULT_EV_THRESHOLD, devig_method: str = DEFAULT_DEVIG) -> dict:
+    """Model vs market for a two-way player prop (over/under a line).
+
+    `model_over_prob` is our P(player exceeds the line) from engine.props. We de-vig the
+    over/under pair (Shin) for the market's fair view, then take EV on each side at the
+    offered price. Returns the best side and whether it clears the threshold. Either price
+    may be missing (one-sided book) — de-vig is skipped then and EV uses the raw price.
+    """
+    p_over = float(model_over_prob)
+    p_under = 1.0 - p_over
+    market = None
+    if over_price and under_price:
+        market = devig({"over": over_price, "under": under_price}, devig_method)
+    sides = []
+    if over_price:
+        sides.append({"side": "over", "price": float(over_price), "model_prob": round(p_over, 3),
+                      "market_prob": round(market["over"], 3) if market else None,
+                      "edge": round(p_over - market["over"], 3) if market else None,
+                      "ev_per_unit": round(_ev(p_over, over_price), 3)})
+    if under_price:
+        sides.append({"side": "under", "price": float(under_price), "model_prob": round(p_under, 3),
+                      "market_prob": round(market["under"], 3) if market else None,
+                      "edge": round(p_under - market["under"], 3) if market else None,
+                      "ev_per_unit": round(_ev(p_under, under_price), 3)})
+    best = max(sides, key=lambda s: s["ev_per_unit"]) if sides else None
+    # Only flag value when we have a two-sided line to de-vig against. A one-sided book
+    # price (market_prob is None) can't be sanity-checked, so a big EV there is almost
+    # always model error, not edge — show it, never flag it.
+    return {"sides": sides, "best": best,
+            "value": bool(best and best["ev_per_unit"] >= ev_threshold
+                          and best["market_prob"] is not None)}
+
+
 def _ev(model_prob: float, decimal_odds: float) -> float:
     """Expected value per 1u stake at the OFFERED (vigged) price: p*d - 1.
 

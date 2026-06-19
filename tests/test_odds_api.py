@@ -95,3 +95,39 @@ def test_parse_score_incomplete_game_has_no_goals():
     live = {"home_team": "A", "away_team": "B", "completed": False,
             "scores": [{"name": "A", "score": "1"}, {"name": "B", "score": "0"}]}
     assert parse_score(live, "A", "B") == {"completed": False, "home_goals": None, "away_goals": None}
+
+
+# ---- player props ----------------------------------------------------------
+PROP_EVENT = {
+    "home_team": "USA", "away_team": "Australia",
+    "bookmakers": [
+        {"key": "fanduel", "title": "FanDuel", "markets": [
+            {"key": "player_shots_on_target", "outcomes": [
+                {"description": "Folarin Balogun", "name": "Over", "price": 2.10, "point": 1.5},
+                {"description": "Folarin Balogun", "name": "Under", "price": 1.75, "point": 1.5},
+                {"description": "Christian Pulisic", "name": "Over", "price": 2.50, "point": 1.5},
+                {"description": "Christian Pulisic", "name": "Under", "price": 1.55, "point": 1.5}]}]},
+        {"key": "draftkings", "title": "DraftKings", "markets": [
+            {"key": "player_shots_on_target", "outcomes": [
+                {"description": "Folarin Balogun", "name": "Over", "price": 2.25, "point": 1.5},
+                {"description": "Folarin Balogun", "name": "Under", "price": 1.70, "point": 1.5}]}]},
+    ],
+}
+
+
+def test_parse_player_props_best_price_per_side():
+    from engine.odds_api import parse_player_props
+    rows = parse_player_props(PROP_EVENT, "player_shots_on_target", book="best")
+    bal = next(r for r in rows if r["player"] == "Folarin Balogun")
+    assert bal["line"] == 1.5
+    assert bal["over_price"] == 2.25      # best over = DraftKings 2.25
+    assert bal["under_price"] == 1.75     # best under = FanDuel 1.75
+    # Pulisic only on one book -> still present
+    assert any(r["player"] == "Christian Pulisic" for r in rows)
+
+
+def test_parse_player_props_named_book():
+    from engine.odds_api import parse_player_props
+    rows = parse_player_props(PROP_EVENT, "player_shots_on_target", book="fanduel")
+    bal = next(r for r in rows if r["player"] == "Folarin Balogun")
+    assert bal["over_price"] == 2.10      # FanDuel only
