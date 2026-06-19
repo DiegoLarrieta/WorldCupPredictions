@@ -27,9 +27,12 @@ soft markets (props) + being faster to a soft price, not out-modeling the sharp 
 
 ### Market tracks (priority order, post-edge-test)
 1. **Player props (shots on target)** — now the **primary** target. Softer than main
-   markets and where our granular data has a real role. Model built
-   (`engine/props.py`, hierarchical shrinkage). BLOCKER: no free prop-odds source — we
-   have the signal, not prices.
+   markets and where our granular data has a real role. **Full loop built**: model
+   (`engine/props.py`) + prop odds (`engine.odds_api.fetch_player_props`, The Odds API US
+   books) + EV (`engine.market.prop_ev`) + `scripts/prop_bets.py` (`/prop-bets`). Caveat:
+   US books quote SoT props **over-only** (one-sided), which can't be de-vigged — those
+   are shown but never flagged as value (a big EV on an un-de-viggable longshot is model
+   error). Genuine flags need a two-sided line; still unvalidated, so log + grade via CLOV.
 2. **Goals / Over-Under** — secondary. DC emits a goal distribution; softer than 1X2 but
    still efficient. Worth comparing live, not assuming edge.
 3. **1X2** — headline bet only. Edge-test says we do NOT beat the close here. Bet it for
@@ -151,6 +154,7 @@ When in doubt, invoke the skill.
 Project skills (in `.claude/skills/`):
 - New fixture prediction → invoke **/predict-match**
 - Odds / edge / value bet for a fixture → invoke **/compare-market**
+- Player shots-on-target prop bets → invoke **/prop-bets**
 - Record / settle a bet, or betting performance (ROI, CLOV) → invoke **/log-bet**
 
 gstack routing:

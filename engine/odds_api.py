@@ -45,6 +45,26 @@ def _norm(name: str) -> str:
     return unidecode(str(name)).strip().lower()
 
 
+# Team names that differ across sources (our warehouse / martj42 vs The Odds API).
+# Each group maps to one canonical token so 'United States' (ours) == 'USA' (API).
+_ALIAS_GROUPS = [
+    {"united states", "usa"},
+    {"south korea", "korea republic"},
+    {"ivory coast", "cote d'ivoire"},
+    {"dr congo", "congo dr"},
+    {"czechia", "czech republic"},
+]
+
+
+def _canon(name: str) -> str:
+    """Canonical key for a team name, collapsing known cross-source aliases."""
+    n = _norm(name)
+    for g in _ALIAS_GROUPS:
+        if n in g:
+            return min(g)
+    return n
+
+
 # ---- network (the only impure part) ---------------------------------------
 def fetch_events(api_key: str | None = None, *, sport: str = DEFAULT_SPORT,
                  regions: str = DEFAULT_REGIONS, markets: str = "h2h,totals",
@@ -72,9 +92,9 @@ def fetch_events(api_key: str | None = None, *, sport: str = DEFAULT_SPORT,
 # ---- parsing (pure, CI-safe) ----------------------------------------------
 def find_event(events: list[dict], home: str, away: str) -> dict:
     """Find the event for our two teams (order-independent, accent-insensitive)."""
-    want = {_norm(home), _norm(away)}
+    want = {_canon(home), _canon(away)}
     for ev in events:
-        if {_norm(ev.get("home_team", "")), _norm(ev.get("away_team", ""))} == want:
+        if {_canon(ev.get("home_team", "")), _canon(ev.get("away_team", ""))} == want:
             return ev
     raise OddsAPIError(f"No upcoming event for {home} vs {away} (not listed / wrong sport key).")
 
@@ -143,6 +163,84 @@ def _matches_point(point, target: float) -> bool:
         return abs(float(point) - float(target)) < 1e-6
     except (TypeError, ValueError):
         return False
+
+
+# ---- player props ---------------------------------------------------------
+DEFAULT_PROP_MARKET = "player_shots_on_target"
+
+
+def fetch_event_list(api_key: str | None = None, *, sport: str = DEFAULT_SPORT,
+                     timeout: int = 30) -> list[dict]:
+    """Upcoming fixtures (id, teams, kickoff) — the /events endpoint, costs 0 credits."""
+    api_key = api_key or os.environ.get("ODDS_API_KEY")
+    if not api_key:
+        raise OddsAPIError("No API key. Set ODDS_API_KEY or pass api_key=...")
+    url = f"{ODDS_API_BASE}/sports/{sport}/events?apiKey={api_key}&dateFormat=iso"
+    req = urllib.request.Request(url, headers={"User-Agent": "worldcup-predictor"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        raise OddsAPIError(f"Odds API HTTP {e.code}: {e.read().decode(errors='replace')[:300]}") from e
+    except urllib.error.URLError as e:
+        raise OddsAPIError(f"Odds API unreachable: {e.reason}") from e
+
+
+def fetch_event_odds(event_id: str, *, markets: str, regions: str = "us",
+                     api_key: str | None = None, sport: str = DEFAULT_SPORT,
+                     timeout: int = 30) -> dict:
+    """Per-event odds (the endpoint player props live on). Costs ~1 credit per market."""
+    api_key = api_key or os.environ.get("ODDS_API_KEY")
+    if not api_key:
+        raise OddsAPIError("No API key. Set ODDS_API_KEY or pass api_key=...")
+    q = urllib.parse.urlencode({"apiKey": api_key, "regions": regions, "markets": markets,
+                                "oddsFormat": "decimal", "dateFormat": "iso"})
+    url = f"{ODDS_API_BASE}/sports/{sport}/events/{event_id}/odds?{q}"
+    req = urllib.request.Request(url, headers={"User-Agent": "worldcup-predictor"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        raise OddsAPIError(f"Odds API HTTP {e.code}: {e.read().decode(errors='replace')[:300]}") from e
+    except urllib.error.URLError as e:
+        raise OddsAPIError(f"Odds API unreachable: {e.reason}") from e
+
+
+def parse_player_props(event: dict, market: str = DEFAULT_PROP_MARKET, book: str = "best") -> list[dict]:
+    """Per-event player-prop odds -> one row per (player, line): best over/under price.
+
+    book='best' takes the best (highest) price per side across books — the price a value
+    bettor would actually take. Pass a book key (e.g. 'fanduel') for a single book.
+    """
+    agg: dict[tuple, dict] = {}
+    for bk in event.get("bookmakers", []):
+        if book != "best" and not (bk.get("key") == book or _norm(bk.get("title", "")) == _norm(book)):
+            continue
+        for mk in bk.get("markets", []):
+            if mk.get("key") != market:
+                continue
+            for o in mk.get("outcomes", []):
+                player, side, point = o.get("description"), str(o.get("name", "")).lower(), o.get("point")
+                if player is None or side not in ("over", "under"):
+                    continue
+                key = (player, point)
+                agg.setdefault(key, {"over": [], "under": []})[side].append(float(o["price"]))
+    rows = []
+    for (player, point), d in agg.items():
+        rows.append({"player": player, "line": point,
+                     "over_price": max(d["over"]) if d["over"] else None,
+                     "under_price": max(d["under"]) if d["under"] else None})
+    rows.sort(key=lambda r: r["player"] or "")
+    return rows
+
+
+def fetch_player_props(home: str, away: str, *, market: str = DEFAULT_PROP_MARKET,
+                       book: str = "best", regions: str = "us", api_key: str | None = None,
+                       sport: str = DEFAULT_SPORT) -> list[dict]:
+    """One call: find the fixture's event id, fetch its prop odds, return parsed rows."""
+    eid = find_event(fetch_event_list(api_key, sport=sport), home, away)["id"]
+    ev = fetch_event_odds(eid, markets=market, regions=regions, api_key=api_key, sport=sport)
+    return parse_player_props(ev, market, book)
 
 
 # ---- scores / results -----------------------------------------------------
