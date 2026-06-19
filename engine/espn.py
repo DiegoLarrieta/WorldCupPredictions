@@ -102,8 +102,64 @@ def parse_team_stats(summary: dict, home: str, away: str) -> dict:
     return out
 
 
+def team_for_against(summary: dict, home: str, away: str) -> dict:
+    """Per-side stats with FOR and AGAINST (against = the opponent's). The 'against'
+    columns are the opponent-defense signal the prop model needs (a team that concedes
+    many shots-on-target lifts the opposing players' prop probabilities)."""
+    t = parse_team_stats(summary, home, away)
+    h, a = t["home"], t["away"]
+    def row(mine, opp):
+        return {"possession": mine.get("possession"),
+                "shots_for": mine.get("shots"), "sot_for": mine.get("shots_on_target"),
+                "shots_against": opp.get("shots"), "sot_against": opp.get("shots_on_target"),
+                "corners": mine.get("corners"), "fouls": mine.get("fouls"),
+                "yellow_cards": mine.get("yellow_cards"), "red_cards": mine.get("red_cards")}
+    return {"home": row(h, a), "away": row(a, h)}
+
+
+MATCH_MINUTES = 90.0   # regulation baseline for per-90 normalisation (stoppage ignored)
+
+
+def player_minutes(summary: dict) -> dict[str, float]:
+    """Minutes played per athlete id, derived from starter/sub flags + substitution clocks.
+
+    starter & not subbed off -> 90; starter subbed off -> off-minute; came on -> 90 - on-minute;
+    unused -> 0. Lets shot rates be per-90 and catches rotation (the dominant prop input).
+    """
+    sub_min: dict[str, float] = {}
+    for e in summary.get("keyEvents", []):
+        if (e.get("type") or {}).get("type") != "substitution":
+            continue
+        clk = (e.get("clock") or {}).get("value")
+        minute = (float(clk) / 60.0) if clk not in (None, "") else None
+        if minute is None:
+            continue
+        for part in e.get("participants", []):
+            aid = (part.get("athlete") or {}).get("id")
+            if aid:
+                sub_min[aid] = minute
+    out: dict[str, float] = {}
+    for team in summary.get("rosters", []):
+        for p in (team.get("roster") or []):
+            aid = (p.get("athlete") or {}).get("id")
+            if not aid:
+                continue
+            starter, sin, sout = bool(p.get("starter")), bool(p.get("subbedIn")), bool(p.get("subbedOut"))
+            m = sub_min.get(aid)
+            if starter and not sout:
+                out[aid] = MATCH_MINUTES
+            elif starter and sout:
+                out[aid] = min(m, MATCH_MINUTES) if m is not None else MATCH_MINUTES
+            elif sin:
+                out[aid] = max(MATCH_MINUTES - m, 0.0) if m is not None else 30.0
+            else:
+                out[aid] = 0.0
+    return out
+
+
 def parse_player_shots(summary: dict, home: str, away: str) -> list[dict]:
-    """Per-player shots / shots-on-target / goals / assists, only players who shot."""
+    """Per-player shots / SoT / goals / assists / minutes (+ per-90), only players who shot."""
+    mins = player_minutes(summary)
     rows = []
     for team in summary.get("rosters", []):
         name = (team.get("team") or {}).get("displayName", "")
@@ -116,12 +172,17 @@ def parse_player_shots(summary: dict, home: str, away: str) -> list[dict]:
             sot = _num(d.get("shotsOnTarget"))
             if not shots and not sot:
                 continue
+            aid = (p.get("athlete") or {}).get("id")
+            played = mins.get(aid, MATCH_MINUTES) or 0.0
+            scale = (MATCH_MINUTES / played) if played else None
             rows.append({
                 "player": (p.get("athlete") or {}).get("displayName"),
                 "side": side, "team": name,
                 "shots": shots, "on_target": sot,
                 "goals": _num(d.get("totalGoals")), "assists": _num(d.get("goalAssists")),
-                "starter": bool(p.get("starter")),
+                "minutes": round(played, 1), "starter": bool(p.get("starter")),
+                "shots_p90": round((shots or 0) * scale, 2) if scale else None,
+                "sot_p90": round((sot or 0) * scale, 2) if scale else None,
             })
     rows.sort(key=lambda r: (-(r["shots"] or 0), -(r["on_target"] or 0)))
     return rows

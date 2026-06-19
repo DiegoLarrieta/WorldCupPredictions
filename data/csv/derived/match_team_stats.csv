@@ -1,0 +1,57 @@
+date,match,team,opponent,side,possession,shots_for,sot_for,shots_against,sot_against,corners,fouls,yellow_cards,red_cards
+2026-06-11,Mexico vs South Africa,Mexico,South Africa,home,60.5,16,4,3,2,3,12,1,1
+2026-06-11,Mexico vs South Africa,South Africa,Mexico,away,39.5,3,2,16,4,1,11,2,2
+2026-06-11,South Korea vs Czechia,South Korea,Czechia,home,61.5,15,6,7,4,4,9,1,0
+2026-06-11,South Korea vs Czechia,Czechia,South Korea,away,38.5,7,4,15,6,5,16,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,Bosnia-Herzegovina,home,61.1,13,4,8,3,9,10,2,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,Canada,away,38.9,8,3,13,4,4,20,3,0
+2026-06-12,United States vs Paraguay,United States,Paraguay,home,65.3,16,6,9,1,3,13,1,0
+2026-06-12,United States vs Paraguay,Paraguay,United States,away,34.7,9,1,16,6,1,17,5,0
+2026-06-13,Qatar vs Switzerland,Qatar,Switzerland,home,32,6,3,26,7,3,12,2,0
+2026-06-13,Qatar vs Switzerland,Switzerland,Qatar,away,68,26,7,6,3,10,11,1,0
+2026-06-13,Brazil vs Morocco,Brazil,Morocco,home,51.4,12,5,14,3,6,16,2,0
+2026-06-13,Brazil vs Morocco,Morocco,Brazil,away,48.6,14,3,12,5,2,14,0,0
+2026-06-13,Haiti vs Scotland,Haiti,Scotland,home,53.7,15,2,9,2,4,23,1,0
+2026-06-13,Haiti vs Scotland,Scotland,Haiti,away,46.3,9,2,15,2,3,21,3,0
+2026-06-14,Australia vs Türkiye,Australia,Türkiye,home,28.4,9,4,30,8,5,12,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,Australia,away,71.6,30,8,9,4,8,4,1,0
+2026-06-14,Germany vs Curaçao,Germany,Curaçao,home,64.6,26,12,8,2,8,18,0,0
+2026-06-14,Germany vs Curaçao,Curaçao,Germany,away,35.4,8,2,26,12,1,11,0,0
+2026-06-14,Netherlands vs Japan,Netherlands,Japan,home,59.8,10,6,10,3,5,7,3,0
+2026-06-14,Netherlands vs Japan,Japan,Netherlands,away,40.2,10,3,10,6,4,7,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,Ecuador,home,48.4,15,4,12,1,3,10,3,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,Ivory Coast,away,51.6,12,1,15,4,6,13,1,0
+2026-06-14,Sweden vs Tunisia,Sweden,Tunisia,home,48.7,13,7,6,2,4,10,0,0
+2026-06-14,Sweden vs Tunisia,Tunisia,Sweden,away,51.3,6,2,13,7,2,8,1,0
+2026-06-15,Spain vs Cape Verde,Spain,Cape Verde,home,74.3,27,7,6,1,11,10,1,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,Spain,away,25.7,6,1,27,7,1,1,1,0
+2026-06-15,Belgium vs Egypt,Belgium,Egypt,home,53.6,15,3,14,3,2,15,2,0
+2026-06-15,Belgium vs Egypt,Egypt,Belgium,away,46.4,14,3,15,3,7,15,2,0
+2026-06-15,Saudi Arabia vs Uruguay,Saudi Arabia,Uruguay,home,33.2,7,3,27,10,4,11,1,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,Saudi Arabia,away,66.8,27,10,7,3,14,6,0,0
+2026-06-15,Iran vs New Zealand,Iran,New Zealand,home,48.5,17,4,14,8,4,10,1,0
+2026-06-15,Iran vs New Zealand,New Zealand,Iran,away,51.5,14,8,17,4,1,8,0,0
+2026-06-16,France vs Senegal,France,Senegal,home,53.4,11,8,6,2,6,5,0,0
+2026-06-16,France vs Senegal,Senegal,France,away,46.6,6,2,11,8,4,9,0,0
+2026-06-16,Iraq vs Norway,Iraq,Norway,home,38.7,11,1,12,5,2,12,1,0
+2026-06-16,Iraq vs Norway,Norway,Iraq,away,61.3,12,5,11,1,5,13,0,0
+2026-06-16,Argentina vs Algeria,Argentina,Algeria,home,47.8,10,6,7,1,2,13,0,0
+2026-06-16,Argentina vs Algeria,Algeria,Argentina,away,52.2,7,1,10,6,2,8,0,0
+2026-06-17,Austria vs Jordan,Austria,Jordan,home,63.2,11,4,11,4,4,12,1,0
+2026-06-17,Austria vs Jordan,Jordan,Austria,away,36.8,11,4,11,4,3,7,0,0
+2026-06-17,Portugal vs Congo DR,Portugal,Congo DR,home,75.4,7,1,8,2,5,9,3,0
+2026-06-17,Portugal vs Congo DR,Congo DR,Portugal,away,24.6,8,2,7,1,4,10,1,0
+2026-06-17,England vs Croatia,England,Croatia,home,51.7,22,11,10,5,8,10,0,0
+2026-06-17,England vs Croatia,Croatia,England,away,48.3,10,5,22,11,2,12,0,0
+2026-06-17,Ghana vs Panama,Ghana,Panama,home,38,7,2,11,4,2,9,1,0
+2026-06-17,Ghana vs Panama,Panama,Ghana,away,62,11,4,7,2,2,11,2,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,Colombia,home,38.6,8,2,15,4,3,14,1,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,Uzbekistan,away,61.4,15,4,8,2,4,11,1,0
+2026-06-18,Czechia vs South Africa,Czechia,South Africa,home,38.3,14,3,17,4,5,12,1,0
+2026-06-18,Czechia vs South Africa,South Africa,Czechia,away,61.7,17,4,14,3,5,10,2,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,Bosnia-Herzegovina,home,62.3,13,7,5,3,7,7,1,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Bosnia-Herzegovina,Switzerland,away,37.7,5,3,13,7,3,18,2,1
+2026-06-18,Canada vs Qatar,Canada,Qatar,home,79,32,10,2,0,19,9,1,0
+2026-06-18,Canada vs Qatar,Qatar,Canada,away,21,2,0,32,10,1,10,1,2
+2026-06-18,Mexico vs South Korea,Mexico,South Korea,home,42.4,8,4,9,2,1,9,0,0
+2026-06-18,Mexico vs South Korea,South Korea,Mexico,away,57.6,9,2,8,4,2,7,2,0

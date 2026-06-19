@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import pytest
 
-from engine.espn import (ESPNError, find_event_id, parse_player_shots, parse_team_stats)
+from engine.espn import (ESPNError, find_event_id, parse_player_shots, parse_team_stats,
+                         player_minutes, team_for_against)
 
 
 SCOREBOARD = {"events": [
@@ -28,17 +29,25 @@ SUMMARY = {
     ]},
     "rosters": [
         {"team": {"displayName": "England"}, "roster": [
-            {"athlete": {"displayName": "Harry Kane"}, "starter": True, "stats": [
+            {"athlete": {"id": "1", "displayName": "Harry Kane"}, "starter": True,
+             "subbedOut": True, "stats": [
                 {"name": "totalShots", "displayValue": "7"},
                 {"name": "shotsOnTarget", "displayValue": "3"},
                 {"name": "totalGoals", "displayValue": "2"}]},
-            {"athlete": {"displayName": "Jordan Pickford"}, "starter": True, "stats": [
-                {"name": "totalShots", "displayValue": "0"},
-                {"name": "saves", "displayValue": "3"}]}]},
+            {"athlete": {"id": "2", "displayName": "Jordan Pickford"}, "starter": True,
+             "stats": [{"name": "totalShots", "displayValue": "0"},
+                       {"name": "saves", "displayValue": "3"}]},
+            {"athlete": {"id": "3", "displayName": "Marcus Rashford"}, "starter": False,
+             "subbedIn": True, "stats": [{"name": "totalShots", "displayValue": "2"},
+                                         {"name": "shotsOnTarget", "displayValue": "1"}]}]},
         {"team": {"displayName": "Croatia"}, "roster": [
-            {"athlete": {"displayName": "Petar Musa"}, "starter": True, "stats": [
+            {"athlete": {"id": "4", "displayName": "Petar Musa"}, "starter": True, "stats": [
                 {"name": "totalShots", "displayValue": "1"},
                 {"name": "shotsOnTarget", "displayValue": "1"}]}]},
+    ],
+    "keyEvents": [
+        {"type": {"type": "substitution"}, "clock": {"value": 4320.0},   # 72'
+         "participants": [{"athlete": {"id": "1"}}, {"athlete": {"id": "3"}}]},
     ],
 }
 
@@ -74,3 +83,28 @@ def test_player_shots_only_shooters_sorted_desc():
 def test_team_stats_name_mismatch_raises():
     with pytest.raises(ESPNError):
         parse_team_stats(SUMMARY, "Spain", "Croatia")
+
+
+def test_player_minutes_from_starter_and_sub_clock():
+    m = player_minutes(SUMMARY)
+    assert m["1"] == 72.0      # Kane started, subbed off at 72'
+    assert m["2"] == 90.0      # Pickford played the whole match
+    assert m["3"] == 18.0      # Rashford came on at 72' -> 90-72
+    assert m["4"] == 90.0      # Musa full match
+
+
+def test_player_shots_includes_minutes_and_per90():
+    ps = parse_player_shots(SUMMARY, "England", "Croatia")
+    kane = next(p for p in ps if p["player"] == "Harry Kane")
+    assert kane["minutes"] == 72.0
+    assert kane["shots_p90"] == pytest.approx(7 * 90 / 72, abs=0.01)   # rate scaled up
+    rashford = next(p for p in ps if p["player"] == "Marcus Rashford")
+    assert rashford["minutes"] == 18.0
+    assert rashford["shots_p90"] == pytest.approx(2 * 90 / 18, abs=0.01)  # 2 in 18' -> high rate
+
+
+def test_team_for_against():
+    fa = team_for_against(SUMMARY, "England", "Croatia")
+    assert fa["home"]["shots_for"] == 22 and fa["home"]["shots_against"] == 9
+    assert fa["home"]["sot_for"] == 11 and fa["home"]["sot_against"] == 4
+    assert fa["away"]["shots_for"] == 9 and fa["away"]["shots_against"] == 22
