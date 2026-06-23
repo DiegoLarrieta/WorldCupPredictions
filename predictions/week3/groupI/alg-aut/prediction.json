@@ -1,0 +1,68 @@
+{
+  "match": "Algeria vs Austria",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-27",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Algeria": 0.353,
+      "Draw": 0.283,
+      "Austria": 0.365
+    },
+    "ensemble_uncalibrated": {
+      "Algeria": 0.351,
+      "Draw": 0.287,
+      "Austria": 0.362
+    },
+    "dixon_coles": {
+      "Algeria": 0.366,
+      "Draw": 0.301,
+      "Austria": 0.333
+    },
+    "elo": {
+      "Algeria": 0.337,
+      "Draw": 0.274,
+      "Austria": 0.388
+    }
+  },
+  "elo": {
+    "Algeria": 1870,
+    "Austria": 1917
+  },
+  "expected_goals": {
+    "Algeria": 1.18,
+    "Austria": 1.12
+  },
+  "over_under_2_5": {
+    "over": 0.405,
+    "under": 0.595
+  },
+  "btts": 0.476,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.141
+    },
+    {
+      "score": "1-0",
+      "prob": 0.109
+    },
+    {
+      "score": "0-0",
+      "prob": 0.109
+    },
+    {
+      "score": "0-1",
+      "prob": 0.103
+    },
+    {
+      "score": "2-1",
+      "prob": 0.078
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

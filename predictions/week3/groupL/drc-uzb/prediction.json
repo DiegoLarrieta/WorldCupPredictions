@@ -1,0 +1,68 @@
+{
+  "match": "DR Congo vs Uzbekistan",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-27",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "DR Congo": 0.338,
+      "Draw": 0.327,
+      "Uzbekistan": 0.334
+    },
+    "ensemble_uncalibrated": {
+      "DR Congo": 0.338,
+      "Draw": 0.328,
+      "Uzbekistan": 0.334
+    },
+    "dixon_coles": {
+      "DR Congo": 0.3,
+      "Draw": 0.386,
+      "Uzbekistan": 0.314
+    },
+    "elo": {
+      "DR Congo": 0.373,
+      "Draw": 0.274,
+      "Uzbekistan": 0.353
+    }
+  },
+  "elo": {
+    "DR Congo": 1785,
+    "Uzbekistan": 1803
+  },
+  "expected_goals": {
+    "DR Congo": 0.73,
+    "Uzbekistan": 0.76
+  },
+  "over_under_2_5": {
+    "over": 0.188,
+    "under": 0.812
+  },
+  "btts": 0.284,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.234
+    },
+    {
+      "score": "0-1",
+      "prob": 0.162
+    },
+    {
+      "score": "1-0",
+      "prob": 0.157
+    },
+    {
+      "score": "1-1",
+      "prob": 0.133
+    },
+    {
+      "score": "0-2",
+      "prob": 0.064
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

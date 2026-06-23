@@ -1,0 +1,68 @@
+{
+  "match": "Curaçao vs Ivory Coast",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-25",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Curaçao": 0.099,
+      "Draw": 0.198,
+      "Ivory Coast": 0.704
+    },
+    "ensemble_uncalibrated": {
+      "Curaçao": 0.114,
+      "Draw": 0.213,
+      "Ivory Coast": 0.674
+    },
+    "dixon_coles": {
+      "Curaçao": 0.091,
+      "Draw": 0.198,
+      "Ivory Coast": 0.71
+    },
+    "elo": {
+      "Curaçao": 0.134,
+      "Draw": 0.227,
+      "Ivory Coast": 0.639
+    }
+  },
+  "elo": {
+    "Curaçao": 1599,
+    "Ivory Coast": 1863
+  },
+  "expected_goals": {
+    "Curaçao": 0.6,
+    "Ivory Coast": 2.05
+  },
+  "over_under_2_5": {
+    "over": 0.493,
+    "under": 0.507
+  },
+  "btts": 0.396,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.149
+    },
+    {
+      "score": "0-1",
+      "prob": 0.14
+    },
+    {
+      "score": "0-3",
+      "prob": 0.102
+    },
+    {
+      "score": "1-1",
+      "prob": 0.092
+    },
+    {
+      "score": "1-2",
+      "prob": 0.089
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

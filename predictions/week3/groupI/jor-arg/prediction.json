@@ -1,0 +1,68 @@
+{
+  "match": "Jordan vs Argentina",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-27",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Jordan": 0.029,
+      "Draw": 0.114,
+      "Argentina": 0.857
+    },
+    "ensemble_uncalibrated": {
+      "Jordan": 0.039,
+      "Draw": 0.133,
+      "Argentina": 0.828
+    },
+    "dixon_coles": {
+      "Jordan": 0.032,
+      "Draw": 0.113,
+      "Argentina": 0.856
+    },
+    "elo": {
+      "Jordan": 0.046,
+      "Draw": 0.151,
+      "Argentina": 0.803
+    }
+  },
+  "elo": {
+    "Jordan": 1745,
+    "Argentina": 2207
+  },
+  "expected_goals": {
+    "Jordan": 0.41,
+    "Argentina": 2.74
+  },
+  "over_under_2_5": {
+    "over": 0.609,
+    "under": 0.391
+  },
+  "btts": 0.316,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.161
+    },
+    {
+      "score": "0-3",
+      "prob": 0.147
+    },
+    {
+      "score": "0-1",
+      "prob": 0.115
+    },
+    {
+      "score": "0-4",
+      "prob": 0.101
+    },
+    {
+      "score": "1-2",
+      "prob": 0.066
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

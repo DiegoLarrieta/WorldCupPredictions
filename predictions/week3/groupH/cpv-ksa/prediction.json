@@ -1,0 +1,68 @@
+{
+  "match": "Cape Verde vs Saudi Arabia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-26",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Cape Verde": 0.32,
+      "Draw": 0.306,
+      "Saudi Arabia": 0.375
+    },
+    "ensemble_uncalibrated": {
+      "Cape Verde": 0.321,
+      "Draw": 0.308,
+      "Saudi Arabia": 0.371
+    },
+    "dixon_coles": {
+      "Cape Verde": 0.285,
+      "Draw": 0.345,
+      "Saudi Arabia": 0.371
+    },
+    "elo": {
+      "Cape Verde": 0.355,
+      "Draw": 0.274,
+      "Saudi Arabia": 0.371
+    }
+  },
+  "elo": {
+    "Cape Verde": 1682,
+    "Saudi Arabia": 1715
+  },
+  "expected_goals": {
+    "Cape Verde": 0.81,
+    "Saudi Arabia": 0.97
+  },
+  "over_under_2_5": {
+    "over": 0.265,
+    "under": 0.735
+  },
+  "btts": 0.354,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.176
+    },
+    {
+      "score": "0-1",
+      "prob": 0.155
+    },
+    {
+      "score": "1-1",
+      "prob": 0.14
+    },
+    {
+      "score": "1-0",
+      "prob": 0.129
+    },
+    {
+      "score": "0-2",
+      "prob": 0.079
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

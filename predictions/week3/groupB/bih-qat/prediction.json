@@ -1,0 +1,68 @@
+{
+  "match": "Bosnia and Herzegovina vs Qatar",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-24",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Bosnia and Herzegovina": 0.466,
+      "Draw": 0.27,
+      "Qatar": 0.264
+    },
+    "ensemble_uncalibrated": {
+      "Bosnia and Herzegovina": 0.453,
+      "Draw": 0.277,
+      "Qatar": 0.27
+    },
+    "dixon_coles": {
+      "Bosnia and Herzegovina": 0.41,
+      "Draw": 0.294,
+      "Qatar": 0.297
+    },
+    "elo": {
+      "Bosnia and Herzegovina": 0.493,
+      "Draw": 0.261,
+      "Qatar": 0.246
+    }
+  },
+  "elo": {
+    "Bosnia and Herzegovina": 1693,
+    "Qatar": 1613
+  },
+  "expected_goals": {
+    "Bosnia and Herzegovina": 1.29,
+    "Qatar": 1.06
+  },
+  "over_under_2_5": {
+    "over": 0.415,
+    "under": 0.585
+  },
+  "btts": 0.48,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.138
+    },
+    {
+      "score": "1-0",
+      "prob": 0.116
+    },
+    {
+      "score": "0-0",
+      "prob": 0.104
+    },
+    {
+      "score": "0-1",
+      "prob": 0.094
+    },
+    {
+      "score": "2-1",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

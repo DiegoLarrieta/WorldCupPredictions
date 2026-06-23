@@ -1,0 +1,68 @@
+{
+  "match": "Canada vs Switzerland",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-24",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Canada": 0.331,
+      "Draw": 0.286,
+      "Switzerland": 0.383
+    },
+    "ensemble_uncalibrated": {
+      "Canada": 0.332,
+      "Draw": 0.29,
+      "Switzerland": 0.378
+    },
+    "dixon_coles": {
+      "Canada": 0.318,
+      "Draw": 0.307,
+      "Switzerland": 0.375
+    },
+    "elo": {
+      "Canada": 0.344,
+      "Draw": 0.274,
+      "Switzerland": 0.381
+    }
+  },
+  "elo": {
+    "Canada": 1865,
+    "Switzerland": 1906
+  },
+  "expected_goals": {
+    "Canada": 1.04,
+    "Switzerland": 1.15
+  },
+  "over_under_2_5": {
+    "over": 0.376,
+    "under": 0.624
+  },
+  "btts": 0.45,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.142
+    },
+    {
+      "score": "0-1",
+      "prob": 0.121
+    },
+    {
+      "score": "0-0",
+      "prob": 0.119
+    },
+    {
+      "score": "1-0",
+      "prob": 0.108
+    },
+    {
+      "score": "1-2",
+      "prob": 0.077
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

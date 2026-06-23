@@ -1,0 +1,68 @@
+{
+  "match": "Japan vs Sweden",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-25",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Japan": 0.641,
+      "Draw": 0.212,
+      "Sweden": 0.147
+    },
+    "ensemble_uncalibrated": {
+      "Japan": 0.614,
+      "Draw": 0.225,
+      "Sweden": 0.161
+    },
+    "dixon_coles": {
+      "Japan": 0.629,
+      "Draw": 0.215,
+      "Sweden": 0.156
+    },
+    "elo": {
+      "Japan": 0.6,
+      "Draw": 0.234,
+      "Sweden": 0.166
+    }
+  },
+  "elo": {
+    "Japan": 1996,
+    "Sweden": 1827
+  },
+  "expected_goals": {
+    "Japan": 2.06,
+    "Sweden": 0.93
+  },
+  "over_under_2_5": {
+    "over": 0.575,
+    "under": 0.425
+  },
+  "btts": 0.534,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.107
+    },
+    {
+      "score": "1-1",
+      "prob": 0.102
+    },
+    {
+      "score": "2-1",
+      "prob": 0.099
+    },
+    {
+      "score": "1-0",
+      "prob": 0.098
+    },
+    {
+      "score": "3-0",
+      "prob": 0.073
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Norway vs France",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-26",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Norway": 0.259,
+      "Draw": 0.252,
+      "France": 0.489
+    },
+    "ensemble_uncalibrated": {
+      "Norway": 0.267,
+      "Draw": 0.26,
+      "France": 0.474
+    },
+    "dixon_coles": {
+      "Norway": 0.304,
+      "Draw": 0.258,
+      "France": 0.438
+    },
+    "elo": {
+      "Norway": 0.231,
+      "Draw": 0.262,
+      "France": 0.507
+    }
+  },
+  "elo": {
+    "Norway": 2006,
+    "France": 2151
+  },
+  "expected_goals": {
+    "Norway": 1.31,
+    "France": 1.61
+  },
+  "over_under_2_5": {
+    "over": 0.557,
+    "under": 0.443
+  },
+  "btts": 0.589,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.121
+    },
+    {
+      "score": "1-2",
+      "prob": 0.092
+    },
+    {
+      "score": "0-1",
+      "prob": 0.081
+    },
+    {
+      "score": "2-1",
+      "prob": 0.074
+    },
+    {
+      "score": "0-2",
+      "prob": 0.07
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

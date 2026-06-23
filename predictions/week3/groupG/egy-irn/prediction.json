@@ -1,0 +1,68 @@
+{
+  "match": "Egypt vs Iran",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-26",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Egypt": 0.291,
+      "Draw": 0.288,
+      "Iran": 0.421
+    },
+    "ensemble_uncalibrated": {
+      "Egypt": 0.295,
+      "Draw": 0.293,
+      "Iran": 0.412
+    },
+    "dixon_coles": {
+      "Egypt": 0.267,
+      "Draw": 0.313,
+      "Iran": 0.421
+    },
+    "elo": {
+      "Egypt": 0.322,
+      "Draw": 0.274,
+      "Iran": 0.404
+    }
+  },
+  "elo": {
+    "Egypt": 1822,
+    "Iran": 1883
+  },
+  "expected_goals": {
+    "Egypt": 0.89,
+    "Iran": 1.19
+  },
+  "over_under_2_5": {
+    "over": 0.343,
+    "under": 0.657
+  },
+  "btts": 0.416,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.142
+    },
+    {
+      "score": "1-1",
+      "prob": 0.14
+    },
+    {
+      "score": "0-0",
+      "prob": 0.134
+    },
+    {
+      "score": "1-0",
+      "prob": 0.104
+    },
+    {
+      "score": "0-2",
+      "prob": 0.089
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

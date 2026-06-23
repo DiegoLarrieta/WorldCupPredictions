@@ -1,0 +1,68 @@
+{
+  "match": "United States vs Turkey",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-25",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "United States": 0.43,
+      "Draw": 0.258,
+      "Turkey": 0.312
+    },
+    "ensemble_uncalibrated": {
+      "United States": 0.421,
+      "Draw": 0.265,
+      "Turkey": 0.314
+    },
+    "dixon_coles": {
+      "United States": 0.383,
+      "Draw": 0.263,
+      "Turkey": 0.354
+    },
+    "elo": {
+      "United States": 0.456,
+      "Draw": 0.267,
+      "Turkey": 0.277
+    }
+  },
+  "elo": {
+    "United States": 1931,
+    "Turkey": 1881
+  },
+  "expected_goals": {
+    "United States": 1.46,
+    "Turkey": 1.4
+  },
+  "over_under_2_5": {
+    "over": 0.545,
+    "under": 0.455
+  },
+  "btts": 0.586,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.124
+    },
+    {
+      "score": "2-1",
+      "prob": 0.086
+    },
+    {
+      "score": "1-2",
+      "prob": 0.082
+    },
+    {
+      "score": "1-0",
+      "prob": 0.077
+    },
+    {
+      "score": "0-1",
+      "prob": 0.073
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

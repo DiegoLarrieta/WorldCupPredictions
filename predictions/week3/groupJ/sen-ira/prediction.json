@@ -1,0 +1,68 @@
+{
+  "match": "Senegal vs Iraq",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-26",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Senegal": 0.609,
+      "Draw": 0.244,
+      "Iraq": 0.146
+    },
+    "ensemble_uncalibrated": {
+      "Senegal": 0.584,
+      "Draw": 0.255,
+      "Iraq": 0.16
+    },
+    "dixon_coles": {
+      "Senegal": 0.559,
+      "Draw": 0.281,
+      "Iraq": 0.16
+    },
+    "elo": {
+      "Senegal": 0.608,
+      "Draw": 0.232,
+      "Iraq": 0.161
+    }
+  },
+  "elo": {
+    "Senegal": 1894,
+    "Iraq": 1718
+  },
+  "expected_goals": {
+    "Senegal": 1.45,
+    "Iraq": 0.65
+  },
+  "over_under_2_5": {
+    "over": 0.351,
+    "under": 0.649
+  },
+  "btts": 0.373,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.171
+    },
+    {
+      "score": "2-0",
+      "prob": 0.129
+    },
+    {
+      "score": "0-0",
+      "prob": 0.129
+    },
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "2-1",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
