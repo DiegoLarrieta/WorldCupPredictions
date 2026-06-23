@@ -1,0 +1,68 @@
+{
+  "match": "Belgium vs Egypt",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-15",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Belgium": 0.541,
+      "Draw": 0.265,
+      "Egypt": 0.194
+    },
+    "ensemble_uncalibrated": {
+      "Belgium": 0.521,
+      "Draw": 0.273,
+      "Egypt": 0.206
+    },
+    "dixon_coles": {
+      "Belgium": 0.479,
+      "Draw": 0.303,
+      "Egypt": 0.218
+    },
+    "elo": {
+      "Belgium": 0.56,
+      "Draw": 0.245,
+      "Egypt": 0.194
+    }
+  },
+  "elo": {
+    "Belgium": 1946,
+    "Egypt": 1811
+  },
+  "expected_goals": {
+    "Belgium": 1.31,
+    "Egypt": 0.8
+  },
+  "over_under_2_5": {
+    "over": 0.352,
+    "under": 0.648
+  },
+  "btts": 0.41,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.151
+    },
+    {
+      "score": "1-1",
+      "prob": 0.136
+    },
+    {
+      "score": "0-0",
+      "prob": 0.13
+    },
+    {
+      "score": "2-0",
+      "prob": 0.104
+    },
+    {
+      "score": "0-1",
+      "prob": 0.088
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Uzbekistan vs Colombia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-17",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Uzbekistan": 0.122,
+      "Draw": 0.232,
+      "Colombia": 0.646
+    },
+    "ensemble_uncalibrated": {
+      "Uzbekistan": 0.136,
+      "Draw": 0.245,
+      "Colombia": 0.619
+    },
+    "dixon_coles": {
+      "Uzbekistan": 0.125,
+      "Draw": 0.257,
+      "Colombia": 0.618
+    },
+    "elo": {
+      "Uzbekistan": 0.147,
+      "Draw": 0.233,
+      "Colombia": 0.62
+    }
+  },
+  "elo": {
+    "Uzbekistan": 1821,
+    "Colombia": 2066
+  },
+  "expected_goals": {
+    "Uzbekistan": 0.61,
+    "Colombia": 1.64
+  },
+  "over_under_2_5": {
+    "over": 0.391,
+    "under": 0.609
+  },
+  "btts": 0.376,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.164
+    },
+    {
+      "score": "0-2",
+      "prob": 0.142
+    },
+    {
+      "score": "0-0",
+      "prob": 0.114
+    },
+    {
+      "score": "1-1",
+      "prob": 0.114
+    },
+    {
+      "score": "1-2",
+      "prob": 0.086
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

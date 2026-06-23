@@ -1,0 +1,68 @@
+{
+  "match": "United States vs Paraguay",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-12",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "United States": 0.255,
+      "Draw": 0.28,
+      "Paraguay": 0.465
+    },
+    "ensemble_uncalibrated": {
+      "United States": 0.262,
+      "Draw": 0.286,
+      "Paraguay": 0.452
+    },
+    "dixon_coles": {
+      "United States": 0.235,
+      "Draw": 0.301,
+      "Paraguay": 0.464
+    },
+    "elo": {
+      "United States": 0.288,
+      "Draw": 0.271,
+      "Paraguay": 0.441
+    }
+  },
+  "elo": {
+    "United States": 1829,
+    "Paraguay": 1920
+  },
+  "expected_goals": {
+    "United States": 0.88,
+    "Paraguay": 1.35
+  },
+  "over_under_2_5": {
+    "over": 0.385,
+    "under": 0.615
+  },
+  "btts": 0.445,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "0-1",
+      "prob": 0.134
+    },
+    {
+      "score": "0-0",
+      "prob": 0.119
+    },
+    {
+      "score": "0-2",
+      "prob": 0.098
+    },
+    {
+      "score": "1-2",
+      "prob": 0.086
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

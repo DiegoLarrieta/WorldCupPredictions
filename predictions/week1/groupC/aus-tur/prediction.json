@@ -1,0 +1,68 @@
+{
+  "match": "Australia vs Turkey",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-13",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Australia": 0.391,
+      "Draw": 0.275,
+      "Turkey": 0.334
+    },
+    "ensemble_uncalibrated": {
+      "Australia": 0.386,
+      "Draw": 0.28,
+      "Turkey": 0.334
+    },
+    "dixon_coles": {
+      "Australia": 0.47,
+      "Draw": 0.288,
+      "Turkey": 0.242
+    },
+    "elo": {
+      "Australia": 0.308,
+      "Draw": 0.273,
+      "Turkey": 0.42
+    }
+  },
+  "elo": {
+    "Australia": 1903,
+    "Turkey": 1976
+  },
+  "expected_goals": {
+    "Australia": 1.39,
+    "Turkey": 0.92
+  },
+  "over_under_2_5": {
+    "over": 0.407,
+    "under": 0.593
+  },
+  "btts": 0.46,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.135
+    },
+    {
+      "score": "1-0",
+      "prob": 0.13
+    },
+    {
+      "score": "0-0",
+      "prob": 0.107
+    },
+    {
+      "score": "2-0",
+      "prob": 0.096
+    },
+    {
+      "score": "2-1",
+      "prob": 0.088
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

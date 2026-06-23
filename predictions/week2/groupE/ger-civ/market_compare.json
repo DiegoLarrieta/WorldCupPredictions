@@ -1,0 +1,104 @@
+{
+  "match": "Germany vs Ivory Coast",
+  "as_of": "2026-06-18",
+  "ev_threshold": 0.03,
+  "markets": {
+    "1x2": {
+      "vig": 0.0025,
+      "selections": [
+        {
+          "selection": "home",
+          "odds": 1.58,
+          "model_prob": 0.578,
+          "market_prob": 0.631,
+          "edge": -0.053,
+          "ev_per_unit": -0.087,
+          "value": false
+        },
+        {
+          "selection": "draw",
+          "odds": 4.8,
+          "model_prob": 0.245,
+          "market_prob": 0.208,
+          "edge": 0.037,
+          "ev_per_unit": 0.176,
+          "value": true
+        },
+        {
+          "selection": "away",
+          "odds": 6.2,
+          "model_prob": 0.177,
+          "market_prob": 0.161,
+          "edge": 0.016,
+          "ev_per_unit": 0.097,
+          "value": true
+        }
+      ]
+    },
+    "ou_2.5": {
+      "vig": 0.0016,
+      "selections": [
+        {
+          "selection": "over",
+          "odds": 1.72,
+          "model_prob": 0.435,
+          "market_prob": 0.58,
+          "edge": -0.145,
+          "ev_per_unit": -0.252,
+          "value": false
+        },
+        {
+          "selection": "under",
+          "odds": 2.38,
+          "model_prob": 0.565,
+          "market_prob": 0.42,
+          "edge": 0.145,
+          "ev_per_unit": 0.345,
+          "value": true
+        }
+      ]
+    }
+  },
+  "value_bets": [
+    {
+      "market": "ou_2.5",
+      "selection": "under",
+      "odds": 2.38,
+      "model_prob": 0.565,
+      "market_prob": 0.42,
+      "edge": 0.145,
+      "ev_per_unit": 0.345,
+      "value": true
+    },
+    {
+      "market": "1x2",
+      "selection": "draw",
+      "odds": 4.8,
+      "model_prob": 0.245,
+      "market_prob": 0.208,
+      "edge": 0.037,
+      "ev_per_unit": 0.176,
+      "value": true
+    },
+    {
+      "market": "1x2",
+      "selection": "away",
+      "odds": 6.2,
+      "model_prob": 0.177,
+      "market_prob": 0.161,
+      "edge": 0.016,
+      "ev_per_unit": 0.097,
+      "value": true
+    }
+  ],
+  "best_ev": {
+    "market": "ou_2.5",
+    "selection": "under",
+    "odds": 2.38,
+    "model_prob": 0.565,
+    "market_prob": 0.42,
+    "edge": 0.145,
+    "ev_per_unit": 0.345,
+    "value": true
+  }
+}

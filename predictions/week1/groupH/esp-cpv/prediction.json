@@ -1,0 +1,68 @@
+{
+  "match": "Spain vs Cape Verde",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-15",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Spain": 0.876,
+      "Draw": 0.097,
+      "Cape Verde": 0.026
+    },
+    "ensemble_uncalibrated": {
+      "Spain": 0.849,
+      "Draw": 0.116,
+      "Cape Verde": 0.035
+    },
+    "dixon_coles": {
+      "Spain": 0.801,
+      "Draw": 0.145,
+      "Cape Verde": 0.055
+    },
+    "elo": {
+      "Spain": 0.894,
+      "Draw": 0.089,
+      "Cape Verde": 0.017
+    }
+  },
+  "elo": {
+    "Spain": 2227,
+    "Cape Verde": 1655
+  },
+  "expected_goals": {
+    "Spain": 2.52,
+    "Cape Verde": 0.54
+  },
+  "over_under_2_5": {
+    "over": 0.59,
+    "under": 0.41
+  },
+  "btts": 0.387,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.149
+    },
+    {
+      "score": "3-0",
+      "prob": 0.125
+    },
+    {
+      "score": "1-0",
+      "prob": 0.114
+    },
+    {
+      "score": "2-1",
+      "prob": 0.08
+    },
+    {
+      "score": "4-0",
+      "prob": 0.079
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

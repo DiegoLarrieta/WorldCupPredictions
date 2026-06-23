@@ -1,42 +1,389 @@
-match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Erling Haaland,5,4,2,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Aymen Hussein,3,1,1,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Ali Al-Hamadi,3,0,0,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Leo Østigard,2,1,1,0,False
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Zaid Tahseen,2,0,0,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Alexander Sørloth,2,0,0,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Kristian Thorstvedt,2,0,0,0,False
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Akam Hashim,1,0,0,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Hussein Ali,1,0,0,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,home,Iraq,Ibrahim Bayesh,1,0,0,0,True
-2026-06-16-ira-nor,2026-06-16,Iraq vs Norway,away,Norway,Martin Ødegaard,1,0,0,1,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Harry Kane,7,3,2,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Jude Bellingham,3,2,1,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Ezri Konsa,2,1,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Nico O'Reilly,2,1,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Anthony Gordon,2,1,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Declan Rice,1,1,0,1,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Djed Spence,1,1,0,0,False
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Marcus Rashford,1,1,1,0,False
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Petar Musa,1,1,1,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Martin Baturina,1,1,1,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Mateo Kovacic,1,1,0,0,False
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Igor Matanovic,1,1,0,0,False
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Marco Pasalic,1,1,0,0,False
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Reece James,1,0,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Elliot Anderson,1,0,0,1,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,home,England,Noni Madueke,1,0,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Josko Gvardiol,1,0,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Josip Sutalo,1,0,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Mario Pasalic,1,0,0,0,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Petar Sucic,1,0,0,1,True
-2026-06-17-eng-cro,2026-06-17,England vs Croatia,away,Croatia,Andrej Kramaric,1,0,0,0,False
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,Cristiano Ronaldo,3,0,0,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Yoane Wissa,2,1,1,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,Bruno Fernandes,2,0,0,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Samuel Moutoussamy,2,0,0,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Cédric Bakambu,2,0,0,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,João Neves,1,1,1,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Edo Kayembe,1,1,0,0,True
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,home,Portugal,Francisco Conceição,1,0,0,0,False
-2026-06-17-por-drc,2026-06-17,Portugal vs DR Congo,away,Congo DR,Steve Kapuadi,1,0,0,0,True
+date,match,team,side,player,minutes,shots,on_target,shots_p90,sot_p90,goals,assists
+2026-06-11,Mexico vs South Africa,Mexico,home,Julián Quiñones,78.3,5,2,5.75,2.3,1,0
+2026-06-11,Mexico vs South Africa,Mexico,home,Raúl Jiménez,75.8,4,2,4.75,2.38,1,0
+2026-06-11,Mexico vs South Africa,Mexico,home,Brian Gutiérrez,65.5,4,0,5.5,0.0,0,0
+2026-06-11,Mexico vs South Africa,Mexico,home,Jesús Gallardo,90.0,2,0,2.0,0.0,0,0
+2026-06-11,Mexico vs South Africa,South Africa,away,Mbekezeli Mbokazi,90.0,1,1,1.0,1.0,0,0
+2026-06-11,Mexico vs South Africa,South Africa,away,Aubrey Modiba,76.2,1,1,1.18,1.18,0,0
+2026-06-11,Mexico vs South Africa,Mexico,home,Israel Reyes,90.0,1,0,1.0,0.0,0,0
+2026-06-11,Mexico vs South Africa,South Africa,away,Lyle Foster,55.9,1,0,1.61,0.0,0,0
+2026-06-11,South Korea vs Czechia,South Korea,home,Son Heung-Min,68.8,6,1,7.85,1.31,0,0
+2026-06-11,South Korea vs Czechia,South Korea,home,Hwang In-Beom,83.5,3,2,3.23,2.16,1,1
+2026-06-11,South Korea vs Czechia,Czechia,away,Michal Sadílek,26.8,2,2,6.72,6.72,0,0
+2026-06-11,South Korea vs Czechia,South Korea,home,Lee Jae-Sung,61.8,2,1,2.91,1.46,0,0
+2026-06-11,South Korea vs Czechia,Czechia,away,Adam Hlozek,26.9,2,1,6.68,3.34,0,0
+2026-06-11,South Korea vs Czechia,South Korea,home,Lee Kang-In,90.0,1,1,1.0,1.0,0,1
+2026-06-11,South Korea vs Czechia,South Korea,home,Oh Hyeon-Gyu,21.2,1,1,4.24,4.24,1,0
+2026-06-11,South Korea vs Czechia,Czechia,away,Ladislav Krejcí,90.0,1,1,1.0,1.0,1,0
+2026-06-11,South Korea vs Czechia,South Korea,home,Lee Han-Beom,90.0,1,0,1.0,0.0,0,0
+2026-06-11,South Korea vs Czechia,South Korea,home,Kim Jin-Gyu,6.5,1,0,13.78,0.0,0,0
+2026-06-11,South Korea vs Czechia,Czechia,away,Tomás Soucek,90.0,1,0,1.0,0.0,0,0
+2026-06-11,South Korea vs Czechia,Czechia,away,Pavel Sulc,63.1,1,0,1.43,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Jovo Lukic,61.2,3,2,4.41,2.94,1,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Jonathan David,60.9,3,1,4.44,1.48,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Tani Oluwaseyi,76.0,2,1,2.37,1.18,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Cyle Larin,14.0,2,1,12.83,6.41,1,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Richie Laryea,90.0,1,1,1.0,1.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Ermedin Demirovic,90.0,1,1,1.0,1.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Derek Cornelius,90.0,1,0,1.0,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Alistair Johnston,90.0,1,0,1.0,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Stephen Eustáquio,90.0,1,0,1.0,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Ismaël Koné,90.0,1,0,1.0,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Canada,home,Promise David,29.1,1,0,3.09,0.0,0,1
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Tarik Muharemovic,90.0,1,0,1.0,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Benjamin Tahirovic,90.0,1,0,1.0,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Amar Memic,73.9,1,0,1.22,0.0,0,0
+2026-06-12,Canada vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Dzenis Burnic,6.4,1,0,14.14,0.0,0,0
+2026-06-12,United States vs Paraguay,United States,home,Folarin Balogun,71.7,5,3,6.28,3.77,2,0
+2026-06-12,United States vs Paraguay,United States,home,Malik Tillman,81.4,5,2,5.53,2.21,0,1
+2026-06-12,United States vs Paraguay,Paraguay,away,Diego Gómez,79.8,4,0,4.51,0.0,0,0
+2026-06-12,United States vs Paraguay,United States,home,Timothy Weah,18.4,2,0,9.8,0.0,0,0
+2026-06-12,United States vs Paraguay,Paraguay,away,Miguel Almirón,78.8,2,0,2.28,0.0,0,0
+2026-06-12,United States vs Paraguay,Paraguay,away,Julio Enciso,90.0,2,0,2.0,0.0,0,1
+2026-06-12,United States vs Paraguay,United States,home,Giovanni Reyna,8.6,1,1,10.44,10.44,1,0
+2026-06-12,United States vs Paraguay,Paraguay,away,Maurício,45.0,1,1,2.0,2.0,1,0
+2026-06-12,United States vs Paraguay,United States,home,Chris Richards,90.0,1,0,1.0,0.0,0,0
+2026-06-12,United States vs Paraguay,United States,home,Sebastian Berhalter,45.0,1,0,2.0,0.0,0,0
+2026-06-12,United States vs Paraguay,United States,home,Ricardo Pepi,18.3,1,0,4.9,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Dan Ndoye,65.0,6,2,8.31,2.77,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Breel Embolo,90.0,4,1,4.0,1.0,1,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Rubén Vargas,78.4,3,1,3.44,1.15,0,0
+2026-06-13,Qatar vs Switzerland,Qatar,home,Edmílson Junior,88.0,2,2,2.05,2.05,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Denis Zakaria,90.0,2,1,2.0,1.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Nico Elvedi,90.0,2,0,2.0,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Granit Xhaka,90.0,2,0,2.0,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Johan Manzambi,25.0,2,0,7.2,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Qatar,home,Ahmed Alaaeldin,30.2,1,1,2.98,2.98,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Manuel Akanji,90.0,1,1,1.0,1.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Michel Aebischer,65.0,1,1,1.39,1.39,0,0
+2026-06-13,Qatar vs Switzerland,Qatar,home,Homam Ahmed,90.0,1,0,1.0,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Qatar,home,Issa Laye,90.0,1,0,1.0,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Qatar,home,Karim Boudiaf,30.6,1,0,2.94,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Fabian Rieder,25.0,1,0,3.6,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Zeki Amdouni,11.6,1,0,7.76,0.0,0,0
+2026-06-13,Qatar vs Switzerland,Switzerland,away,Ardon Jashari,1.9,1,0,46.96,0.0,0,0
+2026-06-13,Brazil vs Morocco,Morocco,away,Ismael Saibari,88.3,3,1,3.06,1.02,1,0
+2026-06-13,Brazil vs Morocco,Morocco,away,Brahim Díaz,64.7,3,1,4.18,1.39,0,1
+2026-06-13,Brazil vs Morocco,Morocco,away,Achraf Hakimi,90.0,3,0,3.0,0.0,0,0
+2026-06-13,Brazil vs Morocco,Morocco,away,Neil El Aynaoui,90.0,3,0,3.0,0.0,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Raphinha ,90.0,2,1,2.0,1.0,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Igor Thiago,61.1,2,1,2.95,1.47,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Lucas Paquetá,60.9,2,1,2.96,1.48,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Danilo Santos,10.5,2,1,17.06,8.53,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Marquinhos,90.0,2,0,2.0,0.0,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Vinícius Júnior,90.0,1,1,1.0,1.0,1,0
+2026-06-13,Brazil vs Morocco,Morocco,away,Ayoube Amaimouni,10.9,1,1,8.23,8.23,0,0
+2026-06-13,Brazil vs Morocco,Brazil,home,Bruno Guimarães,79.5,1,0,1.13,0.0,0,1
+2026-06-13,Brazil vs Morocco,Morocco,away,Bilal El Khannouss,79.1,1,0,1.14,0.0,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Ruben Providence,84.8,3,1,3.19,1.06,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Frantzdy Pierrot,90.0,3,1,3.0,1.0,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Jean-Ricner Bellegarde,90.0,3,0,3.0,0.0,0,0
+2026-06-13,Haiti vs Scotland,Scotland,away,John McGinn,82.2,2,1,2.19,1.09,1,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Wilson Isidor,75.2,2,0,2.39,0.0,0,0
+2026-06-13,Haiti vs Scotland,Scotland,away,Scott McTominay,90.0,2,0,2.0,0.0,0,0
+2026-06-13,Haiti vs Scotland,Scotland,away,Ben Gannon-Doak,74.5,2,0,2.42,0.0,0,0
+2026-06-13,Haiti vs Scotland,Scotland,away,Lawrence Shankland,82.3,2,0,2.19,0.0,0,0
+2026-06-13,Haiti vs Scotland,Scotland,away,Ché Adams,74.5,1,1,1.21,1.21,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Ricardo Adé,90.0,1,0,1.0,0.0,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Martin Expérience,90.0,1,0,1.0,0.0,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Louicius Deedson,60.8,1,0,1.48,0.0,0,0
+2026-06-13,Haiti vs Scotland,Haiti,home,Josué Casimir,29.2,1,0,3.08,0.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Arda Güler,90.0,8,3,8.0,3.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Kenan Yildiz,45.0,6,0,12.0,0.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Hakan Çalhanoglu,90.0,5,2,5.0,2.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Kerem Aktürkoglu,84.8,3,1,3.18,1.06,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Ismail Yüksek,80.2,3,0,3.36,0.0,0,0
+2026-06-14,Australia vs Türkiye,Australia,home,Nestory Irankunda,60.4,2,2,2.98,2.98,1,0
+2026-06-14,Australia vs Türkiye,Australia,home,Jordan Bos,83.2,2,0,2.16,0.0,0,0
+2026-06-14,Australia vs Türkiye,Australia,home,Harry Souttar,90.0,1,1,1.0,1.0,0,0
+2026-06-14,Australia vs Türkiye,Australia,home,Connor Metcalfe,90.0,1,1,1.0,1.0,1,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Abdülkerim Bardakçi,90.0,1,1,1.0,1.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Zeki Çelik,80.3,1,1,1.12,1.12,0,0
+2026-06-14,Australia vs Türkiye,Australia,home,Alessandro Circati,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Australia vs Türkiye,Australia,home,Jacob Italiano,73.7,1,0,1.22,0.0,0,0
+2026-06-14,Australia vs Türkiye,Australia,home,Mohamed Toure,73.5,1,0,1.23,0.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Merih Demiral,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Ferdi Kadioglu,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Australia vs Türkiye,Türkiye,away,Orkun Kökçü,61.8,1,0,1.46,0.0,0,0
+2026-06-14,Germany vs Curaçao,Germany,home,Felix Nmecha,72.4,4,3,4.97,3.73,1,0
+2026-06-14,Germany vs Curaçao,Germany,home,Kai Havertz,90.0,4,2,4.0,2.0,2,0
+2026-06-14,Germany vs Curaçao,Germany,home,Jamal Musiala,63.7,3,1,4.24,1.41,1,0
+2026-06-14,Germany vs Curaçao,Germany,home,Aleksandar Pavlovic,90.0,3,1,3.0,1.0,0,0
+2026-06-14,Germany vs Curaçao,Germany,home,Florian Wirtz,90.0,3,0,3.0,0.0,0,1
+2026-06-14,Germany vs Curaçao,Germany,home,Leroy Sané,90.0,3,0,3.0,0.0,0,0
+2026-06-14,Germany vs Curaçao,Germany,home,Nico Schlotterbeck,90.0,2,2,2.0,2.0,1,0
+2026-06-14,Germany vs Curaçao,Germany,home,Nathaniel Brown,72.5,2,1,2.48,1.24,1,1
+2026-06-14,Germany vs Curaçao,Curaçao,away,Livano Comenencia,90.0,2,1,2.0,1.0,1,0
+2026-06-14,Germany vs Curaçao,Curaçao,away,Leandro Bacuna,90.0,2,0,2.0,0.0,0,0
+2026-06-14,Germany vs Curaçao,Germany,home,David Raum,17.5,1,1,5.15,5.15,0,0
+2026-06-14,Germany vs Curaçao,Germany,home,Deniz Undav,26.3,1,1,3.42,3.42,1,2
+2026-06-14,Germany vs Curaçao,Curaçao,away,Sontje Hansen,45.0,1,1,2.0,2.0,0,0
+2026-06-14,Germany vs Curaçao,Curaçao,away,Jearl Margaritha,25.8,1,0,3.49,0.0,0,0
+2026-06-14,Germany vs Curaçao,Curaçao,away,Tahith Chong,82.2,1,0,1.1,0.0,0,0
+2026-06-14,Germany vs Curaçao,Curaçao,away,Juninho Bacuna,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Netherlands vs Japan,Japan,away,Keito Nakamura,90.0,3,1,3.0,1.0,1,0
+2026-06-14,Netherlands vs Japan,Netherlands,home,Donyell Malen,69.7,2,2,2.58,2.58,0,0
+2026-06-14,Netherlands vs Japan,Netherlands,home,Cody Gakpo,84.0,2,1,2.14,1.07,0,0
+2026-06-14,Netherlands vs Japan,Netherlands,home,Teun Koopmeiners,20.1,2,0,8.94,0.0,0,0
+2026-06-14,Netherlands vs Japan,Japan,away,Koki Ogawa,15.5,2,0,11.61,0.0,0,1
+2026-06-14,Netherlands vs Japan,Netherlands,home,Virgil van Dijk,90.0,1,1,1.0,1.0,1,0
+2026-06-14,Netherlands vs Japan,Netherlands,home,Jan Paul van Hecke,90.0,1,1,1.0,1.0,0,0
+2026-06-14,Netherlands vs Japan,Netherlands,home,Crysencio Summerville,69.9,1,1,1.29,1.29,1,0
+2026-06-14,Netherlands vs Japan,Japan,away,Daichi Kamada,90.0,1,1,1.0,1.0,1,0
+2026-06-14,Netherlands vs Japan,Japan,away,Yukinari Sugawara,15.7,1,1,5.73,5.73,0,0
+2026-06-14,Netherlands vs Japan,Netherlands,home,Micky van de Ven,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Netherlands vs Japan,Japan,away,Hiroki Ito,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Netherlands vs Japan,Japan,away,Ayase Ueda,83.1,1,0,1.08,0.0,0,0
+2026-06-14,Netherlands vs Japan,Japan,away,Takefusa Kubo,74.5,1,0,1.21,0.0,0,1
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Seko Fofana,76.5,4,1,4.7,1.18,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,John Yeboah,61.8,3,0,4.37,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Amad Diallo,34.2,2,2,5.27,5.27,1,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Elye Wahi,55.8,2,1,3.22,1.61,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Yan Diomande,90.0,2,0,2.0,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Nicolas Pépé,76.7,2,0,2.35,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Joel Ordóñez,90.0,2,0,2.0,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Alan Minda,55.5,2,0,3.24,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Gonzalo Plata,90.0,1,1,1.0,1.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Wilfried Singo,90.0,1,0,1.0,0.0,0,1
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Ghislain Konan,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ivory Coast,home,Christ Inao Oulaï,13.3,1,0,6.75,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Piero Hincapié,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Pedro Vite,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Moisés Caicedo,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Ivory Coast vs Ecuador,Ecuador,away,Enner Valencia,76.8,1,0,1.17,0.0,0,0
+2026-06-14,Sweden vs Tunisia,Sweden,home,Viktor Gyökeres,90.0,5,2,5.0,2.0,1,1
+2026-06-14,Sweden vs Tunisia,Sweden,home,Alexander Isak,89.8,3,2,3.01,2.0,1,2
+2026-06-14,Sweden vs Tunisia,Sweden,home,Yasin Ayari,90.0,2,2,2.0,2.0,2,0
+2026-06-14,Sweden vs Tunisia,Sweden,home,Mattias Svanberg,6.8,1,1,13.27,13.27,1,0
+2026-06-14,Sweden vs Tunisia,Tunisia,away,Omar Rekik,90.0,1,1,1.0,1.0,1,0
+2026-06-14,Sweden vs Tunisia,Tunisia,away,Elias Achouri,18.6,1,1,4.83,4.83,0,0
+2026-06-14,Sweden vs Tunisia,Sweden,home,Lucas Bergvall,25.7,1,0,3.5,0.0,0,1
+2026-06-14,Sweden vs Tunisia,Sweden,home,Victor Lindelöf,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Sweden vs Tunisia,Tunisia,away,Montassar Talbi,90.0,1,0,1.0,0.0,0,0
+2026-06-14,Sweden vs Tunisia,Tunisia,away,Hannibal Mejbri,90.0,1,0,1.0,0.0,0,1
+2026-06-14,Sweden vs Tunisia,Tunisia,away,Rani Khedira,82.8,1,0,1.09,0.0,0,0
+2026-06-14,Sweden vs Tunisia,Tunisia,away,Elias Saad,71.6,1,0,1.26,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Fabián Ruiz,70.5,5,1,6.39,1.28,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Mikel Oyarzabal,90.0,5,1,5.0,1.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Ferran Torres,80.6,4,1,4.47,1.12,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Aymeric Laporte,90.0,2,1,2.0,1.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Marc Cucurella,90.0,2,1,2.0,1.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Pedri ,90.0,2,1,2.0,1.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Rodri ,86.7,2,0,2.08,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Lamine Yamal,19.3,2,0,9.3,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Mikel Merino,19.5,1,1,4.6,4.6,0,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,away,Diney Borges,90.0,1,1,1.0,1.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Pau Cubarsí,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Spain,home,Gavi ,70.7,1,0,1.27,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,away,Kevin Pina,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,away,Steven Moreira,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,away,Jovane Cabral,60.5,1,0,1.49,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,away,Ryan Mendes,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Spain vs Cape Verde,Cape Verde,away,Dailon Livramento,60.7,1,0,1.48,0.0,0,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Omar Marmoush,90.0,5,0,5.0,0.0,0,0
+2026-06-15,Belgium vs Egypt,Belgium,home,Kevin De Bruyne,85.2,4,1,4.23,1.06,0,0
+2026-06-15,Belgium vs Egypt,Belgium,home,Leandro Trossard,90.0,3,0,3.0,0.0,0,0
+2026-06-15,Belgium vs Egypt,Belgium,home,Brandon Mechele,90.0,2,1,2.0,1.0,0,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Emam Ashour,70.2,2,1,2.57,1.28,1,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Mostafa Zico,75.2,2,1,2.39,1.2,0,0
+2026-06-15,Belgium vs Egypt,Belgium,home,Youri Tielemans,90.0,2,0,2.0,0.0,0,0
+2026-06-15,Belgium vs Egypt,Belgium,home,Romelu Lukaku,24.6,2,0,7.31,0.0,0,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Mohamed Hany,90.0,2,0,2.0,0.0,0,0
+2026-06-15,Belgium vs Egypt,Belgium,home,Thomas Meunier,90.0,1,1,1.0,1.0,0,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Mohamed Salah,75.8,1,1,1.19,1.19,0,1
+2026-06-15,Belgium vs Egypt,Belgium,home,Jérémy Doku,85.2,1,0,1.06,0.0,0,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Marawan Attia,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Belgium vs Egypt,Egypt,away,Zizo,14.8,1,0,6.09,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Federico Viñas,89.7,5,3,5.01,3.01,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Federico Valverde,90.0,3,2,3.0,2.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Juan Manuel Sanabria,45.0,3,0,6.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Saudi Arabia,home,Abdulelah Al-Amri,90.0,2,2,2.0,2.0,1,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Maxi Araújo,80.3,2,2,2.24,2.24,1,0
+2026-06-15,Saudi Arabia vs Uruguay,Saudi Arabia,home,Mohamed Kanno,90.0,2,1,2.0,1.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Manuel Ugarte,71.2,2,1,2.53,1.26,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Nicolás de la Cruz,18.8,2,1,9.56,4.78,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Brian Rodríguez,9.7,2,1,18.65,9.33,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Sebastián Cáceres,90.0,2,0,2.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Guillermo Varela,90.0,2,0,2.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Saudi Arabia,home,Saud Abdulhamid,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Saudi Arabia,home,Abdullah Al-Khaibari,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Saudi Arabia,home,Salem Al-Dawsari,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Mathías Olivera,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Rodrigo Bentancur,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Darwin Núñez,45.0,1,0,2.0,0.0,0,0
+2026-06-15,Saudi Arabia vs Uruguay,Uruguay,away,Agustín Cano,45.0,1,0,2.0,0.0,0,0
+2026-06-15,Iran vs New Zealand,New Zealand,away,Chris Wood,90.0,4,2,4.0,2.0,0,2
+2026-06-15,Iran vs New Zealand,New Zealand,away,Sarpreet Singh,90.0,3,2,3.0,2.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Shahriyar Moghanloo,52.9,3,0,5.11,0.0,0,0
+2026-06-15,Iran vs New Zealand,New Zealand,away,Elijah Just,90.0,2,2,2.0,2.0,2,0
+2026-06-15,Iran vs New Zealand,Iran,home,Saeid Ezatolahi,90.0,2,1,2.0,1.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Mohammad Mohebbi,90.0,2,1,2.0,1.0,1,0
+2026-06-15,Iran vs New Zealand,New Zealand,away,Callum McCowatt,67.3,2,1,2.67,1.34,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Saman Ghoddos,64.4,2,0,2.79,0.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Mehdi Taremi,79.5,2,0,2.26,0.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Ramin Rezaeian,90.0,1,1,1.0,1.0,1,1
+2026-06-15,Iran vs New Zealand,Iran,home,Arya Yousefi,45.0,1,1,2.0,2.0,0,0
+2026-06-15,Iran vs New Zealand,New Zealand,away,Liberato Cacace,67.6,1,1,1.33,1.33,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Ali Nemati,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Mehdi Ghayedi,45.0,1,0,2.0,0.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Ali Alipour,37.1,1,0,2.42,0.0,0,0
+2026-06-15,Iran vs New Zealand,Iran,home,Ehsan Hajsafi,25.6,1,0,3.52,0.0,0,0
+2026-06-15,Iran vs New Zealand,New Zealand,away,Finn Surman,90.0,1,0,1.0,0.0,0,0
+2026-06-15,Iran vs New Zealand,New Zealand,away,Marko Stamenic,90.0,1,0,1.0,0.0,0,0
+2026-06-16,France vs Senegal,France,home,Kylian Mbappé,90.0,4,4,4.0,4.0,2,0
+2026-06-16,France vs Senegal,Senegal,away,Ismaïla Sarr,75.0,3,0,3.6,0.0,0,0
+2026-06-16,France vs Senegal,France,home,Michael Olise,90.0,2,2,2.0,2.0,0,1
+2026-06-16,France vs Senegal,France,home,Désiré Doué,86.5,2,1,2.08,1.04,0,0
+2026-06-16,France vs Senegal,France,home,Bradley Barcola,10.6,1,1,8.5,8.5,1,0
+2026-06-16,France vs Senegal,Senegal,away,Sadio Mané,90.0,1,1,1.0,1.0,0,0
+2026-06-16,France vs Senegal,Senegal,away,Ibrahim Mbaye,15.0,1,1,5.99,5.99,1,0
+2026-06-16,France vs Senegal,France,home,Theo Hernández,90.0,1,0,1.0,0.0,0,0
+2026-06-16,France vs Senegal,France,home,Ousmane Dembélé,79.4,1,0,1.13,0.0,0,0
+2026-06-16,France vs Senegal,Senegal,away,Nicolas Jackson,82.9,1,0,1.09,0.0,0,0
+2026-06-16,Iraq vs Norway,Norway,away,Erling Haaland,90.0,5,4,5.0,4.0,2,0
+2026-06-16,Iraq vs Norway,Iraq,home,Aymen Hussein,90.0,3,1,3.0,1.0,1,0
+2026-06-16,Iraq vs Norway,Iraq,home,Ali Al-Hamadi,58.6,3,0,4.6,0.0,0,0
+2026-06-16,Iraq vs Norway,Norway,away,Leo Østigard,17.6,2,1,10.25,5.12,1,0
+2026-06-16,Iraq vs Norway,Iraq,home,Zaid Tahseen,90.0,2,0,2.0,0.0,0,0
+2026-06-16,Iraq vs Norway,Norway,away,Alexander Sørloth,72.4,2,0,2.49,0.0,0,0
+2026-06-16,Iraq vs Norway,Norway,away,Kristian Thorstvedt,17.7,2,0,10.17,0.0,0,0
+2026-06-16,Iraq vs Norway,Iraq,home,Akam Hashim,90.0,1,0,1.0,0.0,0,0
+2026-06-16,Iraq vs Norway,Iraq,home,Hussein Ali,72.6,1,0,1.24,0.0,0,0
+2026-06-16,Iraq vs Norway,Iraq,home,Ibrahim Bayesh,77.3,1,0,1.16,0.0,0,0
+2026-06-16,Iraq vs Norway,Norway,away,Martin Ødegaard,80.6,1,0,1.12,0.0,0,1
+2026-06-16,Argentina vs Algeria,Argentina,home,Lionel Messi,79.0,6,4,6.83,4.56,3,0
+2026-06-16,Argentina vs Algeria,Algeria,away,Farès Chaïbi,90.0,3,0,3.0,0.0,0,0
+2026-06-16,Argentina vs Algeria,Argentina,home,Alexis Mac Allister,90.0,2,1,2.0,1.0,0,0
+2026-06-16,Argentina vs Algeria,Argentina,home,Lautaro Martínez,54.9,1,1,1.64,1.64,0,0
+2026-06-16,Argentina vs Algeria,Argentina,home,Thiago Almada,54.9,1,0,1.64,0.0,0,0
+2026-06-16,Argentina vs Algeria,Algeria,away,Ibrahim Maza,90.0,1,0,1.0,0.0,0,0
+2026-06-16,Argentina vs Algeria,Algeria,away,Anis Hadj Moussa,63.6,1,0,1.42,0.0,0,0
+2026-06-16,Argentina vs Algeria,Algeria,away,Riyad Mahrez,26.4,1,0,3.41,0.0,0,0
+2026-06-16,Argentina vs Algeria,Algeria,away,Houssem Aouar,26.7,1,0,3.37,0.0,0,0
+2026-06-17,Austria vs Jordan,Jordan,away,Ali Olwan,90.0,4,2,4.0,2.0,1,0
+2026-06-17,Austria vs Jordan,Jordan,away,Mousa Al-Tamari,87.1,4,1,4.13,1.03,0,0
+2026-06-17,Austria vs Jordan,Austria,home,Marko Arnautovic,45.0,2,2,4.0,4.0,1,0
+2026-06-17,Austria vs Jordan,Austria,home,Stefan Posch,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Austria vs Jordan,Austria,home,Sasa Kalajdzic,45.0,2,0,4.0,0.0,0,0
+2026-06-17,Austria vs Jordan,Austria,home,Romano Schmid,82.3,1,1,1.09,1.09,1,0
+2026-06-17,Austria vs Jordan,Austria,home,Carney Chukwuemeka,31.7,1,1,2.84,2.84,0,0
+2026-06-17,Austria vs Jordan,Jordan,away,Odeh Fakhoury,88.1,1,1,1.02,1.02,0,0
+2026-06-17,Austria vs Jordan,Austria,home,David Alaba,58.3,1,0,1.54,0.0,0,0
+2026-06-17,Austria vs Jordan,Austria,home,Konrad Laimer,90.0,1,0,1.0,0.0,0,0
+2026-06-17,Austria vs Jordan,Austria,home,Marcel Sabitzer,90.0,1,0,1.0,0.0,0,0
+2026-06-17,Austria vs Jordan,Jordan,away,Ehsan Haddad,81.0,1,0,1.11,0.0,0,0
+2026-06-17,Austria vs Jordan,Jordan,away,Ali Azaizeh,1.9,1,0,46.55,0.0,0,0
+2026-06-17,Portugal vs Congo DR,Portugal,home,Cristiano Ronaldo,90.0,3,0,3.0,0.0,0,0
+2026-06-17,Portugal vs Congo DR,Congo DR,away,Yoane Wissa,90.0,2,1,2.0,1.0,1,0
+2026-06-17,Portugal vs Congo DR,Portugal,home,Bruno Fernandes,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Portugal vs Congo DR,Congo DR,away,Samuel Moutoussamy,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Portugal vs Congo DR,Congo DR,away,Cédric Bakambu,84.7,2,0,2.12,0.0,0,0
+2026-06-17,Portugal vs Congo DR,Portugal,home,João Neves,90.0,1,1,1.0,1.0,1,0
+2026-06-17,Portugal vs Congo DR,Congo DR,away,Edo Kayembe,74.0,1,1,1.22,1.22,0,0
+2026-06-17,Portugal vs Congo DR,Portugal,home,Francisco Conceição,45.0,1,0,2.0,0.0,0,0
+2026-06-17,Portugal vs Congo DR,Congo DR,away,Steve Kapuadi,90.0,1,0,1.0,0.0,0,0
+2026-06-17,England vs Croatia,England,home,Harry Kane,90.0,7,3,7.0,3.0,2,0
+2026-06-17,England vs Croatia,England,home,Jude Bellingham,79.3,3,2,3.4,2.27,1,0
+2026-06-17,England vs Croatia,England,home,Ezri Konsa,90.0,2,1,2.0,1.0,0,0
+2026-06-17,England vs Croatia,England,home,Nico O'Reilly,90.0,2,1,2.0,1.0,0,0
+2026-06-17,England vs Croatia,England,home,Anthony Gordon,71.9,2,1,2.5,1.25,0,0
+2026-06-17,England vs Croatia,England,home,Declan Rice,71.7,1,1,1.26,1.26,0,1
+2026-06-17,England vs Croatia,England,home,Djed Spence,10.7,1,1,8.42,8.42,0,0
+2026-06-17,England vs Croatia,England,home,Marcus Rashford,18.1,1,1,4.98,4.98,1,0
+2026-06-17,England vs Croatia,Croatia,away,Petar Musa,65.6,1,1,1.37,1.37,1,0
+2026-06-17,England vs Croatia,Croatia,away,Martin Baturina,77.9,1,1,1.16,1.16,1,0
+2026-06-17,England vs Croatia,Croatia,away,Mateo Kovacic,32.7,1,1,2.75,2.75,0,0
+2026-06-17,England vs Croatia,Croatia,away,Igor Matanovic,24.4,1,1,3.69,3.69,0,0
+2026-06-17,England vs Croatia,Croatia,away,Marco Pasalic,24.3,1,1,3.7,3.7,0,0
+2026-06-17,England vs Croatia,England,home,Reece James,90.0,1,0,1.0,0.0,0,0
+2026-06-17,England vs Croatia,England,home,Elliot Anderson,90.0,1,0,1.0,0.0,0,1
+2026-06-17,England vs Croatia,England,home,Noni Madueke,71.9,1,0,1.25,0.0,0,0
+2026-06-17,England vs Croatia,Croatia,away,Josko Gvardiol,90.0,1,0,1.0,0.0,0,0
+2026-06-17,England vs Croatia,Croatia,away,Josip Sutalo,90.0,1,0,1.0,0.0,0,0
+2026-06-17,England vs Croatia,Croatia,away,Mario Pasalic,77.9,1,0,1.16,0.0,0,0
+2026-06-17,England vs Croatia,Croatia,away,Petar Sucic,90.0,1,0,1.0,0.0,0,1
+2026-06-17,England vs Croatia,Croatia,away,Andrej Kramaric,12.1,1,0,7.44,0.0,0,0
+2026-06-17,Ghana vs Panama,Panama,away,Ismael Díaz,16.2,2,2,11.12,11.12,0,0
+2026-06-17,Ghana vs Panama,Ghana,home,Jonas Adjetey,90.0,2,1,2.0,1.0,0,0
+2026-06-17,Ghana vs Panama,Ghana,home,Caleb Yirenkyi,90.0,2,1,2.0,1.0,1,0
+2026-06-17,Ghana vs Panama,Panama,away,César Blackman,89.7,2,1,2.01,1.0,0,0
+2026-06-17,Ghana vs Panama,Ghana,home,Antoine Semenyo,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Ghana vs Panama,Panama,away,Jiovany Ramos,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Ghana vs Panama,Panama,away,Édgar Yoel Bárcenas,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Ghana vs Panama,Panama,away,Cecilio Waterman,62.2,1,1,1.45,1.45,0,0
+2026-06-17,Ghana vs Panama,Ghana,home,Brandon Thomas-Asante,32.5,1,0,2.77,0.0,0,1
+2026-06-17,Ghana vs Panama,Ghana,home,Fatawu Issahaku,32.5,1,0,2.77,0.0,0,0
+2026-06-17,Ghana vs Panama,Panama,away,Carlos Harvey,90.0,1,0,1.0,0.0,0,0
+2026-06-17,Ghana vs Panama,Panama,away,Cristian Martínez,62.4,1,0,1.44,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Jefferson Lerma,90.0,3,0,3.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Luis Díaz,90.0,2,1,2.0,1.0,1,1
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,James Rodríguez,71.8,2,1,2.51,1.25,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Jáminton Campaz,18.2,2,1,9.86,4.93,1,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,home,Behruzjon Karimov,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,home,Dostonbek Khamdamov,45.0,2,0,4.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Jhon Arias,90.0,2,0,2.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,home,Eldor Shomurodov,90.0,1,1,1.0,1.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,home,Abbosbek Fayzullaev,76.8,1,1,1.17,1.17,1,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Daniel Muñoz,90.0,1,1,1.0,1.0,1,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,home,Akmal Mozgovoy,90.0,1,0,1.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Uzbekistan,home,Azizbek Amonov,13.2,1,0,6.8,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Davinson Sánchez,90.0,1,0,1.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Johan Mojica,90.0,1,0,1.0,0.0,0,0
+2026-06-17,Uzbekistan vs Colombia,Colombia,away,Gustavo Puerta,79.4,1,0,1.13,0.0,0,1
+2026-06-18,Czechia vs South Africa,Czechia,home,Ladislav Krejcí,90.0,4,0,4.0,0.0,0,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Michal Sadílek,66.3,3,1,4.07,1.36,1,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Mbekezeli Mbokazi,90.0,3,0,3.0,0.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Aubrey Modiba,90.0,3,0,3.0,0.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Thapelo Maseko,83.8,3,0,3.22,0.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Evidence Makgopa,24.1,2,2,7.46,7.46,0,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Patrik Schick,90.0,2,1,2.0,1.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Teboho Mokoena,90.0,2,1,2.0,1.0,1,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Lukás Cerv,77.6,1,1,1.16,1.16,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Relebohile Mofokeng,45.0,1,1,2.0,2.0,0,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Vladimír Darida,54.1,1,0,1.66,0.0,0,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Adam Hlozek,66.4,1,0,1.36,0.0,0,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Jaroslav Zelený,35.8,1,0,2.51,0.0,0,0
+2026-06-18,Czechia vs South Africa,Czechia,home,Lukás Provod,23.6,1,0,3.81,0.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Thalente Mbatha,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Iqraam Rayners,65.9,1,0,1.37,0.0,0,0
+2026-06-18,Czechia vs South Africa,South Africa,away,Oswin Appollis,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Dan Ndoye,70.9,4,2,5.08,2.54,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Rubén Vargas,19.0,2,2,9.46,9.46,1,1
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Johan Manzambi,19.1,2,2,9.44,9.44,2,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Granit Xhaka,90.0,2,1,2.0,1.0,1,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Edin Dzeko,63.1,2,0,2.85,0.0,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Amar Dedic,90.0,1,1,1.0,1.0,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Amar Memic,90.0,1,1,1.0,1.0,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Bosnia-Herzegovina,away,Ermin Mahmic,0.0,1,1,,,1,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Remo Freuler,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Michel Aebischer,70.9,1,0,1.27,0.0,0,0
+2026-06-18,Switzerland vs Bosnia-Herzegovina,Switzerland,home,Breel Embolo,88.2,1,0,1.02,0.0,0,1
+2026-06-18,Canada vs Qatar,Canada,home,Jonathan David,90.0,8,5,8.0,5.0,3,0
+2026-06-18,Canada vs Qatar,Canada,home,Cyle Larin,90.0,6,2,6.0,2.0,1,0
+2026-06-18,Canada vs Qatar,Canada,home,Tajon Buchanan,82.7,4,1,4.36,1.09,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Nathan Saliba,33.1,3,1,8.15,2.72,1,1
+2026-06-18,Canada vs Qatar,Canada,home,Jacob Shaffelburg,19.1,3,0,14.14,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Alistair Johnston,90.0,1,1,1.0,1.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Derek Cornelius,45.0,1,0,2.0,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Richie Laryea,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Stephen Eustáquio,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Ismaël Koné,56.9,1,0,1.58,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Ali Ahmed,70.9,1,0,1.27,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Tani Oluwaseyi,19.1,1,0,4.72,0.0,0,0
+2026-06-18,Canada vs Qatar,Canada,home,Niko Sigur,7.3,1,0,12.24,0.0,0,0
+2026-06-18,Canada vs Qatar,Qatar,away,Boualem Khoukhi,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Canada vs Qatar,Qatar,away,Edmílson Junior,45.0,1,0,2.0,0.0,0,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Raúl Jiménez,79.7,2,1,2.26,1.13,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Cho Gue-Sung,13.4,2,1,13.42,6.71,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Lee Kang-In,90.0,2,0,2.0,0.0,0,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Luis Romo,70.3,1,1,1.28,1.28,1,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Julián Quiñones,83.4,1,1,1.08,1.08,0,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Obed Vargas,19.7,1,1,4.56,4.56,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Yang Hyun-Jun,19.3,1,1,4.67,4.67,0,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Jesús Gallardo,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Brian Gutiérrez,70.2,1,0,1.28,0.0,0,0
+2026-06-18,Mexico vs South Korea,Mexico,home,Roberto Alvarado,79.6,1,0,1.13,0.0,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Lee Han-Beom,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Hwang In-Beom,90.0,1,0,1.0,0.0,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Seol Young-Woo,70.7,1,0,1.27,0.0,0,0
+2026-06-18,Mexico vs South Korea,South Korea,away,Oh Hyeon-Gyu,33.2,1,0,2.71,0.0,0,0

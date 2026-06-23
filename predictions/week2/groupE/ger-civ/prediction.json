@@ -1,0 +1,68 @@
+{
+  "match": "Germany vs Ivory Coast",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-18",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Germany": 0.578,
+      "Draw": 0.245,
+      "Ivory Coast": 0.177
+    },
+    "ensemble_uncalibrated": {
+      "Germany": 0.555,
+      "Draw": 0.255,
+      "Ivory Coast": 0.19
+    },
+    "dixon_coles": {
+      "Germany": 0.487,
+      "Draw": 0.284,
+      "Ivory Coast": 0.23
+    },
+    "elo": {
+      "Germany": 0.618,
+      "Draw": 0.228,
+      "Ivory Coast": 0.154
+    }
+  },
+  "elo": {
+    "Germany": 2002,
+    "Ivory Coast": 1816
+  },
+  "expected_goals": {
+    "Germany": 1.48,
+    "Ivory Coast": 0.94
+  },
+  "over_under_2_5": {
+    "over": 0.435,
+    "under": 0.565
+  },
+  "btts": 0.481,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.134
+    },
+    {
+      "score": "1-0",
+      "prob": 0.121
+    },
+    {
+      "score": "0-0",
+      "prob": 0.099
+    },
+    {
+      "score": "2-0",
+      "prob": 0.097
+    },
+    {
+      "score": "2-1",
+      "prob": 0.091
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

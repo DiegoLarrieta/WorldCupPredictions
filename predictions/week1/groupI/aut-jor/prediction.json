@@ -1,0 +1,68 @@
+{
+  "match": "Austria vs Jordan",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-16",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Austria": 0.56,
+      "Draw": 0.243,
+      "Jordan": 0.197
+    },
+    "ensemble_uncalibrated": {
+      "Austria": 0.539,
+      "Draw": 0.253,
+      "Jordan": 0.208
+    },
+    "dixon_coles": {
+      "Austria": 0.547,
+      "Draw": 0.253,
+      "Jordan": 0.2
+    },
+    "elo": {
+      "Austria": 0.531,
+      "Draw": 0.253,
+      "Jordan": 0.217
+    }
+  },
+  "elo": {
+    "Austria": 1886,
+    "Jordan": 1776
+  },
+  "expected_goals": {
+    "Austria": 1.72,
+    "Jordan": 0.95
+  },
+  "over_under_2_5": {
+    "over": 0.5,
+    "under": 0.5
+  },
+  "btts": 0.512,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.121
+    },
+    {
+      "score": "1-0",
+      "prob": 0.111
+    },
+    {
+      "score": "2-0",
+      "prob": 0.102
+    },
+    {
+      "score": "2-1",
+      "prob": 0.097
+    },
+    {
+      "score": "0-0",
+      "prob": 0.077
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
