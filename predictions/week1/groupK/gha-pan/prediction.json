@@ -1,0 +1,68 @@
+{
+  "match": "Ghana vs Panama",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-17",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Ghana": 0.205,
+      "Draw": 0.256,
+      "Panama": 0.539
+    },
+    "ensemble_uncalibrated": {
+      "Ghana": 0.216,
+      "Draw": 0.264,
+      "Panama": 0.519
+    },
+    "dixon_coles": {
+      "Ghana": 0.282,
+      "Draw": 0.294,
+      "Panama": 0.424
+    },
+    "elo": {
+      "Ghana": 0.155,
+      "Draw": 0.237,
+      "Panama": 0.608
+    }
+  },
+  "elo": {
+    "Ghana": 1627,
+    "Panama": 1860
+  },
+  "expected_goals": {
+    "Ghana": 1.06,
+    "Panama": 1.35
+  },
+  "over_under_2_5": {
+    "over": 0.434,
+    "under": 0.566
+  },
+  "btts": 0.496,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "0-1",
+      "prob": 0.11
+    },
+    {
+      "score": "0-0",
+      "prob": 0.1
+    },
+    {
+      "score": "1-2",
+      "prob": 0.087
+    },
+    {
+      "score": "1-0",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

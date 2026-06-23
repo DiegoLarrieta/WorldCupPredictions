@@ -1,0 +1,68 @@
+{
+  "match": "Iran vs New Zealand",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-15",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Iran": 0.603,
+      "Draw": 0.236,
+      "New Zealand": 0.162
+    },
+    "ensemble_uncalibrated": {
+      "Iran": 0.578,
+      "Draw": 0.247,
+      "New Zealand": 0.175
+    },
+    "dixon_coles": {
+      "Iran": 0.56,
+      "Draw": 0.259,
+      "New Zealand": 0.181
+    },
+    "elo": {
+      "Iran": 0.594,
+      "Draw": 0.236,
+      "New Zealand": 0.17
+    }
+  },
+  "elo": {
+    "Iran": 1896,
+    "New Zealand": 1732
+  },
+  "expected_goals": {
+    "Iran": 1.66,
+    "New Zealand": 0.84
+  },
+  "over_under_2_5": {
+    "over": 0.457,
+    "under": 0.543
+  },
+  "btts": 0.469,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.128
+    },
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "2-0",
+      "prob": 0.113
+    },
+    {
+      "score": "2-1",
+      "prob": 0.095
+    },
+    {
+      "score": "0-0",
+      "prob": 0.09
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Netherlands vs Japan",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-14",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Netherlands": 0.355,
+      "Draw": 0.28,
+      "Japan": 0.366
+    },
+    "ensemble_uncalibrated": {
+      "Netherlands": 0.353,
+      "Draw": 0.285,
+      "Japan": 0.363
+    },
+    "dixon_coles": {
+      "Netherlands": 0.286,
+      "Draw": 0.299,
+      "Japan": 0.415
+    },
+    "elo": {
+      "Netherlands": 0.414,
+      "Draw": 0.272,
+      "Japan": 0.314
+    }
+  },
+  "elo": {
+    "Netherlands": 2011,
+    "Japan": 1995
+  },
+  "expected_goals": {
+    "Netherlands": 1.02,
+    "Japan": 1.28
+  },
+  "over_under_2_5": {
+    "over": 0.404,
+    "under": 0.596
+  },
+  "btts": 0.471,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.14
+    },
+    {
+      "score": "0-1",
+      "prob": 0.119
+    },
+    {
+      "score": "0-0",
+      "prob": 0.109
+    },
+    {
+      "score": "1-0",
+      "prob": 0.093
+    },
+    {
+      "score": "1-2",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

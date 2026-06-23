@@ -1,0 +1,68 @@
+{
+  "match": "Saudi Arabia vs Uruguay",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-15",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Saudi Arabia": 0.104,
+      "Draw": 0.243,
+      "Uruguay": 0.654
+    },
+    "ensemble_uncalibrated": {
+      "Saudi Arabia": 0.118,
+      "Draw": 0.255,
+      "Uruguay": 0.627
+    },
+    "dixon_coles": {
+      "Saudi Arabia": 0.114,
+      "Draw": 0.293,
+      "Uruguay": 0.593
+    },
+    "elo": {
+      "Saudi Arabia": 0.122,
+      "Draw": 0.22,
+      "Uruguay": 0.658
+    }
+  },
+  "elo": {
+    "Saudi Arabia": 1695,
+    "Uruguay": 1977
+  },
+  "expected_goals": {
+    "Saudi Arabia": 0.45,
+    "Uruguay": 1.36
+  },
+  "over_under_2_5": {
+    "over": 0.272,
+    "under": 0.728
+  },
+  "btts": 0.274,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.217
+    },
+    {
+      "score": "0-0",
+      "prob": 0.171
+    },
+    {
+      "score": "0-2",
+      "prob": 0.152
+    },
+    {
+      "score": "1-1",
+      "prob": 0.106
+    },
+    {
+      "score": "0-3",
+      "prob": 0.069
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

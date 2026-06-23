@@ -1,0 +1,68 @@
+{
+  "match": "Haiti vs Scotland",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-13",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Haiti": 0.257,
+      "Draw": 0.254,
+      "Scotland": 0.489
+    },
+    "ensemble_uncalibrated": {
+      "Haiti": 0.264,
+      "Draw": 0.262,
+      "Scotland": 0.474
+    },
+    "dixon_coles": {
+      "Haiti": 0.291,
+      "Draw": 0.26,
+      "Scotland": 0.45
+    },
+    "elo": {
+      "Haiti": 0.24,
+      "Draw": 0.264,
+      "Scotland": 0.496
+    }
+  },
+  "elo": {
+    "Haiti": 1717,
+    "Scotland": 1853
+  },
+  "expected_goals": {
+    "Haiti": 1.25,
+    "Scotland": 1.61
+  },
+  "over_under_2_5": {
+    "over": 0.544,
+    "under": 0.456
+  },
+  "btts": 0.577,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "1-2",
+      "prob": 0.093
+    },
+    {
+      "score": "0-1",
+      "prob": 0.085
+    },
+    {
+      "score": "0-2",
+      "prob": 0.074
+    },
+    {
+      "score": "2-1",
+      "prob": 0.072
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

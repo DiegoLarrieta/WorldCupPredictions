@@ -1,0 +1,68 @@
+{
+  "match": "Germany vs Curaçao",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-14",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Germany": 0.848,
+      "Draw": 0.112,
+      "Curaçao": 0.04
+    },
+    "ensemble_uncalibrated": {
+      "Germany": 0.819,
+      "Draw": 0.131,
+      "Curaçao": 0.051
+    },
+    "dixon_coles": {
+      "Germany": 0.838,
+      "Draw": 0.112,
+      "Curaçao": 0.05
+    },
+    "elo": {
+      "Germany": 0.801,
+      "Draw": 0.148,
+      "Curaçao": 0.052
+    }
+  },
+  "elo": {
+    "Germany": 2002,
+    "Curaçao": 1611
+  },
+  "expected_goals": {
+    "Germany": 3.07,
+    "Curaçao": 0.69
+  },
+  "over_under_2_5": {
+    "over": 0.725,
+    "under": 0.275
+  },
+  "btts": 0.478,
+  "top_scorelines": [
+    {
+      "score": "3-0",
+      "prob": 0.112
+    },
+    {
+      "score": "2-0",
+      "prob": 0.11
+    },
+    {
+      "score": "4-0",
+      "prob": 0.086
+    },
+    {
+      "score": "3-1",
+      "prob": 0.077
+    },
+    {
+      "score": "2-1",
+      "prob": 0.076
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Argentina vs Algeria",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-16",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Argentina": 0.703,
+      "Draw": 0.209,
+      "Algeria": 0.088
+    },
+    "ensemble_uncalibrated": {
+      "Argentina": 0.673,
+      "Draw": 0.224,
+      "Algeria": 0.103
+    },
+    "dixon_coles": {
+      "Argentina": 0.605,
+      "Draw": 0.271,
+      "Algeria": 0.124
+    },
+    "elo": {
+      "Argentina": 0.736,
+      "Draw": 0.181,
+      "Algeria": 0.083
+    }
+  },
+  "elo": {
+    "Argentina": 2191,
+    "Algeria": 1885
+  },
+  "expected_goals": {
+    "Argentina": 1.51,
+    "Algeria": 0.54
+  },
+  "over_under_2_5": {
+    "over": 0.338,
+    "under": 0.662
+  },
+  "btts": 0.333,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.187
+    },
+    {
+      "score": "2-0",
+      "prob": 0.147
+    },
+    {
+      "score": "0-0",
+      "prob": 0.135
+    },
+    {
+      "score": "1-1",
+      "prob": 0.112
+    },
+    {
+      "score": "2-1",
+      "prob": 0.079
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

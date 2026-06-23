@@ -1,0 +1,68 @@
+{
+  "match": "Qatar vs Switzerland",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-13",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Qatar": 0.071,
+      "Draw": 0.161,
+      "Switzerland": 0.768
+    },
+    "ensemble_uncalibrated": {
+      "Qatar": 0.085,
+      "Draw": 0.178,
+      "Switzerland": 0.737
+    },
+    "dixon_coles": {
+      "Qatar": 0.101,
+      "Draw": 0.177,
+      "Switzerland": 0.722
+    },
+    "elo": {
+      "Qatar": 0.07,
+      "Draw": 0.18,
+      "Switzerland": 0.751
+    }
+  },
+  "elo": {
+    "Qatar": 1566,
+    "Switzerland": 1953
+  },
+  "expected_goals": {
+    "Qatar": 0.79,
+    "Switzerland": 2.37
+  },
+  "over_under_2_5": {
+    "over": 0.611,
+    "under": 0.389
+  },
+  "btts": 0.498,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.12
+    },
+    {
+      "score": "0-1",
+      "prob": 0.096
+    },
+    {
+      "score": "0-3",
+      "prob": 0.095
+    },
+    {
+      "score": "1-2",
+      "prob": 0.094
+    },
+    {
+      "score": "1-1",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

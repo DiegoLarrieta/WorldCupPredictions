@@ -1,0 +1,68 @@
+{
+  "match": "Brazil vs Morocco",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-13",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Brazil": 0.469,
+      "Draw": 0.288,
+      "Morocco": 0.243
+    },
+    "ensemble_uncalibrated": {
+      "Brazil": 0.456,
+      "Draw": 0.293,
+      "Morocco": 0.251
+    },
+    "dixon_coles": {
+      "Brazil": 0.409,
+      "Draw": 0.329,
+      "Morocco": 0.261
+    },
+    "elo": {
+      "Brazil": 0.499,
+      "Draw": 0.259,
+      "Morocco": 0.242
+    }
+  },
+  "elo": {
+    "Brazil": 2070,
+    "Morocco": 1986
+  },
+  "expected_goals": {
+    "Brazil": 1.09,
+    "Morocco": 0.81
+  },
+  "over_under_2_5": {
+    "over": 0.297,
+    "under": 0.703
+  },
+  "btts": 0.378,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.157
+    },
+    {
+      "score": "1-0",
+      "prob": 0.155
+    },
+    {
+      "score": "1-1",
+      "prob": 0.14
+    },
+    {
+      "score": "0-1",
+      "prob": 0.113
+    },
+    {
+      "score": "2-0",
+      "prob": 0.089
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

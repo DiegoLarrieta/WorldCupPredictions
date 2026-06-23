@@ -1,0 +1,68 @@
+{
+  "match": "Sweden vs Tunisia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-14",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Sweden": 0.404,
+      "Draw": 0.277,
+      "Tunisia": 0.32
+    },
+    "ensemble_uncalibrated": {
+      "Sweden": 0.397,
+      "Draw": 0.282,
+      "Tunisia": 0.321
+    },
+    "dixon_coles": {
+      "Sweden": 0.349,
+      "Draw": 0.296,
+      "Tunisia": 0.355
+    },
+    "elo": {
+      "Sweden": 0.441,
+      "Draw": 0.269,
+      "Tunisia": 0.29
+    }
+  },
+  "elo": {
+    "Sweden": 1776,
+    "Tunisia": 1739
+  },
+  "expected_goals": {
+    "Sweden": 1.18,
+    "Tunisia": 1.19
+  },
+  "over_under_2_5": {
+    "over": 0.425,
+    "under": 0.575
+  },
+  "btts": 0.493,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.14
+    },
+    {
+      "score": "0-0",
+      "prob": 0.102
+    },
+    {
+      "score": "0-1",
+      "prob": 0.102
+    },
+    {
+      "score": "1-0",
+      "prob": 0.101
+    },
+    {
+      "score": "1-2",
+      "prob": 0.078
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

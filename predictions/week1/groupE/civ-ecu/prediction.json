@@ -1,0 +1,68 @@
+{
+  "match": "Ivory Coast vs Ecuador",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-14",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Ivory Coast": 0.156,
+      "Draw": 0.296,
+      "Ecuador": 0.547
+    },
+    "ensemble_uncalibrated": {
+      "Ivory Coast": 0.17,
+      "Draw": 0.303,
+      "Ecuador": 0.528
+    },
+    "dixon_coles": {
+      "Ivory Coast": 0.169,
+      "Draw": 0.366,
+      "Ecuador": 0.465
+    },
+    "elo": {
+      "Ivory Coast": 0.17,
+      "Draw": 0.243,
+      "Ecuador": 0.586
+    }
+  },
+  "elo": {
+    "Ivory Coast": 1816,
+    "Ecuador": 2030
+  },
+  "expected_goals": {
+    "Ivory Coast": 0.49,
+    "Ecuador": 1.0
+  },
+  "over_under_2_5": {
+    "over": 0.187,
+    "under": 0.813
+  },
+  "btts": 0.251,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.235
+    },
+    {
+      "score": "0-1",
+      "prob": 0.219
+    },
+    {
+      "score": "1-1",
+      "prob": 0.118
+    },
+    {
+      "score": "0-2",
+      "prob": 0.113
+    },
+    {
+      "score": "1-0",
+      "prob": 0.103
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
