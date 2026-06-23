@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-06-14-swe-tun",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-14-swe-tun",
+    "date": "2026-06-14",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Sweden vs Tunisia",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "as_of": "2026-06-14",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.404,
+      0.277,
+      0.32
+    ],
+    "components": {
+      "dixon_coles": [
+        0.349,
+        0.296,
+        0.355
+      ],
+      "elo": [
+        0.441,
+        0.269,
+        0.29
+      ]
+    },
+    "expected_goals": {
+      "Sweden": 1.18,
+      "Tunisia": 1.19
+    },
+    "over25": 0.425,
+    "btts": 0.493,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.14
+      },
+      {
+        "score": "0-0",
+        "prob": 0.102
+      },
+      {
+        "score": "0-1",
+        "prob": 0.102
+      },
+      {
+        "score": "1-0",
+        "prob": 0.101
+      },
+      {
+        "score": "1-2",
+        "prob": 0.078
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 5,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760424",
+      "player_shots": [
+        {
+          "player": "Viktor Gyökeres",
+          "side": "home",
+          "team": "Sweden",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Alexander Isak",
+          "side": "home",
+          "team": "Sweden",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 2,
+          "minutes": 89.8,
+          "starter": true,
+          "shots_p90": 3.01,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Yasin Ayari",
+          "side": "home",
+          "team": "Sweden",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Mattias Svanberg",
+          "side": "home",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 6.8,
+          "starter": false,
+          "shots_p90": 13.27,
+          "sot_p90": 13.27
+        },
+        {
+          "player": "Omar Rekik",
+          "side": "away",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Elias Achouri",
+          "side": "away",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.6,
+          "starter": false,
+          "shots_p90": 4.83,
+          "sot_p90": 4.83
+        },
+        {
+          "player": "Lucas Bergvall",
+          "side": "home",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 25.7,
+          "starter": false,
+          "shots_p90": 3.5,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Victor Lindelöf",
+          "side": "home",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Montassar Talbi",
+          "side": "away",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hannibal Mejbri",
+          "side": "away",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rani Khedira",
+          "side": "away",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.8,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Elias Saad",
+          "side": "away",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.6,
+          "starter": true,
+          "shots_p90": 1.26,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 48.7,
+      "shots_home": 13,
+      "shots_on_target_home": 7,
+      "corners_home": 4,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 51.3,
+      "shots_away": 6,
+      "shots_on_target_away": 2,
+      "corners_away": 2,
+      "fouls_away": 8,
+      "saves_away": 1,
+      "offsides_away": 6,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:36-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.22895,
+    "log_loss": 0.90734,
+    "brier": 0.53447,
+    "surprisal": 0.90734,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.22895,
+        "log_loss": 0.90734,
+        "brier": 0.53447,
+        "surprisal": 0.90734
+      },
+      "dixon_coles": {
+        "rps": 0.27491,
+        "log_loss": 1.05268,
+        "brier": 0.63744,
+        "surprisal": 1.05268
+      },
+      "elo": {
+        "rps": 0.19829,
+        "log_loss": 0.81871,
+        "brier": 0.46894,
+        "surprisal": 0.81871
+      }
+    }
+  }
+}

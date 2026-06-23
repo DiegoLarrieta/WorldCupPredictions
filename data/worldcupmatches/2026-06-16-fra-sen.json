@@ -1,0 +1,261 @@
+{
+  "match_key": "2026-06-16-fra-sen",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-16-fra-sen",
+    "date": "2026-06-16",
+    "home": "France",
+    "away": "Senegal",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "France vs Senegal",
+    "home": "France",
+    "away": "Senegal",
+    "as_of": "2026-06-16",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.566,
+      0.246,
+      0.188
+    ],
+    "components": {
+      "dixon_coles": [
+        0.429,
+        0.298,
+        0.273
+      ],
+      "elo": [
+        0.651,
+        0.217,
+        0.132
+      ]
+    },
+    "expected_goals": {
+      "France": 1.3,
+      "Senegal": 0.98
+    },
+    "over25": 0.399,
+    "btts": 0.464,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "1-0",
+        "prob": 0.124
+      },
+      {
+        "score": "0-0",
+        "prob": 0.111
+      },
+      {
+        "score": "0-1",
+        "prob": 0.092
+      },
+      {
+        "score": "2-0",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760432",
+      "player_shots": [
+        {
+          "player": "Kylian Mbappé",
+          "side": "home",
+          "team": "France",
+          "shots": 4,
+          "on_target": 4,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.0,
+          "starter": true,
+          "shots_p90": 3.6,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Michael Olise",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Désiré Doué",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 86.5,
+          "starter": true,
+          "shots_p90": 2.08,
+          "sot_p90": 1.04
+        },
+        {
+          "player": "Bradley Barcola",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 10.6,
+          "starter": false,
+          "shots_p90": 8.5,
+          "sot_p90": 8.5
+        },
+        {
+          "player": "Sadio Mané",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ibrahim Mbaye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 15.0,
+          "starter": false,
+          "shots_p90": 5.99,
+          "sot_p90": 5.99
+        },
+        {
+          "player": "Theo Hernández",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.4,
+          "starter": true,
+          "shots_p90": 1.13,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolas Jackson",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.9,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 53.4,
+      "shots_home": 11,
+      "shots_on_target_home": 8,
+      "corners_home": 6,
+      "fouls_home": 5,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 46.6,
+      "shots_away": 6,
+      "shots_on_target_away": 2,
+      "corners_away": 4,
+      "fouls_away": 9,
+      "saves_away": 5,
+      "offsides_away": 3,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:39-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.11185,
+    "log_loss": 0.56916,
+    "brier": 0.28422,
+    "surprisal": 0.56916,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.11185,
+        "log_loss": 0.56916,
+        "brier": 0.28422,
+        "surprisal": 0.56916
+      },
+      "dixon_coles": {
+        "rps": 0.20028,
+        "log_loss": 0.8463,
+        "brier": 0.48937,
+        "surprisal": 0.8463
+      },
+      "elo": {
+        "rps": 0.06961,
+        "log_loss": 0.42925,
+        "brier": 0.18631,
+        "surprisal": 0.42925
+      }
+    }
+  }
+}

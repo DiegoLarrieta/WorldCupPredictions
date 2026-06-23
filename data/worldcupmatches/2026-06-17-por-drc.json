@@ -72,8 +72,8 @@
       "home_goals": 1,
       "away_goals": 1,
       "result": "draw",
-      "source": "oddsapi-scores",
-      "captured_at": "2026-06-18T17:05:21-06:00"
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
     },
     "rich": {
       "espn_event_id": "760435",
@@ -86,7 +86,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Yoane Wissa",
@@ -96,7 +99,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
         },
         {
           "player": "Bruno Fernandes",
@@ -106,7 +112,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Samuel Moutoussamy",
@@ -116,7 +125,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Cédric Bakambu",
@@ -126,7 +138,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 84.7,
+          "starter": true,
+          "shots_p90": 2.12,
+          "sot_p90": 0.0
         },
         {
           "player": "João Neves",
@@ -136,7 +151,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
         },
         {
           "player": "Edo Kayembe",
@@ -146,7 +164,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 74.0,
+          "starter": true,
+          "shots_p90": 1.22,
+          "sot_p90": 1.22
         },
         {
           "player": "Francisco Conceição",
@@ -156,7 +177,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Steve Kapuadi",
@@ -166,7 +190,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         }
       ],
       "possession_home": 75.4,
@@ -188,7 +215,7 @@
       "yellow_cards_away": 1,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-06-18T17:10:43-06:00"
+      "captured_at": "2026-06-23T17:17:40-06:00"
     }
   },
   "scores": {

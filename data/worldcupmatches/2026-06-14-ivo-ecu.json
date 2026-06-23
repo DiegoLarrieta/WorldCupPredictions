@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-14-ivo-ecu",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-14-ivo-ecu",
+    "date": "2026-06-14",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Ivory Coast vs Ecuador",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "as_of": "2026-06-14",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.156,
+      0.296,
+      0.547
+    ],
+    "components": {
+      "dixon_coles": [
+        0.169,
+        0.366,
+        0.465
+      ],
+      "elo": [
+        0.17,
+        0.243,
+        0.586
+      ]
+    },
+    "expected_goals": {
+      "Ivory Coast": 0.49,
+      "Ecuador": 1.0
+    },
+    "over25": 0.187,
+    "btts": 0.251,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.235
+      },
+      {
+        "score": "0-1",
+        "prob": 0.219
+      },
+      {
+        "score": "1-1",
+        "prob": 0.118
+      },
+      {
+        "score": "0-2",
+        "prob": 0.113
+      },
+      {
+        "score": "1-0",
+        "prob": 0.103
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760423",
+      "player_shots": [
+        {
+          "player": "Seko Fofana",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.5,
+          "starter": true,
+          "shots_p90": 4.7,
+          "sot_p90": 1.18
+        },
+        {
+          "player": "John Yeboah",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 61.8,
+          "starter": true,
+          "shots_p90": 4.37,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Amad Diallo",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 34.2,
+          "starter": false,
+          "shots_p90": 5.27,
+          "sot_p90": 5.27
+        },
+        {
+          "player": "Elye Wahi",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.8,
+          "starter": true,
+          "shots_p90": 3.22,
+          "sot_p90": 1.61
+        },
+        {
+          "player": "Yan Diomande",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolas Pépé",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.7,
+          "starter": true,
+          "shots_p90": 2.35,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Joel Ordóñez",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alan Minda",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.5,
+          "starter": true,
+          "shots_p90": 3.24,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gonzalo Plata",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Wilfried Singo",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ghislain Konan",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Christ Inao Oulaï",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 13.3,
+          "starter": false,
+          "shots_p90": 6.75,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Piero Hincapié",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedro Vite",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Moisés Caicedo",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Enner Valencia",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.8,
+          "starter": true,
+          "shots_p90": 1.17,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 48.4,
+      "shots_home": 15,
+      "shots_on_target_home": 4,
+      "corners_home": 3,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 51.6,
+      "shots_away": 12,
+      "shots_on_target_away": 1,
+      "corners_away": 6,
+      "fouls_away": 13,
+      "saves_away": 3,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:35-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.50594,
+    "log_loss": 1.8569,
+    "brier": 1.09967,
+    "surprisal": 1.8569,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.50594,
+        "log_loss": 1.8569,
+        "brier": 1.09967,
+        "surprisal": 1.8569
+      },
+      "dixon_coles": {
+        "rps": 0.45339,
+        "log_loss": 1.77786,
+        "brier": 1.04074,
+        "surprisal": 1.77786
+      },
+      "elo": {
+        "rps": 0.51635,
+        "log_loss": 1.77096,
+        "brier": 1.09187,
+        "surprisal": 1.77096
+      }
+    }
+  }
+}

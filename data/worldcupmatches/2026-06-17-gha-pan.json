@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-06-17-gha-pan",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-17-gha-pan",
+    "date": "2026-06-17",
+    "home": "Ghana",
+    "away": "Panama",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Ghana vs Panama",
+    "home": "Ghana",
+    "away": "Panama",
+    "as_of": "2026-06-17",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.205,
+      0.256,
+      0.539
+    ],
+    "components": {
+      "dixon_coles": [
+        0.282,
+        0.294,
+        0.424
+      ],
+      "elo": [
+        0.155,
+        0.237,
+        0.608
+      ]
+    },
+    "expected_goals": {
+      "Ghana": 1.06,
+      "Panama": 1.35
+    },
+    "over25": 0.434,
+    "btts": 0.496,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "0-1",
+        "prob": 0.11
+      },
+      {
+        "score": "0-0",
+        "prob": 0.1
+      },
+      {
+        "score": "1-2",
+        "prob": 0.087
+      },
+      {
+        "score": "1-0",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760434",
+      "player_shots": [
+        {
+          "player": "Ismael Díaz",
+          "side": "away",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 16.2,
+          "starter": false,
+          "shots_p90": 11.12,
+          "sot_p90": 11.12
+        },
+        {
+          "player": "Jonas Adjetey",
+          "side": "home",
+          "team": "Ghana",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Caleb Yirenkyi",
+          "side": "home",
+          "team": "Ghana",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "César Blackman",
+          "side": "away",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 89.7,
+          "starter": true,
+          "shots_p90": 2.01,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Antoine Semenyo",
+          "side": "home",
+          "team": "Ghana",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jiovany Ramos",
+          "side": "away",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Édgar Yoel Bárcenas",
+          "side": "away",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cecilio Waterman",
+          "side": "away",
+          "team": "Panama",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 62.2,
+          "starter": true,
+          "shots_p90": 1.45,
+          "sot_p90": 1.45
+        },
+        {
+          "player": "Brandon Thomas-Asante",
+          "side": "home",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 32.5,
+          "starter": false,
+          "shots_p90": 2.77,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Fatawu Issahaku",
+          "side": "home",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.5,
+          "starter": false,
+          "shots_p90": 2.77,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Carlos Harvey",
+          "side": "away",
+          "team": "Panama",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cristian Martínez",
+          "side": "away",
+          "team": "Panama",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 62.4,
+          "starter": true,
+          "shots_p90": 1.44,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 38,
+      "shots_home": 7,
+      "shots_on_target_home": 2,
+      "corners_home": 2,
+      "fouls_home": 9,
+      "saves_home": 4,
+      "offsides_home": 4,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 62,
+      "shots_away": 11,
+      "shots_on_target_away": 4,
+      "corners_away": 2,
+      "fouls_away": 11,
+      "saves_away": 2,
+      "offsides_away": 1,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:39-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.46127,
+    "log_loss": 1.58475,
+    "brier": 0.98808,
+    "surprisal": 1.58475,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.46127,
+        "log_loss": 1.58475,
+        "brier": 0.98808,
+        "surprisal": 1.58475
+      },
+      "dixon_coles": {
+        "rps": 0.34765,
+        "log_loss": 1.26585,
+        "brier": 0.78174,
+        "surprisal": 1.26585
+      },
+      "elo": {
+        "rps": 0.54184,
+        "log_loss": 1.86433,
+        "brier": 1.13986,
+        "surprisal": 1.86433
+      }
+    }
+  }
+}

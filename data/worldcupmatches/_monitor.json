@@ -1,62 +1,80 @@
 {
-  "n": 3,
+  "n": 24,
   "per_model": {
     "ensemble": {
-      "rps": 0.14627,
-      "log_loss": 0.86456,
-      "brier": 0.53658
+      "rps": 0.19734,
+      "log_loss": 1.06067,
+      "brier": 0.66023
     },
     "dixon_coles": {
-      "rps": 0.14057,
-      "log_loss": 0.83195,
-      "brier": 0.50176
+      "rps": 0.18814,
+      "log_loss": 1.01933,
+      "brier": 0.62989
     },
     "elo": {
-      "rps": 0.15906,
-      "log_loss": 0.92548,
-      "brier": 0.57888
+      "rps": 0.20478,
+      "log_loss": 1.09079,
+      "brier": 0.67984
     }
   },
   "vs_baseline": {
     "uniform": {
-      "rps": 0.22222,
+      "rps": 0.21528,
       "log_loss": 1.09861
     },
     "ensemble": {
-      "rps": 0.14627,
-      "log_loss": 0.86456
+      "rps": 0.19734,
+      "log_loss": 1.06067
     }
   },
   "calibration": [
     {
+      "bin": "0.33-0.47",
+      "n": 4,
+      "predicted": 0.406,
+      "actual": 0.5
+    },
+    {
       "bin": "0.47-0.60",
-      "n": 1,
-      "predicted": 0.538,
-      "actual": 1.0
+      "n": 9,
+      "predicted": 0.53,
+      "actual": 0.556
     },
     {
       "bin": "0.60-0.73",
-      "n": 2,
-      "predicted": 0.649,
+      "n": 8,
+      "predicted": 0.662,
       "actual": 0.5
+    },
+    {
+      "bin": "0.73-0.87",
+      "n": 2,
+      "predicted": 0.808,
+      "actual": 0.5
+    },
+    {
+      "bin": "0.87-1.00",
+      "n": 1,
+      "predicted": 0.876,
+      "actual": 0.0
     }
   ],
   "ensemble_beats_components": false,
   "most_surprising": [
     {
-      "match": "Portugal vs DR Congo",
+      "match": "Spain vs Cape Verde",
       "result": "draw",
-      "surprisal": 1.50058
+      "surprisal": 2.33204
     },
     {
-      "match": "England vs Croatia",
+      "match": "Ivory Coast vs Ecuador",
       "result": "home",
-      "surprisal": 0.6199
+      "surprisal": 1.8569
     },
     {
-      "match": "Iraq vs Norway",
-      "result": "away",
-      "surprisal": 0.47321
+      "match": "Qatar vs Switzerland",
+      "result": "draw",
+      "surprisal": 1.82635
     }
   ]
 }

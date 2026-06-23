@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-14-ger-cur",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-14-ger-cur",
+    "date": "2026-06-14",
+    "home": "Germany",
+    "away": "Curaçao",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Germany vs Curaçao",
+    "home": "Germany",
+    "away": "Curaçao",
+    "as_of": "2026-06-14",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.848,
+      0.112,
+      0.04
+    ],
+    "components": {
+      "dixon_coles": [
+        0.838,
+        0.112,
+        0.05
+      ],
+      "elo": [
+        0.801,
+        0.148,
+        0.052
+      ]
+    },
+    "expected_goals": {
+      "Germany": 3.07,
+      "Curaçao": 0.69
+    },
+    "over25": 0.725,
+    "btts": 0.478,
+    "top_scorelines": [
+      {
+        "score": "3-0",
+        "prob": 0.112
+      },
+      {
+        "score": "2-0",
+        "prob": 0.11
+      },
+      {
+        "score": "4-0",
+        "prob": 0.086
+      },
+      {
+        "score": "3-1",
+        "prob": 0.077
+      },
+      {
+        "score": "2-1",
+        "prob": 0.076
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 7,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760422",
+      "player_shots": [
+        {
+          "player": "Felix Nmecha",
+          "side": "home",
+          "team": "Germany",
+          "shots": 4,
+          "on_target": 3,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 72.4,
+          "starter": true,
+          "shots_p90": 4.97,
+          "sot_p90": 3.73
+        },
+        {
+          "player": "Kai Havertz",
+          "side": "home",
+          "team": "Germany",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Jamal Musiala",
+          "side": "home",
+          "team": "Germany",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 63.7,
+          "starter": true,
+          "shots_p90": 4.24,
+          "sot_p90": 1.41
+        },
+        {
+          "player": "Aleksandar Pavlovic",
+          "side": "home",
+          "team": "Germany",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Florian Wirtz",
+          "side": "home",
+          "team": "Germany",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Leroy Sané",
+          "side": "home",
+          "team": "Germany",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nico Schlotterbeck",
+          "side": "home",
+          "team": "Germany",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Nathaniel Brown",
+          "side": "home",
+          "team": "Germany",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 72.5,
+          "starter": true,
+          "shots_p90": 2.48,
+          "sot_p90": 1.24
+        },
+        {
+          "player": "Livano Comenencia",
+          "side": "away",
+          "team": "Curaçao",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Leandro Bacuna",
+          "side": "away",
+          "team": "Curaçao",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "David Raum",
+          "side": "home",
+          "team": "Germany",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 17.5,
+          "starter": false,
+          "shots_p90": 5.15,
+          "sot_p90": 5.15
+        },
+        {
+          "player": "Deniz Undav",
+          "side": "home",
+          "team": "Germany",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 2,
+          "minutes": 26.3,
+          "starter": false,
+          "shots_p90": 3.42,
+          "sot_p90": 3.42
+        },
+        {
+          "player": "Sontje Hansen",
+          "side": "away",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Jearl Margaritha",
+          "side": "away",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 25.8,
+          "starter": false,
+          "shots_p90": 3.49,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Tahith Chong",
+          "side": "away",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.2,
+          "starter": true,
+          "shots_p90": 1.1,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Juninho Bacuna",
+          "side": "away",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 64.6,
+      "shots_home": 26,
+      "shots_on_target_home": 12,
+      "corners_home": 8,
+      "fouls_home": 18,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 35.4,
+      "shots_away": 8,
+      "shots_on_target_away": 2,
+      "corners_away": 1,
+      "fouls_away": 11,
+      "saves_away": 4,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:36-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.01235,
+    "log_loss": 0.16487,
+    "brier": 0.03725,
+    "surprisal": 0.16487,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.01235,
+        "log_loss": 0.16487,
+        "brier": 0.03725,
+        "surprisal": 0.16487
+      },
+      "dixon_coles": {
+        "rps": 0.01437,
+        "log_loss": 0.17674,
+        "brier": 0.04129,
+        "surprisal": 0.17674
+      },
+      "elo": {
+        "rps": 0.02131,
+        "log_loss": 0.22289,
+        "brier": 0.06448,
+        "surprisal": 0.22289
+      }
+    }
+  }
+}

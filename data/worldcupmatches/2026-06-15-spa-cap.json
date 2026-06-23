@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-06-15-spa-cap",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-15-spa-cap",
+    "date": "2026-06-15",
+    "home": "Spain",
+    "away": "Cape Verde",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Spain vs Cape Verde",
+    "home": "Spain",
+    "away": "Cape Verde",
+    "as_of": "2026-06-15",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.876,
+      0.097,
+      0.026
+    ],
+    "components": {
+      "dixon_coles": [
+        0.801,
+        0.145,
+        0.055
+      ],
+      "elo": [
+        0.894,
+        0.089,
+        0.017
+      ]
+    },
+    "expected_goals": {
+      "Spain": 2.52,
+      "Cape Verde": 0.54
+    },
+    "over25": 0.59,
+    "btts": 0.387,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.149
+      },
+      {
+        "score": "3-0",
+        "prob": 0.125
+      },
+      {
+        "score": "1-0",
+        "prob": 0.114
+      },
+      {
+        "score": "2-1",
+        "prob": 0.08
+      },
+      {
+        "score": "4-0",
+        "prob": 0.079
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760428",
+      "player_shots": [
+        {
+          "player": "Fabián Ruiz",
+          "side": "home",
+          "team": "Spain",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.5,
+          "starter": true,
+          "shots_p90": 6.39,
+          "sot_p90": 1.28
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "side": "home",
+          "team": "Spain",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ferran Torres",
+          "side": "home",
+          "team": "Spain",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 80.6,
+          "starter": true,
+          "shots_p90": 4.47,
+          "sot_p90": 1.12
+        },
+        {
+          "player": "Aymeric Laporte",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Marc Cucurella",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Pedri ",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rodri ",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 86.7,
+          "starter": true,
+          "shots_p90": 2.08,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lamine Yamal",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.3,
+          "starter": false,
+          "shots_p90": 9.3,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mikel Merino",
+          "side": "home",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.5,
+          "starter": false,
+          "shots_p90": 4.6,
+          "sot_p90": 4.6
+        },
+        {
+          "player": "Diney Borges",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Pau Cubarsí",
+          "side": "home",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gavi ",
+          "side": "home",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.7,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kevin Pina",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Steven Moreira",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jovane Cabral",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.5,
+          "starter": true,
+          "shots_p90": 1.49,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ryan Mendes",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Dailon Livramento",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.7,
+          "starter": true,
+          "shots_p90": 1.48,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 74.3,
+      "shots_home": 27,
+      "shots_on_target_home": 7,
+      "corners_home": 11,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 25.7,
+      "shots_away": 6,
+      "shots_on_target_away": 1,
+      "corners_away": 1,
+      "fouls_away": 1,
+      "saves_away": 7,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:37-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.3848,
+    "log_loss": 2.33204,
+    "brier": 1.58482,
+    "surprisal": 2.33204,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.3848,
+        "log_loss": 2.33204,
+        "brier": 1.58482,
+        "surprisal": 2.33204
+      },
+      "dixon_coles": {
+        "rps": 0.32167,
+        "log_loss": 1.93202,
+        "brier": 1.37461,
+        "surprisal": 1.93202
+      },
+      "elo": {
+        "rps": 0.39976,
+        "log_loss": 2.41912,
+        "brier": 1.62945,
+        "surprisal": 2.41912
+      }
+    }
+  }
+}

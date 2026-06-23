@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-16-aus-jor",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-16-aus-jor",
+    "date": "2026-06-16",
+    "home": "Austria",
+    "away": "Jordan",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Austria vs Jordan",
+    "home": "Austria",
+    "away": "Jordan",
+    "as_of": "2026-06-16",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.56,
+      0.243,
+      0.197
+    ],
+    "components": {
+      "dixon_coles": [
+        0.547,
+        0.253,
+        0.2
+      ],
+      "elo": [
+        0.531,
+        0.253,
+        0.217
+      ]
+    },
+    "expected_goals": {
+      "Austria": 1.72,
+      "Jordan": 0.95
+    },
+    "over25": 0.5,
+    "btts": 0.512,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.121
+      },
+      {
+        "score": "1-0",
+        "prob": 0.111
+      },
+      {
+        "score": "2-0",
+        "prob": 0.102
+      },
+      {
+        "score": "2-1",
+        "prob": 0.097
+      },
+      {
+        "score": "0-0",
+        "prob": 0.077
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760431",
+      "player_shots": [
+        {
+          "player": "Ali Olwan",
+          "side": "away",
+          "team": "Jordan",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Mousa Al-Tamari",
+          "side": "away",
+          "team": "Jordan",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 87.1,
+          "starter": true,
+          "shots_p90": 4.13,
+          "sot_p90": 1.03
+        },
+        {
+          "player": "Marko Arnautovic",
+          "side": "home",
+          "team": "Austria",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Stefan Posch",
+          "side": "home",
+          "team": "Austria",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Sasa Kalajdzic",
+          "side": "home",
+          "team": "Austria",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Romano Schmid",
+          "side": "home",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 82.3,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 1.09
+        },
+        {
+          "player": "Carney Chukwuemeka",
+          "side": "home",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 31.7,
+          "starter": false,
+          "shots_p90": 2.84,
+          "sot_p90": 2.84
+        },
+        {
+          "player": "Odeh Fakhoury",
+          "side": "away",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 88.1,
+          "starter": true,
+          "shots_p90": 1.02,
+          "sot_p90": 1.02
+        },
+        {
+          "player": "David Alaba",
+          "side": "home",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 58.3,
+          "starter": true,
+          "shots_p90": 1.54,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Konrad Laimer",
+          "side": "home",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Marcel Sabitzer",
+          "side": "home",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ehsan Haddad",
+          "side": "away",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 81.0,
+          "starter": true,
+          "shots_p90": 1.11,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ali Azaizeh",
+          "side": "away",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 1.9,
+          "starter": false,
+          "shots_p90": 46.55,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 63.2,
+      "shots_home": 11,
+      "shots_on_target_home": 4,
+      "corners_home": 4,
+      "fouls_home": 12,
+      "saves_home": 3,
+      "offsides_home": 3,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 36.8,
+      "shots_away": 11,
+      "shots_on_target_away": 4,
+      "corners_away": 3,
+      "fouls_away": 7,
+      "saves_away": 1,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:38-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.1162,
+    "log_loss": 0.57982,
+    "brier": 0.29146,
+    "surprisal": 0.57982,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.1162,
+        "log_loss": 0.57982,
+        "brier": 0.29146,
+        "surprisal": 0.57982
+      },
+      "dixon_coles": {
+        "rps": 0.1226,
+        "log_loss": 0.60331,
+        "brier": 0.30922,
+        "surprisal": 0.60331
+      },
+      "elo": {
+        "rps": 0.13373,
+        "log_loss": 0.63399,
+        "brier": 0.33133,
+        "surprisal": 0.63399
+      }
+    }
+  }
+}

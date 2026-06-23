@@ -1,0 +1,365 @@
+{
+  "match_key": "2026-06-15-ira-new",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-15-ira-new",
+    "date": "2026-06-15",
+    "home": "Iran",
+    "away": "New Zealand",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Iran vs New Zealand",
+    "home": "Iran",
+    "away": "New Zealand",
+    "as_of": "2026-06-15",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.603,
+      0.236,
+      0.162
+    ],
+    "components": {
+      "dixon_coles": [
+        0.56,
+        0.259,
+        0.181
+      ],
+      "elo": [
+        0.594,
+        0.236,
+        0.17
+      ]
+    },
+    "expected_goals": {
+      "Iran": 1.66,
+      "New Zealand": 0.84
+    },
+    "over25": 0.457,
+    "btts": 0.469,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.128
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "2-0",
+        "prob": 0.113
+      },
+      {
+        "score": "2-1",
+        "prob": 0.095
+      },
+      {
+        "score": "0-0",
+        "prob": 0.09
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760427",
+      "player_shots": [
+        {
+          "player": "Chris Wood",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Sarpreet Singh",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Shahriyar Moghanloo",
+          "side": "home",
+          "team": "Iran",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 52.9,
+          "starter": true,
+          "shots_p90": 5.11,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Elijah Just",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "side": "home",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mohammad Mohebbi",
+          "side": "home",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Callum McCowatt",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 67.3,
+          "starter": true,
+          "shots_p90": 2.67,
+          "sot_p90": 1.34
+        },
+        {
+          "player": "Saman Ghoddos",
+          "side": "home",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 64.4,
+          "starter": true,
+          "shots_p90": 2.79,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mehdi Taremi",
+          "side": "home",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.5,
+          "starter": true,
+          "shots_p90": 2.26,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ramin Rezaeian",
+          "side": "home",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Arya Yousefi",
+          "side": "home",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Liberato Cacace",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 67.6,
+          "starter": true,
+          "shots_p90": 1.33,
+          "sot_p90": 1.33
+        },
+        {
+          "player": "Ali Nemati",
+          "side": "home",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mehdi Ghayedi",
+          "side": "home",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ali Alipour",
+          "side": "home",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 37.1,
+          "starter": false,
+          "shots_p90": 2.42,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ehsan Hajsafi",
+          "side": "home",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 25.6,
+          "starter": false,
+          "shots_p90": 3.52,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Finn Surman",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Marko Stamenic",
+          "side": "away",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 48.5,
+      "shots_home": 17,
+      "shots_on_target_home": 4,
+      "corners_home": 4,
+      "fouls_home": 10,
+      "saves_home": 6,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 51.5,
+      "shots_away": 14,
+      "shots_on_target_away": 8,
+      "corners_away": 1,
+      "fouls_away": 8,
+      "saves_away": 2,
+      "offsides_away": 0,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:37-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.19454,
+    "log_loss": 1.44492,
+    "brier": 0.97313,
+    "surprisal": 1.44492,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.19454,
+        "log_loss": 1.44492,
+        "brier": 0.97313,
+        "surprisal": 1.44492
+      },
+      "dixon_coles": {
+        "rps": 0.17318,
+        "log_loss": 1.35093,
+        "brier": 0.89544,
+        "surprisal": 1.35093
+      },
+      "elo": {
+        "rps": 0.19087,
+        "log_loss": 1.44392,
+        "brier": 0.96543,
+        "surprisal": 1.44392
+      }
+    }
+  }
+}

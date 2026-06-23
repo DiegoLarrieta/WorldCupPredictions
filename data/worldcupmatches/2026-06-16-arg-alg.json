@@ -1,0 +1,248 @@
+{
+  "match_key": "2026-06-16-arg-alg",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-16-arg-alg",
+    "date": "2026-06-16",
+    "home": "Argentina",
+    "away": "Algeria",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Argentina vs Algeria",
+    "home": "Argentina",
+    "away": "Algeria",
+    "as_of": "2026-06-16",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.703,
+      0.209,
+      0.088
+    ],
+    "components": {
+      "dixon_coles": [
+        0.605,
+        0.271,
+        0.124
+      ],
+      "elo": [
+        0.736,
+        0.181,
+        0.083
+      ]
+    },
+    "expected_goals": {
+      "Argentina": 1.51,
+      "Algeria": 0.54
+    },
+    "over25": 0.338,
+    "btts": 0.333,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.187
+      },
+      {
+        "score": "2-0",
+        "prob": 0.147
+      },
+      {
+        "score": "0-0",
+        "prob": 0.135
+      },
+      {
+        "score": "1-1",
+        "prob": 0.112
+      },
+      {
+        "score": "2-1",
+        "prob": 0.079
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760433",
+      "player_shots": [
+        {
+          "player": "Lionel Messi",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 6,
+          "on_target": 4,
+          "goals": 3,
+          "assists": 0,
+          "minutes": 79.0,
+          "starter": true,
+          "shots_p90": 6.83,
+          "sot_p90": 4.56
+        },
+        {
+          "player": "Farès Chaïbi",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alexis Mac Allister",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Lautaro Martínez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 54.9,
+          "starter": true,
+          "shots_p90": 1.64,
+          "sot_p90": 1.64
+        },
+        {
+          "player": "Thiago Almada",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 54.9,
+          "starter": true,
+          "shots_p90": 1.64,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ibrahim Maza",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Anis Hadj Moussa",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.6,
+          "starter": true,
+          "shots_p90": 1.42,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Riyad Mahrez",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 26.4,
+          "starter": false,
+          "shots_p90": 3.41,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Houssem Aouar",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 26.7,
+          "starter": false,
+          "shots_p90": 3.37,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 47.8,
+      "shots_home": 10,
+      "shots_on_target_home": 6,
+      "corners_home": 2,
+      "fouls_home": 13,
+      "saves_home": 0,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 52.2,
+      "shots_away": 7,
+      "shots_on_target_away": 1,
+      "corners_away": 2,
+      "fouls_away": 8,
+      "saves_away": 3,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:38-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.04798,
+    "log_loss": 0.3524,
+    "brier": 0.13963,
+    "surprisal": 0.3524,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.04798,
+        "log_loss": 0.3524,
+        "brier": 0.13963,
+        "surprisal": 0.3524
+      },
+      "dixon_coles": {
+        "rps": 0.0857,
+        "log_loss": 0.50253,
+        "brier": 0.24484,
+        "surprisal": 0.50253
+      },
+      "elo": {
+        "rps": 0.03829,
+        "log_loss": 0.30653,
+        "brier": 0.10935,
+        "surprisal": 0.30653
+      }
+    }
+  }
+}
