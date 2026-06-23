@@ -67,7 +67,8 @@ def main() -> None:
     ap.add_argument("week_dir", nargs="?", default="predictions/week1")
     args = ap.parse_args()
 
-    folders = sorted(p.parent for p in Path(args.week_dir).glob("*/prediction.json"))
+    # recurse: folders may be flat (week/<slug>) or nested by group (week/groupX/<slug>)
+    folders = sorted(p.parent for p in Path(args.week_dir).glob("**/prediction.json"))
     if not folders:
         sys.exit(f"No prediction.json under {args.week_dir}/")
 

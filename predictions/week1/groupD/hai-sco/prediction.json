@@ -64,5 +64,13 @@
     }
   ],
   "lineups": null,
-  "actual_result": null
+  "actual_result": {
+    "score": "0-1",
+    "result": "away",
+    "scored_at": "2026-06-23T17:16:14-06:00",
+    "rps": 0.16358,
+    "log_loss": 0.71539,
+    "brier": 0.39169,
+    "surprisal": 0.71539
+  }
 }

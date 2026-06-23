@@ -64,5 +64,13 @@
     }
   ],
   "lineups": null,
-  "actual_result": null
+  "actual_result": {
+    "score": "7-1",
+    "result": "home",
+    "scored_at": "2026-06-23T17:16:14-06:00",
+    "rps": 0.01235,
+    "log_loss": 0.16487,
+    "brier": 0.03725,
+    "surprisal": 0.16487
+  }
 }

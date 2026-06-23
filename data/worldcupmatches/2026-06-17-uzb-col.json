@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-17-uzb-col",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-17-uzb-col",
+    "date": "2026-06-17",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Uzbekistan vs Colombia",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "as_of": "2026-06-17",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.122,
+      0.232,
+      0.646
+    ],
+    "components": {
+      "dixon_coles": [
+        0.125,
+        0.257,
+        0.618
+      ],
+      "elo": [
+        0.147,
+        0.233,
+        0.62
+      ]
+    },
+    "expected_goals": {
+      "Uzbekistan": 0.61,
+      "Colombia": 1.64
+    },
+    "over25": 0.391,
+    "btts": 0.376,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.164
+      },
+      {
+        "score": "0-2",
+        "prob": 0.142
+      },
+      {
+        "score": "0-0",
+        "prob": 0.114
+      },
+      {
+        "score": "1-1",
+        "prob": 0.114
+      },
+      {
+        "score": "1-2",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 3,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760436",
+      "player_shots": [
+        {
+          "player": "Jefferson Lerma",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Luis Díaz",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "James Rodríguez",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.8,
+          "starter": true,
+          "shots_p90": 2.51,
+          "sot_p90": 1.25
+        },
+        {
+          "player": "Jáminton Campaz",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 18.2,
+          "starter": false,
+          "shots_p90": 9.86,
+          "sot_p90": 4.93
+        },
+        {
+          "player": "Behruzjon Karimov",
+          "side": "home",
+          "team": "Uzbekistan",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Dostonbek Khamdamov",
+          "side": "home",
+          "team": "Uzbekistan",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jhon Arias",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Eldor Shomurodov",
+          "side": "home",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Abbosbek Fayzullaev",
+          "side": "home",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 76.8,
+          "starter": true,
+          "shots_p90": 1.17,
+          "sot_p90": 1.17
+        },
+        {
+          "player": "Daniel Muñoz",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Akmal Mozgovoy",
+          "side": "home",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Azizbek Amonov",
+          "side": "home",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 13.2,
+          "starter": false,
+          "shots_p90": 6.8,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Davinson Sánchez",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Johan Mojica",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gustavo Puerta",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 79.4,
+          "starter": true,
+          "shots_p90": 1.13,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 38.6,
+      "shots_home": 8,
+      "shots_on_target_home": 2,
+      "corners_home": 3,
+      "fouls_home": 14,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 61.4,
+      "shots_away": 15,
+      "shots_on_target_away": 4,
+      "corners_away": 4,
+      "fouls_away": 11,
+      "saves_away": 1,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:40-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.0701,
+    "log_loss": 0.43696,
+    "brier": 0.19402,
+    "surprisal": 0.43696,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.0701,
+        "log_loss": 0.43696,
+        "brier": 0.19402,
+        "surprisal": 0.43696
+      },
+      "dixon_coles": {
+        "rps": 0.08077,
+        "log_loss": 0.48127,
+        "brier": 0.2276,
+        "surprisal": 0.48127
+      },
+      "elo": {
+        "rps": 0.083,
+        "log_loss": 0.47804,
+        "brier": 0.2203,
+        "surprisal": 0.47804
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-12-can-bos",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-12-can-bos",
+    "date": "2026-06-12",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Canada vs Bosnia and Herzegovina",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "as_of": "2026-06-12",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.681,
+      0.216,
+      0.103
+    ],
+    "components": {
+      "dixon_coles": [
+        0.616,
+        0.259,
+        0.125
+      ],
+      "elo": [
+        0.685,
+        0.203,
+        0.112
+      ]
+    },
+    "expected_goals": {
+      "Canada": 1.63,
+      "Bosnia and Herzegovina": 0.6
+    },
+    "over25": 0.386,
+    "btts": 0.373,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.166
+      },
+      {
+        "score": "2-0",
+        "prob": 0.143
+      },
+      {
+        "score": "0-0",
+        "prob": 0.116
+      },
+      {
+        "score": "1-1",
+        "prob": 0.114
+      },
+      {
+        "score": "2-1",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:13-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760416",
+      "player_shots": [
+        {
+          "player": "Jovo Lukic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 61.2,
+          "starter": true,
+          "shots_p90": 4.41,
+          "sot_p90": 2.94
+        },
+        {
+          "player": "Jonathan David",
+          "side": "home",
+          "team": "Canada",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.9,
+          "starter": true,
+          "shots_p90": 4.44,
+          "sot_p90": 1.48
+        },
+        {
+          "player": "Tani Oluwaseyi",
+          "side": "home",
+          "team": "Canada",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.0,
+          "starter": true,
+          "shots_p90": 2.37,
+          "sot_p90": 1.18
+        },
+        {
+          "player": "Cyle Larin",
+          "side": "home",
+          "team": "Canada",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 14.0,
+          "starter": false,
+          "shots_p90": 12.83,
+          "sot_p90": 6.41
+        },
+        {
+          "player": "Richie Laryea",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ermedin Demirovic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Derek Cornelius",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alistair Johnston",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Stephen Eustáquio",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ismaël Koné",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Promise David",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 29.1,
+          "starter": false,
+          "shots_p90": 3.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Tarik Muharemovic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Benjamin Tahirovic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Amar Memic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.9,
+          "starter": true,
+          "shots_p90": 1.22,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Dzenis Burnic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.4,
+          "starter": false,
+          "shots_p90": 14.14,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 61.1,
+      "shots_home": 13,
+      "shots_on_target_home": 4,
+      "corners_home": 9,
+      "fouls_home": 10,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 38.9,
+      "shots_away": 8,
+      "shots_on_target_away": 3,
+      "corners_away": 4,
+      "fouls_away": 20,
+      "saves_away": 1,
+      "offsides_away": 0,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:33-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.23719,
+    "log_loss": 1.53248,
+    "brier": 1.08903,
+    "surprisal": 1.53248,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.23719,
+        "log_loss": 1.53248,
+        "brier": 1.08903,
+        "surprisal": 1.53248
+      },
+      "dixon_coles": {
+        "rps": 0.19754,
+        "log_loss": 1.35093,
+        "brier": 0.94416,
+        "surprisal": 1.35093
+      },
+      "elo": {
+        "rps": 0.24088,
+        "log_loss": 1.59455,
+        "brier": 1.11698,
+        "surprisal": 1.59455
+      }
+    }
+  }
+}

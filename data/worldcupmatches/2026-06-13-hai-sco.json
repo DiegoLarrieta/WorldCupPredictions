@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-13-hai-sco",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-13-hai-sco",
+    "date": "2026-06-13",
+    "home": "Haiti",
+    "away": "Scotland",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Haiti vs Scotland",
+    "home": "Haiti",
+    "away": "Scotland",
+    "as_of": "2026-06-13",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.257,
+      0.254,
+      0.489
+    ],
+    "components": {
+      "dixon_coles": [
+        0.291,
+        0.26,
+        0.45
+      ],
+      "elo": [
+        0.24,
+        0.264,
+        0.496
+      ]
+    },
+    "expected_goals": {
+      "Haiti": 1.25,
+      "Scotland": 1.61
+    },
+    "over25": 0.544,
+    "btts": 0.577,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "1-2",
+        "prob": 0.093
+      },
+      {
+        "score": "0-1",
+        "prob": 0.085
+      },
+      {
+        "score": "0-2",
+        "prob": 0.074
+      },
+      {
+        "score": "2-1",
+        "prob": 0.072
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760418",
+      "player_shots": [
+        {
+          "player": "Ruben Providence",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.8,
+          "starter": true,
+          "shots_p90": 3.19,
+          "sot_p90": 1.06
+        },
+        {
+          "player": "Frantzdy Pierrot",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Jean-Ricner Bellegarde",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "John McGinn",
+          "side": "away",
+          "team": "Scotland",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 82.2,
+          "starter": true,
+          "shots_p90": 2.19,
+          "sot_p90": 1.09
+        },
+        {
+          "player": "Wilson Isidor",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.2,
+          "starter": true,
+          "shots_p90": 2.39,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Scott McTominay",
+          "side": "away",
+          "team": "Scotland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ben Gannon-Doak",
+          "side": "away",
+          "team": "Scotland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.5,
+          "starter": true,
+          "shots_p90": 2.42,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lawrence Shankland",
+          "side": "away",
+          "team": "Scotland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.3,
+          "starter": true,
+          "shots_p90": 2.19,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ché Adams",
+          "side": "away",
+          "team": "Scotland",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.5,
+          "starter": true,
+          "shots_p90": 1.21,
+          "sot_p90": 1.21
+        },
+        {
+          "player": "Ricardo Adé",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Martin Expérience",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Louicius Deedson",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.8,
+          "starter": true,
+          "shots_p90": 1.48,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Josué Casimir",
+          "side": "home",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.2,
+          "starter": false,
+          "shots_p90": 3.08,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 53.7,
+      "shots_home": 15,
+      "shots_on_target_home": 2,
+      "corners_home": 4,
+      "fouls_home": 23,
+      "saves_home": 1,
+      "offsides_home": 3,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 46.3,
+      "shots_away": 9,
+      "shots_on_target_away": 2,
+      "corners_away": 3,
+      "fouls_away": 21,
+      "saves_away": 2,
+      "offsides_away": 1,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:35-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.16358,
+    "log_loss": 0.71539,
+    "brier": 0.39169,
+    "surprisal": 0.71539,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.16358,
+        "log_loss": 0.71539,
+        "brier": 0.39169,
+        "surprisal": 0.71539
+      },
+      "dixon_coles": {
+        "rps": 0.19375,
+        "log_loss": 0.79951,
+        "brier": 0.45497,
+        "surprisal": 0.79951
+      },
+      "elo": {
+        "rps": 0.15581,
+        "log_loss": 0.70118,
+        "brier": 0.38131,
+        "surprisal": 0.70118
+      }
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-06-12-uni-par",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-12-uni-par",
+    "date": "2026-06-12",
+    "home": "United States",
+    "away": "Paraguay",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "United States vs Paraguay",
+    "home": "United States",
+    "away": "Paraguay",
+    "as_of": "2026-06-12",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.255,
+      0.28,
+      0.465
+    ],
+    "components": {
+      "dixon_coles": [
+        0.235,
+        0.301,
+        0.464
+      ],
+      "elo": [
+        0.288,
+        0.271,
+        0.441
+      ]
+    },
+    "expected_goals": {
+      "United States": 0.88,
+      "Paraguay": 1.35
+    },
+    "over25": 0.385,
+    "btts": 0.445,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "0-1",
+        "prob": 0.134
+      },
+      {
+        "score": "0-0",
+        "prob": 0.119
+      },
+      {
+        "score": "0-2",
+        "prob": 0.098
+      },
+      {
+        "score": "1-2",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 4,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:13-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760417",
+      "player_shots": [
+        {
+          "player": "Folarin Balogun",
+          "side": "home",
+          "team": "United States",
+          "shots": 5,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 71.7,
+          "starter": true,
+          "shots_p90": 6.28,
+          "sot_p90": 3.77
+        },
+        {
+          "player": "Malik Tillman",
+          "side": "home",
+          "team": "United States",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 81.4,
+          "starter": true,
+          "shots_p90": 5.53,
+          "sot_p90": 2.21
+        },
+        {
+          "player": "Diego Gómez",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.8,
+          "starter": true,
+          "shots_p90": 4.51,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Timothy Weah",
+          "side": "home",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.4,
+          "starter": false,
+          "shots_p90": 9.8,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Miguel Almirón",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 78.8,
+          "starter": true,
+          "shots_p90": 2.28,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Julio Enciso",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Giovanni Reyna",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 8.6,
+          "starter": false,
+          "shots_p90": 10.44,
+          "sot_p90": 10.44
+        },
+        {
+          "player": "Maurício",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Chris Richards",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Sebastian Berhalter",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ricardo Pepi",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.3,
+          "starter": false,
+          "shots_p90": 4.9,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 65.3,
+      "shots_home": 16,
+      "shots_on_target_home": 6,
+      "corners_home": 3,
+      "fouls_home": 13,
+      "saves_home": 1,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 34.7,
+      "shots_away": 9,
+      "shots_on_target_away": 1,
+      "corners_away": 1,
+      "fouls_away": 17,
+      "saves_away": 3,
+      "offsides_away": 1,
+      "yellow_cards_away": 5,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:34-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.38562,
+    "log_loss": 1.36649,
+    "brier": 0.84965,
+    "surprisal": 1.36649,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.38562,
+        "log_loss": 1.36649,
+        "brier": 0.84965,
+        "surprisal": 1.36649
+      },
+      "dixon_coles": {
+        "rps": 0.40026,
+        "log_loss": 1.44817,
+        "brier": 0.89112,
+        "surprisal": 1.44817
+      },
+      "elo": {
+        "rps": 0.35071,
+        "log_loss": 1.24479,
+        "brier": 0.77487,
+        "surprisal": 1.24479
+      }
+    }
+  }
+}

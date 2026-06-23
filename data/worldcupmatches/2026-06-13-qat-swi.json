@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-06-13-qat-swi",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-13-qat-swi",
+    "date": "2026-06-13",
+    "home": "Qatar",
+    "away": "Switzerland",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Qatar vs Switzerland",
+    "home": "Qatar",
+    "away": "Switzerland",
+    "as_of": "2026-06-13",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.071,
+      0.161,
+      0.768
+    ],
+    "components": {
+      "dixon_coles": [
+        0.101,
+        0.177,
+        0.722
+      ],
+      "elo": [
+        0.07,
+        0.18,
+        0.751
+      ]
+    },
+    "expected_goals": {
+      "Qatar": 0.79,
+      "Switzerland": 2.37
+    },
+    "over25": 0.611,
+    "btts": 0.498,
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.12
+      },
+      {
+        "score": "0-1",
+        "prob": 0.096
+      },
+      {
+        "score": "0-3",
+        "prob": 0.095
+      },
+      {
+        "score": "1-2",
+        "prob": 0.094
+      },
+      {
+        "score": "1-1",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:13-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760420",
+      "player_shots": [
+        {
+          "player": "Dan Ndoye",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 6,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.0,
+          "starter": true,
+          "shots_p90": 8.31,
+          "sot_p90": 2.77
+        },
+        {
+          "player": "Breel Embolo",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rubén Vargas",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 78.4,
+          "starter": true,
+          "shots_p90": 3.44,
+          "sot_p90": 1.15
+        },
+        {
+          "player": "Edmílson Junior",
+          "side": "home",
+          "team": "Qatar",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 88.0,
+          "starter": true,
+          "shots_p90": 2.05,
+          "sot_p90": 2.05
+        },
+        {
+          "player": "Denis Zakaria",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Nico Elvedi",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Granit Xhaka",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Johan Manzambi",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 25.0,
+          "starter": false,
+          "shots_p90": 7.2,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ahmed Alaaeldin",
+          "side": "home",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.2,
+          "starter": false,
+          "shots_p90": 2.98,
+          "sot_p90": 2.98
+        },
+        {
+          "player": "Manuel Akanji",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Michel Aebischer",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.0,
+          "starter": true,
+          "shots_p90": 1.39,
+          "sot_p90": 1.39
+        },
+        {
+          "player": "Homam Ahmed",
+          "side": "home",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Issa Laye",
+          "side": "home",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Karim Boudiaf",
+          "side": "home",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.6,
+          "starter": false,
+          "shots_p90": 2.94,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Fabian Rieder",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 25.0,
+          "starter": false,
+          "shots_p90": 3.6,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Zeki Amdouni",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 11.6,
+          "starter": false,
+          "shots_p90": 7.76,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ardon Jashari",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 1.9,
+          "starter": false,
+          "shots_p90": 46.96,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 32,
+      "shots_home": 6,
+      "shots_on_target_home": 3,
+      "corners_home": 3,
+      "fouls_home": 12,
+      "saves_home": 5,
+      "offsides_home": 0,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 68,
+      "shots_away": 26,
+      "shots_on_target_away": 7,
+      "corners_away": 10,
+      "fouls_away": 11,
+      "saves_away": 3,
+      "offsides_away": 1,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:34-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.29743,
+    "log_loss": 1.82635,
+    "brier": 1.29879,
+    "surprisal": 1.82635,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.29743,
+        "log_loss": 1.82635,
+        "brier": 1.29879,
+        "surprisal": 1.82635
+      },
+      "dixon_coles": {
+        "rps": 0.26574,
+        "log_loss": 1.73161,
+        "brier": 1.20881,
+        "surprisal": 1.73161
+      },
+      "elo": {
+        "rps": 0.28388,
+        "log_loss": 1.7158,
+        "brier": 1.24046,
+        "surprisal": 1.7158
+      }
+    }
+  }
+}

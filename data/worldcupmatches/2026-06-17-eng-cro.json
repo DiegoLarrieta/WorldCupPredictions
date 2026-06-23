@@ -72,8 +72,8 @@
       "home_goals": 4,
       "away_goals": 2,
       "result": "home",
-      "source": "oddsapi-scores",
-      "captured_at": "2026-06-18T17:05:21-06:00"
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
     },
     "rich": {
       "espn_event_id": "760437",
@@ -86,7 +86,10 @@
           "on_target": 3,
           "goals": 2,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 7.0,
+          "sot_p90": 3.0
         },
         {
           "player": "Jude Bellingham",
@@ -96,7 +99,10 @@
           "on_target": 2,
           "goals": 1,
           "assists": 0,
-          "starter": true
+          "minutes": 79.3,
+          "starter": true,
+          "shots_p90": 3.4,
+          "sot_p90": 2.27
         },
         {
           "player": "Ezri Konsa",
@@ -106,7 +112,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
         },
         {
           "player": "Nico O'Reilly",
@@ -116,7 +125,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
         },
         {
           "player": "Anthony Gordon",
@@ -126,7 +138,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 71.9,
+          "starter": true,
+          "shots_p90": 2.5,
+          "sot_p90": 1.25
         },
         {
           "player": "Declan Rice",
@@ -136,7 +151,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 1,
-          "starter": true
+          "minutes": 71.7,
+          "starter": true,
+          "shots_p90": 1.26,
+          "sot_p90": 1.26
         },
         {
           "player": "Djed Spence",
@@ -146,7 +164,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 10.7,
+          "starter": false,
+          "shots_p90": 8.42,
+          "sot_p90": 8.42
         },
         {
           "player": "Marcus Rashford",
@@ -156,7 +177,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": false
+          "minutes": 18.1,
+          "starter": false,
+          "shots_p90": 4.98,
+          "sot_p90": 4.98
         },
         {
           "player": "Petar Musa",
@@ -166,7 +190,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": true
+          "minutes": 65.6,
+          "starter": true,
+          "shots_p90": 1.37,
+          "sot_p90": 1.37
         },
         {
           "player": "Martin Baturina",
@@ -176,7 +203,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": true
+          "minutes": 77.9,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 1.16
         },
         {
           "player": "Mateo Kovacic",
@@ -186,7 +216,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 32.7,
+          "starter": false,
+          "shots_p90": 2.75,
+          "sot_p90": 2.75
         },
         {
           "player": "Igor Matanovic",
@@ -196,7 +229,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 24.4,
+          "starter": false,
+          "shots_p90": 3.69,
+          "sot_p90": 3.69
         },
         {
           "player": "Marco Pasalic",
@@ -206,7 +242,10 @@
           "on_target": 1,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 24.3,
+          "starter": false,
+          "shots_p90": 3.7,
+          "sot_p90": 3.7
         },
         {
           "player": "Reece James",
@@ -216,7 +255,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Elliot Anderson",
@@ -226,7 +268,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 1,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Noni Madueke",
@@ -236,7 +281,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 71.9,
+          "starter": true,
+          "shots_p90": 1.25,
+          "sot_p90": 0.0
         },
         {
           "player": "Josko Gvardiol",
@@ -246,7 +294,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Josip Sutalo",
@@ -256,7 +307,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Mario Pasalic",
@@ -266,7 +320,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 77.9,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 0.0
         },
         {
           "player": "Petar Sucic",
@@ -276,7 +333,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 1,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Andrej Kramaric",
@@ -286,7 +346,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 12.1,
+          "starter": false,
+          "shots_p90": 7.44,
+          "sot_p90": 0.0
         }
       ],
       "possession_home": 51.7,
@@ -308,7 +371,7 @@
       "yellow_cards_away": 0,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-06-18T17:10:42-06:00"
+      "captured_at": "2026-06-23T17:17:39-06:00"
     }
   },
   "scores": {

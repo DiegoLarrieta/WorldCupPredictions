@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-06-14-net-jap",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-14-net-jap",
+    "date": "2026-06-14",
+    "home": "Netherlands",
+    "away": "Japan",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Netherlands vs Japan",
+    "home": "Netherlands",
+    "away": "Japan",
+    "as_of": "2026-06-14",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.355,
+      0.28,
+      0.366
+    ],
+    "components": {
+      "dixon_coles": [
+        0.286,
+        0.299,
+        0.415
+      ],
+      "elo": [
+        0.414,
+        0.272,
+        0.314
+      ]
+    },
+    "expected_goals": {
+      "Netherlands": 1.02,
+      "Japan": 1.28
+    },
+    "over25": 0.404,
+    "btts": 0.471,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.14
+      },
+      {
+        "score": "0-1",
+        "prob": 0.119
+      },
+      {
+        "score": "0-0",
+        "prob": 0.109
+      },
+      {
+        "score": "1-0",
+        "prob": 0.093
+      },
+      {
+        "score": "1-2",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:14-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760425",
+      "player_shots": [
+        {
+          "player": "Keito Nakamura",
+          "side": "away",
+          "team": "Japan",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Donyell Malen",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 69.7,
+          "starter": true,
+          "shots_p90": 2.58,
+          "sot_p90": 2.58
+        },
+        {
+          "player": "Cody Gakpo",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.0,
+          "starter": true,
+          "shots_p90": 2.14,
+          "sot_p90": 1.07
+        },
+        {
+          "player": "Teun Koopmeiners",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 20.1,
+          "starter": false,
+          "shots_p90": 8.94,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Koki Ogawa",
+          "side": "away",
+          "team": "Japan",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 15.5,
+          "starter": false,
+          "shots_p90": 11.61,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Virgil van Dijk",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Jan Paul van Hecke",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Crysencio Summerville",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 69.9,
+          "starter": true,
+          "shots_p90": 1.29,
+          "sot_p90": 1.29
+        },
+        {
+          "player": "Daichi Kamada",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Yukinari Sugawara",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 15.7,
+          "starter": false,
+          "shots_p90": 5.73,
+          "sot_p90": 5.73
+        },
+        {
+          "player": "Micky van de Ven",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hiroki Ito",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ayase Ueda",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.1,
+          "starter": true,
+          "shots_p90": 1.08,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Takefusa Kubo",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 74.5,
+          "starter": true,
+          "shots_p90": 1.21,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 59.8,
+      "shots_home": 10,
+      "shots_on_target_home": 6,
+      "corners_home": 5,
+      "fouls_home": 7,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 40.2,
+      "shots_away": 10,
+      "shots_on_target_away": 3,
+      "corners_away": 4,
+      "fouls_away": 7,
+      "saves_away": 4,
+      "offsides_away": 0,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:36-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.12973,
+    "log_loss": 1.27397,
+    "brier": 0.77826,
+    "surprisal": 1.27397,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.12973,
+        "log_loss": 1.27397,
+        "brier": 0.77826,
+        "surprisal": 1.27397
+      },
+      "dixon_coles": {
+        "rps": 0.12701,
+        "log_loss": 1.20731,
+        "brier": 0.74542,
+        "surprisal": 1.20731
+      },
+      "elo": {
+        "rps": 0.135,
+        "log_loss": 1.30195,
+        "brier": 0.79998,
+        "surprisal": 1.30195
+      }
+    }
+  }
+}

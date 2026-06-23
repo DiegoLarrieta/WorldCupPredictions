@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-06-13-aus-tur",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-13-aus-tur",
+    "date": "2026-06-13",
+    "home": "Australia",
+    "away": "Turkey",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Australia vs Turkey",
+    "home": "Australia",
+    "away": "Turkey",
+    "as_of": "2026-06-13",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.391,
+      0.275,
+      0.334
+    ],
+    "components": {
+      "dixon_coles": [
+        0.47,
+        0.288,
+        0.242
+      ],
+      "elo": [
+        0.308,
+        0.273,
+        0.42
+      ]
+    },
+    "expected_goals": {
+      "Australia": 1.39,
+      "Turkey": 0.92
+    },
+    "over25": 0.407,
+    "btts": 0.46,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.135
+      },
+      {
+        "score": "1-0",
+        "prob": 0.13
+      },
+      {
+        "score": "0-0",
+        "prob": 0.107
+      },
+      {
+        "score": "2-0",
+        "prob": 0.096
+      },
+      {
+        "score": "2-1",
+        "prob": 0.088
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:13-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760421",
+      "player_shots": [
+        {
+          "player": "Arda Güler",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 8,
+          "on_target": 3,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 8.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Kenan Yildiz",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 6,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 12.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hakan Çalhanoglu",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Kerem Aktürkoglu",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.8,
+          "starter": true,
+          "shots_p90": 3.18,
+          "sot_p90": 1.06
+        },
+        {
+          "player": "Ismail Yüksek",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 80.2,
+          "starter": true,
+          "shots_p90": 3.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nestory Irankunda",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 60.4,
+          "starter": true,
+          "shots_p90": 2.98,
+          "sot_p90": 2.98
+        },
+        {
+          "player": "Jordan Bos",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.2,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Harry Souttar",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Connor Metcalfe",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Abdülkerim Bardakçi",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Zeki Çelik",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 80.3,
+          "starter": true,
+          "shots_p90": 1.12,
+          "sot_p90": 1.12
+        },
+        {
+          "player": "Alessandro Circati",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jacob Italiano",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.7,
+          "starter": true,
+          "shots_p90": 1.22,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mohamed Toure",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.5,
+          "starter": true,
+          "shots_p90": 1.23,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Merih Demiral",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ferdi Kadioglu",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Orkun Kökçü",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 61.8,
+          "starter": true,
+          "shots_p90": 1.46,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 28.4,
+      "shots_home": 9,
+      "shots_on_target_home": 4,
+      "corners_home": 5,
+      "fouls_home": 12,
+      "saves_home": 8,
+      "offsides_home": 1,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 71.6,
+      "shots_away": 30,
+      "shots_on_target_away": 8,
+      "corners_away": 8,
+      "fouls_away": 4,
+      "saves_away": 2,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:34-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.24122,
+    "log_loss": 0.93905,
+    "brier": 0.55806,
+    "surprisal": 0.93905,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.24122,
+        "log_loss": 0.93905,
+        "brier": 0.55806,
+        "surprisal": 0.93905
+      },
+      "dixon_coles": {
+        "rps": 0.16973,
+        "log_loss": 0.75502,
+        "brier": 0.42241,
+        "surprisal": 0.75502
+      },
+      "elo": {
+        "rps": 0.32767,
+        "log_loss": 1.17865,
+        "brier": 0.72972,
+        "surprisal": 1.17865
+      }
+    }
+  }
+}

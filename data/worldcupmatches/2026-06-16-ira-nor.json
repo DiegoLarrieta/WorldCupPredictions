@@ -72,8 +72,8 @@
       "home_goals": 1,
       "away_goals": 4,
       "result": "away",
-      "source": "oddsapi-scores",
-      "captured_at": "2026-06-18T17:05:21-06:00"
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
     },
     "rich": {
       "espn_event_id": "760430",
@@ -86,7 +86,10 @@
           "on_target": 4,
           "goals": 2,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 4.0
         },
         {
           "player": "Aymen Hussein",
@@ -96,7 +99,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
         },
         {
           "player": "Ali Al-Hamadi",
@@ -106,7 +112,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 58.6,
+          "starter": true,
+          "shots_p90": 4.6,
+          "sot_p90": 0.0
         },
         {
           "player": "Leo Østigard",
@@ -116,7 +125,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 0,
-          "starter": false
+          "minutes": 17.6,
+          "starter": false,
+          "shots_p90": 10.25,
+          "sot_p90": 5.12
         },
         {
           "player": "Zaid Tahseen",
@@ -126,7 +138,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Alexander Sørloth",
@@ -136,7 +151,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 72.4,
+          "starter": true,
+          "shots_p90": 2.49,
+          "sot_p90": 0.0
         },
         {
           "player": "Kristian Thorstvedt",
@@ -146,7 +164,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": false
+          "minutes": 17.7,
+          "starter": false,
+          "shots_p90": 10.17,
+          "sot_p90": 0.0
         },
         {
           "player": "Akam Hashim",
@@ -156,7 +177,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
         },
         {
           "player": "Hussein Ali",
@@ -166,7 +190,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 72.6,
+          "starter": true,
+          "shots_p90": 1.24,
+          "sot_p90": 0.0
         },
         {
           "player": "Ibrahim Bayesh",
@@ -176,7 +203,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "starter": true
+          "minutes": 77.3,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 0.0
         },
         {
           "player": "Martin Ødegaard",
@@ -186,7 +216,10 @@
           "on_target": 0,
           "goals": 0,
           "assists": 1,
-          "starter": true
+          "minutes": 80.6,
+          "starter": true,
+          "shots_p90": 1.12,
+          "sot_p90": 0.0
         }
       ],
       "possession_home": 38.7,
@@ -208,7 +241,7 @@
       "yellow_cards_away": 0,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-06-18T17:10:43-06:00"
+      "captured_at": "2026-06-23T17:17:39-06:00"
     }
   },
   "scores": {

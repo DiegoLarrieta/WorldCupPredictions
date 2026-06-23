@@ -1,0 +1,365 @@
+{
+  "match_key": "2026-06-15-sau-uru",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-15-sau-uru",
+    "date": "2026-06-15",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Saudi Arabia vs Uruguay",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "as_of": "2026-06-15",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.104,
+      0.243,
+      0.654
+    ],
+    "components": {
+      "dixon_coles": [
+        0.114,
+        0.293,
+        0.593
+      ],
+      "elo": [
+        0.122,
+        0.22,
+        0.658
+      ]
+    },
+    "expected_goals": {
+      "Saudi Arabia": 0.45,
+      "Uruguay": 1.36
+    },
+    "over25": 0.272,
+    "btts": 0.274,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.217
+      },
+      {
+        "score": "0-0",
+        "prob": 0.171
+      },
+      {
+        "score": "0-2",
+        "prob": 0.152
+      },
+      {
+        "score": "1-1",
+        "prob": 0.106
+      },
+      {
+        "score": "0-3",
+        "prob": 0.069
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:16:15-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760429",
+      "player_shots": [
+        {
+          "player": "Federico Viñas",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 5,
+          "on_target": 3,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 89.7,
+          "starter": true,
+          "shots_p90": 5.01,
+          "sot_p90": 3.01
+        },
+        {
+          "player": "Federico Valverde",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Juan Manuel Sanabria",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 6.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Abdulelah Al-Amri",
+          "side": "home",
+          "team": "Saudi Arabia",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Maxi Araújo",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 80.3,
+          "starter": true,
+          "shots_p90": 2.24,
+          "sot_p90": 2.24
+        },
+        {
+          "player": "Mohamed Kanno",
+          "side": "home",
+          "team": "Saudi Arabia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Manuel Ugarte",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.2,
+          "starter": true,
+          "shots_p90": 2.53,
+          "sot_p90": 1.26
+        },
+        {
+          "player": "Nicolás de la Cruz",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.8,
+          "starter": false,
+          "shots_p90": 9.56,
+          "sot_p90": 4.78
+        },
+        {
+          "player": "Brian Rodríguez",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 9.7,
+          "starter": false,
+          "shots_p90": 18.65,
+          "sot_p90": 9.33
+        },
+        {
+          "player": "Sebastián Cáceres",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Guillermo Varela",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Saud Abdulhamid",
+          "side": "home",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Abdullah Al-Khaibari",
+          "side": "home",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Salem Al-Dawsari",
+          "side": "home",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mathías Olivera",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Darwin Núñez",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Agustín Canobbio",
+          "side": "away",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 33.2,
+      "shots_home": 7,
+      "shots_on_target_home": 3,
+      "corners_home": 4,
+      "fouls_home": 11,
+      "saves_home": 9,
+      "offsides_home": 0,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 66.8,
+      "shots_away": 27,
+      "shots_on_target_away": 10,
+      "corners_away": 14,
+      "fouls_away": 6,
+      "saves_away": 2,
+      "offsides_away": 6,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:17:38-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.21883,
+    "log_loss": 1.41569,
+    "brier": 1.01107,
+    "surprisal": 1.41569,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.21883,
+        "log_loss": 1.41569,
+        "brier": 1.01107,
+        "surprisal": 1.41569
+      },
+      "dixon_coles": {
+        "rps": 0.18232,
+        "log_loss": 1.22758,
+        "brier": 0.86449,
+        "surprisal": 1.22758
+      },
+      "elo": {
+        "rps": 0.22392,
+        "log_loss": 1.51413,
+        "brier": 1.05625,
+        "surprisal": 1.51413
+      }
+    }
+  }
+}

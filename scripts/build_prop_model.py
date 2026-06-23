@@ -52,25 +52,36 @@ def _norm(s: str) -> str:
 
 def main() -> None:
     con = duckdb.connect(str(DB), read_only=True)
+    # Many leagues (MLS, Championship, BRA, Liga MX, Saudi, ...) carry minutes but NO
+    # shots. NULL shots = "no data", NOT "zero shots" — counting those minutes as
+    # zero-shot exposure both buries the player and drags the position prior down. So
+    # exposure for the shot rate = ONLY minutes from seasons WITH a shot figure
+    # (mins_known); total minutes (mins) are kept just for display/the betting filter.
     ps = con.execute("""
-        SELECT s.player_id, p.name, s.position,
-               SUM(s.minutes) AS mins, SUM(s.shots) AS shots
+        SELECT s.player_id, p.name,
+               arg_max(s.position, s.minutes) AS position,
+               SUM(s.minutes) AS mins,
+               SUM(CASE WHEN s.shots IS NOT NULL THEN s.minutes ELSE 0 END) AS mins_known,
+               SUM(s.shots) AS shots          -- SUM ignores NULLs (NULL if all unknown)
         FROM player_seasons s JOIN players p USING(player_id)
-        WHERE s.minutes > 0 GROUP BY 1,2,3 HAVING SUM(s.minutes) > 0
+        WHERE s.minutes > 0 GROUP BY 1,2 HAVING SUM(s.minutes) > 0
     """).df()
     con.close()
 
-    ps["shots"] = pd.to_numeric(ps["shots"], errors="coerce").fillna(0.0)
+    ps["shots"] = pd.to_numeric(ps["shots"], errors="coerce")   # keep NaN = no shot data
     ps["pos"] = ps["position"].map(_coarse_pos)
-    ps["nineties"] = ps["mins"] / 90.0
+    ps["nineties"] = ps["mins_known"] / 90.0                    # exposure = covered mins only
+    has = ps["shots"].notna() & (ps["nineties"] > 0)
 
-    # --- Gamma-Poisson shrink of shots/90, with a prior PER POSITION group ---
+    # --- Gamma-Poisson shrink of shots/90, prior PER POSITION (from covered players only) ---
     priors = {}
-    for pos, g in ps.groupby("pos"):
+    for pos, g in ps[has].groupby("pos"):
         priors[pos] = gamma_poisson_eb(g["shots"].to_numpy(), g["nineties"].to_numpy())
-    ps["shot_rate_raw"] = ps["shots"] / ps["nineties"]
-    ps["shot_rate"] = [posterior_rate(*priors[pos][:2], sh, ni)
-                       for pos, sh, ni in zip(ps["pos"], ps["shots"], ps["nineties"])]
+    # players with no shot data fall fully back to their position prior mean (a/b),
+    # instead of being dragged to ~0 by uncounted minutes.
+    ps["shot_rate_raw"] = np.where(has, ps["shots"] / ps["nineties"], np.nan)
+    ps["shot_rate"] = [posterior_rate(*priors[pos][:2], (sh if h else 0.0), (ni if h else 0.0))
+                       for pos, sh, ni, h in zip(ps["pos"], ps["shots"], ps["nineties"], has)]
 
     # --- Beta-Binomial shrink of on-target rate from WC data (global prior) ---
     on_target_global = 0.35
