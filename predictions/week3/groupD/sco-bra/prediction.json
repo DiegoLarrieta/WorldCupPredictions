@@ -1,0 +1,68 @@
+{
+  "match": "Scotland vs Brazil",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-24",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Scotland": 0.149,
+      "Draw": 0.216,
+      "Brazil": 0.635
+    },
+    "ensemble_uncalibrated": {
+      "Scotland": 0.164,
+      "Draw": 0.229,
+      "Brazil": 0.608
+    },
+    "dixon_coles": {
+      "Scotland": 0.115,
+      "Draw": 0.199,
+      "Brazil": 0.686
+    },
+    "elo": {
+      "Scotland": 0.209,
+      "Draw": 0.256,
+      "Brazil": 0.535
+    }
+  },
+  "elo": {
+    "Scotland": 1888,
+    "Brazil": 2057
+  },
+  "expected_goals": {
+    "Scotland": 0.76,
+    "Brazil": 2.13
+  },
+  "over_under_2_5": {
+    "over": 0.552,
+    "under": 0.448
+  },
+  "btts": 0.474,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.126
+    },
+    {
+      "score": "0-1",
+      "prob": 0.113
+    },
+    {
+      "score": "1-2",
+      "prob": 0.096
+    },
+    {
+      "score": "1-1",
+      "prob": 0.095
+    },
+    {
+      "score": "0-3",
+      "prob": 0.09
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
