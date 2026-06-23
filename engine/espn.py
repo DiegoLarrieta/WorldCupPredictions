@@ -19,6 +19,7 @@ with 'DR Congo' (ours).
 
 from __future__ import annotations
 
+import datetime as _dt
 import json
 import urllib.request
 from unidecode import unidecode
@@ -48,6 +49,25 @@ def _same(a: str, b: str) -> bool:
     return _toks(a) == _toks(b)
 
 
+# ESPN's display names differ from ours for a few WC teams (full-name resolution).
+_ESPN_ALIASES = {
+    "czechia": "czech republic", "turkiye": "turkey", "korea republic": "south korea",
+    "korea dpr": "north korea", "ir iran": "iran", "cabo verde": "cape verde",
+}
+
+
+def _canon(name: str) -> frozenset:
+    s = " ".join(unidecode(str(name)).lower().replace("-", " ").replace("&", " ").split())
+    return frozenset(_ESPN_ALIASES.get(s, s).split())
+
+
+def _name_match(a: str, b: str) -> bool:
+    """Alias-aware, accent-folded match; one token set may be a subset of the other
+    (handles 'Bosnia-Herzegovina' vs 'Bosnia and Herzegovina')."""
+    ta, tb = _canon(a), _canon(b)
+    return bool(ta) and (ta == tb or ta <= tb or tb <= ta)
+
+
 # ---- network --------------------------------------------------------------
 def _get(url: str, timeout: int = 25) -> dict:
     req = urllib.request.Request(url, headers={"User-Agent":
@@ -73,12 +93,12 @@ def fetch_summary(event_id: str, league: str = DEFAULT_LEAGUE) -> dict:
 
 # ---- parsing (pure, CI-safe) ----------------------------------------------
 def find_event_id(scoreboard: dict, home: str, away: str) -> str:
-    """Event id for our two teams on that date (order- and accent-independent)."""
-    want = {_toks(home), _toks(away)}
+    """Event id for our two teams on that date (order-, accent- and alias-independent)."""
     for ev in scoreboard.get("events", []):
         comps = (ev.get("competitions") or [{}])[0].get("competitors", [])
-        names = {_toks((c.get("team") or {}).get("displayName", "")) for c in comps}
-        if names == want:
+        names = [(c.get("team") or {}).get("displayName", "") for c in comps]
+        if (any(_name_match(n, home) for n in names)
+                and any(_name_match(n, away) for n in names)):
             return ev["id"]
     raise ESPNError(f"No ESPN event for {home} vs {away} on that date.")
 
@@ -92,7 +112,7 @@ def parse_team_stats(summary: dict, home: str, away: str) -> dict:
     out: dict[str, dict] = {}
     for team in summary.get("boxscore", {}).get("teams", []):
         name = (team.get("team") or {}).get("displayName", "")
-        side = "home" if _same(name, home) else "away" if _same(name, away) else None
+        side = "home" if _name_match(name, home) else "away" if _name_match(name, away) else None
         if not side:
             continue
         d = _stat_dict(team.get("statistics", []))
@@ -163,7 +183,7 @@ def parse_player_shots(summary: dict, home: str, away: str) -> list[dict]:
     rows = []
     for team in summary.get("rosters", []):
         name = (team.get("team") or {}).get("displayName", "")
-        side = "home" if _same(name, home) else "away" if _same(name, away) else None
+        side = "home" if _name_match(name, home) else "away" if _name_match(name, away) else None
         if not side:
             continue
         for p in (team.get("roster") or []):
@@ -198,10 +218,44 @@ def _num(v):
         return v
 
 
+def match_result(home: str, away: str, date: str, league: str = DEFAULT_LEAGUE) -> dict:
+    """Final score for our two teams from ESPN — reaches arbitrarily far back (unlike the
+    Odds API /scores 3-day window). Searches `date` ±1 because ESPN dates by US timezone
+    (off-by-one for late kickoffs). Same shape as odds_api.parse_score:
+    {completed, home_goals, away_goals}."""
+    d0 = _dt.date.fromisoformat(date)
+    for off in (0, -1, 1):
+        day = (d0 + _dt.timedelta(days=off)).isoformat()
+        for ev in fetch_scoreboard(day, league).get("events", []):
+            comp = (ev.get("competitions") or [{}])[0]
+            comps = comp.get("competitors", [])
+            names = [(c.get("team") or {}).get("displayName", "") for c in comps]
+            if not (any(_name_match(n, home) for n in names)
+                    and any(_name_match(n, away) for n in names)):
+                continue
+            st = (comp.get("status") or ev.get("status") or {}).get("type", {})
+            goals = {}
+            for c, nm in zip(comps, names):
+                side = "home" if _name_match(nm, home) else "away" if _name_match(nm, away) else None
+                if side:
+                    goals[side] = _num(c.get("score"))
+            return {"completed": bool(st.get("completed")),
+                    "home_goals": goals.get("home"), "away_goals": goals.get("away")}
+    raise ESPNError(f"No ESPN event for {home} vs {away} near {date}.")
+
+
 # ---- convenience ----------------------------------------------------------
 def fetch_match_stats(home: str, away: str, date: str, league: str = DEFAULT_LEAGUE) -> dict:
-    """One call: scoreboard -> event id -> summary -> {team, player_shots}."""
-    eid = find_event_id(fetch_scoreboard(date, league), home, away)
-    s = fetch_summary(eid, league)
-    return {"event_id": eid, "team": parse_team_stats(s, home, away),
-            "player_shots": parse_player_shots(s, home, away)}
+    """One call: scoreboard -> event id -> summary -> {team, player_shots}. Searches
+    `date` ±1 (ESPN dates by US timezone, off-by-one for late kickoffs)."""
+    d0 = _dt.date.fromisoformat(date)
+    for off in (0, -1, 1):
+        day = (d0 + _dt.timedelta(days=off)).isoformat()
+        try:
+            eid = find_event_id(fetch_scoreboard(day, league), home, away)
+        except ESPNError:
+            continue
+        s = fetch_summary(eid, league)
+        return {"event_id": eid, "team": parse_team_stats(s, home, away),
+                "player_shots": parse_player_shots(s, home, away)}
+    raise ESPNError(f"No ESPN event for {home} vs {away} near {date}.")
