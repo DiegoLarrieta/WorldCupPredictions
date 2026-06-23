@@ -1,0 +1,248 @@
+{
+  "match_key": "2026-06-22-fra-ira",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-22-fra-ira",
+    "date": "2026-06-22",
+    "home": "France",
+    "away": "Iraq",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "France vs Iraq",
+    "home": "France",
+    "away": "Iraq",
+    "as_of": "2026-06-22",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.795,
+      0.152,
+      0.053
+    ],
+    "components": {
+      "dixon_coles": [
+        0.696,
+        0.211,
+        0.093
+      ],
+      "elo": [
+        0.827,
+        0.132,
+        0.041
+      ]
+    },
+    "expected_goals": {
+      "France": 1.97,
+      "Iraq": 0.59
+    },
+    "over25": 0.47,
+    "btts": 0.389,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.151
+      },
+      {
+        "score": "1-0",
+        "prob": 0.146
+      },
+      {
+        "score": "3-0",
+        "prob": 0.099
+      },
+      {
+        "score": "1-1",
+        "prob": 0.097
+      },
+      {
+        "score": "2-1",
+        "prob": 0.088
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760457",
+      "player_shots": [
+        {
+          "player": "Kylian Mbappé",
+          "side": "home",
+          "team": "France",
+          "shots": 8,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 8.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "side": "home",
+          "team": "France",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 67.0,
+          "starter": true,
+          "shots_p90": 5.37,
+          "sot_p90": 2.69
+        },
+        {
+          "player": "Michael Olise",
+          "side": "home",
+          "team": "France",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 67.2,
+          "starter": true,
+          "shots_p90": 4.02,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ali Al-Hamadi",
+          "side": "away",
+          "team": "Iraq",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 64.6,
+          "starter": false,
+          "shots_p90": 4.18,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "William Saliba",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Adrien Rabiot",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Manu Koné",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bradley Barcola",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.2,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rebin Sulaka",
+          "side": "away",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.8,
+          "starter": false,
+          "shots_p90": 2.92,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 55.6,
+      "shots_home": 19,
+      "shots_on_target_home": 5,
+      "corners_home": 4,
+      "fouls_home": 8,
+      "saves_home": 0,
+      "offsides_home": 1,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 44.4,
+      "shots_away": 4,
+      "shots_on_target_away": 0,
+      "corners_away": 2,
+      "fouls_away": 4,
+      "saves_away": 2,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:56-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.02242,
+    "log_loss": 0.22941,
+    "brier": 0.06794,
+    "surprisal": 0.22941,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.02242,
+        "log_loss": 0.22941,
+        "brier": 0.06794,
+        "surprisal": 0.22941
+      },
+      "dixon_coles": {
+        "rps": 0.05053,
+        "log_loss": 0.36241,
+        "brier": 0.14559,
+        "surprisal": 0.36241
+      },
+      "elo": {
+        "rps": 0.01581,
+        "log_loss": 0.18995,
+        "brier": 0.04903,
+        "surprisal": 0.18995
+      }
+    }
+  }
+}

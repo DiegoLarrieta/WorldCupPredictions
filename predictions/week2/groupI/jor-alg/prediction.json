@@ -1,0 +1,76 @@
+{
+  "match": "Jordan vs Algeria",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-22",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Jordan": 0.195,
+      "Draw": 0.232,
+      "Algeria": 0.573
+    },
+    "ensemble_uncalibrated": {
+      "Jordan": 0.207,
+      "Draw": 0.243,
+      "Algeria": 0.551
+    },
+    "dixon_coles": {
+      "Jordan": 0.159,
+      "Draw": 0.217,
+      "Algeria": 0.624
+    },
+    "elo": {
+      "Jordan": 0.251,
+      "Draw": 0.266,
+      "Algeria": 0.483
+    }
+  },
+  "elo": {
+    "Jordan": 1745,
+    "Algeria": 1870
+  },
+  "expected_goals": {
+    "Jordan": 0.97,
+    "Algeria": 2.09
+  },
+  "over_under_2_5": {
+    "over": 0.592,
+    "under": 0.408
+  },
+  "btts": 0.553,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.102
+    },
+    {
+      "score": "0-2",
+      "prob": 0.102
+    },
+    {
+      "score": "1-2",
+      "prob": 0.099
+    },
+    {
+      "score": "0-1",
+      "prob": 0.09
+    },
+    {
+      "score": "0-3",
+      "prob": 0.071
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "1-2",
+    "result": "away",
+    "scored_at": "2026-06-23T17:54:23-06:00",
+    "rps": 0.11018,
+    "log_loss": 0.55687,
+    "brier": 0.27418,
+    "surprisal": 0.55687
+  }
+}

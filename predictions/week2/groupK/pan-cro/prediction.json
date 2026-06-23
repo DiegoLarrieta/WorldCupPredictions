@@ -1,0 +1,68 @@
+{
+  "match": "Panama vs Croatia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-23",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Panama": 0.212,
+      "Draw": 0.248,
+      "Croatia": 0.541
+    },
+    "ensemble_uncalibrated": {
+      "Panama": 0.223,
+      "Draw": 0.257,
+      "Croatia": 0.521
+    },
+    "dixon_coles": {
+      "Panama": 0.2,
+      "Draw": 0.248,
+      "Croatia": 0.552
+    },
+    "elo": {
+      "Panama": 0.244,
+      "Draw": 0.265,
+      "Croatia": 0.491
+    }
+  },
+  "elo": {
+    "Panama": 1813,
+    "Croatia": 1945
+  },
+  "expected_goals": {
+    "Panama": 0.99,
+    "Croatia": 1.79
+  },
+  "over_under_2_5": {
+    "over": 0.526,
+    "under": 0.474
+  },
+  "btts": 0.532,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.118
+    },
+    {
+      "score": "0-1",
+      "prob": 0.103
+    },
+    {
+      "score": "0-2",
+      "prob": 0.099
+    },
+    {
+      "score": "1-2",
+      "prob": 0.098
+    },
+    {
+      "score": "0-0",
+      "prob": 0.07
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

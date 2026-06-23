@@ -2,67 +2,75 @@
   "match": "Germany vs Ivory Coast",
   "competition": "World Cup",
   "venue": "neutral",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-20",
   "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
   "ensemble_weight_on_dc": 0.481,
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Germany": 0.578,
-      "Draw": 0.245,
-      "Ivory Coast": 0.177
+      "Germany": 0.568,
+      "Draw": 0.246,
+      "Ivory Coast": 0.186
     },
     "ensemble_uncalibrated": {
-      "Germany": 0.555,
+      "Germany": 0.546,
       "Draw": 0.255,
-      "Ivory Coast": 0.19
+      "Ivory Coast": 0.198
     },
     "dixon_coles": {
-      "Germany": 0.487,
-      "Draw": 0.284,
-      "Ivory Coast": 0.23
+      "Germany": 0.51,
+      "Draw": 0.272,
+      "Ivory Coast": 0.218
     },
     "elo": {
-      "Germany": 0.618,
-      "Draw": 0.228,
-      "Ivory Coast": 0.154
+      "Germany": 0.579,
+      "Draw": 0.24,
+      "Ivory Coast": 0.181
     }
   },
   "elo": {
-    "Germany": 2002,
-    "Ivory Coast": 1816
+    "Germany": 2014,
+    "Ivory Coast": 1863
   },
   "expected_goals": {
-    "Germany": 1.48,
-    "Ivory Coast": 0.94
+    "Germany": 1.53,
+    "Ivory Coast": 0.91
   },
   "over_under_2_5": {
-    "over": 0.435,
-    "under": 0.565
+    "over": 0.442,
+    "under": 0.558
   },
-  "btts": 0.481,
+  "btts": 0.476,
   "top_scorelines": [
     {
       "score": "1-1",
-      "prob": 0.134
+      "prob": 0.128
     },
     {
       "score": "1-0",
-      "prob": 0.121
-    },
-    {
-      "score": "0-0",
-      "prob": 0.099
+      "prob": 0.126
     },
     {
       "score": "2-0",
-      "prob": 0.097
+      "prob": 0.102
+    },
+    {
+      "score": "0-0",
+      "prob": 0.094
     },
     {
       "score": "2-1",
-      "prob": 0.091
+      "prob": 0.093
     }
   ],
   "lineups": null,
-  "actual_result": null
+  "actual_result": {
+    "score": "2-1",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:21-06:00",
+    "rps": 0.11061,
+    "log_loss": 0.56563,
+    "brier": 0.28174,
+    "surprisal": 0.56563
+  }
 }

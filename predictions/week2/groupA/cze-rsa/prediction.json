@@ -1,0 +1,76 @@
+{
+  "match": "Czech Republic vs South Africa",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-18",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Czech Republic": 0.51,
+      "Draw": 0.267,
+      "South Africa": 0.223
+    },
+    "ensemble_uncalibrated": {
+      "Czech Republic": 0.493,
+      "Draw": 0.274,
+      "South Africa": 0.233
+    },
+    "dixon_coles": {
+      "Czech Republic": 0.443,
+      "Draw": 0.299,
+      "South Africa": 0.258
+    },
+    "elo": {
+      "Czech Republic": 0.54,
+      "Draw": 0.251,
+      "South Africa": 0.209
+    }
+  },
+  "elo": {
+    "Czech Republic": 1764,
+    "South Africa": 1646
+  },
+  "expected_goals": {
+    "Czech Republic": 1.32,
+    "South Africa": 0.95
+  },
+  "over_under_2_5": {
+    "over": 0.397,
+    "under": 0.603
+  },
+  "btts": 0.46,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "1-0",
+      "prob": 0.126
+    },
+    {
+      "score": "0-0",
+      "prob": 0.113
+    },
+    {
+      "score": "2-0",
+      "prob": 0.09
+    },
+    {
+      "score": "0-1",
+      "prob": 0.088
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "1-1",
+    "result": "draw",
+    "scored_at": "2026-06-23T17:54:20-06:00",
+    "rps": 0.15491,
+    "log_loss": 1.32051,
+    "brier": 0.84712,
+    "surprisal": 1.32051
+  }
+}

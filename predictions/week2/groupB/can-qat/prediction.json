@@ -1,0 +1,76 @@
+{
+  "match": "Canada vs Qatar",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-18",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Canada": 0.699,
+      "Draw": 0.202,
+      "Qatar": 0.1
+    },
+    "ensemble_uncalibrated": {
+      "Canada": 0.669,
+      "Draw": 0.217,
+      "Qatar": 0.114
+    },
+    "dixon_coles": {
+      "Canada": 0.649,
+      "Draw": 0.232,
+      "Qatar": 0.118
+    },
+    "elo": {
+      "Canada": 0.687,
+      "Draw": 0.203,
+      "Qatar": 0.111
+    }
+  },
+  "elo": {
+    "Canada": 1865,
+    "Qatar": 1613
+  },
+  "expected_goals": {
+    "Canada": 1.83,
+    "Qatar": 0.65
+  },
+  "over_under_2_5": {
+    "over": 0.453,
+    "under": 0.547
+  },
+  "btts": 0.411,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.145
+    },
+    {
+      "score": "2-0",
+      "prob": 0.14
+    },
+    {
+      "score": "1-1",
+      "prob": 0.107
+    },
+    {
+      "score": "2-1",
+      "prob": 0.091
+    },
+    {
+      "score": "0-0",
+      "prob": 0.091
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "6-0",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:20-06:00",
+    "rps": 0.0505,
+    "log_loss": 0.3591,
+    "brier": 0.14172,
+    "surprisal": 0.3591
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "match": "Norway vs Senegal",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-22",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Norway": 0.493,
+      "Draw": 0.257,
+      "Senegal": 0.25
+    },
+    "ensemble_uncalibrated": {
+      "Norway": 0.477,
+      "Draw": 0.265,
+      "Senegal": 0.258
+    },
+    "dixon_coles": {
+      "Norway": 0.419,
+      "Draw": 0.278,
+      "Senegal": 0.303
+    },
+    "elo": {
+      "Norway": 0.532,
+      "Draw": 0.252,
+      "Senegal": 0.216
+    }
+  },
+  "elo": {
+    "Norway": 2006,
+    "Senegal": 1894
+  },
+  "expected_goals": {
+    "Norway": 1.45,
+    "Senegal": 1.2
+  },
+  "over_under_2_5": {
+    "over": 0.495,
+    "under": 0.505
+  },
+  "btts": 0.545,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.133
+    },
+    {
+      "score": "1-0",
+      "prob": 0.092
+    },
+    {
+      "score": "2-1",
+      "prob": 0.089
+    },
+    {
+      "score": "0-0",
+      "prob": 0.08
+    },
+    {
+      "score": "0-1",
+      "prob": 0.075
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "3-2",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:23-06:00",
+    "rps": 0.15977,
+    "log_loss": 0.70725,
+    "brier": 0.3856,
+    "surprisal": 0.70725
+  }
+}

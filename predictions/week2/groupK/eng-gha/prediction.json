@@ -1,0 +1,76 @@
+{
+  "match": "England vs Ghana",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-23",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "England": 0.809,
+      "Draw": 0.146,
+      "Ghana": 0.046
+    },
+    "ensemble_uncalibrated": {
+      "England": 0.778,
+      "Draw": 0.165,
+      "Ghana": 0.058
+    },
+    "dixon_coles": {
+      "England": 0.713,
+      "Draw": 0.207,
+      "Ghana": 0.081
+    },
+    "elo": {
+      "England": 0.838,
+      "Draw": 0.125,
+      "Ghana": 0.036
+    }
+  },
+  "elo": {
+    "England": 2126,
+    "Ghana": 1674
+  },
+  "expected_goals": {
+    "England": 1.95,
+    "Ghana": 0.51
+  },
+  "over_under_2_5": {
+    "over": 0.445,
+    "under": 0.555
+  },
+  "btts": 0.348,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.163
+    },
+    {
+      "score": "1-0",
+      "prob": 0.161
+    },
+    {
+      "score": "3-0",
+      "prob": 0.106
+    },
+    {
+      "score": "0-0",
+      "prob": 0.092
+    },
+    {
+      "score": "1-1",
+      "prob": 0.091
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-0",
+    "result": "draw",
+    "scored_at": "2026-06-23T17:54:23-06:00",
+    "rps": 0.32764,
+    "log_loss": 1.92515,
+    "brier": 1.38485,
+    "surprisal": 1.92515
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-06-21-bel-ira",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-21-bel-ira",
+    "date": "2026-06-21",
+    "home": "Belgium",
+    "away": "Iran",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Belgium vs Iran",
+    "home": "Belgium",
+    "away": "Iran",
+    "as_of": "2026-06-21",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.447,
+      0.265,
+      0.288
+    ],
+    "components": {
+      "dixon_coles": [
+        0.411,
+        0.278,
+        0.312
+      ],
+      "elo": [
+        0.459,
+        0.266,
+        0.275
+      ]
+    },
+    "expected_goals": {
+      "Belgium": 1.43,
+      "Iran": 1.22
+    },
+    "over25": 0.495,
+    "btts": 0.546,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.132
+      },
+      {
+        "score": "1-0",
+        "prob": 0.092
+      },
+      {
+        "score": "2-1",
+        "prob": 0.088
+      },
+      {
+        "score": "0-0",
+        "prob": 0.08
+      },
+      {
+        "score": "0-1",
+        "prob": 0.077
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:22-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760451",
+      "player_shots": [
+        {
+          "player": "Maxim De Cuyper",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 5,
+          "on_target": 4,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Kevin De Bruyne",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 86.7,
+          "starter": true,
+          "shots_p90": 5.19,
+          "sot_p90": 1.04
+        },
+        {
+          "player": "Youri Tielemans",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Dodi Lukébakio",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.8,
+          "starter": false,
+          "shots_p90": 5.49,
+          "sot_p90": 2.74
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "side": "away",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.3,
+          "starter": true,
+          "shots_p90": 2.14,
+          "sot_p90": 1.07
+        },
+        {
+          "player": "Alexis Saelemaekers",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.2,
+          "starter": true,
+          "shots_p90": 3.15,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hans Vanaken",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.8,
+          "starter": false,
+          "shots_p90": 5.49,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hossein Kanani",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mehdi Taremi",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Brandon Mechele",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nathan Ngoy",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Romelu Lukaku",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 72.1,
+          "starter": true,
+          "shots_p90": 1.25,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Leandro Trossard",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Matias Fernandez-Pardo",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 3.3,
+          "starter": false,
+          "shots_p90": 26.87,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Shoja Khalilzadeh",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alireza Jahanbakhsh",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Amirhossein Hosseinzadeh",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 5.7,
+          "starter": false,
+          "shots_p90": 15.74,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 70.1,
+      "shots_home": 23,
+      "shots_on_target_home": 7,
+      "corners_home": 4,
+      "fouls_home": 7,
+      "saves_home": 3,
+      "offsides_home": 3,
+      "yellow_cards_home": 1,
+      "red_cards_home": 1,
+      "possession_away": 29.9,
+      "shots_away": 7,
+      "shots_on_target_away": 3,
+      "corners_away": 2,
+      "fouls_away": 9,
+      "saves_away": 7,
+      "offsides_away": 4,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:54-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.14138,
+    "log_loss": 1.32803,
+    "brier": 0.82298,
+    "surprisal": 1.32803,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.14138,
+        "log_loss": 1.32803,
+        "brier": 0.82298,
+        "surprisal": 1.32803
+      },
+      "dixon_coles": {
+        "rps": 0.13287,
+        "log_loss": 1.28113,
+        "brier": 0.78742,
+        "surprisal": 1.28113
+      },
+      "elo": {
+        "rps": 0.14315,
+        "log_loss": 1.32426,
+        "brier": 0.82506,
+        "surprisal": 1.32426
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "match": "Tunisia vs Japan",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-20",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Tunisia": 0.098,
+      "Draw": 0.212,
+      "Japan": 0.69
+    },
+    "ensemble_uncalibrated": {
+      "Tunisia": 0.112,
+      "Draw": 0.227,
+      "Japan": 0.661
+    },
+    "dixon_coles": {
+      "Tunisia": 0.118,
+      "Draw": 0.244,
+      "Japan": 0.637
+    },
+    "elo": {
+      "Tunisia": 0.107,
+      "Draw": 0.21,
+      "Japan": 0.682
+    }
+  },
+  "elo": {
+    "Tunisia": 1689,
+    "Japan": 1996
+  },
+  "expected_goals": {
+    "Tunisia": 0.58,
+    "Japan": 1.68
+  },
+  "over_under_2_5": {
+    "over": 0.394,
+    "under": 0.606
+  },
+  "btts": 0.364,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.17
+    },
+    {
+      "score": "0-2",
+      "prob": 0.147
+    },
+    {
+      "score": "0-0",
+      "prob": 0.11
+    },
+    {
+      "score": "1-1",
+      "prob": 0.107
+    },
+    {
+      "score": "1-2",
+      "prob": 0.085
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-4",
+    "result": "away",
+    "scored_at": "2026-06-23T17:54:22-06:00",
+    "rps": 0.05285,
+    "log_loss": 0.37106,
+    "brier": 0.15065,
+    "surprisal": 0.37106
+  }
+}

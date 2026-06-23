@@ -1,0 +1,76 @@
+{
+  "match": "Scotland vs Morocco",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-19",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Scotland": 0.197,
+      "Draw": 0.281,
+      "Morocco": 0.522
+    },
+    "ensemble_uncalibrated": {
+      "Scotland": 0.208,
+      "Draw": 0.287,
+      "Morocco": 0.504
+    },
+    "dixon_coles": {
+      "Scotland": 0.146,
+      "Draw": 0.308,
+      "Morocco": 0.546
+    },
+    "elo": {
+      "Scotland": 0.266,
+      "Draw": 0.268,
+      "Morocco": 0.466
+    }
+  },
+  "elo": {
+    "Scotland": 1888,
+    "Morocco": 1999
+  },
+  "expected_goals": {
+    "Scotland": 0.55,
+    "Morocco": 1.32
+  },
+  "over_under_2_5": {
+    "over": 0.288,
+    "under": 0.712
+  },
+  "btts": 0.321,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.193
+    },
+    {
+      "score": "0-0",
+      "prob": 0.164
+    },
+    {
+      "score": "0-2",
+      "prob": 0.134
+    },
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "1-0",
+      "prob": 0.075
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-1",
+    "result": "away",
+    "scored_at": "2026-06-23T17:54:21-06:00",
+    "rps": 0.13365,
+    "log_loss": 0.65009,
+    "brier": 0.34625,
+    "surprisal": 0.65009
+  }
+}

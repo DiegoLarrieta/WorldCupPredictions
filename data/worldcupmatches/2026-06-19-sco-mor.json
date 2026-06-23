@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-19-sco-mor",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-19-sco-mor",
+    "date": "2026-06-19",
+    "home": "Scotland",
+    "away": "Morocco",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Scotland vs Morocco",
+    "home": "Scotland",
+    "away": "Morocco",
+    "as_of": "2026-06-19",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.197,
+      0.281,
+      0.522
+    ],
+    "components": {
+      "dixon_coles": [
+        0.146,
+        0.308,
+        0.546
+      ],
+      "elo": [
+        0.266,
+        0.268,
+        0.466
+      ]
+    },
+    "expected_goals": {
+      "Scotland": 0.55,
+      "Morocco": 1.32
+    },
+    "over25": 0.288,
+    "btts": 0.321,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.193
+      },
+      {
+        "score": "0-0",
+        "prob": 0.164
+      },
+      {
+        "score": "0-2",
+        "prob": 0.134
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "1-0",
+        "prob": 0.075
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:21-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760445",
+      "player_shots": [
+        {
+          "player": "Ismael Saibari",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 83.3,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 1.08
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.4,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 1.08
+        },
+        {
+          "player": "Scott McTominay",
+          "side": "home",
+          "team": "Scotland",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Achraf Hakimi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Chemsdine Talbi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.6,
+          "starter": false,
+          "shots_p90": 27.41,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ryan Christie",
+          "side": "home",
+          "team": "Scotland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.0,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kieran Tierney",
+          "side": "home",
+          "team": "Scotland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 59.1,
+          "starter": true,
+          "shots_p90": 1.52,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "John McGinn",
+          "side": "home",
+          "team": "Scotland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 88.8,
+          "starter": true,
+          "shots_p90": 1.01,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lyndon Dykes",
+          "side": "home",
+          "team": "Scotland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.1,
+          "starter": false,
+          "shots_p90": 4.7,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Neil El Aynaoui",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ayyoub Bouaddi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Brahim Díaz",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 83.6,
+          "starter": true,
+          "shots_p90": 1.08,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ayoube Amaimouni",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.4,
+          "starter": false,
+          "shots_p90": 13.99,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 41.1,
+      "shots_home": 6,
+      "shots_on_target_home": 0,
+      "corners_home": 2,
+      "fouls_home": 11,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 58.9,
+      "shots_away": 12,
+      "shots_on_target_away": 2,
+      "corners_away": 5,
+      "fouls_away": 8,
+      "saves_away": 0,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:51-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.13365,
+    "log_loss": 0.65009,
+    "brier": 0.34625,
+    "surprisal": 0.65009,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.13365,
+        "log_loss": 0.65009,
+        "brier": 0.34625,
+        "surprisal": 0.65009
+      },
+      "dixon_coles": {
+        "rps": 0.11372,
+        "log_loss": 0.60514,
+        "brier": 0.3223,
+        "surprisal": 0.60514
+      },
+      "elo": {
+        "rps": 0.17796,
+        "log_loss": 0.76357,
+        "brier": 0.42774,
+        "surprisal": 0.76357
+      }
+    }
+  }
+}

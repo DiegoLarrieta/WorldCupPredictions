@@ -1,56 +1,56 @@
 {
-  "n": 24,
+  "n": 46,
   "per_model": {
     "ensemble": {
-      "rps": 0.19734,
-      "log_loss": 1.06067,
-      "brier": 0.66023
+      "rps": 0.17151,
+      "log_loss": 0.93225,
+      "brier": 0.56951
     },
     "dixon_coles": {
-      "rps": 0.18814,
-      "log_loss": 1.01933,
-      "brier": 0.62989
+      "rps": 0.16708,
+      "log_loss": 0.91049,
+      "brier": 0.55247
     },
     "elo": {
-      "rps": 0.20478,
-      "log_loss": 1.09079,
-      "brier": 0.67984
+      "rps": 0.17887,
+      "log_loss": 0.96118,
+      "brier": 0.58804
     }
   },
   "vs_baseline": {
     "uniform": {
-      "rps": 0.21528,
+      "rps": 0.22705,
       "log_loss": 1.09861
     },
     "ensemble": {
-      "rps": 0.19734,
-      "log_loss": 1.06067
+      "rps": 0.17151,
+      "log_loss": 0.93225
     }
   },
   "calibration": [
     {
       "bin": "0.33-0.47",
-      "n": 4,
-      "predicted": 0.406,
-      "actual": 0.5
+      "n": 8,
+      "predicted": 0.417,
+      "actual": 0.375
     },
     {
       "bin": "0.47-0.60",
-      "n": 9,
-      "predicted": 0.53,
-      "actual": 0.556
+      "n": 15,
+      "predicted": 0.527,
+      "actual": 0.667
     },
     {
       "bin": "0.60-0.73",
-      "n": 8,
-      "predicted": 0.662,
-      "actual": 0.5
+      "n": 15,
+      "predicted": 0.672,
+      "actual": 0.667
     },
     {
       "bin": "0.73-0.87",
-      "n": 2,
-      "predicted": 0.808,
-      "actual": 0.5
+      "n": 7,
+      "predicted": 0.816,
+      "actual": 0.571
     },
     {
       "bin": "0.87-1.00",
@@ -67,14 +67,14 @@
       "surprisal": 2.33204
     },
     {
-      "match": "Ivory Coast vs Ecuador",
-      "result": "home",
-      "surprisal": 1.8569
+      "match": "Ecuador vs Curaçao",
+      "result": "draw",
+      "surprisal": 1.97328
     },
     {
-      "match": "Qatar vs Switzerland",
+      "match": "England vs Ghana",
       "result": "draw",
-      "surprisal": 1.82635
+      "surprisal": 1.92515
     }
   ]
 }

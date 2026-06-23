@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-20-net-swe",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-20-net-swe",
+    "date": "2026-06-20",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Netherlands vs Sweden",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "as_of": "2026-06-20",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.642,
+      0.203,
+      0.155
+    ],
+    "components": {
+      "dixon_coles": [
+        0.614,
+        0.202,
+        0.184
+      ],
+      "elo": [
+        0.615,
+        0.229,
+        0.156
+      ]
+    },
+    "expected_goals": {
+      "Netherlands": 2.29,
+      "Sweden": 1.2
+    },
+    "over25": 0.676,
+    "btts": 0.631,
+    "top_scorelines": [
+      {
+        "score": "2-1",
+        "prob": 0.096
+      },
+      {
+        "score": "1-1",
+        "prob": 0.089
+      },
+      {
+        "score": "2-0",
+        "prob": 0.08
+      },
+      {
+        "score": "3-1",
+        "prob": 0.073
+      },
+      {
+        "score": "1-0",
+        "prob": 0.066
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 5,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:21-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760447",
+      "player_shots": [
+        {
+          "player": "Cody Gakpo",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 5,
+          "on_target": 4,
+          "goals": 2,
+          "assists": 1,
+          "minutes": 89.8,
+          "starter": true,
+          "shots_p90": 5.01,
+          "sot_p90": 4.01
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 5,
+          "on_target": 3,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Yasin Ayari",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 78.1,
+          "starter": true,
+          "shots_p90": 5.76,
+          "sot_p90": 1.15
+        },
+        {
+          "player": "Brian Brobbey",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 71.5,
+          "starter": true,
+          "shots_p90": 2.52,
+          "sot_p90": 2.52
+        },
+        {
+          "player": "Crysencio Summerville",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Anthony Elanga",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 35.2,
+          "starter": false,
+          "shots_p90": 2.56,
+          "sot_p90": 2.56
+        },
+        {
+          "player": "Besfort Zeneli",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 35.0,
+          "starter": false,
+          "shots_p90": 2.57,
+          "sot_p90": 2.57
+        },
+        {
+          "player": "Gustaf Lagerbielke",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Alexander Isak",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Tijjani Reijnders",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 58.9,
+          "starter": true,
+          "shots_p90": 1.53,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ryan Gravenberch",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jesper Karlström",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.0,
+          "starter": true,
+          "shots_p90": 1.64,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Benjamin Nygren",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.0,
+          "starter": true,
+          "shots_p90": 1.63,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 50.9,
+      "shots_home": 10,
+      "shots_on_target_home": 7,
+      "corners_home": 2,
+      "fouls_home": 9,
+      "saves_home": 7,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 49.1,
+      "shots_away": 16,
+      "shots_on_target_away": 8,
+      "corners_away": 5,
+      "fouls_away": 12,
+      "saves_away": 2,
+      "offsides_away": 3,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:53-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.07609,
+    "log_loss": 0.44317,
+    "brier": 0.1934,
+    "surprisal": 0.44317,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.07609,
+        "log_loss": 0.44317,
+        "brier": 0.1934,
+        "surprisal": 0.44317
+      },
+      "dixon_coles": {
+        "rps": 0.09143,
+        "log_loss": 0.48776,
+        "brier": 0.22366,
+        "surprisal": 0.48776
+      },
+      "elo": {
+        "rps": 0.08628,
+        "log_loss": 0.48613,
+        "brier": 0.225,
+        "surprisal": 0.48613
+      }
+    }
+  }
+}

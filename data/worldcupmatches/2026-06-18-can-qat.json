@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-18-can-qat",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-18-can-qat",
+    "date": "2026-06-18",
+    "home": "Canada",
+    "away": "Qatar",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Canada vs Qatar",
+    "home": "Canada",
+    "away": "Qatar",
+    "as_of": "2026-06-18",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.699,
+      0.202,
+      0.1
+    ],
+    "components": {
+      "dixon_coles": [
+        0.649,
+        0.232,
+        0.118
+      ],
+      "elo": [
+        0.687,
+        0.203,
+        0.111
+      ]
+    },
+    "expected_goals": {
+      "Canada": 1.83,
+      "Qatar": 0.65
+    },
+    "over25": 0.453,
+    "btts": 0.411,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.145
+      },
+      {
+        "score": "2-0",
+        "prob": 0.14
+      },
+      {
+        "score": "1-1",
+        "prob": 0.107
+      },
+      {
+        "score": "2-1",
+        "prob": 0.091
+      },
+      {
+        "score": "0-0",
+        "prob": 0.091
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 6,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:20-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760440",
+      "player_shots": [
+        {
+          "player": "Jonathan David",
+          "side": "home",
+          "team": "Canada",
+          "shots": 8,
+          "on_target": 5,
+          "goals": 3,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 8.0,
+          "sot_p90": 5.0
+        },
+        {
+          "player": "Cyle Larin",
+          "side": "home",
+          "team": "Canada",
+          "shots": 6,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Tajon Buchanan",
+          "side": "home",
+          "team": "Canada",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.7,
+          "starter": true,
+          "shots_p90": 4.36,
+          "sot_p90": 1.09
+        },
+        {
+          "player": "Nathan Saliba",
+          "side": "home",
+          "team": "Canada",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 33.1,
+          "starter": false,
+          "shots_p90": 8.15,
+          "sot_p90": 2.72
+        },
+        {
+          "player": "Jacob Shaffelburg",
+          "side": "home",
+          "team": "Canada",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.1,
+          "starter": false,
+          "shots_p90": 14.14,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alistair Johnston",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Derek Cornelius",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Richie Laryea",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Stephen Eustáquio",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ismaël Koné",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 56.9,
+          "starter": true,
+          "shots_p90": 1.58,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ali Ahmed",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Tani Oluwaseyi",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.1,
+          "starter": false,
+          "shots_p90": 4.72,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Niko Sigur",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 7.3,
+          "starter": false,
+          "shots_p90": 12.24,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Boualem Khoukhi",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Edmílson Junior",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 79,
+      "shots_home": 32,
+      "shots_on_target_home": 10,
+      "corners_home": 19,
+      "fouls_home": 9,
+      "saves_home": 0,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 21,
+      "shots_away": 2,
+      "shots_on_target_away": 0,
+      "corners_away": 1,
+      "fouls_away": 10,
+      "saves_away": 4,
+      "offsides_away": 1,
+      "yellow_cards_away": 1,
+      "red_cards_away": 2,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:50-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.0505,
+    "log_loss": 0.3591,
+    "brier": 0.14172,
+    "surprisal": 0.3591,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.0505,
+        "log_loss": 0.3591,
+        "brier": 0.14172,
+        "surprisal": 0.3591
+      },
+      "dixon_coles": {
+        "rps": 0.06835,
+        "log_loss": 0.43132,
+        "brier": 0.19063,
+        "surprisal": 0.43132
+      },
+      "elo": {
+        "rps": 0.05535,
+        "log_loss": 0.37642,
+        "brier": 0.15182,
+        "surprisal": 0.37642
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-06-22-nor-sen",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-22-nor-sen",
+    "date": "2026-06-22",
+    "home": "Norway",
+    "away": "Senegal",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Norway vs Senegal",
+    "home": "Norway",
+    "away": "Senegal",
+    "as_of": "2026-06-22",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.493,
+      0.257,
+      0.25
+    ],
+    "components": {
+      "dixon_coles": [
+        0.419,
+        0.278,
+        0.303
+      ],
+      "elo": [
+        0.532,
+        0.252,
+        0.216
+      ]
+    },
+    "expected_goals": {
+      "Norway": 1.45,
+      "Senegal": 1.2
+    },
+    "over25": 0.495,
+    "btts": 0.545,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.133
+      },
+      {
+        "score": "1-0",
+        "prob": 0.092
+      },
+      {
+        "score": "2-1",
+        "prob": 0.089
+      },
+      {
+        "score": "0-0",
+        "prob": 0.08
+      },
+      {
+        "score": "0-1",
+        "prob": 0.075
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 2,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760454",
+      "player_shots": [
+        {
+          "player": "Ismaïla Sarr",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 6,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Erling Haaland",
+          "side": "home",
+          "team": "Norway",
+          "shots": 5,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Martin Ødegaard",
+          "side": "home",
+          "team": "Norway",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Nicolas Jackson",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Antonio Nusa",
+          "side": "home",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 2.54,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lamine Camara",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 62.8,
+          "starter": true,
+          "shots_p90": 2.87,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Idrissa Gueye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pape Matar Sarr",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.5,
+          "starter": false,
+          "shots_p90": 9.71,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kristoffer Ajer",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Marcus Holmgren Pedersen",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 78.0,
+          "starter": false,
+          "shots_p90": 1.15,
+          "sot_p90": 1.15
+        },
+        {
+          "player": "Oscar Bobb",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.6,
+          "starter": false,
+          "shots_p90": 13.67,
+          "sot_p90": 13.67
+        },
+        {
+          "player": "Ibrahim Mbaye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 36.2,
+          "starter": false,
+          "shots_p90": 2.49,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 41.7,
+      "shots_home": 13,
+      "shots_on_target_home": 7,
+      "corners_home": 5,
+      "fouls_home": 13,
+      "saves_home": 2,
+      "offsides_home": 0,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 58.3,
+      "shots_away": 16,
+      "shots_on_target_away": 4,
+      "corners_away": 4,
+      "fouls_away": 5,
+      "saves_away": 3,
+      "offsides_away": 4,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:56-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.15977,
+    "log_loss": 0.70725,
+    "brier": 0.3856,
+    "surprisal": 0.70725,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.15977,
+        "log_loss": 0.70725,
+        "brier": 0.3856,
+        "surprisal": 0.70725
+      },
+      "dixon_coles": {
+        "rps": 0.21468,
+        "log_loss": 0.86988,
+        "brier": 0.50665,
+        "surprisal": 0.86988
+      },
+      "elo": {
+        "rps": 0.13284,
+        "log_loss": 0.63111,
+        "brier": 0.32918,
+        "surprisal": 0.63111
+      }
+    }
+  }
+}

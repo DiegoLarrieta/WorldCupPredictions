@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-06-18-swi-bos",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-18-swi-bos",
+    "date": "2026-06-18",
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Switzerland vs Bosnia and Herzegovina",
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "as_of": "2026-06-18",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.676,
+      0.209,
+      0.116
+    ],
+    "components": {
+      "dixon_coles": [
+        0.644,
+        0.229,
+        0.127
+      ],
+      "elo": [
+        0.648,
+        0.218,
+        0.134
+      ]
+    },
+    "expected_goals": {
+      "Switzerland": 1.89,
+      "Bosnia and Herzegovina": 0.72
+    },
+    "over25": 0.484,
+    "btts": 0.443,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.131
+      },
+      {
+        "score": "1-0",
+        "prob": 0.131
+      },
+      {
+        "score": "1-1",
+        "prob": 0.108
+      },
+      {
+        "score": "2-1",
+        "prob": 0.095
+      },
+      {
+        "score": "3-0",
+        "prob": 0.083
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 4,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:20-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760439",
+      "player_shots": [
+        {
+          "player": "Dan Ndoye",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 5.08,
+          "sot_p90": 2.54
+        },
+        {
+          "player": "Rubén Vargas",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 19.0,
+          "starter": false,
+          "shots_p90": 9.46,
+          "sot_p90": 9.46
+        },
+        {
+          "player": "Johan Manzambi",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 19.1,
+          "starter": false,
+          "shots_p90": 9.44,
+          "sot_p90": 9.44
+        },
+        {
+          "player": "Granit Xhaka",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Edin Dzeko",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.1,
+          "starter": true,
+          "shots_p90": 2.85,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Amar Dedic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Amar Memic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ermin Mahmic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Remo Freuler",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Michel Aebischer",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Breel Embolo",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 88.2,
+          "starter": true,
+          "shots_p90": 1.02,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 62.3,
+      "shots_home": 13,
+      "shots_on_target_home": 7,
+      "corners_home": 7,
+      "fouls_home": 7,
+      "saves_home": 2,
+      "offsides_home": 3,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 37.7,
+      "shots_away": 5,
+      "shots_on_target_away": 3,
+      "corners_away": 3,
+      "fouls_away": 18,
+      "saves_away": 3,
+      "offsides_away": 1,
+      "yellow_cards_away": 2,
+      "red_cards_away": 1,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:50-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.05942,
+    "log_loss": 0.39256,
+    "brier": 0.16244,
+    "surprisal": 0.39256,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.05942,
+        "log_loss": 0.39256,
+        "brier": 0.16244,
+        "surprisal": 0.39256
+      },
+      "dixon_coles": {
+        "rps": 0.07143,
+        "log_loss": 0.44006,
+        "brier": 0.19531,
+        "surprisal": 0.44006
+      },
+      "elo": {
+        "rps": 0.07093,
+        "log_loss": 0.43386,
+        "brier": 0.18938,
+        "surprisal": 0.43386
+      }
+    }
+  }
+}

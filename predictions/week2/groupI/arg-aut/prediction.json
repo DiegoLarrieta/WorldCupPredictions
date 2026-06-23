@@ -1,0 +1,76 @@
+{
+  "match": "Argentina vs Austria",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-22",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Argentina": 0.722,
+      "Draw": 0.2,
+      "Austria": 0.078
+    },
+    "ensemble_uncalibrated": {
+      "Argentina": 0.692,
+      "Draw": 0.216,
+      "Austria": 0.092
+    },
+    "dixon_coles": {
+      "Argentina": 0.659,
+      "Draw": 0.248,
+      "Austria": 0.093
+    },
+    "elo": {
+      "Argentina": 0.722,
+      "Draw": 0.187,
+      "Austria": 0.091
+    }
+  },
+  "elo": {
+    "Argentina": 2207,
+    "Austria": 1917
+  },
+  "expected_goals": {
+    "Argentina": 1.65,
+    "Austria": 0.47
+  },
+  "over_under_2_5": {
+    "over": 0.354,
+    "under": 0.646
+  },
+  "btts": 0.308,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.192
+    },
+    {
+      "score": "2-0",
+      "prob": 0.164
+    },
+    {
+      "score": "0-0",
+      "prob": 0.128
+    },
+    {
+      "score": "1-1",
+      "prob": 0.1
+    },
+    {
+      "score": "3-0",
+      "prob": 0.09
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "2-0",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:22-06:00",
+    "rps": 0.04168,
+    "log_loss": 0.32573,
+    "brier": 0.12337,
+    "surprisal": 0.32573
+  }
+}

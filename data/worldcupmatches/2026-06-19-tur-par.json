@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-19-tur-par",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-19-tur-par",
+    "date": "2026-06-19",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Turkey vs Paraguay",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "as_of": "2026-06-19",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.402,
+      0.275,
+      0.323
+    ],
+    "components": {
+      "dixon_coles": [
+        0.312,
+        0.297,
+        0.391
+      ],
+      "elo": [
+        0.473,
+        0.264,
+        0.263
+      ]
+    },
+    "expected_goals": {
+      "Turkey": 1.13,
+      "Paraguay": 1.29
+    },
+    "over25": 0.434,
+    "btts": 0.5,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.141
+      },
+      {
+        "score": "0-1",
+        "prob": 0.104
+      },
+      {
+        "score": "0-0",
+        "prob": 0.101
+      },
+      {
+        "score": "1-0",
+        "prob": 0.09
+      },
+      {
+        "score": "1-2",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:21-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760443",
+      "player_shots": [
+        {
+          "player": "Kenan Yildiz",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 6,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Hakan Çalhanoglu",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 6,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Merih Demiral",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Can Uzun",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 31.0,
+          "starter": false,
+          "shots_p90": 8.72,
+          "sot_p90": 2.91
+        },
+        {
+          "player": "Mert Müldür",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Arda Güler",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Deniz Gül",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 31.0,
+          "starter": false,
+          "shots_p90": 5.82,
+          "sot_p90": 2.91
+        },
+        {
+          "player": "Matías Galarza",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ismail Yüksek",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 59.0,
+          "starter": true,
+          "shots_p90": 3.05,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Juan Jose Cáceres",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 80.4,
+          "starter": true,
+          "shots_p90": 1.12,
+          "sot_p90": 1.12
+        },
+        {
+          "player": "Abdülkerim Bardakçi",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.1,
+          "starter": true,
+          "shots_p90": 1.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Baris Alper Yilmaz",
+          "side": "home",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Omar Alderete",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gustavo Gómez",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Diego Gómez",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.1,
+          "starter": true,
+          "shots_p90": 1.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Julio Enciso",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 78.5,
+      "shots_home": 32,
+      "shots_on_target_home": 5,
+      "corners_home": 12,
+      "fouls_home": 14,
+      "saves_home": 1,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 21.5,
+      "shots_away": 7,
+      "shots_on_target_away": 2,
+      "corners_away": 0,
+      "fouls_away": 15,
+      "saves_away": 5,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 1,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:50-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.30997,
+    "log_loss": 1.1301,
+    "brier": 0.69556,
+    "surprisal": 1.1301,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.30997,
+        "log_loss": 1.1301,
+        "brier": 0.69556,
+        "surprisal": 1.1301
+      },
+      "dixon_coles": {
+        "rps": 0.23411,
+        "log_loss": 0.93905,
+        "brier": 0.55643,
+        "surprisal": 0.93905
+      },
+      "elo": {
+        "rps": 0.38345,
+        "log_loss": 1.3356,
+        "brier": 0.83659,
+        "surprisal": 1.3356
+      }
+    }
+  }
+}
