@@ -1,0 +1,95 @@
+{
+  "match": "Mexico vs Czech Republic",
+  "as_of": "2026-06-24",
+  "ev_threshold": 0.03,
+  "devig_method": "shin",
+  "markets": {
+    "1x2": {
+      "vig": 0.0003,
+      "selections": [
+        {
+          "selection": "home",
+          "odds": 2.0,
+          "model_prob": 0.645,
+          "market_prob": 0.5,
+          "edge": 0.145,
+          "ev_per_unit": 0.29,
+          "value": true
+        },
+        {
+          "selection": "draw",
+          "odds": 4.1,
+          "model_prob": 0.22,
+          "market_prob": 0.244,
+          "edge": -0.024,
+          "ev_per_unit": -0.098,
+          "value": false
+        },
+        {
+          "selection": "away",
+          "odds": 3.9,
+          "model_prob": 0.135,
+          "market_prob": 0.256,
+          "edge": -0.121,
+          "ev_per_unit": -0.474,
+          "value": false
+        }
+      ]
+    },
+    "ou_2.5": {
+      "vig": 0.0065,
+      "selections": [
+        {
+          "selection": "over",
+          "odds": 2.12,
+          "model_prob": 0.447,
+          "market_prob": 0.468,
+          "edge": -0.021,
+          "ev_per_unit": -0.052,
+          "value": false
+        },
+        {
+          "selection": "under",
+          "odds": 1.87,
+          "model_prob": 0.553,
+          "market_prob": 0.532,
+          "edge": 0.021,
+          "ev_per_unit": 0.034,
+          "value": true
+        }
+      ]
+    }
+  },
+  "value_bets": [
+    {
+      "market": "1x2",
+      "selection": "home",
+      "odds": 2.0,
+      "model_prob": 0.645,
+      "market_prob": 0.5,
+      "edge": 0.145,
+      "ev_per_unit": 0.29,
+      "value": true
+    },
+    {
+      "market": "ou_2.5",
+      "selection": "under",
+      "odds": 1.87,
+      "model_prob": 0.553,
+      "market_prob": 0.532,
+      "edge": 0.021,
+      "ev_per_unit": 0.034,
+      "value": true
+    }
+  ],
+  "best_ev": {
+    "market": "1x2",
+    "selection": "home",
+    "odds": 2.0,
+    "model_prob": 0.645,
+    "market_prob": 0.5,
+    "edge": 0.145,
+    "ev_per_unit": 0.29,
+    "value": true
+  }
+}

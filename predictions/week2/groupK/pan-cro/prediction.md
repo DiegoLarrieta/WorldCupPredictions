@@ -7,10 +7,10 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 | Outcome | Probability |
 |---|---|
 | **Panama win** | **21%** |
-| Draw | 25% |
-| **Croatia win** | **54%** |
+| Draw | 24% |
+| **Croatia win** | **55%** |
 
-- Expected goals: Panama 0.99 – 1.79 Croatia
+- Expected goals: Panama 0.97 – 1.82 Croatia
 - Over 2.5: 53%  ·  BTTS: 53%
 - Likely scores: 1-1 (12%), 0-1 (10%), 0-2 (10%), 1-2 (10%)
 
@@ -18,9 +18,9 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 
 | Model | Panama | Draw | Croatia |
 |---|---|---|---|
-| Dixon-Coles | 20% | 25% | 55% |
+| Dixon-Coles | 19% | 24% | 57% |
 | Elo | 24% | 26% | 49% |
-| **Ensemble** | **21%** | **25%** | **54%** |
+| **Ensemble** | **21%** | **24%** | **55%** |
 
 Elo: Panama 1813 vs Croatia 1945.
 ## Actual result

@@ -8,19 +8,19 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Panama": 0.212,
-      "Draw": 0.248,
-      "Croatia": 0.541
+      "Panama": 0.207,
+      "Draw": 0.244,
+      "Croatia": 0.549
     },
     "ensemble_uncalibrated": {
-      "Panama": 0.223,
-      "Draw": 0.257,
-      "Croatia": 0.521
+      "Panama": 0.219,
+      "Draw": 0.253,
+      "Croatia": 0.528
     },
     "dixon_coles": {
-      "Panama": 0.2,
-      "Draw": 0.248,
-      "Croatia": 0.552
+      "Panama": 0.191,
+      "Draw": 0.241,
+      "Croatia": 0.568
     },
     "elo": {
       "Panama": 0.244,
@@ -33,34 +33,34 @@
     "Croatia": 1945
   },
   "expected_goals": {
-    "Panama": 0.99,
-    "Croatia": 1.79
+    "Panama": 0.97,
+    "Croatia": 1.82
   },
   "over_under_2_5": {
-    "over": 0.526,
-    "under": 0.474
+    "over": 0.528,
+    "under": 0.472
   },
-  "btts": 0.532,
+  "btts": 0.527,
   "top_scorelines": [
     {
       "score": "1-1",
-      "prob": 0.118
+      "prob": 0.115
     },
     {
       "score": "0-1",
-      "prob": 0.103
+      "prob": 0.105
     },
     {
       "score": "0-2",
-      "prob": 0.099
+      "prob": 0.102
     },
     {
       "score": "1-2",
-      "prob": 0.098
+      "prob": 0.099
     },
     {
       "score": "0-0",
-      "prob": 0.07
+      "prob": 0.068
     }
   ],
   "lineups": null,
