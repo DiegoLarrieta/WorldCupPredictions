@@ -1,23 +1,18 @@
-# Model vs market: Mexico vs Czech Republic
+# Market read (sharp vs soft): Mexico vs Czech Republic
 
-_Ensemble probabilities vs the offered odds. EV is per 1u stake at the price shown; value bets clear EV ≥ 3%. Edge is model minus the de-vigged fair line._
+Recommend = a **soft book beats the sharp fair** (prospective CLOV+). A big model-vs-sharp gap is **suspect** (the edge test says we don't out-predict the sharp close), not value.
 
-## 1x2  (vig 0.0%)
-
-| Selection | Odds | Model | Market | Edge | EV/1u | Value |
+## 1x2  (sharp vig 2.3%)
+| sel | best | sharp fair | model | soft edge | model vs sharp | verdict |
 |---|---|---|---|---|---|---|
-| home | 2.00 | 64% | 50% | +14% | +0.29 | ✅ |
-| draw | 4.10 | 22% | 24% | -2% | -0.10 |  |
-| away | 3.90 | 14% | 26% | -12% | -0.47 |  |
+| home | 2.00 | 49% | 64% | -1.2% | +15.1% | **suspect** |
+| draw | 4.00 | 25% | 22% | -1.1% | -2.7% | **pass** |
+| away | 3.95 | 26% | 14% | +2.2% | -12.4% | **pass** |
 
-## ou_2.5  (vig 0.7%)
-
-| Selection | Odds | Model | Market | Edge | EV/1u | Value |
+## ou_2.5  (sharp vig 2.4%)
+| sel | best | sharp fair | model | soft edge | model vs sharp | verdict |
 |---|---|---|---|---|---|---|
-| over | 2.12 | 45% | 47% | -2% | -0.05 |  |
-| under | 1.87 | 55% | 53% | +2% | +0.03 | ✅ |
+| over | 2.12 | 47% | 45% | -0.1% | -2.4% | **pass** |
+| under | 1.88 | 53% | 55% | -0.6% | +2.4% | **pass** |
 
-## Value bets
-
-- **1x2 / home** @ 2.00 — model 64% vs market 50%, EV +0.29/1u
-- **ou_2.5 / under** @ 1.87 — model 55% vs market 53%, EV +0.03/1u
+## No soft-price edge — pass (the common, correct outcome)

@@ -1,95 +1,73 @@
 {
   "match": "Mexico vs Czech Republic",
   "as_of": "2026-06-24",
-  "ev_threshold": 0.03,
   "devig_method": "shin",
   "markets": {
     "1x2": {
-      "vig": 0.0003,
+      "sharp_vig": 0.0229,
       "selections": [
         {
           "selection": "home",
-          "odds": 2.0,
+          "best_odds": 2.0,
+          "sharp_odds": 1.99,
           "model_prob": 0.645,
-          "market_prob": 0.5,
-          "edge": 0.145,
-          "ev_per_unit": 0.29,
-          "value": true
+          "sharp_prob": 0.494,
+          "soft_edge": -0.012,
+          "model_vs_sharp": 0.151,
+          "verdict": "suspect",
+          "why": "model disagrees with the sharp close — edge test says we're usually wrong here"
         },
         {
           "selection": "draw",
-          "odds": 4.1,
+          "best_odds": 4.0,
+          "sharp_odds": 3.93,
           "model_prob": 0.22,
-          "market_prob": 0.244,
-          "edge": -0.024,
-          "ev_per_unit": -0.098,
-          "value": false
+          "sharp_prob": 0.247,
+          "soft_edge": -0.011,
+          "model_vs_sharp": -0.027,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
         },
         {
           "selection": "away",
-          "odds": 3.9,
+          "best_odds": 3.95,
+          "sharp_odds": 3.76,
           "model_prob": 0.135,
-          "market_prob": 0.256,
-          "edge": -0.121,
-          "ev_per_unit": -0.474,
-          "value": false
+          "sharp_prob": 0.259,
+          "soft_edge": 0.022,
+          "model_vs_sharp": -0.124,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
         }
       ]
     },
     "ou_2.5": {
-      "vig": 0.0065,
+      "sharp_vig": 0.0236,
       "selections": [
         {
           "selection": "over",
-          "odds": 2.12,
+          "best_odds": 2.12,
+          "sharp_odds": 2.07,
           "model_prob": 0.447,
-          "market_prob": 0.468,
-          "edge": -0.021,
-          "ev_per_unit": -0.052,
-          "value": false
+          "sharp_prob": 0.471,
+          "soft_edge": -0.001,
+          "model_vs_sharp": -0.024,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
         },
         {
           "selection": "under",
-          "odds": 1.87,
+          "best_odds": 1.88,
+          "sharp_odds": 1.85,
           "model_prob": 0.553,
-          "market_prob": 0.532,
-          "edge": 0.021,
-          "ev_per_unit": 0.034,
-          "value": true
+          "sharp_prob": 0.529,
+          "soft_edge": -0.006,
+          "model_vs_sharp": 0.024,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
         }
       ]
     }
   },
-  "value_bets": [
-    {
-      "market": "1x2",
-      "selection": "home",
-      "odds": 2.0,
-      "model_prob": 0.645,
-      "market_prob": 0.5,
-      "edge": 0.145,
-      "ev_per_unit": 0.29,
-      "value": true
-    },
-    {
-      "market": "ou_2.5",
-      "selection": "under",
-      "odds": 1.87,
-      "model_prob": 0.553,
-      "market_prob": 0.532,
-      "edge": 0.021,
-      "ev_per_unit": 0.034,
-      "value": true
-    }
-  ],
-  "best_ev": {
-    "market": "1x2",
-    "selection": "home",
-    "odds": 2.0,
-    "model_prob": 0.645,
-    "market_prob": 0.5,
-    "edge": 0.145,
-    "ev_per_unit": 0.29,
-    "value": true
-  }
+  "recommend": []
 }
