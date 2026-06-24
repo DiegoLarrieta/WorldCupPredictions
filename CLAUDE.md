@@ -153,9 +153,16 @@ When in doubt, invoke the skill.
 
 Project skills (in `.claude/skills/`):
 - New fixture prediction → invoke **/predict-match**
-- Odds / edge / value bet for a fixture → invoke **/compare-market**
-- Player shots-on-target prop bets → invoke **/prop-bets**
-- Record / settle a bet, or betting performance (ROI, CLOV) → invoke **/log-bet**
+- Odds / edge / value bet for a fixture → invoke **/compare-market** (honest sharp-vs-soft
+  read: recommends only a soft book beating the sharp fair; big model-vs-sharp gaps are
+  flagged *suspect*, not value, per the edge test)
+- Player shots-on-target prop bets → invoke **/prop-bets** (CLOV-on-overs: SoT is one-sided
+  / un-de-viggable, so bet overs where the model beats the vigged price and judge by CLOV)
+- Record / settle a bet → invoke **/log-bet**
+- Score a played matchday / "train" on results (results → ratings → stats → prop rebuild) →
+  invoke **/score-week**
+- "Are we profitable / show the scorecard" (CLOV + ROI-with-CI + calibration) → invoke
+  **/bet-report**
 
 gstack routing:
 - Product ideas / direction / "is this worth building" → invoke /office-hours
