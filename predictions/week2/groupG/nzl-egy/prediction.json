@@ -1,0 +1,76 @@
+{
+  "match": "New Zealand vs Egypt",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-21",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "New Zealand": 0.28,
+      "Draw": 0.293,
+      "Egypt": 0.427
+    },
+    "ensemble_uncalibrated": {
+      "New Zealand": 0.285,
+      "Draw": 0.297,
+      "Egypt": 0.418
+    },
+    "dixon_coles": {
+      "New Zealand": 0.265,
+      "Draw": 0.324,
+      "Egypt": 0.412
+    },
+    "elo": {
+      "New Zealand": 0.303,
+      "Draw": 0.272,
+      "Egypt": 0.424
+    }
+  },
+  "elo": {
+    "New Zealand": 1745,
+    "Egypt": 1822
+  },
+  "expected_goals": {
+    "New Zealand": 0.86,
+    "Egypt": 1.14
+  },
+  "over_under_2_5": {
+    "over": 0.325,
+    "under": 0.675
+  },
+  "btts": 0.403,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.145
+    },
+    {
+      "score": "0-1",
+      "prob": 0.144
+    },
+    {
+      "score": "1-1",
+      "prob": 0.143
+    },
+    {
+      "score": "1-0",
+      "prob": 0.106
+    },
+    {
+      "score": "0-2",
+      "prob": 0.088
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "1-3",
+    "result": "away",
+    "scored_at": "2026-06-23T17:54:22-06:00",
+    "rps": 0.20336,
+    "log_loss": 0.85097,
+    "brier": 0.49258,
+    "surprisal": 0.85097
+  }
+}

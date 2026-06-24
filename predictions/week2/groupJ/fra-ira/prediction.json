@@ -1,0 +1,76 @@
+{
+  "match": "France vs Iraq",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-22",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "France": 0.795,
+      "Draw": 0.152,
+      "Iraq": 0.053
+    },
+    "ensemble_uncalibrated": {
+      "France": 0.764,
+      "Draw": 0.17,
+      "Iraq": 0.066
+    },
+    "dixon_coles": {
+      "France": 0.696,
+      "Draw": 0.211,
+      "Iraq": 0.093
+    },
+    "elo": {
+      "France": 0.827,
+      "Draw": 0.132,
+      "Iraq": 0.041
+    }
+  },
+  "elo": {
+    "France": 2151,
+    "Iraq": 1718
+  },
+  "expected_goals": {
+    "France": 1.97,
+    "Iraq": 0.59
+  },
+  "over_under_2_5": {
+    "over": 0.47,
+    "under": 0.53
+  },
+  "btts": 0.389,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.151
+    },
+    {
+      "score": "1-0",
+      "prob": 0.146
+    },
+    {
+      "score": "3-0",
+      "prob": 0.099
+    },
+    {
+      "score": "1-1",
+      "prob": 0.097
+    },
+    {
+      "score": "2-1",
+      "prob": 0.088
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "3-0",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:23-06:00",
+    "rps": 0.02242,
+    "log_loss": 0.22941,
+    "brier": 0.06794,
+    "surprisal": 0.22941
+  }
+}

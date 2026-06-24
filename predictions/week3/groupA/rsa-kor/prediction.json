@@ -1,0 +1,68 @@
+{
+  "match": "South Africa vs South Korea",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-24",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "South Africa": 0.128,
+      "Draw": 0.231,
+      "South Korea": 0.641
+    },
+    "ensemble_uncalibrated": {
+      "South Africa": 0.142,
+      "Draw": 0.243,
+      "South Korea": 0.614
+    },
+    "dixon_coles": {
+      "South Africa": 0.163,
+      "Draw": 0.267,
+      "South Korea": 0.57
+    },
+    "elo": {
+      "South Africa": 0.124,
+      "Draw": 0.221,
+      "South Korea": 0.656
+    }
+  },
+  "elo": {
+    "South Africa": 1646,
+    "South Korea": 1925
+  },
+  "expected_goals": {
+    "South Africa": 0.71,
+    "South Korea": 1.56
+  },
+  "over_under_2_5": {
+    "over": 0.397,
+    "under": 0.603
+  },
+  "btts": 0.409,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.154
+    },
+    {
+      "score": "0-2",
+      "prob": 0.125
+    },
+    {
+      "score": "1-1",
+      "prob": 0.121
+    },
+    {
+      "score": "0-0",
+      "prob": 0.11
+    },
+    {
+      "score": "1-2",
+      "prob": 0.089
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Uruguay vs Spain",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-26",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Uruguay": 0.184,
+      "Draw": 0.268,
+      "Spain": 0.548
+    },
+    "ensemble_uncalibrated": {
+      "Uruguay": 0.196,
+      "Draw": 0.276,
+      "Spain": 0.528
+    },
+    "dixon_coles": {
+      "Uruguay": 0.247,
+      "Draw": 0.321,
+      "Spain": 0.431
+    },
+    "elo": {
+      "Uruguay": 0.149,
+      "Draw": 0.234,
+      "Spain": 0.617
+    }
+  },
+  "elo": {
+    "Uruguay": 1957,
+    "Spain": 2199
+  },
+  "expected_goals": {
+    "Uruguay": 0.8,
+    "Spain": 1.15
+  },
+  "over_under_2_5": {
+    "over": 0.311,
+    "under": 0.689
+  },
+  "btts": 0.385,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.156
+    },
+    {
+      "score": "0-0",
+      "prob": 0.149
+    },
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "1-0",
+      "prob": 0.106
+    },
+    {
+      "score": "0-2",
+      "prob": 0.094
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

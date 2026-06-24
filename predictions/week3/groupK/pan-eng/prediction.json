@@ -1,0 +1,68 @@
+{
+  "match": "Panama vs England",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-27",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Panama": 0.086,
+      "Draw": 0.187,
+      "England": 0.727
+    },
+    "ensemble_uncalibrated": {
+      "Panama": 0.101,
+      "Draw": 0.203,
+      "England": 0.696
+    },
+    "dixon_coles": {
+      "Panama": 0.098,
+      "Draw": 0.198,
+      "England": 0.705
+    },
+    "elo": {
+      "Panama": 0.104,
+      "Draw": 0.208,
+      "England": 0.688
+    }
+  },
+  "elo": {
+    "Panama": 1813,
+    "England": 2126
+  },
+  "expected_goals": {
+    "Panama": 0.66,
+    "England": 2.11
+  },
+  "over_under_2_5": {
+    "over": 0.522,
+    "under": 0.478
+  },
+  "btts": 0.429,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.14
+    },
+    {
+      "score": "0-1",
+      "prob": 0.127
+    },
+    {
+      "score": "0-3",
+      "prob": 0.098
+    },
+    {
+      "score": "1-1",
+      "prob": 0.093
+    },
+    {
+      "score": "1-2",
+      "prob": 0.092
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

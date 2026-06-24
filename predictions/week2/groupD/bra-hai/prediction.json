@@ -1,0 +1,76 @@
+{
+  "match": "Brazil vs Haiti",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-19",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Brazil": 0.842,
+      "Draw": 0.117,
+      "Haiti": 0.042
+    },
+    "ensemble_uncalibrated": {
+      "Brazil": 0.811,
+      "Draw": 0.136,
+      "Haiti": 0.053
+    },
+    "dixon_coles": {
+      "Brazil": 0.834,
+      "Draw": 0.116,
+      "Haiti": 0.049
+    },
+    "elo": {
+      "Brazil": 0.79,
+      "Draw": 0.153,
+      "Haiti": 0.056
+    }
+  },
+  "elo": {
+    "Brazil": 2057,
+    "Haiti": 1682
+  },
+  "expected_goals": {
+    "Brazil": 3.02,
+    "Haiti": 0.68
+  },
+  "over_under_2_5": {
+    "over": 0.715,
+    "under": 0.285
+  },
+  "btts": 0.472,
+  "top_scorelines": [
+    {
+      "score": "3-0",
+      "prob": 0.114
+    },
+    {
+      "score": "2-0",
+      "prob": 0.113
+    },
+    {
+      "score": "4-0",
+      "prob": 0.086
+    },
+    {
+      "score": "3-1",
+      "prob": 0.077
+    },
+    {
+      "score": "2-1",
+      "prob": 0.076
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "3-0",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:21-06:00",
+    "rps": 0.0135,
+    "log_loss": 0.17297,
+    "brier": 0.04065,
+    "surprisal": 0.17297
+  }
+}

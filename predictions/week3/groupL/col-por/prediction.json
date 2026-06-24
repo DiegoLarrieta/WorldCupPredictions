@@ -1,0 +1,68 @@
+{
+  "match": "Colombia vs Portugal",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-27",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Colombia": 0.452,
+      "Draw": 0.265,
+      "Portugal": 0.283
+    },
+    "ensemble_uncalibrated": {
+      "Colombia": 0.441,
+      "Draw": 0.271,
+      "Portugal": 0.288
+    },
+    "dixon_coles": {
+      "Colombia": 0.433,
+      "Draw": 0.275,
+      "Portugal": 0.292
+    },
+    "elo": {
+      "Colombia": 0.447,
+      "Draw": 0.268,
+      "Portugal": 0.285
+    }
+  },
+  "elo": {
+    "Colombia": 2083,
+    "Portugal": 2041
+  },
+  "expected_goals": {
+    "Colombia": 1.47,
+    "Portugal": 1.17
+  },
+  "over_under_2_5": {
+    "over": 0.493,
+    "under": 0.507
+  },
+  "btts": 0.54,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.131
+    },
+    {
+      "score": "1-0",
+      "prob": 0.096
+    },
+    {
+      "score": "2-1",
+      "prob": 0.09
+    },
+    {
+      "score": "0-0",
+      "prob": 0.079
+    },
+    {
+      "score": "2-0",
+      "prob": 0.077
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

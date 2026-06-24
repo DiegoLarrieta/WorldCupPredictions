@@ -1,0 +1,76 @@
+{
+  "match": "United States vs Australia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-19",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "United States": 0.282,
+      "Draw": 0.282,
+      "Australia": 0.436
+    },
+    "ensemble_uncalibrated": {
+      "United States": 0.287,
+      "Draw": 0.287,
+      "Australia": 0.426
+    },
+    "dixon_coles": {
+      "United States": 0.256,
+      "Draw": 0.302,
+      "Australia": 0.442
+    },
+    "elo": {
+      "United States": 0.315,
+      "Draw": 0.273,
+      "Australia": 0.411
+    }
+  },
+  "elo": {
+    "United States": 1931,
+    "Australia": 1997
+  },
+  "expected_goals": {
+    "United States": 0.94,
+    "Australia": 1.32
+  },
+  "over_under_2_5": {
+    "over": 0.393,
+    "under": 0.607
+  },
+  "btts": 0.457,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.141
+    },
+    {
+      "score": "0-1",
+      "prob": 0.127
+    },
+    {
+      "score": "0-0",
+      "prob": 0.116
+    },
+    {
+      "score": "0-2",
+      "prob": 0.091
+    },
+    {
+      "score": "1-0",
+      "prob": 0.087
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "2-0",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:21-06:00",
+    "rps": 0.35281,
+    "log_loss": 1.26585,
+    "brier": 0.78514,
+    "surprisal": 1.26585
+  }
+}

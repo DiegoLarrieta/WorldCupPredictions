@@ -1,0 +1,76 @@
+{
+  "match": "Switzerland vs Bosnia and Herzegovina",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-18",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Switzerland": 0.676,
+      "Draw": 0.209,
+      "Bosnia and Herzegovina": 0.116
+    },
+    "ensemble_uncalibrated": {
+      "Switzerland": 0.646,
+      "Draw": 0.223,
+      "Bosnia and Herzegovina": 0.131
+    },
+    "dixon_coles": {
+      "Switzerland": 0.644,
+      "Draw": 0.229,
+      "Bosnia and Herzegovina": 0.127
+    },
+    "elo": {
+      "Switzerland": 0.648,
+      "Draw": 0.218,
+      "Bosnia and Herzegovina": 0.134
+    }
+  },
+  "elo": {
+    "Switzerland": 1906,
+    "Bosnia and Herzegovina": 1693
+  },
+  "expected_goals": {
+    "Switzerland": 1.89,
+    "Bosnia and Herzegovina": 0.72
+  },
+  "over_under_2_5": {
+    "over": 0.484,
+    "under": 0.516
+  },
+  "btts": 0.443,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.131
+    },
+    {
+      "score": "1-0",
+      "prob": 0.131
+    },
+    {
+      "score": "1-1",
+      "prob": 0.108
+    },
+    {
+      "score": "2-1",
+      "prob": 0.095
+    },
+    {
+      "score": "3-0",
+      "prob": 0.083
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "4-1",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:20-06:00",
+    "rps": 0.05942,
+    "log_loss": 0.39256,
+    "brier": 0.16244,
+    "surprisal": 0.39256
+  }
+}

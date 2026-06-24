@@ -1,0 +1,261 @@
+{
+  "match_key": "2026-06-19-bra-hai",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-19-bra-hai",
+    "date": "2026-06-19",
+    "home": "Brazil",
+    "away": "Haiti",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Brazil vs Haiti",
+    "home": "Brazil",
+    "away": "Haiti",
+    "as_of": "2026-06-19",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.842,
+      0.117,
+      0.042
+    ],
+    "components": {
+      "dixon_coles": [
+        0.834,
+        0.116,
+        0.049
+      ],
+      "elo": [
+        0.79,
+        0.153,
+        0.056
+      ]
+    },
+    "expected_goals": {
+      "Brazil": 3.02,
+      "Haiti": 0.68
+    },
+    "over25": 0.715,
+    "btts": 0.472,
+    "top_scorelines": [
+      {
+        "score": "3-0",
+        "prob": 0.114
+      },
+      {
+        "score": "2-0",
+        "prob": 0.113
+      },
+      {
+        "score": "4-0",
+        "prob": 0.086
+      },
+      {
+        "score": "3-1",
+        "prob": 0.077
+      },
+      {
+        "score": "2-1",
+        "prob": 0.076
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:21-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760444",
+      "player_shots": [
+        {
+          "player": "Vinícius Júnior",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 80.4,
+          "starter": true,
+          "shots_p90": 3.36,
+          "sot_p90": 2.24
+        },
+        {
+          "player": "Matheus Cunha",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 63.6,
+          "starter": true,
+          "shots_p90": 2.83,
+          "sot_p90": 2.83
+        },
+        {
+          "player": "Ricardo Adé",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Wilson Isidor",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Raphinha ",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 39.8,
+          "starter": true,
+          "shots_p90": 2.26,
+          "sot_p90": 2.26
+        },
+        {
+          "player": "Dominique Simon",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Douglas Santos",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Éderson",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 9.5,
+          "starter": false,
+          "shots_p90": 9.44,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jean-Kévin Duverne",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ruben Providence",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.7,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 56.7,
+      "shots_home": 8,
+      "shots_on_target_home": 5,
+      "corners_home": 4,
+      "fouls_home": 13,
+      "saves_home": 3,
+      "offsides_home": 8,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 43.3,
+      "shots_away": 7,
+      "shots_on_target_away": 3,
+      "corners_away": 4,
+      "fouls_away": 14,
+      "saves_away": 2,
+      "offsides_away": 4,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:51-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.0135,
+    "log_loss": 0.17297,
+    "brier": 0.04065,
+    "surprisal": 0.17297,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.0135,
+        "log_loss": 0.17297,
+        "brier": 0.04065,
+        "surprisal": 0.17297
+      },
+      "dixon_coles": {
+        "rps": 0.01484,
+        "log_loss": 0.18052,
+        "brier": 0.04317,
+        "surprisal": 0.18052
+      },
+      "elo": {
+        "rps": 0.02346,
+        "log_loss": 0.23472,
+        "brier": 0.07037,
+        "surprisal": 0.23472
+      }
+    }
+  }
+}

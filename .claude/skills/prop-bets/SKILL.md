@@ -1,39 +1,55 @@
 ---
 name: prop-bets
-description: Find player shots-on-target prop bets for a fixture — model vs market EV. Use when the user wants player props, shots-on-target bets, "any prop value", or to check a striker's shot prop (e.g. "prop bets for USA-Australia", "is there value on Haaland shots on target").
+description: Find player shots-on-target prop bets for a fixture via the CLOV-on-overs loop. Use when the user wants player props, shots-on-target bets, "any prop value", or to check a striker's shot prop (e.g. "prop bets for USA-Australia", "is there value on Haaland shots on target").
 ---
 
 # /prop-bets
 
-Run the player shots-on-target prop loop for a fixture: pull prop odds (The Odds API, US
-books), compare to the shrunk prop model, report EV + value bets. Wraps `engine.props`,
-`engine.odds_api.fetch_player_props`, and `engine.market.prop_ev`.
+Surface shots-on-target prop bets via **CLOV-on-overs**. Wraps `scripts/prop_bets.py`
+(fetch + model) and `scripts/prop_clov.py` (the decision).
+
+## The discipline this skill enforces (read before reporting)
+US/UK/EU/AU books quote SoT props **over-only** — no `under`, so the line **can't be
+de-vigged** and a pre-bet "value" flag is impossible (a big EV on a one-sided longshot is
+**model error**, not edge). So we don't flag EV-value. Instead we bet overs where the
+**model beats the offered, vig-included price** (`model_over * over_price > 1`) and let the
+**closing price judge us (CLOV)** — no de-vig needed; this is "be faster to a soft price".
+Hard rules, baked into `prop_clov.py`:
+- **Skip players with no real club shot data** (`shot_rate_raw=NaN` → rate is just the
+  position prior; we don't know their rate).
+- **Longshot guard:** model_over floor + line cap, so it can't pick one-sided longshots.
+- **Big gap = suspect, not value.** A model that's wildly more bullish than the price
+  (e.g. +25pts on a one-sided line) is probably wrong — prefer moderate, credible gaps,
+  especially for actual strikers over midfielders.
 
 ## Prereqs
-- `ODDS_API_KEY` set (US prop markets live under `regions=us`; cost a few credits/fixture).
-- `data/csv/derived/player_shot_rates.csv` exists — if not, run `scripts/build_prop_model.py`.
-- A match folder with `prediction.json` (run /predict-match first) — gives home/away.
+- `ODDS_API_KEY` (props cost a few credits/fixture). `data/csv/derived/player_shot_rates.csv`
+  (run /score-week or `build_prop_model.py` to refresh). A folder with `prediction.json`.
 
 ## Steps
 ```bash
+# 1. Fetch props + model -> prop_compare.{json,md} (model_over, over_price per player).
 ODDS_API_KEY=... .venv/bin/python scripts/prop_bets.py predictions/<week>/<slug>
-# options: --minutes 60 (likely sub), --opp 1.2 (leaky defence), --book fanduel, --threshold 0.05
+#    --minutes 60 (likely sub), --opp 1.2 (leaky defence), --book fanduel
+
+# 2. Decision: the overs where the model beats the vigged price, guarded + real-data only.
+.venv/bin/python scripts/prop_clov.py predictions/<week>/<slug>          # dry-run
+.venv/bin/python scripts/prop_clov.py predictions/<week>/<slug> --log --stake 1
+#    --min 0.5 (model_over floor), --max-line 1.5, --edge 0.0 (min EV at taken price)
 ```
-Reads the model rates, fetches props, writes `prop_compare.{json,md}` into the folder.
 
 ## Reporting
-- Lead with value bets if any; otherwise say "no value" plainly — that's the common,
-  correct outcome (soft books still often price these right).
-- **One-sided lines (over-only, no under) are shown but never flagged as value** — they
-  can't be de-vigged, so a big EV there is almost always model error, not edge. Don't
-  recommend them as if they're proven.
-- Adjust `--minutes` for players unlikely to start; the default assumes a full 90.
+- Lead with the CLOV candidates from `prop_clov.py` (model% vs price%, EV at the taken
+  price). For each, apply judgment: is the gap **credible** (real striker, plausible
+  minutes) or a **suspicious blowout** (likely model error)? Recommend only credible ones.
+- **If nothing credible survives, say "no bet" plainly** — the common, correct outcome.
+- Adjust `--minutes` for players unlikely to start a full 90 (rotation inflates SoT prob).
+- Only log with the user's OK (paper bets are records — `data/bets.csv` is committed).
 
 ## Reminders
-- These are CANDIDATE bets, not proven edge. The 1X2 edge test showed the model doesn't
-  beat a sharp close; props are softer but the prop model is unvalidated against these
-  lines. After placing a bet, use /log-bet and let CLOV judge it over time.
-- Players with no club shot data (e.g. A-League, smaller leagues) won't match and are
-  skipped — that's a coverage gap, not an error.
-- Cross-source names auto-resolve via aliases (United States/USA etc.); add to
-  `engine.odds_api._ALIAS_GROUPS` if a fixture won't match.
+- Candidates are NOT proven edge. We bet small/paper and let **CLOV** (vs the closing
+  over-price) judge over many bets — that's the whole point. Capture the close: re-run
+  prop_bets.py near kickoff and settle via /log-bet with that over-price as `closing_odds`.
+- Players with no club shot data (MLS/Championship/etc.) are skipped by the real-data
+  filter — coverage gap, not an error. Names auto-resolve via token-subset matching
+  ('Carlos Casemiro' → 'Casemiro'); genuinely unmatched stay out.

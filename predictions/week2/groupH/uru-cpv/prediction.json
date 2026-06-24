@@ -1,0 +1,76 @@
+{
+  "match": "Uruguay vs Cape Verde",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-21",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Uruguay": 0.691,
+      "Draw": 0.222,
+      "Cape Verde": 0.087
+    },
+    "ensemble_uncalibrated": {
+      "Uruguay": 0.662,
+      "Draw": 0.236,
+      "Cape Verde": 0.102
+    },
+    "dixon_coles": {
+      "Uruguay": 0.612,
+      "Draw": 0.282,
+      "Cape Verde": 0.105
+    },
+    "elo": {
+      "Uruguay": 0.708,
+      "Draw": 0.193,
+      "Cape Verde": 0.098
+    }
+  },
+  "elo": {
+    "Uruguay": 1957,
+    "Cape Verde": 1682
+  },
+  "expected_goals": {
+    "Uruguay": 1.43,
+    "Cape Verde": 0.44
+  },
+  "over_under_2_5": {
+    "over": 0.288,
+    "under": 0.712
+  },
+  "btts": 0.278,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.213
+    },
+    {
+      "score": "0-0",
+      "prob": 0.162
+    },
+    {
+      "score": "2-0",
+      "prob": 0.158
+    },
+    {
+      "score": "1-1",
+      "prob": 0.104
+    },
+    {
+      "score": "3-0",
+      "prob": 0.075
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "2-2",
+    "result": "draw",
+    "scored_at": "2026-06-23T17:54:22-06:00",
+    "rps": 0.24253,
+    "log_loss": 1.50508,
+    "brier": 1.09033,
+    "surprisal": 1.50508
+  }
+}

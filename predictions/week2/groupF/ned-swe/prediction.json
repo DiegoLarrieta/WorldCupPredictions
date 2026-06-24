@@ -1,0 +1,76 @@
+{
+  "match": "Netherlands vs Sweden",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-20",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Netherlands": 0.642,
+      "Draw": 0.203,
+      "Sweden": 0.155
+    },
+    "ensemble_uncalibrated": {
+      "Netherlands": 0.615,
+      "Draw": 0.216,
+      "Sweden": 0.169
+    },
+    "dixon_coles": {
+      "Netherlands": 0.614,
+      "Draw": 0.202,
+      "Sweden": 0.184
+    },
+    "elo": {
+      "Netherlands": 0.615,
+      "Draw": 0.229,
+      "Sweden": 0.156
+    }
+  },
+  "elo": {
+    "Netherlands": 2009,
+    "Sweden": 1827
+  },
+  "expected_goals": {
+    "Netherlands": 2.29,
+    "Sweden": 1.2
+  },
+  "over_under_2_5": {
+    "over": 0.676,
+    "under": 0.324
+  },
+  "btts": 0.631,
+  "top_scorelines": [
+    {
+      "score": "2-1",
+      "prob": 0.096
+    },
+    {
+      "score": "1-1",
+      "prob": 0.089
+    },
+    {
+      "score": "2-0",
+      "prob": 0.08
+    },
+    {
+      "score": "3-1",
+      "prob": 0.073
+    },
+    {
+      "score": "1-0",
+      "prob": 0.066
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "5-1",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:21-06:00",
+    "rps": 0.07609,
+    "log_loss": 0.44317,
+    "brier": 0.1934,
+    "surprisal": 0.44317
+  }
+}

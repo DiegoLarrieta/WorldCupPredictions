@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-21-new-egy",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-21-new-egy",
+    "date": "2026-06-21",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "New Zealand vs Egypt",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "as_of": "2026-06-21",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.28,
+      0.293,
+      0.427
+    ],
+    "components": {
+      "dixon_coles": [
+        0.265,
+        0.324,
+        0.412
+      ],
+      "elo": [
+        0.303,
+        0.272,
+        0.424
+      ]
+    },
+    "expected_goals": {
+      "New Zealand": 0.86,
+      "Egypt": 1.14
+    },
+    "over25": 0.325,
+    "btts": 0.403,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.145
+      },
+      {
+        "score": "0-1",
+        "prob": 0.144
+      },
+      {
+        "score": "1-1",
+        "prob": 0.143
+      },
+      {
+        "score": "1-0",
+        "prob": 0.106
+      },
+      {
+        "score": "0-2",
+        "prob": 0.088
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 3,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:22-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760452",
+      "player_shots": [
+        {
+          "player": "Mohamed Salah",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 84.2,
+          "starter": true,
+          "shots_p90": 5.35,
+          "sot_p90": 2.14
+        },
+        {
+          "player": "Mostafa Zico",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 75.8,
+          "starter": true,
+          "shots_p90": 4.75,
+          "sot_p90": 1.19
+        },
+        {
+          "player": "Omar Marmoush",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.5,
+          "starter": true,
+          "shots_p90": 3.58,
+          "sot_p90": 1.19
+        },
+        {
+          "player": "Emam Ashour",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.1,
+          "starter": true,
+          "shots_p90": 3.21,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Callum McCowatt",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.2,
+          "starter": true,
+          "shots_p90": 2.76,
+          "sot_p90": 2.76
+        },
+        {
+          "player": "Elijah Just",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.0,
+          "starter": true,
+          "shots_p90": 2.12,
+          "sot_p90": 1.06
+        },
+        {
+          "player": "Marko Stamenic",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Finn Surman",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Tyler Bindon",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 5.2,
+          "starter": false,
+          "shots_p90": 17.14,
+          "sot_p90": 17.14
+        },
+        {
+          "player": "Ahmed Fatouh",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Zizo",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 5.9,
+          "starter": false,
+          "shots_p90": 15.34,
+          "sot_p90": 15.34
+        },
+        {
+          "player": "Trézéguet",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 14.5,
+          "starter": false,
+          "shots_p90": 6.2,
+          "sot_p90": 6.2
+        },
+        {
+          "player": "Sarpreet Singh",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.3,
+          "starter": true,
+          "shots_p90": 1.2,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Joe Bell",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Chris Wood",
+          "side": "home",
+          "team": "New Zealand",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mohamed Hany",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 44.4,
+      "shots_home": 11,
+      "shots_on_target_home": 5,
+      "corners_home": 4,
+      "fouls_home": 14,
+      "saves_home": 4,
+      "offsides_home": 3,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 55.6,
+      "shots_away": 19,
+      "shots_on_target_away": 7,
+      "corners_away": 4,
+      "fouls_away": 8,
+      "saves_away": 4,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:54-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.20336,
+    "log_loss": 0.85097,
+    "brier": 0.49258,
+    "surprisal": 0.85097,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.20336,
+        "log_loss": 0.85097,
+        "brier": 0.49258,
+        "surprisal": 0.85097
+      },
+      "dixon_coles": {
+        "rps": 0.20816,
+        "log_loss": 0.88773,
+        "brier": 0.52108,
+        "surprisal": 0.88773
+      },
+      "elo": {
+        "rps": 0.21164,
+        "log_loss": 0.85702,
+        "brier": 0.49741,
+        "surprisal": 0.85702
+      }
+    }
+  }
+}

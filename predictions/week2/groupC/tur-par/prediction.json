@@ -1,0 +1,76 @@
+{
+  "match": "Turkey vs Paraguay",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-19",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Turkey": 0.402,
+      "Draw": 0.275,
+      "Paraguay": 0.323
+    },
+    "ensemble_uncalibrated": {
+      "Turkey": 0.395,
+      "Draw": 0.28,
+      "Paraguay": 0.325
+    },
+    "dixon_coles": {
+      "Turkey": 0.312,
+      "Draw": 0.297,
+      "Paraguay": 0.391
+    },
+    "elo": {
+      "Turkey": 0.473,
+      "Draw": 0.264,
+      "Paraguay": 0.263
+    }
+  },
+  "elo": {
+    "Turkey": 1881,
+    "Paraguay": 1818
+  },
+  "expected_goals": {
+    "Turkey": 1.13,
+    "Paraguay": 1.29
+  },
+  "over_under_2_5": {
+    "over": 0.434,
+    "under": 0.566
+  },
+  "btts": 0.5,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.141
+    },
+    {
+      "score": "0-1",
+      "prob": 0.104
+    },
+    {
+      "score": "0-0",
+      "prob": 0.101
+    },
+    {
+      "score": "1-0",
+      "prob": 0.09
+    },
+    {
+      "score": "1-2",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-1",
+    "result": "away",
+    "scored_at": "2026-06-23T17:54:21-06:00",
+    "rps": 0.30997,
+    "log_loss": 1.1301,
+    "brier": 0.69556,
+    "surprisal": 1.1301
+  }
+}

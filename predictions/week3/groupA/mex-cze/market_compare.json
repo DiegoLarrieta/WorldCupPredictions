@@ -1,0 +1,73 @@
+{
+  "match": "Mexico vs Czech Republic",
+  "as_of": "2026-06-24",
+  "devig_method": "shin",
+  "markets": {
+    "1x2": {
+      "sharp_vig": 0.0229,
+      "selections": [
+        {
+          "selection": "home",
+          "best_odds": 2.0,
+          "sharp_odds": 1.99,
+          "model_prob": 0.645,
+          "sharp_prob": 0.494,
+          "soft_edge": -0.012,
+          "model_vs_sharp": 0.151,
+          "verdict": "suspect",
+          "why": "model disagrees with the sharp close — edge test says we're usually wrong here"
+        },
+        {
+          "selection": "draw",
+          "best_odds": 4.0,
+          "sharp_odds": 3.93,
+          "model_prob": 0.22,
+          "sharp_prob": 0.247,
+          "soft_edge": -0.011,
+          "model_vs_sharp": -0.027,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
+        },
+        {
+          "selection": "away",
+          "best_odds": 3.95,
+          "sharp_odds": 3.76,
+          "model_prob": 0.135,
+          "sharp_prob": 0.259,
+          "soft_edge": 0.022,
+          "model_vs_sharp": -0.124,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
+        }
+      ]
+    },
+    "ou_2.5": {
+      "sharp_vig": 0.0236,
+      "selections": [
+        {
+          "selection": "over",
+          "best_odds": 2.12,
+          "sharp_odds": 2.07,
+          "model_prob": 0.447,
+          "sharp_prob": 0.471,
+          "soft_edge": -0.001,
+          "model_vs_sharp": -0.024,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
+        },
+        {
+          "selection": "under",
+          "best_odds": 1.88,
+          "sharp_odds": 1.85,
+          "model_prob": 0.553,
+          "sharp_prob": 0.529,
+          "soft_edge": -0.006,
+          "model_vs_sharp": 0.024,
+          "verdict": "pass",
+          "why": "no edge vs the sharp"
+        }
+      ]
+    }
+  },
+  "recommend": []
+}

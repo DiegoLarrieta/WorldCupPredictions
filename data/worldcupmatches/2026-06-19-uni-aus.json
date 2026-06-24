@@ -1,0 +1,261 @@
+{
+  "match_key": "2026-06-19-uni-aus",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-19-uni-aus",
+    "date": "2026-06-19",
+    "home": "United States",
+    "away": "Australia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "United States vs Australia",
+    "home": "United States",
+    "away": "Australia",
+    "as_of": "2026-06-19",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.282,
+      0.282,
+      0.436
+    ],
+    "components": {
+      "dixon_coles": [
+        0.256,
+        0.302,
+        0.442
+      ],
+      "elo": [
+        0.315,
+        0.273,
+        0.411
+      ]
+    },
+    "expected_goals": {
+      "United States": 0.94,
+      "Australia": 1.32
+    },
+    "over25": 0.393,
+    "btts": 0.457,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.141
+      },
+      {
+        "score": "0-1",
+        "prob": 0.127
+      },
+      {
+        "score": "0-0",
+        "prob": 0.116
+      },
+      {
+        "score": "0-2",
+        "prob": 0.091
+      },
+      {
+        "score": "1-0",
+        "prob": 0.087
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:21-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760442",
+      "player_shots": [
+        {
+          "player": "Sergiño Dest",
+          "side": "home",
+          "team": "United States",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.8,
+          "starter": true,
+          "shots_p90": 3.38,
+          "sot_p90": 1.13
+        },
+        {
+          "player": "Weston McKennie",
+          "side": "home",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ricardo Pepi",
+          "side": "home",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.6,
+          "starter": true,
+          "shots_p90": 2.45,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Folarin Balogun",
+          "side": "home",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alex Freeman",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mohamed Toure",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Connor Metcalfe",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Alessandro Circati",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mathew Leckie",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.5,
+          "starter": true,
+          "shots_p90": 1.49,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cristian Volpato",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.5,
+          "starter": false,
+          "shots_p90": 3.06,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 61.9,
+      "shots_home": 10,
+      "shots_on_target_home": 2,
+      "corners_home": 7,
+      "fouls_home": 12,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 38.1,
+      "shots_away": 5,
+      "shots_on_target_away": 2,
+      "corners_away": 4,
+      "fouls_away": 16,
+      "saves_away": 1,
+      "offsides_away": 0,
+      "yellow_cards_away": 4,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:51-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.35281,
+    "log_loss": 1.26585,
+    "brier": 0.78514,
+    "surprisal": 1.26585,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.35281,
+        "log_loss": 1.26585,
+        "brier": 0.78514,
+        "surprisal": 1.26585
+      },
+      "dixon_coles": {
+        "rps": 0.37445,
+        "log_loss": 1.36258,
+        "brier": 0.8401,
+        "surprisal": 1.36258
+      },
+      "elo": {
+        "rps": 0.31903,
+        "log_loss": 1.15418,
+        "brier": 0.71273,
+        "surprisal": 1.15418
+      }
+    }
+  }
+}

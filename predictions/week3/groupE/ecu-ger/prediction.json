@@ -1,0 +1,68 @@
+{
+  "match": "Ecuador vs Germany",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-25",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Ecuador": 0.359,
+      "Draw": 0.295,
+      "Germany": 0.346
+    },
+    "ensemble_uncalibrated": {
+      "Ecuador": 0.357,
+      "Draw": 0.298,
+      "Germany": 0.345
+    },
+    "dixon_coles": {
+      "Ecuador": 0.355,
+      "Draw": 0.324,
+      "Germany": 0.321
+    },
+    "elo": {
+      "Ecuador": 0.358,
+      "Draw": 0.274,
+      "Germany": 0.368
+    }
+  },
+  "elo": {
+    "Ecuador": 1984,
+    "Germany": 2014
+  },
+  "expected_goals": {
+    "Ecuador": 1.04,
+    "Germany": 0.97
+  },
+  "over_under_2_5": {
+    "over": 0.325,
+    "under": 0.675
+  },
+  "btts": 0.408,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.143
+    },
+    {
+      "score": "0-0",
+      "prob": 0.143
+    },
+    {
+      "score": "1-0",
+      "prob": 0.132
+    },
+    {
+      "score": "0-1",
+      "prob": 0.123
+    },
+    {
+      "score": "2-0",
+      "prob": 0.072
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

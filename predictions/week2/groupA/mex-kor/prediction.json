@@ -1,0 +1,76 @@
+{
+  "match": "Mexico vs South Korea",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-18",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Mexico": 0.471,
+      "Draw": 0.278,
+      "South Korea": 0.251
+    },
+    "ensemble_uncalibrated": {
+      "Mexico": 0.458,
+      "Draw": 0.283,
+      "South Korea": 0.259
+    },
+    "dixon_coles": {
+      "Mexico": 0.419,
+      "Draw": 0.308,
+      "South Korea": 0.273
+    },
+    "elo": {
+      "Mexico": 0.493,
+      "Draw": 0.261,
+      "South Korea": 0.246
+    }
+  },
+  "elo": {
+    "Mexico": 2005,
+    "South Korea": 1925
+  },
+  "expected_goals": {
+    "Mexico": 1.25,
+    "South Korea": 0.95
+  },
+  "over_under_2_5": {
+    "over": 0.377,
+    "under": 0.623
+  },
+  "btts": 0.448,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.142
+    },
+    {
+      "score": "1-0",
+      "prob": 0.128
+    },
+    {
+      "score": "0-0",
+      "prob": 0.121
+    },
+    {
+      "score": "0-1",
+      "prob": 0.095
+    },
+    {
+      "score": "2-0",
+      "prob": 0.086
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "1-0",
+    "result": "home",
+    "scored_at": "2026-06-23T17:54:20-06:00",
+    "rps": 0.17142,
+    "log_loss": 0.7529,
+    "brier": 0.42013,
+    "surprisal": 0.7529
+  }
+}

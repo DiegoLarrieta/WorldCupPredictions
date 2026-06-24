@@ -229,6 +229,98 @@ def compare_folder(folder: Path, odds: dict[str, dict[str, float]],
     return cmp
 
 
+# --- sharp-vs-soft, the honest read ----------------------------------------
+# A flag from compare() is naive: a big model-vs-market gap on 1X2 is usually US being
+# wrong (the edge test proved we don't out-predict a sharp close). The defensible value
+# is model-INDEPENDENT: a soft book offering a price BETTER than the sharp's de-vigged
+# fair (best_odds * sharp_prob > 1) — that's a prospective CLOV+, beating the close before
+# it closes. We surface the model-vs-sharp gap too, but label large ones SUSPECT.
+SOFT_EDGE_THRESHOLD = 0.03      # best price must beat the sharp fair by this to recommend
+                                # (< this is within de-vig noise — soft and sharp agree)
+MODEL_DISAGREE_THRESHOLD = 0.05  # model_prob - sharp_prob above this = flagged suspect
+
+
+def _verdict(soft_edge: float, model_gap: float) -> tuple[str, str]:
+    if soft_edge >= SOFT_EDGE_THRESHOLD:
+        return "bet", "soft price beats the sharp fair (prospective CLOV+)"
+    if model_gap >= MODEL_DISAGREE_THRESHOLD:
+        return "suspect", "model disagrees with the sharp close — edge test says we're usually wrong here"
+    return "pass", "no edge vs the sharp"
+
+
+def compare_lines(prediction: dict, sharp_odds: dict, soft_odds: dict,
+                  devig_method: str = DEFAULT_DEVIG) -> dict:
+    """Honest read using a SHARP book (Pinnacle, for the fair line) and a SOFT/best book
+    (where you'd bet). Per selection: the best available price, the sharp's de-vigged fair,
+    the soft-edge (does best beat the sharp fair -> recommend) and the model-vs-sharp gap
+    (shown, but a big positive one is flagged SUSPECT, not value)."""
+    markets, recommend = {}, []
+    for market, sharp_book in sharp_odds.items():
+        soft_book = soft_odds.get(market, {})
+        model = _model_probs(prediction, market, list(sharp_book.keys()))
+        fair = devig(sharp_book, devig_method)
+        rows = []
+        for sel, sharp_price in sharp_book.items():
+            best = max(float(sharp_price), float(soft_book.get(sel, 0.0)))
+            sp = fair[sel]
+            soft_edge = best * sp - 1.0               # best vs sharp fair price
+            model_gap = float(model[sel]) - sp        # our disagreement with the sharp
+            verdict, why = _verdict(soft_edge, model_gap)
+            row = {
+                "selection": sel,
+                "best_odds": round(best, 3),
+                "sharp_odds": round(float(sharp_price), 3),
+                "model_prob": round(float(model[sel]), 3),
+                "sharp_prob": round(sp, 3),
+                "soft_edge": round(soft_edge, 3),     # >0 => price beats the close (credible)
+                "model_vs_sharp": round(model_gap, 3),
+                "verdict": verdict, "why": why,
+            }
+            rows.append(row)
+            if verdict == "bet":
+                recommend.append({"market": market, **row})
+        markets[market] = {"sharp_vig": round(vig_of(sharp_book), 4), "selections": rows}
+    recommend.sort(key=lambda r: r["soft_edge"], reverse=True)
+    return {
+        "match": prediction.get("match"), "as_of": prediction.get("as_of"),
+        "devig_method": devig_method, "markets": markets, "recommend": recommend,
+    }
+
+
+def compare_lines_folder(folder: Path, sharp_odds: dict, soft_odds: dict) -> dict:
+    """Read a folder's prediction.json, do the sharp-vs-soft read, write market_compare.*"""
+    folder = Path(folder)
+    prediction = json.loads((folder / "prediction.json").read_text())
+    cmp = compare_lines(prediction, sharp_odds, soft_odds)
+    (folder / "market_compare.json").write_text(json.dumps(cmp, ensure_ascii=False, indent=2))
+    (folder / "market_compare.md").write_text(_markdown_lines(cmp))
+    return cmp
+
+
+def _markdown_lines(cmp: dict) -> str:
+    L = [f"# Market read (sharp vs soft): {cmp['match']}", "",
+         "Recommend = a **soft book beats the sharp fair** (prospective CLOV+). A big "
+         "model-vs-sharp gap is **suspect** (the edge test says we don't out-predict the "
+         "sharp close), not value.", ""]
+    for m, data in cmp["markets"].items():
+        L.append(f"## {m}  (sharp vig {data['sharp_vig']:.1%})")
+        L.append("| sel | best | sharp fair | model | soft edge | model vs sharp | verdict |")
+        L.append("|---|---|---|---|---|---|---|")
+        for r in data["selections"]:
+            L.append(f"| {r['selection']} | {r['best_odds']:.2f} | {r['sharp_prob']:.0%} | "
+                     f"{r['model_prob']:.0%} | {r['soft_edge']:+.1%} | {r['model_vs_sharp']:+.1%} "
+                     f"| **{r['verdict']}** |")
+        L.append("")
+    if cmp["recommend"]:
+        L.append("## ✅ Recommended (soft-price edge)")
+        for r in cmp["recommend"]:
+            L.append(f"- **{r['market']} {r['selection']}** @ {r['best_odds']:.2f} — "
+                     f"{r['soft_edge']:+.1%} vs the sharp fair ({r['why']})")
+    else:
+        L.append("## No soft-price edge — pass (the common, correct outcome)")
+    return "\n".join(L) + "\n"
+
+
 def save_comparison(cmp: dict, folder: Path) -> None:
     """Write market_compare.json + market_compare.md into a match folder."""
     folder = Path(folder)

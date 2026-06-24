@@ -1,4 +1,4 @@
-# WC2026 prediction monitor — 24 matches scored
+# WC2026 prediction monitor — 46 matches scored
 
 _Lower RPS / log-loss / Brier is better. Scores are against the probabilities we
 actually published (frozen), on real out-of-sample matches._
@@ -7,18 +7,18 @@ actually published (frozen), on real out-of-sample matches._
 
 | Model | RPS | Log-loss | Brier |
 |---|---|---|---|
-| ensemble | 0.1973 | 1.0607 | 0.6602 |
-| dixon_coles | 0.1881 | 1.0193 | 0.6299 |
-| elo | 0.2048 | 1.0908 | 0.6798 |
+| ensemble | 0.1715 | 0.9323 | 0.5695 |
+| dixon_coles | 0.1671 | 0.9105 | 0.5525 |
+| elo | 0.1789 | 0.9612 | 0.5880 |
 
 ## Are we beating naive?
 
-- Uniform (1/3 each): RPS 0.2153, log-loss 1.0986
-- **Our ensemble**: RPS 0.1973, log-loss 1.0607
+- Uniform (1/3 each): RPS 0.2271, log-loss 1.0986
+- **Our ensemble**: RPS 0.1715, log-loss 0.9323
 - Ensemble beats both single models so far: **NO — investigate**
 
 ## Most surprising results (confidently-wrong watch)
 
 - Spain vs Cape Verde → draw (surprisal 2.33)
-- Ivory Coast vs Ecuador → home (surprisal 1.86)
-- Qatar vs Switzerland → draw (surprisal 1.83)
+- Ecuador vs Curaçao → draw (surprisal 1.97)
+- England vs Ghana → draw (surprisal 1.93)

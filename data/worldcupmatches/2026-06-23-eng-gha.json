@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-06-23-eng-gha",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-23-eng-gha",
+    "date": "2026-06-23",
+    "home": "England",
+    "away": "Ghana",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "England vs Ghana",
+    "home": "England",
+    "away": "Ghana",
+    "as_of": "2026-06-23",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.809,
+      0.146,
+      0.046
+    ],
+    "components": {
+      "dixon_coles": [
+        0.713,
+        0.207,
+        0.081
+      ],
+      "elo": [
+        0.838,
+        0.125,
+        0.036
+      ]
+    },
+    "expected_goals": {
+      "England": 1.95,
+      "Ghana": 0.51
+    },
+    "over25": 0.445,
+    "btts": 0.348,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.163
+      },
+      {
+        "score": "1-0",
+        "prob": 0.161
+      },
+      {
+        "score": "3-0",
+        "prob": 0.106
+      },
+      {
+        "score": "0-0",
+        "prob": 0.092
+      },
+      {
+        "score": "1-1",
+        "prob": 0.091
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760458",
+      "player_shots": [
+        {
+          "player": "Elliot Anderson",
+          "side": "home",
+          "team": "England",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.0,
+          "starter": true,
+          "shots_p90": 4.93,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Harry Kane",
+          "side": "home",
+          "team": "England",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Declan Rice",
+          "side": "home",
+          "team": "England",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bukayo Saka",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 25.1,
+          "starter": false,
+          "shots_p90": 7.17,
+          "sot_p90": 3.58
+        },
+        {
+          "player": "Noni Madueke",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.7,
+          "starter": true,
+          "shots_p90": 2.18,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nico O'Reilly",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 24.9,
+          "starter": false,
+          "shots_p90": 7.22,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Anthony Gordon",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 64.9,
+          "starter": true,
+          "shots_p90": 1.39,
+          "sot_p90": 1.39
+        },
+        {
+          "player": "Prince Adu",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Marc Guéhi",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jude Bellingham",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 72.9,
+          "starter": true,
+          "shots_p90": 1.23,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Marvin Senaya",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 86.8,
+          "starter": true,
+          "shots_p90": 1.04,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 78.8,
+      "shots_home": 19,
+      "shots_on_target_home": 3,
+      "corners_home": 9,
+      "fouls_home": 14,
+      "saves_home": 0,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 21.2,
+      "shots_away": 2,
+      "shots_on_target_away": 1,
+      "corners_away": 2,
+      "fouls_away": 24,
+      "saves_away": 3,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:57-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.32764,
+    "log_loss": 1.92515,
+    "brier": 1.38485,
+    "surprisal": 1.92515,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.32764,
+        "log_loss": 1.92515,
+        "brier": 1.38485,
+        "surprisal": 1.92515
+      },
+      "dixon_coles": {
+        "rps": 0.25695,
+        "log_loss": 1.57604,
+        "brier": 1.14308,
+        "surprisal": 1.57604
+      },
+      "elo": {
+        "rps": 0.35247,
+        "log_loss": 2.07844,
+        "brier": 1.47036,
+        "surprisal": 2.07844
+      }
+    }
+  }
+}

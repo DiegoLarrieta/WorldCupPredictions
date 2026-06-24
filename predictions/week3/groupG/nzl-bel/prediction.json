@@ -1,0 +1,68 @@
+{
+  "match": "New Zealand vs Belgium",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-26",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "New Zealand": 0.158,
+      "Draw": 0.226,
+      "Belgium": 0.615
+    },
+    "ensemble_uncalibrated": {
+      "New Zealand": 0.172,
+      "Draw": 0.238,
+      "Belgium": 0.59
+    },
+    "dixon_coles": {
+      "New Zealand": 0.153,
+      "Draw": 0.224,
+      "Belgium": 0.623
+    },
+    "elo": {
+      "New Zealand": 0.19,
+      "Draw": 0.251,
+      "Belgium": 0.559
+    }
+  },
+  "elo": {
+    "New Zealand": 1745,
+    "Belgium": 1935
+  },
+  "expected_goals": {
+    "New Zealand": 0.86,
+    "Belgium": 1.95
+  },
+  "over_under_2_5": {
+    "over": 0.533,
+    "under": 0.467
+  },
+  "btts": 0.501,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.114
+    },
+    {
+      "score": "0-1",
+      "prob": 0.111
+    },
+    {
+      "score": "1-1",
+      "prob": 0.107
+    },
+    {
+      "score": "1-2",
+      "prob": 0.098
+    },
+    {
+      "score": "0-3",
+      "prob": 0.074
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

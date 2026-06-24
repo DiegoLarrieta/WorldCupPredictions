@@ -1,0 +1,68 @@
+{
+  "match": "Colombia vs DR Congo",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-23",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Colombia": 0.703,
+      "Draw": 0.208,
+      "DR Congo": 0.089
+    },
+    "ensemble_uncalibrated": {
+      "Colombia": 0.673,
+      "Draw": 0.224,
+      "DR Congo": 0.103
+    },
+    "dixon_coles": {
+      "Colombia": 0.613,
+      "Draw": 0.266,
+      "DR Congo": 0.121
+    },
+    "elo": {
+      "Colombia": 0.73,
+      "Draw": 0.184,
+      "DR Congo": 0.087
+    }
+  },
+  "elo": {
+    "Colombia": 2083,
+    "DR Congo": 1785
+  },
+  "expected_goals": {
+    "Colombia": 1.53,
+    "DR Congo": 0.53
+  },
+  "over_under_2_5": {
+    "over": 0.34,
+    "under": 0.66
+  },
+  "btts": 0.329,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.189
+    },
+    {
+      "score": "2-0",
+      "prob": 0.149
+    },
+    {
+      "score": "0-0",
+      "prob": 0.134
+    },
+    {
+      "score": "1-1",
+      "prob": 0.11
+    },
+    {
+      "score": "2-1",
+      "prob": 0.079
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

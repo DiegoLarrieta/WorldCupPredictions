@@ -1,0 +1,68 @@
+{
+  "match": "Croatia vs Ghana",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-27",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Croatia": 0.672,
+      "Draw": 0.211,
+      "Ghana": 0.117
+    },
+    "ensemble_uncalibrated": {
+      "Croatia": 0.643,
+      "Draw": 0.225,
+      "Ghana": 0.132
+    },
+    "dixon_coles": {
+      "Croatia": 0.576,
+      "Draw": 0.257,
+      "Ghana": 0.167
+    },
+    "elo": {
+      "Croatia": 0.705,
+      "Draw": 0.195,
+      "Ghana": 0.1
+    }
+  },
+  "elo": {
+    "Croatia": 1945,
+    "Ghana": 1674
+  },
+  "expected_goals": {
+    "Croatia": 1.67,
+    "Ghana": 0.79
+  },
+  "over_under_2_5": {
+    "over": 0.444,
+    "under": 0.556
+  },
+  "btts": 0.449,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.136
+    },
+    {
+      "score": "1-1",
+      "prob": 0.12
+    },
+    {
+      "score": "2-0",
+      "prob": 0.12
+    },
+    {
+      "score": "2-1",
+      "prob": 0.094
+    },
+    {
+      "score": "0-0",
+      "prob": 0.094
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Morocco vs Haiti",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-24",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Morocco": 0.746,
+      "Draw": 0.182,
+      "Haiti": 0.072
+    },
+    "ensemble_uncalibrated": {
+      "Morocco": 0.715,
+      "Draw": 0.199,
+      "Haiti": 0.086
+    },
+    "dixon_coles": {
+      "Morocco": 0.682,
+      "Draw": 0.224,
+      "Haiti": 0.094
+    },
+    "elo": {
+      "Morocco": 0.746,
+      "Draw": 0.176,
+      "Haiti": 0.078
+    }
+  },
+  "elo": {
+    "Morocco": 1999,
+    "Haiti": 1682
+  },
+  "expected_goals": {
+    "Morocco": 1.8,
+    "Haiti": 0.52
+  },
+  "over_under_2_5": {
+    "over": 0.409,
+    "under": 0.591
+  },
+  "btts": 0.343,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.172
+    },
+    {
+      "score": "2-0",
+      "prob": 0.16
+    },
+    {
+      "score": "0-0",
+      "prob": 0.104
+    },
+    {
+      "score": "1-1",
+      "prob": 0.097
+    },
+    {
+      "score": "3-0",
+      "prob": 0.096
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

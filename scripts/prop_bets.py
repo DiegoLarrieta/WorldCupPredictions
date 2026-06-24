@@ -38,16 +38,38 @@ def _norm(s: str) -> str:
     return unidecode(str(s)).strip().lower()
 
 
-def _rate_lookup() -> dict[str, float]:
-    """Name -> shrunk shots-on-target/90, keeping the highest-minutes row per player."""
-    df = pd.read_csv(RATES_CSV)
-    df = df.sort_values("mins", ascending=False)
-    out = {}
+def _toks(name: str) -> frozenset:
+    return frozenset(_norm(name).replace("-", " ").split())
+
+
+def _rate_lookup():
+    """Build name matchers -> shrunk SoT/90. Returns (exact_dict, token_rows) where
+    token_rows is [(norm_name, token_set, sot_per90)] sorted by minutes desc, so a
+    book's full legal name ('Carlos Casemiro') can still resolve our short name
+    ('Casemiro') by a unique token-subset match."""
+    df = pd.read_csv(RATES_CSV).sort_values("mins", ascending=False)
+    exact, rows = {}, []
     for _, r in df.iterrows():
         k = _norm(r["name"])
-        if k not in out:                       # first = most minutes (most reliable)
-            out[k] = float(r["sot_per90"])
-    return out
+        sot = float(r["sot_per90"])
+        if k not in exact:                     # first = most minutes (most reliable)
+            exact[k] = sot
+        rows.append((k, _toks(r["name"]), sot))
+    return exact, rows
+
+
+def _match_rate(player: str, exact: dict, rows: list) -> float | None:
+    """Exact normalized match, else a UNIQUE token-subset match (one name is contained
+    in the other), else None. Ambiguous (multiple distinct names) stays unmatched."""
+    k = _norm(player)
+    if k in exact:
+        return exact[k]
+    bt = _toks(player)
+    if not bt:
+        return None
+    cands = [(nm, sot) for nm, tk, sot in rows if tk and (tk <= bt or bt <= tk)]
+    names = {nm for nm, _ in cands}
+    return cands[0][1] if len(names) == 1 else None      # rows sorted by mins -> best first
 
 
 def main() -> None:
@@ -66,7 +88,7 @@ def main() -> None:
 
     if not RATES_CSV.exists():
         sys.exit(f"{RATES_CSV} missing — run scripts/build_prop_model.py first.")
-    rates = _rate_lookup()
+    exact, rate_rows = _rate_lookup()
 
     try:
         props = fetch_player_props(home, away, book=args.book)
@@ -77,7 +99,7 @@ def main() -> None:
 
     rows, unmatched = [], []
     for p in props:
-        rate = rates.get(_norm(p["player"]))
+        rate = _match_rate(p["player"], exact, rate_rows)
         if rate is None:
             unmatched.append(p["player"])
             continue

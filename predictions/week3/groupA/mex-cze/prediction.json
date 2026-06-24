@@ -1,0 +1,68 @@
+{
+  "match": "Mexico vs Czech Republic",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-24",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Mexico": 0.645,
+      "Draw": 0.22,
+      "Czech Republic": 0.135
+    },
+    "ensemble_uncalibrated": {
+      "Mexico": 0.617,
+      "Draw": 0.233,
+      "Czech Republic": 0.15
+    },
+    "dixon_coles": {
+      "Mexico": 0.554,
+      "Draw": 0.261,
+      "Czech Republic": 0.185
+    },
+    "elo": {
+      "Mexico": 0.676,
+      "Draw": 0.207,
+      "Czech Republic": 0.117
+    }
+  },
+  "elo": {
+    "Mexico": 2005,
+    "Czech Republic": 1764
+  },
+  "expected_goals": {
+    "Mexico": 1.63,
+    "Czech Republic": 0.84
+  },
+  "over_under_2_5": {
+    "over": 0.447,
+    "under": 0.553
+  },
+  "btts": 0.462,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.132
+    },
+    {
+      "score": "1-1",
+      "prob": 0.123
+    },
+    {
+      "score": "2-0",
+      "prob": 0.113
+    },
+    {
+      "score": "2-1",
+      "prob": 0.094
+    },
+    {
+      "score": "0-0",
+      "prob": 0.092
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

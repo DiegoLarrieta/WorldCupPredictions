@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-06-23-por-uzb",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-23-por-uzb",
+    "date": "2026-06-23",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Portugal vs Uzbekistan",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "as_of": "2026-06-23",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.659,
+      0.221,
+      0.121
+    ],
+    "components": {
+      "dixon_coles": [
+        0.585,
+        0.262,
+        0.153
+      ],
+      "elo": [
+        0.673,
+        0.208,
+        0.119
+      ]
+    },
+    "expected_goals": {
+      "Portugal": 1.62,
+      "Uzbekistan": 0.71
+    },
+    "over25": 0.414,
+    "btts": 0.417,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.149
+      },
+      {
+        "score": "2-0",
+        "prob": 0.128
+      },
+      {
+        "score": "1-1",
+        "prob": 0.12
+      },
+      {
+        "score": "0-0",
+        "prob": 0.105
+      },
+      {
+        "score": "2-1",
+        "prob": 0.091
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 5,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760461",
+      "player_shots": [
+        {
+          "player": "Cristiano Ronaldo",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 7,
+          "on_target": 5,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 7.0,
+          "sot_p90": 5.0
+        },
+        {
+          "player": "João Félix",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.0,
+          "starter": true,
+          "shots_p90": 4.29,
+          "sot_p90": 1.43
+        },
+        {
+          "player": "Bruno Fernandes",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Otabek Shukurov",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nuno Mendes",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rafael Leão",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 7.8,
+          "starter": false,
+          "shots_p90": 11.56,
+          "sot_p90": 11.56
+        },
+        {
+          "player": "Sherzod Nasrullaev",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Abbosbek Fayzullaev",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 72.9,
+          "starter": true,
+          "shots_p90": 1.24,
+          "sot_p90": 1.24
+        },
+        {
+          "player": "João Cancelo",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Vitinha ",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.2,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Francisco Trincão",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 27.0,
+          "starter": false,
+          "shots_p90": 3.33,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Odiljon Xamrobekov",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Eldor Shomurodov",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Azizjon Ganiev",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 65.9,
+      "shots_home": 17,
+      "shots_on_target_home": 9,
+      "corners_home": 3,
+      "fouls_home": 14,
+      "saves_home": 2,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 34.1,
+      "shots_away": 7,
+      "shots_on_target_away": 2,
+      "corners_away": 2,
+      "fouls_away": 15,
+      "saves_away": 4,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:57-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.06567,
+    "log_loss": 0.41803,
+    "brier": 0.18009,
+    "surprisal": 0.41803,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.06567,
+        "log_loss": 0.41803,
+        "brier": 0.18009,
+        "surprisal": 0.41803
+      },
+      "dixon_coles": {
+        "rps": 0.09782,
+        "log_loss": 0.53614,
+        "brier": 0.26428,
+        "surprisal": 0.53614
+      },
+      "elo": {
+        "rps": 0.06054,
+        "log_loss": 0.39601,
+        "brier": 0.16435,
+        "surprisal": 0.39601
+      }
+    }
+  }
+}

@@ -120,3 +120,44 @@ def summary(ledger: Path = LEDGER) -> dict:
         "avg_clov": round(sum(clovs) / len(clovs), 4) if clovs else None,
         "beat_close_rate": round(beat / len(clovs), 4) if clovs else None,
     }
+
+
+def _boot_ci(values: list, n_boot: int, seed: int, agg) -> list:
+    """Percentile bootstrap CI (2.5/97.5) of agg(resample). Pure stdlib (CI-safe)."""
+    import random
+    if len(values) < 2:
+        return [None, None]
+    rng = random.Random(seed)
+    n, out = len(values), []
+    for _ in range(n_boot):
+        sample = [values[rng.randrange(n)] for _ in range(n)]
+        v = agg(sample)
+        if v is not None:
+            out.append(v)
+    out.sort()
+    return [round(out[int(0.025 * len(out))], 4), round(out[int(0.975 * len(out))], 4)]
+
+
+def report(ledger: Path = LEDGER, n_boot: int = 5000, seed: int = 0) -> dict:
+    """The profitability scorecard: summary + bootstrap CIs for ROI and avg CLOV, and the
+    honest verdict. profitable = ROI CI lower bound > 0 (per design/profitability-scorecard).
+    CLOV is the leading indicator — trust it over ROI at small n (variance is huge)."""
+    s = summary(ledger)
+    rows = _read(ledger)
+    settled = [(float(r["pnl"]), float(r["stake"])) for r in rows
+               if r["status"] == "settled" and r["pnl"] not in ("", None)]
+    clovs = [float(r["clov"]) for r in rows if r["clov"] not in ("", None)]
+
+    def roi_of(pairs):
+        st = sum(p[1] for p in pairs)
+        return sum(p[0] for p in pairs) / st if st else None
+
+    roi_ci = _boot_ci(settled, n_boot, seed, roi_of)
+    clov_ci = _boot_ci(clovs, n_boot, seed, lambda xs: sum(xs) / len(xs))
+    return {
+        **s,
+        "roi_ci": roi_ci,
+        "avg_clov_ci": clov_ci,
+        "roi_profitable": roi_ci[0] is not None and roi_ci[0] > 0,
+        "clov_positive": clov_ci[0] is not None and clov_ci[0] > 0,
+    }

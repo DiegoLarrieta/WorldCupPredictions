@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-21-uru-cap",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-21-uru-cap",
+    "date": "2026-06-21",
+    "home": "Uruguay",
+    "away": "Cape Verde",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Uruguay vs Cape Verde",
+    "home": "Uruguay",
+    "away": "Cape Verde",
+    "as_of": "2026-06-21",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.691,
+      0.222,
+      0.087
+    ],
+    "components": {
+      "dixon_coles": [
+        0.612,
+        0.282,
+        0.105
+      ],
+      "elo": [
+        0.708,
+        0.193,
+        0.098
+      ]
+    },
+    "expected_goals": {
+      "Uruguay": 1.43,
+      "Cape Verde": 0.44
+    },
+    "over25": 0.288,
+    "btts": 0.278,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.213
+      },
+      {
+        "score": "0-0",
+        "prob": 0.162
+      },
+      {
+        "score": "2-0",
+        "prob": 0.158
+      },
+      {
+        "score": "1-1",
+        "prob": 0.104
+      },
+      {
+        "score": "3-0",
+        "prob": 0.075
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:22-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760450",
+      "player_shots": [
+        {
+          "player": "Federico Valverde",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 7,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 7.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Laros Duarte",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 20.0,
+          "starter": false,
+          "shots_p90": 9.01,
+          "sot_p90": 9.01
+        },
+        {
+          "player": "Maxi Araújo",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 81.0,
+          "starter": true,
+          "shots_p90": 2.22,
+          "sot_p90": 1.11
+        },
+        {
+          "player": "Agustín Canobbio",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jamiro Monteiro",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.4,
+          "starter": true,
+          "shots_p90": 2.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ryan Mendes",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kevin Pina",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 70.0,
+          "starter": true,
+          "shots_p90": 1.29,
+          "sot_p90": 1.29
+        },
+        {
+          "player": "Hélio Varela",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 32.0,
+          "starter": false,
+          "shots_p90": 2.81,
+          "sot_p90": 2.81
+        },
+        {
+          "player": "Sebastián Cáceres",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Manuel Ugarte",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 69.6,
+          "starter": true,
+          "shots_p90": 1.29,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolás de la Cruz",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 20.4,
+          "starter": false,
+          "shots_p90": 4.41,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Brian Rodríguez",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 9.0,
+          "starter": false,
+          "shots_p90": 9.98,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Diney Borges",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pico Lopes",
+          "side": "away",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 65.2,
+      "shots_home": 17,
+      "shots_on_target_home": 2,
+      "corners_home": 11,
+      "fouls_home": 11,
+      "saves_home": 2,
+      "offsides_home": 3,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 34.8,
+      "shots_away": 12,
+      "shots_on_target_away": 4,
+      "corners_away": 4,
+      "fouls_away": 4,
+      "saves_away": 0,
+      "offsides_away": 0,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:55-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.24253,
+    "log_loss": 1.50508,
+    "brier": 1.09033,
+    "surprisal": 1.50508,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.24253,
+        "log_loss": 1.50508,
+        "brier": 1.09033,
+        "surprisal": 1.50508
+      },
+      "dixon_coles": {
+        "rps": 0.19317,
+        "log_loss": 1.26485,
+        "brier": 0.90146,
+        "surprisal": 1.26485
+      },
+      "elo": {
+        "rps": 0.25595,
+        "log_loss": 1.64406,
+        "brier": 1.16283,
+        "surprisal": 1.64406
+      }
+    }
+  }
+}

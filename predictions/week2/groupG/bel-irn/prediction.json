@@ -1,0 +1,76 @@
+{
+  "match": "Belgium vs Iran",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-21",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Belgium": 0.447,
+      "Draw": 0.265,
+      "Iran": 0.288
+    },
+    "ensemble_uncalibrated": {
+      "Belgium": 0.436,
+      "Draw": 0.272,
+      "Iran": 0.293
+    },
+    "dixon_coles": {
+      "Belgium": 0.411,
+      "Draw": 0.278,
+      "Iran": 0.312
+    },
+    "elo": {
+      "Belgium": 0.459,
+      "Draw": 0.266,
+      "Iran": 0.275
+    }
+  },
+  "elo": {
+    "Belgium": 1935,
+    "Iran": 1883
+  },
+  "expected_goals": {
+    "Belgium": 1.43,
+    "Iran": 1.22
+  },
+  "over_under_2_5": {
+    "over": 0.495,
+    "under": 0.505
+  },
+  "btts": 0.546,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.132
+    },
+    {
+      "score": "1-0",
+      "prob": 0.092
+    },
+    {
+      "score": "2-1",
+      "prob": 0.088
+    },
+    {
+      "score": "0-0",
+      "prob": 0.08
+    },
+    {
+      "score": "0-1",
+      "prob": 0.077
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-0",
+    "result": "draw",
+    "scored_at": "2026-06-23T17:54:22-06:00",
+    "rps": 0.14138,
+    "log_loss": 1.32803,
+    "brier": 0.82298,
+    "surprisal": 1.32803
+  }
+}

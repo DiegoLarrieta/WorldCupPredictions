@@ -1,0 +1,68 @@
+{
+  "match": "Tunisia vs Netherlands",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-25",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Tunisia": 0.099,
+      "Draw": 0.196,
+      "Netherlands": 0.706
+    },
+    "ensemble_uncalibrated": {
+      "Tunisia": 0.114,
+      "Draw": 0.211,
+      "Netherlands": 0.675
+    },
+    "dixon_coles": {
+      "Tunisia": 0.128,
+      "Draw": 0.217,
+      "Netherlands": 0.654
+    },
+    "elo": {
+      "Tunisia": 0.1,
+      "Draw": 0.205,
+      "Netherlands": 0.695
+    }
+  },
+  "elo": {
+    "Tunisia": 1689,
+    "Netherlands": 2009
+  },
+  "expected_goals": {
+    "Tunisia": 0.75,
+    "Netherlands": 1.97
+  },
+  "over_under_2_5": {
+    "over": 0.511,
+    "under": 0.489
+  },
+  "btts": 0.46,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.128
+    },
+    {
+      "score": "0-1",
+      "prob": 0.124
+    },
+    {
+      "score": "1-1",
+      "prob": 0.103
+    },
+    {
+      "score": "1-2",
+      "prob": 0.096
+    },
+    {
+      "score": "0-3",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

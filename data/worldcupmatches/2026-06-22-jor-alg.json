@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-22-jor-alg",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-22-jor-alg",
+    "date": "2026-06-22",
+    "home": "Jordan",
+    "away": "Algeria",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Jordan vs Algeria",
+    "home": "Jordan",
+    "away": "Algeria",
+    "as_of": "2026-06-22",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.195,
+      0.232,
+      0.573
+    ],
+    "components": {
+      "dixon_coles": [
+        0.159,
+        0.217,
+        0.624
+      ],
+      "elo": [
+        0.251,
+        0.266,
+        0.483
+      ]
+    },
+    "expected_goals": {
+      "Jordan": 0.97,
+      "Algeria": 2.09
+    },
+    "over25": 0.592,
+    "btts": 0.553,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.102
+      },
+      {
+        "score": "0-2",
+        "prob": 0.102
+      },
+      {
+        "score": "1-2",
+        "prob": 0.099
+      },
+      {
+        "score": "0-1",
+        "prob": 0.09
+      },
+      {
+        "score": "0-3",
+        "prob": 0.071
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760455",
+      "player_shots": [
+        {
+          "player": "Ibrahim Maza",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Amine Gouiri",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 85.1,
+          "starter": true,
+          "shots_p90": 3.17,
+          "sot_p90": 2.11
+        },
+        {
+          "player": "Nadhir Benbouali",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Nizar Al-Rashdan",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mousa Al-Tamari",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 84.0,
+          "starter": true,
+          "shots_p90": 2.14,
+          "sot_p90": 1.07
+        },
+        {
+          "player": "Ali Olwan",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Farès Chaïbi",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mahmoud Al-Mardi",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.0,
+          "starter": true,
+          "shots_p90": 1.18,
+          "sot_p90": 1.18
+        },
+        {
+          "player": "Riyad Mahrez",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 75.8,
+          "starter": true,
+          "shots_p90": 1.19,
+          "sot_p90": 1.19
+        },
+        {
+          "player": "Noor Al-Rawabdeh",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ramy Bensebaini",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rayan Aït-Nouri",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.7,
+          "starter": true,
+          "shots_p90": 1.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rafik Belghali",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Anis Hadj Moussa",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 14.2,
+          "starter": false,
+          "shots_p90": 6.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nabil Bentaleb",
+          "side": "away",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 27.9,
+      "shots_home": 8,
+      "shots_on_target_home": 4,
+      "corners_home": 1,
+      "fouls_home": 11,
+      "saves_home": 6,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 72.1,
+      "shots_away": 17,
+      "shots_on_target_away": 8,
+      "corners_away": 10,
+      "fouls_away": 6,
+      "saves_away": 3,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:56-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.11018,
+    "log_loss": 0.55687,
+    "brier": 0.27418,
+    "surprisal": 0.55687,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.11018,
+        "log_loss": 0.55687,
+        "brier": 0.27418,
+        "surprisal": 0.55687
+      },
+      "dixon_coles": {
+        "rps": 0.08333,
+        "log_loss": 0.4716,
+        "brier": 0.21375,
+        "surprisal": 0.4716
+      },
+      "elo": {
+        "rps": 0.16514,
+        "log_loss": 0.72774,
+        "brier": 0.40105,
+        "surprisal": 0.72774
+      }
+    }
+  }
+}

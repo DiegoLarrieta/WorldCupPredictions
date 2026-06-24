@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-06-18-mex-sou",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-18-mex-sou",
+    "date": "2026-06-18",
+    "home": "Mexico",
+    "away": "South Korea",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Mexico vs South Korea",
+    "home": "Mexico",
+    "away": "South Korea",
+    "as_of": "2026-06-18",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.471,
+      0.278,
+      0.251
+    ],
+    "components": {
+      "dixon_coles": [
+        0.419,
+        0.308,
+        0.273
+      ],
+      "elo": [
+        0.493,
+        0.261,
+        0.246
+      ]
+    },
+    "expected_goals": {
+      "Mexico": 1.25,
+      "South Korea": 0.95
+    },
+    "over25": 0.377,
+    "btts": 0.448,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.142
+      },
+      {
+        "score": "1-0",
+        "prob": 0.128
+      },
+      {
+        "score": "0-0",
+        "prob": 0.121
+      },
+      {
+        "score": "0-1",
+        "prob": 0.095
+      },
+      {
+        "score": "2-0",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:20-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760441",
+      "player_shots": [
+        {
+          "player": "Raúl Jiménez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.7,
+          "starter": true,
+          "shots_p90": 2.26,
+          "sot_p90": 1.13
+        },
+        {
+          "player": "Cho Gue-Sung",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 13.5,
+          "starter": false,
+          "shots_p90": 13.3,
+          "sot_p90": 6.65
+        },
+        {
+          "player": "Lee Kang-In",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Luis Romo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 70.3,
+          "starter": true,
+          "shots_p90": 1.28,
+          "sot_p90": 1.28
+        },
+        {
+          "player": "Julián Quiñones",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.4,
+          "starter": true,
+          "shots_p90": 1.08,
+          "sot_p90": 1.08
+        },
+        {
+          "player": "Obed Vargas",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.7,
+          "starter": false,
+          "shots_p90": 4.56,
+          "sot_p90": 4.56
+        },
+        {
+          "player": "Yang Hyun-Jun",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.3,
+          "starter": false,
+          "shots_p90": 4.67,
+          "sot_p90": 4.67
+        },
+        {
+          "player": "Jesús Gallardo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Brian Gutiérrez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.2,
+          "starter": true,
+          "shots_p90": 1.28,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Roberto Alvarado",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 79.6,
+          "starter": true,
+          "shots_p90": 1.13,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lee Han-Beom",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hwang In-Beom",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Seol Young-Woo",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.7,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Oh Hyeon-Gyu",
+          "side": "away",
+          "team": "South Korea",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 33.2,
+          "starter": false,
+          "shots_p90": 2.71,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 42.4,
+      "shots_home": 8,
+      "shots_on_target_home": 4,
+      "corners_home": 1,
+      "fouls_home": 9,
+      "saves_home": 2,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 57.6,
+      "shots_away": 9,
+      "shots_on_target_away": 2,
+      "corners_away": 2,
+      "fouls_away": 7,
+      "saves_away": 3,
+      "offsides_away": 6,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:49-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.17142,
+    "log_loss": 0.7529,
+    "brier": 0.42013,
+    "surprisal": 0.7529,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.17142,
+        "log_loss": 0.7529,
+        "brier": 0.42013,
+        "surprisal": 0.7529
+      },
+      "dixon_coles": {
+        "rps": 0.20604,
+        "log_loss": 0.86988,
+        "brier": 0.50695,
+        "surprisal": 0.86988
+      },
+      "elo": {
+        "rps": 0.15878,
+        "log_loss": 0.70725,
+        "brier": 0.38569,
+        "surprisal": 0.70725
+      }
+    }
+  }
+}

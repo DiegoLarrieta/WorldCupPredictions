@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-06-18-cze-sou",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-18-cze-sou",
+    "date": "2026-06-18",
+    "home": "Czech Republic",
+    "away": "South Africa",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Czech Republic vs South Africa",
+    "home": "Czech Republic",
+    "away": "South Africa",
+    "as_of": "2026-06-18",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.51,
+      0.267,
+      0.223
+    ],
+    "components": {
+      "dixon_coles": [
+        0.443,
+        0.299,
+        0.258
+      ],
+      "elo": [
+        0.54,
+        0.251,
+        0.209
+      ]
+    },
+    "expected_goals": {
+      "Czech Republic": 1.32,
+      "South Africa": 0.95
+    },
+    "over25": 0.397,
+    "btts": 0.46,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "1-0",
+        "prob": 0.126
+      },
+      {
+        "score": "0-0",
+        "prob": 0.113
+      },
+      {
+        "score": "2-0",
+        "prob": 0.09
+      },
+      {
+        "score": "0-1",
+        "prob": 0.088
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-23T17:54:20-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760438",
+      "player_shots": [
+        {
+          "player": "Ladislav Krejcí",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Michal Sadílek",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 66.3,
+          "starter": true,
+          "shots_p90": 4.07,
+          "sot_p90": 1.36
+        },
+        {
+          "player": "Mbekezeli Mbokazi",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aubrey Modiba",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Thapelo Maseko",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.8,
+          "starter": true,
+          "shots_p90": 3.22,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Evidence Makgopa",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 24.1,
+          "starter": false,
+          "shots_p90": 7.46,
+          "sot_p90": 7.46
+        },
+        {
+          "player": "Patrik Schick",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Teboho Mokoena",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Lukás Cerv",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 77.6,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 1.16
+        },
+        {
+          "player": "Relebohile Mofokeng",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Vladimír Darida",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 54.1,
+          "starter": true,
+          "shots_p90": 1.66,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Adam Hlozek",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.4,
+          "starter": true,
+          "shots_p90": 1.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jaroslav Zelený",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 35.8,
+          "starter": false,
+          "shots_p90": 2.51,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lukás Provod",
+          "side": "home",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.6,
+          "starter": false,
+          "shots_p90": 3.81,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Thalente Mbatha",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Iqraam Rayners",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.9,
+          "starter": true,
+          "shots_p90": 1.37,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Oswin Appollis",
+          "side": "away",
+          "team": "South Africa",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 38.3,
+      "shots_home": 14,
+      "shots_on_target_home": 3,
+      "corners_home": 5,
+      "fouls_home": 12,
+      "saves_home": 3,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 61.7,
+      "shots_away": 17,
+      "shots_on_target_away": 4,
+      "corners_away": 5,
+      "fouls_away": 10,
+      "saves_away": 2,
+      "offsides_away": 3,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-23T17:54:49-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.15491,
+    "log_loss": 1.32051,
+    "brier": 0.84712,
+    "surprisal": 1.32051,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.15491,
+        "log_loss": 1.32051,
+        "brier": 0.84712,
+        "surprisal": 1.32051
+      },
+      "dixon_coles": {
+        "rps": 0.13141,
+        "log_loss": 1.20731,
+        "brier": 0.75421,
+        "surprisal": 1.20731
+      },
+      "elo": {
+        "rps": 0.16764,
+        "log_loss": 1.3823,
+        "brier": 0.89628,
+        "surprisal": 1.3823
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "match": "Paraguay vs Australia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-25",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Paraguay": 0.218,
+      "Draw": 0.286,
+      "Australia": 0.496
+    },
+    "ensemble_uncalibrated": {
+      "Paraguay": 0.228,
+      "Draw": 0.292,
+      "Australia": 0.48
+    },
+    "dixon_coles": {
+      "Paraguay": 0.259,
+      "Draw": 0.333,
+      "Australia": 0.408
+    },
+    "elo": {
+      "Paraguay": 0.199,
+      "Draw": 0.253,
+      "Australia": 0.547
+    }
+  },
+  "elo": {
+    "Paraguay": 1818,
+    "Australia": 1997
+  },
+  "expected_goals": {
+    "Paraguay": 0.79,
+    "Australia": 1.07
+  },
+  "over_under_2_5": {
+    "over": 0.287,
+    "under": 0.713
+  },
+  "btts": 0.368,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.163
+    },
+    {
+      "score": "0-1",
+      "prob": 0.158
+    },
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "1-0",
+      "prob": 0.115
+    },
+    {
+      "score": "0-2",
+      "prob": 0.089
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
