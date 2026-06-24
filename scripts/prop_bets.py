@@ -26,11 +26,13 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from engine.espn import ESPNError, lineups as fetch_lineups        # noqa: E402
 from engine.market import prop_ev                                   # noqa: E402
 from engine.odds_api import OddsAPIError, fetch_player_props        # noqa: E402
 from engine.props import prop_at_least                              # noqa: E402
 
 RATES_CSV = Path("data/csv/derived/player_shot_rates.csv")
+START_MIN, BENCH_MIN = 85.0, 20.0      # expected minutes by confirmed lineup status
 
 
 def _norm(s: str) -> str:
@@ -73,6 +75,15 @@ def _match_rate(player: str, exact: dict, rows: list):
     return cands[0][1] if len(names) == 1 else None      # rows sorted by mins -> best first
 
 
+def _lineup_status(player: str, lineup_toks: list):
+    """'start' / 'bench' / None for a prop player, matched to the confirmed XI by tokens."""
+    bt = _toks(player)
+    if not bt:
+        return None
+    hits = [st for tk, st in lineup_toks if tk and (tk <= bt or bt <= tk)]
+    return hits[0] if hits else None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -83,6 +94,8 @@ def main() -> None:
                          "since assuming a full 90 overstates SoT — starters average ~80)")
     ap.add_argument("--opp", type=float, default=1.0, help="opponent-defense factor (1.0=avg)")
     ap.add_argument("--threshold", type=float, default=0.03, help="EV threshold to flag value")
+    ap.add_argument("--lineups", action="store_true",
+                    help="use the confirmed XI from ESPN (~1h pre-kickoff) for per-player minutes")
     args = ap.parse_args()
 
     folder = Path(args.match_dir)
@@ -92,6 +105,14 @@ def main() -> None:
     if not RATES_CSV.exists():
         sys.exit(f"{RATES_CSV} missing — run scripts/build_prop_model.py first.")
     exact, rate_rows = _rate_lookup()
+
+    lineup_toks = []
+    if args.lineups:
+        try:
+            lineup_toks = [(_toks(nm), st) for nm, st in fetch_lineups(home, away, pred["as_of"])]
+        except ESPNError:
+            pass
+        print(f"lineups: {'XI confirmado ('+str(len(lineup_toks))+' jugadores)' if lineup_toks else 'no posteado aún — uso minutos típicos'}")
 
     try:
         props = fetch_player_props(home, away, book=args.book)
@@ -109,24 +130,36 @@ def main() -> None:
         rate, mpa = match
         if p["line"] is None or p["over_price"] is None:
             continue
-        # expected minutes: explicit override, else the player's typical min/game (clamped),
-        # else 80 (a realistic starter) — assuming a full 90 systematically overstates SoT.
-        exp_min = args.minutes if args.minutes is not None else (
-            min(max(mpa, 30.0), 90.0) if mpa else 80.0)
+        # expected minutes: explicit override > confirmed lineup status > typical min/game >
+        # 80. Assuming a full 90 systematically overstates SoT; a confirmed bench player
+        # barely plays, so their prop collapses (and we won't bet a non-starter).
+        status = _lineup_status(p["player"], lineup_toks) if lineup_toks else None
+        if args.minutes is not None:
+            exp_min = args.minutes
+        elif status == "start":
+            exp_min = START_MIN
+        elif status == "bench":
+            exp_min = BENCH_MIN
+        else:
+            exp_min = min(max(mpa, 30.0), 90.0) if mpa else 80.0
         need = math.ceil(p["line"])                 # over 1.5 -> need >= 2 SoT
         model_over = prop_at_least(rate, need, expected_minutes=exp_min, opponent_factor=args.opp)
         ev = prop_ev(model_over, p["over_price"], p.get("under_price"), ev_threshold=args.threshold)
         b = ev["best"]
         rows.append({"player": p["player"], "line": p["line"], "need_sot": need,
-                     "sot_per90": round(rate, 2), "model_over": round(model_over, 3),
+                     "sot_per90": round(rate, 2), "exp_minutes": round(exp_min),
+                     "lineup": status or "n/a", "model_over": round(model_over, 3),
                      "over_price": p["over_price"], "under_price": p.get("under_price"),
                      "best_side": b["side"], "market_prob": b["market_prob"],
                      "edge": b["edge"], "ev_per_unit": b["ev_per_unit"], "value": ev["value"]})
 
     rows.sort(key=lambda r: r["ev_per_unit"], reverse=True)
     value = [r for r in rows if r["value"]]
+    minutes_mode = (f"{args.minutes:.0f} (override)" if args.minutes is not None
+                    else "confirmed lineup + typical min/game" if lineup_toks
+                    else "typical min/game")
     out = {"match": pred["match"], "market": "player_shots_on_target",
-           "expected_minutes": args.minutes, "opponent_factor": args.opp,
+           "expected_minutes": minutes_mode, "opponent_factor": args.opp,
            "rows": rows, "value_bets": value, "unmatched_players": unmatched}
     (folder / "prop_compare.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
     (folder / "prop_compare.md").write_text(_md(out))
@@ -146,17 +179,18 @@ def main() -> None:
 
 def _md(o: dict) -> str:
     L = [f"# Player shots-on-target props: {o['match']}", "",
-         f"_Model P(over) from shrunk shot rates (expected {o['expected_minutes']:.0f} min, "
+         f"_Model P(over) from shrunk shot rates (minutes: {o['expected_minutes']}, "
          f"opponent factor {o['opponent_factor']}). Market de-vigged (Shin). Value = EV >= 3%. "
          f"Candidate bets, not proven edge — log what you bet and let CLOV judge._", "",
-         "| Player | Line | Model P(over) | Market | Edge | Over | Under | Best | EV/1u | Value |",
-         "|---|---|---|---|---|---|---|---|---|---|"]
+         "| Player | Line | Min | XI | Model P(over) | Market | Edge | Over | Under | Best | EV/1u | Value |",
+         "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for r in o["rows"]:
         flag = "✅" if r["value"] else ""
         mp = f"{r['market_prob']:.0%}" if r["market_prob"] is not None else "—"
         ed = f"{r['edge']:+.0%}" if r["edge"] is not None else "—"
         un = f"{r['under_price']:.2f}" if r["under_price"] is not None else "—"
-        L.append(f"| {r['player']} | {r['line']} | {r['model_over']:.0%} | {mp} | {ed} | "
+        L.append(f"| {r['player']} | {r['line']} | {r['exp_minutes']} | {r['lineup']} | "
+                 f"{r['model_over']:.0%} | {mp} | {ed} | "
                  f"{r['over_price']:.2f} | {un} | {r['best_side']} | {r['ev_per_unit']:+.2f} | {flag} |")
     if o["value_bets"]:
         L += ["", "## Value bets", ""]

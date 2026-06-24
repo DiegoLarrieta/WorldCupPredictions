@@ -29,8 +29,10 @@ Hard rules, baked into `prop_clov.py`:
 ## Steps
 ```bash
 # 1. Fetch props + model -> prop_compare.{json,md} (model_over, over_price per player).
-ODDS_API_KEY=... .venv/bin/python scripts/prop_bets.py predictions/<week>/<slug>
-#    --minutes 60 (likely sub), --opp 1.2 (leaky defence), --book fanduel
+ODDS_API_KEY=... .venv/bin/python scripts/prop_bets.py predictions/<week>/<slug> --lineups
+#    --lineups: use ESPN's confirmed XI (~1h pre-kickoff) -> starter ~85 min, bench ~20,
+#               so we never bet a non-starter. Falls back to each player's typical min/game
+#               if the XI isn't posted yet. --minutes N overrides; --opp 1.2 (leaky defence)
 
 # 2. Decision: the overs where the model beats the vigged price, guarded + real-data only.
 .venv/bin/python scripts/prop_clov.py predictions/<week>/<slug>          # dry-run

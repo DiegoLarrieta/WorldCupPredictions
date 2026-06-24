@@ -244,6 +244,28 @@ def match_result(home: str, away: str, date: str, league: str = DEFAULT_LEAGUE) 
     raise ESPNError(f"No ESPN event for {home} vs {away} near {date}.")
 
 
+def lineups(home: str, away: str, date: str, league: str = DEFAULT_LEAGUE) -> list[tuple[str, str]]:
+    """Confirmed XI from ESPN as [(player_display_name, 'start'|'bench')] for both teams.
+    Posted ~1h before kickoff; returns [] if not announced yet. Searches date ±1."""
+    d0 = _dt.date.fromisoformat(date)
+    for off in (0, -1, 1):
+        day = (d0 + _dt.timedelta(days=off)).isoformat()
+        try:
+            eid = find_event_id(fetch_scoreboard(day, league), home, away)
+        except ESPNError:
+            continue
+        s = fetch_summary(eid, league)
+        out = []
+        for team in s.get("rosters", []):
+            for p in (team.get("roster") or []):
+                nm = (p.get("athlete") or {}).get("displayName")
+                if nm:
+                    out.append((nm, "start" if p.get("starter") else "bench"))
+        if out:
+            return out
+    return []
+
+
 # ---- convenience ----------------------------------------------------------
 def fetch_match_stats(home: str, away: str, date: str, league: str = DEFAULT_LEAGUE) -> dict:
     """One call: scoreboard -> event id -> summary -> {team, player_shots}. Searches

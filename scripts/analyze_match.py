@@ -62,7 +62,7 @@ def _snapshot_odds(match_key: str):
 
 def _prop_candidates(folder: Path):
     """Run prop_bets live, then the CLOV-over selection. Returns (candidates, note)."""
-    r = subprocess.run([sys.executable, "scripts/prop_bets.py", str(folder)],
+    r = subprocess.run([sys.executable, "scripts/prop_bets.py", str(folder), "--lineups"],
                        capture_output=True, text=True)
     pc = folder / "prop_compare.json"
     if not pc.exists():
