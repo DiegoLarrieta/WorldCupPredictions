@@ -51,23 +51,24 @@ def _rate_lookup():
     exact, rows = {}, []
     for _, r in df.iterrows():
         k = _norm(r["name"])
-        sot = float(r["sot_per90"])
+        mpa = float(r["min_per_app"]) if pd.notna(r.get("min_per_app")) else None
+        val = (float(r["sot_per90"]), mpa)     # (SoT/90, typical minutes per game)
         if k not in exact:                     # first = most minutes (most reliable)
-            exact[k] = sot
-        rows.append((k, _toks(r["name"]), sot))
+            exact[k] = val
+        rows.append((k, _toks(r["name"]), val))
     return exact, rows
 
 
-def _match_rate(player: str, exact: dict, rows: list) -> float | None:
+def _match_rate(player: str, exact: dict, rows: list):
     """Exact normalized match, else a UNIQUE token-subset match (one name is contained
-    in the other), else None. Ambiguous (multiple distinct names) stays unmatched."""
+    in the other), else None. Returns (sot_per90, min_per_app) or None."""
     k = _norm(player)
     if k in exact:
         return exact[k]
     bt = _toks(player)
     if not bt:
         return None
-    cands = [(nm, sot) for nm, tk, sot in rows if tk and (tk <= bt or bt <= tk)]
+    cands = [(nm, val) for nm, tk, val in rows if tk and (tk <= bt or bt <= tk)]
     names = {nm for nm, _ in cands}
     return cands[0][1] if len(names) == 1 else None      # rows sorted by mins -> best first
 
@@ -77,7 +78,9 @@ def main() -> None:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("match_dir", help="folder with prediction.json (gives home/away)")
     ap.add_argument("--book", default="best")
-    ap.add_argument("--minutes", type=float, default=90.0, help="expected minutes (lower for subs)")
+    ap.add_argument("--minutes", type=float, default=None,
+                    help="expected minutes (override; default = the player's typical min/game, "
+                         "since assuming a full 90 overstates SoT — starters average ~80)")
     ap.add_argument("--opp", type=float, default=1.0, help="opponent-defense factor (1.0=avg)")
     ap.add_argument("--threshold", type=float, default=0.03, help="EV threshold to flag value")
     args = ap.parse_args()
@@ -99,14 +102,19 @@ def main() -> None:
 
     rows, unmatched = [], []
     for p in props:
-        rate = _match_rate(p["player"], exact, rate_rows)
-        if rate is None:
+        match = _match_rate(p["player"], exact, rate_rows)
+        if match is None:
             unmatched.append(p["player"])
             continue
+        rate, mpa = match
         if p["line"] is None or p["over_price"] is None:
             continue
+        # expected minutes: explicit override, else the player's typical min/game (clamped),
+        # else 80 (a realistic starter) — assuming a full 90 systematically overstates SoT.
+        exp_min = args.minutes if args.minutes is not None else (
+            min(max(mpa, 30.0), 90.0) if mpa else 80.0)
         need = math.ceil(p["line"])                 # over 1.5 -> need >= 2 SoT
-        model_over = prop_at_least(rate, need, expected_minutes=args.minutes, opponent_factor=args.opp)
+        model_over = prop_at_least(rate, need, expected_minutes=exp_min, opponent_factor=args.opp)
         ev = prop_ev(model_over, p["over_price"], p.get("under_price"), ev_threshold=args.threshold)
         b = ev["best"]
         rows.append({"player": p["player"], "line": p["line"], "need_sot": need,

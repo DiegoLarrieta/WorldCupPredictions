@@ -60,7 +60,7 @@ def main() -> None:
     ps = con.execute("""
         SELECT s.player_id, p.name,
                arg_max(s.position, s.minutes) AS position,
-               SUM(s.minutes) AS mins,
+               SUM(s.minutes) AS mins, SUM(s.appearances) AS apps,
                SUM(CASE WHEN s.shots IS NOT NULL THEN s.minutes ELSE 0 END) AS mins_known,
                SUM(s.shots) AS shots          -- SUM ignores NULLs (NULL if all unknown)
         FROM player_seasons s JOIN players p USING(player_id)
@@ -71,14 +71,17 @@ def main() -> None:
     ps["shots"] = pd.to_numeric(ps["shots"], errors="coerce")   # keep NaN = no shot data
     ps["pos"] = ps["position"].map(_coarse_pos)
     ps["nineties"] = ps["mins_known"] / 90.0                    # exposure = covered mins only
+    ps["min_per_app"] = (ps["mins"] / ps["apps"].replace(0, np.nan)).round(1)  # typical game length
     has = ps["shots"].notna() & (ps["nineties"] > 0)
 
     # --- Gamma-Poisson shrink of shots/90, prior PER POSITION (from covered players only) ---
+    # NOTE: a 50/50 shots+np_xg blend was tested head-to-head on held-out WC SoT (starters,
+    # >=2 starts, n=89): blend 0.445 vs shots-only 0.408, Δ=+0.037 but bootstrap IC95%
+    # [-0.013, +0.085] CROSSES ZERO -> not proven, so NOT shipped (per the validation rule).
+    # Promising, not disproven — revisit as n grows (more WC games). Shots-only stays.
     priors = {}
     for pos, g in ps[has].groupby("pos"):
         priors[pos] = gamma_poisson_eb(g["shots"].to_numpy(), g["nineties"].to_numpy())
-    # players with no shot data fall fully back to their position prior mean (a/b),
-    # instead of being dragged to ~0 by uncounted minutes.
     ps["shot_rate_raw"] = np.where(has, ps["shots"] / ps["nineties"], np.nan)
     ps["shot_rate"] = [posterior_rate(*priors[pos][:2], (sh if h else 0.0), (ni if h else 0.0))
                        for pos, sh, ni, h in zip(ps["pos"], ps["shots"], ps["nineties"], has)]
@@ -101,7 +104,7 @@ def main() -> None:
     ps["p_1plus_sot"] = [prop_at_least(r, 1) for r in ps["sot_per90"]]
     ps["p_2plus_sot"] = [prop_at_least(r, 2) for r in ps["sot_per90"]]
 
-    out = ps[["player_id", "name", "pos", "mins", "shots", "shot_rate_raw",
+    out = ps[["player_id", "name", "pos", "mins", "min_per_app", "shots", "shot_rate_raw",
               "shot_rate", "on_target_rate", "sot_per90", "p_1plus_sot", "p_2plus_sot"]]
     out = out.sort_values("sot_per90", ascending=False).round(3)
     OUT.parent.mkdir(parents=True, exist_ok=True)
