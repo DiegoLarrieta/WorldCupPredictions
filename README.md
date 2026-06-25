@@ -11,15 +11,44 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 ---
 
 <!-- DAILY-BOARD:START -->
-## 📅 Tablero de hoy — 2026-06-25
+## 📅 Tablero de hoy — 2026-06-25 (grupo E)
 
-_Se actualiza partido por partido vía `/analyze-match`. Detalle en cada `analysis.md`._
+_Probabilidad del modelo por mercado + precio del mercado donde lo tenemos. 1X2/doble-oport = registro (sin edge vs cierre). Detalle: `analysis.md` de cada partido._
 
-| Hora (UTC) | Partido | 1X2 (registro) | Total goles O/U 2.5 | Prop destacado | Análisis |
-|---|---|---|---|---|---|
-| 20:00Z | Ecuador vs Germany | Germany 36% | — | John Yeboah o0.5 @ 2.05 | [análisis](predictions/week3/groupE/ecu-ger/analysis.md) |
-| 20:00Z | Curaçao vs Ivory Coast | Ivory Coast 65% | — | — | [análisis](predictions/week3/groupE/cuw-civ/analysis.md) |
-| 23:00Z | Japan vs Sweden | Japan 64% | over 57% @ 1.91 (suspect) | — | [análisis](predictions/week3/groupF/jpn-swe/analysis.md) |
+### Ecuador vs Germany — 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
+
+| Mercado | Prob modelo | Mercado paga |
+|---|---|---|
+| Gana Ecuador | 34% | — |
+| Empate | 30% | — |
+| Gana Germany | 36% | — |
+| Doble oport. Ecuador (gana o empata) | 64% | — |
+| Doble oport. Germany (gana o empata) | 66% | — |
+| Over 1.5 goles | 58% | — |
+| Over 2.5 goles | 31% | 1.76 |
+| Over 3.5 goles | 13% | — |
+| Over 1.5 goles Ecuador | 29% | — |
+| Over 1.5 goles Germany | 22% | — |
+| BTTS (ambos marcan) | 39% | — |
+| Prop destacado | Gonzalo Plata o0.5 SoT @ 2.30 (47%) | |
+
+### Curaçao vs Ivory Coast — 20:00Z · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
+
+| Mercado | Prob modelo | Mercado paga |
+|---|---|---|
+| Gana Curaçao | 13% | — |
+| Empate | 22% | — |
+| Gana Ivory Coast | 65% | — |
+| Doble oport. Curaçao (gana o empata) | 35% | — |
+| Doble oport. Ivory Coast (gana o empata) | 87% | — |
+| Over 1.5 goles | 70% | — |
+| Over 2.5 goles | 44% | 1.52 |
+| Over 3.5 goles | 23% | — |
+| Over 1.5 goles Curaçao | 13% | — |
+| Over 1.5 goles Ivory Coast | 54% | — |
+| BTTS (ambos marcan) | 39% | — |
+| Prop destacado | Nicolas Pepe o0.5 SoT @ 1.40 (52%) | |
+
 <!-- DAILY-BOARD:END -->
 
 ---
