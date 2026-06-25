@@ -201,6 +201,15 @@ def main() -> None:
 
     market = compare_lines(pred, sharp, soft) if sharp else None
 
+    # --- full market set (live only): double chance, O/U lines, team totals, BTTS ---
+    extra = {}
+    if args.source == "live":
+        try:
+            from engine.odds_api import fetch_all_markets
+            extra = fetch_all_markets(home, away)
+        except Exception:
+            pass
+
     # --- props (live only) ---
     props, prop_note = ([], "skipped (snapshot backtest — props weren't captured)")
     if args.source == "live":
@@ -216,15 +225,9 @@ def main() -> None:
             result = None
 
     md = _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
-                 soft.get("ou_2.5") if isinstance(soft, dict) else None)
+                 soft.get("ou_2.5") if isinstance(soft, dict) else None, extra)
     (folder / "analysis.md").write_text(md)
     if args.source == "live":                       # publish to the README daily board
-        extra = {}
-        try:
-            from engine.odds_api import fetch_all_markets
-            extra = fetch_all_markets(home, away)
-        except Exception:
-            pass
         _update_board(folder, pred, market, props, extra)
         print("-> README daily board updated")
     print(f"-> {folder/'analysis.md'}")
@@ -232,7 +235,8 @@ def main() -> None:
 
 
 def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
-            soft_ou=None) -> str:
+            soft_ou=None, extra=None) -> str:
+    extra = extra or {}
     home, away = pred["match"].split(" vs ")
     L = [f"# Analysis — {pred['match']}", "",
          f"_as_of {pred['as_of']} · source: {args.source}"
@@ -250,22 +254,38 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
                      f"{r['best_odds']:.2f} | **{r['verdict']}** |")
     L.append("")
 
-    # Goals
+    # Goals (model P(over) vs real odds + EV at the offered price)
     L += ["## Goals (total)", "",
           f"- Expected goals: {home} {eg[home]} – {eg[away]} {away}  (total λ {tot_lambda:.2f})",
-          "", "| line | model P(over) | market (best over) | note |", "|---|---|---|---|"]
-    ou_mkt = (market["markets"].get("ou_2.5") if market else None)
+          "", "| over | model P | odds | EV@odds |", "|---|---|---|---|"]
     for ln in GOAL_LINES:
-        p_over = poisson_over(tot_lambda, ln)
-        price = note = "—"
-        if ln == 2.5:
-            over_row = next((r for r in ou_mkt["selections"] if r["selection"] == "over"), None) if ou_mkt else None
-            if over_row:                                    # sharp present -> price + verdict
-                price, note = f"{over_row['best_odds']:.2f}", over_row["verdict"]
-            elif soft_ou and soft_ou.get("over"):           # soft-only -> show price, no sharp ref
-                price, note = f"{soft_ou['over']:.2f}", "soft (sin ref sharp)"
-        L.append(f"| over {ln} | {p_over:.0%} | {price} | {note} |")
-    L += ["", f"- BTTS (both score): model **{pred.get('btts'):.0%}**", ""]
+        p = poisson_over(tot_lambda, ln)
+        od = (extra.get(f"ou_{ln}") or {}).get("over")
+        if not od and ln == 2.5 and soft_ou:
+            od = soft_ou.get("over")
+        ev = f"{p*od-1:+.2f}" if od else "—"
+        L.append(f"| {ln} | {p:.0%} | {(f'{od:.2f}' if od else '—')} | {ev} |")
+    L.append("")
+
+    # Otros mercados (doble oportunidad, goles por equipo, BTTS) — model P vs odds + EV
+    dc_h, dc_a = e[home] + e["Draw"], e[away] + e["Draw"]
+    th = poisson_over(float(eg[home]), 1.5)
+    ta = poisson_over(float(eg[away]), 1.5)
+    rows = [
+        (f"Doble oport. {home}", dc_h, extra.get("dc_home")),
+        (f"Doble oport. {away}", dc_a, extra.get("dc_away")),
+        (f"Over 1.5 goles {home}", th, extra.get("team_ov15_home")),
+        (f"Over 1.5 goles {away}", ta, extra.get("team_ov15_away")),
+        ("BTTS (ambos marcan)", float(pred.get("btts") or 0), (extra.get("btts") or {}).get("yes")),
+    ]
+    L += ["## Otros mercados", "",
+          "_EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados eficientes "
+          "(1X2, doble oport.) un EV+ suele ser error nuestro (edge test); en goles es la señal viva._",
+          "", "| mercado | model P | odds | EV@odds |", "|---|---|---|---|"]
+    for lab, p, od in rows:
+        ev = f"{p*od-1:+.2f}" if od else "—"
+        L.append(f"| {lab} | {p:.0%} | {(f'{od:.2f}' if od else '—')} | {ev} |")
+    L.append("")
 
     # Props
     L += ["## Player shots-on-target (CLOV-on-overs)", ""]

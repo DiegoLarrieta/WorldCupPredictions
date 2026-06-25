@@ -8,57 +8,57 @@
    [
     "Gana Japan",
     0.641,
-    "2.12"
+    "2.30"
    ],
    [
     "Empate",
     0.212,
-    "3.51"
+    "3.60"
    ],
    [
     "Gana Sweden",
     0.147,
-    "4.20"
+    "4.60"
    ],
    [
     "Doble oport. Japan",
     0.853,
-    "1.31"
+    "1.37"
    ],
    [
     "Doble oport. Sweden",
     0.359,
-    "1.88"
+    "1.76"
    ],
    [
     "Over 1.5 goles",
     0.799,
-    "1.34"
+    "1.32"
    ],
    [
     "Over 2.5 goles",
     0.575,
-    "2.08"
+    "2.00"
    ],
    [
     "Over 3.5 goles",
     0.351,
-    "3.60"
+    "3.45"
    ],
    [
     "Over 1.5 goles Japan",
     0.61,
-    "2.07"
+    "2.19"
    ],
    [
     "Over 1.5 goles Sweden",
     0.239,
-    "_(no fetcheado)_"
+    "3.05"
    ],
    [
     "BTTS (ambos marcan)",
     0.534,
-    "1.85"
+    "1.81"
    ]
   ]
  }
