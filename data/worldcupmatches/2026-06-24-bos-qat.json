@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-24-bos-qat",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-24-bos-qat",
+    "date": "2026-06-24",
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Bosnia and Herzegovina vs Qatar",
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "as_of": "2026-06-24",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.466,
+      0.27,
+      0.264
+    ],
+    "components": {
+      "dixon_coles": [
+        0.41,
+        0.294,
+        0.297
+      ],
+      "elo": [
+        0.493,
+        0.261,
+        0.246
+      ]
+    },
+    "expected_goals": {
+      "Bosnia and Herzegovina": 1.29,
+      "Qatar": 1.06
+    },
+    "over25": 0.415,
+    "btts": 0.48,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.138
+      },
+      {
+        "score": "1-0",
+        "prob": 0.116
+      },
+      {
+        "score": "0-0",
+        "prob": 0.104
+      },
+      {
+        "score": "0-1",
+        "prob": 0.094
+      },
+      {
+        "score": "2-1",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-25T00:13:42-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760462",
+      "player_shots": [
+        {
+          "player": "Ivan Basic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedro Miguel",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Kerim Alajbegovic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 81.5,
+          "starter": true,
+          "shots_p90": 2.21,
+          "sot_p90": 1.1
+        },
+        {
+          "player": "Esmir Bajraktarevic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Akram Afif",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ivan Sunjic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Ermedin Demirovic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ermin Mahmic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 26.5,
+          "starter": false,
+          "shots_p90": 3.4,
+          "sot_p90": 3.4
+        },
+        {
+          "player": "Hassan Al-Haydos",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 55.0,
+          "starter": true,
+          "shots_p90": 1.64,
+          "sot_p90": 1.64
+        },
+        {
+          "player": "Almoez Ali",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.8,
+          "starter": false,
+          "shots_p90": 4.8,
+          "sot_p90": 4.8
+        },
+        {
+          "player": "Stjepan Radeljic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nikola Katic",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.0,
+          "starter": true,
+          "shots_p90": 1.43,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Edin Dzeko",
+          "side": "home",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.5,
+          "starter": true,
+          "shots_p90": 1.42,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Boualem Khoukhi",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ahmed Al-Ganehi",
+          "side": "away",
+          "team": "Qatar",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 35.0,
+          "starter": false,
+          "shots_p90": 2.57,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 54.4,
+      "shots_home": 14,
+      "shots_on_target_home": 5,
+      "corners_home": 5,
+      "fouls_home": 9,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 45.6,
+      "shots_away": 9,
+      "shots_on_target_away": 3,
+      "corners_away": 5,
+      "fouls_away": 14,
+      "saves_away": 3,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-25T00:14:01-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.17743,
+    "log_loss": 0.76357,
+    "brier": 0.42775,
+    "surprisal": 0.76357,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.17743,
+        "log_loss": 0.76357,
+        "brier": 0.42775,
+        "surprisal": 0.76357
+      },
+      "dixon_coles": {
+        "rps": 0.21831,
+        "log_loss": 0.8926,
+        "brier": 0.52288,
+        "surprisal": 0.8926
+      },
+      "elo": {
+        "rps": 0.15878,
+        "log_loss": 0.70725,
+        "brier": 0.38569,
+        "surprisal": 0.70725
+      }
+    }
+  }
+}

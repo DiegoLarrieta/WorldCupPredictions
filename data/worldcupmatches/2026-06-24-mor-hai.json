@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-24-mor-hai",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-24-mor-hai",
+    "date": "2026-06-24",
+    "home": "Morocco",
+    "away": "Haiti",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Morocco vs Haiti",
+    "home": "Morocco",
+    "away": "Haiti",
+    "as_of": "2026-06-24",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.746,
+      0.182,
+      0.072
+    ],
+    "components": {
+      "dixon_coles": [
+        0.682,
+        0.224,
+        0.094
+      ],
+      "elo": [
+        0.746,
+        0.176,
+        0.078
+      ]
+    },
+    "expected_goals": {
+      "Morocco": 1.8,
+      "Haiti": 0.52
+    },
+    "over25": 0.409,
+    "btts": 0.343,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.172
+      },
+      {
+        "score": "2-0",
+        "prob": 0.16
+      },
+      {
+        "score": "0-0",
+        "prob": 0.104
+      },
+      {
+        "score": "1-1",
+        "prob": 0.097
+      },
+      {
+        "score": "3-0",
+        "prob": 0.096
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 4,
+      "away_goals": 2,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-25T00:13:43-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760464",
+      "player_shots": [
+        {
+          "player": "Achraf Hakimi",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 5,
+          "on_target": 3,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Ismael Saibari",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 69.8,
+          "starter": true,
+          "shots_p90": 6.45,
+          "sot_p90": 1.29
+        },
+        {
+          "player": "Ayoub El Kaabi",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 69.8,
+          "starter": true,
+          "shots_p90": 3.87,
+          "sot_p90": 2.58
+        },
+        {
+          "player": "Jean-Ricner Bellegarde",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 20.2,
+          "starter": false,
+          "shots_p90": 8.89,
+          "sot_p90": 4.44
+        },
+        {
+          "player": "Lenny Joseph",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.6,
+          "starter": true,
+          "shots_p90": 2.18,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Neil El Aynaoui",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.5,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 1.09
+        },
+        {
+          "player": "Gessime Yassine",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 20.2,
+          "starter": false,
+          "shots_p90": 4.46,
+          "sot_p90": 4.46
+        },
+        {
+          "player": "Wilson Isidor",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 66.6,
+          "starter": true,
+          "shots_p90": 1.35,
+          "sot_p90": 1.35
+        },
+        {
+          "player": "Duckens Nazon",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.6,
+          "starter": false,
+          "shots_p90": 3.81,
+          "sot_p90": 3.81
+        },
+        {
+          "player": "Chadi Riad",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Brahim Díaz",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 69.8,
+          "starter": true,
+          "shots_p90": 1.29,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "side": "home",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 20.2,
+          "starter": false,
+          "shots_p90": 4.45,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ricardo Adé",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Louicius Deedson",
+          "side": "away",
+          "team": "Haiti",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.4,
+          "starter": false,
+          "shots_p90": 3.84,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 69.1,
+      "shots_home": 22,
+      "shots_on_target_home": 11,
+      "corners_home": 9,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 5,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 30.9,
+      "shots_away": 9,
+      "shots_on_target_away": 2,
+      "corners_away": 1,
+      "fouls_away": 18,
+      "saves_away": 8,
+      "offsides_away": 0,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-25T00:14:01-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.03485,
+    "log_loss": 0.29303,
+    "brier": 0.10282,
+    "surprisal": 0.29303,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.03485,
+        "log_loss": 0.29303,
+        "brier": 0.10282,
+        "surprisal": 0.29303
+      },
+      "dixon_coles": {
+        "rps": 0.05498,
+        "log_loss": 0.38273,
+        "brier": 0.16014,
+        "surprisal": 0.38273
+      },
+      "elo": {
+        "rps": 0.0353,
+        "log_loss": 0.29303,
+        "brier": 0.10158,
+        "surprisal": 0.29303
+      }
+    }
+  }
+}

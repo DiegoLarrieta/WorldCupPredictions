@@ -1,6 +1,6 @@
 # Analysis — Scotland vs Brazil
 
-_as_of 2026-06-24 · source: live_
+_as_of 2026-06-24 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
 
 ## 1X2 (match winner)
 
@@ -8,8 +8,8 @@ _as_of 2026-06-24 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 15% | 9% | 11.50 | **bet** |
-| draw | 22% | 18% | 6.00 | **bet** |
+| home | 15% | 9% | 11.50 | **pass** |
+| draw | 22% | 18% | 6.10 | **pass** |
 | away | 64% | 73% | 1.36 | **pass** |
 
 ## Goals (total)
@@ -26,17 +26,18 @@ _as_of 2026-06-24 · source: live_
 
 ## Player shots-on-target (CLOV-on-overs)
 
-Overs where the model beats the offered (vig-included) price, real-data players only. One-sided market → judged by CLOV, not de-vig.
-
-| player | line | over | model | price implies | EV |
-|---|---|---|---|---|---|
-| Scott McTominay | 0.5 | 2.00 | 57% | 50% | +0.15 |
+_No prop candidates — skipped (snapshot backtest — props weren't captured)._
 
 ## Recommendation
 
-- **1x2 draw** @ 6.00 — soft price beats the sharp fair by +7.2% (prospective CLOV+).
-- **1x2 home** @ 11.50 — soft price beats the sharp fair by +7.1% (prospective CLOV+).
-- **Prop watch:** Scott McTominay — paper/CLOV only, log small and let the close judge.
+- **No 1X2/goals bet** — nothing where a soft book beats the sharp fair (the common, correct outcome). Big model-vs-sharp gaps are *suspect*, not value.
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
+## Result (revealed)
+
+- **Scotland 0–3 Brazil** (away, 3 goals)
+  - 1X2: we gave away **64%**
+  - O/U 1.5: **over** (model P(over) 78%)
+  - O/U 2.5: **over** (model P(over) 55%)
+  - O/U 3.5: **under** (model P(over) 33%)

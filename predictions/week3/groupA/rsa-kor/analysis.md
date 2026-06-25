@@ -1,28 +1,28 @@
-# Analysis — Morocco vs Haiti
+# Analysis — South Africa vs South Korea
 
 _as_of 2026-06-24 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
 
 ## 1X2 (match winner)
 
-- Model: **Morocco 75%** · Draw 18% · **Haiti 7%**
+- Model: **South Africa 13%** · Draw 23% · **South Korea 64%**
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 75% | 75% | 1.34 | **pass** |
-| draw | 18% | 16% | 6.60 | **pass** |
-| away | 7% | 8% | 13.00 | **pass** |
+| home | 13% | 16% | 6.60 | **pass** |
+| draw | 23% | 24% | 4.10 | **pass** |
+| away | 64% | 60% | 1.65 | **pass** |
 
 ## Goals (total)
 
-- Expected goals: Morocco 1.8 – 0.52 Haiti  (total λ 2.32)
+- Expected goals: South Africa 0.71 – 1.56 South Korea  (total λ 2.27)
 
 | line | model P(over) | market (best over) | note |
 |---|---|---|---|
-| over 1.5 | 67% | — | — |
-| over 2.5 | 41% | — | — |
+| over 1.5 | 66% | — | — |
+| over 2.5 | 40% | — | — |
 | over 3.5 | 20% | — | — |
 
-- BTTS (both score): model **34%**
+- BTTS (both score): model **41%**
 
 ## Player shots-on-target (CLOV-on-overs)
 
@@ -36,8 +36,8 @@ _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sh
 
 ## Result (revealed)
 
-- **Morocco 4–2 Haiti** (home, 6 goals)
-  - 1X2: we gave home **75%**
-  - O/U 1.5: **over** (model P(over) 67%)
-  - O/U 2.5: **over** (model P(over) 41%)
-  - O/U 3.5: **over** (model P(over) 20%)
+- **South Africa 1–0 South Korea** (home, 1 goals)
+  - 1X2: we gave home **13%**
+  - O/U 1.5: **under** (model P(over) 66%)
+  - O/U 2.5: **under** (model P(over) 40%)
+  - O/U 3.5: **under** (model P(over) 20%)

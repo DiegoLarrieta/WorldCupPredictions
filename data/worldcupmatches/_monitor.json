@@ -1,38 +1,38 @@
 {
-  "n": 46,
+  "n": 52,
   "per_model": {
     "ensemble": {
-      "rps": 0.17151,
-      "log_loss": 0.93225,
-      "brier": 0.56951
+      "rps": 0.17466,
+      "log_loss": 0.92016,
+      "brier": 0.55615
     },
     "dixon_coles": {
-      "rps": 0.16708,
-      "log_loss": 0.91049,
-      "brier": 0.55247
+      "rps": 0.17096,
+      "log_loss": 0.90229,
+      "brier": 0.54292
     },
     "elo": {
-      "rps": 0.17887,
-      "log_loss": 0.96118,
-      "brier": 0.58804
+      "rps": 0.18191,
+      "log_loss": 0.94777,
+      "brier": 0.57398
     }
   },
   "vs_baseline": {
     "uniform": {
-      "rps": 0.22705,
+      "rps": 0.23291,
       "log_loss": 1.09861
     },
     "ensemble": {
-      "rps": 0.17151,
-      "log_loss": 0.93225
+      "rps": 0.17466,
+      "log_loss": 0.92016
     }
   },
   "calibration": [
     {
       "bin": "0.33-0.47",
-      "n": 8,
-      "predicted": 0.417,
-      "actual": 0.375
+      "n": 10,
+      "predicted": 0.419,
+      "actual": 0.5
     },
     {
       "bin": "0.47-0.60",
@@ -42,15 +42,15 @@
     },
     {
       "bin": "0.60-0.73",
-      "n": 15,
-      "predicted": 0.672,
+      "n": 18,
+      "predicted": 0.666,
       "actual": 0.667
     },
     {
       "bin": "0.73-0.87",
-      "n": 7,
-      "predicted": 0.816,
-      "actual": 0.571
+      "n": 8,
+      "predicted": 0.807,
+      "actual": 0.625
     },
     {
       "bin": "0.87-1.00",
@@ -67,14 +67,14 @@
       "surprisal": 2.33204
     },
     {
+      "match": "South Africa vs South Korea",
+      "result": "home",
+      "surprisal": 2.05573
+    },
+    {
       "match": "Ecuador vs Curaçao",
       "result": "draw",
       "surprisal": 1.97328
-    },
-    {
-      "match": "England vs Ghana",
-      "result": "draw",
-      "surprisal": 1.92515
     }
   ]
 }

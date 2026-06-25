@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-06-24-mex-cze",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-24-mex-cze",
+    "date": "2026-06-24",
+    "home": "Mexico",
+    "away": "Czech Republic",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Mexico vs Czech Republic",
+    "home": "Mexico",
+    "away": "Czech Republic",
+    "as_of": "2026-06-24",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.645,
+      0.22,
+      0.135
+    ],
+    "components": {
+      "dixon_coles": [
+        0.554,
+        0.261,
+        0.185
+      ],
+      "elo": [
+        0.676,
+        0.207,
+        0.117
+      ]
+    },
+    "expected_goals": {
+      "Mexico": 1.63,
+      "Czech Republic": 0.84
+    },
+    "over25": 0.447,
+    "btts": 0.462,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.132
+      },
+      {
+        "score": "1-1",
+        "prob": 0.123
+      },
+      {
+        "score": "2-0",
+        "prob": 0.113
+      },
+      {
+        "score": "2-1",
+        "prob": 0.094
+      },
+      {
+        "score": "0-0",
+        "prob": 0.092
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-25T00:13:42-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760467",
+      "player_shots": [
+        {
+          "player": "Julián Quiñones",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "David Doudera",
+          "side": "away",
+          "team": "Czechia",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Denis Visinský",
+          "side": "away",
+          "team": "Czechia",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.6,
+          "starter": true,
+          "shots_p90": 4.85,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lukás Cerv",
+          "side": "away",
+          "team": "Czechia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 86.2,
+          "starter": true,
+          "shots_p90": 2.09,
+          "sot_p90": 1.04
+        },
+        {
+          "player": "Michal Sadílek",
+          "side": "away",
+          "team": "Czechia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mateo Chávez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 77.5,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 1.16
+        },
+        {
+          "player": "Jorge Sánchez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Álvaro Fidalgo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 18.1,
+          "starter": false,
+          "shots_p90": 4.98,
+          "sot_p90": 4.98
+        },
+        {
+          "player": "Santiago Gimenez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 27.7,
+          "starter": false,
+          "shots_p90": 3.25,
+          "sot_p90": 3.25
+        },
+        {
+          "player": "Vladimír Coufal",
+          "side": "away",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pavel Sulc",
+          "side": "away",
+          "team": "Czechia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Israel Reyes",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gilberto Mora",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.9,
+          "starter": true,
+          "shots_p90": 1.25,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Roberto Alvarado",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 48.1,
+      "shots_home": 11,
+      "shots_on_target_home": 5,
+      "corners_home": 1,
+      "fouls_home": 13,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 51.9,
+      "shots_away": 13,
+      "shots_on_target_away": 1,
+      "corners_away": 5,
+      "fouls_away": 9,
+      "saves_away": 2,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-25T00:14:00-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.07212,
+    "log_loss": 0.4385,
+    "brier": 0.19265,
+    "surprisal": 0.4385,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.07212,
+        "log_loss": 0.4385,
+        "brier": 0.19265,
+        "surprisal": 0.4385
+      },
+      "dixon_coles": {
+        "rps": 0.11657,
+        "log_loss": 0.59059,
+        "brier": 0.30126,
+        "surprisal": 0.59059
+      },
+      "elo": {
+        "rps": 0.05933,
+        "log_loss": 0.39156,
+        "brier": 0.16151,
+        "surprisal": 0.39156
+      }
+    }
+  }
+}

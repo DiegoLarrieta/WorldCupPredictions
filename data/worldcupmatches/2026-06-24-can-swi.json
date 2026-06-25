@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-06-24-can-swi",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-24-can-swi",
+    "date": "2026-06-24",
+    "home": "Canada",
+    "away": "Switzerland",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Canada vs Switzerland",
+    "home": "Canada",
+    "away": "Switzerland",
+    "as_of": "2026-06-24",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.331,
+      0.286,
+      0.383
+    ],
+    "components": {
+      "dixon_coles": [
+        0.318,
+        0.307,
+        0.375
+      ],
+      "elo": [
+        0.344,
+        0.274,
+        0.381
+      ]
+    },
+    "expected_goals": {
+      "Canada": 1.04,
+      "Switzerland": 1.15
+    },
+    "over25": 0.376,
+    "btts": 0.45,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.142
+      },
+      {
+        "score": "0-1",
+        "prob": 0.121
+      },
+      {
+        "score": "0-0",
+        "prob": 0.119
+      },
+      {
+        "score": "1-0",
+        "prob": 0.108
+      },
+      {
+        "score": "1-2",
+        "prob": 0.077
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-25T00:13:42-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760463",
+      "player_shots": [
+        {
+          "player": "Promise David",
+          "side": "home",
+          "team": "Canada",
+          "shots": 3,
+          "on_target": 3,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 16.0,
+          "starter": false,
+          "shots_p90": 16.86,
+          "sot_p90": 16.86
+        },
+        {
+          "player": "Breel Embolo",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 84.2,
+          "starter": true,
+          "shots_p90": 2.14,
+          "sot_p90": 2.14
+        },
+        {
+          "player": "Johan Manzambi",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 84.2,
+          "starter": true,
+          "shots_p90": 2.14,
+          "sot_p90": 1.07
+        },
+        {
+          "player": "Alistair Johnston",
+          "side": "home",
+          "team": "Canada",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Derek Cornelius",
+          "side": "home",
+          "team": "Canada",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jonathan David",
+          "side": "home",
+          "team": "Canada",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rubén Vargas",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 79.2,
+          "starter": true,
+          "shots_p90": 1.14,
+          "sot_p90": 1.14
+        },
+        {
+          "player": "Luc de Fougerolles",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ali Ahmed",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.8,
+          "starter": true,
+          "shots_p90": 1.56,
+          "sot_p90": 1.56
+        },
+        {
+          "player": "Cyle Larin",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.7,
+          "starter": true,
+          "shots_p90": 1.56,
+          "sot_p90": 1.56
+        },
+        {
+          "player": "Granit Xhaka",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Liam Millar",
+          "side": "home",
+          "team": "Canada",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.2,
+          "starter": false,
+          "shots_p90": 2.79,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 44.7,
+      "shots_home": 13,
+      "shots_on_target_home": 7,
+      "corners_home": 7,
+      "fouls_home": 13,
+      "saves_home": 2,
+      "offsides_home": 3,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 55.3,
+      "shots_away": 6,
+      "shots_on_target_away": 4,
+      "corners_away": 2,
+      "fouls_away": 19,
+      "saves_away": 6,
+      "offsides_away": 1,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-25T00:14:01-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.24513,
+    "log_loss": 0.95972,
+    "brier": 0.57205,
+    "surprisal": 0.95972,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.24513,
+        "log_loss": 0.95972,
+        "brier": 0.57205,
+        "surprisal": 0.95972
+      },
+      "dixon_coles": {
+        "rps": 0.24587,
+        "log_loss": 0.98083,
+        "brier": 0.586,
+        "surprisal": 0.98083
+      },
+      "elo": {
+        "rps": 0.25063,
+        "log_loss": 0.96396,
+        "brier": 0.57649,
+        "surprisal": 0.96396
+      }
+    }
+  }
+}

@@ -620,3 +620,90 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-23-por-uzb,2026-06-23,Portugal vs Uzbekistan,away,Uzbekistan,Odiljon Xamrobekov,1,0,0,0,True
 2026-06-23-por-uzb,2026-06-23,Portugal vs Uzbekistan,away,Uzbekistan,Eldor Shomurodov,1,0,0,0,True
 2026-06-23-por-uzb,2026-06-23,Portugal vs Uzbekistan,away,Uzbekistan,Azizjon Ganiev,1,0,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Ivan Basic,4,0,0,1,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,away,Qatar,Pedro Miguel,3,1,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Kerim Alajbegovic,2,1,1,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Esmir Bajraktarevic,2,1,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,away,Qatar,Akram Afif,2,0,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Ivan Sunjic,1,1,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Ermedin Demirovic,1,1,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Ermin Mahmic,1,1,1,0,False
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,away,Qatar,Hassan Al-Haydos,1,1,1,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,away,Qatar,Almoez Ali,1,1,0,0,False
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Stjepan Radeljic,1,0,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Nikola Katic,1,0,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,home,Bosnia-Herzegovina,Edin Dzeko,1,0,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,away,Qatar,Boualem Khoukhi,1,0,0,0,True
+2026-06-24-bos-qat,2026-06-24,Bosnia and Herzegovina vs Qatar,away,Qatar,Ahmed Al-Ganehi,1,0,0,0,False
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Promise David,3,3,1,0,False
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,away,Switzerland,Breel Embolo,2,2,0,1,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,away,Switzerland,Johan Manzambi,2,1,1,1,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Alistair Johnston,2,1,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Derek Cornelius,2,0,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Jonathan David,2,0,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,away,Switzerland,Rubén Vargas,1,1,1,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Luc de Fougerolles,1,1,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Ali Ahmed,1,1,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Cyle Larin,1,1,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,away,Switzerland,Granit Xhaka,1,0,0,0,True
+2026-06-24-can-swi,2026-06-24,Canada vs Switzerland,home,Canada,Liam Millar,1,0,0,0,False
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Julián Quiñones,4,1,1,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,away,Czechia,David Doudera,4,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,away,Czechia,Denis Visinský,3,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,away,Czechia,Lukás Cerv,2,1,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,away,Czechia,Michal Sadílek,2,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Mateo Chávez,1,1,1,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Jorge Sánchez,1,1,0,1,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Álvaro Fidalgo,1,1,1,0,False
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Santiago Gimenez,1,1,0,0,False
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,away,Czechia,Vladimír Coufal,1,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,away,Czechia,Pavel Sulc,1,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Israel Reyes,1,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Gilberto Mora,1,0,0,0,True
+2026-06-24-mex-cze,2026-06-24,Mexico vs Czech Republic,home,Mexico,Roberto Alvarado,1,0,0,1,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Achraf Hakimi,5,3,1,1,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Ismael Saibari,5,1,1,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Ayoub El Kaabi,3,2,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,away,Haiti,Jean-Ricner Bellegarde,3,0,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Bilal El Khannouss,2,2,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Soufiane Rahimi,2,1,1,1,False
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,away,Haiti,Lenny Joseph,2,0,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Neil El Aynaoui,1,1,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Gessime Yassine,1,1,1,0,False
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,away,Haiti,Wilson Isidor,1,1,1,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,away,Haiti,Duckens Nazon,1,1,0,0,False
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Chadi Riad,1,0,0,1,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Brahim Díaz,1,0,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,home,Morocco,Azzedine Ounahi,1,0,0,0,False
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,away,Haiti,Ricardo Adé,1,0,0,0,True
+2026-06-24-mor-hai,2026-06-24,Morocco vs Haiti,away,Haiti,Louicius Deedson,1,0,0,0,False
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Vinícius Júnior,8,5,2,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Matheus Cunha,5,2,1,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Scott McTominay,4,3,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Lewis Ferguson,2,1,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Rayan,2,1,0,1,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Lawrence Shankland,2,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Ben Gannon-Doak,2,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Anthony Ralston,1,1,0,0,False
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Neymar,1,1,0,0,False
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Kenny McLean,1,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Ryan Christie,1,0,0,0,False
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,home,Scotland,Kieran Tierney,1,0,0,0,False
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Gabriel Magalhães,1,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Douglas Santos,1,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Casemiro,1,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Lucas Paquetá,1,0,0,0,True
+2026-06-24-sco-bra,2026-06-24,Scotland vs Brazil,away,Brazil,Bruno Guimarães,1,0,0,2,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,home,South Africa,Thapelo Maseko,5,1,1,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,home,South Africa,Thalente Mbatha,2,1,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,home,South Africa,Evidence Makgopa,2,1,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Oh Hyeon-Gyu,2,1,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,home,South Africa,Relebohile Mofokeng,2,0,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,home,South Africa,Oswin Appollis,1,1,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Kim Min-Jae,1,1,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Park Jin-Seop,1,1,0,0,False
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,home,South Africa,Aubrey Modiba,1,0,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Seol Young-Woo,1,0,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Hwang Hee-Chan,1,0,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Lee Kang-In,1,0,0,0,True
+2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Son Heung-Min,1,0,0,0,False
