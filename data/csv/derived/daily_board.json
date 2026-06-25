@@ -82,88 +82,6 @@
   ]
  },
  {
-  "match": "Japan vs Sweden",
-  "kickoff": "2026-06-25 23:00",
-  "date": "2026-06-25",
-  "result": "",
-  "sug": "away @ 4.60 (+37%); over @ 1.98 (+4%); home @ 2.36 (+4%); draw @ 3.60 (+3%); under @ 2.06 (+3%)",
-  "link": "predictions/week3/groupF/jpn-swe/analysis.md",
-  "markets": [
-   [
-    "Gana Japan",
-    0.729,
-    "2.36",
-    null
-   ],
-   [
-    "Empate",
-    0.173,
-    "3.60",
-    null
-   ],
-   [
-    "Gana Sweden",
-    0.098,
-    "4.60",
-    null
-   ],
-   [
-    "Doble oport. Japan",
-    0.902,
-    "1.41",
-    null
-   ],
-   [
-    "Doble oport. Sweden",
-    0.271,
-    "1.74",
-    null
-   ],
-   [
-    "Over 1.5 goles",
-    0.851,
-    "1.30",
-    null
-   ],
-   [
-    "Over 2.5 goles",
-    0.656,
-    "1.95",
-    null
-   ],
-   [
-    "Over 3.5 goles",
-    0.437,
-    "3.25",
-    null
-   ],
-   [
-    "Over 1.5 goles Japan",
-    0.727,
-    "2.10",
-    null
-   ],
-   [
-    "Over 1.5 goles Sweden",
-    0.195,
-    "2.85",
-    null
-   ],
-   [
-    "BTTS (ambos marcan)",
-    0.517,
-    "1.74",
-    null
-   ],
-   [
-    "Prop: Ayase Ueda o0.5 SoT",
-    0.71,
-    "1.41",
-    null
-   ]
-  ]
- },
- {
   "match": "Tunisia vs Netherlands",
   "kickoff": "2026-06-25 23:00",
   "date": "2026-06-25",
@@ -241,6 +159,88 @@
     "Prop: Anis Slimane o0.5 SoT",
     0.503,
     "3.30",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Japan vs Sweden",
+  "kickoff": "2026-06-25 23:00",
+  "date": "2026-06-25",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupF/jpn-swe/analysis.md",
+  "markets": [
+   [
+    "Gana Japan",
+    0.729,
+    "2.38",
+    null
+   ],
+   [
+    "Empate",
+    0.173,
+    "3.60",
+    null
+   ],
+   [
+    "Gana Sweden",
+    0.098,
+    "4.60",
+    null
+   ],
+   [
+    "Doble oport. Japan",
+    0.902,
+    "1.42",
+    null
+   ],
+   [
+    "Doble oport. Sweden",
+    0.271,
+    "1.71",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.851,
+    "1.30",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.656,
+    "1.98",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.437,
+    "3.35",
+    null
+   ],
+   [
+    "Over 1.5 goles Japan",
+    0.727,
+    "2.10",
+    null
+   ],
+   [
+    "Over 1.5 goles Sweden",
+    0.195,
+    "2.85",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.517,
+    "1.75",
+    null
+   ],
+   [
+    "Prop: Ayase Ueda o0.5 SoT",
+    0.71,
+    "1.41",
     null
    ]
   ]

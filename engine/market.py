@@ -286,6 +286,13 @@ def compare_lines(prediction: dict, sharp_odds: dict, soft_odds: dict,
             if verdict == "bet":
                 recommend.append({"market": market, **row})
         markets[market] = {"sharp_vig": round(vig_of(sharp_book), 4), "selections": rows}
+    # Drop any market with >1 flagged selection: you can't have edge on both sides of a
+    # 2-way (over+under) or every leg of a 3-way (home/draw/away). When 'best' (max across
+    # books) beats a single sharp on most legs that's market DISPERSION, not edge — keep
+    # only markets where exactly ONE selection is genuinely soft-priced.
+    from collections import Counter
+    per_market = Counter(r["market"] for r in recommend)
+    recommend = [r for r in recommend if per_market[r["market"]] == 1]
     recommend.sort(key=lambda r: r["soft_edge"], reverse=True)
     return {
         "match": prediction.get("match"), "as_of": prediction.get("as_of"),

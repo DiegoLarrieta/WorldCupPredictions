@@ -8,7 +8,7 @@ _as_of 2026-06-25 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 73% | 43% | 2.36 | **bet** |
+| home | 73% | 43% | 2.38 | **bet** |
 | draw | 17% | 28% | 3.60 | **bet** |
 | away | 10% | 29% | 4.60 | **bet** |
 
@@ -19,8 +19,8 @@ _as_of 2026-06-25 · source: live_
 | over | model P | odds | EV@odds |
 |---|---|---|---|
 | 1.5 | 85% | 1.30 | +0.11 |
-| 2.5 | 66% | 1.95 | +0.28 |
-| 3.5 | 44% | 3.25 | +0.42 |
+| 2.5 | 66% | 1.98 | +0.30 |
+| 3.5 | 44% | 3.35 | +0.46 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Japan | 90% | 1.41 | +0.27 |
-| Doble oport. Sweden | 27% | 1.74 | -0.53 |
+| Doble oport. Japan | 90% | 1.42 | +0.28 |
+| Doble oport. Sweden | 27% | 1.71 | -0.54 |
 | Over 1.5 goles Japan | 73% | 2.10 | +0.53 |
 | Over 1.5 goles Sweden | 20% | 2.85 | -0.44 |
-| BTTS (ambos marcan) | 52% | 1.74 | -0.10 |
+| BTTS (ambos marcan) | 52% | 1.75 | -0.10 |
 | Tiros Japan over 9.5 | 100% | — | — |
 | Tiros Sweden over 9.5 | 47% | — | — |
 | TaP Japan over 2.5 | 99% | — | — |
@@ -48,11 +48,7 @@ Overs where the model beats the offered (vig-included) price, real-data players 
 
 ## Recommendation
 
-- **1x2 away** @ 4.60 — soft price beats the sharp fair by +36.9% (prospective CLOV+).
-- **ou_2.5 over** @ 1.98 — soft price beats the sharp fair by +3.7% (prospective CLOV+).
-- **1x2 home** @ 2.36 — soft price beats the sharp fair by +3.5% (prospective CLOV+).
-- **1x2 draw** @ 3.60 — soft price beats the sharp fair by +3.2% (prospective CLOV+).
-- **ou_2.5 under** @ 2.06 — soft price beats the sharp fair by +3.0% (prospective CLOV+).
+- **No 1X2/goals bet** — nothing where a soft book beats the sharp fair (the common, correct outcome). Big model-vs-sharp gaps are *suspect*, not value.
 - **Prop watch:** Ayase Ueda — paper/CLOV only, log small and let the close judge.
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._

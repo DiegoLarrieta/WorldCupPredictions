@@ -36,27 +36,6 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 38% | 2.26 | ⏳ |
 | Prop: Darwin Gabriel Nunez Ribeiro o0.5 SoT | 59% | 1.87 | ⏳ |
 
-### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
-
-⏳ Por jugarse
-
-🎯 **Apuestas sugeridas:** away @ 4.60 (+37%); over @ 1.98 (+4%); home @ 2.36 (+4%); draw @ 3.60 (+3%); under @ 2.06 (+3%)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Japan | 73% | 2.36 | ⏳ |
-| Empate | 17% | 3.60 | ⏳ |
-| Gana Sweden | 10% | 4.60 | ⏳ |
-| Doble oport. Japan | 90% | 1.41 | ⏳ |
-| Doble oport. Sweden | 27% | 1.74 | ⏳ |
-| Over 1.5 goles | 85% | 1.30 | ⏳ |
-| Over 2.5 goles | 66% | 1.95 | ⏳ |
-| Over 3.5 goles | 44% | 3.25 | ⏳ |
-| Over 1.5 goles Japan | 73% | 2.10 | ⏳ |
-| Over 1.5 goles Sweden | 20% | 2.85 | ⏳ |
-| BTTS (ambos marcan) | 52% | 1.74 | ⏳ |
-| Prop: Ayase Ueda o0.5 SoT | 71% | 1.41 | ⏳ |
-
 ### Tunisia vs Netherlands — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
 
 ⏳ Por jugarse
@@ -77,6 +56,27 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Netherlands | 59% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 44% | 2.68 | ⏳ |
 | Prop: Anis Slimane o0.5 SoT | 50% | 3.30 | ⏳ |
+
+### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Japan | 73% | 2.38 | ⏳ |
+| Empate | 17% | 3.60 | ⏳ |
+| Gana Sweden | 10% | 4.60 | ⏳ |
+| Doble oport. Japan | 90% | 1.42 | ⏳ |
+| Doble oport. Sweden | 27% | 1.71 | ⏳ |
+| Over 1.5 goles | 85% | 1.30 | ⏳ |
+| Over 2.5 goles | 66% | 1.98 | ⏳ |
+| Over 3.5 goles | 44% | 3.35 | ⏳ |
+| Over 1.5 goles Japan | 73% | 2.10 | ⏳ |
+| Over 1.5 goles Sweden | 20% | 2.85 | ⏳ |
+| BTTS (ambos marcan) | 52% | 1.75 | ⏳ |
+| Prop: Ayase Ueda o0.5 SoT | 71% | 1.41 | ⏳ |
 
 ### Ecuador vs Germany — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
 
