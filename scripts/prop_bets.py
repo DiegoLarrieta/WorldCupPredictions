@@ -44,12 +44,33 @@ def _toks(name: str) -> frozenset:
     return frozenset(_norm(name).replace("-", " ").split())
 
 
-def _rate_lookup():
-    """Build name matchers -> shrunk SoT/90. Returns (exact_dict, token_rows) where
-    token_rows is [(norm_name, token_set, sot_per90)] sorted by minutes desc, so a
-    book's full legal name ('Carlos Casemiro') can still resolve our short name
-    ('Casemiro') by a unique token-subset match."""
+def _squad_ids(home: str, away: str) -> set:
+    """player_ids of the two teams' WC squads (from wc_squad_form), to scope name matching
+    to the ~46 players actually in this fixture instead of all 9k — kills the ambiguity that
+    drops 'Carlos Casemiro' and the cross-team false matches on common tokens (Junior/Silva)."""
+    db = Path("data/worldcup.duckdb")
+    if not db.exists():
+        return set()
+    import duckdb
+    con = duckdb.connect(str(db), read_only=True)
+    try:
+        df = con.execute("SELECT player_id FROM wc_squad_form "
+                         "WHERE country IN (?, ?) AND player_id IS NOT NULL", [home, away]).df()
+    except Exception:
+        return set()
+    finally:
+        con.close()
+    return {int(x) for x in df["player_id"].dropna()}
+
+
+def _rate_lookup(only_ids: set | None = None):
+    """Build name matchers -> (SoT/90, min_per_app). Returns (exact_dict, token_rows) where
+    token_rows is [(norm_name, token_set, value)] sorted by minutes desc, so a book's full
+    legal name ('Carlos Casemiro') can resolve our short name ('Casemiro') by token subset.
+    `only_ids` restricts the pool to a fixture's squads (far less ambiguous)."""
     df = pd.read_csv(RATES_CSV).sort_values("mins", ascending=False)
+    if only_ids is not None:
+        df = df[df["player_id"].isin(only_ids)]
     exact, rows = {}, []
     for _, r in df.iterrows():
         k = _norm(r["name"])
@@ -104,7 +125,10 @@ def main() -> None:
 
     if not RATES_CSV.exists():
         sys.exit(f"{RATES_CSV} missing — run scripts/build_prop_model.py first.")
-    exact, rate_rows = _rate_lookup()
+    squad_ids = _squad_ids(home, away)
+    sq_exact, sq_rows = _rate_lookup(squad_ids) if squad_ids else ({}, [])
+    exact, rate_rows = _rate_lookup()                          # global fallback
+    print(f"squad pool: {len(squad_ids)} players from {home}/{away} (scopes the name match)")
 
     lineup_toks = []
     if args.lineups:
@@ -123,7 +147,8 @@ def main() -> None:
 
     rows, unmatched = [], []
     for p in props:
-        match = _match_rate(p["player"], exact, rate_rows)
+        # squad-scoped match first (unambiguous); fall back to the global pool
+        match = _match_rate(p["player"], sq_exact, sq_rows) or _match_rate(p["player"], exact, rate_rows)
         if match is None:
             unmatched.append(p["player"])
             continue
