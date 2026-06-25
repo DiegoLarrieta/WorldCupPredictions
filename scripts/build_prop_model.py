@@ -62,29 +62,47 @@ def main() -> None:
                arg_max(s.position, s.minutes) AS position,
                SUM(s.minutes) AS mins, SUM(s.appearances) AS apps,
                SUM(CASE WHEN s.shots IS NOT NULL THEN s.minutes ELSE 0 END) AS mins_known,
-               SUM(s.shots) AS shots          -- SUM ignores NULLs (NULL if all unknown)
+               SUM(s.shots) AS shots,         -- SUM ignores NULLs (NULL if all unknown)
+               SUM(s.goals) AS goals          -- goals exist even where shots don't (39% of rows)
         FROM player_seasons s JOIN players p USING(player_id)
         WHERE s.minutes > 0 GROUP BY 1,2 HAVING SUM(s.minutes) > 0
     """).df()
     con.close()
 
     ps["shots"] = pd.to_numeric(ps["shots"], errors="coerce")   # keep NaN = no shot data
+    ps["goals"] = pd.to_numeric(ps["goals"], errors="coerce").fillna(0.0)
     ps["pos"] = ps["position"].map(_coarse_pos)
     ps["nineties"] = ps["mins_known"] / 90.0                    # exposure = covered mins only
+    ps["g90"] = ps["goals"] / (ps["mins"] / 90.0)              # goals/90 (goals are universal)
     ps["min_per_app"] = (ps["mins"] / ps["apps"].replace(0, np.nan)).round(1)  # typical game length
     has = ps["shots"].notna() & (ps["nineties"] > 0)
 
-    # --- Gamma-Poisson shrink of shots/90, prior PER POSITION (from covered players only) ---
-    # NOTE: a 50/50 shots+np_xg blend was tested head-to-head on held-out WC SoT (starters,
-    # >=2 starts, n=89): blend 0.445 vs shots-only 0.408, Δ=+0.037 but bootstrap IC95%
-    # [-0.013, +0.085] CROSSES ZERO -> not proven, so NOT shipped (per the validation rule).
-    # Promising, not disproven — revisit as n grows (more WC games). Shots-only stays.
-    priors = {}
+    # --- shot rate, in a cascade of best-to-worst data ---
+    # 1) REAL shots -> Gamma-Poisson shrink toward the position prior (the big, clean signal).
+    # 2) NO shots but goals -> ESTIMATE shots from goals: shots/90 ~ a + b*goals/90, fitted
+    #    per position on players who have both (corr ~0.7). Recovers the ~5.3k players whose
+    #    leagues (MLS/Saudi/Championship/...) report goals but not shots — Messi/Quiñones go
+    #    from the bland FW prior (2.32) to a goals-implied ~4.6, instead of being buried.
+    # 3) Neither -> position prior (rare; mostly GKs/defenders who barely shoot anyway).
+    priors, gfit = {}, {}
     for pos, g in ps[has].groupby("pos"):
         priors[pos] = gamma_poisson_eb(g["shots"].to_numpy(), g["nineties"].to_numpy())
+        if g["g90"].std() > 1e-6 and len(g) >= 30:            # b*goals/90 + a
+            gfit[pos] = tuple(np.polyfit(g["g90"].to_numpy(), (g["shots"] / g["nineties"]).to_numpy(), 1))
     ps["shot_rate_raw"] = np.where(has, ps["shots"] / ps["nineties"], np.nan)
-    ps["shot_rate"] = [posterior_rate(*priors[pos][:2], (sh if h else 0.0), (ni if h else 0.0))
-                       for pos, sh, ni, h in zip(ps["pos"], ps["shots"], ps["nineties"], has)]
+
+    def _rate(pos, sh, ni, h, g90):
+        if h:
+            return posterior_rate(*priors[pos][:2], sh, ni), "shots"
+        if g90 > 0 and pos in gfit:                           # goals-implied estimate, clamped
+            b, a = gfit[pos]
+            return max(a + b * g90, priors[pos][2] * 0.5), "goals"
+        return priors[pos][2], "prior"                        # position prior mean (a/b)
+
+    out = [_rate(p, sh, ni, h, g) for p, sh, ni, h, g
+           in zip(ps["pos"], ps["shots"], ps["nineties"], has, ps["g90"])]
+    ps["shot_rate"] = [o[0] for o in out]
+    ps["rate_source"] = [o[1] for o in out]
 
     # --- Beta-Binomial shrink of on-target rate from WC data (global prior) ---
     on_target_global = 0.35
@@ -105,7 +123,7 @@ def main() -> None:
     ps["p_2plus_sot"] = [prop_at_least(r, 2) for r in ps["sot_per90"]]
 
     out = ps[["player_id", "name", "pos", "mins", "min_per_app", "shots", "shot_rate_raw",
-              "shot_rate", "on_target_rate", "sot_per90", "p_1plus_sot", "p_2plus_sot"]]
+              "shot_rate", "rate_source", "on_target_rate", "sot_per90", "p_1plus_sot", "p_2plus_sot"]]
     out = out.sort_values("sot_per90", ascending=False).round(3)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(OUT, index=False)

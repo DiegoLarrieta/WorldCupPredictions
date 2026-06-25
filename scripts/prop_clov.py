@@ -39,9 +39,13 @@ RATES_CSV = Path("data/csv/derived/player_shot_rates.csv")
 
 
 def _real_data_names() -> list[tuple[frozenset, bool]]:
-    """[(token_set, has_real_shot_data)] — has_real = shot_rate_raw is not NaN."""
+    """[(token_set, usable_rate)] — usable = rate from real shots OR goals-implied (not the
+    bland position prior). A goal-scorer with no shot data (rate_source='goals') IS bettable."""
     df = pd.read_csv(RATES_CSV).sort_values("mins", ascending=False)
-    return [(_toks(r["name"]), pd.notna(r["shot_rate_raw"])) for _, r in df.iterrows()]
+    src = df["rate_source"] if "rate_source" in df.columns else None
+    return [(_toks(r["name"]),
+             (r["rate_source"] != "prior") if src is not None else pd.notna(r["shot_rate_raw"]))
+            for _, r in df.iterrows()]
 
 
 def _has_real_data(player: str, table) -> bool:
@@ -49,7 +53,7 @@ def _has_real_data(player: str, table) -> bool:
     if not bt:
         return False
     cands = [real for tk, real in table if tk and (tk <= bt or bt <= tk)]
-    return bool(cands) and any(cands)        # matched a row that had real shot data
+    return bool(cands) and any(cands)        # matched a row with a usable (non-prior) rate
 
 
 def main() -> None:
