@@ -73,7 +73,7 @@
       "away_goals": 2,
       "result": "home",
       "source": "espn-scores",
-      "captured_at": "2026-06-25T00:13:43-06:00"
+      "captured_at": "2026-06-25T16:10:26-06:00"
     },
     "rich": {
       "espn_event_id": "760464",
@@ -306,7 +306,7 @@
       "yellow_cards_away": 3,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-06-25T00:14:01-06:00"
+      "captured_at": "2026-06-25T16:10:38-06:00"
     }
   },
   "scores": {

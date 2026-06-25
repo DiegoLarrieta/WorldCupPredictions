@@ -335,21 +335,65 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
           "sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot "
           "backtests use pre-kickoff odds, which may be stale if captured long before kickoff._", ""]
 
-    # Reveal
+    # Reveal — qué se cumplió (✅ si la inclinación del modelo, P>=50%, acertó)
     if args.reveal:
-        L += ["## Result (revealed)", ""]
+        L += ["## Resultado y checks (qué se cumplió)", ""]
         if result and result.get("completed"):
             hg, ag = result["home_goals"], result["away_goals"]
             res = "home" if hg > ag else "away" if ag > hg else "draw"
             tot = hg + ag
-            L.append(f"- **{home} {hg}–{ag} {away}** ({res}, {tot} goals)")
-            L.append(f"  - 1X2: we gave {res} **{e[home] if res=='home' else e[away] if res=='away' else e['Draw']:.0%}**")
+            ash = _actual_team_stats(pred["match"], home, away)
+            L.append(f"- **{home} {hg}–{ag} {away}** ({res}, {tot} goles"
+                     + (f"; tiros {ash['home'][0]}-{ash['away'][0]}, TaP {ash['home'][1]}-{ash['away'][1]}" if ash else "") + ")")
+            L += ["", "| Mercado | model P | ¿Pasó? | check |", "|---|---|---|---|"]
+
+            def chk(label, p, happened):
+                ok = "✅" if (p >= 0.5) == bool(happened) else "❌"
+                L.append(f"| {label} | {p:.0%} | {'sí' if happened else 'no'} | {ok} |")
+
+            chk(f"Gana {home}", e[home], res == "home")
+            chk("Empate", e["Draw"], res == "draw")
+            chk(f"Gana {away}", e[away], res == "away")
+            chk(f"Doble oport. {home}", e[home] + e["Draw"], res in ("home", "draw"))
+            chk(f"Doble oport. {away}", e[away] + e["Draw"], res in ("away", "draw"))
             for ln in GOAL_LINES:
-                hit = "over" if tot > ln else "under"
-                L.append(f"  - O/U {ln}: **{hit}** (model P(over) {poisson_over(tot_lambda, ln):.0%})")
+                chk(f"Over {ln} goles", poisson_over(tot_lambda, ln), tot > ln)
+            chk(f"Over 1.5 goles {home}", poisson_over(float(eg[home]), 1.5), hg >= 2)
+            chk(f"Over 1.5 goles {away}", poisson_over(float(eg[away]), 1.5), ag >= 2)
+            chk("BTTS", float(pred.get("btts") or 0), hg > 0 and ag > 0)
+            if ash:
+                chk(f"Tiros {home} o9.5", team_over(eg[home], 9.5, TEAM_SHOTS_COEF), ash["home"][0] > 9.5)
+                chk(f"Tiros {away} o9.5", team_over(eg[away], 9.5, TEAM_SHOTS_COEF), ash["away"][0] > 9.5)
+                chk(f"TaP {home} o2.5", team_over(eg[home], 2.5, TEAM_SOT_COEF), ash["home"][1] > 2.5)
+                chk(f"TaP {away} o2.5", team_over(eg[away], 2.5, TEAM_SOT_COEF), ash["away"][1] > 2.5)
+            nok = sum(1 for x in L if x.endswith("✅ |"))
+            ntot = sum(1 for x in L if x.endswith("✅ |") or x.endswith("❌ |"))
+            L += ["", f"**Checks acertados: {nok}/{ntot}** (✅ = la inclinación del modelo coincidió con lo que pasó)."]
         else:
-            L.append("- result not available yet.")
+            L.append("- resultado no disponible aún.")
     return "\n".join(L) + "\n"
+
+
+def _actual_team_stats(match: str, home: str, away: str):
+    """{home:(shots,sot), away:(shots,sot)} from match_team_stats.csv, else None."""
+    f = Path("data/csv/derived/match_team_stats.csv")
+    if not f.exists():
+        return None
+    out = {}
+    for r in csv.DictReader(open(f)):
+        if r["match"] == match:
+            side = "home" if _norm_team(r["team"]) == _norm_team(home) else "away" if _norm_team(r["team"]) == _norm_team(away) else None
+            if side:
+                try:
+                    out[side] = (float(r["shots_for"]), float(r["sot_for"]))
+                except (ValueError, TypeError):
+                    pass
+    return out if len(out) == 2 else None
+
+
+def _norm_team(s):
+    from unidecode import unidecode
+    return unidecode(str(s)).strip().lower()
 
 
 if __name__ == "__main__":

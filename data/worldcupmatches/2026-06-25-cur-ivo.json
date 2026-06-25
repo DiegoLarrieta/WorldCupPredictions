@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-06-25-cur-ivo",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-25-cur-ivo",
+    "date": "2026-06-25",
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Curaçao vs Ivory Coast",
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "as_of": "2026-06-25",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.126,
+      0.222,
+      0.652
+    ],
+    "components": {
+      "dixon_coles": [
+        0.115,
+        0.23,
+        0.655
+      ],
+      "elo": [
+        0.164,
+        0.241,
+        0.595
+      ]
+    },
+    "expected_goals": {
+      "Curaçao": 0.62,
+      "Ivory Coast": 1.82
+    },
+    "over25": 0.44,
+    "btts": 0.394,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.153
+      },
+      {
+        "score": "0-2",
+        "prob": 0.144
+      },
+      {
+        "score": "1-1",
+        "prob": 0.105
+      },
+      {
+        "score": "0-0",
+        "prob": 0.093
+      },
+      {
+        "score": "1-2",
+        "prob": 0.09
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-25T16:10:26-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760473",
+      "player_shots": [
+        {
+          "player": "Tahith Chong",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Amad Diallo",
+          "side": "away",
+          "team": "Ivory Coast",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolas Pépé",
+          "side": "away",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 66.6,
+          "starter": true,
+          "shots_p90": 2.7,
+          "sot_p90": 2.7
+        },
+        {
+          "player": "Juriën Gaari",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.2,
+          "starter": true,
+          "shots_p90": 2.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Leandro Bacuna",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Elye Wahi",
+          "side": "away",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.4,
+          "starter": false,
+          "shots_p90": 3.84,
+          "sot_p90": 3.84
+        },
+        {
+          "player": "Sherel Floranus",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Juninho Bacuna",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jeremy Antonisse",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.1,
+          "starter": false,
+          "shots_p90": 3.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gervane Kastaneer",
+          "side": "home",
+          "team": "Curaçao",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 13.8,
+          "starter": false,
+          "shots_p90": 6.52,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Franck Kessié",
+          "side": "away",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.7,
+          "starter": true,
+          "shots_p90": 1.17,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 36.6,
+      "shots_home": 11,
+      "shots_on_target_home": 2,
+      "corners_home": 4,
+      "fouls_home": 11,
+      "saves_home": 1,
+      "offsides_home": 2,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 63.4,
+      "shots_away": 7,
+      "shots_on_target_away": 3,
+      "corners_away": 6,
+      "fouls_away": 6,
+      "saves_away": 2,
+      "offsides_away": 1,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-25T16:10:38-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.06849,
+    "log_loss": 0.42771,
+    "brier": 0.18626,
+    "surprisal": 0.42771,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.06849,
+        "log_loss": 0.42771,
+        "brier": 0.18626,
+        "surprisal": 0.42771
+      },
+      "dixon_coles": {
+        "rps": 0.06613,
+        "log_loss": 0.42312,
+        "brier": 0.18515,
+        "surprisal": 0.42312
+      },
+      "elo": {
+        "rps": 0.09546,
+        "log_loss": 0.51919,
+        "brier": 0.249,
+        "surprisal": 0.51919
+      }
+    }
+  }
+}

@@ -707,3 +707,26 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Hwang Hee-Chan,1,0,0,0,True
 2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Lee Kang-In,1,0,0,0,True
 2026-06-24-sou-sou,2026-06-24,South Africa vs South Korea,away,South Korea,Son Heung-Min,1,0,0,0,False
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Tahith Chong,3,2,0,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,away,Ivory Coast,Amad Diallo,3,0,0,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,away,Ivory Coast,Nicolas Pépé,2,2,2,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Juriën Gaari,2,0,0,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Leandro Bacuna,2,0,0,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,away,Ivory Coast,Elye Wahi,1,1,0,0,False
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Sherel Floranus,1,0,0,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Juninho Bacuna,1,0,0,0,True
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Jeremy Antonisse,1,0,0,0,False
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,home,Curaçao,Gervane Kastaneer,1,0,0,0,False
+2026-06-25-cur-ivo,2026-06-25,Curaçao vs Ivory Coast,away,Ivory Coast,Franck Kessié,1,0,0,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Florian Wirtz,3,0,0,1,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Leroy Sané,2,2,1,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,home,Ecuador,Enner Valencia,2,1,0,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,home,Ecuador,Gonzalo Plata,2,1,1,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Felix Nmecha,2,0,0,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,home,Ecuador,Nilson Angulo,1,1,1,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Kai Havertz,1,1,0,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,home,Ecuador,Moisés Caicedo,1,0,0,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,home,Ecuador,Kevin Rodríguez,1,0,0,1,False
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Jamal Musiala,1,0,0,0,True
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Deniz Undav,1,0,0,0,False
+2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Pascal Gross,1,0,0,0,False

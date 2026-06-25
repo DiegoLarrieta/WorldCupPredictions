@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-06-25-ecu-ger",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-25-ecu-ger",
+    "date": "2026-06-25",
+    "home": "Ecuador",
+    "away": "Germany",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Ecuador vs Germany",
+    "home": "Ecuador",
+    "away": "Germany",
+    "as_of": "2026-06-25",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.345,
+      0.296,
+      0.359
+    ],
+    "components": {
+      "dixon_coles": [
+        0.382,
+        0.328,
+        0.289
+      ],
+      "elo": [
+        0.309,
+        0.273,
+        0.418
+      ]
+    },
+    "expected_goals": {
+      "Ecuador": 1.06,
+      "Germany": 0.88
+    },
+    "over25": 0.309,
+    "btts": 0.392,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.151
+      },
+      {
+        "score": "1-0",
+        "prob": 0.143
+      },
+      {
+        "score": "1-1",
+        "prob": 0.142
+      },
+      {
+        "score": "0-1",
+        "prob": 0.118
+      },
+      {
+        "score": "2-0",
+        "prob": 0.08
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-25T16:10:27-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760468",
+      "player_shots": [
+        {
+          "player": "Florian Wirtz",
+          "side": "away",
+          "team": "Germany",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 72.8,
+          "starter": true,
+          "shots_p90": 3.71,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Leroy Sané",
+          "side": "away",
+          "team": "Germany",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Enner Valencia",
+          "side": "home",
+          "team": "Ecuador",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.6,
+          "starter": true,
+          "shots_p90": 2.83,
+          "sot_p90": 1.41
+        },
+        {
+          "player": "Gonzalo Plata",
+          "side": "home",
+          "team": "Ecuador",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Felix Nmecha",
+          "side": "away",
+          "team": "Germany",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 64.0,
+          "starter": true,
+          "shots_p90": 2.81,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nilson Angulo",
+          "side": "home",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 84.3,
+          "starter": true,
+          "shots_p90": 1.07,
+          "sot_p90": 1.07
+        },
+        {
+          "player": "Kai Havertz",
+          "side": "away",
+          "team": "Germany",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 59.3,
+          "starter": true,
+          "shots_p90": 1.52,
+          "sot_p90": 1.52
+        },
+        {
+          "player": "Moisés Caicedo",
+          "side": "home",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kevin Rodríguez",
+          "side": "home",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 26.4,
+          "starter": false,
+          "shots_p90": 3.41,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jamal Musiala",
+          "side": "away",
+          "team": "Germany",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Deniz Undav",
+          "side": "away",
+          "team": "Germany",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.7,
+          "starter": false,
+          "shots_p90": 2.93,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pascal Gross",
+          "side": "away",
+          "team": "Germany",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 17.2,
+          "starter": false,
+          "shots_p90": 5.22,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 38.9,
+      "shots_home": 7,
+      "shots_on_target_home": 3,
+      "corners_home": 3,
+      "fouls_home": 15,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 61.1,
+      "shots_away": 11,
+      "shots_on_target_away": 3,
+      "corners_away": 2,
+      "fouls_away": 10,
+      "saves_away": 1,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-25T16:10:39-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.27895,
+    "log_loss": 1.06421,
+    "brier": 0.64552,
+    "surprisal": 1.06421,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.27895,
+        "log_loss": 1.06421,
+        "brier": 0.64552,
+        "surprisal": 1.06421
+      },
+      "dixon_coles": {
+        "rps": 0.23257,
+        "log_loss": 0.96133,
+        "brier": 0.57294,
+        "surprisal": 0.96133
+      },
+      "elo": {
+        "rps": 0.3261,
+        "log_loss": 1.17441,
+        "brier": 0.72673,
+        "surprisal": 1.17441
+      }
+    }
+  }
+}
