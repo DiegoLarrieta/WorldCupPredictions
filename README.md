@@ -15,6 +15,27 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Uruguay vs Spain — 2026-06-27 00:00Z · [análisis](predictions/week3/groupH/uru-esp/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** draw @ 4.50 (+10%); over @ 2.04 (+4%)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Uruguay | 18% | 8.40 | ⏳ |
+| Empate | 27% | 4.50 | ⏳ |
+| Gana Spain | 55% | 1.54 | ⏳ |
+| Doble oport. Uruguay | 45% | 2.92 | ⏳ |
+| Doble oport. Spain | 82% | 1.13 | ⏳ |
+| Over 1.5 goles | 58% | 1.35 | ⏳ |
+| Over 2.5 goles | 31% | 2.04 | ⏳ |
+| Over 3.5 goles | 13% | 3.60 | ⏳ |
+| Over 1.5 goles Uruguay | 19% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Spain | 32% | 1.66 | ⏳ |
+| BTTS (ambos marcan) | 38% | 2.26 | ⏳ |
+| Prop: Darwin Gabriel Nunez Ribeiro o0.5 SoT | 59% | 1.87 | ⏳ |
+
 ### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
 
 ⏳ Por jugarse

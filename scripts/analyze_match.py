@@ -231,6 +231,10 @@ def main() -> None:
         key = home.split()[0] if len(home.split()[0]) > 3 else away.split()[0]
         sharp, soft, snap_ts = _snapshot_odds(key)
     else:
+        # capture a FRESH snapshot now (part of the pipeline) — never analyse on stale odds,
+        # and feed the CLOV log with this moment's prices. Run analyse near kickoff = the close.
+        snap = subprocess.run([sys.executable, "scripts/snapshot_odds.py"], capture_output=True, text=True)
+        print(snap.stdout.strip().split("\n")[0] if snap.stdout else "snapshot: (sin salida)")
         from engine.odds_api import fetch_odds, OddsAPIError
         try:
             sharp = fetch_odds(home, away, book="pinnacle")
