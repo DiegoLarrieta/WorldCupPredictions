@@ -8,59 +8,59 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Tunisia": 0.099,
-      "Draw": 0.196,
-      "Netherlands": 0.706
+      "Tunisia": 0.081,
+      "Draw": 0.182,
+      "Netherlands": 0.737
     },
     "ensemble_uncalibrated": {
-      "Tunisia": 0.114,
-      "Draw": 0.211,
-      "Netherlands": 0.675
+      "Tunisia": 0.095,
+      "Draw": 0.199,
+      "Netherlands": 0.706
     },
     "dixon_coles": {
-      "Tunisia": 0.128,
-      "Draw": 0.217,
-      "Netherlands": 0.654
+      "Tunisia": 0.113,
+      "Draw": 0.212,
+      "Netherlands": 0.675
     },
     "elo": {
-      "Tunisia": 0.1,
-      "Draw": 0.205,
-      "Netherlands": 0.695
+      "Tunisia": 0.078,
+      "Draw": 0.188,
+      "Netherlands": 0.734
     }
   },
   "elo": {
-    "Tunisia": 1689,
-    "Netherlands": 2009
+    "Tunisia": 1672,
+    "Netherlands": 2038
   },
   "expected_goals": {
-    "Tunisia": 0.75,
-    "Netherlands": 1.97
+    "Tunisia": 0.69,
+    "Netherlands": 1.99
   },
   "over_under_2_5": {
-    "over": 0.511,
-    "under": 0.489
+    "over": 0.501,
+    "under": 0.499
   },
-  "btts": 0.46,
+  "btts": 0.435,
   "top_scorelines": [
     {
       "score": "0-2",
-      "prob": 0.128
+      "prob": 0.136
     },
     {
       "score": "0-1",
-      "prob": 0.124
+      "prob": 0.131
     },
     {
       "score": "1-1",
-      "prob": 0.103
+      "prob": 0.1
     },
     {
       "score": "1-2",
-      "prob": 0.096
+      "prob": 0.094
     },
     {
       "score": "0-3",
-      "prob": 0.084
+      "prob": 0.09
     }
   ],
   "lineups": null,

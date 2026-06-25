@@ -85,67 +85,163 @@
   "match": "Japan vs Sweden",
   "kickoff": "2026-06-25 23:00",
   "date": "2026-06-25",
+  "result": "",
+  "sug": "away @ 4.60 (+37%); over @ 1.98 (+4%); home @ 2.36 (+4%); draw @ 3.60 (+3%); under @ 2.06 (+3%)",
   "link": "predictions/week3/groupF/jpn-swe/analysis.md",
   "markets": [
    [
     "Gana Japan",
-    0.641,
-    "2.28"
+    0.729,
+    "2.36",
+    null
    ],
    [
     "Empate",
-    0.212,
-    "3.60"
+    0.173,
+    "3.60",
+    null
    ],
    [
     "Gana Sweden",
-    0.147,
-    "4.60"
+    0.098,
+    "4.60",
+    null
    ],
    [
     "Doble oport. Japan",
-    0.853,
-    "1.38"
+    0.902,
+    "1.41",
+    null
    ],
    [
     "Doble oport. Sweden",
-    0.359,
-    "1.76"
+    0.271,
+    "1.74",
+    null
    ],
    [
     "Over 1.5 goles",
-    0.799,
-    "1.32"
+    0.851,
+    "1.30",
+    null
    ],
    [
     "Over 2.5 goles",
-    0.575,
-    "1.97"
+    0.656,
+    "1.95",
+    null
    ],
    [
     "Over 3.5 goles",
-    0.351,
-    "3.50"
+    0.437,
+    "3.25",
+    null
    ],
    [
     "Over 1.5 goles Japan",
-    0.61,
-    "2.19"
+    0.727,
+    "2.10",
+    null
    ],
    [
     "Over 1.5 goles Sweden",
-    0.239,
-    "3.05"
+    0.195,
+    "2.85",
+    null
    ],
    [
     "BTTS (ambos marcan)",
-    0.534,
-    "1.82"
+    0.517,
+    "1.74",
+    null
    ],
    [
-    "Prop: Alexander Isak o0.5 SoT",
-    0.639,
-    "1.60"
+    "Prop: Ayase Ueda o0.5 SoT",
+    0.71,
+    "1.41",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Tunisia vs Netherlands",
+  "kickoff": "2026-06-25 23:00",
+  "date": "2026-06-25",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupF/tun-ned/analysis.md",
+  "markets": [
+   [
+    "Gana Tunisia",
+    0.081,
+    "30.03",
+    null
+   ],
+   [
+    "Empate",
+    0.182,
+    "12.00",
+    null
+   ],
+   [
+    "Gana Netherlands",
+    0.737,
+    "1.14",
+    null
+   ],
+   [
+    "Doble oport. Tunisia",
+    0.263,
+    "8.20",
+    null
+   ],
+   [
+    "Doble oport. Netherlands",
+    0.919,
+    "1.03",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.748,
+    "1.14",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.501,
+    "1.45",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.282,
+    "2.12",
+    null
+   ],
+   [
+    "Over 1.5 goles Tunisia",
+    0.152,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Netherlands",
+    0.591,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.435,
+    "2.68",
+    null
+   ],
+   [
+    "Prop: Anis Slimane o0.5 SoT",
+    0.503,
+    "3.30",
+    null
    ]
   ]
  },

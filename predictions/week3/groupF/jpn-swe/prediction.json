@@ -8,59 +8,59 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Japan": 0.641,
-      "Draw": 0.212,
-      "Sweden": 0.147
+      "Japan": 0.729,
+      "Draw": 0.173,
+      "Sweden": 0.098
     },
     "ensemble_uncalibrated": {
-      "Japan": 0.614,
-      "Draw": 0.225,
-      "Sweden": 0.161
+      "Japan": 0.697,
+      "Draw": 0.19,
+      "Sweden": 0.113
     },
     "dixon_coles": {
-      "Japan": 0.629,
-      "Draw": 0.215,
-      "Sweden": 0.156
+      "Japan": 0.749,
+      "Draw": 0.16,
+      "Sweden": 0.091
     },
     "elo": {
-      "Japan": 0.6,
-      "Draw": 0.234,
-      "Sweden": 0.166
+      "Japan": 0.65,
+      "Draw": 0.217,
+      "Sweden": 0.133
     }
   },
   "elo": {
-    "Japan": 1996,
-    "Sweden": 1827
+    "Japan": 2012,
+    "Sweden": 1798
   },
   "expected_goals": {
-    "Japan": 2.06,
-    "Sweden": 0.93
+    "Japan": 2.57,
+    "Sweden": 0.81
   },
   "over_under_2_5": {
-    "over": 0.575,
-    "under": 0.425
+    "over": 0.656,
+    "under": 0.344
   },
-  "btts": 0.534,
+  "btts": 0.517,
   "top_scorelines": [
     {
       "score": "2-0",
-      "prob": 0.107
-    },
-    {
-      "score": "1-1",
-      "prob": 0.102
-    },
-    {
-      "score": "2-1",
-      "prob": 0.099
-    },
-    {
-      "score": "1-0",
-      "prob": 0.098
+      "prob": 0.113
     },
     {
       "score": "3-0",
-      "prob": 0.073
+      "prob": 0.096
+    },
+    {
+      "score": "2-1",
+      "prob": 0.091
+    },
+    {
+      "score": "1-0",
+      "prob": 0.083
+    },
+    {
+      "score": "3-1",
+      "prob": 0.078
     }
   ],
   "lineups": null,

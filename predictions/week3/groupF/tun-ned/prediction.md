@@ -6,23 +6,23 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 
 | Outcome | Probability |
 |---|---|
-| **Tunisia win** | **10%** |
-| Draw | 20% |
-| **Netherlands win** | **71%** |
+| **Tunisia win** | **8%** |
+| Draw | 18% |
+| **Netherlands win** | **74%** |
 
-- Expected goals: Tunisia 0.75 – 1.97 Netherlands
-- Over 2.5: 51%  ·  BTTS: 46%
-- Likely scores: 0-2 (13%), 0-1 (12%), 1-1 (10%), 1-2 (10%)
+- Expected goals: Tunisia 0.69 – 1.99 Netherlands
+- Over 2.5: 50%  ·  BTTS: 44%
+- Likely scores: 0-2 (14%), 0-1 (13%), 1-1 (10%), 1-2 (9%)
 
 ## The two models it blends
 
 | Model | Tunisia | Draw | Netherlands |
 |---|---|---|---|
-| Dixon-Coles | 13% | 22% | 65% |
-| Elo | 10% | 20% | 70% |
-| **Ensemble** | **10%** | **20%** | **71%** |
+| Dixon-Coles | 11% | 21% | 68% |
+| Elo | 8% | 19% | 73% |
+| **Ensemble** | **8%** | **18%** | **74%** |
 
-Elo: Tunisia 1689 vs Netherlands 2009.
+Elo: Tunisia 1672 vs Netherlands 2038.
 ## Actual result
 
 _Not yet played. The post-match step fills this in and scores the prediction (feedback loop)._

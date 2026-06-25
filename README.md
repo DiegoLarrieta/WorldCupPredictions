@@ -40,22 +40,43 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **Apuestas sugeridas:** away @ 4.60 (+37%); over @ 1.98 (+4%); home @ 2.36 (+4%); draw @ 3.60 (+3%); under @ 2.06 (+3%)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Japan | 73% | 2.36 | ⏳ |
+| Empate | 17% | 3.60 | ⏳ |
+| Gana Sweden | 10% | 4.60 | ⏳ |
+| Doble oport. Japan | 90% | 1.41 | ⏳ |
+| Doble oport. Sweden | 27% | 1.74 | ⏳ |
+| Over 1.5 goles | 85% | 1.30 | ⏳ |
+| Over 2.5 goles | 66% | 1.95 | ⏳ |
+| Over 3.5 goles | 44% | 3.25 | ⏳ |
+| Over 1.5 goles Japan | 73% | 2.10 | ⏳ |
+| Over 1.5 goles Sweden | 20% | 2.85 | ⏳ |
+| BTTS (ambos marcan) | 52% | 1.74 | ⏳ |
+| Prop: Ayase Ueda o0.5 SoT | 71% | 1.41 | ⏳ |
+
+### Tunisia vs Netherlands — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
+
+⏳ Por jugarse
+
 🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Japan | 64% | 2.28 | ⏳ |
-| Empate | 21% | 3.60 | ⏳ |
-| Gana Sweden | 15% | 4.60 | ⏳ |
-| Doble oport. Japan | 85% | 1.38 | ⏳ |
-| Doble oport. Sweden | 36% | 1.76 | ⏳ |
-| Over 1.5 goles | 80% | 1.32 | ⏳ |
-| Over 2.5 goles | 57% | 1.97 | ⏳ |
-| Over 3.5 goles | 35% | 3.50 | ⏳ |
-| Over 1.5 goles Japan | 61% | 2.19 | ⏳ |
-| Over 1.5 goles Sweden | 24% | 3.05 | ⏳ |
-| BTTS (ambos marcan) | 53% | 1.82 | ⏳ |
-| Prop: Alexander Isak o0.5 SoT | 64% | 1.60 | ⏳ |
+| Gana Tunisia | 8% | 30.03 | ⏳ |
+| Empate | 18% | 12.00 | ⏳ |
+| Gana Netherlands | 74% | 1.14 | ⏳ |
+| Doble oport. Tunisia | 26% | 8.20 | ⏳ |
+| Doble oport. Netherlands | 92% | 1.03 | ⏳ |
+| Over 1.5 goles | 75% | 1.14 | ⏳ |
+| Over 2.5 goles | 50% | 1.45 | ⏳ |
+| Over 3.5 goles | 28% | 2.12 | ⏳ |
+| Over 1.5 goles Tunisia | 15% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Netherlands | 59% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 44% | 2.68 | ⏳ |
+| Prop: Anis Slimane o0.5 SoT | 50% | 3.30 | ⏳ |
 
 ### Ecuador vs Germany — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
 
