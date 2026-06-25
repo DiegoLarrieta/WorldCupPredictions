@@ -26,7 +26,13 @@ Plan de 3 fases. **goles→tiros es el cimiento de B y C** (por eso va primero).
   props de tiros/TaP por jugador, tiros por equipo) + 🎯 apostable acotado (disciplina
   soft-vs-sharp). Mercado primario = **O/U goles** (señal viva de sub-predicción). Mostrar≠apostar.
 
-**Para retomar:** sesión nueva → "seguimos con Fase B del market-breakdown". Todo el detalle
+**TODO Fase C — tablero del README (pedido 2026-06-25):** la fila del tablero hoy muestra
+solo 1X2 + O/U2.5, y el O/U sale "—" porque `_update_board` lee del compare SHARP (que no
+cotiza el total en partidos chicos). Pedido: tabla más rica (goles O 1.5/2.5/3.5, doble
+oportunidad, goles por equipo, prop destacado) CON precios reales (blandos marcados). Fix:
+(a) `_update_board` debe usar el mismo fallback soft que el `analysis.md`; (b) más columnas.
+
+**Para retomar:** sesión nueva → "seguimos con Fase B/C del market-breakdown". Todo el detalle
 está abajo. Datos: `match_team_stats.csv` (56 team-matches: shots_for/sot_for/against),
 `player_shot_rates.csv` (con `rate_source`), `engine.models.dixon_coles.lambdas` (λ por equipo).
 
