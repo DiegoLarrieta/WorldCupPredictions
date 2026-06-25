@@ -10,73 +10,73 @@
    [
     "Gana Japan",
     0.729,
-    "2.38",
+    "+142",
     null
    ],
    [
     "Empate",
     0.173,
-    "3.60",
+    "+260",
     null
    ],
    [
     "Gana Sweden",
     0.098,
-    "4.60",
+    "+360",
     null
    ],
    [
     "Doble oport. Japan",
     0.902,
-    "1.42",
+    "-238",
     null
    ],
    [
     "Doble oport. Sweden",
     0.271,
-    "1.71",
+    "-143",
     null
    ],
    [
     "Over 1.5 goles",
     0.851,
-    "1.30",
+    "-345",
     null
    ],
    [
     "Over 2.5 goles",
     0.656,
-    "1.98",
+    "-104",
     null
    ],
    [
     "Over 3.5 goles",
     0.437,
-    "3.35",
+    "+230",
     null
    ],
    [
     "Over 1.5 goles Japan",
     0.727,
-    "2.10",
+    "+119",
     null
    ],
    [
     "Over 1.5 goles Sweden",
     0.195,
-    "2.85",
+    "+185",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.517,
-    "1.75",
+    "-137",
     null
    ],
    [
     "Prop: Ayase Ueda o0.5 SoT",
     0.71,
-    "1.41",
+    "-244",
     null
    ]
   ]
@@ -92,49 +92,49 @@
    [
     "Gana Tunisia",
     0.081,
-    "30.03",
+    "+2903",
     null
    ],
    [
     "Empate",
     0.182,
-    "12.00",
+    "+1100",
     null
    ],
    [
     "Gana Netherlands",
     0.737,
-    "1.15",
+    "-588",
     null
    ],
    [
     "Doble oport. Tunisia",
     0.263,
-    "8.00",
+    "+620",
     null
    ],
    [
     "Doble oport. Netherlands",
     0.919,
-    "1.03",
+    "-2500",
     null
    ],
    [
     "Over 1.5 goles",
     0.748,
-    "1.14",
+    "-714",
     null
    ],
    [
     "Over 2.5 goles",
     0.501,
-    "1.47",
+    "-222",
     null
    ],
    [
     "Over 3.5 goles",
     0.282,
-    "2.15",
+    "+110",
     null
    ],
    [
@@ -152,13 +152,13 @@
    [
     "BTTS (ambos marcan)",
     0.435,
-    "2.59",
+    "+159",
     null
    ],
    [
     "Prop: Anis Slimane o0.5 SoT",
     0.503,
-    "3.30",
+    "+230",
     null
    ]
   ]
@@ -168,25 +168,25 @@
   "kickoff": "2026-06-25 20:00",
   "date": "2026-06-25",
   "result": "✅ Jugado: **2-1** (home) · checks **6/11**",
-  "sug": "home @ 4.20 (+10%)",
+  "sug": "home @ +320 (+10%)",
   "link": "predictions/week3/groupE/ecu-ger/analysis.md",
   "markets": [
    [
     "Gana Ecuador",
     0.345,
-    "4.20",
+    "+320",
     true
    ],
    [
     "Empate",
     0.296,
-    "4.40",
+    "+340",
     false
    ],
    [
     "Gana Germany",
     0.359,
-    "1.90",
+    "-111",
     false
    ],
    [
@@ -240,7 +240,7 @@
    [
     "Prop: Gonzalo Plata o0.5 SoT",
     0.474,
-    "2.30",
+    "+130",
     true
    ]
   ]
@@ -250,25 +250,25 @@
   "kickoff": "2026-06-25 20:00",
   "date": "2026-06-25",
   "result": "✅ Jugado: **0-2** (away) · checks **11/11**",
-  "sug": "away @ 1.19 (+4%)",
+  "sug": "away @ -526 (+4%)",
   "link": "predictions/week3/groupE/cuw-civ/analysis.md",
   "markets": [
    [
     "Gana Curaçao",
     0.126,
-    "24.00",
+    "+2300",
     false
    ],
    [
     "Empate",
     0.222,
-    "9.50",
+    "+850",
     false
    ],
    [
     "Gana Ivory Coast",
     0.652,
-    "1.19",
+    "-526",
     true
    ],
    [
@@ -322,7 +322,7 @@
    [
     "Prop: Nicolas Pepe o0.5 SoT",
     0.524,
-    "1.40",
+    "-250",
     true
    ]
   ]

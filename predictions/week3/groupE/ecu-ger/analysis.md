@@ -8,9 +8,9 @@ _as_of 2026-06-25 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 34% | 25% | 4.20 | **bet** |
-| draw | 30% | 22% | 4.40 | **suspect** |
-| away | 36% | 53% | 1.90 | **pass** |
+| home | 34% | 25% | +320 | **bet** |
+| draw | 30% | 22% | +340 | **suspect** |
+| away | 36% | 53% | -111 | **pass** |
 
 ## Goals (total)
 
@@ -19,7 +19,7 @@ _as_of 2026-06-25 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
 | over | model P | odds | EV@odds |
 |---|---|---|---|
 | 1.5 | 58% | — | — |
-| 2.5 | 31% | 1.76 | -0.46 |
+| 2.5 | 31% | -132 | -0.46 |
 | 3.5 | 13% | — | — |
 
 ## Otros mercados
@@ -44,7 +44,7 @@ _No prop candidates — skipped (snapshot backtest — props weren't captured)._
 
 ## Recommendation
 
-- **1x2 home** @ 4.20 — soft price beats the sharp fair by +10.5% (prospective CLOV+).
+- **1x2 home** @ +320 — soft price beats the sharp fair by +10.5% (prospective CLOV+).
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 

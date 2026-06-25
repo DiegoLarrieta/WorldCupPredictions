@@ -8,9 +8,9 @@ _as_of 2026-06-25 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 8% | 3% | 30.03 | **pass** |
-| draw | 18% | 9% | 12.00 | **pass** |
-| away | 74% | 88% | 1.15 | **pass** |
+| home | 8% | 4% | +2903 | **pass** |
+| draw | 18% | 10% | +1100 | **pass** |
+| away | 74% | 86% | -588 | **pass** |
 
 ## Goals (total)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-25 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 75% | 1.14 | -0.15 |
-| 2.5 | 50% | 1.47 | -0.26 |
-| 3.5 | 28% | 2.15 | -0.39 |
+| 1.5 | 75% | -714 | -0.15 |
+| 2.5 | 50% | -222 | -0.27 |
+| 3.5 | 28% | +110 | -0.41 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Tunisia | 26% | 8.00 | +1.10 |
-| Doble oport. Netherlands | 92% | 1.03 | -0.05 |
+| Doble oport. Tunisia | 26% | +620 | +0.89 |
+| Doble oport. Netherlands | 92% | -2500 | -0.04 |
 | Over 1.5 goles Tunisia | 15% | — | — |
 | Over 1.5 goles Netherlands | 59% | — | — |
-| BTTS (ambos marcan) | 44% | 2.59 | +0.13 |
+| BTTS (ambos marcan) | 44% | +159 | +0.13 |
 | Tiros Tunisia over 9.5 | 33% | — | — |
 | Tiros Netherlands over 9.5 | 99% | — | — |
 | TaP Tunisia over 2.5 | 52% | — | — |
@@ -44,7 +44,7 @@ Overs where the model beats the offered (vig-included) price, real-data players 
 
 | player | line | over | model | price implies | EV |
 |---|---|---|---|---|---|
-| Anis Slimane | 0.5 | 3.30 | 50% | 30% | +0.66 |
+| Anis Slimane | 0.5 | +230 | 50% | 30% | +0.66 |
 
 ## Recommendation
 

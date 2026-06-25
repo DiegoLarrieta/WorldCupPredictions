@@ -8,9 +8,9 @@ _as_of 2026-06-25 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 73% | 43% | 2.38 | **bet** |
-| draw | 17% | 28% | 3.60 | **bet** |
-| away | 10% | 29% | 4.60 | **bet** |
+| home | 73% | 41% | +142 | **suspect** |
+| draw | 17% | 28% | +260 | **bet** |
+| away | 10% | 31% | +360 | **bet** |
 
 ## Goals (total)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-25 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 85% | 1.30 | +0.11 |
-| 2.5 | 66% | 1.98 | +0.30 |
-| 3.5 | 44% | 3.35 | +0.46 |
+| 1.5 | 85% | -345 | +0.10 |
+| 2.5 | 66% | -104 | +0.29 |
+| 3.5 | 44% | +230 | +0.44 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Japan | 90% | 1.42 | +0.28 |
-| Doble oport. Sweden | 27% | 1.71 | -0.54 |
-| Over 1.5 goles Japan | 73% | 2.10 | +0.53 |
-| Over 1.5 goles Sweden | 20% | 2.85 | -0.44 |
-| BTTS (ambos marcan) | 52% | 1.75 | -0.10 |
+| Doble oport. Japan | 90% | -238 | +0.28 |
+| Doble oport. Sweden | 27% | -143 | -0.54 |
+| Over 1.5 goles Japan | 73% | +119 | +0.59 |
+| Over 1.5 goles Sweden | 20% | +185 | -0.44 |
+| BTTS (ambos marcan) | 52% | -137 | -0.11 |
 | Tiros Japan over 9.5 | 100% | — | — |
 | Tiros Sweden over 9.5 | 47% | — | — |
 | TaP Japan over 2.5 | 99% | — | — |
@@ -44,7 +44,7 @@ Overs where the model beats the offered (vig-included) price, real-data players 
 
 | player | line | over | model | price implies | EV |
 |---|---|---|---|---|---|
-| Ayase Ueda | 0.5 | 1.41 | 71% | 71% | +0.00 |
+| Ayase Ueda | 0.5 | -244 | 71% | 71% | +0.00 |
 
 ## Recommendation
 

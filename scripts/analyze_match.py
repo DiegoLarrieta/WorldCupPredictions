@@ -54,6 +54,14 @@ def team_over(lam_goals: float, line: float, coef) -> float:
     return poisson_over(max(coef[0] + coef[1] * float(lam_goals), 0.1), line)
 
 
+def _amer(d) -> str:
+    """Decimal odds -> American (+100 = 2.0). '—' if missing."""
+    if not d:
+        return "—"
+    d = float(d)
+    return f"+{round((d - 1) * 100)}" if d >= 2.0 else f"{round(-100 / (d - 1))}"
+
+
 def _kickoff(match: str) -> str:
     """'YYYY-MM-DD HH:MM' kickoff for a match from the latest odds snapshot, else ''."""
     if not SNAP.exists():
@@ -80,7 +88,7 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
     NF = "_(no fetcheado)_"
 
     def od(v):
-        return f"{v:.2f}" if v else NF
+        return _amer(v) if v else NF
 
     # resultado (si se jugó) para los checks por mercado
     ar = pred.get("actual_result") or {}
@@ -118,7 +126,7 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
                    h(sot > line) if sot is not None else None))
 
     # apuestas sugeridas (lectura sharp-vs-blando) + resultado
-    sug = "; ".join(f"{r['selection']} @ {r['best_odds']:.2f} ({r['soft_edge']:+.0%})"
+    sug = "; ".join(f"{r['selection']} @ {_amer(r['best_odds'])} ({r['soft_edge']:+.0%})"
                     for r in (market.get("recommend") if market else []) or [])
     res = ""
     if played:
@@ -301,7 +309,7 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
         L.append("|---|---|---|---|---|")
         for r in market["markets"]["1x2"]["selections"]:
             L.append(f"| {r['selection']} | {r['model_prob']:.0%} | {r['sharp_prob']:.0%} | "
-                     f"{r['best_odds']:.2f} | **{r['verdict']}** |")
+                     f"{_amer(r['best_odds'])} | **{r['verdict']}** |")
     L.append("")
 
     # Goals (model P(over) vs real odds + EV at the offered price)
@@ -314,7 +322,7 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
         if not od and ln == 2.5 and soft_ou:
             od = soft_ou.get("over")
         ev = f"{p*od-1:+.2f}" if od else "—"
-        L.append(f"| {ln} | {p:.0%} | {(f'{od:.2f}' if od else '—')} | {ev} |")
+        L.append(f"| {ln} | {p:.0%} | {_amer(od)} | {ev} |")
     L.append("")
 
     # Otros mercados (doble oportunidad, goles por equipo, BTTS) — model P vs odds + EV
@@ -338,7 +346,7 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
           "", "| mercado | model P | odds | EV@odds |", "|---|---|---|---|"]
     for lab, p, od in rows:
         ev = f"{p*od-1:+.2f}" if od else "—"
-        L.append(f"| {lab} | {p:.0%} | {(f'{od:.2f}' if od else '—')} | {ev} |")
+        L.append(f"| {lab} | {p:.0%} | {_amer(od)} | {ev} |")
     L.append("")
 
     # Props
@@ -350,7 +358,7 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
         L.append("| player | line | over | model | price implies | EV |")
         L.append("|---|---|---|---|---|---|")
         for p in props:
-            L.append(f"| {p['player']} | {p['line']} | {p['over_price']:.2f} | "
+            L.append(f"| {p['player']} | {p['line']} | {_amer(p['over_price'])} | "
                      f"{p['model_over']:.0%} | {1/p['over_price']:.0%} | +{p['ev']:.2f} |")
     else:
         L.append(f"_No prop candidates — {prop_note}._")
@@ -361,7 +369,7 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
     recs = (market["recommend"] if market else [])
     if recs:
         for r in recs:
-            L.append(f"- **{r['market']} {r['selection']}** @ {r['best_odds']:.2f} — soft price "
+            L.append(f"- **{r['market']} {r['selection']}** @ {_amer(r['best_odds'])} — soft price "
                      f"beats the sharp fair by {r['soft_edge']:+.1%} (prospective CLOV+).")
     else:
         L.append("- **No 1X2/goals bet** — nothing where a soft book beats the sharp fair "

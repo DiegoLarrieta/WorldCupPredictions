@@ -23,18 +23,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Japan | 73% | 2.38 | ⏳ |
-| Empate | 17% | 3.60 | ⏳ |
-| Gana Sweden | 10% | 4.60 | ⏳ |
-| Doble oport. Japan | 90% | 1.42 | ⏳ |
-| Doble oport. Sweden | 27% | 1.71 | ⏳ |
-| Over 1.5 goles | 85% | 1.30 | ⏳ |
-| Over 2.5 goles | 66% | 1.98 | ⏳ |
-| Over 3.5 goles | 44% | 3.35 | ⏳ |
-| Over 1.5 goles Japan | 73% | 2.10 | ⏳ |
-| Over 1.5 goles Sweden | 20% | 2.85 | ⏳ |
-| BTTS (ambos marcan) | 52% | 1.75 | ⏳ |
-| Prop: Ayase Ueda o0.5 SoT | 71% | 1.41 | ⏳ |
+| Gana Japan | 73% | +142 | ⏳ |
+| Empate | 17% | +260 | ⏳ |
+| Gana Sweden | 10% | +360 | ⏳ |
+| Doble oport. Japan | 90% | -238 | ⏳ |
+| Doble oport. Sweden | 27% | -143 | ⏳ |
+| Over 1.5 goles | 85% | -345 | ⏳ |
+| Over 2.5 goles | 66% | -104 | ⏳ |
+| Over 3.5 goles | 44% | +230 | ⏳ |
+| Over 1.5 goles Japan | 73% | +119 | ⏳ |
+| Over 1.5 goles Sweden | 20% | +185 | ⏳ |
+| BTTS (ambos marcan) | 52% | -137 | ⏳ |
+| Prop: Ayase Ueda o0.5 SoT | 71% | -244 | ⏳ |
 
 ### Tunisia vs Netherlands — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
 
@@ -44,30 +44,30 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Tunisia | 8% | 30.03 | ⏳ |
-| Empate | 18% | 12.00 | ⏳ |
-| Gana Netherlands | 74% | 1.15 | ⏳ |
-| Doble oport. Tunisia | 26% | 8.00 | ⏳ |
-| Doble oport. Netherlands | 92% | 1.03 | ⏳ |
-| Over 1.5 goles | 75% | 1.14 | ⏳ |
-| Over 2.5 goles | 50% | 1.47 | ⏳ |
-| Over 3.5 goles | 28% | 2.15 | ⏳ |
+| Gana Tunisia | 8% | +2903 | ⏳ |
+| Empate | 18% | +1100 | ⏳ |
+| Gana Netherlands | 74% | -588 | ⏳ |
+| Doble oport. Tunisia | 26% | +620 | ⏳ |
+| Doble oport. Netherlands | 92% | -2500 | ⏳ |
+| Over 1.5 goles | 75% | -714 | ⏳ |
+| Over 2.5 goles | 50% | -222 | ⏳ |
+| Over 3.5 goles | 28% | +110 | ⏳ |
 | Over 1.5 goles Tunisia | 15% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Netherlands | 59% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 44% | 2.59 | ⏳ |
-| Prop: Anis Slimane o0.5 SoT | 50% | 3.30 | ⏳ |
+| BTTS (ambos marcan) | 44% | +159 | ⏳ |
+| Prop: Anis Slimane o0.5 SoT | 50% | +230 | ⏳ |
 
 ### Ecuador vs Germany — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
 
 ✅ Jugado: **2-1** (home) · checks **6/11**
 
-🎯 **Apuestas sugeridas:** home @ 4.20 (+10%)
+🎯 **Apuestas sugeridas:** home @ +320 (+10%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Ecuador | 34% | 4.20 | ✅ |
-| Empate | 30% | 4.40 | ❌ |
-| Gana Germany | 36% | 1.90 | ❌ |
+| Gana Ecuador | 34% | +320 | ✅ |
+| Empate | 30% | +340 | ❌ |
+| Gana Germany | 36% | -111 | ❌ |
 | Doble oport. Ecuador | 64% | _(no fetcheado)_ | ✅ |
 | Doble oport. Germany | 66% | _(no fetcheado)_ | ❌ |
 | Over 1.5 goles | 58% | _(no fetcheado)_ | ✅ |
@@ -76,19 +76,19 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Ecuador | 29% | _(no fetcheado)_ | ✅ |
 | Over 1.5 goles Germany | 22% | _(no fetcheado)_ | ❌ |
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ✅ |
-| Prop: Gonzalo Plata o0.5 SoT | 47% | 2.30 | ✅ |
+| Prop: Gonzalo Plata o0.5 SoT | 47% | +130 | ✅ |
 
 ### Curaçao vs Ivory Coast — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
 
 ✅ Jugado: **0-2** (away) · checks **11/11**
 
-🎯 **Apuestas sugeridas:** away @ 1.19 (+4%)
+🎯 **Apuestas sugeridas:** away @ -526 (+4%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Curaçao | 13% | 24.00 | ❌ |
-| Empate | 22% | 9.50 | ❌ |
-| Gana Ivory Coast | 65% | 1.19 | ✅ |
+| Gana Curaçao | 13% | +2300 | ❌ |
+| Empate | 22% | +850 | ❌ |
+| Gana Ivory Coast | 65% | -526 | ✅ |
 | Doble oport. Curaçao | 35% | _(no fetcheado)_ | ❌ |
 | Doble oport. Ivory Coast | 87% | _(no fetcheado)_ | ✅ |
 | Over 1.5 goles | 70% | _(no fetcheado)_ | ✅ |
@@ -97,7 +97,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Curaçao | 13% | _(no fetcheado)_ | ❌ |
 | Over 1.5 goles Ivory Coast | 54% | _(no fetcheado)_ | ✅ |
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ❌ |
-| Prop: Nicolas Pepe o0.5 SoT | 52% | 1.40 | ✅ |
+| Prop: Nicolas Pepe o0.5 SoT | 52% | -250 | ✅ |
 
 <!-- DAILY-BOARD:END -->
 
