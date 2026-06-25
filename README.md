@@ -19,17 +19,18 @@ _Prob = nuestro modelo. Odds = mejor precio de The Odds API. 1X2/doble-oport = r
 
 | Mercado | Prob modelo | Odds |
 |---|---|---|
-| Gana Japan | 64% | 2.30 |
+| Gana Japan | 64% | 2.28 |
 | Empate | 21% | 3.60 |
 | Gana Sweden | 15% | 4.60 |
-| Doble oport. Japan | 85% | 1.37 |
+| Doble oport. Japan | 85% | 1.38 |
 | Doble oport. Sweden | 36% | 1.76 |
 | Over 1.5 goles | 80% | 1.32 |
-| Over 2.5 goles | 57% | 2.00 |
-| Over 3.5 goles | 35% | 3.45 |
+| Over 2.5 goles | 57% | 1.97 |
+| Over 3.5 goles | 35% | 3.50 |
 | Over 1.5 goles Japan | 61% | 2.19 |
 | Over 1.5 goles Sweden | 24% | 3.05 |
-| BTTS (ambos marcan) | 53% | 1.81 |
+| BTTS (ambos marcan) | 53% | 1.82 |
+| Prop: Alexander Isak o0.5 SoT | 64% | 1.60 |
 
 <!-- DAILY-BOARD:END -->
 

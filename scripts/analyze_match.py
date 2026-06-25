@@ -41,6 +41,18 @@ README = Path("README.md")
 BOARD_JSON = Path("data/csv/derived/daily_board.json")
 GOAL_LINES = (1.5, 2.5, 3.5)
 
+# --- Per-team shots model (Fase B): anchor on the team's expected goals (λ from DC). ---
+# Validated on 44 WC team-matches: shots ≈ 2.6+8.4·λ (corr 0.69), SoT ≈ 0.6+3.1·λ (corr 0.59).
+# Beats the sum-of-XI approach (corr -0.37, failed). Poisson on the fitted mean. Refit as n
+# grows (fit lives in match_team_stats + each prediction's λ). NB could fit overdispersion later.
+TEAM_SHOTS_COEF = (2.6, 8.4)
+TEAM_SOT_COEF = (0.6, 3.1)
+
+
+def team_over(lam_goals: float, line: float, coef) -> float:
+    """P(a team's shots/SoT in the match > line), from Poisson(a + b·λ_goals)."""
+    return poisson_over(max(coef[0] + coef[1] * float(lam_goals), 0.1), line)
+
 
 def _kickoff(match: str) -> str:
     """'YYYY-MM-DD HH:MM' kickoff for a match from the latest odds snapshot, else ''."""
@@ -277,6 +289,10 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
         (f"Over 1.5 goles {home}", th, extra.get("team_ov15_home")),
         (f"Over 1.5 goles {away}", ta, extra.get("team_ov15_away")),
         ("BTTS (ambos marcan)", float(pred.get("btts") or 0), (extra.get("btts") or {}).get("yes")),
+        (f"Tiros {home} over 9.5", team_over(eg[home], 9.5, TEAM_SHOTS_COEF), None),
+        (f"Tiros {away} over 9.5", team_over(eg[away], 9.5, TEAM_SHOTS_COEF), None),
+        (f"TaP {home} over 2.5", team_over(eg[home], 2.5, TEAM_SOT_COEF), None),
+        (f"TaP {away} over 2.5", team_over(eg[away], 2.5, TEAM_SOT_COEF), None),
     ]
     L += ["## Otros mercados", "",
           "_EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados eficientes "
