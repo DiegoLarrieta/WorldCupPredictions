@@ -110,9 +110,12 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
         (f"Over 1.5 goles {away}", poisson_over(float(eg[away]), 1.5), od(extra.get("team_ov15_away")), h(ag >= 2)),
         ("BTTS (ambos marcan)", float(pred.get("btts") or 0), od((extra.get("btts") or {}).get("yes")), h(hg > 0 and ag > 0)),
     ]
-    if props:
-        p = props[0]
-        mk.append((f"Prop: {p['player']} o{p['line']} SoT", p["model_over"], od(p.get("over_price")), None))
+    tp = _board_prop(folder, props)        # top prop (live, o leído de prop_compare.json)
+    if tp:
+        player, line, price, mo = tp
+        sot = _player_sot(pred["match"], player) if played else None
+        mk.append((f"Prop: {player} o{line} SoT", mo, od(price),
+                   h(sot > line) if sot is not None else None))
 
     # apuestas sugeridas (lectura sharp-vs-blando) + resultado
     sug = "; ".join(f"{r['selection']} @ {r['best_odds']:.2f} ({r['soft_edge']:+.0%})"
@@ -425,6 +428,41 @@ def _actual_team_stats(match: str, home: str, away: str):
 def _norm_team(s):
     from unidecode import unidecode
     return unidecode(str(s)).strip().lower()
+
+
+def _board_prop(folder, props):
+    """Top prop for the board: from live `props`, else the top CLOV candidate in
+    prop_compare.json. Returns (player, line, price, model_over) or None."""
+    if props:
+        p = props[0]
+        return p["player"], p["line"], p.get("over_price"), p["model_over"]
+    pc = folder / "prop_compare.json"
+    if pc.exists():
+        rows = [r for r in json.loads(pc.read_text()).get("rows", [])
+                if r.get("over_price") and (r.get("model_over") or 0) >= 0.45 and r["line"] <= 1.5]
+        rows.sort(key=lambda r: -(r["model_over"] * r["over_price"]))
+        if rows:
+            r = rows[0]
+            return r["player"], r["line"], r["over_price"], r["model_over"]
+    return None
+
+
+def _player_sot(match, player):
+    """A player's shots-on-target in a finished match (player_match_shots), else None."""
+    f = Path("data/csv/derived/player_match_shots.csv")
+    if not f.exists():
+        return None
+    pt = frozenset(_norm_team(player).replace("-", " ").split())
+    for r in csv.DictReader(open(f)):
+        if r.get("match") != match:
+            continue
+        rt = frozenset(_norm_team(r.get("player", "")).replace("-", " ").split())
+        if rt and (rt <= pt or pt <= rt):
+            try:
+                return float(r.get("on_target") or 0)
+            except (ValueError, TypeError):
+                return None
+    return None
 
 
 if __name__ == "__main__":

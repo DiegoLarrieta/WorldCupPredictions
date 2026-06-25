@@ -55,6 +55,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Ecuador | 29% | _(no fetcheado)_ | ✅ |
 | Over 1.5 goles Germany | 22% | _(no fetcheado)_ | ❌ |
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ✅ |
+| Prop: Gonzalo Plata o0.5 SoT | 47% | 2.30 | ✅ |
 
 ### Curaçao vs Ivory Coast — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
 
@@ -75,6 +76,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Curaçao | 13% | _(no fetcheado)_ | ❌ |
 | Over 1.5 goles Ivory Coast | 54% | _(no fetcheado)_ | ✅ |
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ❌ |
+| Prop: Nicolas Pepe o0.5 SoT | 52% | 1.40 | ✅ |
 
 <!-- DAILY-BOARD:END -->
 

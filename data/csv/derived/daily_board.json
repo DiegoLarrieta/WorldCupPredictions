@@ -140,6 +140,12 @@
     0.392,
     "_(no fetcheado)_",
     true
+   ],
+   [
+    "Prop: Gonzalo Plata o0.5 SoT",
+    0.474,
+    "2.30",
+    true
    ]
   ]
  },
@@ -216,6 +222,12 @@
     0.394,
     "_(no fetcheado)_",
     false
+   ],
+   [
+    "Prop: Nicolas Pepe o0.5 SoT",
+    0.524,
+    "1.40",
+    true
    ]
   ]
  }
