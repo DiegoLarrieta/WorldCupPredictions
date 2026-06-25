@@ -55,38 +55,61 @@ def _kickoff(match: str) -> str:
     return best.replace("T", " ").replace("Z", "")[:16] if best else ""
 
 
-def _update_board(folder: Path, pred: dict, market, props) -> None:
-    """Upsert this fixture's row into README's daily board (sidecar JSON is the source)."""
+def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
+    """Upsert this fixture's full market breakdown into README's daily board (sidecar JSON
+    is the source). Every market we analyse gets its model prob + real odds where we have them."""
+    extra = extra or {}
     home, away = pred["match"].split(" vs ")
     e = pred["win_draw_loss"]["ENSEMBLE"]
-    fav = max([(home, e[home]), ("Draw", e["Draw"]), (away, e[away])], key=lambda x: x[1])
-    ou = "—"
-    if market and "ou_2.5" in market["markets"]:
-        ov = next((r for r in market["markets"]["ou_2.5"]["selections"] if r["selection"] == "over"), None)
-        if ov:
-            ou = f"over {ov['model_prob']:.0%} @ {ov['best_odds']:.2f} ({ov['verdict']})"
-    prop = (f"{props[0]['player']} o{props[0]['line']} @ {props[0]['over_price']:.2f}"
-            if props else "—")
+    eg = pred["expected_goals"]
+    lam = float(eg[home]) + float(eg[away])
+    x2 = {s["selection"]: s["best_odds"] for s in market["markets"]["1x2"]["selections"]} \
+        if market and "1x2" in market["markets"] else {}
+    NF = "_(no fetcheado)_"
+
+    def od(v):
+        return f"{v:.2f}" if v else NF
+
+    # (mercado, prob modelo, odds)
+    mk = [
+        (f"Gana {home}", e[home], od(x2.get("home"))),
+        ("Empate", e["Draw"], od(x2.get("draw"))),
+        (f"Gana {away}", e[away], od(x2.get("away"))),
+        (f"Doble oport. {home}", e[home] + e["Draw"], od(extra.get("dc_home"))),
+        (f"Doble oport. {away}", e[away] + e["Draw"], od(extra.get("dc_away"))),
+        ("Over 1.5 goles", poisson_over(lam, 1.5), od((extra.get("ou_1.5") or {}).get("over"))),
+        ("Over 2.5 goles", poisson_over(lam, 2.5), od((extra.get("ou_2.5") or {}).get("over"))),
+        ("Over 3.5 goles", poisson_over(lam, 3.5), od((extra.get("ou_3.5") or {}).get("over"))),
+        (f"Over 1.5 goles {home}", poisson_over(float(eg[home]), 1.5), od(extra.get("team_ov15_home"))),
+        (f"Over 1.5 goles {away}", poisson_over(float(eg[away]), 1.5), od(extra.get("team_ov15_away"))),
+        ("BTTS (ambos marcan)", float(pred.get("btts") or 0), od((extra.get("btts") or {}).get("yes"))),
+    ]
+    if props:
+        p = props[0]
+        mk.append((f"Prop: {p['player']} o{p['line']} SoT", p["model_over"], od(p.get("over_price"))))
+
     ko = _kickoff(pred["match"])
     row = {"match": pred["match"], "kickoff": ko, "date": ko[:10],
-           "onex2": f"{fav[0]} {fav[1]:.0%}", "ou": ou, "prop": prop,
-           "link": str(folder / "analysis.md")}
+           "link": str(folder / "analysis.md"),
+           "markets": [(lab, round(pr, 3), o) for lab, pr, o in mk]}
 
     rows = json.loads(BOARD_JSON.read_text()) if BOARD_JSON.exists() else []
-    rows = [r for r in rows if r["match"] != row["match"]] + [row]
+    rows = [r for r in rows if r.get("markets") is not None and r["match"] != row["match"]] + [row]
     today = row["date"] or max((r["date"] for r in rows), default="")
     rows = sorted([r for r in rows if r.get("date") == today], key=lambda r: r["kickoff"])
     BOARD_JSON.parent.mkdir(parents=True, exist_ok=True)
     BOARD_JSON.write_text(json.dumps(rows, indent=1, ensure_ascii=False))
 
     L = [f"## 📅 Tablero de hoy — {today or '(s/f)'}", "",
-         "_Se actualiza partido por partido vía `/analyze-match`. Detalle en cada `analysis.md`._", "",
-         "| Hora (UTC) | Partido | 1X2 (registro) | Total goles O/U 2.5 | Prop destacado | Análisis |",
-         "|---|---|---|---|---|---|"]
+         "_Prob = nuestro modelo. Odds = mejor precio de The Odds API. 1X2/doble-oport = "
+         "registro (sin edge vs cierre). Detalle: `analysis.md`._", ""]
     for r in rows:
         hhmm = (r["kickoff"][11:16] + "Z") if len(r["kickoff"]) >= 16 else "—"
-        L.append(f"| {hhmm} | {r['match']} | {r['onex2']} | {r['ou']} | {r['prop']} "
-                 f"| [análisis]({r['link']}) |")
+        L += [f"### {r['match']} — {hhmm} · [análisis]({r['link']})", "",
+              "| Mercado | Prob modelo | Odds |", "|---|---|---|"]
+        for lab, pr, o in r["markets"]:
+            L.append(f"| {lab} | {pr:.0%} | {o} |")
+        L.append("")
     if README.exists():
         txt = README.read_text()
         new = re.sub(r"<!-- DAILY-BOARD:START -->.*?<!-- DAILY-BOARD:END -->",
@@ -196,7 +219,13 @@ def main() -> None:
                  soft.get("ou_2.5") if isinstance(soft, dict) else None)
     (folder / "analysis.md").write_text(md)
     if args.source == "live":                       # publish to the README daily board
-        _update_board(folder, pred, market, props)
+        extra = {}
+        try:
+            from engine.odds_api import fetch_all_markets
+            extra = fetch_all_markets(home, away)
+        except Exception:
+            pass
+        _update_board(folder, pred, market, props, extra)
         print("-> README daily board updated")
     print(f"-> {folder/'analysis.md'}")
     print(md)

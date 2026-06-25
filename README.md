@@ -11,43 +11,25 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 ---
 
 <!-- DAILY-BOARD:START -->
-## 📅 Tablero de hoy — 2026-06-25 (grupo E)
+## 📅 Tablero de hoy — 2026-06-25
 
-_Prob = nuestro modelo (siempre). Odds = The Odds API; hoy solo bajamos 1X2 + O/U2.5, el resto figura no-fetcheado (Fase C). Detalle: `analysis.md`._
+_Prob = nuestro modelo. Odds = mejor precio de The Odds API. 1X2/doble-oport = registro (sin edge vs cierre). Detalle: `analysis.md`._
 
-### Ecuador vs Germany — 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
-
-| Mercado | Prob modelo | Odds |
-|---|---|---|
-| Gana Ecuador | 34% | 4.20 |
-| Empate | 30% | 4.40 |
-| Gana Germany | 36% | 1.90 |
-| Doble oport. Ecuador | 64% | _(no fetcheado)_ |
-| Doble oport. Germany | 66% | _(no fetcheado)_ |
-| Over 1.5 goles | 58% | _(no fetcheado)_ |
-| Over 2.5 goles | 31% | 1.76 |
-| Under 2.5 goles | 69% | 2.19 |
-| Over 3.5 goles | 13% | _(no fetcheado)_ |
-| Over 1.5 goles Ecuador | 29% | _(no fetcheado)_ |
-| Over 1.5 goles Germany | 22% | _(no fetcheado)_ |
-| BTTS | 39% | _(no fetcheado)_ |
-
-### Curaçao vs Ivory Coast — 20:00Z · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
+### Japan vs Sweden — 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
 
 | Mercado | Prob modelo | Odds |
 |---|---|---|
-| Gana Curaçao | 13% | 24.00 |
-| Empate | 22% | 9.50 |
-| Gana Ivory Coast | 65% | 1.19 |
-| Doble oport. Curaçao | 35% | _(no fetcheado)_ |
-| Doble oport. Ivory Coast | 87% | _(no fetcheado)_ |
-| Over 1.5 goles | 70% | _(no fetcheado)_ |
-| Over 2.5 goles | 44% | 1.52 |
-| Under 2.5 goles | 56% | 2.55 |
-| Over 3.5 goles | 23% | _(no fetcheado)_ |
-| Over 1.5 goles Curaçao | 13% | _(no fetcheado)_ |
-| Over 1.5 goles Ivory Coast | 54% | _(no fetcheado)_ |
-| BTTS | 39% | _(no fetcheado)_ |
+| Gana Japan | 64% | 2.12 |
+| Empate | 21% | 3.51 |
+| Gana Sweden | 15% | 4.20 |
+| Doble oport. Japan | 85% | 1.31 |
+| Doble oport. Sweden | 36% | 1.88 |
+| Over 1.5 goles | 80% | 1.34 |
+| Over 2.5 goles | 57% | 2.08 |
+| Over 3.5 goles | 35% | 3.60 |
+| Over 1.5 goles Japan | 61% | 2.07 |
+| Over 1.5 goles Sweden | 24% | _(no fetcheado)_ |
+| BTTS (ambos marcan) | 53% | 1.85 |
 
 <!-- DAILY-BOARD:END -->
 
