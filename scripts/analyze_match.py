@@ -82,29 +82,44 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
     def od(v):
         return f"{v:.2f}" if v else NF
 
-    # (mercado, prob modelo, odds)
+    # resultado (si se jugó) para los checks por mercado
+    ar = pred.get("actual_result") or {}
+    played, hg, ag, res_o = False, 0, 0, ""
+    if ar.get("score") and "-" in str(ar["score"]):
+        try:
+            hg, ag = (int(x) for x in str(ar["score"]).split("-"))
+            res_o, played = ar.get("result", ""), True
+        except ValueError:
+            played = False
+    tot = hg + ag
+
+    def h(cond):                       # ✅/❌ si jugado, ⏳ si no
+        return bool(cond) if played else None
+
+    # (mercado, prob, odds, ¿pasó?)
     mk = [
-        (f"Gana {home}", e[home], od(x2.get("home"))),
-        ("Empate", e["Draw"], od(x2.get("draw"))),
-        (f"Gana {away}", e[away], od(x2.get("away"))),
-        (f"Doble oport. {home}", e[home] + e["Draw"], od(extra.get("dc_home"))),
-        (f"Doble oport. {away}", e[away] + e["Draw"], od(extra.get("dc_away"))),
-        ("Over 1.5 goles", poisson_over(lam, 1.5), od((extra.get("ou_1.5") or {}).get("over"))),
-        ("Over 2.5 goles", poisson_over(lam, 2.5), od((extra.get("ou_2.5") or {}).get("over"))),
-        ("Over 3.5 goles", poisson_over(lam, 3.5), od((extra.get("ou_3.5") or {}).get("over"))),
-        (f"Over 1.5 goles {home}", poisson_over(float(eg[home]), 1.5), od(extra.get("team_ov15_home"))),
-        (f"Over 1.5 goles {away}", poisson_over(float(eg[away]), 1.5), od(extra.get("team_ov15_away"))),
-        ("BTTS (ambos marcan)", float(pred.get("btts") or 0), od((extra.get("btts") or {}).get("yes"))),
+        (f"Gana {home}", e[home], od(x2.get("home")), h(res_o == "home")),
+        ("Empate", e["Draw"], od(x2.get("draw")), h(res_o == "draw")),
+        (f"Gana {away}", e[away], od(x2.get("away")), h(res_o == "away")),
+        (f"Doble oport. {home}", e[home] + e["Draw"], od(extra.get("dc_home")), h(res_o in ("home", "draw"))),
+        (f"Doble oport. {away}", e[away] + e["Draw"], od(extra.get("dc_away")), h(res_o in ("away", "draw"))),
+        ("Over 1.5 goles", poisson_over(lam, 1.5), od((extra.get("ou_1.5") or {}).get("over")), h(tot > 1.5)),
+        ("Over 2.5 goles", poisson_over(lam, 2.5), od((extra.get("ou_2.5") or {}).get("over")), h(tot > 2.5)),
+        ("Over 3.5 goles", poisson_over(lam, 3.5), od((extra.get("ou_3.5") or {}).get("over")), h(tot > 3.5)),
+        (f"Over 1.5 goles {home}", poisson_over(float(eg[home]), 1.5), od(extra.get("team_ov15_home")), h(hg >= 2)),
+        (f"Over 1.5 goles {away}", poisson_over(float(eg[away]), 1.5), od(extra.get("team_ov15_away")), h(ag >= 2)),
+        ("BTTS (ambos marcan)", float(pred.get("btts") or 0), od((extra.get("btts") or {}).get("yes")), h(hg > 0 and ag > 0)),
     ]
     if props:
         p = props[0]
-        mk.append((f"Prop: {p['player']} o{p['line']} SoT", p["model_over"], od(p.get("over_price"))))
+        mk.append((f"Prop: {p['player']} o{p['line']} SoT", p["model_over"], od(p.get("over_price")), None))
 
-    # resultado + checks si ya se jugó (lo escribe score-week en actual_result)
+    # apuestas sugeridas (lectura sharp-vs-blando) + resultado
+    sug = "; ".join(f"{r['selection']} @ {r['best_odds']:.2f} ({r['soft_edge']:+.0%})"
+                    for r in (market.get("recommend") if market else []) or [])
     res = ""
-    ar = pred.get("actual_result") or {}
-    if ar.get("score"):
-        res = f"✅ Jugado: **{ar['score']}** ({ar.get('result','')})"
+    if played:
+        res = f"✅ Jugado: **{ar['score']}** ({res_o})"
         am = folder / "analysis.md"
         if am.exists():
             m = re.search(r"Checks acertados: (\d+/\d+)", am.read_text())
@@ -112,8 +127,8 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
                 res += f" · checks **{m.group(1)}**"
     ko = _kickoff(pred["match"])
     row = {"match": pred["match"], "kickoff": ko, "date": ko[:10], "result": res,
-           "link": str(folder / "analysis.md"),
-           "markets": [(lab, round(pr, 3), o) for lab, pr, o in mk]}
+           "sug": sug, "link": str(folder / "analysis.md"),
+           "markets": [(lab, round(pr, 3), o, hp) for lab, pr, o, hp in mk]}
 
     rows = json.loads(BOARD_JSON.read_text()) if BOARD_JSON.exists() else []
     rows = [r for r in rows if r.get("markets") is not None and r["match"] != row["match"]] + [row]
@@ -128,11 +143,17 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
         hhmm = (r["kickoff"][11:16] + "Z") if len(r.get("kickoff", "")) >= 16 else "—"
         head = f"### {r['match']} — {r['kickoff'][:10]} {hhmm} · [análisis]({r['link']})"
         L += [head, ""]
-        if r.get("result"):
-            L += [r["result"], ""]
-        L += ["| Mercado | Prob modelo | Odds |", "|---|---|---|"]
-        for lab, pr, o in r["markets"]:
-            L.append(f"| {lab} | {pr:.0%} | {o} |")
+        L += [r["result"] if r.get("result") else "⏳ Por jugarse", ""]
+        if r.get("sug"):
+            L += [f"🎯 **Apuestas sugeridas:** {r['sug']}", ""]
+        else:
+            L += ["🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)", ""]
+        L += ["| Mercado | Prob modelo | Odds | Check |", "|---|---|---|---|"]
+        for m in r["markets"]:
+            lab, pr, o = m[0], m[1], m[2]
+            hp = m[3] if len(m) > 3 else None
+            ck = "⏳" if hp is None else ("✅" if hp else "❌")
+            L.append(f"| {lab} | {pr:.0%} | {o} | {ck} |")
         L.append("")
     if README.exists():
         txt = README.read_text()

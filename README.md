@@ -17,56 +17,64 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
 
-| Mercado | Prob modelo | Odds |
-|---|---|---|
-| Gana Japan | 64% | 2.28 |
-| Empate | 21% | 3.60 |
-| Gana Sweden | 15% | 4.60 |
-| Doble oport. Japan | 85% | 1.38 |
-| Doble oport. Sweden | 36% | 1.76 |
-| Over 1.5 goles | 80% | 1.32 |
-| Over 2.5 goles | 57% | 1.97 |
-| Over 3.5 goles | 35% | 3.50 |
-| Over 1.5 goles Japan | 61% | 2.19 |
-| Over 1.5 goles Sweden | 24% | 3.05 |
-| BTTS (ambos marcan) | 53% | 1.82 |
-| Prop: Alexander Isak o0.5 SoT | 64% | 1.60 |
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Japan | 64% | 2.28 | ⏳ |
+| Empate | 21% | 3.60 | ⏳ |
+| Gana Sweden | 15% | 4.60 | ⏳ |
+| Doble oport. Japan | 85% | 1.38 | ⏳ |
+| Doble oport. Sweden | 36% | 1.76 | ⏳ |
+| Over 1.5 goles | 80% | 1.32 | ⏳ |
+| Over 2.5 goles | 57% | 1.97 | ⏳ |
+| Over 3.5 goles | 35% | 3.50 | ⏳ |
+| Over 1.5 goles Japan | 61% | 2.19 | ⏳ |
+| Over 1.5 goles Sweden | 24% | 3.05 | ⏳ |
+| BTTS (ambos marcan) | 53% | 1.82 | ⏳ |
+| Prop: Alexander Isak o0.5 SoT | 64% | 1.60 | ⏳ |
 
 ### Ecuador vs Germany — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
 
 ✅ Jugado: **2-1** (home) · checks **6/11**
 
-| Mercado | Prob modelo | Odds |
-|---|---|---|
-| Gana Ecuador | 34% | 4.20 |
-| Empate | 30% | 4.40 |
-| Gana Germany | 36% | 1.90 |
-| Doble oport. Ecuador | 64% | _(no fetcheado)_ |
-| Doble oport. Germany | 66% | _(no fetcheado)_ |
-| Over 1.5 goles | 58% | _(no fetcheado)_ |
-| Over 2.5 goles | 31% | _(no fetcheado)_ |
-| Over 3.5 goles | 13% | _(no fetcheado)_ |
-| Over 1.5 goles Ecuador | 29% | _(no fetcheado)_ |
-| Over 1.5 goles Germany | 22% | _(no fetcheado)_ |
-| BTTS (ambos marcan) | 39% | _(no fetcheado)_ |
+🎯 **Apuestas sugeridas:** home @ 4.20 (+10%)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Ecuador | 34% | 4.20 | ✅ |
+| Empate | 30% | 4.40 | ❌ |
+| Gana Germany | 36% | 1.90 | ❌ |
+| Doble oport. Ecuador | 64% | _(no fetcheado)_ | ✅ |
+| Doble oport. Germany | 66% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 58% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 31% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 13% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Ecuador | 29% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Germany | 22% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ✅ |
 
 ### Curaçao vs Ivory Coast — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
 
 ✅ Jugado: **0-2** (away) · checks **11/11**
 
-| Mercado | Prob modelo | Odds |
-|---|---|---|
-| Gana Curaçao | 13% | 24.00 |
-| Empate | 22% | 9.50 |
-| Gana Ivory Coast | 65% | 1.19 |
-| Doble oport. Curaçao | 35% | _(no fetcheado)_ |
-| Doble oport. Ivory Coast | 87% | _(no fetcheado)_ |
-| Over 1.5 goles | 70% | _(no fetcheado)_ |
-| Over 2.5 goles | 44% | _(no fetcheado)_ |
-| Over 3.5 goles | 23% | _(no fetcheado)_ |
-| Over 1.5 goles Curaçao | 13% | _(no fetcheado)_ |
-| Over 1.5 goles Ivory Coast | 54% | _(no fetcheado)_ |
-| BTTS (ambos marcan) | 39% | _(no fetcheado)_ |
+🎯 **Apuestas sugeridas:** away @ 1.19 (+4%)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Curaçao | 13% | 24.00 | ❌ |
+| Empate | 22% | 9.50 | ❌ |
+| Gana Ivory Coast | 65% | 1.19 | ✅ |
+| Doble oport. Curaçao | 35% | _(no fetcheado)_ | ❌ |
+| Doble oport. Ivory Coast | 87% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 70% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 44% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 23% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Curaçao | 13% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Ivory Coast | 54% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ❌ |
 
 <!-- DAILY-BOARD:END -->
 

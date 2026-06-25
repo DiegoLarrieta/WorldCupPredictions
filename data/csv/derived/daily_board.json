@@ -72,62 +72,74 @@
   "kickoff": "2026-06-25 20:00",
   "date": "2026-06-25",
   "result": "✅ Jugado: **2-1** (home) · checks **6/11**",
+  "sug": "home @ 4.20 (+10%)",
   "link": "predictions/week3/groupE/ecu-ger/analysis.md",
   "markets": [
    [
     "Gana Ecuador",
     0.345,
-    "4.20"
+    "4.20",
+    true
    ],
    [
     "Empate",
     0.296,
-    "4.40"
+    "4.40",
+    false
    ],
    [
     "Gana Germany",
     0.359,
-    "1.90"
+    "1.90",
+    false
    ],
    [
     "Doble oport. Ecuador",
     0.641,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Germany",
     0.655,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.578,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.307,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.132,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Ecuador",
     0.286,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles Germany",
     0.22,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.392,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ]
   ]
  },
@@ -136,62 +148,74 @@
   "kickoff": "2026-06-25 20:00",
   "date": "2026-06-25",
   "result": "✅ Jugado: **0-2** (away) · checks **11/11**",
+  "sug": "away @ 1.19 (+4%)",
   "link": "predictions/week3/groupE/cuw-civ/analysis.md",
   "markets": [
    [
     "Gana Curaçao",
     0.126,
-    "24.00"
+    "24.00",
+    false
    ],
    [
     "Empate",
     0.222,
-    "9.50"
+    "9.50",
+    false
    ],
    [
     "Gana Ivory Coast",
     0.652,
-    "1.19"
+    "1.19",
+    true
    ],
    [
     "Doble oport. Curaçao",
     0.348,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Doble oport. Ivory Coast",
     0.874,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.7,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.441,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.23,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Curaçao",
     0.129,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Ivory Coast",
     0.543,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    true
    ],
    [
     "BTTS (ambos marcan)",
     0.394,
-    "_(no fetcheado)_"
+    "_(no fetcheado)_",
+    false
    ]
   ]
  }
