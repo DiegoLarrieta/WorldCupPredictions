@@ -26,6 +26,7 @@ import argparse
 import csv
 import json
 import math
+import re
 import subprocess
 import sys
 from collections import defaultdict
@@ -36,7 +37,62 @@ from engine.market import compare_lines               # noqa: E402
 from scripts.prop_clov import _real_data_names, _has_real_data  # noqa: E402
 
 SNAP = Path("data/csv/derived/odds_snapshots.csv")
+README = Path("README.md")
+BOARD_JSON = Path("data/csv/derived/daily_board.json")
 GOAL_LINES = (1.5, 2.5, 3.5)
+
+
+def _kickoff(match: str) -> str:
+    """'YYYY-MM-DD HH:MM' kickoff for a match from the latest odds snapshot, else ''."""
+    if not SNAP.exists():
+        return ""
+    want = set(match.lower().replace(" vs ", " ").split())
+    best = ""
+    for r in csv.DictReader(open(SNAP)):
+        m = set(r["match"].lower().replace(" vs ", " ").replace("&", "").split())
+        if want & m and len(want & m) >= 2:                # both teams present
+            best = r["commence_time"]
+    return best.replace("T", " ").replace("Z", "")[:16] if best else ""
+
+
+def _update_board(folder: Path, pred: dict, market, props) -> None:
+    """Upsert this fixture's row into README's daily board (sidecar JSON is the source)."""
+    home, away = pred["match"].split(" vs ")
+    e = pred["win_draw_loss"]["ENSEMBLE"]
+    fav = max([(home, e[home]), ("Draw", e["Draw"]), (away, e[away])], key=lambda x: x[1])
+    ou = "—"
+    if market and "ou_2.5" in market["markets"]:
+        ov = next((r for r in market["markets"]["ou_2.5"]["selections"] if r["selection"] == "over"), None)
+        if ov:
+            ou = f"over {ov['model_prob']:.0%} @ {ov['best_odds']:.2f} ({ov['verdict']})"
+    prop = (f"{props[0]['player']} o{props[0]['line']} @ {props[0]['over_price']:.2f}"
+            if props else "—")
+    ko = _kickoff(pred["match"])
+    row = {"match": pred["match"], "kickoff": ko, "date": ko[:10],
+           "onex2": f"{fav[0]} {fav[1]:.0%}", "ou": ou, "prop": prop,
+           "link": str(folder / "analysis.md")}
+
+    rows = json.loads(BOARD_JSON.read_text()) if BOARD_JSON.exists() else []
+    rows = [r for r in rows if r["match"] != row["match"]] + [row]
+    today = row["date"] or max((r["date"] for r in rows), default="")
+    rows = sorted([r for r in rows if r.get("date") == today], key=lambda r: r["kickoff"])
+    BOARD_JSON.parent.mkdir(parents=True, exist_ok=True)
+    BOARD_JSON.write_text(json.dumps(rows, indent=1, ensure_ascii=False))
+
+    L = [f"## 📅 Tablero de hoy — {today or '(s/f)'}", "",
+         "_Se actualiza partido por partido vía `/analyze-match`. Detalle en cada `analysis.md`._", "",
+         "| Hora (UTC) | Partido | 1X2 (registro) | Total goles O/U 2.5 | Prop destacado | Análisis |",
+         "|---|---|---|---|---|---|"]
+    for r in rows:
+        hhmm = (r["kickoff"][11:16] + "Z") if len(r["kickoff"]) >= 16 else "—"
+        L.append(f"| {hhmm} | {r['match']} | {r['onex2']} | {r['ou']} | {r['prop']} "
+                 f"| [análisis]({r['link']}) |")
+    if README.exists():
+        txt = README.read_text()
+        new = re.sub(r"<!-- DAILY-BOARD:START -->.*?<!-- DAILY-BOARD:END -->",
+                     "<!-- DAILY-BOARD:START -->\n" + "\n".join(L) + "\n<!-- DAILY-BOARD:END -->",
+                     txt, flags=re.S)
+        README.write_text(new)
 
 
 def poisson_over(total_lambda: float, line: float) -> float:
@@ -111,6 +167,13 @@ def main() -> None:
         except OddsAPIError as ex:
             sharp, soft = {}, {}
             print(f"odds fetch failed: {ex}")
+        # backfill the goals line (priority market) from the last snapshot if live missed it
+        if "ou_2.5" not in sharp:
+            key = home.split()[0] if len(home.split()[0]) > 3 else away.split()[0]
+            s_sharp, s_soft, _ = _snapshot_odds(key)
+            if s_sharp.get("ou_2.5"):
+                sharp["ou_2.5"] = s_sharp["ou_2.5"]
+                soft.setdefault("ou_2.5", s_soft.get("ou_2.5", s_sharp["ou_2.5"]))
 
     market = compare_lines(pred, sharp, soft) if sharp else None
 
@@ -130,6 +193,9 @@ def main() -> None:
 
     md = _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts)
     (folder / "analysis.md").write_text(md)
+    if args.source == "live":                       # publish to the README daily board
+        _update_board(folder, pred, market, props)
+        print("-> README daily board updated")
     print(f"-> {folder/'analysis.md'}")
     print(md)
 
