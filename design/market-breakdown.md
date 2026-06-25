@@ -32,6 +32,13 @@ cotiza el total en partidos chicos). Pedido: tabla más rica (goles O 1.5/2.5/3.
 oportunidad, goles por equipo, prop destacado) CON precios reales (blandos marcados). Fix:
 (a) `_update_board` debe usar el mismo fallback soft que el `analysis.md`; (b) más columnas.
 
+**⚠️ REQUERIMIENTO FIRME (Diego, 2026-06-25): SIEMPRE traer las odds de TODOS los mercados
+que analizamos.** Hoy `snapshot_odds.py` / `fetch_odds` solo piden `h2h,totals` → el resto
+del tablero dice "(no fetcheado)". Fase C debe ampliar el fetch a `double_chance`,
+`alternate_totals` (1.5/3.5/4.5), `team_totals`, `btts` — y parsear cada uno en
+`engine/odds_api.py` (el parser actual solo entiende h2h + totals). Que cada apuesta del
+tablero tenga su odd real, siempre. (No es one-liner: cada mercado tiene su estructura.)
+
 **Para retomar:** sesión nueva → "seguimos con Fase B/C del market-breakdown". Todo el detalle
 está abajo. Datos: `match_team_stats.csv` (56 team-matches: shots_for/sot_for/against),
 `player_shot_rates.csv` (con `rate_source`), `engine.models.dixon_coles.lambdas` (λ por equipo).
