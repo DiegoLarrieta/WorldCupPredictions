@@ -165,6 +165,54 @@ def _matches_point(point, target: float) -> bool:
         return False
 
 
+EXTRA_MARKETS = "alternate_totals,double_chance,btts,team_totals"
+
+
+def fetch_all_markets(home: str, away: str, *, regions: str = DEFAULT_REGIONS,
+                      api_key: str | None = None, sport: str = DEFAULT_SPORT) -> dict:
+    """Best price across books for the full market set the board shows: ou_1.5/2.5/3.5,
+    btts, double chance per team, team totals over 1.5. Uses the per-event endpoint
+    (a few credits). Markets a book doesn't offer are simply omitted. Called from
+    /analyze-match when you analyse a fixture."""
+    ev = find_event(fetch_event_list(api_key, sport=sport), home, away)
+    api_h, api_a = ev.get("home_team", ""), ev.get("away_team", "")
+    o = fetch_event_odds(ev["id"], markets=EXTRA_MARKETS, regions=regions,
+                         api_key=api_key, sport=sport)
+    best: dict[tuple, float] = {}
+    for bk in o.get("bookmakers", []):
+        for m in bk.get("markets", []):
+            for out in m.get("outcomes", []):
+                k = (m.get("key"), _norm(out.get("name") or ""), out.get("point"),
+                     _norm(out.get("description") or ""))
+                pr = float(out.get("price") or 0)
+                if pr and pr > best.get(k, 0.0):
+                    best[k] = pr
+
+    def g(mk, name, point=None, desc=""):
+        return best.get((mk, _norm(name), point, _norm(desc)))
+
+    # map the API's home/away to OUR home/away (event matched order-independently)
+    h_is_home = _canon(api_h) == _canon(home)
+    our_home_api, our_away_api = (api_h, api_a) if h_is_home else (api_a, api_h)
+
+    res: dict = {}
+    for ln in (1.5, 2.5, 3.5):
+        ov, un = g("alternate_totals", "Over", ln), g("alternate_totals", "Under", ln)
+        if ov and un:
+            res[f"ou_{ln}"] = {"over": ov, "under": un}
+    if g("btts", "Yes"):
+        res["btts"] = {"yes": g("btts", "Yes"), "no": g("btts", "No")}
+    if g("double_chance", f"{our_home_api} or Draw"):
+        res["dc_home"] = g("double_chance", f"{our_home_api} or Draw")
+    if g("double_chance", f"{our_away_api} or Draw"):
+        res["dc_away"] = g("double_chance", f"{our_away_api} or Draw")
+    if g("team_totals", "Over", 1.5, our_home_api):
+        res["team_ov15_home"] = g("team_totals", "Over", 1.5, our_home_api)
+    if g("team_totals", "Over", 1.5, our_away_api):
+        res["team_ov15_away"] = g("team_totals", "Over", 1.5, our_away_api)
+    return res
+
+
 # ---- player props ---------------------------------------------------------
 DEFAULT_PROP_MARKET = "player_shots_on_target"
 
