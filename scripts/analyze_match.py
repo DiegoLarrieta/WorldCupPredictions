@@ -100,25 +100,37 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
         p = props[0]
         mk.append((f"Prop: {p['player']} o{p['line']} SoT", p["model_over"], od(p.get("over_price"))))
 
+    # resultado + checks si ya se jugó (lo escribe score-week en actual_result)
+    res = ""
+    ar = pred.get("actual_result") or {}
+    if ar.get("score"):
+        res = f"✅ Jugado: **{ar['score']}** ({ar.get('result','')})"
+        am = folder / "analysis.md"
+        if am.exists():
+            m = re.search(r"Checks acertados: (\d+/\d+)", am.read_text())
+            if m:
+                res += f" · checks **{m.group(1)}**"
     ko = _kickoff(pred["match"])
-    row = {"match": pred["match"], "kickoff": ko, "date": ko[:10],
+    row = {"match": pred["match"], "kickoff": ko, "date": ko[:10], "result": res,
            "link": str(folder / "analysis.md"),
            "markets": [(lab, round(pr, 3), o) for lab, pr, o in mk]}
 
     rows = json.loads(BOARD_JSON.read_text()) if BOARD_JSON.exists() else []
     rows = [r for r in rows if r.get("markets") is not None and r["match"] != row["match"]] + [row]
-    today = row["date"] or max((r["date"] for r in rows), default="")
-    rows = sorted([r for r in rows if r.get("date") == today], key=lambda r: r["kickoff"])
+    rows = sorted(rows, key=lambda r: r.get("kickoff", ""), reverse=True)   # nuevos arriba
     BOARD_JSON.parent.mkdir(parents=True, exist_ok=True)
     BOARD_JSON.write_text(json.dumps(rows, indent=1, ensure_ascii=False))
 
-    L = [f"## 📅 Tablero de hoy — {today or '(s/f)'}", "",
-         "_Prob = nuestro modelo. Odds = mejor precio de The Odds API. 1X2/doble-oport = "
-         "registro (sin edge vs cierre). Detalle: `analysis.md`._", ""]
+    L = ["## 📅 Tablero de partidos", "",
+         "_Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · "
+         "1X2/doble-oport = registro. Detalle + checks: `analysis.md`._", ""]
     for r in rows:
-        hhmm = (r["kickoff"][11:16] + "Z") if len(r["kickoff"]) >= 16 else "—"
-        L += [f"### {r['match']} — {hhmm} · [análisis]({r['link']})", "",
-              "| Mercado | Prob modelo | Odds |", "|---|---|---|"]
+        hhmm = (r["kickoff"][11:16] + "Z") if len(r.get("kickoff", "")) >= 16 else "—"
+        head = f"### {r['match']} — {r['kickoff'][:10]} {hhmm} · [análisis]({r['link']})"
+        L += [head, ""]
+        if r.get("result"):
+            L += [r["result"], ""]
+        L += ["| Mercado | Prob modelo | Odds |", "|---|---|---|"]
         for lab, pr, o in r["markets"]:
             L.append(f"| {lab} | {pr:.0%} | {o} |")
         L.append("")
@@ -239,9 +251,7 @@ def main() -> None:
     md = _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
                  soft.get("ou_2.5") if isinstance(soft, dict) else None, extra)
     (folder / "analysis.md").write_text(md)
-    if args.source == "live":                       # publish to the README daily board
-        _update_board(folder, pred, market, props, extra)
-        print("-> README daily board updated")
+    _update_board(folder, pred, market, props, extra)   # accumulate in the README board
     print(f"-> {folder/'analysis.md'}")
     print(md)
 
