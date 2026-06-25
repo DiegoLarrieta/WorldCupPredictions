@@ -3,10 +3,19 @@
   "match": "Ecuador vs Germany",
   "kickoff": "2026-06-25 20:00",
   "date": "2026-06-25",
-  "onex2": "Ecuador 36%",
+  "onex2": "Germany 36%",
+  "ou": "—",
+  "prop": "John Yeboah o0.5 @ 2.05",
+  "link": "predictions/week3/groupE/ecu-ger/analysis.md"
+ },
+ {
+  "match": "Curaçao vs Ivory Coast",
+  "kickoff": "2026-06-25 20:00",
+  "date": "2026-06-25",
+  "onex2": "Ivory Coast 65%",
   "ou": "—",
   "prop": "—",
-  "link": "predictions/week3/groupE/ecu-ger/analysis.md"
+  "link": "predictions/week3/groupE/cuw-civ/analysis.md"
  },
  {
   "match": "Japan vs Sweden",

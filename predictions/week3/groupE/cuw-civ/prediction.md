@@ -6,23 +6,23 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 
 | Outcome | Probability |
 |---|---|
-| **Curaçao win** | **10%** |
-| Draw | 20% |
-| **Ivory Coast win** | **70%** |
+| **Curaçao win** | **13%** |
+| Draw | 22% |
+| **Ivory Coast win** | **65%** |
 
-- Expected goals: Curaçao 0.6 – 2.05 Ivory Coast
-- Over 2.5: 49%  ·  BTTS: 40%
-- Likely scores: 0-2 (15%), 0-1 (14%), 0-3 (10%), 1-1 (9%)
+- Expected goals: Curaçao 0.62 – 1.82 Ivory Coast
+- Over 2.5: 44%  ·  BTTS: 39%
+- Likely scores: 0-1 (15%), 0-2 (14%), 1-1 (10%), 0-0 (9%)
 
 ## The two models it blends
 
 | Model | Curaçao | Draw | Ivory Coast |
 |---|---|---|---|
-| Dixon-Coles | 9% | 20% | 71% |
-| Elo | 13% | 23% | 64% |
-| **Ensemble** | **10%** | **20%** | **70%** |
+| Dixon-Coles | 12% | 23% | 66% |
+| Elo | 16% | 24% | 60% |
+| **Ensemble** | **13%** | **22%** | **65%** |
 
-Elo: Curaçao 1599 vs Ivory Coast 1863.
+Elo: Curaçao 1623 vs Ivory Coast 1845.
 ## Actual result
 
 _Not yet played. The post-match step fills this in and scores the prediction (feedback loop)._

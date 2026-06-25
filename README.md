@@ -17,7 +17,8 @@ _Se actualiza partido por partido vía `/analyze-match`. Detalle en cada `analys
 
 | Hora (UTC) | Partido | 1X2 (registro) | Total goles O/U 2.5 | Prop destacado | Análisis |
 |---|---|---|---|---|---|
-| 20:00Z | Ecuador vs Germany | Ecuador 36% | — | — | [análisis](predictions/week3/groupE/ecu-ger/analysis.md) |
+| 20:00Z | Ecuador vs Germany | Germany 36% | — | John Yeboah o0.5 @ 2.05 | [análisis](predictions/week3/groupE/ecu-ger/analysis.md) |
+| 20:00Z | Curaçao vs Ivory Coast | Ivory Coast 65% | — | — | [análisis](predictions/week3/groupE/cuw-civ/analysis.md) |
 | 23:00Z | Japan vs Sweden | Japan 64% | over 57% @ 1.91 (suspect) | — | [análisis](predictions/week3/groupF/jpn-swe/analysis.md) |
 <!-- DAILY-BOARD:END -->
 

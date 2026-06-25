@@ -8,59 +8,59 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Ecuador": 0.359,
-      "Draw": 0.295,
-      "Germany": 0.346
+      "Ecuador": 0.345,
+      "Draw": 0.296,
+      "Germany": 0.359
     },
     "ensemble_uncalibrated": {
-      "Ecuador": 0.357,
-      "Draw": 0.298,
-      "Germany": 0.345
+      "Ecuador": 0.344,
+      "Draw": 0.3,
+      "Germany": 0.356
     },
     "dixon_coles": {
-      "Ecuador": 0.355,
-      "Draw": 0.324,
-      "Germany": 0.321
+      "Ecuador": 0.382,
+      "Draw": 0.328,
+      "Germany": 0.289
     },
     "elo": {
-      "Ecuador": 0.358,
-      "Draw": 0.274,
-      "Germany": 0.368
+      "Ecuador": 0.309,
+      "Draw": 0.273,
+      "Germany": 0.418
     }
   },
   "elo": {
-    "Ecuador": 1984,
-    "Germany": 2014
+    "Ecuador": 1959,
+    "Germany": 2032
   },
   "expected_goals": {
-    "Ecuador": 1.04,
-    "Germany": 0.97
+    "Ecuador": 1.06,
+    "Germany": 0.88
   },
   "over_under_2_5": {
-    "over": 0.325,
-    "under": 0.675
+    "over": 0.309,
+    "under": 0.691
   },
-  "btts": 0.408,
+  "btts": 0.392,
   "top_scorelines": [
     {
-      "score": "1-1",
-      "prob": 0.143
-    },
-    {
       "score": "0-0",
-      "prob": 0.143
+      "prob": 0.151
     },
     {
       "score": "1-0",
-      "prob": 0.132
+      "prob": 0.143
+    },
+    {
+      "score": "1-1",
+      "prob": 0.142
     },
     {
       "score": "0-1",
-      "prob": 0.123
+      "prob": 0.118
     },
     {
       "score": "2-0",
-      "prob": 0.072
+      "prob": 0.08
     }
   ],
   "lineups": null,

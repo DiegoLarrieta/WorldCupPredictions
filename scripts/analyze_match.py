@@ -168,12 +168,13 @@ def main() -> None:
             sharp, soft = {}, {}
             print(f"odds fetch failed: {ex}")
         # backfill the goals line (priority market) from the last snapshot if live missed it
-        if "ou_2.5" not in sharp:
+        if "ou_2.5" not in sharp or "ou_2.5" not in soft:
             key = home.split()[0] if len(home.split()[0]) > 3 else away.split()[0]
             s_sharp, s_soft, _ = _snapshot_odds(key)
-            if s_sharp.get("ou_2.5"):
+            if "ou_2.5" not in sharp and s_sharp.get("ou_2.5"):
                 sharp["ou_2.5"] = s_sharp["ou_2.5"]
-                soft.setdefault("ou_2.5", s_soft.get("ou_2.5", s_sharp["ou_2.5"]))
+            if "ou_2.5" not in soft and s_soft.get("ou_2.5"):   # soft total even if sharp lacks it
+                soft["ou_2.5"] = s_soft["ou_2.5"]
 
     market = compare_lines(pred, sharp, soft) if sharp else None
 
@@ -191,7 +192,8 @@ def main() -> None:
         except ESPNError:
             result = None
 
-    md = _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts)
+    md = _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
+                 soft.get("ou_2.5") if isinstance(soft, dict) else None)
     (folder / "analysis.md").write_text(md)
     if args.source == "live":                       # publish to the README daily board
         _update_board(folder, pred, market, props)
@@ -200,7 +202,8 @@ def main() -> None:
     print(md)
 
 
-def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts) -> str:
+def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
+            soft_ou=None) -> str:
     home, away = pred["match"].split(" vs ")
     L = [f"# Analysis — {pred['match']}", "",
          f"_as_of {pred['as_of']} · source: {args.source}"
@@ -226,11 +229,12 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
     for ln in GOAL_LINES:
         p_over = poisson_over(tot_lambda, ln)
         price = note = "—"
-        if ln == 2.5 and ou_mkt:
-            over_row = next((r for r in ou_mkt["selections"] if r["selection"] == "over"), None)
-            if over_row:
-                price = f"{over_row['best_odds']:.2f}"
-                note = over_row["verdict"]
+        if ln == 2.5:
+            over_row = next((r for r in ou_mkt["selections"] if r["selection"] == "over"), None) if ou_mkt else None
+            if over_row:                                    # sharp present -> price + verdict
+                price, note = f"{over_row['best_odds']:.2f}", over_row["verdict"]
+            elif soft_ou and soft_ou.get("over"):           # soft-only -> show price, no sharp ref
+                price, note = f"{soft_ou['over']:.2f}", "soft (sin ref sharp)"
         L.append(f"| over {ln} | {p_over:.0%} | {price} | {note} |")
     L += ["", f"- BTTS (both score): model **{pred.get('btts'):.0%}**", ""]
 

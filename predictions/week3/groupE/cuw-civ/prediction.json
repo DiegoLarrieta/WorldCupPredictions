@@ -8,59 +8,59 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Curaçao": 0.099,
-      "Draw": 0.198,
-      "Ivory Coast": 0.704
+      "Curaçao": 0.126,
+      "Draw": 0.222,
+      "Ivory Coast": 0.652
     },
     "ensemble_uncalibrated": {
-      "Curaçao": 0.114,
-      "Draw": 0.213,
-      "Ivory Coast": 0.674
+      "Curaçao": 0.141,
+      "Draw": 0.235,
+      "Ivory Coast": 0.624
     },
     "dixon_coles": {
-      "Curaçao": 0.091,
-      "Draw": 0.198,
-      "Ivory Coast": 0.71
+      "Curaçao": 0.115,
+      "Draw": 0.23,
+      "Ivory Coast": 0.655
     },
     "elo": {
-      "Curaçao": 0.134,
-      "Draw": 0.227,
-      "Ivory Coast": 0.639
+      "Curaçao": 0.164,
+      "Draw": 0.241,
+      "Ivory Coast": 0.595
     }
   },
   "elo": {
-    "Curaçao": 1599,
-    "Ivory Coast": 1863
+    "Curaçao": 1623,
+    "Ivory Coast": 1845
   },
   "expected_goals": {
-    "Curaçao": 0.6,
-    "Ivory Coast": 2.05
+    "Curaçao": 0.62,
+    "Ivory Coast": 1.82
   },
   "over_under_2_5": {
-    "over": 0.493,
-    "under": 0.507
+    "over": 0.44,
+    "under": 0.56
   },
-  "btts": 0.396,
+  "btts": 0.394,
   "top_scorelines": [
     {
-      "score": "0-2",
-      "prob": 0.149
-    },
-    {
       "score": "0-1",
-      "prob": 0.14
+      "prob": 0.153
     },
     {
-      "score": "0-3",
-      "prob": 0.102
+      "score": "0-2",
+      "prob": 0.144
     },
     {
       "score": "1-1",
-      "prob": 0.092
+      "prob": 0.105
+    },
+    {
+      "score": "0-0",
+      "prob": 0.093
     },
     {
       "score": "1-2",
-      "prob": 0.089
+      "prob": 0.09
     }
   ],
   "lineups": null,

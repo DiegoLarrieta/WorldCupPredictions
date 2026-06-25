@@ -6,23 +6,23 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 
 | Outcome | Probability |
 |---|---|
-| **Ecuador win** | **36%** |
+| **Ecuador win** | **34%** |
 | Draw | 30% |
-| **Germany win** | **35%** |
+| **Germany win** | **36%** |
 
-- Expected goals: Ecuador 1.04 – 0.97 Germany
-- Over 2.5: 32%  ·  BTTS: 41%
-- Likely scores: 1-1 (14%), 0-0 (14%), 1-0 (13%), 0-1 (12%)
+- Expected goals: Ecuador 1.06 – 0.88 Germany
+- Over 2.5: 31%  ·  BTTS: 39%
+- Likely scores: 0-0 (15%), 1-0 (14%), 1-1 (14%), 0-1 (12%)
 
 ## The two models it blends
 
 | Model | Ecuador | Draw | Germany |
 |---|---|---|---|
-| Dixon-Coles | 36% | 32% | 32% |
-| Elo | 36% | 27% | 37% |
-| **Ensemble** | **36%** | **30%** | **35%** |
+| Dixon-Coles | 38% | 33% | 29% |
+| Elo | 31% | 27% | 42% |
+| **Ensemble** | **34%** | **30%** | **36%** |
 
-Elo: Ecuador 1984 vs Germany 2014.
+Elo: Ecuador 1959 vs Germany 2032.
 ## Actual result
 
 _Not yet played. The post-match step fills this in and scores the prediction (feedback loop)._
