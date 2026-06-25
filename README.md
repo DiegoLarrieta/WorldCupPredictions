@@ -36,27 +36,6 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 38% | 2.26 | ⏳ |
 | Prop: Darwin Gabriel Nunez Ribeiro o0.5 SoT | 59% | 1.87 | ⏳ |
 
-### Tunisia vs Netherlands — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
-
-⏳ Por jugarse
-
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Tunisia | 8% | 30.03 | ⏳ |
-| Empate | 18% | 12.00 | ⏳ |
-| Gana Netherlands | 74% | 1.14 | ⏳ |
-| Doble oport. Tunisia | 26% | 8.20 | ⏳ |
-| Doble oport. Netherlands | 92% | 1.03 | ⏳ |
-| Over 1.5 goles | 75% | 1.14 | ⏳ |
-| Over 2.5 goles | 50% | 1.45 | ⏳ |
-| Over 3.5 goles | 28% | 2.12 | ⏳ |
-| Over 1.5 goles Tunisia | 15% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Netherlands | 59% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 44% | 2.68 | ⏳ |
-| Prop: Anis Slimane o0.5 SoT | 50% | 3.30 | ⏳ |
-
 ### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
 
 ⏳ Por jugarse
@@ -77,6 +56,27 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Sweden | 20% | 2.85 | ⏳ |
 | BTTS (ambos marcan) | 52% | 1.75 | ⏳ |
 | Prop: Ayase Ueda o0.5 SoT | 71% | 1.41 | ⏳ |
+
+### Tunisia vs Netherlands — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Tunisia | 8% | 30.03 | ⏳ |
+| Empate | 18% | 12.00 | ⏳ |
+| Gana Netherlands | 74% | 1.15 | ⏳ |
+| Doble oport. Tunisia | 26% | 8.00 | ⏳ |
+| Doble oport. Netherlands | 92% | 1.03 | ⏳ |
+| Over 1.5 goles | 75% | 1.14 | ⏳ |
+| Over 2.5 goles | 50% | 1.47 | ⏳ |
+| Over 3.5 goles | 28% | 2.15 | ⏳ |
+| Over 1.5 goles Tunisia | 15% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Netherlands | 59% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 44% | 2.59 | ⏳ |
+| Prop: Anis Slimane o0.5 SoT | 50% | 3.30 | ⏳ |
 
 ### Ecuador vs Germany — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
 
