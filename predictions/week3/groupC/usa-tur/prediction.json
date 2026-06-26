@@ -8,59 +8,59 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "United States": 0.43,
-      "Draw": 0.258,
-      "Turkey": 0.312
+      "United States": 0.56,
+      "Draw": 0.232,
+      "Turkey": 0.208
     },
     "ensemble_uncalibrated": {
-      "United States": 0.421,
-      "Draw": 0.265,
-      "Turkey": 0.314
+      "United States": 0.539,
+      "Draw": 0.242,
+      "Turkey": 0.219
     },
     "dixon_coles": {
-      "United States": 0.383,
-      "Draw": 0.263,
-      "Turkey": 0.354
+      "United States": 0.51,
+      "Draw": 0.24,
+      "Turkey": 0.25
     },
     "elo": {
-      "United States": 0.456,
-      "Draw": 0.267,
-      "Turkey": 0.277
+      "United States": 0.565,
+      "Draw": 0.244,
+      "Turkey": 0.191
     }
   },
   "elo": {
-    "United States": 1931,
-    "Turkey": 1881
+    "United States": 1984,
+    "Turkey": 1846
   },
   "expected_goals": {
-    "United States": 1.46,
-    "Turkey": 1.4
+    "United States": 1.85,
+    "Turkey": 1.24
   },
   "over_under_2_5": {
-    "over": 0.545,
-    "under": 0.455
+    "over": 0.598,
+    "under": 0.402
   },
-  "btts": 0.586,
+  "btts": 0.606,
   "top_scorelines": [
     {
       "score": "1-1",
-      "prob": 0.124
+      "prob": 0.111
     },
     {
       "score": "2-1",
-      "prob": 0.086
+      "prob": 0.097
     },
     {
-      "score": "1-2",
-      "prob": 0.082
+      "score": "2-0",
+      "prob": 0.078
     },
     {
       "score": "1-0",
       "prob": 0.077
     },
     {
-      "score": "0-1",
-      "prob": 0.073
+      "score": "1-2",
+      "prob": 0.065
     }
   ],
   "lineups": null,

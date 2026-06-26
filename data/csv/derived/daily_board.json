@@ -1,5 +1,169 @@
 [
  {
+  "match": "Norway vs France",
+  "kickoff": "2026-06-26 19:00",
+  "date": "2026-06-26",
+  "result": "",
+  "sug": "away @ -222 (+8%)",
+  "link": "predictions/week3/groupJ/nor-fra/analysis.md",
+  "markets": [
+   [
+    "Gana Norway",
+    0.256,
+    "+740",
+    null
+   ],
+   [
+    "Empate",
+    0.255,
+    "+535",
+    null
+   ],
+   [
+    "Gana France",
+    0.489,
+    "-222",
+    null
+   ],
+   [
+    "Doble oport. Norway",
+    0.511,
+    "+250",
+    null
+   ],
+   [
+    "Doble oport. France",
+    0.744,
+    "-769",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.776,
+    "-588",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.54,
+    "-196",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.317,
+    "+138",
+    null
+   ],
+   [
+    "Over 0.5 goles Norway",
+    0.708,
+    "-169",
+    null
+   ],
+   [
+    "Over 2.5 goles France",
+    0.219,
+    "+115",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.575,
+    "-135",
+    null
+   ],
+   [
+    "Prop: Andreas Schjelderup o0.5 SoT",
+    0.502,
+    "+120",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Senegal vs Iraq",
+  "kickoff": "2026-06-26 19:00",
+  "date": "2026-06-26",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupJ/sen-ira/analysis.md",
+  "markets": [
+   [
+    "Gana Senegal",
+    0.606,
+    "-417",
+    null
+   ],
+   [
+    "Empate",
+    0.244,
+    "+700",
+    null
+   ],
+   [
+    "Gana Iraq",
+    0.15,
+    "+1500",
+    null
+   ],
+   [
+    "Doble oport. Senegal",
+    0.85,
+    "-1429",
+    null
+   ],
+   [
+    "Doble oport. Iraq",
+    0.394,
+    "+410",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.641,
+    "-588",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.372,
+    "-185",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.177,
+    "+132",
+    null
+   ],
+   [
+    "Over 2.5 goles Senegal",
+    0.194,
+    "-120",
+    null
+   ],
+   [
+    "Over 0.5 goles Iraq",
+    0.488,
+    "-110",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.386,
+    "+126",
+    null
+   ],
+   [
+    "Prop: Ali Al-Hamadi o0.5 SoT",
+    0.53,
+    "+135",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Japan vs Sweden",
   "kickoff": "2026-06-25 23:00",
   "date": "2026-06-25",

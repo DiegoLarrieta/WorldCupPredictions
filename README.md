@@ -15,6 +15,48 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Norway vs France — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** away @ -222 (+8%)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Norway | 26% | +740 | ⏳ |
+| Empate | 26% | +535 | ⏳ |
+| Gana France | 49% | -222 | ⏳ |
+| Doble oport. Norway | 51% | +250 | ⏳ |
+| Doble oport. France | 74% | -769 | ⏳ |
+| Over 1.5 goles | 78% | -588 | ⏳ |
+| Over 2.5 goles | 54% | -196 | ⏳ |
+| Over 3.5 goles | 32% | +138 | ⏳ |
+| Over 0.5 goles Norway | 71% | -169 | ⏳ |
+| Over 2.5 goles France | 22% | +115 | ⏳ |
+| BTTS (ambos marcan) | 57% | -135 | ⏳ |
+| Prop: Andreas Schjelderup o0.5 SoT | 50% | +120 | ⏳ |
+
+### Senegal vs Iraq — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/sen-ira/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Senegal | 61% | -417 | ⏳ |
+| Empate | 24% | +700 | ⏳ |
+| Gana Iraq | 15% | +1500 | ⏳ |
+| Doble oport. Senegal | 85% | -1429 | ⏳ |
+| Doble oport. Iraq | 39% | +410 | ⏳ |
+| Over 1.5 goles | 64% | -588 | ⏳ |
+| Over 2.5 goles | 37% | -185 | ⏳ |
+| Over 3.5 goles | 18% | +132 | ⏳ |
+| Over 2.5 goles Senegal | 19% | -120 | ⏳ |
+| Over 0.5 goles Iraq | 49% | -110 | ⏳ |
+| BTTS (ambos marcan) | 39% | +126 | ⏳ |
+| Prop: Ali Al-Hamadi o0.5 SoT | 53% | +135 | ⏳ |
+
 ### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
 
 ⏳ Por jugarse
