@@ -206,10 +206,16 @@ def fetch_all_markets(home: str, away: str, *, regions: str = DEFAULT_REGIONS,
         res["dc_home"] = g("double_chance", f"{our_home_api} or Draw")
     if g("double_chance", f"{our_away_api} or Draw"):
         res["dc_away"] = g("double_chance", f"{our_away_api} or Draw")
-    if g("team_totals", "Over", 1.5, our_home_api):
-        res["team_ov15_home"] = g("team_totals", "Over", 1.5, our_home_api)
-    if g("team_totals", "Over", 1.5, our_away_api):
-        res["team_ov15_away"] = g("team_totals", "Over", 1.5, our_away_api)
+    # team totals: books quote different lines per team (0.5/1.5/2.5/3.5) — keep all offered
+    # over prices so the board can show the line the book actually has, not a fixed 1.5.
+    th = {pt: g("team_totals", "Over", pt, our_home_api) for pt in (0.5, 1.5, 2.5, 3.5)
+          if g("team_totals", "Over", pt, our_home_api)}
+    ta = {pt: g("team_totals", "Over", pt, our_away_api) for pt in (0.5, 1.5, 2.5, 3.5)
+          if g("team_totals", "Over", pt, our_away_api)}
+    if th:
+        res["team_over_home"] = th
+    if ta:
+        res["team_over_away"] = ta
     return res
 
 

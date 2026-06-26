@@ -114,10 +114,17 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
         ("Over 1.5 goles", poisson_over(lam, 1.5), od((extra.get("ou_1.5") or {}).get("over")), h(tot > 1.5)),
         ("Over 2.5 goles", poisson_over(lam, 2.5), od((extra.get("ou_2.5") or {}).get("over")), h(tot > 2.5)),
         ("Over 3.5 goles", poisson_over(lam, 3.5), od((extra.get("ou_3.5") or {}).get("over")), h(tot > 3.5)),
-        (f"Over 1.5 goles {home}", poisson_over(float(eg[home]), 1.5), od(extra.get("team_ov15_home")), h(hg >= 2)),
-        (f"Over 1.5 goles {away}", poisson_over(float(eg[away]), 1.5), od(extra.get("team_ov15_away")), h(ag >= 2)),
         ("BTTS (ambos marcan)", float(pred.get("btts") or 0), od((extra.get("btts") or {}).get("yes")), h(hg > 0 and ag > 0)),
     ]
+
+    def team_tot(team, eg_t, key, goals):       # usa la línea que el libro SÍ ofrece (la más cercana al λ)
+        offered = extra.get(key) or {}
+        if not offered:
+            return (f"Over 1.5 goles {team}", poisson_over(float(eg_t), 1.5), NF, h(goals >= 2))
+        ln = float(min(offered, key=lambda l: abs(float(l) - float(eg_t))))
+        return (f"Over {ln} goles {team}", poisson_over(float(eg_t), ln), od(offered[ln]), h(goals > ln))
+    mk[8:8] = [team_tot(home, eg[home], "team_over_home", hg),
+               team_tot(away, eg[away], "team_over_away", ag)]
     tp = _board_prop(folder, props)        # top prop (live, o leído de prop_compare.json)
     if tp:
         player, line, price, mo = tp
@@ -327,13 +334,19 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
 
     # Otros mercados (doble oportunidad, goles por equipo, BTTS) — model P vs odds + EV
     dc_h, dc_a = e[home] + e["Draw"], e[away] + e["Draw"]
-    th = poisson_over(float(eg[home]), 1.5)
-    ta = poisson_over(float(eg[away]), 1.5)
+
+    def tt(team, eg_t, key):                 # línea de team-total que el libro ofrece
+        offered = (extra or {}).get(key) or {}
+        if not offered:
+            return (f"Over 1.5 goles {team}", poisson_over(float(eg_t), 1.5), None)
+        ln = float(min(offered, key=lambda l: abs(float(l) - float(eg_t))))
+        return (f"Over {ln} goles {team}", poisson_over(float(eg_t), ln), offered[ln])
+
     rows = [
-        (f"Doble oport. {home}", dc_h, extra.get("dc_home")),
-        (f"Doble oport. {away}", dc_a, extra.get("dc_away")),
-        (f"Over 1.5 goles {home}", th, extra.get("team_ov15_home")),
-        (f"Over 1.5 goles {away}", ta, extra.get("team_ov15_away")),
+        (f"Doble oport. {home}", dc_h, (extra or {}).get("dc_home")),
+        (f"Doble oport. {away}", dc_a, (extra or {}).get("dc_away")),
+        tt(home, eg[home], "team_over_home"),
+        tt(away, eg[away], "team_over_away"),
         ("BTTS (ambos marcan)", float(pred.get("btts") or 0), (extra.get("btts") or {}).get("yes")),
         (f"Tiros {home} over 9.5", team_over(eg[home], 9.5, TEAM_SHOTS_COEF), None),
         (f"Tiros {away} over 9.5", team_over(eg[away], 9.5, TEAM_SHOTS_COEF), None),
