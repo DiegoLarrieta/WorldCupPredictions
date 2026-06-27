@@ -44,17 +44,17 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Panama | 9% | +2200 | ⏳ |
+| Gana Panama | 9% | +2300 | ⏳ |
 | Empate | 19% | +900 | ⏳ |
 | Gana England | 72% | -526 | ⏳ |
-| Doble oport. Panama | 28% | _(no fetcheado)_ | ⏳ |
-| Doble oport. England | 91% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 76% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 51% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 29% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Panama | 13% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles England | 62% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 42% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Panama | 28% | +560 | ⏳ |
+| Doble oport. England | 91% | -2500 | ⏳ |
+| Over 1.5 goles | 76% | -714 | ⏳ |
+| Over 2.5 goles | 51% | -227 | ⏳ |
+| Over 3.5 goles | 29% | +110 | ⏳ |
+| Over 0.5 goles Panama | 47% | +115 | ⏳ |
+| Over 2.5 goles England | 35% | -154 | ⏳ |
+| BTTS (ambos marcan) | 42% | +142 | ⏳ |
 | Prop: Bukayo Saka o0.5 SoT | 64% | -233 | ⏳ |
 
 ### Norway vs France — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)

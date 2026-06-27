@@ -8,7 +8,7 @@ _as_of 2026-06-27 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 9% | 6% | +2200 | **pass** |
+| home | 9% | 6% | +2300 | **pass** |
 | draw | 19% | 10% | +900 | **pass** |
 | away | 72% | 84% | -526 | **pass** |
 
@@ -18,9 +18,9 @@ _as_of 2026-06-27 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 76% | — | — |
-| 2.5 | 51% | -250 | -0.28 |
-| 3.5 | 29% | — | — |
+| 1.5 | 76% | -714 | -0.14 |
+| 2.5 | 51% | -227 | -0.26 |
+| 3.5 | 29% | +110 | -0.39 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Panama | 28% | — | — |
-| Doble oport. England | 91% | — | — |
-| Over 1.5 goles Panama | 13% | — | — |
-| Over 1.5 goles England | 62% | — | — |
-| BTTS (ambos marcan) | 42% | — | — |
+| Doble oport. Panama | 28% | +560 | +0.87 |
+| Doble oport. England | 91% | -2500 | -0.06 |
+| Over 0.5 goles Panama | 47% | +115 | +0.00 |
+| Over 2.5 goles England | 35% | -154 | -0.43 |
+| BTTS (ambos marcan) | 42% | +142 | +0.01 |
 | Tiros Panama over 9.5 | 27% | — | — |
 | Tiros England over 9.5 | 100% | — | — |
 | TaP Panama over 2.5 | 47% | — | — |

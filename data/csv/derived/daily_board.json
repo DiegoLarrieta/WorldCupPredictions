@@ -92,7 +92,7 @@
    [
     "Gana Panama",
     0.093,
-    "+2200",
+    "+2300",
     null
    ],
    [
@@ -110,49 +110,49 @@
    [
     "Doble oport. Panama",
     0.284,
-    "_(no fetcheado)_",
+    "+560",
     null
    ],
    [
     "Doble oport. England",
     0.907,
-    "_(no fetcheado)_",
+    "-2500",
     null
    ],
    [
     "Over 1.5 goles",
     0.755,
-    "_(no fetcheado)_",
+    "-714",
     null
    ],
    [
     "Over 2.5 goles",
     0.511,
-    "_(no fetcheado)_",
+    "-227",
     null
    ],
    [
     "Over 3.5 goles",
     0.29,
-    "_(no fetcheado)_",
+    "+110",
     null
    ],
    [
-    "Over 1.5 goles Panama",
-    0.132,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Panama",
+    0.467,
+    "+115",
     null
    ],
    [
-    "Over 1.5 goles England",
-    0.618,
-    "_(no fetcheado)_",
+    "Over 2.5 goles England",
+    0.348,
+    "-154",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.416,
-    "_(no fetcheado)_",
+    "+142",
     null
    ],
    [
