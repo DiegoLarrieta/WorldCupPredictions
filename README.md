@@ -15,6 +15,48 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Croatia vs Ghana — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/cro-gha/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Croatia | 65% | -116 | ⏳ |
+| Empate | 22% | +238 | ⏳ |
+| Gana Ghana | 13% | +520 | ⏳ |
+| Doble oport. Croatia | 87% | -556 | ⏳ |
+| Doble oport. Ghana | 35% | +116 | ⏳ |
+| Over 1.5 goles | 68% | -213 | ⏳ |
+| Over 2.5 goles | 42% | +154 | ⏳ |
+| Over 3.5 goles | 22% | +400 | ⏳ |
+| Over 1.5 goles Croatia | 47% | +115 | ⏳ |
+| Over 0.5 goles Ghana | 54% | -133 | ⏳ |
+| BTTS (ambos marcan) | 44% | +118 | ⏳ |
+| Prop: Jordan Ayew o0.5 SoT | 60% | +107 | ⏳ |
+
+### Panama vs England — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/pan-eng/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Panama | 9% | +2200 | ⏳ |
+| Empate | 19% | +900 | ⏳ |
+| Gana England | 72% | -526 | ⏳ |
+| Doble oport. Panama | 28% | _(no fetcheado)_ | ⏳ |
+| Doble oport. England | 91% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles | 76% | _(no fetcheado)_ | ⏳ |
+| Over 2.5 goles | 51% | _(no fetcheado)_ | ⏳ |
+| Over 3.5 goles | 29% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Panama | 13% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles England | 62% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 42% | _(no fetcheado)_ | ⏳ |
+| Prop: Bukayo Saka o0.5 SoT | 64% | -233 | ⏳ |
+
 ### Norway vs France — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)
 
 ⏳ Por jugarse

@@ -8,59 +8,59 @@
   "calibration_temperature": 0.906,
   "win_draw_loss": {
     "ENSEMBLE": {
-      "Croatia": 0.672,
-      "Draw": 0.211,
-      "Ghana": 0.117
+      "Croatia": 0.65,
+      "Draw": 0.22,
+      "Ghana": 0.13
     },
     "ensemble_uncalibrated": {
-      "Croatia": 0.643,
-      "Draw": 0.225,
-      "Ghana": 0.132
+      "Croatia": 0.622,
+      "Draw": 0.233,
+      "Ghana": 0.145
     },
     "dixon_coles": {
-      "Croatia": 0.576,
-      "Draw": 0.257,
-      "Ghana": 0.167
+      "Croatia": 0.56,
+      "Draw": 0.263,
+      "Ghana": 0.177
     },
     "elo": {
-      "Croatia": 0.705,
-      "Draw": 0.195,
-      "Ghana": 0.1
+      "Croatia": 0.68,
+      "Draw": 0.205,
+      "Ghana": 0.114
     }
   },
   "elo": {
     "Croatia": 1945,
-    "Ghana": 1674
+    "Ghana": 1700
   },
   "expected_goals": {
-    "Croatia": 1.67,
-    "Ghana": 0.79
+    "Croatia": 1.59,
+    "Ghana": 0.78
   },
   "over_under_2_5": {
-    "over": 0.444,
-    "under": 0.556
+    "over": 0.424,
+    "under": 0.576
   },
-  "btts": 0.449,
+  "btts": 0.439,
   "top_scorelines": [
     {
       "score": "1-0",
-      "prob": 0.136
+      "prob": 0.141
     },
     {
       "score": "1-1",
-      "prob": 0.12
+      "prob": 0.122
     },
     {
       "score": "2-0",
-      "prob": 0.12
-    },
-    {
-      "score": "2-1",
-      "prob": 0.094
+      "prob": 0.118
     },
     {
       "score": "0-0",
-      "prob": 0.094
+      "prob": 0.099
+    },
+    {
+      "score": "2-1",
+      "prob": 0.092
     }
   ],
   "lineups": null,

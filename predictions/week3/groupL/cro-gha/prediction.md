@@ -6,23 +6,23 @@ _Validated Elo + Dixon-Coles ensemble (weight 0.48 on DC). World Cup, neutral, f
 
 | Outcome | Probability |
 |---|---|
-| **Croatia win** | **67%** |
-| Draw | 21% |
-| **Ghana win** | **12%** |
+| **Croatia win** | **65%** |
+| Draw | 22% |
+| **Ghana win** | **13%** |
 
-- Expected goals: Croatia 1.67 – 0.79 Ghana
-- Over 2.5: 44%  ·  BTTS: 45%
-- Likely scores: 1-0 (14%), 1-1 (12%), 2-0 (12%), 2-1 (9%)
+- Expected goals: Croatia 1.59 – 0.78 Ghana
+- Over 2.5: 42%  ·  BTTS: 44%
+- Likely scores: 1-0 (14%), 1-1 (12%), 2-0 (12%), 0-0 (10%)
 
 ## The two models it blends
 
 | Model | Croatia | Draw | Ghana |
 |---|---|---|---|
-| Dixon-Coles | 58% | 26% | 17% |
-| Elo | 70% | 20% | 10% |
-| **Ensemble** | **67%** | **21%** | **12%** |
+| Dixon-Coles | 56% | 26% | 18% |
+| Elo | 68% | 20% | 11% |
+| **Ensemble** | **65%** | **22%** | **13%** |
 
-Elo: Croatia 1945 vs Ghana 1674.
+Elo: Croatia 1945 vs Ghana 1700.
 ## Actual result
 
 _Not yet played. The post-match step fills this in and scores the prediction (feedback loop)._

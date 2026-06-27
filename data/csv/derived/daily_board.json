@@ -1,5 +1,169 @@
 [
  {
+  "match": "Croatia vs Ghana",
+  "kickoff": "2026-06-27 21:00",
+  "date": "2026-06-27",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupL/cro-gha/analysis.md",
+  "markets": [
+   [
+    "Gana Croatia",
+    0.65,
+    "-116",
+    null
+   ],
+   [
+    "Empate",
+    0.22,
+    "+238",
+    null
+   ],
+   [
+    "Gana Ghana",
+    0.13,
+    "+520",
+    null
+   ],
+   [
+    "Doble oport. Croatia",
+    0.87,
+    "-556",
+    null
+   ],
+   [
+    "Doble oport. Ghana",
+    0.35,
+    "+116",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.685,
+    "-213",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.422,
+    "+154",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.215,
+    "+400",
+    null
+   ],
+   [
+    "Over 1.5 goles Croatia",
+    0.472,
+    "+115",
+    null
+   ],
+   [
+    "Over 0.5 goles Ghana",
+    0.542,
+    "-133",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.439,
+    "+118",
+    null
+   ],
+   [
+    "Prop: Jordan Ayew o0.5 SoT",
+    0.598,
+    "+107",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Panama vs England",
+  "kickoff": "2026-06-27 21:00",
+  "date": "2026-06-27",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupL/pan-eng/analysis.md",
+  "markets": [
+   [
+    "Gana Panama",
+    0.093,
+    "+2200",
+    null
+   ],
+   [
+    "Empate",
+    0.191,
+    "+900",
+    null
+   ],
+   [
+    "Gana England",
+    0.716,
+    "-526",
+    null
+   ],
+   [
+    "Doble oport. Panama",
+    0.284,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. England",
+    0.907,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.755,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.511,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.29,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Panama",
+    0.132,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles England",
+    0.618,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.416,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Prop: Bukayo Saka o0.5 SoT",
+    0.641,
+    "-233",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Norway vs France",
   "kickoff": "2026-06-26 19:00",
   "date": "2026-06-26",
