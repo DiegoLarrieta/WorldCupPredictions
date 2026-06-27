@@ -59,45 +59,45 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### Croatia vs Ghana — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/cro-gha/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **2-1** (home) · checks **7/12** · goles: Vlašić, Sučić (CRO), Luckassen (GHA)
 
 🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Croatia | 65% | -116 | ⏳ |
-| Empate | 22% | +238 | ⏳ |
-| Gana Ghana | 13% | +520 | ⏳ |
-| Doble oport. Croatia | 87% | -556 | ⏳ |
-| Doble oport. Ghana | 35% | +116 | ⏳ |
-| Over 1.5 goles | 68% | -213 | ⏳ |
-| Over 2.5 goles | 42% | +154 | ⏳ |
-| Over 3.5 goles | 22% | +400 | ⏳ |
-| Over 1.5 goles Croatia | 47% | +115 | ⏳ |
-| Over 0.5 goles Ghana | 54% | -133 | ⏳ |
-| BTTS (ambos marcan) | 44% | +118 | ⏳ |
-| Prop: Jordan Ayew o0.5 SoT | 60% | +107 | ⏳ |
+| Gana Croatia | 65% | -116 | ✅ |
+| Empate | 22% | +238 | ❌ |
+| Gana Ghana | 13% | +520 | ❌ |
+| Doble oport. Croatia | 87% | -556 | ✅ |
+| Doble oport. Ghana | 35% | +116 | ❌ |
+| Over 1.5 goles | 68% | -213 | ✅ |
+| Over 2.5 goles | 42% | +154 | ✅ |
+| Over 3.5 goles | 22% | +400 | ❌ |
+| Over 1.5 goles Croatia | 47% | +115 | ✅ |
+| Over 0.5 goles Ghana | 54% | -133 | ✅ |
+| BTTS (ambos marcan) | 44% | +118 | ✅ |
+| Prop: Jordan Ayew o0.5 SoT | 60% | +107 | ❌ |
 
 ### Panama vs England — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/pan-eng/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **0-2** (away) · checks **3/12** · goles: Kane, Bellingham (ENG)
 
 🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Panama | 9% | +2300 | ⏳ |
-| Empate | 19% | +900 | ⏳ |
-| Gana England | 72% | -526 | ⏳ |
-| Doble oport. Panama | 28% | +560 | ⏳ |
-| Doble oport. England | 91% | -2500 | ⏳ |
-| Over 1.5 goles | 76% | -714 | ⏳ |
-| Over 2.5 goles | 51% | -227 | ⏳ |
-| Over 3.5 goles | 29% | +110 | ⏳ |
-| Over 0.5 goles Panama | 47% | +115 | ⏳ |
-| Over 2.5 goles England | 35% | -154 | ⏳ |
-| BTTS (ambos marcan) | 42% | +142 | ⏳ |
-| Prop: Bukayo Saka o0.5 SoT | 64% | -233 | ⏳ |
+| Gana Panama | 9% | +2300 | ❌ |
+| Empate | 19% | +900 | ❌ |
+| Gana England | 72% | -526 | ✅ |
+| Doble oport. Panama | 28% | +560 | ❌ |
+| Doble oport. England | 91% | -2500 | ✅ |
+| Over 1.5 goles | 76% | -714 | ✅ |
+| Over 2.5 goles | 51% | -227 | ❌ |
+| Over 3.5 goles | 29% | +110 | ❌ |
+| Over 0.5 goles Panama | 47% | +115 | ❌ |
+| Over 2.5 goles England | 35% | -154 | ❌ |
+| BTTS (ambos marcan) | 42% | +142 | ❌ |
+| Prop: Bukayo Saka o0.5 SoT | 64% | -233 | ❌ |
 
 ### Norway vs France — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)
 
