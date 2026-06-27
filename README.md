@@ -15,6 +15,48 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Colombia vs Portugal — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/col-por/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Colombia | 45% | +334 | ⏳ |
+| Empate | 26% | +325 | ⏳ |
+| Gana Portugal | 28% | -105 | ⏳ |
+| Doble oport. Colombia | 72% | +112 | ⏳ |
+| Doble oport. Portugal | 55% | -333 | ⏳ |
+| Over 1.5 goles | 74% | -417 | ⏳ |
+| Over 2.5 goles | 49% | -130 | ⏳ |
+| Over 3.5 goles | 27% | +192 | ⏳ |
+| Over 1.5 goles Colombia | 43% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Portugal | 33% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 54% | -149 | ⏳ |
+| Prop: Gustavo Puerta o0.5 SoT | 56% | +270 | ⏳ |
+
+### DR Congo vs Uzbekistan — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/drc-uzb/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana DR Congo | 34% | -139 | ⏳ |
+| Empate | 33% | +310 | ⏳ |
+| Gana Uzbekistan | 33% | +510 | ⏳ |
+| Doble oport. DR Congo | 66% | -500 | ⏳ |
+| Doble oport. Uzbekistan | 66% | +136 | ⏳ |
+| Over 1.5 goles | 44% | -238 | ⏳ |
+| Over 2.5 goles | 19% | +129 | ⏳ |
+| Over 3.5 goles | 6% | +340 | ⏳ |
+| Over 1.5 goles DR Congo | 17% | -108 | ⏳ |
+| Over 0.5 goles Uzbekistan | 53% | -133 | ⏳ |
+| BTTS (ambos marcan) | 28% | +120 | ⏳ |
+| Prop: Eldor Shomurodov o0.5 SoT | 64% | -130 | ⏳ |
+
 ### Croatia vs Ghana — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/cro-gha/analysis.md)
 
 ⏳ Por jugarse

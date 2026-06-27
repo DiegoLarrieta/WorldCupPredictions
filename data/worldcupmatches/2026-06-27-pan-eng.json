@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-27-pan-eng",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-27-pan-eng",
+    "date": "2026-06-27",
+    "home": "Panama",
+    "away": "England",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Panama vs England",
+    "home": "Panama",
+    "away": "England",
+    "as_of": "2026-06-27",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.093,
+      0.191,
+      0.716
+    ],
+    "components": {
+      "dixon_coles": [
+        0.095,
+        0.195,
+        0.709
+      ],
+      "elo": [
+        0.119,
+        0.218,
+        0.663
+      ]
+    },
+    "expected_goals": {
+      "Panama": 0.63,
+      "England": 2.09
+    },
+    "over25": 0.513,
+    "btts": 0.416,
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.143
+      },
+      {
+        "score": "0-1",
+        "prob": 0.132
+      },
+      {
+        "score": "0-3",
+        "prob": 0.1
+      },
+      {
+        "score": "1-1",
+        "prob": 0.092
+      },
+      {
+        "score": "1-2",
+        "prob": 0.091
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T17:29:39-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760485",
+      "player_shots": [
+        {
+          "player": "Marcus Rashford",
+          "side": "away",
+          "team": "England",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ismael Díaz",
+          "side": "home",
+          "team": "Panama",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.2,
+          "starter": false,
+          "shots_p90": 18.7,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Harry Kane",
+          "side": "away",
+          "team": "England",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 83.9,
+          "starter": true,
+          "shots_p90": 3.22,
+          "sot_p90": 2.15
+        },
+        {
+          "player": "Bukayo Saka",
+          "side": "away",
+          "team": "England",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 62.7,
+          "starter": true,
+          "shots_p90": 4.31,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "José Luis Rodríguez",
+          "side": "home",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 2.54,
+          "sot_p90": 1.27
+        },
+        {
+          "player": "Jude Bellingham",
+          "side": "away",
+          "team": "England",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 2.54,
+          "sot_p90": 1.27
+        },
+        {
+          "player": "Amir Murillo",
+          "side": "home",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Carlos Harvey",
+          "side": "home",
+          "team": "Panama",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 87.4,
+          "starter": true,
+          "shots_p90": 2.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Tomás Rodríguez",
+          "side": "home",
+          "team": "Panama",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Elliot Anderson",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.7,
+          "starter": true,
+          "shots_p90": 1.08,
+          "sot_p90": 1.08
+        },
+        {
+          "player": "Noni Madueke",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 27.3,
+          "starter": false,
+          "shots_p90": 3.29,
+          "sot_p90": 3.29
+        },
+        {
+          "player": "Éric Davis",
+          "side": "home",
+          "team": "Panama",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 2.5,
+          "starter": false,
+          "shots_p90": 36.24,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Azarias Londoño",
+          "side": "home",
+          "team": "Panama",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.1,
+          "starter": false,
+          "shots_p90": 4.72,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nico O'Reilly",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Eberechi Eze",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.1,
+          "starter": false,
+          "shots_p90": 4.72,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 32.8,
+      "shots_home": 13,
+      "shots_on_target_home": 2,
+      "corners_home": 3,
+      "fouls_home": 16,
+      "saves_home": 4,
+      "offsides_home": 4,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 67.2,
+      "shots_away": 17,
+      "shots_on_target_away": 6,
+      "corners_away": 7,
+      "fouls_away": 13,
+      "saves_away": 2,
+      "offsides_away": 4,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T17:29:47-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.04465,
+    "log_loss": 0.33408,
+    "brier": 0.12579,
+    "surprisal": 0.33408,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.04465,
+        "log_loss": 0.33408,
+        "brier": 0.12579,
+        "surprisal": 0.33408
+      },
+      "dixon_coles": {
+        "rps": 0.04666,
+        "log_loss": 0.3429,
+        "brier": 0.13141,
+        "surprisal": 0.3429
+      },
+      "elo": {
+        "rps": 0.06386,
+        "log_loss": 0.41098,
+        "brier": 0.17525,
+        "surprisal": 0.41098
+      }
+    }
+  }
+}

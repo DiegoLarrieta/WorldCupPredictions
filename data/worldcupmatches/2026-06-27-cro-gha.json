@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-06-27-cro-gha",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-27-cro-gha",
+    "date": "2026-06-27",
+    "home": "Croatia",
+    "away": "Ghana",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Croatia vs Ghana",
+    "home": "Croatia",
+    "away": "Ghana",
+    "as_of": "2026-06-27",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.65,
+      0.22,
+      0.13
+    ],
+    "components": {
+      "dixon_coles": [
+        0.56,
+        0.263,
+        0.177
+      ],
+      "elo": [
+        0.68,
+        0.205,
+        0.114
+      ]
+    },
+    "expected_goals": {
+      "Croatia": 1.59,
+      "Ghana": 0.78
+    },
+    "over25": 0.424,
+    "btts": 0.439,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.141
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "2-0",
+        "prob": 0.118
+      },
+      {
+        "score": "0-0",
+        "prob": 0.099
+      },
+      {
+        "score": "2-1",
+        "prob": 0.092
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T17:29:38-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760480",
+      "player_shots": [
+        {
+          "player": "Nikola Vlasic",
+          "side": "home",
+          "team": "Croatia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 87.3,
+          "starter": true,
+          "shots_p90": 2.06,
+          "sot_p90": 1.03
+        },
+        {
+          "player": "Mario Pasalic",
+          "side": "home",
+          "team": "Croatia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 12.6,
+          "starter": false,
+          "shots_p90": 14.29,
+          "sot_p90": 7.14
+        },
+        {
+          "player": "Fatawu Issahaku",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ivan Perisic",
+          "side": "home",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Petar Sucic",
+          "side": "home",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Derrick Luckassen",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Marin Pongracic",
+          "side": "home",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mateo Kovacic",
+          "side": "home",
+          "team": "Croatia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 77.4,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Marvin Senaya",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kamaldeen Sulemana",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Antoine Semenyo",
+          "side": "away",
+          "team": "Ghana",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 53.3,
+      "shots_home": 8,
+      "shots_on_target_home": 4,
+      "corners_home": 3,
+      "fouls_home": 9,
+      "saves_home": 0,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 46.7,
+      "shots_away": 6,
+      "shots_on_target_away": 1,
+      "corners_away": 2,
+      "fouls_away": 13,
+      "saves_away": 2,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T17:29:46-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.0697,
+    "log_loss": 0.43078,
+    "brier": 0.1878,
+    "surprisal": 0.43078,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.0697,
+        "log_loss": 0.43078,
+        "brier": 0.1878,
+        "surprisal": 0.43078
+      },
+      "dixon_coles": {
+        "rps": 0.11246,
+        "log_loss": 0.57982,
+        "brier": 0.2941,
+        "surprisal": 0.57982
+      },
+      "elo": {
+        "rps": 0.05749,
+        "log_loss": 0.38466,
+        "brier": 0.1571,
+        "surprisal": 0.38466
+      }
+    }
+  }
+}

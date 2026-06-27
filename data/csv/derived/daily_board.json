@@ -1,5 +1,169 @@
 [
  {
+  "match": "Colombia vs Portugal",
+  "kickoff": "2026-06-27 23:30",
+  "date": "2026-06-27",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupK/col-por/analysis.md",
+  "markets": [
+   [
+    "Gana Colombia",
+    0.452,
+    "+334",
+    null
+   ],
+   [
+    "Empate",
+    0.265,
+    "+325",
+    null
+   ],
+   [
+    "Gana Portugal",
+    0.283,
+    "-105",
+    null
+   ],
+   [
+    "Doble oport. Colombia",
+    0.717,
+    "+112",
+    null
+   ],
+   [
+    "Doble oport. Portugal",
+    0.548,
+    "-333",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.74,
+    "-417",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.492,
+    "-130",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.273,
+    "+192",
+    null
+   ],
+   [
+    "Over 1.5 goles Colombia",
+    0.432,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Portugal",
+    0.327,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.54,
+    "-149",
+    null
+   ],
+   [
+    "Prop: Gustavo Puerta o0.5 SoT",
+    0.563,
+    "+270",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "DR Congo vs Uzbekistan",
+  "kickoff": "2026-06-27 23:30",
+  "date": "2026-06-27",
+  "result": "",
+  "sug": "",
+  "link": "predictions/week3/groupK/drc-uzb/analysis.md",
+  "markets": [
+   [
+    "Gana DR Congo",
+    0.338,
+    "-139",
+    null
+   ],
+   [
+    "Empate",
+    0.327,
+    "+310",
+    null
+   ],
+   [
+    "Gana Uzbekistan",
+    0.334,
+    "+510",
+    null
+   ],
+   [
+    "Doble oport. DR Congo",
+    0.665,
+    "-500",
+    null
+   ],
+   [
+    "Doble oport. Uzbekistan",
+    0.661,
+    "+136",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.439,
+    "-238",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.189,
+    "+129",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.064,
+    "+340",
+    null
+   ],
+   [
+    "Over 1.5 goles DR Congo",
+    0.166,
+    "-108",
+    null
+   ],
+   [
+    "Over 0.5 goles Uzbekistan",
+    0.532,
+    "-133",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.284,
+    "+120",
+    null
+   ],
+   [
+    "Prop: Eldor Shomurodov o0.5 SoT",
+    0.635,
+    "-130",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Croatia vs Ghana",
   "kickoff": "2026-06-27 21:00",
   "date": "2026-06-27",
