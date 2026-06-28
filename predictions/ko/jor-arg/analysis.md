@@ -9,8 +9,8 @@ _as_of 2026-06-28 · source: live_
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
 | home | 2% | 5% | +2400 | **pass** |
-| draw | 10% | 10% | +880 | **pass** |
-| away | 87% | 84% | -588 | **pass** |
+| draw | 10% | 10% | +900 | **pass** |
+| away | 87% | 85% | -588 | **pass** |
 
 ## Goals (total)
 
@@ -19,8 +19,8 @@ _as_of 2026-06-28 · source: live_
 | over | model P | odds | EV@odds |
 |---|---|---|---|
 | 1.5 | 83% | -556 | -0.02 |
-| 2.5 | 62% | -175 | -0.03 |
-| 3.5 | 40% | +144 | -0.04 |
+| 2.5 | 62% | -172 | -0.02 |
+| 3.5 | 40% | +148 | -0.02 |
 
 ## Otros mercados
 
@@ -32,7 +32,7 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 | Doble oport. Argentina | 98% | -2500 | +0.02 |
 | Over 0.5 goles Jordan | 31% | +160 | -0.20 |
 | Over 2.5 goles Argentina | 54% | -130 | -0.05 |
-| BTTS (ambos marcan) | 29% | +180 | -0.19 |
+| BTTS (ambos marcan) | 29% | +182 | -0.18 |
 | Tiros Jordan over 9.5 | 6% | — | — |
 | Tiros Argentina over 9.5 | 100% | — | — |
 | TaP Jordan over 2.5 | 26% | — | — |

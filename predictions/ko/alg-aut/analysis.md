@@ -8,7 +8,7 @@ _as_of 2026-06-28 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 37% | 28% | +265 | **bet** |
+| home | 37% | 28% | +275 | **bet** |
 | draw | 29% | 46% | +116 | **pass** |
 | away | 34% | 26% | +285 | **bet** |
 
@@ -18,9 +18,9 @@ _as_of 2026-06-28 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 65% | -128 | +0.16 |
-| 2.5 | 38% | +265 | +0.40 |
-| 3.5 | 18% | +640 | +0.37 |
+| 1.5 | 65% | -137 | +0.12 |
+| 2.5 | 38% | +250 | +0.34 |
+| 3.5 | 18% | +600 | +0.29 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Algeria | 66% | -286 | -0.11 |
-| Doble oport. Austria | 63% | -270 | -0.14 |
-| Over 0.5 goles Algeria | 68% | -164 | +0.09 |
-| Over 0.5 goles Austria | 66% | -154 | +0.09 |
-| BTTS (ambos marcan) | 46% | +138 | +0.09 |
+| Doble oport. Algeria | 66% | -294 | -0.12 |
+| Doble oport. Austria | 63% | -286 | -0.15 |
+| Over 0.5 goles Algeria | 68% | -175 | +0.07 |
+| Over 0.5 goles Austria | 66% | -164 | +0.06 |
+| BTTS (ambos marcan) | 46% | +130 | +0.06 |
 | Tiros Algeria over 9.5 | 77% | — | — |
 | Tiros Austria over 9.5 | 73% | — | — |
 | TaP Algeria over 2.5 | 78% | — | — |
@@ -49,7 +49,7 @@ Todos los delanteros (FW) de ambos equipos, con las líneas que el libro cotiza 
 | Algeria | Amine Gouiri | tiros | o2.5 | 57% | +175 | +0.57 | ✅ |
 | Algeria | Amine Gouiri | tiros | o3.5 | 35% | +380 | +0.67 |  |
 | Algeria | Amine Gouiri | tiros | o4.5 | 18% | +850 | +0.72 |  |
-| Algeria | Amine Gouiri | tiros | o5.5 | 8% | +2200 | +0.88 |  |
+| Algeria | Amine Gouiri | tiros | o5.5 | 8% | +2000 | +0.71 |  |
 | Algeria | Amine Gouiri | a puerta | o0.5 | 65% | -115 | +0.21 | ✅ |
 | Algeria | Amine Gouiri | a puerta | o1.5 | 28% | +370 | +0.31 |  |
 | Algeria | Amine Gouiri | a puerta | o2.5 | 9% | +1400 | +0.31 |  |
@@ -65,9 +65,9 @@ Todos los delanteros (FW) de ambos equipos, con las líneas que el libro cotiza 
 | Algeria | Jaouen Hadjam | a puerta | o0.5 | 49% | +600 | +2.41 |  |
 | Austria | Marko Arnautovic | tiros | o0.5 | 88% | -1111 | -0.04 |  |
 | Austria | Marko Arnautovic | tiros | o1.5 | 62% | -233 | -0.12 |  |
-| Austria | Marko Arnautovic | tiros | o2.5 | 35% | +130 | -0.20 |  |
+| Austria | Marko Arnautovic | tiros | o2.5 | 35% | +135 | -0.18 |  |
 | Austria | Marko Arnautovic | tiros | o3.5 | 16% | +350 | -0.28 |  |
-| Austria | Marko Arnautovic | tiros | o4.5 | 6% | +850 | -0.42 |  |
+| Austria | Marko Arnautovic | tiros | o4.5 | 6% | +900 | -0.39 |  |
 | Austria | Marko Arnautovic | tiros | o5.5 | 2% | +2200 | -0.54 |  |
 | Austria | Marko Arnautovic | a puerta | o0.5 | 52% | -179 | -0.19 |  |
 | Austria | Marko Arnautovic | a puerta | o1.5 | 17% | +280 | -0.36 |  |

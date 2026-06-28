@@ -7,7 +7,7 @@ _Model P(over) from shrunk shot rates (minutes: confirmed lineup + typical min/g
 | Jaouen Hadjam | 0.5 | 85 | start | 49% | — | — | 7.00 | — | over | +2.41 |  |
 | Rafik Belghali | 0.5 | 85 | start | 26% | — | — | 7.00 | — | over | +0.82 |  |
 | Ibrahim Maza | 1.5 | 85 | start | 18% | — | — | 9.50 | — | over | +0.76 |  |
-| Houssem Aouar | 1.5 | 85 | start | 16% | — | — | 10.50 | — | over | +0.64 |  |
+| Houssem Aouar | 1.5 | 85 | start | 16% | — | — | 10.00 | — | over | +0.56 |  |
 | Ramy Bensebaini | 0.5 | 85 | start | 28% | — | — | 5.60 | — | over | +0.56 |  |
 | Ibrahim Maza | 0.5 | 85 | start | 54% | — | — | 2.65 | — | over | +0.44 |  |
 | Nabil Bentaleb | 0.5 | 85 | start | 24% | — | — | 5.80 | — | over | +0.41 |  |
@@ -36,7 +36,7 @@ _Model P(over) from shrunk shot rates (minutes: confirmed lineup + typical min/g
 | Marko Arnautovic | 2.5 | 85 | start | 4% | — | — | 13.00 | — | over | -0.50 |  |
 | Riyad Mahrez | 1.5 | 85 | start | 9% | — | — | 5.70 | — | over | -0.50 |  |
 | Stefan Posch | 1.5 | 85 | start | 2% | — | — | 18.00 | — | over | -0.62 |  |
-| Marcel Sabitzer | 1.5 | 85 | start | 8% | — | — | 4.60 | — | over | -0.63 |  |
+| Marcel Sabitzer | 1.5 | 85 | start | 8% | — | — | 4.70 | — | over | -0.62 |  |
 | Riyad Mahrez | 2.5 | 85 | start | 1% | — | — | 21.00 | — | over | -0.71 |  |
 | Marcel Sabitzer | 2.5 | 85 | start | 1% | — | — | 17.00 | — | over | -0.80 |  |
 

@@ -19,49 +19,55 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados (banca 10k MXN):** **Lautaro Martinez** o2.5 tiros @ -141 — **$200 MXN** · _total $200 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Jordan | 2% | +2400 | ⏳ |
-| Empate | 10% | +880 | ⏳ |
+| Empate | 10% | +900 | ⏳ |
 | Gana Argentina | 87% | -588 | ⏳ |
 | Doble oport. Jordan | 13% | +600 | ⏳ |
 | Doble oport. Argentina | 98% | -2500 | ⏳ |
 | Over 1.5 goles | 83% | -556 | ⏳ |
-| Over 2.5 goles | 62% | -175 | ⏳ |
-| Over 3.5 goles | 40% | +144 | ⏳ |
+| Over 2.5 goles | 62% | -172 | ⏳ |
+| Over 3.5 goles | 40% | +148 | ⏳ |
 | Over 0.5 goles Jordan | 31% | +160 | ⏳ |
 | Over 2.5 goles Argentina | 54% | -130 | ⏳ |
-| BTTS (ambos marcan) | 29% | +180 | ⏳ |
+| BTTS (ambos marcan) | 29% | +182 | ⏳ |
 | Prop: Ali Al-Azaizeh o0.5 SoT | 46% | +260 | ⏳ |
 
 ### Algeria vs Austria — 2026-06-28 02:00Z · [análisis](predictions/ko/alg-aut/analysis.md)
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados (banca 10k MXN):** **Amine Gouiri** o2.5 tiros @ +175 — **$400 MXN** · **Romano Schmid** o0.5 tiros @ -238 — **$200 MXN** · _total $600 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Algeria | 37% | +265 | ⏳ |
+| Gana Algeria | 37% | +275 | ⏳ |
 | Empate | 29% | +116 | ⏳ |
 | Gana Austria | 34% | +285 | ⏳ |
-| Doble oport. Algeria | 66% | -286 | ⏳ |
-| Doble oport. Austria | 63% | -270 | ⏳ |
-| Over 1.5 goles | 65% | -128 | ⏳ |
-| Over 2.5 goles | 38% | +265 | ⏳ |
-| Over 3.5 goles | 18% | +640 | ⏳ |
-| Over 0.5 goles Algeria | 68% | -164 | ⏳ |
-| Over 0.5 goles Austria | 66% | -154 | ⏳ |
-| BTTS (ambos marcan) | 46% | +138 | ⏳ |
+| Doble oport. Algeria | 66% | -294 | ⏳ |
+| Doble oport. Austria | 63% | -286 | ⏳ |
+| Over 1.5 goles | 65% | -137 | ⏳ |
+| Over 2.5 goles | 38% | +250 | ⏳ |
+| Over 3.5 goles | 18% | +600 | ⏳ |
+| Over 0.5 goles Algeria | 68% | -175 | ⏳ |
+| Over 0.5 goles Austria | 66% | -164 | ⏳ |
+| BTTS (ambos marcan) | 46% | +130 | ⏳ |
 | Prop: Ibrahim Maza o0.5 SoT | 54% | +165 | ⏳ |
 
 ### Colombia vs Portugal — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/col-por/analysis.md)
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -82,7 +88,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -103,7 +111,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **2-1** (home) · checks **8/11**
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -124,7 +132,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **0-2** (away) · checks **10/11**
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -145,7 +153,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** away @ -222 (+8%)
+🎯 **1X2/goles sugerido:** away @ -222 (+8%)
+
+💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -166,7 +176,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -187,7 +199,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -208,7 +222,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -229,7 +245,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **2-1** (home) · checks **6/11**
 
-🎯 **Apuestas sugeridas:** home @ +320 (+10%)
+🎯 **1X2/goles sugerido:** home @ +320 (+10%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -250,7 +266,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **0-2** (away) · checks **11/11**
 
-🎯 **Apuestas sugeridas:** away @ -526 (+4%)
+🎯 **1X2/goles sugerido:** away @ -526 (+4%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|

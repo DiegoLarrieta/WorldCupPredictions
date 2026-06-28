@@ -60,12 +60,12 @@
       "exp_minutes": 85,
       "lineup": "start",
       "model_over": 0.156,
-      "over_price": 10.5,
+      "over_price": 10.0,
       "under_price": null,
       "best_side": "over",
       "market_prob": null,
       "edge": null,
-      "ev_per_unit": 0.642,
+      "ev_per_unit": 0.564,
       "value": false
     },
     {
@@ -524,12 +524,12 @@
       "exp_minutes": 85,
       "lineup": "start",
       "model_over": 0.08,
-      "over_price": 4.6,
+      "over_price": 4.7,
       "under_price": null,
       "best_side": "over",
       "market_prob": null,
       "edge": null,
-      "ev_per_unit": -0.633,
+      "ev_per_unit": -0.625,
       "value": false
     },
     {

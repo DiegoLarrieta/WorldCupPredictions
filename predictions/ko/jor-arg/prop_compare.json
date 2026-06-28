@@ -12,12 +12,12 @@
       "exp_minutes": 85,
       "lineup": "start",
       "model_over": 0.125,
-      "over_price": 21.0,
+      "over_price": 23.0,
       "under_price": null,
       "best_side": "over",
       "market_prob": null,
       "edge": null,
-      "ev_per_unit": 1.624,
+      "ev_per_unit": 1.873,
       "value": false
     },
     {
@@ -245,22 +245,6 @@
       "value": false
     },
     {
-      "player": "Nicolas Otamendi",
-      "line": 1.5,
-      "need_sot": 2,
-      "sot_per90": 0.25,
-      "exp_minutes": 85,
-      "lineup": "start",
-      "model_over": 0.024,
-      "over_price": 21.0,
-      "under_price": null,
-      "best_side": "over",
-      "market_prob": null,
-      "edge": null,
-      "ev_per_unit": -0.488,
-      "value": false
-    },
-    {
       "player": "Lautaro Martinez",
       "line": 2.5,
       "need_sot": 3,
@@ -274,6 +258,22 @@
       "market_prob": null,
       "edge": null,
       "ev_per_unit": -0.509,
+      "value": false
+    },
+    {
+      "player": "Nicolas Otamendi",
+      "line": 1.5,
+      "need_sot": 2,
+      "sot_per90": 0.25,
+      "exp_minutes": 85,
+      "lineup": "start",
+      "model_over": 0.024,
+      "over_price": 20.0,
+      "under_price": null,
+      "best_side": "over",
+      "market_prob": null,
+      "edge": null,
+      "ev_per_unit": -0.512,
       "value": false
     },
     {
@@ -293,22 +293,6 @@
       "value": false
     },
     {
-      "player": "Exequiel Palacios",
-      "line": 1.5,
-      "need_sot": 2,
-      "sot_per90": 0.34,
-      "exp_minutes": 85,
-      "lineup": "start",
-      "model_over": 0.042,
-      "over_price": 8.5,
-      "under_price": null,
-      "best_side": "over",
-      "market_prob": null,
-      "edge": null,
-      "ev_per_unit": -0.647,
-      "value": false
-    },
-    {
       "player": "Giuliano Simeone",
       "line": 1.5,
       "need_sot": 2,
@@ -322,6 +306,22 @@
       "market_prob": null,
       "edge": null,
       "ev_per_unit": -0.649,
+      "value": false
+    },
+    {
+      "player": "Exequiel Palacios",
+      "line": 1.5,
+      "need_sot": 2,
+      "sot_per90": 0.34,
+      "exp_minutes": 85,
+      "lineup": "start",
+      "model_over": 0.042,
+      "over_price": 8.0,
+      "under_price": null,
+      "best_side": "over",
+      "market_prob": null,
+      "edge": null,
+      "ev_per_unit": -0.668,
       "value": false
     },
     {
@@ -380,12 +380,12 @@
       "exp_minutes": 85,
       "lineup": "start",
       "model_over": 0.01,
-      "over_price": 19.0,
+      "over_price": 18.0,
       "under_price": null,
       "best_side": "over",
       "market_prob": null,
       "edge": null,
-      "ev_per_unit": -0.815,
+      "ev_per_unit": -0.825,
       "value": false
     },
     {

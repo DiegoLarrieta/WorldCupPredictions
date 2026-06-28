@@ -5,6 +5,15 @@
   "date": "2026-06-28",
   "result": "",
   "sug": "",
+  "prop_recs": [
+   {
+    "player": "Lautaro Martinez",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 1.71,
+    "stake": 200
+   }
+  ],
   "link": "predictions/ko/jor-arg/analysis.md",
   "markets": [
    [
@@ -16,7 +25,7 @@
    [
     "Empate",
     0.103,
-    "+880",
+    "+900",
     null
    ],
    [
@@ -46,13 +55,13 @@
    [
     "Over 2.5 goles",
     0.618,
-    "-175",
+    "-172",
     null
    ],
    [
     "Over 3.5 goles",
     0.395,
-    "+144",
+    "+148",
     null
    ],
    [
@@ -70,7 +79,7 @@
    [
     "BTTS (ambos marcan)",
     0.291,
-    "+180",
+    "+182",
     null
    ],
    [
@@ -87,12 +96,28 @@
   "date": "2026-06-28",
   "result": "",
   "sug": "",
+  "prop_recs": [
+   {
+    "player": "Amine Gouiri",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 2.75,
+    "stake": 400
+   },
+   {
+    "player": "Romano Schmid",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.42,
+    "stake": 200
+   }
+  ],
   "link": "predictions/ko/alg-aut/analysis.md",
   "markets": [
    [
     "Gana Algeria",
     0.373,
-    "+265",
+    "+275",
     null
    ],
    [
@@ -110,49 +135,49 @@
    [
     "Doble oport. Algeria",
     0.659,
-    "-286",
+    "-294",
     null
    ],
    [
     "Doble oport. Austria",
     0.627,
-    "-270",
+    "-286",
     null
    ],
    [
     "Over 1.5 goles",
     0.65,
-    "-128",
+    "-137",
     null
    ],
    [
     "Over 2.5 goles",
     0.383,
-    "+265",
+    "+250",
     null
    ],
    [
     "Over 3.5 goles",
     0.185,
-    "+640",
+    "+600",
     null
    ],
    [
     "Over 0.5 goles Algeria",
     0.68,
-    "-164",
+    "-175",
     null
    ],
    [
     "Over 0.5 goles Austria",
     0.66,
-    "-154",
+    "-164",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.459,
-    "+138",
+    "+130",
     null
    ],
    [

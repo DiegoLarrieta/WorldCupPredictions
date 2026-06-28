@@ -63,6 +63,43 @@ def _amer(d) -> str:
     return f"+{round((d - 1) * 100)}" if d >= 2.0 else f"{round(-100 / (d - 1))}"
 
 
+# Managed bankroll (see memory bankroll-management): 10,000 MXN, 1u = 2% = 200 MXN,
+# aggressive-but-data-grounded, cap per-match prop exposure at ~10% of the roll.
+BANKROLL_UNIT = 200
+SLATE_CAP = 1000
+
+
+def _recommend_props(fwd_rows) -> list[dict]:
+    """Curate a data-grounded prop slate with MXN stakes from the forwards value table.
+    Discipline (aggressive but data-grounded): value overs only (model ≥55%, EV>0), on
+    non-longshot prices (decimal ≤4.0), with a real edge (≥5pp over implied) BUT a bounded one
+    — if model/implied > 1.8 the "edge" is almost surely model error (a mislabeled full-back the
+    model thinks shoots like a striker, an un-de-viggable longshot), so drop it, per CLAUDE.md.
+    One best-EV bet per player; stake scales with edge, capped at the slate limit."""
+    cands = []
+    for r in (fwd_rows or []):
+        if not (r.get("value") and r["over_price"] <= 4.0 and r["model_over"] >= 0.55):
+            continue
+        implied = 1.0 / r["over_price"]
+        edge = r["model_over"] - implied
+        if edge < 0.05 or r["model_over"] / implied > 1.8:      # too small, or too-good-to-be-true
+            continue
+        cands.append({**r, "edge": round(edge, 3)})
+    best: dict[str, dict] = {}
+    for r in cands:
+        if r["player"] not in best or r["ev"] > best[r["player"]]["ev"]:
+            best[r["player"]] = r
+    recs = []
+    for r in sorted(best.values(), key=lambda x: -x["edge"]):
+        units = 2.0 if r["edge"] >= 0.18 else 1.5 if r["edge"] >= 0.10 else 1.0
+        recs.append({**r, "stake": int(units * BANKROLL_UNIT)})
+    tot = sum(r["stake"] for r in recs)
+    if tot > SLATE_CAP:                                    # scale down proportionally, round to 50
+        for r in recs:
+            r["stake"] = int(round(r["stake"] * SLATE_CAP / tot / 50) * 50)
+    return recs
+
+
 def _kickoff(match: str) -> str:
     """'YYYY-MM-DD HH:MM' kickoff for a match from the latest odds snapshot, else ''."""
     if not SNAP.exists():
@@ -76,7 +113,7 @@ def _kickoff(match: str) -> str:
     return best.replace("T", " ").replace("Z", "")[:16] if best else ""
 
 
-def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
+def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs=None) -> None:
     """Upsert this fixture's full market breakdown into README's daily board (sidecar JSON
     is the source). Every market we analyse gets its model prob + real odds where we have them."""
     extra = extra or {}
@@ -145,8 +182,10 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
             if m:
                 res += f" · checks **{m.group(1)}**"
     ko = _kickoff(pred["match"])
+    prec = [{"player": r["player"], "market": r["market"], "line": r["line"],
+             "price": r["over_price"], "stake": r["stake"]} for r in (prop_recs or [])]
     row = {"match": pred["match"], "kickoff": ko, "date": ko[:10], "result": res,
-           "sug": sug, "link": str(folder / "analysis.md"),
+           "sug": sug, "prop_recs": prec, "link": str(folder / "analysis.md"),
            "markets": [(lab, round(pr, 3), o, hp) for lab, pr, o, hp in mk]}
 
     rows = json.loads(BOARD_JSON.read_text()) if BOARD_JSON.exists() else []
@@ -164,9 +203,17 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None) -> None:
         L += [head, ""]
         L += [r["result"] if r.get("result") else "⏳ Por jugarse", ""]
         if r.get("sug"):
-            L += [f"🎯 **Apuestas sugeridas:** {r['sug']}", ""]
+            L += [f"🎯 **1X2/goles sugerido:** {r['sug']}", ""]
         else:
-            L += ["🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)", ""]
+            L += ["🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)", ""]
+        pr = r.get("prop_recs") or []
+        if pr:
+            tot = sum(p["stake"] for p in pr)
+            picks = " · ".join(f"**{p['player']}** o{p['line']} {p['market']} @ {_amer(p['price'])} "
+                               f"— **${p['stake']:,} MXN**" for p in pr)
+            L += [f"💵 **Props recomendados (banca 10k MXN):** {picks} · _total ${tot:,} MXN_", ""]
+        elif not r.get("result"):       # upcoming game with no prop slate yet
+            L += ["💵 **Props recomendados:** ninguno (sin value de delanteros con datos)", ""]
         L += ["| Mercado | Prob modelo | Odds | Check |", "|---|---|---|---|"]
         for m in r["markets"]:
             lab, pr, o = m[0], m[1], m[2]
@@ -284,6 +331,7 @@ def main() -> None:
     if args.source == "live":
         props, prop_note = _prop_candidates(folder)
         fwd_rows, fwd_note, fwd_excl = forward_prop_table(home, away, pred["as_of"])
+    prop_recs = _recommend_props(fwd_rows)
 
     # --- result (reveal) ---
     result = None
@@ -298,7 +346,7 @@ def main() -> None:
                  soft.get("ou_2.5") if isinstance(soft, dict) else None, extra,
                  fwd_rows, fwd_note, fwd_excl)
     (folder / "analysis.md").write_text(md)
-    _update_board(folder, pred, market, props, extra)   # accumulate in the README board
+    _update_board(folder, pred, market, props, extra, prop_recs)   # accumulate in the README board
     print(f"-> {folder/'analysis.md'}")
     print(md)
 
