@@ -8,9 +8,9 @@ _as_of 2026-06-30 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 37% | 44% | +122 | **pass** |
-| draw | 30% | 30% | +244 | **bet** |
-| away | 34% | 25% | +320 | **bet** |
+| home | 37% | 42% | +134 | **pass** |
+| draw | 30% | 31% | +229 | **bet** |
+| away | 34% | 27% | +275 | **bet** |
 
 ## Goals (total)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-30 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 62% | -233 | -0.12 |
-| 2.5 | 34% | +130 | -0.21 |
-| 3.5 | 16% | +340 | -0.30 |
+| 1.5 | 62% | -238 | -0.13 |
+| 2.5 | 34% | +128 | -0.21 |
+| 3.5 | 16% | +310 | -0.35 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Netherlands | 66% | -323 | -0.13 |
-| Doble oport. Morocco | 63% | -125 | +0.14 |
+| Doble oport. Netherlands | 66% | -286 | -0.11 |
+| Doble oport. Morocco | 63% | -139 | +0.09 |
 | Over 1.5 goles Netherlands | 26% | — | — |
 | Over 1.5 goles Morocco | 30% | — | — |
-| BTTS (ambos marcan) | 43% | +100 | -0.14 |
+| BTTS (ambos marcan) | 43% | -110 | -0.18 |
 | Tiros Netherlands over 9.5 | 64% | — | — |
 | Tiros Morocco over 9.5 | 74% | — | — |
 | TaP Netherlands over 2.5 | 70% | — | — |
@@ -45,52 +45,51 @@ Todos los delanteros (FW) de ambos equipos, con las líneas que el libro cotiza 
 | equipo | delantero | mercado | línea | model | odds | EV | valor |
 |---|---|---|---|---|---|---|---|
 | Morocco | Brahim Diaz | tiros | o0.5 | 60% | -556 | -0.30 |  |
-| Morocco | Brahim Diaz | tiros | o1.5 | 23% | -120 | -0.58 |  |
-| Morocco | Brahim Diaz | tiros | o2.5 | 6% | +220 | -0.80 |  |
-| Morocco | Brahim Diaz | tiros | o3.5 | 1% | +490 | -0.92 |  |
+| Morocco | Brahim Diaz | tiros | o1.5 | 23% | -125 | -0.59 |  |
+| Morocco | Brahim Diaz | tiros | o2.5 | 6% | +210 | -0.80 |  |
+| Morocco | Brahim Diaz | tiros | o3.5 | 1% | +470 | -0.92 |  |
 | Morocco | Brahim Diaz | tiros | o4.5 | 0% | +1200 | -0.97 |  |
-| Morocco | Brahim Diaz | a puerta | o0.5 | 26% | -106 | -0.49 |  |
-| Morocco | Brahim Diaz | a puerta | o1.5 | 4% | +480 | -0.78 |  |
+| Morocco | Brahim Diaz | a puerta | o0.5 | 26% | -104 | -0.48 |  |
+| Morocco | Brahim Diaz | a puerta | o1.5 | 4% | +490 | -0.77 |  |
 | Morocco | Brahim Diaz | a puerta | o2.5 | 0% | +2200 | -0.91 |  |
-| Netherlands | Brian Brobbey | tiros | o0.5 | 71% | -1250 | -0.23 |  |
-| Netherlands | Brian Brobbey | tiros | o1.5 | 35% | -238 | -0.50 |  |
-| Netherlands | Brian Brobbey | tiros | o2.5 | 13% | +125 | -0.71 |  |
-| Netherlands | Brian Brobbey | tiros | o3.5 | 4% | +330 | -0.84 |  |
+| Netherlands | Brian Brobbey | tiros | o0.5 | 71% | -1111 | -0.23 |  |
+| Netherlands | Brian Brobbey | tiros | o1.5 | 35% | -233 | -0.50 |  |
+| Netherlands | Brian Brobbey | tiros | o2.5 | 13% | +130 | -0.70 |  |
+| Netherlands | Brian Brobbey | tiros | o3.5 | 4% | +340 | -0.84 |  |
 | Netherlands | Brian Brobbey | tiros | o4.5 | 1% | +850 | -0.92 |  |
 | Netherlands | Brian Brobbey | tiros | o5.5 | 0% | +2200 | -0.96 |  |
-| Netherlands | Brian Brobbey | a puerta | o0.5 | 34% | -185 | -0.47 |  |
-| Netherlands | Brian Brobbey | a puerta | o1.5 | 7% | +270 | -0.76 |  |
+| Netherlands | Brian Brobbey | a puerta | o0.5 | 34% | -175 | -0.46 |  |
+| Netherlands | Brian Brobbey | a puerta | o1.5 | 7% | +280 | -0.75 |  |
 | Netherlands | Brian Brobbey | a puerta | o2.5 | 1% | +1100 | -0.89 |  |
-| Netherlands | Cody Gakpo | tiros | o0.5 | 86% | -909 | -0.05 |  |
-| Netherlands | Cody Gakpo | tiros | o1.5 | 58% | -200 | -0.13 |  |
-| Netherlands | Cody Gakpo | tiros | o2.5 | 31% | +135 | -0.27 |  |
+| Netherlands | Cody Gakpo | tiros | o0.5 | 86% | -1111 | -0.06 |  |
+| Netherlands | Cody Gakpo | tiros | o1.5 | 58% | -213 | -0.14 |  |
+| Netherlands | Cody Gakpo | tiros | o2.5 | 31% | +128 | -0.29 |  |
 | Netherlands | Cody Gakpo | tiros | o3.5 | 14% | +290 | -0.47 |  |
 | Netherlands | Cody Gakpo | tiros | o4.5 | 5% | +700 | -0.61 |  |
 | Netherlands | Cody Gakpo | tiros | o5.5 | 2% | +1700 | -0.73 |  |
-| Netherlands | Cody Gakpo | a puerta | o0.5 | 48% | -175 | -0.24 |  |
+| Netherlands | Cody Gakpo | a puerta | o0.5 | 48% | -169 | -0.23 |  |
 | Netherlands | Cody Gakpo | a puerta | o1.5 | 14% | +300 | -0.43 |  |
-| Netherlands | Cody Gakpo | a puerta | o2.5 | 3% | +1300 | -0.59 |  |
-| Netherlands | Crysencio Summerville | tiros | o0.5 | 75% | -556 | -0.11 |  |
-| Netherlands | Crysencio Summerville | tiros | o1.5 | 41% | -132 | -0.28 |  |
-| Netherlands | Crysencio Summerville | tiros | o2.5 | 16% | +200 | -0.51 |  |
-| Netherlands | Crysencio Summerville | a puerta | o0.5 | 38% | -109 | -0.28 |  |
-| Netherlands | Crysencio Summerville | a puerta | o1.5 | 8% | +400 | -0.59 |  |
+| Netherlands | Cody Gakpo | a puerta | o2.5 | 3% | +1200 | -0.61 |  |
+| Netherlands | Crysencio Summerville | tiros | o0.5 | 75% | -526 | -0.10 |  |
+| Netherlands | Crysencio Summerville | tiros | o1.5 | 41% | -122 | -0.26 |  |
+| Netherlands | Crysencio Summerville | tiros | o2.5 | 16% | +210 | -0.49 |  |
+| Netherlands | Crysencio Summerville | a puerta | o0.5 | 38% | +105 | -0.23 |  |
+| Netherlands | Crysencio Summerville | a puerta | o1.5 | 8% | +475 | -0.53 |  |
 | Netherlands | Donyell Malen | tiros | o0.5 | 88% | -1000 | -0.04 |  |
-| Netherlands | Donyell Malen | tiros | o1.5 | 62% | -213 | -0.09 |  |
-| Netherlands | Donyell Malen | tiros | o2.5 | 35% | +125 | -0.22 |  |
-| Netherlands | Donyell Malen | tiros | o3.5 | 16% | +270 | -0.41 |  |
-| Netherlands | Donyell Malen | tiros | o4.5 | 6% | +550 | -0.60 |  |
-| Netherlands | Donyell Malen | tiros | o5.5 | 2% | +1200 | -0.74 |  |
-| Netherlands | Donyell Malen | a puerta | o0.5 | 51% | -154 | -0.17 |  |
-| Netherlands | Donyell Malen | a puerta | o1.5 | 16% | +280 | -0.40 |  |
+| Netherlands | Donyell Malen | tiros | o1.5 | 62% | -200 | -0.07 |  |
+| Netherlands | Donyell Malen | tiros | o2.5 | 35% | +135 | -0.18 |  |
+| Netherlands | Donyell Malen | tiros | o3.5 | 16% | +280 | -0.39 |  |
+| Netherlands | Donyell Malen | tiros | o4.5 | 6% | +500 | -0.63 |  |
+| Netherlands | Donyell Malen | tiros | o5.5 | 2% | +1300 | -0.72 |  |
+| Netherlands | Donyell Malen | a puerta | o0.5 | 51% | -139 | -0.13 |  |
+| Netherlands | Donyell Malen | a puerta | o1.5 | 16% | +290 | -0.38 |  |
 | Netherlands | Donyell Malen | a puerta | o2.5 | 4% | +1100 | -0.58 |  |
-| Netherlands | Memphis Depay | tiros | o0.5 | 77% | -909 | -0.14 |  |
-| Netherlands | Memphis Depay | tiros | o1.5 | 44% | -200 | -0.35 |  |
-| Netherlands | Memphis Depay | tiros | o2.5 | 19% | +133 | -0.57 |  |
-| Netherlands | Memphis Depay | tiros | o3.5 | 6% | +280 | -0.76 |  |
-| Netherlands | Memphis Depay | a puerta | o0.5 | 39% | -167 | -0.37 |  |
-| Netherlands | Memphis Depay | a puerta | o1.5 | 9% | +250 | -0.69 |  |
-| Netherlands | Memphis Depay | a puerta | o2.5 | 1% | +800 | -0.87 |  |
+| Netherlands | Memphis Depay | tiros | o0.5 | 77% | -833 | -0.14 |  |
+| Netherlands | Memphis Depay | tiros | o1.5 | 44% | -175 | -0.32 |  |
+| Netherlands | Memphis Depay | tiros | o2.5 | 19% | +150 | -0.54 |  |
+| Netherlands | Memphis Depay | tiros | o3.5 | 6% | +320 | -0.73 |  |
+| Netherlands | Memphis Depay | a puerta | o0.5 | 39% | -137 | -0.32 |  |
+| Netherlands | Memphis Depay | a puerta | o1.5 | 9% | +300 | -0.64 |  |
 
 🎯 **Sin value** — ningún delantero supera el precio con vig estando ≥50%.
 

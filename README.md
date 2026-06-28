@@ -238,18 +238,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Netherlands | 37% | +122 | ⏳ |
-| Empate | 30% | +244 | ⏳ |
-| Gana Morocco | 34% | +320 | ⏳ |
-| Doble oport. Netherlands | 66% | -323 | ⏳ |
-| Doble oport. Morocco | 63% | -125 | ⏳ |
-| Over 1.5 goles | 62% | -233 | ⏳ |
-| Over 2.5 goles | 34% | +130 | ⏳ |
-| Over 3.5 goles | 16% | +340 | ⏳ |
+| Gana Netherlands | 37% | +134 | ⏳ |
+| Empate | 30% | +229 | ⏳ |
+| Gana Morocco | 34% | +275 | ⏳ |
+| Doble oport. Netherlands | 66% | -286 | ⏳ |
+| Doble oport. Morocco | 63% | -139 | ⏳ |
+| Over 1.5 goles | 62% | -238 | ⏳ |
+| Over 2.5 goles | 34% | +128 | ⏳ |
+| Over 3.5 goles | 16% | +310 | ⏳ |
 | Over 1.5 goles Netherlands | 26% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Morocco | 30% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 43% | +100 | ⏳ |
-| Prop: Ismael Saibari o0.5 SoT | 58% | -133 | ⏳ |
+| BTTS (ambos marcan) | 43% | -110 | ⏳ |
+| Prop: Ismael Saibari o0.5 SoT | 58% | -132 | ⏳ |
 
 ### Germany vs Paraguay — 2026-06-29 14:30 · [análisis](predictions/16round/ger-par/analysis.md)
 
@@ -257,18 +257,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Germany | 54% | -250 | ⏳ |
-| Empate | 25% | +430 | ⏳ |
-| Gana Paraguay | 22% | +1000 | ⏳ |
-| Doble oport. Germany | 78% | -1000 | ⏳ |
-| Doble oport. Paraguay | 46% | +250 | ⏳ |
-| Over 1.5 goles | 75% | -400 | ⏳ |
-| Over 2.5 goles | 50% | -132 | ⏳ |
-| Over 3.5 goles | 28% | +190 | ⏳ |
+| Gana Germany | 54% | -263 | ⏳ |
+| Empate | 25% | +450 | ⏳ |
+| Gana Paraguay | 22% | +1100 | ⏳ |
+| Doble oport. Germany | 78% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Paraguay | 46% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles | 75% | _(no fetcheado)_ | ⏳ |
+| Over 2.5 goles | 50% | _(no fetcheado)_ | ⏳ |
+| Over 3.5 goles | 28% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Germany | 47% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Paraguay | 30% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 54% | +114 | ⏳ |
-| Prop: Julio Cesar Enciso o0.5 SoT | 51% | +118 | ⏳ |
+| BTTS (ambos marcan) | 54% | _(no fetcheado)_ | ⏳ |
+| Prop: Julio Cesar Enciso o0.5 SoT | 51% | +135 | ⏳ |
 
 ### Brazil vs Japan — 2026-06-29 11:00 · [análisis](predictions/16round/bra-jpn/analysis.md)
 
@@ -276,18 +276,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Brazil | 48% | -132 | ⏳ |
-| Empate | 27% | +300 | ⏳ |
-| Gana Japan | 25% | +450 | ⏳ |
-| Doble oport. Brazil | 75% | -476 | ⏳ |
-| Doble oport. Japan | 52% | +130 | ⏳ |
-| Over 1.5 goles | 69% | -270 | ⏳ |
-| Over 2.5 goles | 43% | +110 | ⏳ |
-| Over 3.5 goles | 22% | +280 | ⏳ |
+| Gana Brazil | 48% | -130 | ⏳ |
+| Empate | 27% | +285 | ⏳ |
+| Gana Japan | 25% | +460 | ⏳ |
+| Doble oport. Brazil | 75% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Japan | 52% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles | 69% | _(no fetcheado)_ | ⏳ |
+| Over 2.5 goles | 43% | _(no fetcheado)_ | ⏳ |
+| Over 3.5 goles | 22% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Brazil | 38% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Japan | 29% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 50% | +102 | ⏳ |
-| Prop: Ayase Ueda o0.5 SoT | 67% | -125 | ⏳ |
+| BTTS (ambos marcan) | 50% | _(no fetcheado)_ | ⏳ |
+| Prop: Ayase Ueda o0.5 SoT | 68% | -118 | ⏳ |
 
 ### South Africa vs Canada — 2026-06-28 13:00 · [análisis](predictions/16round/rsa-can/analysis.md)
 
