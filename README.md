@@ -15,13 +15,9 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
-### Colombia vs Ghana — 2026-07-04 01:30Z · [análisis](predictions/16round/col-gha/analysis.md)
+### Colombia vs Ghana — 2026-07-03 19:30 · [análisis](predictions/16round/col-gha/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -37,33 +33,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Ghana | 10% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 37% | _(no fetcheado)_ | ⏳ |
 
-### Cape Verde vs Saudi Arabia — 2026-07-03 22:00Z · [análisis](predictions/week3/groupH/cpv-ksa/analysis.md)
-
-✅ Jugado: **0-0** (draw) · checks **9/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Cape Verde | 32% | -556 | ❌ |
-| Empate | 31% | +820 | ✅ |
-| Gana Saudi Arabia | 38% | +2400 | ❌ |
-| Doble oport. Cape Verde | 63% | _(no fetcheado)_ | ✅ |
-| Doble oport. Saudi Arabia | 68% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 53% | _(no fetcheado)_ | ❌ |
-| Over 2.5 goles | 26% | _(no fetcheado)_ | ❌ |
-| Over 3.5 goles | 11% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Cape Verde | 20% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Saudi Arabia | 25% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 35% | _(no fetcheado)_ | ❌ |
-
-### Argentina vs Cape Verde — 2026-07-03 22:00Z · [análisis](predictions/16round/arg-cpv/analysis.md)
+### Argentina vs Cape Verde — 2026-07-03 16:00 · [análisis](predictions/16round/arg-cpv/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -79,13 +51,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Cape Verde | 3% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 22% | _(no fetcheado)_ | ⏳ |
 
-### Australia vs Egypt — 2026-07-03 18:00Z · [análisis](predictions/16round/aus-egy/analysis.md)
+### Australia vs Egypt — 2026-07-03 12:00 · [análisis](predictions/16round/aus-egy/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -101,13 +69,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Egypt | 14% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 31% | _(no fetcheado)_ | ⏳ |
 
-### Switzerland vs Algeria — 2026-07-03 03:00Z · [análisis](predictions/16round/sui-alg/analysis.md)
+### Switzerland vs Algeria — 2026-07-02 21:00 · [análisis](predictions/16round/sui-alg/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -123,13 +87,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Algeria | 37% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 56% | _(no fetcheado)_ | ⏳ |
 
-### Portugal vs Croatia — 2026-07-02 23:00Z · [análisis](predictions/16round/por-cro/analysis.md)
+### Portugal vs Croatia — 2026-07-02 17:00 · [análisis](predictions/16round/por-cro/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -145,13 +105,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Croatia | 25% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 52% | _(no fetcheado)_ | ⏳ |
 
-### Spain vs Austria — 2026-07-02 19:00Z · [análisis](predictions/16round/esp-aut/analysis.md)
+### Spain vs Austria — 2026-07-02 13:00 · [análisis](predictions/16round/esp-aut/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -167,33 +123,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Austria | 19% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 46% | _(no fetcheado)_ | ⏳ |
 
-### Bosnia and Herzegovina vs Qatar — 2026-07-02 00:00Z · [análisis](predictions/week3/groupB/bih-qat/analysis.md)
-
-✅ Jugado: **3-1** (home) · checks **5/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Bosnia and Herzegovina | 47% | -238 | ✅ |
-| Empate | 27% | +440 | ❌ |
-| Gana Qatar | 26% | +1000 | ❌ |
-| Doble oport. Bosnia and Herzegovina | 74% | _(no fetcheado)_ | ✅ |
-| Doble oport. Qatar | 53% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles | 68% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 42% | _(no fetcheado)_ | ✅ |
-| Over 3.5 goles | 21% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Bosnia and Herzegovina | 37% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Qatar | 29% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 48% | _(no fetcheado)_ | ✅ |
-
-### United States vs Bosnia and Herzegovina — 2026-07-02 00:00Z · [análisis](predictions/16round/usa-bih/analysis.md)
+### United States vs Bosnia and Herzegovina — 2026-07-01 18:00 · [análisis](predictions/16round/usa-bih/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -209,13 +141,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Bosnia and Herzegovina | 22% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 53% | _(no fetcheado)_ | ⏳ |
 
-### Belgium vs Senegal — 2026-07-01 20:00Z · [análisis](predictions/16round/bel-sen/analysis.md)
+### Belgium vs Senegal — 2026-07-01 14:00 · [análisis](predictions/16round/bel-sen/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -231,13 +159,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Senegal | 31% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 51% | _(no fetcheado)_ | ⏳ |
 
-### England vs DR Congo — 2026-07-01 16:00Z · [análisis](predictions/16round/eng-drc/analysis.md)
+### England vs DR Congo — 2026-07-01 10:00 · [análisis](predictions/16round/eng-drc/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** under @ +107 (+6%)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -253,13 +177,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles DR Congo | 9% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 28% | _(no fetcheado)_ | ⏳ |
 
-### Mexico vs Ecuador — 2026-07-01 01:00Z · [análisis](predictions/16round/mex-ecu/analysis.md)
+### Mexico vs Ecuador — 2026-06-30 19:00 · [análisis](predictions/16round/mex-ecu/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -275,13 +195,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Ecuador | 18% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 27% | _(no fetcheado)_ | ⏳ |
 
-### France vs Sweden — 2026-06-30 21:00Z · [análisis](predictions/16round/fra-swe/analysis.md)
+### France vs Sweden — 2026-06-30 15:00 · [análisis](predictions/16round/fra-swe/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -297,13 +213,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Sweden | 26% | _(no fetcheado)_ | ⏳ |
 | BTTS (ambos marcan) | 58% | _(no fetcheado)_ | ⏳ |
 
-### Ivory Coast vs Norway — 2026-06-30 17:00Z · [análisis](predictions/16round/civ-nor/analysis.md)
+### Ivory Coast vs Norway — 2026-06-30 11:00 · [análisis](predictions/16round/civ-nor/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** under @ +102 (+4%)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -320,13 +232,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 50% | -125 | ⏳ |
 | Prop: Alexander Sorloth o0.5 SoT | 51% | -149 | ⏳ |
 
-### Netherlands vs Morocco — 2026-06-30 01:00Z · [análisis](predictions/16round/ned-mar/analysis.md)
+### Netherlands vs Morocco — 2026-06-29 19:00 · [análisis](predictions/16round/ned-mar/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -343,13 +251,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 43% | +100 | ⏳ |
 | Prop: Ismael Saibari o0.5 SoT | 58% | -133 | ⏳ |
 
-### Germany vs Paraguay — 2026-06-29 20:30Z · [análisis](predictions/16round/ger-par/analysis.md)
+### Germany vs Paraguay — 2026-06-29 14:30 · [análisis](predictions/16round/ger-par/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -366,13 +270,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 54% | +114 | ⏳ |
 | Prop: Julio Cesar Enciso o0.5 SoT | 51% | +118 | ⏳ |
 
-### Brazil vs Japan — 2026-06-29 17:00Z · [análisis](predictions/16round/bra-jpn/analysis.md)
+### Brazil vs Japan — 2026-06-29 11:00 · [análisis](predictions/16round/bra-jpn/analysis.md)
 
 ⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** draw @ +300 (+4%)
-
-💵 **Props recomendados (banca 10k MXN):** **Ayase Ueda** o1.5 tiros @ -164 (modelo 84%) — **$350 MXN** · **Keito Nakamura** o1.5 tiros @ +105 (modelo 64%) — **$250 MXN** · **Neymar** o1.5 tiros @ -213 (modelo 74%) — **$200 MXN** · **Ritsu Doan** o0.5 tiros @ -263 (modelo 78%) — **$200 MXN** · _total $1,000 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -389,31 +289,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 50% | +102 | ⏳ |
 | Prop: Ayase Ueda o0.5 SoT | 67% | -125 | ⏳ |
 
-### South Africa vs South Korea — 2026-06-28 19:00Z · [análisis](predictions/week3/groupA/rsa-kor/analysis.md)
-
-✅ Jugado: **1-0** (home) · checks **6/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana South Africa | 13% | +525 | ✅ |
-| Empate | 23% | +275 | ❌ |
-| Gana South Korea | 64% | -133 | ❌ |
-| Doble oport. South Africa | 36% | _(no fetcheado)_ | ✅ |
-| Doble oport. South Korea | 87% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles | 66% | _(no fetcheado)_ | ❌ |
-| Over 2.5 goles | 40% | _(no fetcheado)_ | ❌ |
-| Over 3.5 goles | 20% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles South Africa | 16% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles South Korea | 46% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 41% | _(no fetcheado)_ | ❌ |
-
-### South Africa vs Canada — 2026-06-28 19:00Z · [análisis](predictions/16round/rsa-can/analysis.md)
+### South Africa vs Canada — 2026-06-28 13:00 · [análisis](predictions/16round/rsa-can/analysis.md)
 
 ✅ Jugado: **0-1** (away) · checks **10/11**
-
-🎯 **1X2/goles sugerido:** draw @ +280 (+10%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -430,51 +308,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 34% | _(no fetcheado)_ | ❌ |
 | Prop: Tani Oluwaseyi o0.5 SoT | 63% | -147 | ✅ |
 
-### Algeria vs Austria — 2026-06-28 02:00Z · [análisis](predictions/week3/groupI/alg-aut/analysis.md)
-
-✅ Jugado: **3-3** (draw) · checks **5/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Algeria | 35% | +275 | ❌ |
-| Empate | 28% | +114 | ✅ |
-| Gana Austria | 36% | +292 | ❌ |
-| Doble oport. Algeria | 64% | _(no fetcheado)_ | ✅ |
-| Doble oport. Austria | 65% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 67% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 40% | _(no fetcheado)_ | ✅ |
-| Over 3.5 goles | 20% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Algeria | 33% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Austria | 31% | _(no fetcheado)_ | ✅ |
-| BTTS (ambos marcan) | 48% | _(no fetcheado)_ | ✅ |
-
-### Jordan vs Argentina — 2026-06-28 02:00Z · [análisis](predictions/week3/groupI/jor-arg/analysis.md)
-
-✅ Jugado: **1-3** (away) · checks **9/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Jordan | 3% | +2400 | ❌ |
-| Empate | 11% | +900 | ❌ |
-| Gana Argentina | 86% | -588 | ✅ |
-| Doble oport. Jordan | 14% | _(no fetcheado)_ | ❌ |
-| Doble oport. Argentina | 97% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 82% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 61% | _(no fetcheado)_ | ✅ |
-| Over 3.5 goles | 39% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Jordan | 6% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Argentina | 76% | _(no fetcheado)_ | ✅ |
-| BTTS (ambos marcan) | 32% | _(no fetcheado)_ | ✅ |
-
-### Colombia vs Portugal — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/col-por/analysis.md)
+### Colombia vs Portugal — 2026-06-27 17:30 · [análisis](predictions/week3/groupK/col-por/analysis.md)
 
 ✅ Jugado: **0-0** (draw) · checks **8/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -491,11 +327,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 54% | _(no fetcheado)_ | ❌ |
 | Prop: Ruben Neves o0.5 SoT | 51% | +430 | ❌ |
 
-### DR Congo vs Uzbekistan — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/drc-uzb/analysis.md)
+### DR Congo vs Uzbekistan — 2026-06-27 17:30 · [análisis](predictions/week3/groupK/drc-uzb/analysis.md)
 
 ✅ Jugado: **3-1** (home) · checks **4/11**
-
-🎯 **1X2/goles sugerido:** draw @ +1100 (+494%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -512,11 +346,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 28% | _(no fetcheado)_ | ✅ |
 | Prop: Nathanael Mbuku o0.5 SoT | 56% | +105 | ✅ |
 
-### Croatia vs Ghana — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/cro-gha/analysis.md)
+### Croatia vs Ghana — 2026-06-27 15:00 · [análisis](predictions/week3/groupL/cro-gha/analysis.md)
 
 ✅ Jugado: **2-1** (home) · checks **8/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -533,11 +365,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 44% | _(no fetcheado)_ | ✅ |
 | Prop: Jordan Ayew o0.5 SoT | 60% | +107 | ⏳ |
 
-### Panama vs England — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/pan-eng/analysis.md)
+### Panama vs England — 2026-06-27 15:00 · [análisis](predictions/week3/groupL/pan-eng/analysis.md)
 
 ✅ Jugado: **0-2** (away) · checks **10/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -554,72 +384,45 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 42% | _(no fetcheado)_ | ❌ |
 | Prop: Bukayo Saka o0.5 SoT | 64% | -233 | ❌ |
 
-### Egypt vs Iran — 2026-06-27 03:00Z · [análisis](predictions/week3/groupG/egy-irn/analysis.md)
+### Algeria vs Austria — 2026-06-27 — · [análisis](predictions/week3/groupI/alg-aut/analysis.md)
 
-✅ Jugado: **1-1** (draw) · checks **9/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+✅ Jugado: **3-3** (draw) · checks **5/11**
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Egypt | 29% | +250 | ❌ |
-| Empate | 29% | +210 | ✅ |
-| Gana Iran | 42% | +160 | ❌ |
-| Doble oport. Egypt | 58% | _(no fetcheado)_ | ✅ |
-| Doble oport. Iran | 71% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 62% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 34% | _(no fetcheado)_ | ❌ |
-| Over 3.5 goles | 16% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Egypt | 22% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Iran | 33% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 42% | _(no fetcheado)_ | ✅ |
+| Gana Algeria | 35% | +275 | ❌ |
+| Empate | 28% | +114 | ✅ |
+| Gana Austria | 36% | +292 | ❌ |
+| Doble oport. Algeria | 64% | _(no fetcheado)_ | ✅ |
+| Doble oport. Austria | 65% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 67% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 40% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 20% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Algeria | 33% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Austria | 31% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 48% | _(no fetcheado)_ | ✅ |
 
-### New Zealand vs Belgium — 2026-06-27 03:00Z · [análisis](predictions/week3/groupG/nzl-bel/analysis.md)
+### Jordan vs Argentina — 2026-06-27 — · [análisis](predictions/week3/groupI/jor-arg/analysis.md)
 
-✅ Jugado: **1-5** (away) · checks **10/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+✅ Jugado: **1-3** (away) · checks **9/11**
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana New Zealand | 16% | +1650 | ❌ |
-| Empate | 23% | +750 | ❌ |
-| Gana Belgium | 62% | -455 | ✅ |
-| Doble oport. New Zealand | 38% | _(no fetcheado)_ | ❌ |
-| Doble oport. Belgium | 84% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 77% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 53% | _(no fetcheado)_ | ✅ |
-| Over 3.5 goles | 31% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles New Zealand | 21% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Belgium | 58% | _(no fetcheado)_ | ✅ |
-| BTTS (ambos marcan) | 50% | _(no fetcheado)_ | ✅ |
+| Gana Jordan | 3% | +2400 | ❌ |
+| Empate | 11% | +900 | ❌ |
+| Gana Argentina | 86% | -588 | ✅ |
+| Doble oport. Jordan | 14% | _(no fetcheado)_ | ❌ |
+| Doble oport. Argentina | 97% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 82% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 61% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 39% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Jordan | 6% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Argentina | 76% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 32% | _(no fetcheado)_ | ✅ |
 
-### Uruguay vs Spain — 2026-06-27 00:00Z · [análisis](predictions/week3/groupH/uru-esp/analysis.md)
-
-✅ Jugado: **0-1** (away) · checks **10/11**
-
-🎯 **1X2/goles sugerido:** away @ -133 (+4%)
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Uruguay | 18% | +560 | ❌ |
-| Empate | 27% | +270 | ❌ |
-| Gana Spain | 55% | -133 | ✅ |
-| Doble oport. Uruguay | 45% | _(no fetcheado)_ | ❌ |
-| Doble oport. Spain | 82% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 58% | _(no fetcheado)_ | ❌ |
-| Over 2.5 goles | 31% | _(no fetcheado)_ | ❌ |
-| Over 3.5 goles | 13% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Uruguay | 19% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Spain | 32% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 38% | _(no fetcheado)_ | ❌ |
-| Prop: Darwin Gabriel Nunez Ribeiro o0.5 SoT | 59% | -115 | ❌ |
-
-### Norway vs France — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)
+### Norway vs France — 2026-06-26 13:00 · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)
 
 ✅ Jugado: **1-4** (away) · checks **7/11**
-
-🎯 **1X2/goles sugerido:** under @ +102 (+4%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -636,11 +439,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 57% | _(no fetcheado)_ | ✅ |
 | Prop: Andreas Schjelderup o0.5 SoT | 50% | +120 | ⏳ |
 
-### Senegal vs Iraq — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/sen-ira/analysis.md)
+### Senegal vs Iraq — 2026-06-26 13:00 · [análisis](predictions/week3/groupJ/sen-ira/analysis.md)
 
 ✅ Jugado: **5-0** (home) · checks **8/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -657,31 +458,82 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ❌ |
 | Prop: Ali Al-Hamadi o0.5 SoT | 53% | +135 | ⏳ |
 
-### Paraguay vs Australia — 2026-06-26 02:00Z · [análisis](predictions/week3/groupC/par-aus/analysis.md)
+### Cape Verde vs Saudi Arabia — 2026-06-26 — · [análisis](predictions/week3/groupH/cpv-ksa/analysis.md)
 
 ✅ Jugado: **0-0** (draw) · checks **9/11**
 
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Cape Verde | 32% | -556 | ❌ |
+| Empate | 31% | +820 | ✅ |
+| Gana Saudi Arabia | 38% | +2400 | ❌ |
+| Doble oport. Cape Verde | 63% | _(no fetcheado)_ | ✅ |
+| Doble oport. Saudi Arabia | 68% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 53% | _(no fetcheado)_ | ❌ |
+| Over 2.5 goles | 26% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 11% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Cape Verde | 20% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Saudi Arabia | 25% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 35% | _(no fetcheado)_ | ❌ |
+
+### Egypt vs Iran — 2026-06-26 — · [análisis](predictions/week3/groupG/egy-irn/analysis.md)
+
+✅ Jugado: **1-1** (draw) · checks **9/11**
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Paraguay | 22% | -250 | ❌ |
-| Empate | 29% | +440 | ✅ |
-| Gana Australia | 50% | +900 | ❌ |
-| Doble oport. Paraguay | 50% | _(no fetcheado)_ | ✅ |
-| Doble oport. Australia | 78% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 56% | _(no fetcheado)_ | ❌ |
-| Over 2.5 goles | 28% | _(no fetcheado)_ | ❌ |
-| Over 3.5 goles | 12% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Paraguay | 19% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Australia | 29% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 37% | _(no fetcheado)_ | ❌ |
+| Gana Egypt | 29% | +250 | ❌ |
+| Empate | 29% | +210 | ✅ |
+| Gana Iran | 42% | +160 | ❌ |
+| Doble oport. Egypt | 58% | _(no fetcheado)_ | ✅ |
+| Doble oport. Iran | 71% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 62% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 34% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 16% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Egypt | 22% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Iran | 33% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 42% | _(no fetcheado)_ | ✅ |
 
-### Japan vs Sweden — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
+### New Zealand vs Belgium — 2026-06-26 — · [análisis](predictions/week3/groupG/nzl-bel/analysis.md)
+
+✅ Jugado: **1-5** (away) · checks **10/11**
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana New Zealand | 16% | +1650 | ❌ |
+| Empate | 23% | +750 | ❌ |
+| Gana Belgium | 62% | -455 | ✅ |
+| Doble oport. New Zealand | 38% | _(no fetcheado)_ | ❌ |
+| Doble oport. Belgium | 84% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 77% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 53% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 31% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles New Zealand | 21% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Belgium | 58% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 50% | _(no fetcheado)_ | ✅ |
+
+### Uruguay vs Spain — 2026-06-26 — · [análisis](predictions/week3/groupH/uru-esp/analysis.md)
+
+✅ Jugado: **0-1** (away) · checks **10/11**
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Uruguay | 18% | +560 | ❌ |
+| Empate | 27% | +270 | ❌ |
+| Gana Spain | 55% | -133 | ✅ |
+| Doble oport. Uruguay | 45% | _(no fetcheado)_ | ❌ |
+| Doble oport. Spain | 82% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 58% | _(no fetcheado)_ | ❌ |
+| Over 2.5 goles | 31% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 13% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Uruguay | 19% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Spain | 32% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 38% | _(no fetcheado)_ | ❌ |
+| Prop: Darwin Gabriel Nunez Ribeiro o0.5 SoT | 59% | -115 | ❌ |
+
+### Japan vs Sweden — 2026-06-25 17:00 · [análisis](predictions/week3/groupF/jpn-swe/analysis.md)
 
 ✅ Jugado: **1-1** (draw) · checks **6/11**
-
-🎯 **1X2/goles sugerido:** draw @ +310 (+6%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -698,11 +550,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 52% | _(no fetcheado)_ | ✅ |
 | Prop: Alexander Bernhardsson o0.5 SoT | 48% | +210 | ✅ |
 
-### Tunisia vs Netherlands — 2026-06-25 23:00Z · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
+### Tunisia vs Netherlands — 2026-06-25 17:00 · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
 
 ✅ Jugado: **1-3** (away) · checks **9/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -719,11 +569,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 44% | _(no fetcheado)_ | ✅ |
 | Prop: Anis Slimane o0.5 SoT | 50% | +230 | ✅ |
 
-### Ecuador vs Germany — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
+### Ecuador vs Germany — 2026-06-25 14:00 · [análisis](predictions/week3/groupE/ecu-ger/analysis.md)
 
 ✅ Jugado: **2-1** (home) · checks **6/11**
-
-🎯 **1X2/goles sugerido:** home @ +320 (+10%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -740,11 +588,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ✅ |
 | Prop: Gonzalo Plata o0.5 SoT | 47% | +130 | ✅ |
 
-### Curaçao vs Ivory Coast — 2026-06-25 20:00Z · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
+### Curaçao vs Ivory Coast — 2026-06-25 14:00 · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
 
 ✅ Jugado: **0-2** (away) · checks **11/11**
-
-🎯 **1X2/goles sugerido:** away @ -526 (+4%)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -761,31 +607,45 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 39% | _(no fetcheado)_ | ❌ |
 | Prop: Nicolas Pepe o0.5 SoT | 52% | -250 | ✅ |
 
-### Mexico vs Czech Republic — 2026-06-25 01:00Z · [análisis](predictions/week3/groupA/mex-cze/analysis.md)
+### Paraguay vs Australia — 2026-06-25 — · [análisis](predictions/week3/groupC/par-aus/analysis.md)
 
-✅ Jugado: **3-0** (home) · checks **9/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+✅ Jugado: **0-0** (draw) · checks **9/11**
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Mexico | 64% | _(no fetcheado)_ | ✅ |
-| Empate | 22% | _(no fetcheado)_ | ❌ |
-| Gana Czech Republic | 14% | _(no fetcheado)_ | ❌ |
-| Doble oport. Mexico | 86% | _(no fetcheado)_ | ✅ |
-| Doble oport. Czech Republic | 36% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles | 71% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 45% | _(no fetcheado)_ | ✅ |
-| Over 3.5 goles | 24% | _(no fetcheado)_ | ❌ |
-| Over 1.5 goles Mexico | 48% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Czech Republic | 21% | _(no fetcheado)_ | ❌ |
-| BTTS (ambos marcan) | 46% | _(no fetcheado)_ | ❌ |
+| Gana Paraguay | 22% | -250 | ❌ |
+| Empate | 29% | +440 | ✅ |
+| Gana Australia | 50% | +900 | ❌ |
+| Doble oport. Paraguay | 50% | _(no fetcheado)_ | ✅ |
+| Doble oport. Australia | 78% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 56% | _(no fetcheado)_ | ❌ |
+| Over 2.5 goles | 28% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 12% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Paraguay | 19% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Australia | 29% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 37% | _(no fetcheado)_ | ❌ |
 
-### Morocco vs Haiti — 2026-06-24 22:05Z · [análisis](predictions/week3/groupD/mar-hai/analysis.md)
+### United States vs Turkey — 2026-06-25 — · [análisis](predictions/week3/groupC/usa-tur/analysis.md)
+
+✅ Jugado: **2-3** (away) · checks **5/11**
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana United States | 56% | _(no fetcheado)_ | ❌ |
+| Empate | 23% | _(no fetcheado)_ | ❌ |
+| Gana Turkey | 21% | _(no fetcheado)_ | ✅ |
+| Doble oport. United States | 79% | _(no fetcheado)_ | ❌ |
+| Doble oport. Turkey | 44% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 81% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 60% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 37% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles United States | 55% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Turkey | 35% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 61% | _(no fetcheado)_ | ✅ |
+
+### Morocco vs Haiti — 2026-06-24 16:05 · [análisis](predictions/week3/groupD/mar-hai/analysis.md)
 
 ✅ Jugado: **4-2** (home) · checks **7/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -802,11 +662,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 34% | _(no fetcheado)_ | ✅ |
 | Prop: Wilson Isidor o0.5 SoT | 65% | -105 | ✅ |
 
-### Scotland vs Brazil — 2026-06-24 22:05Z · [análisis](predictions/week3/groupD/sco-bra/analysis.md)
+### Scotland vs Brazil — 2026-06-24 16:05 · [análisis](predictions/week3/groupD/sco-bra/analysis.md)
 
 ✅ Jugado: **0-3** (away) · checks **11/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -823,11 +681,9 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | BTTS (ambos marcan) | 47% | _(no fetcheado)_ | ❌ |
 | Prop: Scott McTominay o0.5 SoT | 57% | +100 | ✅ |
 
-### Canada vs Switzerland — 2026-06-24 19:00Z · [análisis](predictions/week3/groupB/can-sui/analysis.md)
+### Canada vs Switzerland — 2026-06-24 13:00 · [análisis](predictions/week3/groupB/can-sui/analysis.md)
 
 ✅ Jugado: **1-2** (away) · checks **6/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -843,25 +699,59 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Over 1.5 goles Switzerland | 32% | _(no fetcheado)_ | ✅ |
 | BTTS (ambos marcan) | 45% | _(no fetcheado)_ | ✅ |
 
-### United States vs Turkey —  — · [análisis](predictions/week3/groupC/usa-tur/analysis.md)
+### Bosnia and Herzegovina vs Qatar — 2026-06-24 — · [análisis](predictions/week3/groupB/bih-qat/analysis.md)
 
-✅ Jugado: **2-3** (away) · checks **5/11**
-
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+✅ Jugado: **3-1** (home) · checks **5/11**
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana United States | 56% | _(no fetcheado)_ | ❌ |
-| Empate | 23% | _(no fetcheado)_ | ❌ |
-| Gana Turkey | 21% | _(no fetcheado)_ | ✅ |
-| Doble oport. United States | 79% | _(no fetcheado)_ | ❌ |
-| Doble oport. Turkey | 44% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles | 81% | _(no fetcheado)_ | ✅ |
-| Over 2.5 goles | 60% | _(no fetcheado)_ | ✅ |
-| Over 3.5 goles | 37% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles United States | 55% | _(no fetcheado)_ | ✅ |
-| Over 1.5 goles Turkey | 35% | _(no fetcheado)_ | ✅ |
-| BTTS (ambos marcan) | 61% | _(no fetcheado)_ | ✅ |
+| Gana Bosnia and Herzegovina | 47% | -238 | ✅ |
+| Empate | 27% | +440 | ❌ |
+| Gana Qatar | 26% | +1000 | ❌ |
+| Doble oport. Bosnia and Herzegovina | 74% | _(no fetcheado)_ | ✅ |
+| Doble oport. Qatar | 53% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 68% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 42% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 21% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Bosnia and Herzegovina | 37% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Qatar | 29% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 48% | _(no fetcheado)_ | ✅ |
+
+### South Africa vs South Korea — 2026-06-24 — · [análisis](predictions/week3/groupA/rsa-kor/analysis.md)
+
+✅ Jugado: **1-0** (home) · checks **6/11**
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana South Africa | 13% | +525 | ✅ |
+| Empate | 23% | +275 | ❌ |
+| Gana South Korea | 64% | -133 | ❌ |
+| Doble oport. South Africa | 36% | _(no fetcheado)_ | ✅ |
+| Doble oport. South Korea | 87% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 66% | _(no fetcheado)_ | ❌ |
+| Over 2.5 goles | 40% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 20% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles South Africa | 16% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles South Korea | 46% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 41% | _(no fetcheado)_ | ❌ |
+
+### Mexico vs Czech Republic — 2026-06-24 — · [análisis](predictions/week3/groupA/mex-cze/analysis.md)
+
+✅ Jugado: **3-0** (home) · checks **9/11**
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Mexico | 64% | _(no fetcheado)_ | ✅ |
+| Empate | 22% | _(no fetcheado)_ | ❌ |
+| Gana Czech Republic | 14% | _(no fetcheado)_ | ❌ |
+| Doble oport. Mexico | 86% | _(no fetcheado)_ | ✅ |
+| Doble oport. Czech Republic | 36% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 71% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 45% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 24% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Mexico | 48% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Czech Republic | 21% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 46% | _(no fetcheado)_ | ❌ |
 
 <!-- DAILY-BOARD:END -->
 

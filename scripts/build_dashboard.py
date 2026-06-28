@@ -24,6 +24,22 @@ BOARD = ROOT / "data" / "csv" / "derived" / "daily_board.json"
 LEDGER = ROOT / "data" / "bets.csv"
 OUT = ROOT / "dashboard" / "data.json"
 BANKROLL = 10_000          # MXN, the managed starting bank (see memory bankroll-management)
+LOCAL_OFFSET = -6          # America/Mexico_City (UTC-6) — show kickoffs in Diego's local time
+
+
+def to_local(kickoff_utc: str) -> str:
+    """'YYYY-MM-DD HH:MM' UTC -> the same instant in local time (UTC-6). A 01:00Z kickoff is the
+    previous evening locally, which is the date Diego actually reads. Date-only strings (no time)
+    pass through unchanged — we can't shift a day without a time."""
+    import datetime as dt
+    s = (kickoff_utc or "").strip()
+    if len(s) < 16:                                    # no time portion -> leave as-is
+        return s
+    try:
+        utc = dt.datetime.strptime(s[:16], "%Y-%m-%d %H:%M").replace(tzinfo=dt.timezone.utc)
+        return utc.astimezone(dt.timezone(dt.timedelta(hours=LOCAL_OFFSET))).strftime("%Y-%m-%d %H:%M")
+    except ValueError:
+        return s
 
 # Country -> flag emoji for every nation that can appear on the board. Unknowns fall back to 🏳.
 FLAGS = {
@@ -109,10 +125,12 @@ def _fixture(row: dict) -> dict:
             for p in (row.get("prop_recs") or [])]
     link = row.get("link", "")
     stage = "knockout" if "16round" in link else "group"
+    kickoff = to_local(row.get("kickoff", ""))         # UTC -> local (UTC-6) for display
+    date = kickoff[:10] if len(kickoff) >= 10 else row.get("date", "")
     return {
         "match": row["match"], "home": home, "away": away,
         "home_flag": flag(home), "away_flag": flag(away),
-        "kickoff": row.get("kickoff", ""), "date": row.get("date", ""),
+        "kickoff": kickoff, "date": date,
         "played": bool(played), "score": score, "checks": checks,
         "stage": stage,
         "sug": row.get("sug", ""), "markets": markets, "prop_recs": recs,

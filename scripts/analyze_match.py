@@ -63,6 +63,19 @@ def _amer(d) -> str:
     return f"+{round((d - 1) * 100)}" if d >= 2.0 else f"{round(-100 / (d - 1))}"
 
 
+def _local(kickoff_utc: str) -> str:
+    """'YYYY-MM-DD HH:MM' UTC -> local (America/Mexico_City, UTC-6). Date-only passes through."""
+    import datetime as dt
+    s = (kickoff_utc or "").strip()
+    if len(s) < 16:
+        return s
+    try:
+        utc = dt.datetime.strptime(s[:16], "%Y-%m-%d %H:%M").replace(tzinfo=dt.timezone.utc)
+        return utc.astimezone(dt.timezone(dt.timedelta(hours=-6))).strftime("%Y-%m-%d %H:%M")
+    except ValueError:
+        return s
+
+
 # Managed bankroll (see memory bankroll-management): 10,000 MXN, 1u = 2% = 200 MXN,
 # aggressive-but-data-grounded, cap per-match prop exposure at ~10% of the roll.
 BANKROLL_UNIT = 200
@@ -208,22 +221,13 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs
          "_Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · "
          "1X2/doble-oport = registro. Detalle + checks: `analysis.md`._", ""]
     for r in rows:
-        hhmm = (r["kickoff"][11:16] + "Z") if len(r.get("kickoff", "")) >= 16 else "—"
-        head = f"### {r['match']} — {r['kickoff'][:10]} {hhmm} · [análisis]({r['link']})"
+        ko = _local(r.get("kickoff", ""))               # local time (UTC-6) in the header
+        hhmm = ko[11:16] if len(ko) >= 16 else "—"
+        head = f"### {r['match']} — {ko[:10]} {hhmm} · [análisis]({r['link']})"
         L += [head, ""]
         L += [r["result"] if r.get("result") else "⏳ Por jugarse", ""]
-        if r.get("sug"):
-            L += [f"🎯 **1X2/goles sugerido:** {r['sug']}", ""]
-        else:
-            L += ["🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)", ""]
-        pr = r.get("prop_recs") or []
-        if pr:
-            tot = sum(p["stake"] for p in pr)
-            picks = " · ".join(f"**{p['player']}** o{p['line']} {p['market']} @ {_amer(p['price'])} "
-                               f"(modelo {p.get('model', 0):.0%}) — **${p['stake']:,} MXN**" for p in pr)
-            L += [f"💵 **Props recomendados (banca 10k MXN):** {picks} · _total ${tot:,} MXN_", ""]
-        elif not r.get("result"):       # upcoming game with no prop slate yet
-            L += ["💵 **Props recomendados:** ninguno (sin value de delanteros con datos)", ""]
+        # README = pure analysis report. Betting recs (sug / prop stakes) stay in the board
+        # JSON for the dashboard, but are NOT printed here — the report carries no wager info.
         L += ["| Mercado | Prob modelo | Odds | Check |", "|---|---|---|---|"]
         for m in r["markets"]:
             lab, pr, o = m[0], m[1], m[2]
