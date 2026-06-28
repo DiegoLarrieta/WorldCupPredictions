@@ -1,5 +1,82 @@
 [
  {
+  "match": "Colombia vs Ghana",
+  "kickoff": "2026-07-04 01:30",
+  "date": "2026-07-04",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/col-gha/analysis.md",
+  "markets": [
+   [
+    "Gana Colombia",
+    0.803,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.147,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Ghana",
+    0.05,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Colombia",
+    0.95,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Ghana",
+    0.197,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.742,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.494,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.275,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Colombia",
+    0.626,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Ghana",
+    0.099,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.369,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Cape Verde vs Saudi Arabia",
   "kickoff": "2026-07-03 22:00",
   "date": "2026-07-03",
@@ -73,6 +150,391 @@
     0.354,
     "_(no fetcheado)_",
     false
+   ]
+  ]
+ },
+ {
+  "match": "Argentina vs Cape Verde",
+  "kickoff": "2026-07-03 22:00",
+  "date": "2026-07-03",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/arg-cpv/analysis.md",
+  "markets": [
+   [
+    "Gana Argentina",
+    0.881,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.101,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Cape Verde",
+    0.018,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Argentina",
+    0.982,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Cape Verde",
+    0.119,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.729,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.477,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.26,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Argentina",
+    0.671,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Cape Verde",
+    0.031,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.217,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Australia vs Egypt",
+  "kickoff": "2026-07-03 18:00",
+  "date": "2026-07-03",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/aus-egy/analysis.md",
+  "markets": [
+   [
+    "Gana Australia",
+    0.455,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.311,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Egypt",
+    0.234,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Australia",
+    0.766,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Egypt",
+    0.545,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.475,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.217,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.079,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Australia",
+    0.242,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Egypt",
+    0.142,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.308,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Switzerland vs Algeria",
+  "kickoff": "2026-07-03 03:00",
+  "date": "2026-07-03",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/sui-alg/analysis.md",
+  "markets": [
+   [
+    "Gana Switzerland",
+    0.437,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.267,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Algeria",
+    0.296,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Switzerland",
+    0.704,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Algeria",
+    0.563,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.746,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.499,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.279,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Switzerland",
+    0.398,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Algeria",
+    0.373,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.555,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Portugal vs Croatia",
+  "kickoff": "2026-07-02 23:00",
+  "date": "2026-07-02",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/por-cro/analysis.md",
+  "markets": [
+   [
+    "Gana Portugal",
+    0.566,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.239,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Croatia",
+    0.194,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Portugal",
+    0.805,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Croatia",
+    0.433,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.762,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.521,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.299,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Portugal",
+    0.534,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Croatia",
+    0.253,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.525,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Spain vs Austria",
+  "kickoff": "2026-07-02 19:00",
+  "date": "2026-07-02",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/esp-aut/analysis.md",
+  "markets": [
+   [
+    "Gana Spain",
+    0.704,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.194,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Austria",
+    0.102,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Spain",
+    0.898,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Austria",
+    0.296,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.727,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.474,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.257,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Spain",
+    0.528,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Austria",
+    0.191,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.464,
+    "_(no fetcheado)_",
+    null
    ]
   ]
  },
@@ -154,6 +616,756 @@
   ]
  },
  {
+  "match": "United States vs Bosnia and Herzegovina",
+  "kickoff": "2026-07-02 00:00",
+  "date": "2026-07-02",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/usa-bih/analysis.md",
+  "markets": [
+   [
+    "Gana United States",
+    0.696,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.191,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Bosnia and Herzegovina",
+    0.112,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. United States",
+    0.887,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Bosnia and Herzegovina",
+    0.303,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.807,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.586,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.362,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles United States",
+    0.633,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Bosnia and Herzegovina",
+    0.224,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.528,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Belgium vs Senegal",
+  "kickoff": "2026-07-01 20:00",
+  "date": "2026-07-01",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/bel-sen/analysis.md",
+  "markets": [
+   [
+    "Gana Belgium",
+    0.447,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.269,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Senegal",
+    0.284,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Belgium",
+    0.716,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Senegal",
+    0.553,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.713,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.456,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.242,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Belgium",
+    0.398,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Senegal",
+    0.312,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.514,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "England vs DR Congo",
+  "kickoff": "2026-07-01 16:00",
+  "date": "2026-07-01",
+  "result": "",
+  "sug": "under @ +107 (+6%)",
+  "prop_recs": [],
+  "link": "predictions/16round/eng-drc/analysis.md",
+  "markets": [
+   [
+    "Gana England",
+    0.661,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.237,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana DR Congo",
+    0.102,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. England",
+    0.898,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. DR Congo",
+    0.339,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.519,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.253,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.099,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles England",
+    0.352,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles DR Congo",
+    0.09,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.285,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Mexico vs Ecuador",
+  "kickoff": "2026-07-01 01:00",
+  "date": "2026-07-01",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/mex-ecu/analysis.md",
+  "markets": [
+   [
+    "Gana Mexico",
+    0.369,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.327,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Ecuador",
+    0.304,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Mexico",
+    0.696,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Ecuador",
+    0.631,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.418,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.174,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.057,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Mexico",
+    0.139,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Ecuador",
+    0.184,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.266,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "France vs Sweden",
+  "kickoff": "2026-06-30 21:00",
+  "date": "2026-06-30",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/fra-swe/analysis.md",
+  "markets": [
+   [
+    "Gana France",
+    0.781,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.147,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Sweden",
+    0.071,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. France",
+    0.928,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Sweden",
+    0.218,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.866,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.683,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.468,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles France",
+    0.721,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Sweden",
+    0.257,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.583,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Ivory Coast vs Norway",
+  "kickoff": "2026-06-30 17:00",
+  "date": "2026-06-30",
+  "result": "",
+  "sug": "under @ +102 (+4%)",
+  "prop_recs": [],
+  "link": "predictions/16round/civ-nor/analysis.md",
+  "markets": [
+   [
+    "Gana Ivory Coast",
+    0.264,
+    "+300",
+    null
+   ],
+   [
+    "Empate",
+    0.276,
+    "+273",
+    null
+   ],
+   [
+    "Gana Norway",
+    0.459,
+    "+110",
+    null
+   ],
+   [
+    "Doble oport. Ivory Coast",
+    0.54,
+    "-112",
+    null
+   ],
+   [
+    "Doble oport. Norway",
+    0.735,
+    "-303",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.694,
+    "-312",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.433,
+    "-106",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.223,
+    "+240",
+    null
+   ],
+   [
+    "Over 1.5 goles Ivory Coast",
+    0.297,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Norway",
+    0.38,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.5,
+    "-125",
+    null
+   ],
+   [
+    "Prop: Alexander Sorloth o0.5 SoT",
+    0.511,
+    "-149",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Netherlands vs Morocco",
+  "kickoff": "2026-06-30 01:00",
+  "date": "2026-06-30",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/ned-mar/analysis.md",
+  "markets": [
+   [
+    "Gana Netherlands",
+    0.366,
+    "+122",
+    null
+   ],
+   [
+    "Empate",
+    0.295,
+    "+244",
+    null
+   ],
+   [
+    "Gana Morocco",
+    0.339,
+    "+320",
+    null
+   ],
+   [
+    "Doble oport. Netherlands",
+    0.661,
+    "-323",
+    null
+   ],
+   [
+    "Doble oport. Morocco",
+    0.634,
+    "-125",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.615,
+    "-233",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.345,
+    "+130",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.158,
+    "+340",
+    null
+   ],
+   [
+    "Over 1.5 goles Netherlands",
+    0.257,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Morocco",
+    0.301,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.431,
+    "+100",
+    null
+   ],
+   [
+    "Prop: Ismael Saibari o0.5 SoT",
+    0.583,
+    "-133",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Germany vs Paraguay",
+  "kickoff": "2026-06-29 20:30",
+  "date": "2026-06-29",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/16round/ger-par/analysis.md",
+  "markets": [
+   [
+    "Gana Germany",
+    0.537,
+    "-250",
+    null
+   ],
+   [
+    "Empate",
+    0.248,
+    "+430",
+    null
+   ],
+   [
+    "Gana Paraguay",
+    0.215,
+    "+1000",
+    null
+   ],
+   [
+    "Doble oport. Germany",
+    0.785,
+    "-1000",
+    null
+   ],
+   [
+    "Doble oport. Paraguay",
+    0.463,
+    "+250",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.75,
+    "-400",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.504,
+    "-132",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.284,
+    "+190",
+    null
+   ],
+   [
+    "Over 1.5 goles Germany",
+    0.469,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Paraguay",
+    0.305,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.543,
+    "+114",
+    null
+   ],
+   [
+    "Prop: Julio Cesar Enciso o0.5 SoT",
+    0.513,
+    "+118",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Brazil vs Japan",
+  "kickoff": "2026-06-29 17:00",
+  "date": "2026-06-29",
+  "result": "",
+  "sug": "draw @ +300 (+4%)",
+  "prop_recs": [
+   {
+    "player": "Ayase Ueda",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.61,
+    "stake": 350,
+    "model": 0.844
+   },
+   {
+    "player": "Keito Nakamura",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 2.05,
+    "stake": 250,
+    "model": 0.641
+   },
+   {
+    "player": "Neymar",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.47,
+    "stake": 200,
+    "model": 0.741
+   },
+   {
+    "player": "Ritsu Doan",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.38,
+    "stake": 200,
+    "model": 0.775
+   }
+  ],
+  "link": "predictions/16round/bra-jpn/analysis.md",
+  "markets": [
+   [
+    "Gana Brazil",
+    0.481,
+    "-132",
+    null
+   ],
+   [
+    "Empate",
+    0.268,
+    "+300",
+    null
+   ],
+   [
+    "Gana Japan",
+    0.252,
+    "+450",
+    null
+   ],
+   [
+    "Doble oport. Brazil",
+    0.749,
+    "-476",
+    null
+   ],
+   [
+    "Doble oport. Japan",
+    0.52,
+    "+130",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.694,
+    "-270",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.433,
+    "+110",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.223,
+    "+280",
+    null
+   ],
+   [
+    "Over 1.5 goles Brazil",
+    0.384,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Japan",
+    0.294,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.496,
+    "+102",
+    null
+   ],
+   [
+    "Prop: Ayase Ueda o0.5 SoT",
+    0.674,
+    "-125",
+    null
+   ]
+  ]
+ },
+ {
   "match": "South Africa vs South Korea",
   "kickoff": "2026-06-28 19:00",
   "date": "2026-06-28",
@@ -227,6 +1439,89 @@
     0.409,
     "_(no fetcheado)_",
     false
+   ]
+  ]
+ },
+ {
+  "match": "South Africa vs Canada",
+  "kickoff": "2026-06-28 19:00",
+  "date": "2026-06-28",
+  "result": "",
+  "sug": "away @ -133 (+4%)",
+  "prop_recs": [],
+  "link": "predictions/16round/rsa-can/analysis.md",
+  "markets": [
+   [
+    "Gana South Africa",
+    0.177,
+    "+500",
+    null
+   ],
+   [
+    "Empate",
+    0.27,
+    "+275",
+    null
+   ],
+   [
+    "Gana Canada",
+    0.553,
+    "-133",
+    null
+   ],
+   [
+    "Doble oport. South Africa",
+    0.447,
+    "+130",
+    null
+   ],
+   [
+    "Doble oport. Canada",
+    0.823,
+    "-526",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.58,
+    "-250",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.31,
+    "+126",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.134,
+    "+330",
+    null
+   ],
+   [
+    "Over 0.5 goles South Africa",
+    0.451,
+    "-135",
+    null
+   ],
+   [
+    "Over 1.5 goles Canada",
+    0.391,
+    "-105",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.343,
+    "+116",
+    null
+   ],
+   [
+    "Prop: Tani Oluwaseyi o0.5 SoT",
+    0.597,
+    "-143",
+    null
    ]
   ]
  },

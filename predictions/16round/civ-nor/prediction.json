@@ -1,0 +1,68 @@
+{
+  "match": "Ivory Coast vs Norway",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-30",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Ivory Coast": 0.264,
+      "Draw": 0.276,
+      "Norway": 0.459
+    },
+    "ensemble_uncalibrated": {
+      "Ivory Coast": 0.271,
+      "Draw": 0.282,
+      "Norway": 0.447
+    },
+    "dixon_coles": {
+      "Ivory Coast": 0.295,
+      "Draw": 0.3,
+      "Norway": 0.405
+    },
+    "elo": {
+      "Ivory Coast": 0.248,
+      "Draw": 0.265,
+      "Norway": 0.486
+    }
+  },
+  "elo": {
+    "Ivory Coast": 1865,
+    "Norway": 1993
+  },
+  "expected_goals": {
+    "Ivory Coast": 1.09,
+    "Norway": 1.32
+  },
+  "over_under_2_5": {
+    "over": 0.434,
+    "under": 0.566
+  },
+  "btts": 0.5,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.142
+    },
+    {
+      "score": "0-1",
+      "prob": 0.105
+    },
+    {
+      "score": "0-0",
+      "prob": 0.103
+    },
+    {
+      "score": "1-2",
+      "prob": 0.085
+    },
+    {
+      "score": "1-0",
+      "prob": 0.085
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

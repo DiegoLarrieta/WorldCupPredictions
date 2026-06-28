@@ -1,0 +1,68 @@
+{
+  "match": "Spain vs Austria",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-02",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Spain": 0.704,
+      "Draw": 0.194,
+      "Austria": 0.102
+    },
+    "ensemble_uncalibrated": {
+      "Spain": 0.673,
+      "Draw": 0.21,
+      "Austria": 0.117
+    },
+    "dixon_coles": {
+      "Spain": 0.598,
+      "Draw": 0.244,
+      "Austria": 0.158
+    },
+    "elo": {
+      "Spain": 0.743,
+      "Draw": 0.177,
+      "Austria": 0.079
+    }
+  },
+  "elo": {
+    "Spain": 2216,
+    "Austria": 1902
+  },
+  "expected_goals": {
+    "Spain": 1.77,
+    "Austria": 0.8
+  },
+  "over_under_2_5": {
+    "over": 0.474,
+    "under": 0.526
+  },
+  "btts": 0.464,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.128
+    },
+    {
+      "score": "2-0",
+      "prob": 0.12
+    },
+    {
+      "score": "1-1",
+      "prob": 0.116
+    },
+    {
+      "score": "2-1",
+      "prob": 0.096
+    },
+    {
+      "score": "0-0",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "United States vs Bosnia and Herzegovina",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-02",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "United States": 0.696,
+      "Draw": 0.191,
+      "Bosnia and Herzegovina": 0.112
+    },
+    "ensemble_uncalibrated": {
+      "United States": 0.666,
+      "Draw": 0.207,
+      "Bosnia and Herzegovina": 0.128
+    },
+    "dixon_coles": {
+      "United States": 0.656,
+      "Draw": 0.206,
+      "Bosnia and Herzegovina": 0.138
+    },
+    "elo": {
+      "United States": 0.675,
+      "Draw": 0.208,
+      "Bosnia and Herzegovina": 0.118
+    }
+  },
+  "elo": {
+    "United States": 1943,
+    "Bosnia and Herzegovina": 1704
+  },
+  "expected_goals": {
+    "United States": 2.15,
+    "Bosnia and Herzegovina": 0.89
+  },
+  "over_under_2_5": {
+    "over": 0.587,
+    "under": 0.413
+  },
+  "btts": 0.528,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.11
+    },
+    {
+      "score": "2-1",
+      "prob": 0.098
+    },
+    {
+      "score": "1-1",
+      "prob": 0.097
+    },
+    {
+      "score": "1-0",
+      "prob": 0.096
+    },
+    {
+      "score": "3-0",
+      "prob": 0.079
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

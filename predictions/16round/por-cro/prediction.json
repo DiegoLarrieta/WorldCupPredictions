@@ -1,0 +1,68 @@
+{
+  "match": "Portugal vs Croatia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-02",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Portugal": 0.566,
+      "Draw": 0.239,
+      "Croatia": 0.194
+    },
+    "ensemble_uncalibrated": {
+      "Portugal": 0.544,
+      "Draw": 0.249,
+      "Croatia": 0.206
+    },
+    "dixon_coles": {
+      "Portugal": 0.56,
+      "Draw": 0.246,
+      "Croatia": 0.195
+    },
+    "elo": {
+      "Portugal": 0.53,
+      "Draw": 0.253,
+      "Croatia": 0.217
+    }
+  },
+  "elo": {
+    "Portugal": 2066,
+    "Croatia": 1957
+  },
+  "expected_goals": {
+    "Portugal": 1.79,
+    "Croatia": 0.97
+  },
+  "over_under_2_5": {
+    "over": 0.521,
+    "under": 0.479
+  },
+  "btts": 0.525,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.117
+    },
+    {
+      "score": "1-0",
+      "prob": 0.106
+    },
+    {
+      "score": "2-0",
+      "prob": 0.101
+    },
+    {
+      "score": "2-1",
+      "prob": 0.098
+    },
+    {
+      "score": "0-0",
+      "prob": 0.071
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

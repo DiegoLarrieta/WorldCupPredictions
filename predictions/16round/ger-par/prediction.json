@@ -1,0 +1,68 @@
+{
+  "match": "Germany vs Paraguay",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-29",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Germany": 0.537,
+      "Draw": 0.248,
+      "Paraguay": 0.215
+    },
+    "ensemble_uncalibrated": {
+      "Germany": 0.518,
+      "Draw": 0.257,
+      "Paraguay": 0.225
+    },
+    "dixon_coles": {
+      "Germany": 0.472,
+      "Draw": 0.269,
+      "Paraguay": 0.258
+    },
+    "elo": {
+      "Germany": 0.56,
+      "Draw": 0.246,
+      "Paraguay": 0.195
+    }
+  },
+  "elo": {
+    "Germany": 1995,
+    "Paraguay": 1861
+  },
+  "expected_goals": {
+    "Germany": 1.58,
+    "Paraguay": 1.11
+  },
+  "over_under_2_5": {
+    "over": 0.506,
+    "under": 0.494
+  },
+  "btts": 0.543,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.128
+    },
+    {
+      "score": "1-0",
+      "prob": 0.097
+    },
+    {
+      "score": "2-1",
+      "prob": 0.094
+    },
+    {
+      "score": "2-0",
+      "prob": 0.084
+    },
+    {
+      "score": "0-0",
+      "prob": 0.077
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

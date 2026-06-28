@@ -1,0 +1,68 @@
+{
+  "match": "Brazil vs Japan",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-29",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Brazil": 0.481,
+      "Draw": 0.268,
+      "Japan": 0.252
+    },
+    "ensemble_uncalibrated": {
+      "Brazil": 0.466,
+      "Draw": 0.274,
+      "Japan": 0.259
+    },
+    "dixon_coles": {
+      "Brazil": 0.414,
+      "Draw": 0.294,
+      "Japan": 0.292
+    },
+    "elo": {
+      "Brazil": 0.515,
+      "Draw": 0.256,
+      "Japan": 0.229
+    }
+  },
+  "elo": {
+    "Brazil": 2093,
+    "Japan": 1996
+  },
+  "expected_goals": {
+    "Brazil": 1.33,
+    "Japan": 1.08
+  },
+  "over_under_2_5": {
+    "over": 0.433,
+    "under": 0.567
+  },
+  "btts": 0.496,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "1-0",
+      "prob": 0.109
+    },
+    {
+      "score": "0-0",
+      "prob": 0.1
+    },
+    {
+      "score": "0-1",
+      "prob": 0.087
+    },
+    {
+      "score": "2-1",
+      "prob": 0.086
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

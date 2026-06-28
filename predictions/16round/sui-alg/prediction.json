@@ -1,0 +1,68 @@
+{
+  "match": "Switzerland vs Algeria",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-03",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Switzerland": 0.437,
+      "Draw": 0.267,
+      "Algeria": 0.296
+    },
+    "ensemble_uncalibrated": {
+      "Switzerland": 0.427,
+      "Draw": 0.273,
+      "Algeria": 0.3
+    },
+    "dixon_coles": {
+      "Switzerland": 0.375,
+      "Draw": 0.283,
+      "Algeria": 0.342
+    },
+    "elo": {
+      "Switzerland": 0.476,
+      "Draw": 0.264,
+      "Algeria": 0.26
+    }
+  },
+  "elo": {
+    "Switzerland": 1957,
+    "Algeria": 1891
+  },
+  "expected_goals": {
+    "Switzerland": 1.37,
+    "Algeria": 1.3
+  },
+  "over_under_2_5": {
+    "over": 0.5,
+    "under": 0.5
+  },
+  "btts": 0.555,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.135
+    },
+    {
+      "score": "2-1",
+      "prob": 0.085
+    },
+    {
+      "score": "1-0",
+      "prob": 0.083
+    },
+    {
+      "score": "0-0",
+      "prob": 0.081
+    },
+    {
+      "score": "1-2",
+      "prob": 0.08
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

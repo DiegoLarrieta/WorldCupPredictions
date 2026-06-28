@@ -1,0 +1,68 @@
+{
+  "match": "South Africa vs Canada",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-28",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "South Africa": 0.177,
+      "Draw": 0.27,
+      "Canada": 0.553
+    },
+    "ensemble_uncalibrated": {
+      "South Africa": 0.189,
+      "Draw": 0.278,
+      "Canada": 0.533
+    },
+    "dixon_coles": {
+      "South Africa": 0.158,
+      "Draw": 0.299,
+      "Canada": 0.543
+    },
+    "elo": {
+      "South Africa": 0.218,
+      "Draw": 0.259,
+      "Canada": 0.523
+    }
+  },
+  "elo": {
+    "South Africa": 1704,
+    "Canada": 1863
+  },
+  "expected_goals": {
+    "South Africa": 0.6,
+    "Canada": 1.35
+  },
+  "over_under_2_5": {
+    "over": 0.31,
+    "under": 0.69
+  },
+  "btts": 0.343,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.184
+    },
+    {
+      "score": "0-0",
+      "prob": 0.15
+    },
+    {
+      "score": "0-2",
+      "prob": 0.13
+    },
+    {
+      "score": "1-1",
+      "prob": 0.123
+    },
+    {
+      "score": "1-2",
+      "prob": 0.078
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

@@ -1,0 +1,68 @@
+{
+  "match": "France vs Sweden",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-30",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "France": 0.781,
+      "Draw": 0.147,
+      "Sweden": 0.071
+    },
+    "ensemble_uncalibrated": {
+      "France": 0.749,
+      "Draw": 0.165,
+      "Sweden": 0.085
+    },
+    "dixon_coles": {
+      "France": 0.703,
+      "Draw": 0.179,
+      "Sweden": 0.117
+    },
+    "elo": {
+      "France": 0.792,
+      "Draw": 0.152,
+      "Sweden": 0.056
+    }
+  },
+  "elo": {
+    "France": 2192,
+    "Sweden": 1814
+  },
+  "expected_goals": {
+    "France": 2.54,
+    "Sweden": 0.98
+  },
+  "over_under_2_5": {
+    "over": 0.683,
+    "under": 0.317
+  },
+  "btts": 0.583,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.095
+    },
+    {
+      "score": "2-1",
+      "prob": 0.094
+    },
+    {
+      "score": "1-1",
+      "prob": 0.081
+    },
+    {
+      "score": "3-0",
+      "prob": 0.081
+    },
+    {
+      "score": "3-1",
+      "prob": 0.079
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

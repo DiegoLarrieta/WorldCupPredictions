@@ -1,0 +1,68 @@
+{
+  "match": "Belgium vs Senegal",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-01",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Belgium": 0.447,
+      "Draw": 0.269,
+      "Senegal": 0.284
+    },
+    "ensemble_uncalibrated": {
+      "Belgium": 0.436,
+      "Draw": 0.275,
+      "Senegal": 0.289
+    },
+    "dixon_coles": {
+      "Belgium": 0.416,
+      "Draw": 0.284,
+      "Senegal": 0.3
+    },
+    "elo": {
+      "Belgium": 0.454,
+      "Draw": 0.267,
+      "Senegal": 0.279
+    }
+  },
+  "elo": {
+    "Belgium": 1955,
+    "Senegal": 1907
+  },
+  "expected_goals": {
+    "Belgium": 1.37,
+    "Senegal": 1.13
+  },
+  "over_under_2_5": {
+    "over": 0.457,
+    "under": 0.543
+  },
+  "btts": 0.514,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.135
+    },
+    {
+      "score": "1-0",
+      "prob": 0.104
+    },
+    {
+      "score": "0-0",
+      "prob": 0.09
+    },
+    {
+      "score": "2-1",
+      "prob": 0.087
+    },
+    {
+      "score": "0-1",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

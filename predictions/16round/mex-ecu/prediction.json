@@ -1,0 +1,68 @@
+{
+  "match": "Mexico vs Ecuador",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-01",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Mexico": 0.369,
+      "Draw": 0.327,
+      "Ecuador": 0.304
+    },
+    "ensemble_uncalibrated": {
+      "Mexico": 0.365,
+      "Draw": 0.328,
+      "Ecuador": 0.307
+    },
+    "dixon_coles": {
+      "Mexico": 0.266,
+      "Draw": 0.393,
+      "Ecuador": 0.34
+    },
+    "elo": {
+      "Mexico": 0.457,
+      "Draw": 0.267,
+      "Ecuador": 0.276
+    }
+  },
+  "elo": {
+    "Mexico": 2046,
+    "Ecuador": 1996
+  },
+  "expected_goals": {
+    "Mexico": 0.65,
+    "Ecuador": 0.78
+  },
+  "over_under_2_5": {
+    "over": 0.173,
+    "under": 0.827
+  },
+  "btts": 0.266,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.248
+    },
+    {
+      "score": "0-1",
+      "prob": 0.178
+    },
+    {
+      "score": "1-0",
+      "prob": 0.148
+    },
+    {
+      "score": "1-1",
+      "prob": 0.129
+    },
+    {
+      "score": "0-2",
+      "prob": 0.072
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

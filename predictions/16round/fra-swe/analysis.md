@@ -1,0 +1,44 @@
+# Analysis — France vs Sweden
+
+_as_of 2026-06-30 · source: live_
+
+## 1X2 (match winner)
+
+- Model: **France 78%** · Draw 15% · **Sweden 7%**
+
+## Goals (total)
+
+- Expected goals: France 2.54 – 0.98 Sweden  (total λ 3.52)
+
+| over | model P | odds | EV@odds |
+|---|---|---|---|
+| 1.5 | 87% | — | — |
+| 2.5 | 68% | -161 | +0.11 |
+| 3.5 | 47% | — | — |
+
+## Otros mercados
+
+_EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados eficientes (1X2, doble oport.) un EV+ suele ser error nuestro (edge test); en goles es la señal viva._
+
+| mercado | model P | odds | EV@odds |
+|---|---|---|---|
+| Doble oport. France | 93% | — | — |
+| Doble oport. Sweden | 22% | — | — |
+| Over 1.5 goles France | 72% | — | — |
+| Over 1.5 goles Sweden | 26% | — | — |
+| BTTS (ambos marcan) | 58% | — | — |
+| Tiros France over 9.5 | 100% | — | — |
+| Tiros Sweden over 9.5 | 64% | — | — |
+| TaP France over 2.5 | 99% | — | — |
+| TaP Sweden over 2.5 | 70% | — | — |
+
+## Props de delanteros (tiros y tiros a puerta)
+
+_Sin tabla de delanteros — no player props listed for this fixture._
+
+## Recommendation
+
+- **No 1X2/goals bet** — nothing where a soft book beats the sharp fair (the common, correct outcome). Big model-vs-sharp gaps are *suspect*, not value.
+
+_Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
+

@@ -1,0 +1,68 @@
+{
+  "match": "Australia vs Egypt",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-03",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Australia": 0.455,
+      "Draw": 0.311,
+      "Egypt": 0.234
+    },
+    "ensemble_uncalibrated": {
+      "Australia": 0.443,
+      "Draw": 0.314,
+      "Egypt": 0.243
+    },
+    "dixon_coles": {
+      "Australia": 0.394,
+      "Draw": 0.371,
+      "Egypt": 0.235
+    },
+    "elo": {
+      "Australia": 0.489,
+      "Draw": 0.261,
+      "Egypt": 0.25
+    }
+  },
+  "elo": {
+    "Australia": 1936,
+    "Egypt": 1860
+  },
+  "expected_goals": {
+    "Australia": 0.94,
+    "Egypt": 0.66
+  },
+  "over_under_2_5": {
+    "over": 0.219,
+    "under": 0.781
+  },
+  "btts": 0.308,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.212
+    },
+    {
+      "score": "1-0",
+      "prob": 0.177
+    },
+    {
+      "score": "1-1",
+      "prob": 0.138
+    },
+    {
+      "score": "0-1",
+      "prob": 0.121
+    },
+    {
+      "score": "2-0",
+      "prob": 0.089
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

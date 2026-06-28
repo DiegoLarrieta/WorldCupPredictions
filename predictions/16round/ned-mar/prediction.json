@@ -1,0 +1,68 @@
+{
+  "match": "Netherlands vs Morocco",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-06-30",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Netherlands": 0.366,
+      "Draw": 0.295,
+      "Morocco": 0.339
+    },
+    "ensemble_uncalibrated": {
+      "Netherlands": 0.363,
+      "Draw": 0.299,
+      "Morocco": 0.338
+    },
+    "dixon_coles": {
+      "Netherlands": 0.306,
+      "Draw": 0.328,
+      "Morocco": 0.366
+    },
+    "elo": {
+      "Netherlands": 0.416,
+      "Draw": 0.271,
+      "Morocco": 0.313
+    }
+  },
+  "elo": {
+    "Netherlands": 2048,
+    "Morocco": 2031
+  },
+  "expected_goals": {
+    "Netherlands": 0.98,
+    "Morocco": 1.1
+  },
+  "over_under_2_5": {
+    "over": 0.345,
+    "under": 0.655
+  },
+  "btts": 0.431,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.148
+    },
+    {
+      "score": "0-0",
+      "prob": 0.139
+    },
+    {
+      "score": "0-1",
+      "prob": 0.123
+    },
+    {
+      "score": "1-0",
+      "prob": 0.109
+    },
+    {
+      "score": "0-2",
+      "prob": 0.075
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
