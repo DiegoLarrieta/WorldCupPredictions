@@ -961,3 +961,15 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-27-pan-eng,2026-06-27,Panama vs England,home,Panama,Azarias Londoño,1,0,0,0,False
 2026-06-27-pan-eng,2026-06-27,Panama vs England,away,England,Nico O'Reilly,1,0,0,0,True
 2026-06-27-pan-eng,2026-06-27,Panama vs England,away,England,Eberechi Eze,1,0,0,0,False
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Tani Oluwaseyi,3,2,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,home,South Africa,Teboho Mokoena,2,1,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Stephen Eustáquio,2,1,1,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Jonathan David,2,1,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,home,South Africa,Oswin Appollis,2,0,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Derek Cornelius,1,1,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Moïse Bombito,1,1,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Tajon Buchanan,1,1,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,home,South Africa,Ime Okon,1,0,0,0,True
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,home,South Africa,Thalente Mbatha,1,0,0,0,False
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Promise David,1,0,0,0,False
+2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Luc de Fougerolles,1,0,0,0,False

@@ -1,4 +1,4 @@
-# WC2026 prediction monitor — 70 matches scored
+# WC2026 prediction monitor — 71 matches scored
 
 _Lower RPS / log-loss / Brier is better. Scores are against the probabilities we
 actually published (frozen), on real out-of-sample matches._
@@ -7,14 +7,14 @@ actually published (frozen), on real out-of-sample matches._
 
 | Model | RPS | Log-loss | Brier |
 |---|---|---|---|
-| ensemble | 0.1677 | 0.9078 | 0.5449 |
-| dixon_coles | 0.1655 | 0.8954 | 0.5360 |
-| elo | 0.1742 | 0.9335 | 0.5608 |
+| ensemble | 0.1669 | 0.9034 | 0.5415 |
+| dixon_coles | 0.1648 | 0.8914 | 0.5330 |
+| elo | 0.1737 | 0.9295 | 0.5577 |
 
 ## Are we beating naive?
 
-- Uniform (1/3 each): RPS 0.2302, log-loss 1.0986
-- **Our ensemble**: RPS 0.1677, log-loss 0.9078
+- Uniform (1/3 each): RPS 0.2308, log-loss 1.0986
+- **Our ensemble**: RPS 0.1669, log-loss 0.9034
 - Ensemble beats both single models so far: **NO — investigate**
 
 ## Most surprising results (confidently-wrong watch)
