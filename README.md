@@ -23,18 +23,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Colombia | 45% | +334 | ⏳ |
-| Empate | 26% | +325 | ⏳ |
-| Gana Portugal | 28% | -105 | ⏳ |
-| Doble oport. Colombia | 72% | +112 | ⏳ |
-| Doble oport. Portugal | 55% | -333 | ⏳ |
-| Over 1.5 goles | 74% | -417 | ⏳ |
-| Over 2.5 goles | 49% | -130 | ⏳ |
-| Over 3.5 goles | 27% | +192 | ⏳ |
+| Gana Colombia | 45% | +330 | ⏳ |
+| Empate | 26% | +235 | ⏳ |
+| Gana Portugal | 28% | +125 | ⏳ |
+| Doble oport. Colombia | 72% | +105 | ⏳ |
+| Doble oport. Portugal | 55% | -323 | ⏳ |
+| Over 1.5 goles | 74% | -122 | ⏳ |
+| Over 2.5 goles | 49% | +250 | ⏳ |
+| Over 3.5 goles | 27% | +650 | ⏳ |
 | Over 1.5 goles Colombia | 43% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles Portugal | 33% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 54% | -149 | ⏳ |
-| Prop: Gustavo Puerta o0.5 SoT | 56% | +270 | ⏳ |
+| BTTS (ambos marcan) | 54% | +170 | ⏳ |
+| Prop: Ruben Neves o0.5 SoT | 51% | +430 | ⏳ |
 
 ### DR Congo vs Uzbekistan — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/drc-uzb/analysis.md)
 
@@ -44,43 +44,43 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana DR Congo | 34% | -139 | ⏳ |
-| Empate | 33% | +310 | ⏳ |
-| Gana Uzbekistan | 33% | +510 | ⏳ |
-| Doble oport. DR Congo | 66% | -500 | ⏳ |
-| Doble oport. Uzbekistan | 66% | +136 | ⏳ |
-| Over 1.5 goles | 44% | -238 | ⏳ |
-| Over 2.5 goles | 19% | +129 | ⏳ |
-| Over 3.5 goles | 6% | +340 | ⏳ |
-| Over 1.5 goles DR Congo | 17% | -108 | ⏳ |
-| Over 0.5 goles Uzbekistan | 53% | -133 | ⏳ |
-| BTTS (ambos marcan) | 28% | +120 | ⏳ |
-| Prop: Eldor Shomurodov o0.5 SoT | 64% | -130 | ⏳ |
+| Gana DR Congo | 34% | +350 | ⏳ |
+| Empate | 33% | +245 | ⏳ |
+| Gana Uzbekistan | 33% | +115 | ⏳ |
+| Doble oport. DR Congo | 66% | -120 | ⏳ |
+| Doble oport. Uzbekistan | 66% | +129 | ⏳ |
+| Over 1.5 goles | 44% | -476 | ⏳ |
+| Over 2.5 goles | 19% | -101 | ⏳ |
+| Over 3.5 goles | 6% | +300 | ⏳ |
+| Over 1.5 goles DR Congo | 17% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Uzbekistan | 18% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 28% | +110 | ⏳ |
+| Prop: Nathanael Mbuku o0.5 SoT | 56% | +105 | ⏳ |
 
 ### Croatia vs Ghana — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/cro-gha/analysis.md)
 
-✅ Jugado: **2-1** (home) · checks **7/12** · goles: Vlašić, Sučić (CRO), Luckassen (GHA)
+✅ Jugado: **2-1** (home) · checks **8/11**
 
 🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Croatia | 65% | -116 | ✅ |
+| Gana Croatia | 65% | -118 | ✅ |
 | Empate | 22% | +238 | ❌ |
 | Gana Ghana | 13% | +520 | ❌ |
-| Doble oport. Croatia | 87% | -556 | ✅ |
-| Doble oport. Ghana | 35% | +116 | ❌ |
-| Over 1.5 goles | 68% | -213 | ✅ |
-| Over 2.5 goles | 42% | +154 | ✅ |
-| Over 3.5 goles | 22% | +400 | ❌ |
-| Over 1.5 goles Croatia | 47% | +115 | ✅ |
-| Over 0.5 goles Ghana | 54% | -133 | ✅ |
-| BTTS (ambos marcan) | 44% | +118 | ✅ |
-| Prop: Jordan Ayew o0.5 SoT | 60% | +107 | ❌ |
+| Doble oport. Croatia | 87% | _(no fetcheado)_ | ✅ |
+| Doble oport. Ghana | 35% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 68% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 42% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 22% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Croatia | 47% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Ghana | 18% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 44% | _(no fetcheado)_ | ✅ |
+| Prop: Jordan Ayew o0.5 SoT | 60% | +107 | ⏳ |
 
 ### Panama vs England — 2026-06-27 21:00Z · [análisis](predictions/week3/groupL/pan-eng/analysis.md)
 
-✅ Jugado: **0-2** (away) · checks **3/12** · goles: Kane, Bellingham (ENG)
+✅ Jugado: **0-2** (away) · checks **10/11**
 
 🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
 
@@ -89,14 +89,14 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 | Gana Panama | 9% | +2300 | ❌ |
 | Empate | 19% | +900 | ❌ |
 | Gana England | 72% | -526 | ✅ |
-| Doble oport. Panama | 28% | +560 | ❌ |
-| Doble oport. England | 91% | -2500 | ✅ |
-| Over 1.5 goles | 76% | -714 | ✅ |
-| Over 2.5 goles | 51% | -227 | ❌ |
-| Over 3.5 goles | 29% | +110 | ❌ |
-| Over 0.5 goles Panama | 47% | +115 | ❌ |
-| Over 2.5 goles England | 35% | -154 | ❌ |
-| BTTS (ambos marcan) | 42% | +142 | ❌ |
+| Doble oport. Panama | 28% | _(no fetcheado)_ | ❌ |
+| Doble oport. England | 91% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 76% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 51% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 29% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Panama | 13% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles England | 62% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 42% | _(no fetcheado)_ | ❌ |
 | Prop: Bukayo Saka o0.5 SoT | 64% | -233 | ❌ |
 
 ### Norway vs France — 2026-06-26 19:00Z · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)

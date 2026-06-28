@@ -4,43 +4,31 @@ _Model P(over) from shrunk shot rates (minutes: confirmed lineup + typical min/g
 
 | Player | Line | Min | XI | Model P(over) | Market | Edge | Over | Under | Best | EV/1u | Value |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Gustavo Puerta | 1.5 | 85 | start | 20% | — | — | 23.00 | — | over | +3.63 |  |
-| Ruben Neves | 1.5 | 85 | start | 16% | — | — | 13.00 | — | over | +1.11 |  |
-| Gustavo Puerta | 0.5 | 85 | start | 56% | — | — | 3.70 | — | over | +1.08 |  |
-| Nuno Mendes | 1.5 | 85 | start | 8% | — | — | 23.00 | — | over | +0.95 |  |
-| Ruben Neves | 0.5 | 85 | start | 51% | — | — | 3.70 | — | over | +0.90 |  |
-| Deiver Machado | 0.5 | 85 | start | 29% | — | — | 5.70 | — | over | +0.68 |  |
-| Santiago Arias | 0.5 | 85 | start | 20% | — | — | 7.00 | — | over | +0.43 |  |
-| Nuno Mendes | 0.5 | 85 | start | 38% | — | — | 3.60 | — | over | +0.38 |  |
-| Joao Felix Sequeira | 1.5 | 85 | start | 29% | — | — | 4.30 | — | over | +0.24 |  |
-| Vitor Ferreira | 0.5 | 56 | n/a | 33% | — | — | 3.70 | — | over | +0.23 |  |
-| Pedro Neto | 0.5 | 85 | start | 47% | — | — | 2.45 | — | over | +0.16 |  |
-| Joao Felix Sequeira | 0.5 | 85 | start | 66% | — | — | 1.76 | — | over | +0.16 |  |
-| Jefferson Lerma | 0.5 | 85 | start | 29% | — | — | 3.80 | — | over | +0.11 |  |
-| Pedro Neto | 1.5 | 85 | start | 14% | — | — | 8.00 | — | over | +0.09 |  |
-| Davinson Sanchez | 0.5 | 85 | start | 18% | — | — | 5.60 | — | over | -0.00 |  |
-| Jhon Lucumi | 0.5 | 85 | start | 12% | — | — | 8.00 | — | over | -0.02 |  |
-| Bruno Fernandes | 0.5 | 85 | start | 57% | — | — | 1.65 | — | over | -0.05 |  |
-| Ruben Dias | 0.5 | 85 | start | 19% | — | — | 4.90 | — | over | -0.06 |  |
-| James Rodriguez | 0.5 | 85 | start | 46% | — | — | 2.02 | — | over | -0.08 |  |
-| Jhon Cordoba | 0.5 | 85 | start | 47% | — | — | 1.89 | — | over | -0.10 |  |
-| Cristiano Ronaldo | 0.5 | 85 | start | 72% | — | — | 1.18 | — | over | -0.15 |  |
-| Joao Felix Sequeira | 2.5 | 85 | start | 9% | — | — | 8.50 | — | over | -0.21 |  |
-| Bruno Fernandes | 1.5 | 85 | start | 21% | — | — | 3.70 | — | over | -0.22 |  |
-| Jhon Arias | 0.5 | 85 | start | 34% | — | — | 2.20 | — | over | -0.26 |  |
-| Renato Veiga | 0.5 | 85 | start | 17% | — | — | 4.30 | — | over | -0.26 |  |
-| James Rodriguez | 1.5 | 85 | start | 12% | — | — | 5.80 | — | over | -0.28 |  |
-| Vitor Ferreira | 1.5 | 56 | n/a | 6% | — | — | 11.00 | — | over | -0.30 |  |
-| Joao Cancelo | 0.5 | 85 | start | 20% | — | — | 3.40 | — | over | -0.31 |  |
-| Jhon Cordoba | 1.5 | 85 | start | 14% | — | — | 4.90 | — | over | -0.33 |  |
-| Cristiano Ronaldo | 1.5 | 85 | start | 36% | — | — | 1.83 | — | over | -0.34 |  |
-| Bruno Fernandes | 2.5 | 85 | start | 6% | — | — | 11.00 | — | over | -0.39 |  |
-| Pedro Neto | 2.5 | 85 | start | 3% | — | — | 21.00 | — | over | -0.42 |  |
-| Jhon Arias | 1.5 | 85 | start | 6% | — | — | 9.00 | — | over | -0.43 |  |
-| Cristiano Ronaldo | 2.5 | 85 | start | 13% | — | — | 3.80 | — | over | -0.49 |  |
-| James Rodriguez | 2.5 | 85 | start | 2% | — | — | 21.00 | — | over | -0.50 |  |
-| Jhon Cordoba | 2.5 | 85 | start | 3% | — | — | 16.00 | — | over | -0.56 |  |
-| Cristiano Ronaldo | 3.5 | 85 | start | 4% | — | — | 10.00 | — | over | -0.61 |  |
-| Joao Cancelo | 1.5 | 85 | start | 2% | — | — | 15.00 | — | over | -0.67 |  |
+| Ruben Neves | 0.5 | 85 | start | 51% | — | — | 5.30 | — | over | +1.72 |  |
+| Joao Felix Sequeira | 1.5 | 85 | start | 29% | — | — | 9.00 | — | over | +1.61 |  |
+| Deiver Machado | 0.5 | 85 | start | 29% | — | — | 8.00 | — | over | +1.35 |  |
+| Nuno Mendes | 0.5 | 85 | start | 38% | — | — | 5.90 | — | over | +1.25 |  |
+| Santiago Arias | 0.5 | 85 | start | 20% | — | — | 9.50 | — | over | +0.94 |  |
+| Vitor Ferreira | 0.5 | 56 | n/a | 33% | — | — | 5.50 | — | over | +0.84 |  |
+| Pedro Neto | 1.5 | 85 | start | 14% | — | — | 13.00 | — | over | +0.77 |  |
+| Joao Felix Sequeira | 0.5 | 85 | start | 66% | — | — | 2.55 | — | over | +0.68 |  |
+| Pedro Neto | 0.5 | 85 | start | 47% | — | — | 3.50 | — | over | +0.66 |  |
+| Ruben Dias | 0.5 | 85 | start | 19% | — | — | 8.00 | — | over | +0.54 |  |
+| Jefferson Lerma | 0.5 | 85 | start | 29% | — | — | 4.90 | — | over | +0.43 |  |
+| James Rodriguez | 0.5 | 85 | start | 46% | — | — | 2.90 | — | over | +0.32 |  |
+| Jhon Lucumi | 0.5 | 85 | start | 12% | — | — | 10.50 | — | over | +0.29 |  |
+| Davinson Sanchez | 0.5 | 85 | start | 18% | — | — | 7.00 | — | over | +0.25 |  |
+| Renato Veiga | 0.5 | 85 | start | 17% | — | — | 7.00 | — | over | +0.20 |  |
+| James Rodriguez | 1.5 | 85 | start | 12% | — | — | 9.00 | — | over | +0.12 |  |
+| Joao Cancelo | 0.5 | 85 | start | 20% | — | — | 4.90 | — | over | -0.01 |  |
+| Jhon Arias | 0.5 | 85 | start | 34% | — | — | 2.80 | — | over | -0.06 |  |
+| Jhon Arias | 1.5 | 85 | start | 6% | — | — | 13.00 | — | over | -0.17 |  |
+| Cristiano Ronaldo | 1.5 | 85 | start | 36% | — | — | 1.54 | — | over | -0.45 |  |
+| Cristiano Ronaldo | 2.5 | 85 | start | 13% | — | — | 3.70 | — | over | -0.51 |  |
+| Cristiano Ronaldo | 3.5 | 85 | start | 4% | — | — | 12.00 | — | over | -0.53 |  |
+| Bruno Fernandes | 1.5 | 85 | start | 21% | — | — | 2.15 | — | over | -0.55 |  |
+| Bruno Fernandes | 2.5 | 85 | start | 6% | — | — | 7.50 | — | over | -0.58 |  |
+| Jhon Cordoba | 1.5 | 85 | start | 14% | — | — | 2.75 | — | over | -0.62 |  |
+| Jhon Cordoba | 2.5 | 85 | start | 3% | — | — | 10.00 | — | over | -0.72 |  |
 
-_No value bets. 38/38 lines were one-sided (over-only, no under to de-vig) — shown but never flagged, since a big EV on an un-de-viggable longshot is almost always model error, not edge. Two-sided lines that cleared the threshold: none._
+_No value bets. 26/26 lines were one-sided (over-only, no under to de-vig) — shown but never flagged, since a big EV on an un-de-viggable longshot is almost always model error, not edge. Two-sided lines that cleared the threshold: none._

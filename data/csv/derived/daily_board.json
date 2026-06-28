@@ -10,49 +10,49 @@
    [
     "Gana Colombia",
     0.452,
-    "+334",
+    "+330",
     null
    ],
    [
     "Empate",
     0.265,
-    "+325",
+    "+235",
     null
    ],
    [
     "Gana Portugal",
     0.283,
-    "-105",
+    "+125",
     null
    ],
    [
     "Doble oport. Colombia",
     0.717,
-    "+112",
+    "+105",
     null
    ],
    [
     "Doble oport. Portugal",
     0.548,
-    "-333",
+    "-323",
     null
    ],
    [
     "Over 1.5 goles",
     0.74,
-    "-417",
+    "-122",
     null
    ],
    [
     "Over 2.5 goles",
     0.492,
-    "-130",
+    "+250",
     null
    ],
    [
     "Over 3.5 goles",
     0.273,
-    "+192",
+    "+650",
     null
    ],
    [
@@ -70,13 +70,13 @@
    [
     "BTTS (ambos marcan)",
     0.54,
-    "-149",
+    "+170",
     null
    ],
    [
-    "Prop: Gustavo Puerta o0.5 SoT",
-    0.563,
-    "+270",
+    "Prop: Ruben Neves o0.5 SoT",
+    0.513,
+    "+430",
     null
    ]
   ]
@@ -92,73 +92,73 @@
    [
     "Gana DR Congo",
     0.338,
-    "-139",
+    "+350",
     null
    ],
    [
     "Empate",
     0.327,
-    "+310",
+    "+245",
     null
    ],
    [
     "Gana Uzbekistan",
     0.334,
-    "+510",
+    "+115",
     null
    ],
    [
     "Doble oport. DR Congo",
     0.665,
-    "-500",
+    "-120",
     null
    ],
    [
     "Doble oport. Uzbekistan",
     0.661,
-    "+136",
+    "+129",
     null
    ],
    [
     "Over 1.5 goles",
     0.439,
-    "-238",
+    "-476",
     null
    ],
    [
     "Over 2.5 goles",
     0.189,
-    "+129",
+    "-101",
     null
    ],
    [
     "Over 3.5 goles",
     0.064,
-    "+340",
+    "+300",
     null
    ],
    [
     "Over 1.5 goles DR Congo",
     0.166,
-    "-108",
+    "_(no fetcheado)_",
     null
    ],
    [
-    "Over 0.5 goles Uzbekistan",
-    0.532,
-    "-133",
+    "Over 1.5 goles Uzbekistan",
+    0.177,
+    "_(no fetcheado)_",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.284,
-    "+120",
+    "+110",
     null
    ],
    [
-    "Prop: Eldor Shomurodov o0.5 SoT",
-    0.635,
-    "-130",
+    "Prop: Nathanael Mbuku o0.5 SoT",
+    0.56,
+    "+105",
     null
    ]
   ]
@@ -167,75 +167,75 @@
   "match": "Croatia vs Ghana",
   "kickoff": "2026-06-27 21:00",
   "date": "2026-06-27",
-  "result": "",
+  "result": "✅ Jugado: **2-1** (home) · checks **8/11**",
   "sug": "",
   "link": "predictions/week3/groupL/cro-gha/analysis.md",
   "markets": [
    [
     "Gana Croatia",
     0.65,
-    "-116",
-    null
+    "-118",
+    true
    ],
    [
     "Empate",
     0.22,
     "+238",
-    null
+    false
    ],
    [
     "Gana Ghana",
     0.13,
     "+520",
-    null
+    false
    ],
    [
     "Doble oport. Croatia",
     0.87,
-    "-556",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Ghana",
     0.35,
-    "+116",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.685,
-    "-213",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.422,
-    "+154",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.215,
-    "+400",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Croatia",
     0.472,
-    "+115",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Ghana",
-    0.542,
-    "-133",
-    null
+    "Over 1.5 goles Ghana",
+    0.184,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.439,
-    "+118",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Jordan Ayew o0.5 SoT",
@@ -249,7 +249,7 @@
   "match": "Panama vs England",
   "kickoff": "2026-06-27 21:00",
   "date": "2026-06-27",
-  "result": "",
+  "result": "✅ Jugado: **0-2** (away) · checks **10/11**",
   "sug": "",
   "link": "predictions/week3/groupL/pan-eng/analysis.md",
   "markets": [
@@ -257,73 +257,73 @@
     "Gana Panama",
     0.093,
     "+2300",
-    null
+    false
    ],
    [
     "Empate",
     0.191,
     "+900",
-    null
+    false
    ],
    [
     "Gana England",
     0.716,
     "-526",
-    null
+    true
    ],
    [
     "Doble oport. Panama",
     0.284,
-    "+560",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Doble oport. England",
     0.907,
-    "-2500",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.755,
-    "-714",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.511,
-    "-227",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.29,
-    "+110",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 0.5 goles Panama",
-    0.467,
-    "+115",
-    null
+    "Over 1.5 goles Panama",
+    0.132,
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 2.5 goles England",
-    0.348,
-    "-154",
-    null
+    "Over 1.5 goles England",
+    0.618,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "BTTS (ambos marcan)",
     0.416,
-    "+142",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: Bukayo Saka o0.5 SoT",
     0.641,
     "-233",
-    null
+    false
    ]
   ]
  },

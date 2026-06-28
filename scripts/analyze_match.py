@@ -35,6 +35,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from engine.market import compare_lines               # noqa: E402
 from scripts.prop_clov import _real_data_names, _has_real_data  # noqa: E402
+from scripts.forward_props import forward_prop_table   # noqa: E402
 
 SNAP = Path("data/csv/derived/odds_snapshots.csv")
 README = Path("README.md")
@@ -279,8 +280,10 @@ def main() -> None:
 
     # --- props (live only) ---
     props, prop_note = ([], "skipped (snapshot backtest — props weren't captured)")
+    fwd_rows, fwd_note, fwd_excl = ([], "skipped (snapshot backtest)", {})
     if args.source == "live":
         props, prop_note = _prop_candidates(folder)
+        fwd_rows, fwd_note, fwd_excl = forward_prop_table(home, away, pred["as_of"])
 
     # --- result (reveal) ---
     result = None
@@ -292,7 +295,8 @@ def main() -> None:
             result = None
 
     md = _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
-                 soft.get("ou_2.5") if isinstance(soft, dict) else None, extra)
+                 soft.get("ou_2.5") if isinstance(soft, dict) else None, extra,
+                 fwd_rows, fwd_note, fwd_excl)
     (folder / "analysis.md").write_text(md)
     _update_board(folder, pred, market, props, extra)   # accumulate in the README board
     print(f"-> {folder/'analysis.md'}")
@@ -300,7 +304,7 @@ def main() -> None:
 
 
 def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, snap_ts,
-            soft_ou=None, extra=None) -> str:
+            soft_ou=None, extra=None, fwd_rows=None, fwd_note=None, fwd_excl=None) -> str:
     extra = extra or {}
     home, away = pred["match"].split(" vs ")
     L = [f"# Analysis — {pred['match']}", "",
@@ -362,19 +366,35 @@ def _render(pred, e, eg, tot_lambda, market, props, prop_note, result, args, sna
         L.append(f"| {lab} | {p:.0%} | {_amer(od)} | {ev} |")
     L.append("")
 
-    # Props
-    L += ["## Player shots-on-target (CLOV-on-overs)", ""]
-    if props:
-        L.append("Overs where the model beats the offered (vig-included) price, real-data "
-                 "players only. One-sided market → judged by CLOV, not de-vig.")
+    # Props de delanteros — tabla completa (todos los FW de ambos equipos × tiros y tiros a
+    # puerta, en las líneas que el libro ofrece) + el destacado de valor (CLOV-on-overs).
+    L += ["## Props de delanteros (tiros y tiros a puerta)", ""]
+    if fwd_rows:
+        L.append("Todos los delanteros (FW) de ambos equipos, con las líneas que el libro "
+                 "cotiza para **tiros totales** y **tiros a puerta**. `model` = P(over) del "
+                 "modelo; EV = model×odds−1 al precio (over-only, sin de-vig). ✅ = el modelo "
+                 "le gana al precio con vig y es ≥50% (candidato, se juzga por CLOV).")
         L.append("")
-        L.append("| player | line | over | model | price implies | EV |")
-        L.append("|---|---|---|---|---|---|")
-        for p in props:
-            L.append(f"| {p['player']} | {p['line']} | {_amer(p['over_price'])} | "
-                     f"{p['model_over']:.0%} | {1/p['over_price']:.0%} | +{p['ev']:.2f} |")
+        L.append("| equipo | delantero | mercado | línea | model | odds | EV | valor |")
+        L.append("|---|---|---|---|---|---|---|---|")
+        for r in fwd_rows:
+            flag = "✅" if r["value"] else ""
+            L.append(f"| {r['team']} | {r['player']} | {r['market']} | o{r['line']} | "
+                     f"{r['model_over']:.0%} | {_amer(r['over_price'])} | {r['ev']:+.2f} | {flag} |")
+        val = [r for r in fwd_rows if r["value"]]
+        L.append("")
+        if val:
+            L.append("🎯 **Value (CLOV-on-overs)** — solo paper/CLOV, apostar chico: "
+                     + ", ".join(f"{r['player']} {r['market']} o{r['line']} (EV {r['ev']:+.2f})"
+                                 for r in val) + ".")
+        else:
+            L.append("🎯 **Sin value** — ningún delantero supera el precio con vig estando ≥50%.")
     else:
-        L.append(f"_No prop candidates — {prop_note}._")
+        L.append(f"_Sin tabla de delanteros — {fwd_note}._")
+    if fwd_excl:
+        L.append("")
+        L.append("_Cotizados pero fuera de la tabla (no FW o sin datos de tiros): "
+                 + ", ".join(f"{p} ({why})" for p, why in sorted(fwd_excl.items())) + "._")
     L.append("")
 
     # Recommendation
