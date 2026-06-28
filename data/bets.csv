@@ -1,0 +1,2 @@
+bet_id,date,match,market,selection,odds_taken,model_prob,ev,stake,book,result,closing_odds,clov,pnl,status
+1,2026-06-28,South Africa vs Canada,parlay,Canada ML + Tani Oluwaseyi o1.5 shots,2.0,0.48,-0.04,3000.0,parlay,,,,,open
