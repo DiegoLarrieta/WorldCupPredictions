@@ -107,20 +107,25 @@ def _fixture(row: dict) -> dict:
              "odds": amer(p.get("price")),
              "model": round(p.get("model", 0) * 100), "stake": p["stake"]}
             for p in (row.get("prop_recs") or [])]
+    link = row.get("link", "")
+    stage = "knockout" if "16round" in link else "group"
     return {
         "match": row["match"], "home": home, "away": away,
         "home_flag": flag(home), "away_flag": flag(away),
         "kickoff": row.get("kickoff", ""), "date": row.get("date", ""),
         "played": bool(played), "score": score, "checks": checks,
+        "stage": stage,
         "sug": row.get("sug", ""), "markets": markets, "prop_recs": recs,
-        "link": row.get("link", ""),
+        "link": link,
     }
 
 
 def main() -> None:
     board = json.loads(BOARD.read_text()) if BOARD.exists() else []
     fixtures = [_fixture(r) for r in board if r.get("markets") is not None]
-    fixtures.sort(key=lambda f: f.get("kickoff", ""), reverse=True)   # newest first
+    # knockout (16avos) first, then group; within each stage chronological (today's R32 game
+    # at the top, then forward). Matches how Diego reads the bracket.
+    fixtures.sort(key=lambda f: (0 if f["stage"] == "knockout" else 1, f.get("kickoff", "")))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"metrics": _metrics(), "fixtures": fixtures},
                               indent=1, ensure_ascii=False))

@@ -69,13 +69,22 @@ function recsBlock(recs) {
   return `<div class="recs"><h4>Props recomendados · total $${total.toLocaleString("es-MX")} MXN</h4>${rows}</div>`;
 }
 
+const STAGE_LABEL = { knockout: "16avos de final", group: "Fase de grupos" };
+
 function renderFixtures(fx) {
-  // group by date (already sorted newest-first)
-  const groups = {};
-  fx.forEach((f) => { (groups[f.date || "Sin fecha"] ||= []).push(f); });
-  const html = Object.entries(groups).map(([date, items]) => {
-    const cards = items.map((f, i) => fixtureCard(f, `${date}-${i}`)).join("");
-    return `<div class="date-group"><div class="date-label">${date}</div>${cards}</div>`;
+  // group by stage (knockout first), then by date within — already sorted by build_dashboard.
+  const stages = {};
+  fx.forEach((f) => { (stages[f.stage || "group"] ||= []).push(f); });
+  const order = ["knockout", "group"].filter((s) => stages[s]);
+  const html = order.map((stage) => {
+    const byDate = {};
+    stages[stage].forEach((f) => { (byDate[f.date || "Sin fecha"] ||= []).push(f); });
+    const dates = Object.entries(byDate).map(([date, items], di) => {
+      const cards = items.map((f, i) => fixtureCard(f, `${stage}-${date}-${i}`)).join("");
+      return `<div class="date-group"><div class="date-label">${date}</div>${cards}</div>`;
+    }).join("");
+    return `<div class="stage"><h3 class="stage-head">${STAGE_LABEL[stage] || stage}
+      <span class="stage-count">${stages[stage].length}</span></h3>${dates}</div>`;
   }).join("");
   document.getElementById("fixtures").innerHTML = html;
 

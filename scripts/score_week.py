@@ -35,8 +35,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("week_dir", nargs="?", default="predictions/week1")
-    ap.add_argument("--stage", default="group",
-                    choices=["group", "r32", "r16", "qf", "sf", "final", "third_place"])
+    ap.add_argument("--stage", default=None,
+                    help="round label written into each record (default auto: '16 knockout' "
+                         "for predictions/16round/ paths, else 'group')")
     ap.add_argument("--days-from", type=int, default=3, help="/scores lookback (free tier max 3)")
     ap.add_argument("--source", default="oddsapi", choices=["oddsapi", "espn"],
                     help="result source: oddsapi /scores (~3d window) or espn (reaches back, "
@@ -46,6 +47,9 @@ def main() -> None:
     args = ap.parse_args()
 
     week = Path(args.week_dir)
+    # round label: explicit --stage wins; else derive from the path so knockout folders are
+    # tagged "16 knockout" automatically (no flag to remember each round).
+    stage = args.stage or ("16 knockout" if "16round" in str(week) else "group")
     # recurse: folders may be flat (week/<slug>) or nested by group (week/groupX/<slug>)
     folders = sorted(p.parent for p in week.glob("**/prediction.json"))
     if not folders:
@@ -75,7 +79,7 @@ def main() -> None:
             continue
 
         rec = record_outcome(folder, sc["home_goals"], sc["away_goals"],
-                             stage=args.stage, source=f"{args.source}-scores")
+                             stage=stage, source=f"{args.source}-scores")
         s, fr = rec["scores"], rec["prediction"]
         print(f"{fr['match']}: {sc['home_goals']}-{sc['away_goals']} "
               f"({rec['outcome']['spine']['result']}) — we gave the actual outcome "

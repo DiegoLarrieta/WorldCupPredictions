@@ -1446,7 +1446,7 @@
   "match": "South Africa vs Canada",
   "kickoff": "2026-06-28 19:00",
   "date": "2026-06-28",
-  "result": "",
+  "result": "✅ Jugado: **0-1** (away) · checks **10/11**",
   "sug": "draw @ +280 (+10%)",
   "prop_recs": [],
   "link": "predictions/16round/rsa-can/analysis.md",
@@ -1455,73 +1455,73 @@
     "Gana South Africa",
     0.177,
     "+465",
-    null
+    false
    ],
    [
     "Empate",
     0.27,
     "+280",
-    null
+    false
    ],
    [
     "Gana Canada",
     0.553,
     "-114",
-    null
+    true
    ],
    [
     "Doble oport. South Africa",
     0.447,
-    "+112",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Doble oport. Canada",
     0.823,
-    "-476",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.58,
-    "-222",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 2.5 goles",
     0.31,
-    "+142",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.134,
-    "+370",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 0.5 goles South Africa",
-    0.451,
-    "-132",
-    null
+    "Over 1.5 goles South Africa",
+    0.122,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Canada",
     0.391,
-    "+100",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.343,
-    "+114",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: Tani Oluwaseyi o0.5 SoT",
     0.631,
     "-147",
-    null
+    true
    ]
   ]
  },
