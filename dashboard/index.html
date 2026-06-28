@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WC Betting Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="ball">⚽</span>
+    <div>
+      <h1>World Cup Betting Desk</h1>
+      <p class="tag">motor aquí · visual aquí — <span id="updated">cargando…</span></p>
+    </div>
+  </div>
+  <div class="bank-badge">
+    <span class="bank-label">BANCA</span>
+    <span class="bank-val" id="bank-badge">—</span>
+  </div>
+</header>
+
+<section class="metrics" id="metrics"><!-- cards injected --></section>
+
+<section class="board">
+  <div class="board-head">
+    <h2>Enfrentamientos</h2>
+    <div class="legend">
+      <span><i class="dot win"></i>acertó</span>
+      <span><i class="dot loss"></i>falló</span>
+      <span><i class="dot live"></i>en juego</span>
+    </div>
+  </div>
+  <div id="fixtures"><!-- fixtures injected --></div>
+</section>
+
+<footer class="foot">
+  Datos generados por el motor (engine + The Odds API) · este panel solo lee <code>data.json</code> · sin API keys, sin LLM
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
