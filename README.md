@@ -21,7 +21,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
-💵 **Props recomendados (banca 10k MXN):** **Lautaro Martinez** o2.5 tiros @ -141 — **$200 MXN** · _total $200 MXN_
+💵 **Props recomendados (banca 10k MXN):** **Lautaro Martinez** o2.5 tiros @ -141 (modelo 66%) — **$200 MXN** · _total $200 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -44,18 +44,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
-💵 **Props recomendados (banca 10k MXN):** **Amine Gouiri** o2.5 tiros @ +175 — **$400 MXN** · **Romano Schmid** o0.5 tiros @ -238 — **$200 MXN** · _total $600 MXN_
+💵 **Props recomendados (banca 10k MXN):** **Amine Gouiri** o2.5 tiros @ +175 (modelo 57%) — **$400 MXN** · **Romano Schmid** o0.5 tiros @ -238 (modelo 77%) — **$200 MXN** · _total $600 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Algeria | 37% | +275 | ⏳ |
-| Empate | 29% | +116 | ⏳ |
-| Gana Austria | 34% | +285 | ⏳ |
+| Empate | 29% | +114 | ⏳ |
+| Gana Austria | 34% | +292 | ⏳ |
 | Doble oport. Algeria | 66% | -294 | ⏳ |
 | Doble oport. Austria | 63% | -286 | ⏳ |
-| Over 1.5 goles | 65% | -137 | ⏳ |
-| Over 2.5 goles | 38% | +250 | ⏳ |
-| Over 3.5 goles | 18% | +600 | ⏳ |
+| Over 1.5 goles | 65% | -118 | ⏳ |
+| Over 2.5 goles | 38% | +310 | ⏳ |
+| Over 3.5 goles | 18% | +820 | ⏳ |
 | Over 0.5 goles Algeria | 68% | -175 | ⏳ |
 | Over 0.5 goles Austria | 66% | -164 | ⏳ |
 | BTTS (ambos marcan) | 46% | +130 | ⏳ |

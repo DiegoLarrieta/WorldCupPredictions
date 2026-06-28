@@ -50,7 +50,7 @@ Todos los delanteros (FW) de ambos equipos, con las líneas que el libro cotiza 
 | Argentina | Julian Alvarez | tiros | o3.5 | 27% | +180 | -0.24 |  |
 | Argentina | Julian Alvarez | tiros | o4.5 | 13% | +350 | -0.42 |  |
 | Argentina | Julian Alvarez | tiros | o5.5 | 5% | +700 | -0.58 |  |
-| Argentina | Julian Alvarez | a puerta | o0.5 | 60% | -357 | -0.23 |  |
+| Argentina | Julian Alvarez | a puerta | o0.5 | 60% | -345 | -0.23 |  |
 | Argentina | Julian Alvarez | a puerta | o1.5 | 23% | +128 | -0.47 |  |
 | Argentina | Julian Alvarez | a puerta | o2.5 | 6% | +350 | -0.71 |  |
 | Argentina | Julian Alvarez | a puerta | o3.5 | 1% | +850 | -0.86 |  |
@@ -61,7 +61,7 @@ Todos los delanteros (FW) de ambos equipos, con las líneas que el libro cotiza 
 | Argentina | Lautaro Martinez | tiros | o4.5 | 25% | +300 | +0.01 |  |
 | Argentina | Lautaro Martinez | tiros | o5.5 | 13% | +600 | -0.12 |  |
 | Argentina | Lautaro Martinez | a puerta | o0.5 | 69% | -357 | -0.12 |  |
-| Argentina | Lautaro Martinez | a puerta | o1.5 | 33% | +120 | -0.28 |  |
+| Argentina | Lautaro Martinez | a puerta | o1.5 | 33% | +123 | -0.27 |  |
 | Argentina | Lautaro Martinez | a puerta | o2.5 | 11% | +330 | -0.51 |  |
 | Argentina | Lautaro Martinez | a puerta | o3.5 | 3% | +900 | -0.69 |  |
 

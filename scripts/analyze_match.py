@@ -183,7 +183,8 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs
                 res += f" · checks **{m.group(1)}**"
     ko = _kickoff(pred["match"])
     prec = [{"player": r["player"], "market": r["market"], "line": r["line"],
-             "price": r["over_price"], "stake": r["stake"]} for r in (prop_recs or [])]
+             "price": r["over_price"], "stake": r["stake"], "model": r["model_over"]}
+            for r in (prop_recs or [])]
     row = {"match": pred["match"], "kickoff": ko, "date": ko[:10], "result": res,
            "sug": sug, "prop_recs": prec, "link": str(folder / "analysis.md"),
            "markets": [(lab, round(pr, 3), o, hp) for lab, pr, o, hp in mk]}
@@ -210,7 +211,7 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs
         if pr:
             tot = sum(p["stake"] for p in pr)
             picks = " · ".join(f"**{p['player']}** o{p['line']} {p['market']} @ {_amer(p['price'])} "
-                               f"— **${p['stake']:,} MXN**" for p in pr)
+                               f"(modelo {p.get('model', 0):.0%}) — **${p['stake']:,} MXN**" for p in pr)
             L += [f"💵 **Props recomendados (banca 10k MXN):** {picks} · _total ${tot:,} MXN_", ""]
         elif not r.get("result"):       # upcoming game with no prop slate yet
             L += ["💵 **Props recomendados:** ninguno (sin value de delanteros con datos)", ""]

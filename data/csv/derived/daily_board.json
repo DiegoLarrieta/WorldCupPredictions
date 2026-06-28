@@ -11,7 +11,8 @@
     "market": "tiros",
     "line": 2.5,
     "price": 1.71,
-    "stake": 200
+    "stake": 200,
+    "model": 0.656
    }
   ],
   "link": "predictions/ko/jor-arg/analysis.md",
@@ -102,14 +103,16 @@
     "market": "tiros",
     "line": 2.5,
     "price": 2.75,
-    "stake": 400
+    "stake": 400,
+    "model": 0.571
    },
    {
     "player": "Romano Schmid",
     "market": "tiros",
     "line": 0.5,
     "price": 1.42,
-    "stake": 200
+    "stake": 200,
+    "model": 0.768
    }
   ],
   "link": "predictions/ko/alg-aut/analysis.md",
@@ -123,13 +126,13 @@
    [
     "Empate",
     0.286,
-    "+116",
+    "+114",
     null
    ],
    [
     "Gana Austria",
     0.341,
-    "+285",
+    "+292",
     null
    ],
    [
@@ -147,19 +150,19 @@
    [
     "Over 1.5 goles",
     0.65,
-    "-137",
+    "-118",
     null
    ],
    [
     "Over 2.5 goles",
     0.383,
-    "+250",
+    "+310",
     null
    ],
    [
     "Over 3.5 goles",
     0.185,
-    "+600",
+    "+820",
     null
    ],
    [
