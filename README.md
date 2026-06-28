@@ -15,6 +15,48 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Jordan vs Argentina — 2026-06-28 02:00Z · [análisis](predictions/ko/jor-arg/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Jordan | 2% | +2400 | ⏳ |
+| Empate | 10% | +880 | ⏳ |
+| Gana Argentina | 87% | -588 | ⏳ |
+| Doble oport. Jordan | 13% | +600 | ⏳ |
+| Doble oport. Argentina | 98% | -2500 | ⏳ |
+| Over 1.5 goles | 83% | -556 | ⏳ |
+| Over 2.5 goles | 62% | -175 | ⏳ |
+| Over 3.5 goles | 40% | +144 | ⏳ |
+| Over 0.5 goles Jordan | 31% | +160 | ⏳ |
+| Over 2.5 goles Argentina | 54% | -130 | ⏳ |
+| BTTS (ambos marcan) | 29% | +180 | ⏳ |
+| Prop: Ali Al-Azaizeh o0.5 SoT | 46% | +260 | ⏳ |
+
+### Algeria vs Austria — 2026-06-28 02:00Z · [análisis](predictions/ko/alg-aut/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **Apuestas sugeridas:** ninguna (sin edge soft-vs-sharp)
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Algeria | 37% | +265 | ⏳ |
+| Empate | 29% | +116 | ⏳ |
+| Gana Austria | 34% | +285 | ⏳ |
+| Doble oport. Algeria | 66% | -286 | ⏳ |
+| Doble oport. Austria | 63% | -270 | ⏳ |
+| Over 1.5 goles | 65% | -128 | ⏳ |
+| Over 2.5 goles | 38% | +265 | ⏳ |
+| Over 3.5 goles | 18% | +640 | ⏳ |
+| Over 0.5 goles Algeria | 68% | -164 | ⏳ |
+| Over 0.5 goles Austria | 66% | -154 | ⏳ |
+| BTTS (ambos marcan) | 46% | +138 | ⏳ |
+| Prop: Ibrahim Maza o0.5 SoT | 54% | +165 | ⏳ |
+
 ### Colombia vs Portugal — 2026-06-27 23:30Z · [análisis](predictions/week3/groupK/col-por/analysis.md)
 
 ⏳ Por jugarse

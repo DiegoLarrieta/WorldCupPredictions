@@ -1,5 +1,169 @@
 [
  {
+  "match": "Jordan vs Argentina",
+  "kickoff": "2026-06-28 02:00",
+  "date": "2026-06-28",
+  "result": "",
+  "sug": "",
+  "link": "predictions/ko/jor-arg/analysis.md",
+  "markets": [
+   [
+    "Gana Jordan",
+    0.023,
+    "+2400",
+    null
+   ],
+   [
+    "Empate",
+    0.103,
+    "+880",
+    null
+   ],
+   [
+    "Gana Argentina",
+    0.874,
+    "-588",
+    null
+   ],
+   [
+    "Doble oport. Jordan",
+    0.126,
+    "+600",
+    null
+   ],
+   [
+    "Doble oport. Argentina",
+    0.977,
+    "-2500",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.827,
+    "-556",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.618,
+    "-175",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.395,
+    "+144",
+    null
+   ],
+   [
+    "Over 0.5 goles Jordan",
+    0.309,
+    "+160",
+    null
+   ],
+   [
+    "Over 2.5 goles Argentina",
+    0.535,
+    "-130",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.291,
+    "+180",
+    null
+   ],
+   [
+    "Prop: Ali Al-Azaizeh o0.5 SoT",
+    0.456,
+    "+260",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Algeria vs Austria",
+  "kickoff": "2026-06-28 02:00",
+  "date": "2026-06-28",
+  "result": "",
+  "sug": "",
+  "link": "predictions/ko/alg-aut/analysis.md",
+  "markets": [
+   [
+    "Gana Algeria",
+    0.373,
+    "+265",
+    null
+   ],
+   [
+    "Empate",
+    0.286,
+    "+116",
+    null
+   ],
+   [
+    "Gana Austria",
+    0.341,
+    "+285",
+    null
+   ],
+   [
+    "Doble oport. Algeria",
+    0.659,
+    "-286",
+    null
+   ],
+   [
+    "Doble oport. Austria",
+    0.627,
+    "-270",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.65,
+    "-128",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.383,
+    "+265",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.185,
+    "+640",
+    null
+   ],
+   [
+    "Over 0.5 goles Algeria",
+    0.68,
+    "-164",
+    null
+   ],
+   [
+    "Over 0.5 goles Austria",
+    0.66,
+    "-154",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.459,
+    "+138",
+    null
+   ],
+   [
+    "Prop: Ibrahim Maza o0.5 SoT",
+    0.543,
+    "+165",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Colombia vs Portugal",
   "kickoff": "2026-06-27 23:30",
   "date": "2026-06-27",
