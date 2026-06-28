@@ -1447,80 +1447,80 @@
   "kickoff": "2026-06-28 19:00",
   "date": "2026-06-28",
   "result": "",
-  "sug": "",
+  "sug": "draw @ +280 (+10%)",
   "prop_recs": [],
   "link": "predictions/16round/rsa-can/analysis.md",
   "markets": [
    [
     "Gana South Africa",
     0.177,
-    "_(no fetcheado)_",
+    "+465",
     null
    ],
    [
     "Empate",
     0.27,
-    "_(no fetcheado)_",
+    "+280",
     null
    ],
    [
     "Gana Canada",
     0.553,
-    "_(no fetcheado)_",
+    "-114",
     null
    ],
    [
     "Doble oport. South Africa",
     0.447,
-    "_(no fetcheado)_",
+    "+112",
     null
    ],
    [
     "Doble oport. Canada",
     0.823,
-    "_(no fetcheado)_",
+    "-476",
     null
    ],
    [
     "Over 1.5 goles",
     0.58,
-    "_(no fetcheado)_",
+    "-222",
     null
    ],
    [
     "Over 2.5 goles",
     0.31,
-    "_(no fetcheado)_",
+    "+142",
     null
    ],
    [
     "Over 3.5 goles",
     0.134,
-    "_(no fetcheado)_",
+    "+370",
     null
    ],
    [
-    "Over 1.5 goles South Africa",
-    0.122,
-    "_(no fetcheado)_",
+    "Over 0.5 goles South Africa",
+    0.451,
+    "-132",
     null
    ],
    [
     "Over 1.5 goles Canada",
     0.391,
-    "_(no fetcheado)_",
+    "+100",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.343,
-    "_(no fetcheado)_",
+    "+114",
     null
    ],
    [
     "Prop: Tani Oluwaseyi o0.5 SoT",
-    0.597,
-    "-143",
+    0.631,
+    "-147",
     null
    ]
   ]
