@@ -413,23 +413,23 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **1X2/goles sugerido:** away @ -133 (+4%)
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 💵 **Props recomendados:** ninguno (sin value de delanteros con datos)
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana South Africa | 18% | +500 | ⏳ |
-| Empate | 27% | +275 | ⏳ |
-| Gana Canada | 55% | -133 | ⏳ |
-| Doble oport. South Africa | 45% | +130 | ⏳ |
-| Doble oport. Canada | 82% | -526 | ⏳ |
-| Over 1.5 goles | 58% | -250 | ⏳ |
-| Over 2.5 goles | 31% | +126 | ⏳ |
-| Over 3.5 goles | 13% | +330 | ⏳ |
-| Over 0.5 goles South Africa | 45% | -135 | ⏳ |
-| Over 1.5 goles Canada | 39% | -105 | ⏳ |
-| BTTS (ambos marcan) | 34% | +116 | ⏳ |
+| Gana South Africa | 18% | _(no fetcheado)_ | ⏳ |
+| Empate | 27% | _(no fetcheado)_ | ⏳ |
+| Gana Canada | 55% | _(no fetcheado)_ | ⏳ |
+| Doble oport. South Africa | 45% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Canada | 82% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles | 58% | _(no fetcheado)_ | ⏳ |
+| Over 2.5 goles | 31% | _(no fetcheado)_ | ⏳ |
+| Over 3.5 goles | 13% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles South Africa | 12% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Canada | 39% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 34% | _(no fetcheado)_ | ⏳ |
 | Prop: Tani Oluwaseyi o0.5 SoT | 60% | -143 | ⏳ |
 
 ### Algeria vs Austria — 2026-06-28 02:00Z · [análisis](predictions/week3/groupI/alg-aut/analysis.md)
