@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-25-jap-swe",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-25-jap-swe",
+    "date": "2026-06-25",
+    "home": "Japan",
+    "away": "Sweden",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Japan vs Sweden",
+    "home": "Japan",
+    "away": "Sweden",
+    "as_of": "2026-06-25",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.729,
+      0.173,
+      0.098
+    ],
+    "components": {
+      "dixon_coles": [
+        0.749,
+        0.16,
+        0.091
+      ],
+      "elo": [
+        0.65,
+        0.217,
+        0.133
+      ]
+    },
+    "expected_goals": {
+      "Japan": 2.57,
+      "Sweden": 0.81
+    },
+    "over25": 0.656,
+    "btts": 0.517,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.113
+      },
+      {
+        "score": "3-0",
+        "prob": 0.096
+      },
+      {
+        "score": "2-1",
+        "prob": 0.091
+      },
+      {
+        "score": "1-0",
+        "prob": 0.083
+      },
+      {
+        "score": "3-1",
+        "prob": 0.078
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760471",
+      "player_shots": [
+        {
+          "player": "Alexander Isak",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Anthony Elanga",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Daizen Maeda",
+          "side": "home",
+          "team": "Japan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Gustaf Lagerbielke",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Keito Nakamura",
+          "side": "home",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.7,
+          "starter": true,
+          "shots_p90": 1.21,
+          "sot_p90": 1.21
+        },
+        {
+          "player": "Yukinari Sugawara",
+          "side": "home",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Alexander Bernhardsson",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.3,
+          "starter": true,
+          "shots_p90": 1.21,
+          "sot_p90": 1.21
+        },
+        {
+          "player": "Ao Tanaka",
+          "side": "home",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ayase Ueda",
+          "side": "home",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.0,
+          "starter": true,
+          "shots_p90": 1.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ritsu Doan",
+          "side": "home",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 66.2,
+          "starter": true,
+          "shots_p90": 1.36,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Koki Ogawa",
+          "side": "home",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 24.0,
+          "starter": false,
+          "shots_p90": 3.74,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Victor Lindelöf",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 87.0,
+          "starter": true,
+          "shots_p90": 1.03,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Daniel Svensson",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 15.7,
+          "starter": false,
+          "shots_p90": 5.72,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ken Sema",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 15.6,
+          "starter": false,
+          "shots_p90": 5.76,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 52.3,
+      "shots_home": 8,
+      "shots_on_target_home": 3,
+      "corners_home": 2,
+      "fouls_home": 20,
+      "saves_home": 4,
+      "offsides_home": 3,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 47.7,
+      "shots_away": 11,
+      "shots_on_target_away": 5,
+      "corners_away": 8,
+      "fouls_away": 11,
+      "saves_away": 2,
+      "offsides_away": 2,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:43-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.27052,
+    "log_loss": 1.75446,
+    "brier": 1.22497,
+    "surprisal": 1.75446,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.27052,
+        "log_loss": 1.75446,
+        "brier": 1.22497,
+        "surprisal": 1.75446
+      },
+      "dixon_coles": {
+        "rps": 0.28464,
+        "log_loss": 1.83258,
+        "brier": 1.27488,
+        "surprisal": 1.83258
+      },
+      "elo": {
+        "rps": 0.22009,
+        "log_loss": 1.52786,
+        "brier": 1.05328,
+        "surprisal": 1.52786
+      }
+    }
+  }
+}

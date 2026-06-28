@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-27-col-por",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-27-col-por",
+    "date": "2026-06-27",
+    "home": "Colombia",
+    "away": "Portugal",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Colombia vs Portugal",
+    "home": "Colombia",
+    "away": "Portugal",
+    "as_of": "2026-06-27",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.452,
+      0.265,
+      0.283
+    ],
+    "components": {
+      "dixon_coles": [
+        0.433,
+        0.275,
+        0.292
+      ],
+      "elo": [
+        0.447,
+        0.268,
+        0.285
+      ]
+    },
+    "expected_goals": {
+      "Colombia": 1.47,
+      "Portugal": 1.17
+    },
+    "over25": 0.493,
+    "btts": 0.54,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.131
+      },
+      {
+        "score": "1-0",
+        "prob": 0.096
+      },
+      {
+        "score": "2-1",
+        "prob": 0.09
+      },
+      {
+        "score": "0-0",
+        "prob": 0.079
+      },
+      {
+        "score": "2-0",
+        "prob": 0.077
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760481",
+      "player_shots": [
+        {
+          "player": "Gustavo Puerta",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Luis Díaz",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Luis Suárez",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.3,
+          "starter": false,
+          "shots_p90": 11.89,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jhon Arias",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.7,
+          "starter": true,
+          "shots_p90": 3.57,
+          "sot_p90": 2.38
+        },
+        {
+          "player": "James Rodríguez",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.7,
+          "starter": true,
+          "shots_p90": 3.57,
+          "sot_p90": 1.19
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "João Félix",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 69.9,
+          "starter": true,
+          "shots_p90": 3.86,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jefferson Lerma",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 59.6,
+          "starter": true,
+          "shots_p90": 3.02,
+          "sot_p90": 1.51
+        },
+        {
+          "player": "Jhon Córdoba",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 59.7,
+          "starter": true,
+          "shots_p90": 3.01,
+          "sot_p90": 1.51
+        },
+        {
+          "player": "Bruno Fernandes",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rúben Neves",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Davinson Sánchez",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Richard Ríos",
+          "side": "home",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.4,
+          "starter": false,
+          "shots_p90": 2.96,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Vitinha ",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.0,
+          "starter": true,
+          "shots_p90": 1.29,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rafael Leão",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 20.1,
+          "starter": false,
+          "shots_p90": 4.48,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Diogo Dalot",
+          "side": "away",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 54.6,
+      "shots_home": 24,
+      "shots_on_target_home": 6,
+      "corners_home": 5,
+      "fouls_home": 12,
+      "saves_home": 2,
+      "offsides_home": 3,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 45.4,
+      "shots_away": 13,
+      "shots_on_target_away": 2,
+      "corners_away": 2,
+      "fouls_away": 6,
+      "saves_away": 6,
+      "offsides_away": 2,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:46-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.1422,
+    "log_loss": 1.32803,
+    "brier": 0.82462,
+    "surprisal": 1.32803,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.1422,
+        "log_loss": 1.32803,
+        "brier": 0.82462,
+        "surprisal": 1.32803
+      },
+      "dixon_coles": {
+        "rps": 0.13638,
+        "log_loss": 1.29098,
+        "brier": 0.79838,
+        "surprisal": 1.29098
+      },
+      "elo": {
+        "rps": 0.14052,
+        "log_loss": 1.31677,
+        "brier": 0.81686,
+        "surprisal": 1.31677
+      }
+    }
+  }
+}

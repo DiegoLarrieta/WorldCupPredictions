@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-06-26-uru-spa",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-26-uru-spa",
+    "date": "2026-06-26",
+    "home": "Uruguay",
+    "away": "Spain",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Uruguay vs Spain",
+    "home": "Uruguay",
+    "away": "Spain",
+    "as_of": "2026-06-26",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.184,
+      0.268,
+      0.548
+    ],
+    "components": {
+      "dixon_coles": [
+        0.247,
+        0.321,
+        0.431
+      ],
+      "elo": [
+        0.149,
+        0.234,
+        0.617
+      ]
+    },
+    "expected_goals": {
+      "Uruguay": 0.8,
+      "Spain": 1.15
+    },
+    "over25": 0.311,
+    "btts": 0.385,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.156
+      },
+      {
+        "score": "0-0",
+        "prob": 0.149
+      },
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "1-0",
+        "prob": 0.106
+      },
+      {
+        "score": "0-2",
+        "prob": 0.094
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760479",
+      "player_shots": [
+        {
+          "player": "Nicolás de la Cruz",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.5,
+          "starter": false,
+          "shots_p90": 1.98,
+          "sot_p90": 1.98
+        },
+        {
+          "player": "Álex Baena",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 65.7,
+          "starter": true,
+          "shots_p90": 1.37,
+          "sot_p90": 1.37
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Agustín Canobbio",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Darwin Núñez",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Federico Viñas",
+          "side": "home",
+          "team": "Uruguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 33.9,
+          "starter": false,
+          "shots_p90": 2.65,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pau Cubarsí",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.7,
+          "starter": true,
+          "shots_p90": 1.19,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lamine Yamal",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.6,
+          "starter": true,
+          "shots_p90": 1.19,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Dani Olmo",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.6,
+          "starter": false,
+          "shots_p90": 2.94,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ferran Torres",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 14.3,
+          "starter": false,
+          "shots_p90": 6.3,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 33.1,
+      "shots_home": 5,
+      "shots_on_target_home": 1,
+      "corners_home": 1,
+      "fouls_home": 14,
+      "saves_home": 0,
+      "offsides_home": 5,
+      "yellow_cards_home": 3,
+      "red_cards_home": 1,
+      "possession_away": 66.9,
+      "shots_away": 6,
+      "shots_on_target_away": 1,
+      "corners_away": 6,
+      "fouls_away": 14,
+      "saves_away": 2,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:44-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.11908,
+    "log_loss": 0.60148,
+    "brier": 0.30998,
+    "surprisal": 0.60148,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.11908,
+        "log_loss": 0.60148,
+        "brier": 0.30998,
+        "surprisal": 0.60148
+      },
+      "dixon_coles": {
+        "rps": 0.1922,
+        "log_loss": 0.84065,
+        "brier": 0.48765,
+        "surprisal": 0.84065
+      },
+      "elo": {
+        "rps": 0.08445,
+        "log_loss": 0.48289,
+        "brier": 0.22365,
+        "surprisal": 0.48289
+      }
+    }
+  }
+}

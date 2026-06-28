@@ -73,7 +73,7 @@
       "away_goals": 2,
       "result": "away",
       "source": "espn-scores",
-      "captured_at": "2026-06-27T17:29:39-06:00"
+      "captured_at": "2026-06-27T22:15:25-06:00"
     },
     "rich": {
       "espn_event_id": "760485",
@@ -151,10 +151,10 @@
           "on_target": 1,
           "goals": 1,
           "assists": 1,
-          "minutes": 70.9,
+          "minutes": 70.2,
           "starter": true,
-          "shots_p90": 2.54,
-          "sot_p90": 1.27
+          "shots_p90": 2.56,
+          "sot_p90": 1.28
         },
         {
           "player": "Amir Murillo",
@@ -177,7 +177,7 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "minutes": 87.4,
+          "minutes": 87.3,
           "starter": true,
           "shots_p90": 2.06,
           "sot_p90": 0.0
@@ -229,9 +229,9 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "minutes": 2.5,
+          "minutes": 2.6,
           "starter": false,
-          "shots_p90": 36.24,
+          "shots_p90": 34.18,
           "sot_p90": 0.0
         },
         {
@@ -268,13 +268,13 @@
           "on_target": 0,
           "goals": 0,
           "assists": 0,
-          "minutes": 19.1,
+          "minutes": 19.8,
           "starter": false,
-          "shots_p90": 4.72,
+          "shots_p90": 4.56,
           "sot_p90": 0.0
         }
       ],
-      "possession_home": 32.8,
+      "possession_home": 32.9,
       "shots_home": 13,
       "shots_on_target_home": 2,
       "corners_home": 3,
@@ -283,7 +283,7 @@
       "offsides_home": 4,
       "yellow_cards_home": 2,
       "red_cards_home": 0,
-      "possession_away": 67.2,
+      "possession_away": 67.1,
       "shots_away": 17,
       "shots_on_target_away": 6,
       "corners_away": 7,
@@ -293,7 +293,7 @@
       "yellow_cards_away": 1,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-06-27T17:29:47-06:00"
+      "captured_at": "2026-06-27T22:15:47-06:00"
     }
   },
   "scores": {

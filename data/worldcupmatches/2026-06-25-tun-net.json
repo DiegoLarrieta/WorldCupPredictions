@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-25-tun-net",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-25-tun-net",
+    "date": "2026-06-25",
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Tunisia vs Netherlands",
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "as_of": "2026-06-25",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.081,
+      0.182,
+      0.737
+    ],
+    "components": {
+      "dixon_coles": [
+        0.113,
+        0.212,
+        0.675
+      ],
+      "elo": [
+        0.078,
+        0.188,
+        0.734
+      ]
+    },
+    "expected_goals": {
+      "Tunisia": 0.69,
+      "Netherlands": 1.99
+    },
+    "over25": 0.501,
+    "btts": 0.435,
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.136
+      },
+      {
+        "score": "0-1",
+        "prob": 0.131
+      },
+      {
+        "score": "1-1",
+        "prob": 0.1
+      },
+      {
+        "score": "1-2",
+        "prob": 0.094
+      },
+      {
+        "score": "0-3",
+        "prob": 0.09
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 3,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760472",
+      "player_shots": [
+        {
+          "player": "Denzel Dumfries",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Hazem Mastouri",
+          "side": "home",
+          "team": "Tunisia",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 89.6,
+          "starter": true,
+          "shots_p90": 3.01,
+          "sot_p90": 2.01
+        },
+        {
+          "player": "Tijjani Reijnders",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 71.2,
+          "starter": true,
+          "shots_p90": 3.79,
+          "sot_p90": 2.53
+        },
+        {
+          "player": "Jan Paul van Hecke",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Brian Brobbey",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 76.8,
+          "starter": true,
+          "shots_p90": 2.34,
+          "sot_p90": 1.17
+        },
+        {
+          "player": "Ismaël Gharbi",
+          "side": "home",
+          "team": "Tunisia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.4,
+          "starter": true,
+          "shots_p90": 2.42,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Elias Achouri",
+          "side": "home",
+          "team": "Tunisia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.0,
+          "starter": false,
+          "shots_p90": 7.84,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ryan Gravenberch",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cody Gakpo",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.2,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Donyell Malen",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.3,
+          "starter": true,
+          "shots_p90": 2.53,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Hannibal Mejbri",
+          "side": "home",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Anis Slimane",
+          "side": "home",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 67.0,
+          "starter": true,
+          "shots_p90": 1.34,
+          "sot_p90": 1.34
+        },
+        {
+          "player": "Virgil van Dijk",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ali Abdi",
+          "side": "home",
+          "team": "Tunisia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nathan Aké",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Frenkie de Jong",
+          "side": "away",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.1,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 28.6,
+      "shots_home": 10,
+      "shots_on_target_home": 4,
+      "corners_home": 4,
+      "fouls_home": 11,
+      "saves_home": 4,
+      "offsides_home": 2,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 71.4,
+      "shots_away": 20,
+      "shots_on_target_away": 7,
+      "corners_away": 6,
+      "fouls_away": 10,
+      "saves_away": 3,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:43-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.03787,
+    "log_loss": 0.30517,
+    "brier": 0.10885,
+    "surprisal": 0.30517,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.03787,
+        "log_loss": 0.30517,
+        "brier": 0.10885,
+        "surprisal": 0.30517
+      },
+      "dixon_coles": {
+        "rps": 0.0592,
+        "log_loss": 0.39304,
+        "brier": 0.16334,
+        "surprisal": 0.39304
+      },
+      "elo": {
+        "rps": 0.03842,
+        "log_loss": 0.30925,
+        "brier": 0.11218,
+        "surprisal": 0.30925
+      }
+    }
+  }
+}

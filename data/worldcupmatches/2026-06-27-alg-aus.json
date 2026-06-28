@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-06-27-alg-aus",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-27-alg-aus",
+    "date": "2026-06-27",
+    "home": "Algeria",
+    "away": "Austria",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Algeria vs Austria",
+    "home": "Algeria",
+    "away": "Austria",
+    "as_of": "2026-06-27",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.353,
+      0.283,
+      0.365
+    ],
+    "components": {
+      "dixon_coles": [
+        0.366,
+        0.301,
+        0.333
+      ],
+      "elo": [
+        0.337,
+        0.274,
+        0.388
+      ]
+    },
+    "expected_goals": {
+      "Algeria": 1.18,
+      "Austria": 1.12
+    },
+    "over25": 0.405,
+    "btts": 0.476,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.141
+      },
+      {
+        "score": "1-0",
+        "prob": 0.109
+      },
+      {
+        "score": "0-0",
+        "prob": 0.109
+      },
+      {
+        "score": "0-1",
+        "prob": 0.103
+      },
+      {
+        "score": "2-1",
+        "prob": 0.078
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 3,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760484",
+      "player_shots": [
+        {
+          "player": "Riyad Mahrez",
+          "side": "home",
+          "team": "Algeria",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Ibrahim Maza",
+          "side": "home",
+          "team": "Algeria",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Farès Chaïbi",
+          "side": "home",
+          "team": "Algeria",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rafik Belghali",
+          "side": "home",
+          "team": "Algeria",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 70.8,
+          "starter": true,
+          "shots_p90": 2.54,
+          "sot_p90": 1.27
+        },
+        {
+          "player": "Nicolas Seiwald",
+          "side": "away",
+          "team": "Austria",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Marko Arnautovic",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Marcel Sabitzer",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Sasa Kalajdzic",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Ramy Bensebaini",
+          "side": "home",
+          "team": "Algeria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Philipp Lienhart",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Phillipp Mwene",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Romano Schmid",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Xaver Schlager",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kevin Danso",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 28.5,
+          "starter": false,
+          "shots_p90": 3.16,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 65.1,
+      "shots_home": 12,
+      "shots_on_target_home": 5,
+      "corners_home": 0,
+      "fouls_home": 3,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 34.9,
+      "shots_away": 10,
+      "shots_on_target_away": 3,
+      "corners_away": 3,
+      "fouls_away": 7,
+      "saves_away": 2,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:45-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.12866,
+    "log_loss": 1.26331,
+    "brier": 0.77181,
+    "surprisal": 1.26331,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.12866,
+        "log_loss": 1.26331,
+        "brier": 0.77181,
+        "surprisal": 1.26331
+      },
+      "dixon_coles": {
+        "rps": 0.12242,
+        "log_loss": 1.20065,
+        "brier": 0.73345,
+        "surprisal": 1.20065
+      },
+      "elo": {
+        "rps": 0.13232,
+        "log_loss": 1.29363,
+        "brier": 0.79132,
+        "surprisal": 1.29363
+      }
+    }
+  }
+}

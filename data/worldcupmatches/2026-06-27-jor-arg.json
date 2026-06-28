@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-27-jor-arg",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-27-jor-arg",
+    "date": "2026-06-27",
+    "home": "Jordan",
+    "away": "Argentina",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Jordan vs Argentina",
+    "home": "Jordan",
+    "away": "Argentina",
+    "as_of": "2026-06-27",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.029,
+      0.114,
+      0.857
+    ],
+    "components": {
+      "dixon_coles": [
+        0.032,
+        0.113,
+        0.856
+      ],
+      "elo": [
+        0.046,
+        0.151,
+        0.803
+      ]
+    },
+    "expected_goals": {
+      "Jordan": 0.41,
+      "Argentina": 2.74
+    },
+    "over25": 0.609,
+    "btts": 0.316,
+    "top_scorelines": [
+      {
+        "score": "0-2",
+        "prob": 0.161
+      },
+      {
+        "score": "0-3",
+        "prob": 0.147
+      },
+      {
+        "score": "0-1",
+        "prob": 0.115
+      },
+      {
+        "score": "0-4",
+        "prob": 0.101
+      },
+      {
+        "score": "1-2",
+        "prob": 0.066
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 3,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760483",
+      "player_shots": [
+        {
+          "player": "Lautaro Martínez",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 60.0,
+          "starter": true,
+          "shots_p90": 4.5,
+          "sot_p90": 1.5
+        },
+        {
+          "player": "Mousa Al-Tamari",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Lionel Messi",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 30.0,
+          "starter": false,
+          "shots_p90": 5.99,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Giovani Lo Celso",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 59.6,
+          "starter": true,
+          "shots_p90": 1.51,
+          "sot_p90": 1.51
+        },
+        {
+          "player": "Julián Álvarez",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 81.5,
+          "starter": true,
+          "shots_p90": 1.1,
+          "sot_p90": 1.1
+        },
+        {
+          "player": "Mohannad Abu Taha",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Odeh Fakhoury",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ali Azaizeh",
+          "side": "home",
+          "team": "Jordan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Marcos Senesi",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolás Otamendi",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nico Paz",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.2,
+          "starter": true,
+          "shots_p90": 1.49,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "José Manuel López",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 8.5,
+          "starter": false,
+          "shots_p90": 10.61,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Thiago Almada",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.4,
+          "starter": false,
+          "shots_p90": 2.97,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 26.7,
+      "shots_home": 5,
+      "shots_on_target_home": 1,
+      "corners_home": 2,
+      "fouls_home": 13,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 73.3,
+      "shots_away": 12,
+      "shots_on_target_away": 4,
+      "corners_away": 6,
+      "fouls_away": 7,
+      "saves_away": 0,
+      "offsides_away": 3,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:45-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.01065,
+    "log_loss": 0.15432,
+    "brier": 0.03429,
+    "surprisal": 0.15432,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.01065,
+        "log_loss": 0.15432,
+        "brier": 0.03429,
+        "surprisal": 0.15432
+      },
+      "dixon_coles": {
+        "rps": 0.011,
+        "log_loss": 0.15648,
+        "brier": 0.03475,
+        "surprisal": 0.15648
+      },
+      "elo": {
+        "rps": 0.02046,
+        "log_loss": 0.2194,
+        "brier": 0.06373,
+        "surprisal": 0.2194
+      }
+    }
+  }
+}

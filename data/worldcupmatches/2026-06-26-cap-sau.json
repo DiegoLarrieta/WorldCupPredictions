@@ -1,0 +1,365 @@
+{
+  "match_key": "2026-06-26-cap-sau",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-26-cap-sau",
+    "date": "2026-06-26",
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Cape Verde vs Saudi Arabia",
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "as_of": "2026-06-26",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.32,
+      0.306,
+      0.375
+    ],
+    "components": {
+      "dixon_coles": [
+        0.285,
+        0.345,
+        0.371
+      ],
+      "elo": [
+        0.355,
+        0.274,
+        0.371
+      ]
+    },
+    "expected_goals": {
+      "Cape Verde": 0.81,
+      "Saudi Arabia": 0.97
+    },
+    "over25": 0.265,
+    "btts": 0.354,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.176
+      },
+      {
+        "score": "0-1",
+        "prob": 0.155
+      },
+      {
+        "score": "1-1",
+        "prob": 0.14
+      },
+      {
+        "score": "1-0",
+        "prob": 0.129
+      },
+      {
+        "score": "0-2",
+        "prob": 0.079
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760478",
+      "player_shots": [
+        {
+          "player": "Jamiro Monteiro",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.8,
+          "starter": true,
+          "shots_p90": 2.54,
+          "sot_p90": 1.27
+        },
+        {
+          "player": "Kevin Pina",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "João Paulo",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Willy Semedo",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.5,
+          "starter": true,
+          "shots_p90": 2.98,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Laros Duarte",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.2,
+          "starter": false,
+          "shots_p90": 4.7,
+          "sot_p90": 4.7
+        },
+        {
+          "player": "Mohamed Kanno",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mohammed Abu Al-Shamat",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 25.0,
+          "starter": false,
+          "shots_p90": 3.61,
+          "sot_p90": 3.61
+        },
+        {
+          "player": "Abdullah Al-Hamdan",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 24.9,
+          "starter": false,
+          "shots_p90": 3.61,
+          "sot_p90": 3.61
+        },
+        {
+          "player": "Pico Lopes",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Wagner Pina",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Deroy Duarte",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ryan Mendes",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.0,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Garry Rodrigues",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.0,
+          "starter": false,
+          "shots_p90": 4.74,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nuno da Costa",
+          "side": "home",
+          "team": "Cape Verde",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.7,
+          "starter": false,
+          "shots_p90": 3.03,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Abdulelah Al-Amri",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Saud Abdulhamid",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nasser Al-Dawsari",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Salem Al-Dawsari",
+          "side": "away",
+          "team": "Saudi Arabia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.0,
+          "starter": true,
+          "shots_p90": 1.38,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 51,
+      "shots_home": 15,
+      "shots_on_target_home": 2,
+      "corners_home": 4,
+      "fouls_home": 10,
+      "saves_home": 3,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 49,
+      "shots_away": 7,
+      "shots_on_target_away": 3,
+      "corners_away": 2,
+      "fouls_away": 16,
+      "saves_away": 2,
+      "offsides_away": 0,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:44-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.12127,
+    "log_loss": 1.18517,
+    "brier": 0.7246,
+    "surprisal": 1.18517,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.12127,
+        "log_loss": 1.18517,
+        "brier": 0.7246,
+        "surprisal": 1.18517
+      },
+      "dixon_coles": {
+        "rps": 0.10921,
+        "log_loss": 1.06521,
+        "brier": 0.64791,
+        "surprisal": 1.06521
+      },
+      "elo": {
+        "rps": 0.13183,
+        "log_loss": 1.29463,
+        "brier": 0.79074,
+        "surprisal": 1.29463
+      }
+    }
+  }
+}

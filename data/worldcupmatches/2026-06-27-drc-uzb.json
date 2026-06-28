@@ -1,0 +1,261 @@
+{
+  "match_key": "2026-06-27-drc-uzb",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-27-drc-uzb",
+    "date": "2026-06-27",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "DR Congo vs Uzbekistan",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "as_of": "2026-06-27",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.338,
+      0.327,
+      0.334
+    ],
+    "components": {
+      "dixon_coles": [
+        0.3,
+        0.386,
+        0.314
+      ],
+      "elo": [
+        0.373,
+        0.274,
+        0.353
+      ]
+    },
+    "expected_goals": {
+      "DR Congo": 0.73,
+      "Uzbekistan": 0.76
+    },
+    "over25": 0.188,
+    "btts": 0.284,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.234
+      },
+      {
+        "score": "0-1",
+        "prob": 0.162
+      },
+      {
+        "score": "1-0",
+        "prob": 0.157
+      },
+      {
+        "score": "1-1",
+        "prob": 0.133
+      },
+      {
+        "score": "0-2",
+        "prob": 0.064
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760482",
+      "player_shots": [
+        {
+          "player": "Yoane Wissa",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 6,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Fiston Mayele",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 39.1,
+          "starter": false,
+          "shots_p90": 11.49,
+          "sot_p90": 2.3
+        },
+        {
+          "player": "Brian Cipenga",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.7,
+          "starter": true,
+          "shots_p90": 3.76,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Eldor Shomurodov",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Nathanaël Mbuku",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.6,
+          "starter": true,
+          "shots_p90": 1.26,
+          "sot_p90": 1.26
+        },
+        {
+          "player": "Chancel Mbemba",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ngal'ayel Mukau",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.2,
+          "starter": false,
+          "shots_p90": 4.95,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Meschack Elia",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 18.4,
+          "starter": false,
+          "shots_p90": 4.9,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Théo Bongonda",
+          "side": "home",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.3,
+          "starter": false,
+          "shots_p90": 4.92,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Abbosbek Fayzullaev",
+          "side": "away",
+          "team": "Uzbekistan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 72.3,
+          "starter": true,
+          "shots_p90": 1.24,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 57.6,
+      "shots_home": 19,
+      "shots_on_target_home": 4,
+      "corners_home": 2,
+      "fouls_home": 6,
+      "saves_home": 1,
+      "offsides_home": 3,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 42.4,
+      "shots_away": 3,
+      "shots_on_target_away": 1,
+      "corners_away": 4,
+      "fouls_away": 16,
+      "saves_away": 1,
+      "offsides_away": 1,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:46-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.27479,
+    "log_loss": 1.08371,
+    "brier": 0.65672,
+    "surprisal": 1.08371,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.27479,
+        "log_loss": 1.08371,
+        "brier": 0.65672,
+        "surprisal": 1.08371
+      },
+      "dixon_coles": {
+        "rps": 0.2943,
+        "log_loss": 1.20397,
+        "brier": 0.73759,
+        "surprisal": 1.20397
+      },
+      "elo": {
+        "rps": 0.25887,
+        "log_loss": 0.98618,
+        "brier": 0.59281,
+        "surprisal": 0.98618
+      }
+    }
+  }
+}

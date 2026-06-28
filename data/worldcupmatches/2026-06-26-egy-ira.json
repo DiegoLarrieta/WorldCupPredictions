@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-26-egy-ira",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-26-egy-ira",
+    "date": "2026-06-26",
+    "home": "Egypt",
+    "away": "Iran",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Egypt vs Iran",
+    "home": "Egypt",
+    "away": "Iran",
+    "as_of": "2026-06-26",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.291,
+      0.288,
+      0.421
+    ],
+    "components": {
+      "dixon_coles": [
+        0.267,
+        0.313,
+        0.421
+      ],
+      "elo": [
+        0.322,
+        0.274,
+        0.404
+      ]
+    },
+    "expected_goals": {
+      "Egypt": 0.89,
+      "Iran": 1.19
+    },
+    "over25": 0.343,
+    "btts": 0.416,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.142
+      },
+      {
+        "score": "1-1",
+        "prob": 0.14
+      },
+      {
+        "score": "0-0",
+        "prob": 0.134
+      },
+      {
+        "score": "1-0",
+        "prob": 0.104
+      },
+      {
+        "score": "0-2",
+        "prob": 0.089
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760476",
+      "player_shots": [
+        {
+          "player": "Trézéguet",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Mahmoud Saber",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Ramin Rezaeian",
+          "side": "away",
+          "team": "Iran",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mohammad Ghorbani",
+          "side": "away",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mehdi Taremi",
+          "side": "away",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mohanad Lashin",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "side": "away",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Saman Ghoddos",
+          "side": "away",
+          "team": "Iran",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.0,
+          "starter": true,
+          "shots_p90": 2.73,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Milad Mohammadi",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mohamed Hany",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mohamed Salah",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 56.6,
+          "starter": true,
+          "shots_p90": 1.59,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mostafa Zico",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.9,
+          "starter": true,
+          "shots_p90": 1.19,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Omar Marmoush",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Zizo",
+          "side": "home",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 33.4,
+          "starter": false,
+          "shots_p90": 2.69,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Shoja Khalilzadeh",
+          "side": "away",
+          "team": "Iran",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 61.4,
+      "shots_home": 15,
+      "shots_on_target_home": 3,
+      "corners_home": 8,
+      "fouls_home": 11,
+      "saves_home": 2,
+      "offsides_home": 0,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 38.6,
+      "shots_away": 13,
+      "shots_on_target_away": 4,
+      "corners_away": 2,
+      "fouls_away": 16,
+      "saves_away": 2,
+      "offsides_away": 3,
+      "yellow_cards_away": 4,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:44-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.13096,
+    "log_loss": 1.24479,
+    "brier": 0.76887,
+    "surprisal": 1.24479,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.13096,
+        "log_loss": 1.24479,
+        "brier": 0.76887,
+        "surprisal": 1.24479
+      },
+      "dixon_coles": {
+        "rps": 0.12402,
+        "log_loss": 1.16255,
+        "brier": 0.72043,
+        "surprisal": 1.16255
+      },
+      "elo": {
+        "rps": 0.13345,
+        "log_loss": 1.29463,
+        "brier": 0.79398,
+        "surprisal": 1.29463
+      }
+    }
+  }
+}

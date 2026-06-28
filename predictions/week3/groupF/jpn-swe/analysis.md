@@ -1,6 +1,6 @@
 # Analysis — Japan vs Sweden
 
-_as_of 2026-06-25 · source: live_
+_as_of 2026-06-25 · source: snapshot (snapshot 2026-06-27T19:22:12-06:00)_
 
 ## 1X2 (match winner)
 
@@ -8,9 +8,9 @@ _as_of 2026-06-25 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 73% | 41% | +142 | **suspect** |
-| draw | 17% | 28% | +260 | **bet** |
-| away | 10% | 31% | +360 | **bet** |
+| home | 73% | 57% | -135 | **suspect** |
+| draw | 17% | 25% | +310 | **bet** |
+| away | 10% | 18% | +500 | **pass** |
 
 ## Goals (total)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-25 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 85% | -345 | +0.10 |
-| 2.5 | 66% | -104 | +0.29 |
-| 3.5 | 44% | +230 | +0.44 |
+| 1.5 | 85% | — | — |
+| 2.5 | 66% | +108 | +0.36 |
+| 3.5 | 44% | — | — |
 
 ## Otros mercados
 
@@ -28,28 +28,42 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Japan | 90% | -238 | +0.28 |
-| Doble oport. Sweden | 27% | -143 | -0.54 |
-| Over 1.5 goles Japan | 73% | +119 | +0.59 |
-| Over 1.5 goles Sweden | 20% | +185 | -0.44 |
-| BTTS (ambos marcan) | 52% | -137 | -0.11 |
+| Doble oport. Japan | 90% | — | — |
+| Doble oport. Sweden | 27% | — | — |
+| Over 1.5 goles Japan | 73% | — | — |
+| Over 1.5 goles Sweden | 20% | — | — |
+| BTTS (ambos marcan) | 52% | — | — |
 | Tiros Japan over 9.5 | 100% | — | — |
 | Tiros Sweden over 9.5 | 47% | — | — |
 | TaP Japan over 2.5 | 99% | — | — |
 | TaP Sweden over 2.5 | 60% | — | — |
 
-## Player shots-on-target (CLOV-on-overs)
+## Props de delanteros (tiros y tiros a puerta)
 
-Overs where the model beats the offered (vig-included) price, real-data players only. One-sided market → judged by CLOV, not de-vig.
-
-| player | line | over | model | price implies | EV |
-|---|---|---|---|---|---|
-| Ayase Ueda | 0.5 | -244 | 71% | 71% | +0.00 |
+_Sin tabla de delanteros — skipped (snapshot backtest)._
 
 ## Recommendation
 
-- **No 1X2/goals bet** — nothing where a soft book beats the sharp fair (the common, correct outcome). Big model-vs-sharp gaps are *suspect*, not value.
-- **Prop watch:** Ayase Ueda — paper/CLOV only, log small and let the close judge.
+- **1x2 draw** @ +310 — soft price beats the sharp fair by +5.7% (prospective CLOV+).
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
+## Resultado y checks (qué se cumplió)
+
+- **Japan 1–1 Sweden** (draw, 2 goles)
+
+| Mercado | model P | ¿Pasó? | check |
+|---|---|---|---|
+| Gana Japan | 73% | no | ❌ |
+| Empate | 17% | sí | ❌ |
+| Gana Sweden | 10% | no | ✅ |
+| Doble oport. Japan | 90% | sí | ✅ |
+| Doble oport. Sweden | 27% | sí | ❌ |
+| Over 1.5 goles | 85% | sí | ✅ |
+| Over 2.5 goles | 66% | no | ❌ |
+| Over 3.5 goles | 44% | no | ✅ |
+| Over 1.5 goles Japan | 73% | no | ❌ |
+| Over 1.5 goles Sweden | 20% | no | ✅ |
+| BTTS | 52% | sí | ✅ |
+
+**Checks acertados: 6/11** (✅ = la inclinación del modelo coincidió con lo que pasó).

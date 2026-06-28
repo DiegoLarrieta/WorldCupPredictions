@@ -1,6 +1,6 @@
 # Analysis — Senegal vs Iraq
 
-_as_of 2026-06-26 · source: live_
+_as_of 2026-06-26 · source: snapshot (snapshot 2026-06-26T12:54:12-06:00)_
 
 ## 1X2 (match winner)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-26 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 64% | -588 | -0.25 |
-| 2.5 | 37% | -185 | -0.43 |
-| 3.5 | 18% | +132 | -0.59 |
+| 1.5 | 64% | — | — |
+| 2.5 | 37% | -200 | -0.44 |
+| 3.5 | 18% | — | — |
 
 ## Otros mercados
 
@@ -28,28 +28,42 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Senegal | 85% | -1429 | -0.09 |
-| Doble oport. Iraq | 39% | +410 | +1.01 |
-| Over 2.5 goles Senegal | 19% | -120 | -0.64 |
-| Over 0.5 goles Iraq | 49% | -110 | -0.07 |
-| BTTS (ambos marcan) | 39% | +126 | -0.13 |
+| Doble oport. Senegal | 85% | — | — |
+| Doble oport. Iraq | 39% | — | — |
+| Over 1.5 goles Senegal | 45% | — | — |
+| Over 1.5 goles Iraq | 14% | — | — |
+| BTTS (ambos marcan) | 39% | — | — |
 | Tiros Senegal over 9.5 | 94% | — | — |
 | Tiros Iraq over 9.5 | 31% | — | — |
 | TaP Senegal over 2.5 | 90% | — | — |
 | TaP Iraq over 2.5 | 50% | — | — |
 
-## Player shots-on-target (CLOV-on-overs)
+## Props de delanteros (tiros y tiros a puerta)
 
-Overs where the model beats the offered (vig-included) price, real-data players only. One-sided market → judged by CLOV, not de-vig.
-
-| player | line | over | model | price implies | EV |
-|---|---|---|---|---|---|
-| Ali Al-Hamadi | 0.5 | +135 | 53% | 43% | +0.25 |
+_Sin tabla de delanteros — skipped (snapshot backtest)._
 
 ## Recommendation
 
 - **No 1X2/goals bet** — nothing where a soft book beats the sharp fair (the common, correct outcome). Big model-vs-sharp gaps are *suspect*, not value.
-- **Prop watch:** Ali Al-Hamadi — paper/CLOV only, log small and let the close judge.
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
+## Resultado y checks (qué se cumplió)
+
+- **Senegal 5–0 Iraq** (home, 5 goles)
+
+| Mercado | model P | ¿Pasó? | check |
+|---|---|---|---|
+| Gana Senegal | 61% | sí | ✅ |
+| Empate | 24% | no | ✅ |
+| Gana Iraq | 15% | no | ✅ |
+| Doble oport. Senegal | 85% | sí | ✅ |
+| Doble oport. Iraq | 39% | no | ✅ |
+| Over 1.5 goles | 64% | sí | ✅ |
+| Over 2.5 goles | 37% | sí | ❌ |
+| Over 3.5 goles | 18% | sí | ❌ |
+| Over 1.5 goles Senegal | 45% | sí | ❌ |
+| Over 1.5 goles Iraq | 14% | no | ✅ |
+| BTTS | 39% | no | ✅ |
+
+**Checks acertados: 8/11** (✅ = la inclinación del modelo coincidió con lo que pasó).

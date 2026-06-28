@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-25-par-aus",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-25-par-aus",
+    "date": "2026-06-25",
+    "home": "Paraguay",
+    "away": "Australia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Paraguay vs Australia",
+    "home": "Paraguay",
+    "away": "Australia",
+    "as_of": "2026-06-25",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.218,
+      0.286,
+      0.496
+    ],
+    "components": {
+      "dixon_coles": [
+        0.259,
+        0.333,
+        0.408
+      ],
+      "elo": [
+        0.199,
+        0.253,
+        0.547
+      ]
+    },
+    "expected_goals": {
+      "Paraguay": 0.79,
+      "Australia": 1.07
+    },
+    "over25": 0.287,
+    "btts": 0.368,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.163
+      },
+      {
+        "score": "0-1",
+        "prob": 0.158
+      },
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "1-0",
+        "prob": 0.115
+      },
+      {
+        "score": "0-2",
+        "prob": 0.089
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760469",
+      "player_shots": [
+        {
+          "player": "Jordan Bos",
+          "side": "away",
+          "team": "Australia",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Maurício",
+          "side": "home",
+          "team": "Paraguay",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Jackson Irvine",
+          "side": "away",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.8,
+          "starter": true,
+          "shots_p90": 2.15,
+          "sot_p90": 1.07
+        },
+        {
+          "player": "Julio Enciso",
+          "side": "home",
+          "team": "Paraguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nestory Irankunda",
+          "side": "away",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.9,
+          "starter": true,
+          "shots_p90": 2.14,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cristian Volpato",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.5,
+          "starter": true,
+          "shots_p90": 1.57,
+          "sot_p90": 1.57
+        },
+        {
+          "player": "Tete Yengi",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.1,
+          "starter": false,
+          "shots_p90": 14.84,
+          "sot_p90": 14.84
+        },
+        {
+          "player": "Juan Jose Cáceres",
+          "side": "home",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Andrés Cubas",
+          "side": "home",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gabriel Ávalos",
+          "side": "home",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.9,
+          "starter": true,
+          "shots_p90": 1.35,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aiden O'Neill",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Connor Metcalfe",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ajdin Hrustic",
+          "side": "away",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.5,
+          "starter": false,
+          "shots_p90": 2.77,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 44,
+      "shots_home": 7,
+      "shots_on_target_home": 2,
+      "corners_home": 1,
+      "fouls_home": 9,
+      "saves_home": 5,
+      "offsides_home": 0,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 56,
+      "shots_away": 12,
+      "shots_on_target_away": 5,
+      "corners_away": 3,
+      "fouls_away": 6,
+      "saves_away": 2,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:40-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.14677,
+    "log_loss": 1.25176,
+    "brier": 0.80334,
+    "surprisal": 1.25176,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.14677,
+        "log_loss": 1.25176,
+        "brier": 0.80334,
+        "surprisal": 1.25176
+      },
+      "dixon_coles": {
+        "rps": 0.11677,
+        "log_loss": 1.09961,
+        "brier": 0.67843,
+        "surprisal": 1.09961
+      },
+      "elo": {
+        "rps": 0.16974,
+        "log_loss": 1.37337,
+        "brier": 0.89712,
+        "surprisal": 1.37337
+      }
+    }
+  }
+}

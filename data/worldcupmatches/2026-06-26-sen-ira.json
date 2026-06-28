@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-26-sen-ira",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-26-sen-ira",
+    "date": "2026-06-26",
+    "home": "Senegal",
+    "away": "Iraq",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Senegal vs Iraq",
+    "home": "Senegal",
+    "away": "Iraq",
+    "as_of": "2026-06-26",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.606,
+      0.244,
+      0.15
+    ],
+    "components": {
+      "dixon_coles": [
+        0.569,
+        0.275,
+        0.157
+      ],
+      "elo": [
+        0.593,
+        0.236,
+        0.171
+      ]
+    },
+    "expected_goals": {
+      "Senegal": 1.51,
+      "Iraq": 0.67
+    },
+    "over25": 0.37,
+    "btts": 0.386,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.164
+      },
+      {
+        "score": "2-0",
+        "prob": 0.129
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "0-0",
+        "prob": 0.121
+      },
+      {
+        "score": "2-1",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 5,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760474",
+      "player_shots": [
+        {
+          "player": "Pape Gueye",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 6,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 1,
+          "minutes": 33.1,
+          "starter": false,
+          "shots_p90": 16.3,
+          "sot_p90": 8.15
+        },
+        {
+          "player": "Sadio Mané",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ali Jasim",
+          "side": "away",
+          "team": "Iraq",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.2,
+          "starter": true,
+          "shots_p90": 6.3,
+          "sot_p90": 1.57
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 80.0,
+          "starter": true,
+          "shots_p90": 3.37,
+          "sot_p90": 2.25
+        },
+        {
+          "player": "Nicolas Jackson",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 33.2,
+          "starter": false,
+          "shots_p90": 8.13,
+          "sot_p90": 5.42
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 33.4,
+          "starter": false,
+          "shots_p90": 5.38,
+          "sot_p90": 5.38
+        },
+        {
+          "player": "Habib Diarra",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 56.9,
+          "starter": true,
+          "shots_p90": 3.17,
+          "sot_p90": 1.58
+        },
+        {
+          "player": "Abdoulaye Seck",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 57.9,
+          "starter": true,
+          "shots_p90": 3.11,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pathé Ciss",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.1,
+          "starter": false,
+          "shots_p90": 2.8,
+          "sot_p90": 2.8
+        },
+        {
+          "player": "Moussa Niakhaté",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ismail Jakobs",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Krépin Diatta",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Idrissa Gueye",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lamine Camara",
+          "side": "home",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 56.8,
+          "starter": true,
+          "shots_p90": 1.58,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Merchas Doski",
+          "side": "away",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kevin Yakob",
+          "side": "away",
+          "team": "Iraq",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.3,
+          "starter": false,
+          "shots_p90": 3.87,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 69.2,
+      "shots_home": 28,
+      "shots_on_target_home": 12,
+      "corners_home": 12,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 30.8,
+      "shots_away": 6,
+      "shots_on_target_away": 1,
+      "corners_away": 3,
+      "fouls_away": 11,
+      "saves_away": 7,
+      "offsides_away": 0,
+      "yellow_cards_away": 2,
+      "red_cards_away": 1,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:45-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.08887,
+    "log_loss": 0.50088,
+    "brier": 0.23727,
+    "surprisal": 0.50088,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.08887,
+        "log_loss": 0.50088,
+        "brier": 0.23727,
+        "surprisal": 0.50088
+      },
+      "dixon_coles": {
+        "rps": 0.10543,
+        "log_loss": 0.56487,
+        "brier": 0.28633,
+        "surprisal": 0.56487
+      },
+      "elo": {
+        "rps": 0.09745,
+        "log_loss": 0.52256,
+        "brier": 0.25059,
+        "surprisal": 0.52256
+      }
+    }
+  }
+}

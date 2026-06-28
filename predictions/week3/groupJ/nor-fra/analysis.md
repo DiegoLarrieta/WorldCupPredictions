@@ -1,6 +1,6 @@
 # Analysis — Norway vs France
 
-_as_of 2026-06-26 · source: live_
+_as_of 2026-06-26 · source: snapshot (snapshot 2026-06-27T19:22:12-06:00)_
 
 ## 1X2 (match winner)
 
@@ -8,9 +8,9 @@ _as_of 2026-06-26 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 26% | 11% | +740 | **suspect** |
-| draw | 26% | 15% | +535 | **suspect** |
-| away | 49% | 73% | -222 | **bet** |
+| home | 26% | 26% | +300 | **bet** |
+| draw | 26% | 27% | +273 | **bet** |
+| away | 49% | 47% | +116 | **bet** |
 
 ## Goals (total)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-26 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 78% | -588 | -0.09 |
-| 2.5 | 54% | -196 | -0.18 |
-| 3.5 | 32% | +138 | -0.25 |
+| 1.5 | 78% | — | — |
+| 2.5 | 54% | -105 | +0.05 |
+| 3.5 | 32% | — | — |
 
 ## Otros mercados
 
@@ -28,29 +28,42 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Norway | 51% | +250 | +0.79 |
-| Doble oport. France | 74% | -769 | -0.16 |
-| Over 0.5 goles Norway | 71% | -169 | +0.13 |
-| Over 2.5 goles France | 22% | +115 | -0.53 |
-| BTTS (ambos marcan) | 57% | -135 | +0.00 |
+| Doble oport. Norway | 51% | — | — |
+| Doble oport. France | 74% | — | — |
+| Over 1.5 goles Norway | 35% | — | — |
+| Over 1.5 goles France | 48% | — | — |
+| BTTS (ambos marcan) | 57% | — | — |
 | Tiros Norway over 9.5 | 83% | — | — |
 | Tiros France over 9.5 | 96% | — | — |
 | TaP Norway over 2.5 | 82% | — | — |
 | TaP France over 2.5 | 92% | — | — |
 
-## Player shots-on-target (CLOV-on-overs)
+## Props de delanteros (tiros y tiros a puerta)
 
-Overs where the model beats the offered (vig-included) price, real-data players only. One-sided market → judged by CLOV, not de-vig.
-
-| player | line | over | model | price implies | EV |
-|---|---|---|---|---|---|
-| Andreas Schjelderup | 0.5 | +120 | 50% | 45% | +0.10 |
-| Ousmane Dembele | 0.5 | -208 | 71% | 68% | +0.05 |
+_Sin tabla de delanteros — skipped (snapshot backtest)._
 
 ## Recommendation
 
-- **1x2 away** @ -222 — soft price beats the sharp fair by +8.2% (prospective CLOV+).
-- **Prop watch:** Andreas Schjelderup, Ousmane Dembele — paper/CLOV only, log small and let the close judge.
+- **ou_2.5 under** @ +102 — soft price beats the sharp fair by +4.1% (prospective CLOV+).
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
+## Resultado y checks (qué se cumplió)
+
+- **Norway 1–4 France** (away, 5 goles)
+
+| Mercado | model P | ¿Pasó? | check |
+|---|---|---|---|
+| Gana Norway | 26% | no | ✅ |
+| Empate | 26% | no | ✅ |
+| Gana France | 49% | sí | ❌ |
+| Doble oport. Norway | 51% | no | ❌ |
+| Doble oport. France | 74% | sí | ✅ |
+| Over 1.5 goles | 78% | sí | ✅ |
+| Over 2.5 goles | 54% | sí | ✅ |
+| Over 3.5 goles | 32% | sí | ❌ |
+| Over 1.5 goles Norway | 35% | no | ✅ |
+| Over 1.5 goles France | 48% | sí | ❌ |
+| BTTS | 57% | sí | ✅ |
+
+**Checks acertados: 7/11** (✅ = la inclinación del modelo coincidió con lo que pasó).

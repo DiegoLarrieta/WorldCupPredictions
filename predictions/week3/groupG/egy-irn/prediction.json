@@ -64,5 +64,13 @@
     }
   ],
   "lineups": null,
-  "actual_result": null
+  "actual_result": {
+    "score": "1-1",
+    "result": "draw",
+    "scored_at": "2026-06-27T22:15:24-06:00",
+    "rps": 0.13096,
+    "log_loss": 1.24479,
+    "brier": 0.76887,
+    "surprisal": 1.24479
+  }
 }

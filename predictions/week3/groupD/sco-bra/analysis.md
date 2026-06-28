@@ -8,25 +8,39 @@ _as_of 2026-06-24 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 15% | 9% | 11.50 | **pass** |
-| draw | 22% | 18% | 6.10 | **pass** |
-| away | 64% | 73% | 1.36 | **pass** |
+| home | 15% | 9% | +1050 | **pass** |
+| draw | 22% | 18% | +510 | **pass** |
+| away | 64% | 73% | -278 | **pass** |
 
 ## Goals (total)
 
 - Expected goals: Scotland 0.76 – 2.13 Brazil  (total λ 2.89)
 
-| line | model P(over) | market (best over) | note |
+| over | model P | odds | EV@odds |
 |---|---|---|---|
-| over 1.5 | 78% | — | — |
-| over 2.5 | 55% | 1.89 | pass |
-| over 3.5 | 33% | — | — |
+| 1.5 | 78% | — | — |
+| 2.5 | 55% | -112 | +0.04 |
+| 3.5 | 33% | — | — |
 
-- BTTS (both score): model **47%**
+## Otros mercados
 
-## Player shots-on-target (CLOV-on-overs)
+_EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados eficientes (1X2, doble oport.) un EV+ suele ser error nuestro (edge test); en goles es la señal viva._
 
-_No prop candidates — skipped (snapshot backtest — props weren't captured)._
+| mercado | model P | odds | EV@odds |
+|---|---|---|---|
+| Doble oport. Scotland | 36% | — | — |
+| Doble oport. Brazil | 85% | — | — |
+| Over 1.5 goles Scotland | 18% | — | — |
+| Over 1.5 goles Brazil | 63% | — | — |
+| BTTS (ambos marcan) | 47% | — | — |
+| Tiros Scotland over 9.5 | 41% | — | — |
+| Tiros Brazil over 9.5 | 100% | — | — |
+| TaP Scotland over 2.5 | 57% | — | — |
+| TaP Brazil over 2.5 | 98% | — | — |
+
+## Props de delanteros (tiros y tiros a puerta)
+
+_Sin tabla de delanteros — skipped (snapshot backtest)._
 
 ## Recommendation
 
@@ -34,10 +48,22 @@ _No prop candidates — skipped (snapshot backtest — props weren't captured)._
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
-## Result (revealed)
+## Resultado y checks (qué se cumplió)
 
-- **Scotland 0–3 Brazil** (away, 3 goals)
-  - 1X2: we gave away **64%**
-  - O/U 1.5: **over** (model P(over) 78%)
-  - O/U 2.5: **over** (model P(over) 55%)
-  - O/U 3.5: **under** (model P(over) 33%)
+- **Scotland 0–3 Brazil** (away, 3 goles)
+
+| Mercado | model P | ¿Pasó? | check |
+|---|---|---|---|
+| Gana Scotland | 15% | no | ✅ |
+| Empate | 22% | no | ✅ |
+| Gana Brazil | 64% | sí | ✅ |
+| Doble oport. Scotland | 36% | no | ✅ |
+| Doble oport. Brazil | 85% | sí | ✅ |
+| Over 1.5 goles | 78% | sí | ✅ |
+| Over 2.5 goles | 55% | sí | ✅ |
+| Over 3.5 goles | 33% | no | ✅ |
+| Over 1.5 goles Scotland | 18% | no | ✅ |
+| Over 1.5 goles Brazil | 63% | sí | ✅ |
+| BTTS | 47% | no | ✅ |
+
+**Checks acertados: 11/11** (✅ = la inclinación del modelo coincidió con lo que pasó).

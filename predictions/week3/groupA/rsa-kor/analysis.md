@@ -1,6 +1,6 @@
 # Analysis — South Africa vs South Korea
 
-_as_of 2026-06-24 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
+_as_of 2026-06-24 · source: snapshot (snapshot 2026-06-27T19:22:12-06:00)_
 
 ## 1X2 (match winner)
 
@@ -8,25 +8,39 @@ _as_of 2026-06-24 · source: snapshot (snapshot 2026-06-24T16:00:07-06:00)_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 13% | 16% | 6.60 | **pass** |
-| draw | 23% | 24% | 4.10 | **pass** |
-| away | 64% | 60% | 1.65 | **pass** |
+| home | 13% | 17% | +525 | **pass** |
+| draw | 23% | 26% | +275 | **pass** |
+| away | 64% | 57% | -133 | **suspect** |
 
 ## Goals (total)
 
 - Expected goals: South Africa 0.71 – 1.56 South Korea  (total λ 2.27)
 
-| line | model P(over) | market (best over) | note |
+| over | model P | odds | EV@odds |
 |---|---|---|---|
-| over 1.5 | 66% | — | — |
-| over 2.5 | 40% | — | — |
-| over 3.5 | 20% | — | — |
+| 1.5 | 66% | — | — |
+| 2.5 | 40% | +123 | -0.12 |
+| 3.5 | 20% | — | — |
 
-- BTTS (both score): model **41%**
+## Otros mercados
 
-## Player shots-on-target (CLOV-on-overs)
+_EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados eficientes (1X2, doble oport.) un EV+ suele ser error nuestro (edge test); en goles es la señal viva._
 
-_No prop candidates — skipped (snapshot backtest — props weren't captured)._
+| mercado | model P | odds | EV@odds |
+|---|---|---|---|
+| Doble oport. South Africa | 36% | — | — |
+| Doble oport. South Korea | 87% | — | — |
+| Over 1.5 goles South Africa | 16% | — | — |
+| Over 1.5 goles South Korea | 46% | — | — |
+| BTTS (ambos marcan) | 41% | — | — |
+| Tiros South Africa over 9.5 | 36% | — | — |
+| Tiros South Korea over 9.5 | 95% | — | — |
+| TaP South Africa over 2.5 | 53% | — | — |
+| TaP South Korea over 2.5 | 91% | — | — |
+
+## Props de delanteros (tiros y tiros a puerta)
+
+_Sin tabla de delanteros — skipped (snapshot backtest)._
 
 ## Recommendation
 
@@ -34,10 +48,22 @@ _No prop candidates — skipped (snapshot backtest — props weren't captured)._
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
-## Result (revealed)
+## Resultado y checks (qué se cumplió)
 
-- **South Africa 1–0 South Korea** (home, 1 goals)
-  - 1X2: we gave home **13%**
-  - O/U 1.5: **under** (model P(over) 66%)
-  - O/U 2.5: **under** (model P(over) 40%)
-  - O/U 3.5: **under** (model P(over) 20%)
+- **South Africa 1–0 South Korea** (home, 1 goles)
+
+| Mercado | model P | ¿Pasó? | check |
+|---|---|---|---|
+| Gana South Africa | 13% | sí | ❌ |
+| Empate | 23% | no | ✅ |
+| Gana South Korea | 64% | no | ❌ |
+| Doble oport. South Africa | 36% | sí | ❌ |
+| Doble oport. South Korea | 87% | no | ❌ |
+| Over 1.5 goles | 66% | no | ❌ |
+| Over 2.5 goles | 40% | no | ✅ |
+| Over 3.5 goles | 20% | no | ✅ |
+| Over 1.5 goles South Africa | 16% | no | ✅ |
+| Over 1.5 goles South Korea | 46% | no | ✅ |
+| BTTS | 41% | no | ✅ |
+
+**Checks acertados: 6/11** (✅ = la inclinación del modelo coincidió con lo que pasó).

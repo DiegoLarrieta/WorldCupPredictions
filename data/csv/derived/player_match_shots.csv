@@ -730,6 +730,188 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Jamal Musiala,1,0,0,0,True
 2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Deniz Undav,1,0,0,0,False
 2026-06-25-ecu-ger,2026-06-25,Ecuador vs Germany,away,Germany,Pascal Gross,1,0,0,0,False
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Alexander Isak,2,2,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Anthony Elanga,2,2,1,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Daizen Maeda,2,1,1,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Gustaf Lagerbielke,2,0,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Keito Nakamura,1,1,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Yukinari Sugawara,1,1,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Alexander Bernhardsson,1,1,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Ao Tanaka,1,0,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Ayase Ueda,1,0,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Ritsu Doan,1,0,0,1,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,home,Japan,Koki Ogawa,1,0,0,0,False
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Victor Lindelöf,1,0,0,0,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Viktor Gyökeres,1,0,0,1,True
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Daniel Svensson,1,0,0,0,False
+2026-06-25-jap-swe,2026-06-25,Japan vs Sweden,away,Sweden,Ken Sema,1,0,0,0,False
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Jordan Bos,3,2,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,home,Paraguay,Maurício,2,2,0,0,False
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Jackson Irvine,2,1,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,home,Paraguay,Julio Enciso,2,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Nestory Irankunda,2,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Cristian Volpato,1,1,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Tete Yengi,1,1,0,0,False
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,home,Paraguay,Juan Jose Cáceres,1,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,home,Paraguay,Andrés Cubas,1,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,home,Paraguay,Gabriel Ávalos,1,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Aiden O'Neill,1,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Connor Metcalfe,1,0,0,0,True
+2026-06-25-par-aus,2026-06-25,Paraguay vs Australia,away,Australia,Ajdin Hrustic,1,0,0,0,False
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Denzel Dumfries,4,2,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,home,Tunisia,Hazem Mastouri,3,2,1,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Tijjani Reijnders,3,2,0,1,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Jan Paul van Hecke,2,1,1,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Brian Brobbey,2,1,1,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,home,Tunisia,Ismaël Gharbi,2,0,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,home,Tunisia,Elias Achouri,2,0,0,0,False
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Ryan Gravenberch,2,0,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Cody Gakpo,2,0,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Donyell Malen,2,0,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,home,Tunisia,Hannibal Mejbri,1,1,0,1,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,home,Tunisia,Anis Slimane,1,1,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Virgil van Dijk,1,1,0,1,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,home,Tunisia,Ali Abdi,1,0,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Nathan Aké,1,0,0,0,True
+2026-06-25-tun-net,2026-06-25,Tunisia vs Netherlands,away,Netherlands,Frenkie de Jong,1,0,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Auston Trusty,3,2,1,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Christian Pulisic,3,2,0,0,False
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Weston McKennie,3,1,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Brenden Aaronson,3,1,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Orkun Kökçü,2,0,0,1,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Kenan Yildiz,2,0,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Ricardo Pepi,2,0,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Baris Alper Yilmaz,1,1,1,1,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Arda Güler,1,1,1,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Kaan Ayhan,1,1,1,0,False
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Sebastian Berhalter,1,1,1,1,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Abdülkerim Bardakçi,1,0,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,away,Türkiye,Can Uzun,1,0,0,0,False
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Miles Robinson,1,0,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Giovanni Reyna,1,0,0,0,True
+2026-06-25-uni-tur,2026-06-25,United States vs Turkey,home,United States,Alejandro Zendejas,1,0,0,0,False
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Jamiro Monteiro,2,1,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Kevin Pina,2,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,João Paulo,2,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Willy Semedo,2,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Laros Duarte,1,1,0,0,False
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Mohamed Kanno,1,1,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Mohammed Abu Al-Shamat,1,1,0,0,False
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Abdullah Al-Hamdan,1,1,0,0,False
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Pico Lopes,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Wagner Pina,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Deroy Duarte,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Ryan Mendes,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Garry Rodrigues,1,0,0,0,False
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,home,Cape Verde,Nuno da Costa,1,0,0,0,False
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Abdulelah Al-Amri,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Saud Abdulhamid,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Nasser Al-Dawsari,1,0,0,0,True
+2026-06-26-cap-sau,2026-06-26,Cape Verde vs Saudi Arabia,away,Saudi Arabia,Salem Al-Dawsari,1,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Trézéguet,5,2,0,1,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Mahmoud Saber,3,1,1,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Ramin Rezaeian,3,1,1,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Mohammad Ghorbani,2,1,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Mehdi Taremi,2,1,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Mohanad Lashin,2,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Saeid Ezatolahi,2,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Saman Ghoddos,2,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Milad Mohammadi,1,1,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Mohamed Hany,1,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Mohamed Salah,1,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Mostafa Zico,1,0,0,0,True
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Omar Marmoush,1,0,0,0,False
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,home,Egypt,Zizo,1,0,0,0,False
+2026-06-26-egy-ira,2026-06-26,Egypt vs Iran,away,Iran,Shoja Khalilzadeh,1,0,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Kevin De Bruyne,7,2,1,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Leandro Trossard,7,2,2,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Arthur Theate,4,1,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,home,New Zealand,Elijah Just,3,2,1,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Maxim De Cuyper,2,1,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Jérémy Doku,2,1,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Alexis Saelemaekers,2,1,1,0,False
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Hans Vanaken,2,0,0,1,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Matias Fernandez-Pardo,2,0,0,0,False
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Amadou Onana,2,0,0,0,False
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Charles De Ketelaere,1,1,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Romelu Lukaku,1,1,1,1,False
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,home,New Zealand,Tyler Bindon,1,0,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,home,New Zealand,Tim Payne,1,0,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,home,New Zealand,Jesse Randall,1,0,0,0,False
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Brandon Mechele,1,0,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Timothy Castagne,1,0,0,0,True
+2026-06-26-new-bel,2026-06-26,New Zealand vs Belgium,away,Belgium,Youri Tielemans,1,0,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Désiré Doué,4,3,1,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Kylian Mbappé,4,2,0,2,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Ousmane Dembélé,3,3,3,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Michael Olise,3,0,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Thelo Aasgaard,2,1,1,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Jørgen Strand Larsen,2,1,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Oscar Bobb,2,1,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Theo Hernández,2,0,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Kristian Thorstvedt,1,1,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Manu Koné,1,1,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Leo Østigard,1,0,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Fredrik Aursnes,1,0,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,home,Norway,Patrick Berg,1,0,0,0,True
+2026-06-26-nor-fra,2026-06-26,Norway vs France,away,France,Aurélien Tchouaméni,1,0,0,1,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Pape Gueye,6,3,2,1,False
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Sadio Mané,4,1,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,away,Iraq,Ali Jasim,4,1,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Ismaïla Sarr,3,2,1,1,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Nicolas Jackson,3,2,0,0,False
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Iliman Ndiaye,2,2,1,1,False
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Habib Diarra,2,1,1,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Abdoulaye Seck,2,0,0,1,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Pathé Ciss,1,1,0,0,False
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Moussa Niakhaté,1,0,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Ismail Jakobs,1,0,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Krépin Diatta,1,0,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Idrissa Gueye,1,0,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,home,Senegal,Lamine Camara,1,0,0,1,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,away,Iraq,Merchas Doski,1,0,0,0,True
+2026-06-26-sen-ira,2026-06-26,Senegal vs Iraq,away,Iraq,Kevin Yakob,1,0,0,0,False
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,home,Uruguay,Nicolás de la Cruz,1,1,0,0,False
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,away,Spain,Álex Baena,1,1,1,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,home,Uruguay,Rodrigo Bentancur,1,0,0,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,home,Uruguay,Agustín Canobbio,1,0,0,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,home,Uruguay,Darwin Núñez,1,0,0,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,home,Uruguay,Federico Viñas,1,0,0,0,False
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,away,Spain,Pau Cubarsí,1,0,0,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,away,Spain,Mikel Oyarzabal,1,0,0,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,away,Spain,Lamine Yamal,1,0,0,0,True
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,away,Spain,Dani Olmo,1,0,0,0,False
+2026-06-26-uru-spa,2026-06-26,Uruguay vs Spain,away,Spain,Ferran Torres,1,0,0,0,False
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,home,Algeria,Riyad Mahrez,3,2,2,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,home,Algeria,Ibrahim Maza,3,1,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,home,Algeria,Farès Chaïbi,3,1,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,home,Algeria,Rafik Belghali,2,1,1,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Nicolas Seiwald,2,0,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Marko Arnautovic,1,1,1,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Marcel Sabitzer,1,1,1,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Sasa Kalajdzic,1,1,1,0,False
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,home,Algeria,Ramy Bensebaini,1,0,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Philipp Lienhart,1,0,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Phillipp Mwene,1,0,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Romano Schmid,1,0,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Xaver Schlager,1,0,0,0,True
+2026-06-27-alg-aus,2026-06-27,Algeria vs Austria,away,Austria,Kevin Danso,1,0,0,0,False
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Gustavo Puerta,4,1,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Luis Díaz,4,0,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Luis Suárez,4,0,0,0,False
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Jhon Arias,3,2,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,James Rodríguez,3,1,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,Cristiano Ronaldo,3,1,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,João Félix,3,0,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Jefferson Lerma,2,1,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Jhon Córdoba,2,1,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,Bruno Fernandes,2,1,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,Rúben Neves,2,0,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Davinson Sánchez,1,0,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,home,Colombia,Richard Ríos,1,0,0,0,False
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,Vitinha ,1,0,0,0,True
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,Rafael Leão,1,0,0,0,False
+2026-06-27-col-por,2026-06-27,Colombia vs Portugal,away,Portugal,Diogo Dalot,1,0,0,0,False
 2026-06-27-cro-gha,2026-06-27,Croatia vs Ghana,home,Croatia,Nikola Vlasic,2,1,1,0,True
 2026-06-27-cro-gha,2026-06-27,Croatia vs Ghana,home,Croatia,Mario Pasalic,2,1,0,0,False
 2026-06-27-cro-gha,2026-06-27,Croatia vs Ghana,away,Ghana,Fatawu Issahaku,2,0,0,0,False
@@ -741,6 +923,29 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-27-cro-gha,2026-06-27,Croatia vs Ghana,away,Ghana,Marvin Senaya,1,0,0,0,True
 2026-06-27-cro-gha,2026-06-27,Croatia vs Ghana,away,Ghana,Kamaldeen Sulemana,1,0,0,0,True
 2026-06-27-cro-gha,2026-06-27,Croatia vs Ghana,away,Ghana,Antoine Semenyo,1,0,0,0,True
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Yoane Wissa,6,2,2,0,True
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Fiston Mayele,5,1,1,0,False
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Brian Cipenga,3,0,0,0,True
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,away,Uzbekistan,Eldor Shomurodov,2,1,1,0,True
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Nathanaël Mbuku,1,1,0,0,True
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Chancel Mbemba,1,0,0,0,True
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Ngal'ayel Mukau,1,0,0,0,False
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Meschack Elia,1,0,0,1,False
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,home,Congo DR,Théo Bongonda,1,0,0,0,False
+2026-06-27-drc-uzb,2026-06-27,DR Congo vs Uzbekistan,away,Uzbekistan,Abbosbek Fayzullaev,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Lautaro Martínez,3,1,1,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,home,Jordan,Mousa Al-Tamari,2,1,1,0,False
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Lionel Messi,2,1,1,0,False
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Giovani Lo Celso,1,1,1,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Julián Álvarez,1,1,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,home,Jordan,Mohannad Abu Taha,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,home,Jordan,Odeh Fakhoury,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,home,Jordan,Ali Azaizeh,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Marcos Senesi,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Nicolás Otamendi,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Nico Paz,1,0,0,0,True
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,José Manuel López,1,0,0,0,False
+2026-06-27-jor-arg,2026-06-27,Jordan vs Argentina,away,Argentina,Thiago Almada,1,0,0,0,False
 2026-06-27-pan-eng,2026-06-27,Panama vs England,away,England,Marcus Rashford,5,1,0,0,True
 2026-06-27-pan-eng,2026-06-27,Panama vs England,home,Panama,Ismael Díaz,4,0,0,0,False
 2026-06-27-pan-eng,2026-06-27,Panama vs England,away,England,Harry Kane,3,2,1,0,True

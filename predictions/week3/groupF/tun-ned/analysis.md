@@ -1,6 +1,6 @@
 # Analysis — Tunisia vs Netherlands
 
-_as_of 2026-06-25 · source: live_
+_as_of 2026-06-25 · source: snapshot (snapshot 2026-06-25T16:53:43-06:00)_
 
 ## 1X2 (match winner)
 
@@ -18,9 +18,9 @@ _as_of 2026-06-25 · source: live_
 
 | over | model P | odds | EV@odds |
 |---|---|---|---|
-| 1.5 | 75% | -714 | -0.15 |
-| 2.5 | 50% | -222 | -0.27 |
-| 3.5 | 28% | +110 | -0.41 |
+| 1.5 | 75% | — | — |
+| 2.5 | 50% | -238 | -0.29 |
+| 3.5 | 28% | — | — |
 
 ## Otros mercados
 
@@ -28,28 +28,42 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Tunisia | 26% | +620 | +0.89 |
-| Doble oport. Netherlands | 92% | -2500 | -0.04 |
+| Doble oport. Tunisia | 26% | — | — |
+| Doble oport. Netherlands | 92% | — | — |
 | Over 1.5 goles Tunisia | 15% | — | — |
 | Over 1.5 goles Netherlands | 59% | — | — |
-| BTTS (ambos marcan) | 44% | +159 | +0.13 |
+| BTTS (ambos marcan) | 44% | — | — |
 | Tiros Tunisia over 9.5 | 33% | — | — |
 | Tiros Netherlands over 9.5 | 99% | — | — |
 | TaP Tunisia over 2.5 | 52% | — | — |
 | TaP Netherlands over 2.5 | 96% | — | — |
 
-## Player shots-on-target (CLOV-on-overs)
+## Props de delanteros (tiros y tiros a puerta)
 
-Overs where the model beats the offered (vig-included) price, real-data players only. One-sided market → judged by CLOV, not de-vig.
-
-| player | line | over | model | price implies | EV |
-|---|---|---|---|---|---|
-| Anis Slimane | 0.5 | +230 | 50% | 30% | +0.66 |
+_Sin tabla de delanteros — skipped (snapshot backtest)._
 
 ## Recommendation
 
 - **No 1X2/goals bet** — nothing where a soft book beats the sharp fair (the common, correct outcome). Big model-vs-sharp gaps are *suspect*, not value.
-- **Prop watch:** Anis Slimane — paper/CLOV only, log small and let the close judge.
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 
+## Resultado y checks (qué se cumplió)
+
+- **Tunisia 1–3 Netherlands** (away, 4 goles)
+
+| Mercado | model P | ¿Pasó? | check |
+|---|---|---|---|
+| Gana Tunisia | 8% | no | ✅ |
+| Empate | 18% | no | ✅ |
+| Gana Netherlands | 74% | sí | ✅ |
+| Doble oport. Tunisia | 26% | no | ✅ |
+| Doble oport. Netherlands | 92% | sí | ✅ |
+| Over 1.5 goles | 75% | sí | ✅ |
+| Over 2.5 goles | 50% | sí | ✅ |
+| Over 3.5 goles | 28% | sí | ❌ |
+| Over 1.5 goles Tunisia | 15% | no | ✅ |
+| Over 1.5 goles Netherlands | 59% | sí | ✅ |
+| BTTS | 44% | sí | ❌ |
+
+**Checks acertados: 9/11** (✅ = la inclinación del modelo coincidió con lo que pasó).

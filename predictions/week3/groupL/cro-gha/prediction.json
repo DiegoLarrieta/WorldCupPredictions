@@ -67,7 +67,7 @@
   "actual_result": {
     "score": "2-1",
     "result": "home",
-    "scored_at": "2026-06-27T17:29:38-06:00",
+    "scored_at": "2026-06-27T22:15:24-06:00",
     "rps": 0.0697,
     "log_loss": 0.43078,
     "brier": 0.1878,

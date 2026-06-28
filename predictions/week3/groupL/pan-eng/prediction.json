@@ -67,7 +67,7 @@
   "actual_result": {
     "score": "0-2",
     "result": "away",
-    "scored_at": "2026-06-27T17:29:39-06:00",
+    "scored_at": "2026-06-27T22:15:25-06:00",
     "rps": 0.04465,
     "log_loss": 0.33408,
     "brier": 0.12579,

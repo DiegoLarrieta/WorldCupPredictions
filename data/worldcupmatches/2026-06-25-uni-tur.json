@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-06-25-uni-tur",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-25-uni-tur",
+    "date": "2026-06-25",
+    "home": "United States",
+    "away": "Turkey",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "United States vs Turkey",
+    "home": "United States",
+    "away": "Turkey",
+    "as_of": "2026-06-25",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.56,
+      0.232,
+      0.208
+    ],
+    "components": {
+      "dixon_coles": [
+        0.51,
+        0.24,
+        0.25
+      ],
+      "elo": [
+        0.565,
+        0.244,
+        0.191
+      ]
+    },
+    "expected_goals": {
+      "United States": 1.85,
+      "Turkey": 1.24
+    },
+    "over25": 0.598,
+    "btts": 0.606,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.111
+      },
+      {
+        "score": "2-1",
+        "prob": 0.097
+      },
+      {
+        "score": "2-0",
+        "prob": 0.078
+      },
+      {
+        "score": "1-0",
+        "prob": 0.077
+      },
+      {
+        "score": "1-2",
+        "prob": 0.065
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:23-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760470",
+      "player_shots": [
+        {
+          "player": "Auston Trusty",
+          "side": "home",
+          "team": "United States",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Christian Pulisic",
+          "side": "home",
+          "team": "United States",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.7,
+          "starter": false,
+          "shots_p90": 8.26,
+          "sot_p90": 5.5
+        },
+        {
+          "player": "Weston McKennie",
+          "side": "home",
+          "team": "United States",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.9,
+          "starter": true,
+          "shots_p90": 3.14,
+          "sot_p90": 1.05
+        },
+        {
+          "player": "Brenden Aaronson",
+          "side": "home",
+          "team": "United States",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 76.2,
+          "starter": true,
+          "shots_p90": 3.55,
+          "sot_p90": 1.18
+        },
+        {
+          "player": "Orkun Kökçü",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 87.5,
+          "starter": true,
+          "shots_p90": 2.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kenan Yildiz",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.4,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ricardo Pepi",
+          "side": "home",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Baris Alper Yilmaz",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Arda Güler",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Kaan Ayhan",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 2.5,
+          "starter": false,
+          "shots_p90": 36.0,
+          "sot_p90": 36.0
+        },
+        {
+          "player": "Sebastian Berhalter",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Abdülkerim Bardakçi",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Can Uzun",
+          "side": "away",
+          "team": "Türkiye",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.6,
+          "starter": false,
+          "shots_p90": 13.64,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Miles Robinson",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Giovanni Reyna",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 75.9,
+          "starter": true,
+          "shots_p90": 1.19,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alejandro Zendejas",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 13.8,
+          "starter": false,
+          "shots_p90": 6.5,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 52.6,
+      "shots_home": 18,
+      "shots_on_target_home": 7,
+      "corners_home": 9,
+      "fouls_home": 13,
+      "saves_home": 1,
+      "offsides_home": 5,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 47.4,
+      "shots_away": 9,
+      "shots_on_target_away": 3,
+      "corners_away": 2,
+      "fouls_away": 13,
+      "saves_away": 5,
+      "offsides_away": 2,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:41-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.47043,
+    "log_loss": 1.57022,
+    "brier": 0.99469,
+    "surprisal": 1.57022,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.47043,
+        "log_loss": 1.57022,
+        "brier": 0.99469,
+        "surprisal": 1.57022
+      },
+      "dixon_coles": {
+        "rps": 0.4113,
+        "log_loss": 1.38629,
+        "brier": 0.8802,
+        "surprisal": 1.38629
+      },
+      "elo": {
+        "rps": 0.48685,
+        "log_loss": 1.65548,
+        "brier": 1.03324,
+        "surprisal": 1.65548
+      }
+    }
+  }
+}

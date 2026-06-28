@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-06-26-nor-fra",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-26-nor-fra",
+    "date": "2026-06-26",
+    "home": "Norway",
+    "away": "France",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "group",
+    "group": null
+  },
+  "prediction": {
+    "match": "Norway vs France",
+    "home": "Norway",
+    "away": "France",
+    "as_of": "2026-06-26",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.256,
+      0.255,
+      0.489
+    ],
+    "components": {
+      "dixon_coles": [
+        0.284,
+        0.26,
+        0.456
+      ],
+      "elo": [
+        0.244,
+        0.265,
+        0.491
+      ]
+    },
+    "expected_goals": {
+      "Norway": 1.23,
+      "France": 1.61
+    },
+    "over25": 0.542,
+    "btts": 0.575,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.123
+      },
+      {
+        "score": "1-2",
+        "prob": 0.093
+      },
+      {
+        "score": "0-1",
+        "prob": 0.086
+      },
+      {
+        "score": "0-2",
+        "prob": 0.076
+      },
+      {
+        "score": "2-1",
+        "prob": 0.071
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 4,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-27T22:15:24-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760475",
+      "player_shots": [
+        {
+          "player": "Désiré Doué",
+          "side": "away",
+          "team": "France",
+          "shots": 4,
+          "on_target": 3,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Kylian Mbappé",
+          "side": "away",
+          "team": "France",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 86.2,
+          "starter": true,
+          "shots_p90": 4.17,
+          "sot_p90": 2.09
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "side": "away",
+          "team": "France",
+          "shots": 3,
+          "on_target": 3,
+          "goals": 3,
+          "assists": 0,
+          "minutes": 64.9,
+          "starter": true,
+          "shots_p90": 4.16,
+          "sot_p90": 4.16
+        },
+        {
+          "player": "Michael Olise",
+          "side": "away",
+          "team": "France",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 64.8,
+          "starter": true,
+          "shots_p90": 4.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Thelo Aasgaard",
+          "side": "home",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Jørgen Strand Larsen",
+          "side": "home",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Oscar Bobb",
+          "side": "home",
+          "team": "Norway",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.7,
+          "starter": true,
+          "shots_p90": 2.18,
+          "sot_p90": 1.09
+        },
+        {
+          "player": "Theo Hernández",
+          "side": "away",
+          "team": "France",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kristian Thorstvedt",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Manu Koné",
+          "side": "away",
+          "team": "France",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Leo Østigard",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Fredrik Aursnes",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Patrick Berg",
+          "side": "home",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aurélien Tchouaméni",
+          "side": "away",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 43.3,
+      "shots_home": 10,
+      "shots_on_target_home": 4,
+      "corners_home": 4,
+      "fouls_home": 9,
+      "saves_home": 5,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 56.7,
+      "shots_away": 18,
+      "shots_on_target_away": 9,
+      "corners_away": 5,
+      "fouls_away": 11,
+      "saves_away": 3,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-27T22:15:45-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.16333,
+    "log_loss": 0.71539,
+    "brier": 0.39168,
+    "surprisal": 0.71539,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.16333,
+        "log_loss": 0.71539,
+        "brier": 0.39168,
+        "surprisal": 0.71539
+      },
+      "dixon_coles": {
+        "rps": 0.1883,
+        "log_loss": 0.78526,
+        "brier": 0.44419,
+        "surprisal": 0.78526
+      },
+      "elo": {
+        "rps": 0.15931,
+        "log_loss": 0.71131,
+        "brier": 0.38884,
+        "surprisal": 0.71131
+      }
+    }
+  }
+}

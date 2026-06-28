@@ -1,93 +1,232 @@
 [
  {
-  "match": "Jordan vs Argentina",
-  "kickoff": "2026-06-28 02:00",
-  "date": "2026-06-28",
-  "result": "",
+  "match": "Cape Verde vs Saudi Arabia",
+  "kickoff": "2026-07-03 22:00",
+  "date": "2026-07-03",
+  "result": "✅ Jugado: **0-0** (draw) · checks **9/11**",
   "sug": "",
-  "prop_recs": [
-   {
-    "player": "Lautaro Martinez",
-    "market": "tiros",
-    "line": 2.5,
-    "price": 1.71,
-    "stake": 200,
-    "model": 0.656
-   }
-  ],
-  "link": "predictions/ko/jor-arg/analysis.md",
+  "prop_recs": [],
+  "link": "predictions/week3/groupH/cpv-ksa/analysis.md",
   "markets": [
    [
-    "Gana Jordan",
-    0.023,
-    "+2400",
-    null
+    "Gana Cape Verde",
+    0.32,
+    "-556",
+    false
    ],
    [
     "Empate",
-    0.103,
-    "+900",
-    null
+    0.306,
+    "+820",
+    true
    ],
    [
-    "Gana Argentina",
-    0.874,
-    "-588",
-    null
+    "Gana Saudi Arabia",
+    0.375,
+    "+2400",
+    false
    ],
    [
-    "Doble oport. Jordan",
-    0.126,
-    "+600",
-    null
+    "Doble oport. Cape Verde",
+    0.626,
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Doble oport. Argentina",
-    0.977,
-    "-2500",
-    null
+    "Doble oport. Saudi Arabia",
+    0.681,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
-    0.827,
-    "-556",
-    null
+    0.531,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 2.5 goles",
-    0.618,
-    "-172",
-    null
+    0.264,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
-    0.395,
-    "+148",
-    null
+    0.106,
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 0.5 goles Jordan",
-    0.309,
-    "+160",
-    null
+    "Over 1.5 goles Cape Verde",
+    0.195,
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 2.5 goles Argentina",
-    0.535,
-    "-130",
-    null
+    "Over 1.5 goles Saudi Arabia",
+    0.253,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
-    0.291,
-    "+182",
-    null
+    0.354,
+    "_(no fetcheado)_",
+    false
+   ]
+  ]
+ },
+ {
+  "match": "Bosnia and Herzegovina vs Qatar",
+  "kickoff": "2026-07-02 00:00",
+  "date": "2026-07-02",
+  "result": "✅ Jugado: **3-1** (home) · checks **5/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupB/bih-qat/analysis.md",
+  "markets": [
+   [
+    "Gana Bosnia and Herzegovina",
+    0.466,
+    "-238",
+    true
    ],
    [
-    "Prop: Ali Al-Azaizeh o0.5 SoT",
-    0.456,
-    "+260",
-    null
+    "Empate",
+    0.27,
+    "+440",
+    false
+   ],
+   [
+    "Gana Qatar",
+    0.264,
+    "+1000",
+    false
+   ],
+   [
+    "Doble oport. Bosnia and Herzegovina",
+    0.736,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. Qatar",
+    0.534,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles",
+    0.681,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.417,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.211,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Bosnia and Herzegovina",
+    0.37,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Qatar",
+    0.286,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.48,
+    "_(no fetcheado)_",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "South Africa vs South Korea",
+  "kickoff": "2026-06-28 19:00",
+  "date": "2026-06-28",
+  "result": "✅ Jugado: **1-0** (home) · checks **6/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupA/rsa-kor/analysis.md",
+  "markets": [
+   [
+    "Gana South Africa",
+    0.128,
+    "+525",
+    true
+   ],
+   [
+    "Empate",
+    0.231,
+    "+275",
+    false
+   ],
+   [
+    "Gana South Korea",
+    0.641,
+    "-133",
+    false
+   ],
+   [
+    "Doble oport. South Africa",
+    0.359,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. South Korea",
+    0.872,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles",
+    0.662,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 2.5 goles",
+    0.396,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 3.5 goles",
+    0.195,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles South Africa",
+    0.159,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles South Korea",
+    0.462,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.409,
+    "_(no fetcheado)_",
+    false
    ]
   ]
  },
@@ -95,99 +234,153 @@
   "match": "Algeria vs Austria",
   "kickoff": "2026-06-28 02:00",
   "date": "2026-06-28",
-  "result": "",
+  "result": "✅ Jugado: **3-3** (draw) · checks **5/11**",
   "sug": "",
-  "prop_recs": [
-   {
-    "player": "Amine Gouiri",
-    "market": "tiros",
-    "line": 2.5,
-    "price": 2.75,
-    "stake": 400,
-    "model": 0.571
-   },
-   {
-    "player": "Romano Schmid",
-    "market": "tiros",
-    "line": 0.5,
-    "price": 1.42,
-    "stake": 200,
-    "model": 0.768
-   }
-  ],
-  "link": "predictions/ko/alg-aut/analysis.md",
+  "prop_recs": [],
+  "link": "predictions/week3/groupI/alg-aut/analysis.md",
   "markets": [
    [
     "Gana Algeria",
-    0.373,
+    0.353,
     "+275",
-    null
+    false
    ],
    [
     "Empate",
-    0.286,
+    0.283,
     "+114",
-    null
+    true
    ],
    [
     "Gana Austria",
-    0.341,
+    0.365,
     "+292",
-    null
+    false
    ],
    [
     "Doble oport. Algeria",
-    0.659,
-    "-294",
-    null
+    0.636,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Austria",
-    0.627,
-    "-286",
-    null
+    0.648,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
-    0.65,
-    "-118",
-    null
+    0.669,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
-    0.383,
-    "+310",
-    null
+    0.404,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
-    0.185,
-    "+820",
-    null
+    0.201,
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Algeria",
-    0.68,
-    "-175",
-    null
+    "Over 1.5 goles Algeria",
+    0.33,
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Austria",
-    0.66,
-    "-164",
-    null
+    "Over 1.5 goles Austria",
+    0.308,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "BTTS (ambos marcan)",
-    0.459,
-    "+130",
-    null
+    0.476,
+    "_(no fetcheado)_",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "Jordan vs Argentina",
+  "kickoff": "2026-06-28 02:00",
+  "date": "2026-06-28",
+  "result": "✅ Jugado: **1-3** (away) · checks **9/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupI/jor-arg/analysis.md",
+  "markets": [
+   [
+    "Gana Jordan",
+    0.029,
+    "+2400",
+    false
    ],
    [
-    "Prop: Ibrahim Maza o0.5 SoT",
-    0.543,
-    "+165",
-    null
+    "Empate",
+    0.114,
+    "+900",
+    false
+   ],
+   [
+    "Gana Argentina",
+    0.857,
+    "-588",
+    true
+   ],
+   [
+    "Doble oport. Jordan",
+    0.143,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Argentina",
+    0.971,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.822,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.61,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.386,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Jordan",
+    0.064,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Argentina",
+    0.759,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.316,
+    "_(no fetcheado)_",
+    true
    ]
   ]
  },
@@ -195,81 +388,82 @@
   "match": "Colombia vs Portugal",
   "kickoff": "2026-06-27 23:30",
   "date": "2026-06-27",
-  "result": "",
+  "result": "✅ Jugado: **0-0** (draw) · checks **8/11**",
   "sug": "",
+  "prop_recs": [],
   "link": "predictions/week3/groupK/col-por/analysis.md",
   "markets": [
    [
     "Gana Colombia",
     0.452,
-    "+330",
-    null
+    "+900",
+    false
    ],
    [
     "Empate",
     0.265,
     "+235",
-    null
+    true
    ],
    [
     "Gana Portugal",
     0.283,
-    "+125",
-    null
+    "+740",
+    false
    ],
    [
     "Doble oport. Colombia",
     0.717,
-    "+105",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Portugal",
     0.548,
-    "-323",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.74,
-    "-122",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 2.5 goles",
     0.492,
-    "+250",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.273,
-    "+650",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Colombia",
     0.432,
     "_(no fetcheado)_",
-    null
+    false
    ],
    [
     "Over 1.5 goles Portugal",
     0.327,
     "_(no fetcheado)_",
-    null
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.54,
-    "+170",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: Ruben Neves o0.5 SoT",
     0.513,
     "+430",
-    null
+    false
    ]
   ]
  },
@@ -277,81 +471,82 @@
   "match": "DR Congo vs Uzbekistan",
   "kickoff": "2026-06-27 23:30",
   "date": "2026-06-27",
-  "result": "",
-  "sug": "",
+  "result": "✅ Jugado: **3-1** (home) · checks **4/11**",
+  "sug": "draw @ +1100 (+494%)",
+  "prop_recs": [],
   "link": "predictions/week3/groupK/drc-uzb/analysis.md",
   "markets": [
    [
     "Gana DR Congo",
     0.338,
-    "+350",
-    null
+    "+157",
+    true
    ],
    [
     "Empate",
     0.327,
-    "+245",
-    null
+    "+1100",
+    false
    ],
    [
     "Gana Uzbekistan",
     0.334,
-    "+115",
-    null
+    "+26900",
+    false
    ],
    [
     "Doble oport. DR Congo",
     0.665,
-    "-120",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Uzbekistan",
     0.661,
-    "+129",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.439,
-    "-476",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.189,
-    "-101",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.064,
-    "+300",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles DR Congo",
     0.166,
     "_(no fetcheado)_",
-    null
+    true
    ],
    [
     "Over 1.5 goles Uzbekistan",
     0.177,
     "_(no fetcheado)_",
-    null
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.284,
-    "+110",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Nathanael Mbuku o0.5 SoT",
     0.56,
     "+105",
-    null
+    true
    ]
   ]
  },
@@ -520,78 +715,316 @@
   ]
  },
  {
+  "match": "Egypt vs Iran",
+  "kickoff": "2026-06-27 03:00",
+  "date": "2026-06-27",
+  "result": "✅ Jugado: **1-1** (draw) · checks **9/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupG/egy-irn/analysis.md",
+  "markets": [
+   [
+    "Gana Egypt",
+    0.291,
+    "+250",
+    false
+   ],
+   [
+    "Empate",
+    0.288,
+    "+210",
+    true
+   ],
+   [
+    "Gana Iran",
+    0.421,
+    "+160",
+    false
+   ],
+   [
+    "Doble oport. Egypt",
+    0.579,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. Iran",
+    0.709,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.615,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.345,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 3.5 goles",
+    0.158,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Egypt",
+    0.224,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Iran",
+    0.334,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.416,
+    "_(no fetcheado)_",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "New Zealand vs Belgium",
+  "kickoff": "2026-06-27 03:00",
+  "date": "2026-06-27",
+  "result": "✅ Jugado: **1-5** (away) · checks **10/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupG/nzl-bel/analysis.md",
+  "markets": [
+   [
+    "Gana New Zealand",
+    0.158,
+    "+1650",
+    false
+   ],
+   [
+    "Empate",
+    0.226,
+    "+750",
+    false
+   ],
+   [
+    "Gana Belgium",
+    0.615,
+    "-455",
+    true
+   ],
+   [
+    "Doble oport. New Zealand",
+    0.384,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Belgium",
+    0.841,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.771,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.533,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.31,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles New Zealand",
+    0.213,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Belgium",
+    0.58,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.501,
+    "_(no fetcheado)_",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "Uruguay vs Spain",
+  "kickoff": "2026-06-27 00:00",
+  "date": "2026-06-27",
+  "result": "✅ Jugado: **0-1** (away) · checks **10/11**",
+  "sug": "away @ -133 (+4%)",
+  "prop_recs": [],
+  "link": "predictions/week3/groupH/uru-esp/analysis.md",
+  "markets": [
+   [
+    "Gana Uruguay",
+    0.184,
+    "+560",
+    false
+   ],
+   [
+    "Empate",
+    0.268,
+    "+270",
+    false
+   ],
+   [
+    "Gana Spain",
+    0.548,
+    "-133",
+    true
+   ],
+   [
+    "Doble oport. Uruguay",
+    0.452,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Spain",
+    0.816,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.58,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 2.5 goles",
+    0.31,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 3.5 goles",
+    0.134,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Uruguay",
+    0.191,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Spain",
+    0.319,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.385,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Prop: Darwin Gabriel Nunez Ribeiro o0.5 SoT",
+    0.594,
+    "-115",
+    false
+   ]
+  ]
+ },
+ {
   "match": "Norway vs France",
   "kickoff": "2026-06-26 19:00",
   "date": "2026-06-26",
-  "result": "",
-  "sug": "away @ -222 (+8%)",
+  "result": "✅ Jugado: **1-4** (away) · checks **7/11**",
+  "sug": "under @ +102 (+4%)",
+  "prop_recs": [],
   "link": "predictions/week3/groupJ/nor-fra/analysis.md",
   "markets": [
    [
     "Gana Norway",
     0.256,
-    "+740",
-    null
+    "+300",
+    false
    ],
    [
     "Empate",
     0.255,
-    "+535",
-    null
+    "+273",
+    false
    ],
    [
     "Gana France",
     0.489,
-    "-222",
-    null
+    "+116",
+    true
    ],
    [
     "Doble oport. Norway",
     0.511,
-    "+250",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Doble oport. France",
     0.744,
-    "-769",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.776,
-    "-588",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.54,
-    "-196",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.317,
-    "+138",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Norway",
-    0.708,
-    "-169",
-    null
+    "Over 1.5 goles Norway",
+    0.348,
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 2.5 goles France",
-    0.219,
-    "+115",
-    null
+    "Over 1.5 goles France",
+    0.478,
+    "_(no fetcheado)_",
+    true
    ],
    [
     "BTTS (ambos marcan)",
     0.575,
-    "-135",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Andreas Schjelderup o0.5 SoT",
@@ -605,75 +1038,76 @@
   "match": "Senegal vs Iraq",
   "kickoff": "2026-06-26 19:00",
   "date": "2026-06-26",
-  "result": "",
+  "result": "✅ Jugado: **5-0** (home) · checks **8/11**",
   "sug": "",
+  "prop_recs": [],
   "link": "predictions/week3/groupJ/sen-ira/analysis.md",
   "markets": [
    [
     "Gana Senegal",
     0.606,
     "-417",
-    null
+    true
    ],
    [
     "Empate",
     0.244,
     "+700",
-    null
+    false
    ],
    [
     "Gana Iraq",
     0.15,
     "+1500",
-    null
+    false
    ],
    [
     "Doble oport. Senegal",
     0.85,
-    "-1429",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Iraq",
     0.394,
-    "+410",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.641,
-    "-588",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.372,
-    "-185",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.177,
-    "+132",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 2.5 goles Senegal",
-    0.194,
-    "-120",
-    null
+    "Over 1.5 goles Senegal",
+    0.446,
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Iraq",
-    0.488,
-    "-110",
-    null
+    "Over 1.5 goles Iraq",
+    0.145,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.386,
-    "+126",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: Ali Al-Hamadi o0.5 SoT",
@@ -684,84 +1118,162 @@
   ]
  },
  {
+  "match": "Paraguay vs Australia",
+  "kickoff": "2026-06-26 02:00",
+  "date": "2026-06-26",
+  "result": "✅ Jugado: **0-0** (draw) · checks **9/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupC/par-aus/analysis.md",
+  "markets": [
+   [
+    "Gana Paraguay",
+    0.218,
+    "-250",
+    false
+   ],
+   [
+    "Empate",
+    0.286,
+    "+440",
+    true
+   ],
+   [
+    "Gana Australia",
+    0.496,
+    "+900",
+    false
+   ],
+   [
+    "Doble oport. Paraguay",
+    0.504,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. Australia",
+    0.782,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.555,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 2.5 goles",
+    0.285,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 3.5 goles",
+    0.119,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Paraguay",
+    0.188,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Australia",
+    0.29,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.368,
+    "_(no fetcheado)_",
+    false
+   ]
+  ]
+ },
+ {
   "match": "Japan vs Sweden",
   "kickoff": "2026-06-25 23:00",
   "date": "2026-06-25",
-  "result": "",
-  "sug": "",
+  "result": "✅ Jugado: **1-1** (draw) · checks **6/11**",
+  "sug": "draw @ +310 (+6%)",
+  "prop_recs": [],
   "link": "predictions/week3/groupF/jpn-swe/analysis.md",
   "markets": [
    [
     "Gana Japan",
     0.729,
-    "+142",
-    null
+    "-135",
+    false
    ],
    [
     "Empate",
     0.173,
-    "+260",
-    null
+    "+310",
+    true
    ],
    [
     "Gana Sweden",
     0.098,
-    "+360",
-    null
+    "+500",
+    false
    ],
    [
     "Doble oport. Japan",
     0.902,
-    "-238",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Sweden",
     0.271,
-    "-143",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.851,
-    "-345",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.656,
-    "-104",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.437,
-    "+230",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Japan",
     0.727,
-    "+119",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Sweden",
     0.195,
-    "+185",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.517,
-    "-137",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Prop: Ayase Ueda o0.5 SoT",
-    0.71,
-    "-244",
-    null
+    "Prop: Alexander Bernhardsson o0.5 SoT",
+    0.475,
+    "+210",
+    true
    ]
   ]
  },
@@ -769,81 +1281,82 @@
   "match": "Tunisia vs Netherlands",
   "kickoff": "2026-06-25 23:00",
   "date": "2026-06-25",
-  "result": "",
+  "result": "✅ Jugado: **1-3** (away) · checks **9/11**",
   "sug": "",
+  "prop_recs": [],
   "link": "predictions/week3/groupF/tun-ned/analysis.md",
   "markets": [
    [
     "Gana Tunisia",
     0.081,
     "+2903",
-    null
+    false
    ],
    [
     "Empate",
     0.182,
     "+1100",
-    null
+    false
    ],
    [
     "Gana Netherlands",
     0.737,
     "-588",
-    null
+    true
    ],
    [
     "Doble oport. Tunisia",
     0.263,
-    "+620",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Doble oport. Netherlands",
     0.919,
-    "-2500",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.748,
-    "-714",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.501,
-    "-222",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.282,
-    "+110",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles Tunisia",
     0.152,
     "_(no fetcheado)_",
-    null
+    false
    ],
    [
     "Over 1.5 goles Netherlands",
     0.591,
     "_(no fetcheado)_",
-    null
+    true
    ],
    [
     "BTTS (ambos marcan)",
     0.435,
-    "+159",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Anis Slimane o0.5 SoT",
     0.503,
     "+230",
-    null
+    true
    ]
   ]
  },
@@ -1007,6 +1520,403 @@
     "Prop: Nicolas Pepe o0.5 SoT",
     0.524,
     "-250",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "Mexico vs Czech Republic",
+  "kickoff": "2026-06-25 01:00",
+  "date": "2026-06-25",
+  "result": "✅ Jugado: **3-0** (home) · checks **9/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupA/mex-cze/analysis.md",
+  "markets": [
+   [
+    "Gana Mexico",
+    0.645,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Empate",
+    0.22,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Gana Czech Republic",
+    0.135,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Mexico",
+    0.865,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. Czech Republic",
+    0.355,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles",
+    0.706,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.448,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.236,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Mexico",
+    0.485,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Czech Republic",
+    0.206,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.462,
+    "_(no fetcheado)_",
+    false
+   ]
+  ]
+ },
+ {
+  "match": "Morocco vs Haiti",
+  "kickoff": "2026-06-24 22:05",
+  "date": "2026-06-24",
+  "result": "✅ Jugado: **4-2** (home) · checks **7/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupD/mar-hai/analysis.md",
+  "markets": [
+   [
+    "Gana Morocco",
+    0.746,
+    "+120",
+    true
+   ],
+   [
+    "Empate",
+    0.182,
+    "+243",
+    false
+   ],
+   [
+    "Gana Haiti",
+    0.072,
+    "+300",
+    false
+   ],
+   [
+    "Doble oport. Morocco",
+    0.928,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. Haiti",
+    0.254,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles",
+    0.674,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.409,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.205,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Morocco",
+    0.537,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Haiti",
+    0.096,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.343,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Prop: Wilson Isidor o0.5 SoT",
+    0.651,
+    "-105",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "Scotland vs Brazil",
+  "kickoff": "2026-06-24 22:05",
+  "date": "2026-06-24",
+  "result": "✅ Jugado: **0-3** (away) · checks **11/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupD/sco-bra/analysis.md",
+  "markets": [
+   [
+    "Gana Scotland",
+    0.149,
+    "+1050",
+    false
+   ],
+   [
+    "Empate",
+    0.216,
+    "+510",
+    false
+   ],
+   [
+    "Gana Brazil",
+    0.635,
+    "-278",
+    true
+   ],
+   [
+    "Doble oport. Scotland",
+    0.365,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Brazil",
+    0.851,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.784,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.552,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.328,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Scotland",
+    0.177,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Brazil",
+    0.628,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.474,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Prop: Scott McTominay o0.5 SoT",
+    0.573,
+    "+100",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "Canada vs Switzerland",
+  "kickoff": "2026-06-24 19:00",
+  "date": "2026-06-24",
+  "result": "✅ Jugado: **1-2** (away) · checks **6/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupB/can-sui/analysis.md",
+  "markets": [
+   [
+    "Gana Canada",
+    0.331,
+    "+525",
+    false
+   ],
+   [
+    "Empate",
+    0.286,
+    "+275",
+    false
+   ],
+   [
+    "Gana Switzerland",
+    0.383,
+    "-133",
+    true
+   ],
+   [
+    "Doble oport. Canada",
+    0.617,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Switzerland",
+    0.669,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.643,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.375,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.179,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Canada",
+    0.279,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Over 1.5 goles Switzerland",
+    0.319,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.45,
+    "_(no fetcheado)_",
+    true
+   ]
+  ]
+ },
+ {
+  "match": "United States vs Turkey",
+  "kickoff": "",
+  "date": "",
+  "result": "✅ Jugado: **2-3** (away) · checks **5/11**",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/week3/groupC/usa-tur/analysis.md",
+  "markets": [
+   [
+    "Gana United States",
+    0.56,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Empate",
+    0.232,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Gana Turkey",
+    0.208,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Doble oport. United States",
+    0.792,
+    "_(no fetcheado)_",
+    false
+   ],
+   [
+    "Doble oport. Turkey",
+    0.44,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles",
+    0.814,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 2.5 goles",
+    0.597,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 3.5 goles",
+    0.373,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles United States",
+    0.552,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "Over 1.5 goles Turkey",
+    0.352,
+    "_(no fetcheado)_",
+    true
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.606,
+    "_(no fetcheado)_",
     true
    ]
   ]

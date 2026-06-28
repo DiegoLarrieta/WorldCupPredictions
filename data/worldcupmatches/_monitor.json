@@ -1,56 +1,56 @@
 {
-  "n": 56,
+  "n": 70,
   "per_model": {
     "ensemble": {
-      "rps": 0.17043,
-      "log_loss": 0.89473,
-      "brier": 0.53688
+      "rps": 0.16766,
+      "log_loss": 0.90784,
+      "brier": 0.54487
     },
     "dixon_coles": {
-      "rps": 0.16693,
-      "log_loss": 0.87907,
-      "brier": 0.52529
+      "rps": 0.1655,
+      "log_loss": 0.89544,
+      "brier": 0.53599
     },
     "elo": {
-      "rps": 0.17862,
-      "log_loss": 0.92454,
-      "brier": 0.55635
+      "rps": 0.17417,
+      "log_loss": 0.93351,
+      "brier": 0.56081
     }
   },
   "vs_baseline": {
     "uniform": {
-      "rps": 0.23611,
+      "rps": 0.23016,
       "log_loss": 1.09861
     },
     "ensemble": {
-      "rps": 0.17043,
-      "log_loss": 0.89473
+      "rps": 0.16766,
+      "log_loss": 0.90784
     }
   },
   "calibration": [
     {
       "bin": "0.33-0.47",
-      "n": 11,
-      "predicted": 0.413,
-      "actual": 0.455
+      "n": 16,
+      "predicted": 0.406,
+      "actual": 0.375
     },
     {
       "bin": "0.47-0.60",
-      "n": 15,
-      "predicted": 0.527,
-      "actual": 0.667
+      "n": 19,
+      "predicted": 0.526,
+      "actual": 0.632
     },
     {
       "bin": "0.60-0.73",
-      "n": 21,
-      "predicted": 0.667,
-      "actual": 0.714
+      "n": 24,
+      "predicted": 0.665,
+      "actual": 0.708
     },
     {
       "bin": "0.73-0.87",
-      "n": 8,
-      "predicted": 0.807,
-      "actual": 0.625
+      "n": 10,
+      "predicted": 0.805,
+      "actual": 0.7
     },
     {
       "bin": "0.87-1.00",
