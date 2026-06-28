@@ -123,9 +123,11 @@ def _fixture(row: dict) -> dict:
 def main() -> None:
     board = json.loads(BOARD.read_text()) if BOARD.exists() else []
     fixtures = [_fixture(r) for r in board if r.get("markets") is not None]
-    # knockout (16avos) first, then group; within each stage chronological (today's R32 game
-    # at the top, then forward). Matches how Diego reads the bracket.
-    fixtures.sort(key=lambda f: (0 if f["stage"] == "knockout" else 1, f.get("kickoff", "")))
+    # Dashboard shows the CURRENT round only — the group stage is done, so keep just the
+    # knockout fixtures. (Group data stays in daily_board.json; it's only filtered from view.)
+    fixtures = [f for f in fixtures if f["stage"] == "knockout"]
+    # chronological: today's R32 game at the top, then forward through the bracket.
+    fixtures.sort(key=lambda f: f.get("kickoff", ""))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"metrics": _metrics(), "fixtures": fixtures},
                               indent=1, ensure_ascii=False))
