@@ -100,17 +100,26 @@ def _recommend_props(fwd_rows) -> list[dict]:
     return recs
 
 
-def _kickoff(match: str) -> str:
-    """'YYYY-MM-DD HH:MM' kickoff for a match from the latest odds snapshot, else ''."""
-    if not SNAP.exists():
-        return ""
-    want = set(match.lower().replace(" vs ", " ").split())
-    best = ""
-    for r in csv.DictReader(open(SNAP)):
-        m = set(r["match"].lower().replace(" vs ", " ").replace("&", "").split())
-        if want & m and len(want & m) >= 2:                # both teams present
-            best = r["commence_time"]
-    return best.replace("T", " ").replace("Z", "")[:16] if best else ""
+def _kickoff(match: str, as_of: str = "") -> str:
+    """'YYYY-MM-DD HH:MM' kickoff. The DATE is the prediction's as_of (authoritative — one row
+    per fixture), never guessed from the snapshot: a loose team-token overlap would otherwise
+    pull the wrong game's date (e.g. 'South Africa vs South Korea' stealing 'South Africa vs
+    Canada''s date — both share 'south africa'). The snapshot only supplies the TIME, and only
+    from a row ON the as_of date with the STRONGEST team match."""
+    want = set(match.lower().replace(" vs ", " ").replace("&", "").split())
+    time, best_ov = "", 1
+    if SNAP.exists():
+        for r in csv.DictReader(open(SNAP)):
+            ct = r["commence_time"].replace("T", " ").replace("Z", "")[:16]
+            if as_of and not ct.startswith(as_of):         # only this fixture's date
+                continue
+            m = set(r["match"].lower().replace(" vs ", " ").replace("&", "").split())
+            ov = len(want & m)
+            if ov >= 2 and ov > best_ov:                   # strongest overlap wins the time
+                best_ov, time = ov, ct[11:16]
+    if as_of:
+        return f"{as_of} {time}".strip()
+    return time
 
 
 def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs=None) -> None:
@@ -181,7 +190,7 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs
             m = re.search(r"Checks acertados: (\d+/\d+)", am.read_text())
             if m:
                 res += f" · checks **{m.group(1)}**"
-    ko = _kickoff(pred["match"])
+    ko = _kickoff(pred["match"], pred.get("as_of", ""))
     prec = [{"player": r["player"], "market": r["market"], "line": r["line"],
              "price": r["over_price"], "stake": r["stake"], "model": r["model_over"]}
             for r in (prop_recs or [])]
