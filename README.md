@@ -328,27 +328,25 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### Brazil vs Japan — 2026-06-29 11:00 · [análisis](predictions/16round/bra-jpn/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **2-1** (home) · checks **6/11**
 
 🎯 **1X2/goles sugerido:** draw @ +310 (+14%)
 
-💵 **Props recomendados:** **Ayase Ueda** o1.5 tiros @ -159 (modelo 86%) — **$400 MXN** · **Keito Nakamura** o1.5 tiros @ +105 (modelo 73%) — **$400 MXN** · **Ritsu Doan** o0.5 tiros @ -263 (modelo 80%) — **$200 MXN** · _total $1,000 MXN_
-
-⚠️ **Props de Japón = SOSPECHOSOS, mi recomendación es PASO.** El modelo de props no ajusta por defensa rival: Japón (underdog, sharp 18%) genera menos tiros vs Brasil de lo que proyecta. Edges de 25pp en mercado one-sided = típico error de modelo. Si acaso, paper/CLOV chico.
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Brazil | 48% | -115 | ⏳ |
-| Empate | 27% | +310 | ⏳ |
-| Gana Japan | 25% | +440 | ⏳ |
-| Doble oport. Brazil | 75% | -455 | ⏳ |
-| Doble oport. Japan | 52% | +116 | ⏳ |
-| Over 1.5 goles | 69% | -233 | ⏳ |
-| Over 2.5 goles | 43% | +134 | ⏳ |
-| Over 3.5 goles | 22% | +330 | ⏳ |
-| Over 1.5 goles Brazil | 38% | +110 | ⏳ |
-| Over 0.5 goles Japan | 66% | -161 | ⏳ |
-| BTTS (ambos marcan) | 50% | +110 | ⏳ |
+| Gana Brazil | 48% | -115 | ✅ |
+| Empate | 27% | +310 | ❌ |
+| Gana Japan | 25% | +440 | ❌ |
+| Doble oport. Brazil | 75% | _(no fetcheado)_ | ✅ |
+| Doble oport. Japan | 52% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 69% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 43% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 22% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Brazil | 38% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Japan | 29% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 50% | _(no fetcheado)_ | ✅ |
 | Prop: Keito Nakamura o0.5 SoT | 58% | +130 | ⏳ |
 
 ### South Africa vs Canada — 2026-06-28 13:00 · [análisis](predictions/16round/rsa-can/analysis.md)

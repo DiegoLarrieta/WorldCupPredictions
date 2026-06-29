@@ -973,3 +973,16 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-28-sou-can,2026-06-28,South Africa vs Canada,home,South Africa,Thalente Mbatha,1,0,0,0,False
 2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Promise David,1,0,0,0,False
 2026-06-28-sou-can,2026-06-28,South Africa vs Canada,away,Canada,Luc de Fougerolles,1,0,0,0,False
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Bruno Guimarães,4,1,0,1,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Vinícius Júnior,3,2,0,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Matheus Cunha,3,1,0,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Casemiro,2,2,1,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Gabriel Martinelli,2,1,1,0,False
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,away,Japan,Ayase Ueda,2,1,0,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Lucas Paquetá,2,0,0,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,away,Japan,Kaishu Sano,1,1,1,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Rayan,1,0,0,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Fabinho,1,0,0,0,False
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Endrick,1,0,0,0,False
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,away,Japan,Daichi Kamada,1,0,0,0,True
+2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,away,Japan,Junya Ito,1,0,0,0,True

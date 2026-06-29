@@ -1,3 +1,3 @@
 bet_id,date,match,market,selection,odds_taken,model_prob,ev,stake,book,result,closing_odds,clov,pnl,status
 1,2026-06-28,South Africa vs Canada,parlay,Canada ML + Tani Oluwaseyi o1.5 shots,2.0,0.48,-0.04,3000.0,parlay,win,,,3000.0,settled
-2,2026-06-29,Brazil vs Japan,parlay (SGP),Vinicius Jr o0.5 SoT + Over 1.5 goles,1.571,0.58,-0.089,5500.0,parlay,,,,,open
+2,2026-06-29,Brazil vs Japan,parlay (SGP),Vinicius Jr o0.5 SoT + Over 1.5 goles,1.571,0.58,-0.089,5500.0,parlay,win,,,3140.5,settled

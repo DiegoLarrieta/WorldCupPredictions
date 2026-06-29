@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-06-29-bra-jap",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-29-bra-jap",
+    "date": "2026-06-29",
+    "home": "Brazil",
+    "away": "Japan",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Brazil vs Japan",
+    "home": "Brazil",
+    "away": "Japan",
+    "as_of": "2026-06-29",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.481,
+      0.268,
+      0.252
+    ],
+    "components": {
+      "dixon_coles": [
+        0.414,
+        0.294,
+        0.292
+      ],
+      "elo": [
+        0.515,
+        0.256,
+        0.229
+      ]
+    },
+    "expected_goals": {
+      "Brazil": 1.33,
+      "Japan": 1.08
+    },
+    "over25": 0.433,
+    "btts": 0.496,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "1-0",
+        "prob": 0.109
+      },
+      {
+        "score": "0-0",
+        "prob": 0.1
+      },
+      {
+        "score": "0-1",
+        "prob": 0.087
+      },
+      {
+        "score": "2-1",
+        "prob": 0.086
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-29T13:08:20-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760487",
+      "player_shots": [
+        {
+          "player": "Bruno Guimarães",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Vinícius Júnior",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Matheus Cunha",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.2,
+          "starter": true,
+          "shots_p90": 4.14,
+          "sot_p90": 1.38
+        },
+        {
+          "player": "Casemiro",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Gabriel Martinelli",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 24.8,
+          "starter": false,
+          "shots_p90": 7.26,
+          "sot_p90": 3.63
+        },
+        {
+          "player": "Ayase Ueda",
+          "side": "away",
+          "team": "Japan",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Lucas Paquetá",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kaishu Sano",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rayan",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Fabinho",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Endrick",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Daichi Kamada",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 77.5,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Junya Ito",
+          "side": "away",
+          "team": "Japan",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 77.3,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 68.6,
+      "shots_home": 19,
+      "shots_on_target_home": 7,
+      "corners_home": 6,
+      "fouls_home": 4,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 31.4,
+      "shots_away": 5,
+      "shots_on_target_away": 2,
+      "corners_away": 2,
+      "fouls_away": 13,
+      "saves_away": 4,
+      "offsides_away": 0,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-29T13:08:33-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.16662,
+    "log_loss": 0.73289,
+    "brier": 0.40492,
+    "surprisal": 0.73289,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.16662,
+        "log_loss": 0.73289,
+        "brier": 0.40492,
+        "surprisal": 0.73289
+      },
+      "dixon_coles": {
+        "rps": 0.21433,
+        "log_loss": 0.88189,
+        "brier": 0.5151,
+        "surprisal": 0.88189
+      },
+      "elo": {
+        "rps": 0.14383,
+        "log_loss": 0.66359,
+        "brier": 0.3532,
+        "surprisal": 0.66359
+      }
+    }
+  }
+}
