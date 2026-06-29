@@ -134,7 +134,7 @@ def _fixture(row: dict) -> dict:
         "played": bool(played), "score": score, "checks": checks,
         "stage": stage,
         "sug": row.get("sug", ""), "markets": markets, "prop_recs": recs,
-        "link": link,
+        "caveat": row.get("caveat", ""), "link": link,
     }
 
 

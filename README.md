@@ -19,6 +19,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Colombia | 80% | _(no fetcheado)_ | ⏳ |
@@ -36,6 +40,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Argentina vs Cape Verde — 2026-07-03 16:00 · [análisis](predictions/16round/arg-cpv/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -55,6 +63,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Australia | 46% | _(no fetcheado)_ | ⏳ |
@@ -72,6 +84,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Switzerland vs Algeria — 2026-07-02 21:00 · [análisis](predictions/16round/sui-alg/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -91,6 +107,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Portugal | 57% | _(no fetcheado)_ | ⏳ |
@@ -108,6 +128,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Spain vs Austria — 2026-07-02 13:00 · [análisis](predictions/16round/esp-aut/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -127,6 +151,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana United States | 70% | _(no fetcheado)_ | ⏳ |
@@ -144,6 +172,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Belgium vs Senegal — 2026-07-01 14:00 · [análisis](predictions/16round/bel-sen/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -163,6 +195,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** under @ +107 (+6%)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana England | 66% | _(no fetcheado)_ | ⏳ |
@@ -180,6 +216,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Mexico vs Ecuador — 2026-06-30 19:00 · [análisis](predictions/16round/mex-ecu/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -199,6 +239,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana France | 78% | _(no fetcheado)_ | ⏳ |
@@ -216,6 +260,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Ivory Coast vs Norway — 2026-06-30 11:00 · [análisis](predictions/16round/civ-nor/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** under @ +102 (+4%)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -236,6 +284,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Netherlands | 37% | +134 | ⏳ |
@@ -254,6 +306,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Germany vs Paraguay — 2026-06-29 14:30 · [análisis](predictions/16round/ger-par/analysis.md)
 
 ⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -274,24 +330,34 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
+🎯 **1X2/goles sugerido:** draw @ +310 (+14%)
+
+💵 **Props recomendados:** **Ayase Ueda** o1.5 tiros @ -159 (modelo 86%) — **$400 MXN** · **Keito Nakamura** o1.5 tiros @ +105 (modelo 73%) — **$400 MXN** · **Ritsu Doan** o0.5 tiros @ -263 (modelo 80%) — **$200 MXN** · _total $1,000 MXN_
+
+⚠️ **Props de Japón = SOSPECHOSOS, mi recomendación es PASO.** El modelo de props no ajusta por defensa rival: Japón (underdog, sharp 18%) genera menos tiros vs Brasil de lo que proyecta. Edges de 25pp en mercado one-sided = típico error de modelo. Si acaso, paper/CLOV chico.
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Brazil | 48% | -130 | ⏳ |
-| Empate | 27% | +285 | ⏳ |
-| Gana Japan | 25% | +460 | ⏳ |
-| Doble oport. Brazil | 75% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Japan | 52% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 69% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 43% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 22% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Brazil | 38% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Japan | 29% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 50% | _(no fetcheado)_ | ⏳ |
-| Prop: Ayase Ueda o0.5 SoT | 68% | -118 | ⏳ |
+| Gana Brazil | 48% | -115 | ⏳ |
+| Empate | 27% | +310 | ⏳ |
+| Gana Japan | 25% | +440 | ⏳ |
+| Doble oport. Brazil | 75% | -455 | ⏳ |
+| Doble oport. Japan | 52% | +116 | ⏳ |
+| Over 1.5 goles | 69% | -233 | ⏳ |
+| Over 2.5 goles | 43% | +134 | ⏳ |
+| Over 3.5 goles | 22% | +330 | ⏳ |
+| Over 1.5 goles Brazil | 38% | +110 | ⏳ |
+| Over 0.5 goles Japan | 66% | -161 | ⏳ |
+| BTTS (ambos marcan) | 50% | +110 | ⏳ |
+| Prop: Keito Nakamura o0.5 SoT | 58% | +130 | ⏳ |
 
 ### South Africa vs Canada — 2026-06-28 13:00 · [análisis](predictions/16round/rsa-can/analysis.md)
 
 ✅ Jugado: **0-1** (away) · checks **10/11**
+
+🎯 **1X2/goles sugerido:** draw @ +280 (+10%)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -312,6 +378,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **0-0** (draw) · checks **8/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Colombia | 45% | +900 | ❌ |
@@ -330,6 +400,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### DR Congo vs Uzbekistan — 2026-06-27 17:30 · [análisis](predictions/week3/groupK/drc-uzb/analysis.md)
 
 ✅ Jugado: **3-1** (home) · checks **4/11**
+
+🎯 **1X2/goles sugerido:** draw @ +1100 (+494%)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -350,6 +424,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **2-1** (home) · checks **8/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Croatia | 65% | -118 | ✅ |
@@ -368,6 +446,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Panama vs England — 2026-06-27 15:00 · [análisis](predictions/week3/groupL/pan-eng/analysis.md)
 
 ✅ Jugado: **0-2** (away) · checks **10/11**
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -388,6 +470,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **3-3** (draw) · checks **5/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Algeria | 35% | +275 | ❌ |
@@ -406,6 +492,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **1-3** (away) · checks **9/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Jordan | 3% | +2400 | ❌ |
@@ -423,6 +513,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Norway vs France — 2026-06-26 13:00 · [análisis](predictions/week3/groupJ/nor-fra/analysis.md)
 
 ✅ Jugado: **1-4** (away) · checks **7/11**
+
+🎯 **1X2/goles sugerido:** under @ +102 (+4%)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -443,6 +537,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **5-0** (home) · checks **8/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Senegal | 61% | -417 | ✅ |
@@ -462,6 +560,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **0-0** (draw) · checks **9/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Cape Verde | 32% | -556 | ❌ |
@@ -479,6 +581,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Egypt vs Iran — 2026-06-26 — · [análisis](predictions/week3/groupG/egy-irn/analysis.md)
 
 ✅ Jugado: **1-1** (draw) · checks **9/11**
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -498,6 +604,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **1-5** (away) · checks **10/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana New Zealand | 16% | +1650 | ❌ |
@@ -515,6 +625,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Uruguay vs Spain — 2026-06-26 — · [análisis](predictions/week3/groupH/uru-esp/analysis.md)
 
 ✅ Jugado: **0-1** (away) · checks **10/11**
+
+🎯 **1X2/goles sugerido:** away @ -133 (+4%)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -535,6 +649,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **1-1** (draw) · checks **6/11**
 
+🎯 **1X2/goles sugerido:** draw @ +310 (+6%)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Japan | 73% | -135 | ❌ |
@@ -553,6 +671,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Tunisia vs Netherlands — 2026-06-25 17:00 · [análisis](predictions/week3/groupF/tun-ned/analysis.md)
 
 ✅ Jugado: **1-3** (away) · checks **9/11**
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -573,6 +695,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **2-1** (home) · checks **6/11**
 
+🎯 **1X2/goles sugerido:** home @ +320 (+10%)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Ecuador | 34% | +320 | ✅ |
@@ -591,6 +717,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Curaçao vs Ivory Coast — 2026-06-25 14:00 · [análisis](predictions/week3/groupE/cuw-civ/analysis.md)
 
 ✅ Jugado: **0-2** (away) · checks **11/11**
+
+🎯 **1X2/goles sugerido:** away @ -526 (+4%)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -611,6 +741,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **0-0** (draw) · checks **9/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Paraguay | 22% | -250 | ❌ |
@@ -629,6 +763,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **2-3** (away) · checks **5/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana United States | 56% | _(no fetcheado)_ | ❌ |
@@ -646,6 +784,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Morocco vs Haiti — 2026-06-24 16:05 · [análisis](predictions/week3/groupD/mar-hai/analysis.md)
 
 ✅ Jugado: **4-2** (home) · checks **7/11**
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -666,6 +808,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **0-3** (away) · checks **11/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Scotland | 15% | +1050 | ❌ |
@@ -685,6 +831,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **1-2** (away) · checks **6/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana Canada | 33% | +525 | ❌ |
@@ -702,6 +852,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Bosnia and Herzegovina vs Qatar — 2026-06-24 — · [análisis](predictions/week3/groupB/bih-qat/analysis.md)
 
 ✅ Jugado: **3-1** (home) · checks **5/11**
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
@@ -721,6 +875,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ✅ Jugado: **1-0** (home) · checks **6/11**
 
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana South Africa | 13% | +525 | ✅ |
@@ -738,6 +896,10 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 ### Mexico vs Czech Republic — 2026-06-24 — · [análisis](predictions/week3/groupA/mex-cze/analysis.md)
 
 ✅ Jugado: **3-0** (home) · checks **9/11**
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|

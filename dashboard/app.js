@@ -122,6 +122,7 @@ function fixtureCard(f, id) {
     <div class="detail">
       ${marketsTable(f.markets)}
       ${recsBlock(f.prop_recs)}
+      ${f.caveat ? `<p class="caveat">⚠️ ${f.caveat.replace(/\*\*/g, "")}</p>` : ""}
       ${f.sug ? `<p class="sug">1X2/goles sugerido: ${f.sug}</p>` : ""}
     </div>
   </div>`;

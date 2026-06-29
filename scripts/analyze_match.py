@@ -226,8 +226,19 @@ def _update_board(folder: Path, pred: dict, market, props, extra=None, prop_recs
         head = f"### {r['match']} — {ko[:10]} {hhmm} · [análisis]({r['link']})"
         L += [head, ""]
         L += [r["result"] if r.get("result") else "⏳ Por jugarse", ""]
-        # README = pure analysis report. Betting recs (sug / prop stakes) stay in the board
-        # JSON for the dashboard, but are NOT printed here — the report carries no wager info.
+        # Recommendation (what we'd back) — 1X2/goals soft flag + the prop slate with stakes.
+        L += [f"🎯 **1X2/goles sugerido:** {r['sug']}" if r.get("sug")
+              else "🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)", ""]
+        prn = r.get("prop_recs") or []
+        if prn:
+            tot = sum(p["stake"] for p in prn)
+            picks = " · ".join(f"**{p['player']}** o{p['line']} {p['market']} @ {_amer(p['price'])} "
+                               f"(modelo {p.get('model', 0):.0%}) — **${p['stake']:,} MXN**" for p in prn)
+            L += [f"💵 **Props recomendados:** {picks} · _total ${tot:,} MXN_", ""]
+        else:
+            L += ["💵 **Props recomendados:** ninguno", ""]
+        if r.get("caveat"):
+            L += [f"⚠️ {r['caveat']}", ""]
         L += ["| Mercado | Prob modelo | Odds | Check |", "|---|---|---|---|"]
         for m in r["markets"]:
             lab, pr, o = m[0], m[1], m[2]

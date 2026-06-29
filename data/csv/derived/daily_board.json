@@ -1100,83 +1100,109 @@
   "kickoff": "2026-06-29 17:00",
   "date": "2026-06-29",
   "result": "",
-  "sug": "",
-  "prop_recs": [],
+  "sug": "draw @ +310 (+14%)",
+  "prop_recs": [
+   {
+    "player": "Ayase Ueda",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.63,
+    "stake": 400,
+    "model": 0.861
+   },
+   {
+    "player": "Keito Nakamura",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 2.05,
+    "stake": 400,
+    "model": 0.727
+   },
+   {
+    "player": "Ritsu Doan",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.38,
+    "stake": 200,
+    "model": 0.795
+   }
+  ],
   "link": "predictions/16round/bra-jpn/analysis.md",
   "markets": [
    [
     "Gana Brazil",
     0.481,
-    "-130",
+    "-115",
     null
    ],
    [
     "Empate",
     0.268,
-    "+285",
+    "+310",
     null
    ],
    [
     "Gana Japan",
     0.252,
-    "+460",
+    "+440",
     null
    ],
    [
     "Doble oport. Brazil",
     0.749,
-    "_(no fetcheado)_",
+    "-455",
     null
    ],
    [
     "Doble oport. Japan",
     0.52,
-    "_(no fetcheado)_",
+    "+116",
     null
    ],
    [
     "Over 1.5 goles",
     0.694,
-    "_(no fetcheado)_",
+    "-233",
     null
    ],
    [
     "Over 2.5 goles",
     0.433,
-    "_(no fetcheado)_",
+    "+134",
     null
    ],
    [
     "Over 3.5 goles",
     0.223,
-    "_(no fetcheado)_",
+    "+330",
     null
    ],
    [
     "Over 1.5 goles Brazil",
     0.384,
-    "_(no fetcheado)_",
+    "+110",
     null
    ],
    [
-    "Over 1.5 goles Japan",
-    0.294,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Japan",
+    0.66,
+    "-161",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.496,
-    "_(no fetcheado)_",
+    "+110",
     null
    ],
    [
-    "Prop: Ayase Ueda o0.5 SoT",
-    0.675,
-    "-118",
+    "Prop: Keito Nakamura o0.5 SoT",
+    0.581,
+    "+130",
     null
    ]
-  ]
+  ],
+  "caveat": "**Props de Japón = SOSPECHOSOS, mi recomendación es PASO.** El modelo de props no ajusta por defensa rival: Japón (underdog, sharp 18%) genera menos tiros vs Brasil de lo que proyecta. Edges de 25pp en mercado one-sided = típico error de modelo. Si acaso, paper/CLOV chico."
  },
  {
   "match": "South Africa vs Canada",
