@@ -986,3 +986,31 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,home,Brazil,Endrick,1,0,0,0,False
 2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,away,Japan,Daichi Kamada,1,0,0,0,True
 2026-06-29-bra-jap,2026-06-29,Brazil vs Japan,away,Japan,Junya Ito,1,0,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Joshua Kimmich,5,1,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Kai Havertz,4,3,1,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Julio Enciso,3,1,1,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Florian Wirtz,2,0,0,1,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Nick Woltemade,2,0,0,0,False
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Leon Goretzka,2,0,0,0,False
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Jonathan Tah,1,1,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Waldemar Anton,1,1,0,0,False
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Júnior Alonso,1,1,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Gustavo Caballero,1,1,0,0,False
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Aleksandar Pavlovic,1,0,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Leroy Sané,1,0,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Deniz Undav,1,0,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Nadiem Amiri,1,0,0,0,False
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Gustavo Gómez,1,0,0,0,True
+2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Miguel Almirón,1,0,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Achraf Hakimi,3,1,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Micky van de Ven,2,1,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Ryan Gravenberch,2,0,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Ayyoub Bouaddi,2,0,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Cody Gakpo,1,1,1,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Issa Diop,1,1,1,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Neil El Aynaoui,1,1,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Bilal El Khannouss,1,1,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Soufiane Rahimi,1,1,0,0,False
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Denzel Dumfries,1,0,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Azzedine Ounahi,1,0,0,0,True
+2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Anass Salah-Eddine,1,0,0,0,False

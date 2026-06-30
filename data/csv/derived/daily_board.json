@@ -851,38 +851,47 @@
   "kickoff": "2026-06-30 17:00",
   "date": "2026-06-30",
   "result": "",
-  "sug": "under @ +102 (+4%)",
-  "prop_recs": [],
+  "sug": "home @ +285 (+5%); under @ +100 (+4%)",
+  "prop_recs": [
+   {
+    "player": "Alexander Sorloth",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 2.15,
+    "stake": 300,
+    "model": 0.609
+   }
+  ],
   "link": "predictions/16round/civ-nor/analysis.md",
   "markets": [
    [
     "Gana Ivory Coast",
     0.264,
-    "+300",
+    "+285",
     null
    ],
    [
     "Empate",
     0.276,
-    "+273",
+    "+250",
     null
    ],
    [
     "Gana Norway",
     0.459,
-    "+110",
+    "+125",
     null
    ],
    [
     "Doble oport. Ivory Coast",
     0.54,
-    "-112",
+    "-125",
     null
    ],
    [
     "Doble oport. Norway",
     0.735,
-    "-303",
+    "-286",
     null
    ],
    [
@@ -894,37 +903,37 @@
    [
     "Over 2.5 goles",
     0.433,
-    "-106",
+    "+100",
     null
    ],
    [
     "Over 3.5 goles",
     0.223,
-    "+240",
+    "+245",
     null
    ],
    [
     "Over 1.5 goles Ivory Coast",
     0.297,
-    "_(no fetcheado)_",
+    "+195",
     null
    ],
    [
     "Over 1.5 goles Norway",
     0.38,
-    "_(no fetcheado)_",
+    "+105",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.5,
-    "-125",
+    "-130",
     null
    ],
    [
     "Prop: Alexander Sorloth o0.5 SoT",
-    0.511,
-    "-149",
+    0.656,
+    "-141",
     null
    ]
   ]
@@ -933,7 +942,7 @@
   "match": "Netherlands vs Morocco",
   "kickoff": "2026-06-30 01:00",
   "date": "2026-06-30",
-  "result": "",
+  "result": "✅ Jugado: **1-1** (draw) · checks **9/11**",
   "sug": "",
   "prop_recs": [],
   "link": "predictions/16round/ned-mar/analysis.md",
@@ -942,67 +951,67 @@
     "Gana Netherlands",
     0.366,
     "+148",
-    null
+    false
    ],
    [
     "Empate",
     0.295,
     "+227",
-    null
+    true
    ],
    [
     "Gana Morocco",
     0.339,
     "+300",
-    null
+    false
    ],
    [
     "Doble oport. Netherlands",
     0.661,
-    "-263",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Morocco",
     0.634,
-    "-152",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.615,
-    "-244",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.345,
-    "+130",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.158,
-    "+330",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Netherlands",
     0.257,
-    "+152",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 0.5 goles Morocco",
-    0.667,
-    "-233",
-    null
+    "Over 1.5 goles Morocco",
+    0.301,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.431,
-    "-112",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Ismael Saibari o0.5 SoT",

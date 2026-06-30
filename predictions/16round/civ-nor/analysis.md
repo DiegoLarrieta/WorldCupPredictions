@@ -8,9 +8,9 @@ _as_of 2026-06-30 · source: live_
 
 | sel | model | sharp fair | best | verdict |
 |---|---|---|---|---|
-| home | 26% | 26% | +300 | **bet** |
-| draw | 28% | 27% | +273 | **bet** |
-| away | 46% | 47% | +110 | **pass** |
+| home | 26% | 26% | +285 | **bet** |
+| draw | 28% | 29% | +250 | **pass** |
+| away | 46% | 45% | +125 | **pass** |
 
 ## Goals (total)
 
@@ -19,8 +19,8 @@ _as_of 2026-06-30 · source: live_
 | over | model P | odds | EV@odds |
 |---|---|---|---|
 | 1.5 | 69% | -312 | -0.08 |
-| 2.5 | 43% | -106 | -0.16 |
-| 3.5 | 22% | +240 | -0.24 |
+| 2.5 | 43% | +100 | -0.13 |
+| 3.5 | 22% | +245 | -0.23 |
 
 ## Otros mercados
 
@@ -28,11 +28,11 @@ _EV@odds = P(modelo)×odds−1, al precio ofrecido (no de-vig). En mercados efic
 
 | mercado | model P | odds | EV@odds |
 |---|---|---|---|
-| Doble oport. Ivory Coast | 54% | -112 | +0.02 |
-| Doble oport. Norway | 74% | -303 | -0.02 |
-| Over 1.5 goles Ivory Coast | 30% | — | — |
-| Over 1.5 goles Norway | 38% | — | — |
-| BTTS (ambos marcan) | 50% | -125 | -0.10 |
+| Doble oport. Ivory Coast | 54% | -125 | -0.03 |
+| Doble oport. Norway | 74% | -286 | -0.01 |
+| Over 1.5 goles Ivory Coast | 30% | +195 | -0.12 |
+| Over 1.5 goles Norway | 38% | +105 | -0.22 |
+| BTTS (ambos marcan) | 50% | -130 | -0.11 |
 | Tiros Ivory Coast over 9.5 | 74% | — | — |
 | Tiros Norway over 9.5 | 88% | — | — |
 | TaP Ivory Coast over 2.5 | 76% | — | — |
@@ -44,131 +44,68 @@ Todos los delanteros (FW) de ambos equipos, con las líneas que el libro cotiza 
 
 | equipo | delantero | mercado | línea | model | odds | EV | valor |
 |---|---|---|---|---|---|---|---|
-| Ivory Coast | Ange-Yoan Bonny | tiros | o0.5 | 71% | -588 | -0.17 |  |
-| Ivory Coast | Ange-Yoan Bonny | tiros | o1.5 | 35% | -137 | -0.40 |  |
-| Ivory Coast | Ange-Yoan Bonny | tiros | o2.5 | 13% | +195 | -0.63 |  |
-| Ivory Coast | Ange-Yoan Bonny | tiros | o3.5 | 4% | +460 | -0.80 |  |
-| Ivory Coast | Ange-Yoan Bonny | tiros | o4.5 | 1% | +1200 | -0.89 |  |
-| Ivory Coast | Ange-Yoan Bonny | a puerta | o0.5 | 34% | +105 | -0.31 |  |
-| Ivory Coast | Ange-Yoan Bonny | a puerta | o1.5 | 6% | +480 | -0.62 |  |
-| Ivory Coast | Ange-Yoan Bonny | a puerta | o2.5 | 1% | +2200 | -0.80 |  |
-| Ivory Coast | Evann Guessand | tiros | o0.5 | 75% | -833 | -0.17 |  |
-| Ivory Coast | Evann Guessand | tiros | o1.5 | 40% | -179 | -0.38 |  |
-| Ivory Coast | Evann Guessand | tiros | o2.5 | 16% | +170 | -0.57 |  |
-| Ivory Coast | Evann Guessand | tiros | o3.5 | 5% | +460 | -0.72 |  |
-| Ivory Coast | Evann Guessand | tiros | o4.5 | 1% | +1200 | -0.83 |  |
-| Ivory Coast | Evann Guessand | a puerta | o0.5 | 37% | -115 | -0.31 |  |
-| Ivory Coast | Evann Guessand | a puerta | o1.5 | 8% | +500 | -0.53 |  |
-| Ivory Coast | Nicolas Pepe | tiros | o0.5 | 80% | -714 | -0.09 |  |
-| Ivory Coast | Nicolas Pepe | tiros | o1.5 | 47% | -154 | -0.22 |  |
-| Ivory Coast | Nicolas Pepe | tiros | o2.5 | 22% | +170 | -0.42 |  |
-| Ivory Coast | Nicolas Pepe | tiros | o3.5 | 8% | +350 | -0.65 |  |
-| Ivory Coast | Nicolas Pepe | tiros | o4.5 | 2% | +850 | -0.78 |  |
-| Ivory Coast | Nicolas Pepe | tiros | o5.5 | 1% | +2200 | -0.86 |  |
-| Ivory Coast | Nicolas Pepe | a puerta | o0.5 | 42% | +100 | -0.17 |  |
-| Ivory Coast | Nicolas Pepe | a puerta | o1.5 | 10% | +450 | -0.44 |  |
-| Ivory Coast | Nicolas Pepe | a puerta | o2.5 | 2% | +1700 | -0.69 |  |
-| Ivory Coast | Oumar Diakite | tiros | o0.5 | 70% | -769 | -0.21 |  |
-| Ivory Coast | Oumar Diakite | tiros | o1.5 | 34% | -161 | -0.45 |  |
-| Ivory Coast | Oumar Diakite | tiros | o2.5 | 12% | +195 | -0.64 |  |
-| Ivory Coast | Oumar Diakite | tiros | o3.5 | 4% | +550 | -0.78 |  |
-| Ivory Coast | Oumar Diakite | tiros | o4.5 | 1% | +1500 | -0.87 |  |
-| Ivory Coast | Oumar Diakite | a puerta | o0.5 | 34% | -115 | -0.37 |  |
-| Ivory Coast | Oumar Diakite | a puerta | o1.5 | 6% | +500 | -0.62 |  |
-| Ivory Coast | Oumar Diakite | a puerta | o2.5 | 1% | +2200 | -0.81 |  |
-| Ivory Coast | Sepe Elye Wahi | tiros | o0.5 | 79% | -556 | -0.07 |  |
-| Ivory Coast | Sepe Elye Wahi | tiros | o1.5 | 46% | -125 | -0.17 |  |
-| Ivory Coast | Sepe Elye Wahi | tiros | o2.5 | 21% | +140 | -0.50 |  |
-| Ivory Coast | Sepe Elye Wahi | tiros | o3.5 | 7% | +370 | -0.65 |  |
-| Ivory Coast | Sepe Elye Wahi | tiros | o4.5 | 2% | +950 | -0.77 |  |
-| Ivory Coast | Sepe Elye Wahi | tiros | o5.5 | 0% | +2200 | -0.88 |  |
-| Ivory Coast | Sepe Elye Wahi | a puerta | o0.5 | 41% | +105 | -0.16 |  |
-| Ivory Coast | Sepe Elye Wahi | a puerta | o1.5 | 10% | +450 | -0.46 |  |
-| Ivory Coast | Sepe Elye Wahi | a puerta | o2.5 | 2% | +1600 | -0.72 |  |
-| Ivory Coast | Yan Diomande | tiros | o0.5 | 78% | -625 | -0.09 |  |
-| Ivory Coast | Yan Diomande | tiros | o1.5 | 45% | -133 | -0.21 |  |
-| Ivory Coast | Yan Diomande | tiros | o2.5 | 20% | +220 | -0.37 |  |
-| Ivory Coast | Yan Diomande | tiros | o3.5 | 7% | +600 | -0.52 |  |
-| Ivory Coast | Yan Diomande | tiros | o4.5 | 2% | +1700 | -0.64 |  |
-| Ivory Coast | Yan Diomande | a puerta | o0.5 | 40% | -108 | -0.22 |  |
-| Ivory Coast | Yan Diomande | a puerta | o1.5 | 10% | +400 | -0.53 |  |
-| Norway | Alexander Sorloth | tiros | o0.5 | 88% | -1250 | -0.05 |  |
-| Norway | Alexander Sorloth | tiros | o1.5 | 63% | -250 | -0.12 |  |
-| Norway | Alexander Sorloth | tiros | o2.5 | 36% | +105 | -0.27 |  |
-| Norway | Alexander Sorloth | tiros | o3.5 | 17% | +220 | -0.47 |  |
-| Norway | Alexander Sorloth | tiros | o4.5 | 6% | +450 | -0.65 |  |
-| Norway | Alexander Sorloth | tiros | o5.5 | 2% | +1000 | -0.76 |  |
-| Norway | Alexander Sorloth | a puerta | o0.5 | 51% | -149 | -0.15 |  |
-| Norway | Alexander Sorloth | a puerta | o1.5 | 16% | +280 | -0.39 |  |
-| Norway | Alexander Sorloth | a puerta | o2.5 | 4% | +1100 | -0.57 |  |
-| Norway | Antonio Nusa | tiros | o0.5 | 78% | -769 | -0.12 |  |
-| Norway | Antonio Nusa | tiros | o1.5 | 45% | -175 | -0.29 |  |
-| Norway | Antonio Nusa | tiros | o2.5 | 20% | +155 | -0.49 |  |
-| Norway | Antonio Nusa | tiros | o3.5 | 7% | +380 | -0.67 |  |
-| Norway | Antonio Nusa | tiros | o4.5 | 2% | +1000 | -0.78 |  |
-| Norway | Antonio Nusa | tiros | o5.5 | 0% | +2200 | -0.89 |  |
-| Norway | Antonio Nusa | a puerta | o0.5 | 40% | +105 | -0.17 |  |
-| Norway | Antonio Nusa | a puerta | o1.5 | 10% | +500 | -0.43 |  |
-| Norway | Antonio Nusa | a puerta | o2.5 | 2% | +1900 | -0.69 |  |
-| Norway | Erling Braut Haaland | tiros | o1.5 | 88% | -1250 | -0.06 |  |
-| Norway | Erling Braut Haaland | tiros | o2.5 | 70% | -357 | -0.10 |  |
-| Norway | Erling Braut Haaland | tiros | o3.5 | 49% | -152 | -0.19 |  |
-| Norway | Erling Braut Haaland | tiros | o4.5 | 30% | +130 | -0.32 |  |
-| Norway | Erling Braut Haaland | tiros | o5.5 | 16% | +230 | -0.48 |  |
-| Norway | Erling Braut Haaland | tiros | o6.5 | 7% | +380 | -0.64 |  |
-| Norway | Erling Braut Haaland | a puerta | o0.5 | 70% | -588 | -0.18 |  |
-| Norway | Erling Braut Haaland | a puerta | o1.5 | 34% | -120 | -0.37 |  |
-| Norway | Erling Braut Haaland | a puerta | o2.5 | 12% | +225 | -0.60 |  |
-| Norway | Erling Braut Haaland | a puerta | o3.5 | 4% | +525 | -0.78 |  |
-| Norway | Jens Petter Hauge | tiros | o0.5 | 48% | -1250 | -0.48 |  |
-| Norway | Jens Petter Hauge | tiros | o1.5 | 14% | -238 | -0.80 |  |
-| Norway | Jens Petter Hauge | tiros | o2.5 | 3% | +125 | -0.94 |  |
-| Norway | Jens Petter Hauge | tiros | o3.5 | 0% | +320 | -0.98 |  |
-| Norway | Jens Petter Hauge | tiros | o4.5 | 0% | +800 | -0.99 |  |
-| Norway | Jens Petter Hauge | tiros | o5.5 | 0% | +2000 | -1.00 |  |
-| Norway | Jens Petter Hauge | a puerta | o0.5 | 20% | -154 | -0.67 |  |
-| Norway | Jens Petter Hauge | a puerta | o1.5 | 2% | +340 | -0.91 |  |
-| Norway | Jens Petter Hauge | a puerta | o2.5 | 0% | +1500 | -0.98 |  |
-| Norway | Jorgen Strand Larsen | tiros | o0.5 | 81% | -2000 | -0.15 |  |
-| Norway | Jorgen Strand Larsen | tiros | o1.5 | 50% | -345 | -0.36 |  |
-| Norway | Jorgen Strand Larsen | tiros | o2.5 | 23% | -115 | -0.56 |  |
-| Norway | Jorgen Strand Larsen | tiros | o3.5 | 9% | +220 | -0.72 |  |
-| Norway | Jorgen Strand Larsen | tiros | o4.5 | 3% | +550 | -0.82 |  |
-| Norway | Jorgen Strand Larsen | tiros | o5.5 | 1% | +1300 | -0.90 |  |
-| Norway | Jorgen Strand Larsen | a puerta | o0.5 | 43% | -333 | -0.44 |  |
-| Norway | Jorgen Strand Larsen | a puerta | o1.5 | 11% | +145 | -0.73 |  |
-| Norway | Jorgen Strand Larsen | a puerta | o2.5 | 2% | +500 | -0.88 |  |
-| Norway | Jorgen Strand Larsen | a puerta | o3.5 | 0% | +1800 | -0.95 |  |
-| Norway | Kristian Thorstvedt | tiros | o0.5 | 74% | -714 | -0.16 |  |
-| Norway | Kristian Thorstvedt | tiros | o1.5 | 38% | -161 | -0.38 |  |
-| Norway | Kristian Thorstvedt | tiros | o2.5 | 15% | +200 | -0.55 |  |
-| Norway | Kristian Thorstvedt | tiros | o3.5 | 5% | +550 | -0.70 |  |
-| Norway | Kristian Thorstvedt | tiros | o4.5 | 1% | +1400 | -0.82 |  |
-| Norway | Kristian Thorstvedt | a puerta | o0.5 | 36% | -110 | -0.31 |  |
-| Norway | Kristian Thorstvedt | a puerta | o1.5 | 8% | +550 | -0.51 |  |
-| Norway | Morten Thorsby | tiros | o0.5 | 50% | -556 | -0.41 |  |
-| Norway | Morten Thorsby | tiros | o1.5 | 15% | -120 | -0.72 |  |
-| Norway | Morten Thorsby | tiros | o2.5 | 3% | +280 | -0.87 |  |
-| Norway | Morten Thorsby | tiros | o3.5 | 1% | +800 | -0.95 |  |
-| Norway | Morten Thorsby | tiros | o4.5 | 0% | +2200 | -0.98 |  |
-| Norway | Morten Thorsby | a puerta | o0.5 | 21% | +105 | -0.57 |  |
-| Norway | Morten Thorsby | a puerta | o1.5 | 2% | +600 | -0.84 |  |
-| Norway | Oscar Bobb | tiros | o0.5 | 39% | -278 | -0.47 |  |
-| Norway | Oscar Bobb | tiros | o1.5 | 9% | +145 | -0.78 |  |
-| Norway | Oscar Bobb | tiros | o2.5 | 1% | +170 | -0.96 |  |
-| Norway | Oscar Bobb | tiros | o3.5 | 0% | +460 | -0.99 |  |
-| Norway | Oscar Bobb | tiros | o4.5 | 0% | +1200 | -1.00 |  |
-| Norway | Oscar Bobb | a puerta | o0.5 | 16% | +155 | -0.60 |  |
-| Norway | Oscar Bobb | a puerta | o1.5 | 1% | +430 | -0.93 |  |
-| Norway | Oscar Bobb | a puerta | o2.5 | 0% | +2000 | -0.98 |  |
+| Ivory Coast | Ange-Yoan Bonny | tiros | o0.5 | 86% | -667 | -0.01 |  |
+| Ivory Coast | Ange-Yoan Bonny | tiros | o1.5 | 59% | -143 | -0.00 |  |
+| Ivory Coast | Ange-Yoan Bonny | tiros | o2.5 | 32% | +185 | -0.10 |  |
+| Ivory Coast | Ange-Yoan Bonny | tiros | o3.5 | 14% | +460 | -0.22 |  |
+| Ivory Coast | Ange-Yoan Bonny | tiros | o4.5 | 5% | +1100 | -0.39 |  |
+| Ivory Coast | Ange-Yoan Bonny | a puerta | o0.5 | 49% | -103 | -0.04 |  |
+| Ivory Coast | Ange-Yoan Bonny | a puerta | o1.5 | 15% | +490 | -0.14 |  |
+| Ivory Coast | Ange-Yoan Bonny | a puerta | o2.5 | 3% | +2200 | -0.29 |  |
+| Ivory Coast | Nicolas Pepe | tiros | o0.5 | 89% | -1111 | -0.03 |  |
+| Ivory Coast | Nicolas Pepe | tiros | o1.5 | 65% | -222 | -0.06 |  |
+| Ivory Coast | Nicolas Pepe | tiros | o2.5 | 38% | +135 | -0.10 |  |
+| Ivory Coast | Nicolas Pepe | tiros | o3.5 | 18% | +350 | -0.17 |  |
+| Ivory Coast | Nicolas Pepe | tiros | o4.5 | 8% | +900 | -0.26 |  |
+| Ivory Coast | Nicolas Pepe | tiros | o5.5 | 3% | +2200 | -0.41 |  |
+| Ivory Coast | Nicolas Pepe | a puerta | o0.5 | 53% | -118 | -0.02 |  |
+| Ivory Coast | Nicolas Pepe | a puerta | o1.5 | 17% | +410 | -0.11 |  |
+| Ivory Coast | Nicolas Pepe | a puerta | o2.5 | 4% | +1800 | -0.22 |  |
+| Ivory Coast | Yan Diomande | tiros | o0.5 | 84% | -667 | -0.04 |  |
+| Ivory Coast | Yan Diomande | tiros | o1.5 | 55% | -145 | -0.08 |  |
+| Ivory Coast | Yan Diomande | tiros | o2.5 | 28% | +210 | -0.14 |  |
+| Ivory Coast | Yan Diomande | tiros | o3.5 | 11% | +600 | -0.21 |  |
+| Ivory Coast | Yan Diomande | tiros | o4.5 | 4% | +1700 | -0.31 |  |
+| Ivory Coast | Yan Diomande | a puerta | o0.5 | 46% | +115 | -0.01 |  |
+| Ivory Coast | Yan Diomande | a puerta | o1.5 | 13% | +700 | +0.03 |  |
+| Norway | Alexander Sorloth | tiros | o0.5 | 96% | -1250 | +0.03 | ✅ |
+| Norway | Alexander Sorloth | tiros | o1.5 | 82% | -238 | +0.17 | ✅ |
+| Norway | Alexander Sorloth | tiros | o2.5 | 61% | +115 | +0.31 | ✅ |
+| Norway | Alexander Sorloth | tiros | o3.5 | 38% | +240 | +0.31 |  |
+| Norway | Alexander Sorloth | tiros | o4.5 | 21% | +480 | +0.22 |  |
+| Norway | Alexander Sorloth | tiros | o5.5 | 10% | +1000 | +0.09 |  |
+| Norway | Alexander Sorloth | a puerta | o0.5 | 66% | -141 | +0.12 | ✅ |
+| Norway | Alexander Sorloth | a puerta | o1.5 | 29% | +300 | +0.16 |  |
+| Norway | Alexander Sorloth | a puerta | o2.5 | 9% | +1000 | +0.02 |  |
+| Norway | Antonio Nusa | tiros | o0.5 | 87% | -625 | +0.01 | ✅ |
+| Norway | Antonio Nusa | tiros | o1.5 | 60% | -135 | +0.05 | ✅ |
+| Norway | Antonio Nusa | tiros | o2.5 | 33% | +195 | -0.02 |  |
+| Norway | Antonio Nusa | tiros | o3.5 | 15% | +440 | -0.20 |  |
+| Norway | Antonio Nusa | tiros | o4.5 | 6% | +950 | -0.42 |  |
+| Norway | Antonio Nusa | a puerta | o0.5 | 50% | -104 | -0.03 |  |
+| Norway | Antonio Nusa | a puerta | o1.5 | 15% | +440 | -0.18 |  |
+| Norway | Antonio Nusa | a puerta | o2.5 | 3% | +2000 | -0.31 |  |
+| Norway | Erling Braut Haaland | tiros | o1.5 | 87% | -1250 | -0.06 |  |
+| Norway | Erling Braut Haaland | tiros | o2.5 | 69% | -370 | -0.12 |  |
+| Norway | Erling Braut Haaland | tiros | o3.5 | 48% | -156 | -0.21 |  |
+| Norway | Erling Braut Haaland | tiros | o4.5 | 29% | +125 | -0.35 |  |
+| Norway | Erling Braut Haaland | tiros | o5.5 | 15% | +220 | -0.51 |  |
+| Norway | Erling Braut Haaland | tiros | o6.5 | 7% | +370 | -0.66 |  |
+| Norway | Erling Braut Haaland | tiros | o7.5 | 3% | +650 | -0.78 |  |
+| Norway | Erling Braut Haaland | a puerta | o0.5 | 70% | -667 | -0.19 |  |
+| Norway | Erling Braut Haaland | a puerta | o1.5 | 34% | -132 | -0.40 |  |
+| Norway | Erling Braut Haaland | a puerta | o2.5 | 12% | +220 | -0.60 |  |
+| Norway | Erling Braut Haaland | a puerta | o3.5 | 4% | +480 | -0.80 |  |
 
-🎯 **Sin value** — ningún delantero supera el precio con vig estando ≥50%.
+🎯 **Value (CLOV-on-overs)** — solo paper/CLOV, apostar chico: Alexander Sorloth tiros o0.5 (EV +0.03), Alexander Sorloth tiros o1.5 (EV +0.17), Alexander Sorloth tiros o2.5 (EV +0.31), Alexander Sorloth a puerta o0.5 (EV +0.12), Antonio Nusa tiros o0.5 (EV +0.01), Antonio Nusa tiros o1.5 (EV +0.05).
 
-_Cotizados pero fuera de la tabla (no FW o sin datos de tiros): Amad Diallo (pos DF), Andreas Schjelderup (pos MF), Bazoumana Toure (pos DF), Christ Ravynel Inao Oulai (pos MF), Christopher Operi (pos DF), David Moller Wolfe (pos DF), Emmanuel Agbadou (pos DF), Evan Ndicka (pos DF), Franck Kessie (pos MF), Fredrik Andre Bjorkan (pos MF), Fredrik Aursnes (pos MF), Ghislain Niclomande Konan (pos DF), Guela Doue (pos DF), Henrik Falchener (sin datos de tiros), Ibrahim Sangare (pos MF), Jean Michael Seri (pos MF), Julian Ryerson (pos DF), Kristoffer Ajer (pos DF), Leo Skiri Ostigard (pos DF), Marcus Pedersen (pos DF), Martin Odegaard (pos MF), Odilon Kossounou (pos DF), Ousmane Diomande (pos DF), Parfait Guiagon (sin datos de tiros), Patrick Berg (sin datos de tiros), Sander Berge (pos MF), Seko Fofana (pos MF), Simon Adingra (pos DF), Sondre Klinge Langas (pos DF), Thelo Aasgaard (sin datos de tiros), Torbjorn Lysaker Heggem (pos DF), Wilfried Stephane Singo (pos DF)._
+_Cotizados pero fuera de la tabla (no FW o sin datos de tiros): Christ Ravynel Inao Oulai (pos MF), David Moller Wolfe (pos DF), Emmanuel Agbadou (pos DF), Franck Kessie (pos MF), Ghislain Niclomande Konan (pos DF), Guela Doue (pos DF), Ibrahim Sangare (pos MF), Kristoffer Ajer (pos DF), Marcus Pedersen (pos DF), Martin Odegaard (pos MF), Odilon Kossounou (pos DF), Patrick Berg (sin datos de tiros), Sander Berge (pos MF), Torbjorn Lysaker Heggem (pos DF)._
 
 ## Recommendation
 
-- **ou_2.5 under** @ +102 — soft price beats the sharp fair by +3.6% (prospective CLOV+).
+- **1x2 home** @ +285 — soft price beats the sharp fair by +4.6% (prospective CLOV+).
+- **ou_2.5 under** @ +100 — soft price beats the sharp fair by +4.2% (prospective CLOV+).
+- **Prop watch:** Alexander Sorloth — paper/CLOV only, log small and let the close judge.
 
 _Caveats: 1X2/goals edge requires beating a soft book, not out-predicting the sharp (edge test). Props are one-sided — un-de-viggable, graded by CLOV. Snapshot backtests use pre-kickoff odds, which may be stale if captured long before kickoff._
 

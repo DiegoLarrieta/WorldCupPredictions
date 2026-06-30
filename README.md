@@ -261,28 +261,28 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **1X2/goles sugerido:** under @ +102 (+4%)
+🎯 **1X2/goles sugerido:** home @ +285 (+5%); under @ +100 (+4%)
 
-💵 **Props recomendados:** ninguno
+💵 **Props recomendados:** **Alexander Sorloth** o2.5 tiros @ +115 (modelo 61%) — **$300 MXN** · _total $300 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Ivory Coast | 26% | +300 | ⏳ |
-| Empate | 28% | +273 | ⏳ |
-| Gana Norway | 46% | +110 | ⏳ |
-| Doble oport. Ivory Coast | 54% | -112 | ⏳ |
-| Doble oport. Norway | 74% | -303 | ⏳ |
+| Gana Ivory Coast | 26% | +285 | ⏳ |
+| Empate | 28% | +250 | ⏳ |
+| Gana Norway | 46% | +125 | ⏳ |
+| Doble oport. Ivory Coast | 54% | -125 | ⏳ |
+| Doble oport. Norway | 74% | -286 | ⏳ |
 | Over 1.5 goles | 69% | -312 | ⏳ |
-| Over 2.5 goles | 43% | -106 | ⏳ |
-| Over 3.5 goles | 22% | +240 | ⏳ |
-| Over 1.5 goles Ivory Coast | 30% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Norway | 38% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 50% | -125 | ⏳ |
-| Prop: Alexander Sorloth o0.5 SoT | 51% | -149 | ⏳ |
+| Over 2.5 goles | 43% | +100 | ⏳ |
+| Over 3.5 goles | 22% | +245 | ⏳ |
+| Over 1.5 goles Ivory Coast | 30% | +195 | ⏳ |
+| Over 1.5 goles Norway | 38% | +105 | ⏳ |
+| BTTS (ambos marcan) | 50% | -130 | ⏳ |
+| Prop: Alexander Sorloth o0.5 SoT | 66% | -141 | ⏳ |
 
 ### Netherlands vs Morocco — 2026-06-29 19:00 · [análisis](predictions/16round/ned-mar/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **1-1** (draw) · checks **9/11**
 
 🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
@@ -290,17 +290,17 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Netherlands | 37% | +148 | ⏳ |
-| Empate | 30% | +227 | ⏳ |
-| Gana Morocco | 34% | +300 | ⏳ |
-| Doble oport. Netherlands | 66% | -263 | ⏳ |
-| Doble oport. Morocco | 63% | -152 | ⏳ |
-| Over 1.5 goles | 62% | -244 | ⏳ |
-| Over 2.5 goles | 34% | +130 | ⏳ |
-| Over 3.5 goles | 16% | +330 | ⏳ |
-| Over 1.5 goles Netherlands | 26% | +152 | ⏳ |
-| Over 0.5 goles Morocco | 67% | -233 | ⏳ |
-| BTTS (ambos marcan) | 43% | -112 | ⏳ |
+| Gana Netherlands | 37% | +148 | ❌ |
+| Empate | 30% | +227 | ✅ |
+| Gana Morocco | 34% | +300 | ❌ |
+| Doble oport. Netherlands | 66% | _(no fetcheado)_ | ✅ |
+| Doble oport. Morocco | 63% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 62% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 34% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 16% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Netherlands | 26% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Morocco | 30% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 43% | _(no fetcheado)_ | ✅ |
 | Prop: Ismael Saibari o0.5 SoT | 61% | -161 | ⏳ |
 
 ### Germany vs Paraguay — 2026-06-29 14:30 · [análisis](predictions/16round/ger-par/analysis.md)

@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-06-30-net-mor",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-30-net-mor",
+    "date": "2026-06-30",
+    "home": "Netherlands",
+    "away": "Morocco",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Netherlands vs Morocco",
+    "home": "Netherlands",
+    "away": "Morocco",
+    "as_of": "2026-06-30",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.366,
+      0.295,
+      0.339
+    ],
+    "components": {
+      "dixon_coles": [
+        0.306,
+        0.328,
+        0.366
+      ],
+      "elo": [
+        0.416,
+        0.271,
+        0.313
+      ]
+    },
+    "expected_goals": {
+      "Netherlands": 0.98,
+      "Morocco": 1.1
+    },
+    "over25": 0.345,
+    "btts": 0.431,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.148
+      },
+      {
+        "score": "0-0",
+        "prob": 0.139
+      },
+      {
+        "score": "0-1",
+        "prob": 0.123
+      },
+      {
+        "score": "1-0",
+        "prob": 0.109
+      },
+      {
+        "score": "0-2",
+        "prob": 0.075
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-30T10:34:56-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760488",
+      "player_shots": [
+        {
+          "player": "Achraf Hakimi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Micky van de Ven",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.8,
+          "starter": true,
+          "shots_p90": 2.1,
+          "sot_p90": 1.05
+        },
+        {
+          "player": "Ryan Gravenberch",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.9,
+          "starter": true,
+          "shots_p90": 2.1,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ayyoub Bouaddi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 78.7,
+          "starter": true,
+          "shots_p90": 2.29,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cody Gakpo",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Issa Diop",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Neil El Aynaoui",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 86.0,
+          "starter": true,
+          "shots_p90": 1.05,
+          "sot_p90": 1.05
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 4.2,
+          "starter": false,
+          "shots_p90": 21.6,
+          "sot_p90": 21.6
+        },
+        {
+          "player": "Denzel Dumfries",
+          "side": "home",
+          "team": "Netherlands",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.8,
+          "starter": true,
+          "shots_p90": 1.05,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Anass Salah-Eddine",
+          "side": "away",
+          "team": "Morocco",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 15.1,
+          "starter": false,
+          "shots_p90": 5.97,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 29.9,
+      "shots_home": 6,
+      "shots_on_target_home": 2,
+      "corners_home": 5,
+      "fouls_home": 18,
+      "saves_home": 5,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 70.1,
+      "shots_away": 11,
+      "shots_on_target_away": 5,
+      "corners_away": 8,
+      "fouls_away": 15,
+      "saves_away": 1,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-30T10:35:43-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.12444,
+    "log_loss": 1.22078,
+    "brier": 0.7459,
+    "surprisal": 1.22078,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.12444,
+        "log_loss": 1.22078,
+        "brier": 0.7459,
+        "surprisal": 1.22078
+      },
+      "dixon_coles": {
+        "rps": 0.1138,
+        "log_loss": 1.11474,
+        "brier": 0.67918,
+        "surprisal": 1.11474
+      },
+      "elo": {
+        "rps": 0.13551,
+        "log_loss": 1.30564,
+        "brier": 0.80247,
+        "surprisal": 1.30564
+      }
+    }
+  }
+}
