@@ -104,6 +104,44 @@ def main() -> None:
     ps["shot_rate"] = [o[0] for o in out]
     ps["rate_source"] = [o[1] for o in out]
 
+    # --- WC-form blend: fold THIS tournament's actual shots/game into the volume rate ---
+    # The club rate alone mis-ranks players within a national team — it rated Dembélé over
+    # Mbappé, when WC data clearly showed Mbappé is France's bomber (5.3 shots/g vs 2.7). A
+    # player's WC shots/game captures their real national-team role (designated shooter,
+    # penalties, set pieces). Blend WC form with the club rate, weighting WC by its games
+    # against K_CLUB pseudo-games of the club prior — so 1 WC game barely moves it, but 4
+    # games make WC form dominant. This is the fix for the player-level prop miss.
+    K_CLUB = 2.0
+
+    def _toks(s):
+        return frozenset(_norm(s).replace("-", " ").split())
+
+    wc_rows = []                                          # (tokenset, shots_per_game, games)
+    if WC_SHOTS.exists():
+        _w = pd.read_csv(WC_SHOTS).groupby("player").agg(sh=("shots", "sum"), n=("shots", "size"))
+        for nm, v in _w.iterrows():
+            if int(v.n) > 0:
+                wc_rows.append((_toks(nm), float(v.sh) / int(v.n), int(v.n)))
+
+    def _wc_match(name):
+        # token-overlap match so 'Kylian Mbappe-Lottin' (club) finds 'Kylian Mbappé' (WC);
+        # pick the strongest overlap, require >=2 shared tokens (first+last), so a lone shared
+        # surname ('Mbappe' for brother Ethan) can't steal it. Returns (shots/game, games) or None.
+        bt = _toks(name)
+        best, best_ov = None, 1
+        for tk, pg, n in wc_rows:
+            ov = len(tk & bt)
+            if ov >= 2 and ov > best_ov:
+                best, best_ov = (pg, n), ov
+        return best
+
+    matched = [_wc_match(n) for n in ps["name"]]
+    ps["wc_shots_pg"] = [round(m[0], 2) if m else float("nan") for m in matched]
+    ps["wc_games"] = [m[1] if m else 0 for m in matched]
+    ps["shot_rate_club"] = ps["shot_rate"]
+    ps["shot_rate"] = [round((m[1] * m[0] + K_CLUB * c) / (m[1] + K_CLUB), 3) if m else round(c, 3)
+                       for m, c in zip(matched, ps["shot_rate"])]
+
     # --- Beta-Binomial shrink of on-target rate from WC data (global prior) ---
     on_target_global = 0.35
     per_player_ot = {}
@@ -123,7 +161,8 @@ def main() -> None:
     ps["p_2plus_sot"] = [prop_at_least(r, 2) for r in ps["sot_per90"]]
 
     out = ps[["player_id", "name", "pos", "mins", "min_per_app", "shots", "shot_rate_raw",
-              "shot_rate", "rate_source", "on_target_rate", "sot_per90", "p_1plus_sot", "p_2plus_sot"]]
+              "shot_rate_club", "wc_shots_pg", "wc_games", "shot_rate", "rate_source",
+              "on_target_rate", "sot_per90", "p_1plus_sot", "p_2plus_sot"]]
     out = out.sort_values("sot_per90", ascending=False).round(3)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(OUT, index=False)
