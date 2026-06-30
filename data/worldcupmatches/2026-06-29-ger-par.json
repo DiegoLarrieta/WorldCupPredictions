@@ -1,0 +1,107 @@
+{
+  "match_key": "2026-06-29-ger-par",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-29-ger-par",
+    "date": "2026-06-29",
+    "home": "Germany",
+    "away": "Paraguay",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Germany vs Paraguay",
+    "home": "Germany",
+    "away": "Paraguay",
+    "as_of": "2026-06-29",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.537,
+      0.248,
+      0.215
+    ],
+    "components": {
+      "dixon_coles": [
+        0.472,
+        0.269,
+        0.258
+      ],
+      "elo": [
+        0.56,
+        0.246,
+        0.195
+      ]
+    },
+    "expected_goals": {
+      "Germany": 1.58,
+      "Paraguay": 1.11
+    },
+    "over25": 0.506,
+    "btts": 0.543,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.128
+      },
+      {
+        "score": "1-0",
+        "prob": 0.097
+      },
+      {
+        "score": "2-1",
+        "prob": 0.094
+      },
+      {
+        "score": "2-0",
+        "prob": 0.084
+      },
+      {
+        "score": "0-0",
+        "prob": 0.077
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "espn-scores",
+      "captured_at": "2026-06-29T18:08:14-06:00"
+    },
+    "rich": null
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.1673,
+    "log_loss": 1.39433,
+    "brier": 0.9001,
+    "surprisal": 1.39433,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.1673,
+        "log_loss": 1.39433,
+        "brier": 0.9001,
+        "surprisal": 1.39433
+      },
+      "dixon_coles": {
+        "rps": 0.14496,
+        "log_loss": 1.31204,
+        "brier": 0.82389,
+        "surprisal": 1.31204
+      },
+      "elo": {
+        "rps": 0.17546,
+        "log_loss": 1.40342,
+        "brier": 0.91981,
+        "surprisal": 1.40342
+      }
+    }
+  }
+}

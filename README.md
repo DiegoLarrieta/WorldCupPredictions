@@ -305,27 +305,25 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### Germany vs Paraguay — 2026-06-29 14:30 · [análisis](predictions/16round/ger-par/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **1-1** (draw) · checks **7/11**
 
 🎯 **1X2/goles sugerido:** home @ -256 (+4%)
 
-💵 **Props recomendados:** **Deniz Undav** o3.5 tiros @ -106 (modelo 59%) — **$200 MXN** · _total $200 MXN_
-
-⚠️ **Enciso (Paraguay) = SOSPECHOSO, PASO** — mismo patrón que Japón: underdog (sharp 9%) vs Alemania, el modelo sobrevalúa su volumen de tiros. **Undav SÍ** es defendible: favorito cuyo volumen probablemente subvaluamos. Medible para CLOV.
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Germany | 54% | -256 | ⏳ |
-| Empate | 25% | +461 | ⏳ |
-| Gana Paraguay | 22% | +1100 | ⏳ |
-| Doble oport. Germany | 78% | -1111 | ⏳ |
-| Doble oport. Paraguay | 46% | +275 | ⏳ |
-| Over 1.5 goles | 75% | -435 | ⏳ |
-| Over 2.5 goles | 50% | -141 | ⏳ |
-| Over 3.5 goles | 28% | +180 | ⏳ |
-| Over 2.5 goles Germany | 21% | +135 | ⏳ |
-| Over 0.5 goles Paraguay | 67% | -115 | ⏳ |
-| BTTS (ambos marcan) | 54% | +110 | ⏳ |
+| Gana Germany | 54% | -256 | ❌ |
+| Empate | 25% | +461 | ✅ |
+| Gana Paraguay | 22% | +1100 | ❌ |
+| Doble oport. Germany | 78% | _(no fetcheado)_ | ✅ |
+| Doble oport. Paraguay | 46% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 75% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 50% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 28% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Germany | 47% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Paraguay | 30% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 54% | _(no fetcheado)_ | ✅ |
 | Prop: Julio Cesar Enciso o0.5 SoT | 67% | +107 | ⏳ |
 
 ### Brazil vs Japan — 2026-06-29 11:00 · [análisis](predictions/16round/bra-jpn/analysis.md)

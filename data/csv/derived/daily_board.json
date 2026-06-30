@@ -1016,85 +1016,76 @@
   "match": "Germany vs Paraguay",
   "kickoff": "2026-06-29 20:30",
   "date": "2026-06-29",
-  "result": "",
+  "result": "✅ Jugado: **1-1** (draw) · checks **7/11**",
   "sug": "home @ -256 (+4%)",
-  "prop_recs": [
-   {
-    "player": "Deniz Undav",
-    "market": "tiros",
-    "line": 3.5,
-    "price": 1.94,
-    "stake": 200,
-    "model": 0.591
-   }
-  ],
+  "prop_recs": [],
   "link": "predictions/16round/ger-par/analysis.md",
   "markets": [
    [
     "Gana Germany",
     0.537,
     "-256",
-    null
+    false
    ],
    [
     "Empate",
     0.248,
     "+461",
-    null
+    true
    ],
    [
     "Gana Paraguay",
     0.215,
     "+1100",
-    null
+    false
    ],
    [
     "Doble oport. Germany",
     0.785,
-    "-1111",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Paraguay",
     0.463,
-    "+275",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.75,
-    "-435",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.504,
-    "-141",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.284,
-    "+180",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 2.5 goles Germany",
-    0.211,
-    "+135",
-    null
+    "Over 1.5 goles Germany",
+    0.469,
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 0.5 goles Paraguay",
-    0.67,
-    "-115",
-    null
+    "Over 1.5 goles Paraguay",
+    0.305,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.543,
-    "+110",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Julio Cesar Enciso o0.5 SoT",
@@ -1102,8 +1093,7 @@
     "+107",
     null
    ]
-  ],
-  "caveat": "**Enciso (Paraguay) = SOSPECHOSO, PASO** — mismo patrón que Japón: underdog (sharp 9%) vs Alemania, el modelo sobrevalúa su volumen de tiros. **Undav SÍ** es defendible: favorito cuyo volumen probablemente subvaluamos. Medible para CLOV."
+  ]
  },
  {
   "match": "Brazil vs Japan",
