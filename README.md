@@ -290,18 +290,18 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Netherlands | 37% | +134 | ⏳ |
-| Empate | 30% | +229 | ⏳ |
-| Gana Morocco | 34% | +275 | ⏳ |
-| Doble oport. Netherlands | 66% | -286 | ⏳ |
-| Doble oport. Morocco | 63% | -139 | ⏳ |
-| Over 1.5 goles | 62% | -238 | ⏳ |
-| Over 2.5 goles | 34% | +128 | ⏳ |
-| Over 3.5 goles | 16% | +310 | ⏳ |
-| Over 1.5 goles Netherlands | 26% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Morocco | 30% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 43% | -110 | ⏳ |
-| Prop: Ismael Saibari o0.5 SoT | 58% | -132 | ⏳ |
+| Gana Netherlands | 37% | +148 | ⏳ |
+| Empate | 30% | +227 | ⏳ |
+| Gana Morocco | 34% | +300 | ⏳ |
+| Doble oport. Netherlands | 66% | -263 | ⏳ |
+| Doble oport. Morocco | 63% | -152 | ⏳ |
+| Over 1.5 goles | 62% | -244 | ⏳ |
+| Over 2.5 goles | 34% | +130 | ⏳ |
+| Over 3.5 goles | 16% | +330 | ⏳ |
+| Over 1.5 goles Netherlands | 26% | +152 | ⏳ |
+| Over 0.5 goles Morocco | 67% | -233 | ⏳ |
+| BTTS (ambos marcan) | 43% | -112 | ⏳ |
+| Prop: Ismael Saibari o0.5 SoT | 61% | -161 | ⏳ |
 
 ### Germany vs Paraguay — 2026-06-29 14:30 · [análisis](predictions/16round/ger-par/analysis.md)
 

@@ -941,73 +941,73 @@
    [
     "Gana Netherlands",
     0.366,
-    "+134",
+    "+148",
     null
    ],
    [
     "Empate",
     0.295,
-    "+229",
+    "+227",
     null
    ],
    [
     "Gana Morocco",
     0.339,
-    "+275",
+    "+300",
     null
    ],
    [
     "Doble oport. Netherlands",
     0.661,
-    "-286",
+    "-263",
     null
    ],
    [
     "Doble oport. Morocco",
     0.634,
-    "-139",
+    "-152",
     null
    ],
    [
     "Over 1.5 goles",
     0.615,
-    "-238",
+    "-244",
     null
    ],
    [
     "Over 2.5 goles",
     0.345,
-    "+128",
+    "+130",
     null
    ],
    [
     "Over 3.5 goles",
     0.158,
-    "+310",
+    "+330",
     null
    ],
    [
     "Over 1.5 goles Netherlands",
     0.257,
-    "_(no fetcheado)_",
+    "+152",
     null
    ],
    [
-    "Over 1.5 goles Morocco",
-    0.301,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Morocco",
+    0.667,
+    "-233",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.431,
-    "-110",
+    "-112",
     null
    ],
    [
     "Prop: Ismael Saibari o0.5 SoT",
-    0.585,
-    "-132",
+    0.611,
+    "-161",
     null
    ]
   ]
