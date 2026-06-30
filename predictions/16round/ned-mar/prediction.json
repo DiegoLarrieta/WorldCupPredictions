@@ -67,7 +67,7 @@
   "actual_result": {
     "score": "1-1",
     "result": "draw",
-    "scored_at": "2026-06-30T14:08:27-06:00",
+    "scored_at": "2026-06-30T16:59:26-06:00",
     "rps": 0.12444,
     "log_loss": 1.22078,
     "brier": 0.7459,

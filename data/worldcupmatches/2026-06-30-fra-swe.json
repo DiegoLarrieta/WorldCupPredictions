@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-06-30-fra-swe",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-30-fra-swe",
+    "date": "2026-06-30",
+    "home": "France",
+    "away": "Sweden",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "France vs Sweden",
+    "home": "France",
+    "away": "Sweden",
+    "as_of": "2026-06-30",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.781,
+      0.147,
+      0.071
+    ],
+    "components": {
+      "dixon_coles": [
+        0.703,
+        0.179,
+        0.117
+      ],
+      "elo": [
+        0.792,
+        0.152,
+        0.056
+      ]
+    },
+    "expected_goals": {
+      "France": 2.54,
+      "Sweden": 0.98
+    },
+    "over25": 0.683,
+    "btts": 0.583,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.095
+      },
+      {
+        "score": "2-1",
+        "prob": 0.094
+      },
+      {
+        "score": "1-1",
+        "prob": 0.081
+      },
+      {
+        "score": "3-0",
+        "prob": 0.081
+      },
+      {
+        "score": "3-1",
+        "prob": 0.079
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-06-30T16:59:26-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760492",
+      "player_shots": [
+        {
+          "player": "Michael Olise",
+          "side": "home",
+          "team": "France",
+          "shots": 6,
+          "on_target": 3,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 84.2,
+          "starter": true,
+          "shots_p90": 6.41,
+          "sot_p90": 3.21
+        },
+        {
+          "player": "Kylian Mbappé",
+          "side": "home",
+          "team": "France",
+          "shots": 5,
+          "on_target": 4,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 84.1,
+          "starter": true,
+          "shots_p90": 5.35,
+          "sot_p90": 4.28
+        },
+        {
+          "player": "Bradley Barcola",
+          "side": "home",
+          "team": "France",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Adrien Rabiot",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Alexander Isak",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 89.0,
+          "starter": true,
+          "shots_p90": 2.02,
+          "sot_p90": 1.01
+        },
+        {
+          "player": "Mattias Svanberg",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 8.5,
+          "starter": false,
+          "shots_p90": 21.22,
+          "sot_p90": 10.61
+        },
+        {
+          "player": "Dayot Upamecano",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 74.2,
+          "starter": true,
+          "shots_p90": 2.42,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lucas Digne",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 77.8,
+          "starter": true,
+          "shots_p90": 1.16,
+          "sot_p90": 1.16
+        },
+        {
+          "player": "Désiré Doué",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 15.8,
+          "starter": false,
+          "shots_p90": 5.71,
+          "sot_p90": 5.71
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Jules Koundé",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.2,
+          "starter": true,
+          "shots_p90": 1.21,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aurélien Tchouaméni",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jean-Philippe Mateta",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 5.9,
+          "starter": false,
+          "shots_p90": 15.25,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lucas Bergvall",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.1,
+          "starter": true,
+          "shots_p90": 1.38,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Elliot Stroud",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.0,
+          "starter": true,
+          "shots_p90": 1.38,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gustaf Nilsson",
+          "side": "away",
+          "team": "Sweden",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 1.0,
+          "starter": false,
+          "shots_p90": 85.71,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 61,
+      "shots_home": 25,
+      "shots_on_target_home": 12,
+      "corners_home": 9,
+      "fouls_home": 14,
+      "saves_home": 3,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 39,
+      "shots_away": 8,
+      "shots_on_target_away": 3,
+      "corners_away": 1,
+      "fouls_away": 10,
+      "saves_away": 9,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-30T16:59:30-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.02634,
+    "log_loss": 0.24618,
+    "brier": 0.07432,
+    "surprisal": 0.24618,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.02634,
+        "log_loss": 0.24618,
+        "brier": 0.07432,
+        "surprisal": 0.24618
+      },
+      "dixon_coles": {
+        "rps": 0.05075,
+        "log_loss": 0.3514,
+        "brier": 0.13361,
+        "surprisal": 0.3514
+      },
+      "elo": {
+        "rps": 0.0232,
+        "log_loss": 0.23319,
+        "brier": 0.0695,
+        "surprisal": 0.23319
+      }
+    }
+  }
+}

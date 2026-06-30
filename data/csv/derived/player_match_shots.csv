@@ -1002,6 +1002,23 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Nadiem Amiri,1,0,0,0,False
 2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Gustavo Gómez,1,0,0,0,True
 2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Miguel Almirón,1,0,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Michael Olise,6,3,0,2,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Kylian Mbappé,5,4,2,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Bradley Barcola,3,2,1,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Adrien Rabiot,2,1,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,away,Sweden,Alexander Isak,2,1,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,away,Sweden,Mattias Svanberg,2,1,0,0,False
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Dayot Upamecano,2,0,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Ousmane Dembélé,2,0,0,1,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Lucas Digne,1,1,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Désiré Doué,1,1,0,0,False
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,away,Sweden,Viktor Gyökeres,1,1,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Jules Koundé,1,0,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Aurélien Tchouaméni,1,0,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,home,France,Jean-Philippe Mateta,1,0,0,0,False
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,away,Sweden,Lucas Bergvall,1,0,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,away,Sweden,Elliot Stroud,1,0,0,0,True
+2026-06-30-fra-swe,2026-06-30,France vs Sweden,away,Sweden,Gustaf Nilsson,1,0,0,0,False
 2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Erling Haaland,4,2,1,0,True
 2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Emmanuel Agbadou,3,1,0,0,True
 2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Amad Diallo,2,2,1,0,False
