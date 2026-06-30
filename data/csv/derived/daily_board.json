@@ -850,91 +850,82 @@
   "match": "Ivory Coast vs Norway",
   "kickoff": "2026-06-30 17:00",
   "date": "2026-06-30",
-  "result": "",
+  "result": "✅ Jugado: **1-2** (away) · checks **7/11**",
   "sug": "home @ +285 (+5%); under @ +100 (+4%)",
-  "prop_recs": [
-   {
-    "player": "Alexander Sorloth",
-    "market": "tiros",
-    "line": 2.5,
-    "price": 2.15,
-    "stake": 300,
-    "model": 0.609
-   }
-  ],
+  "prop_recs": [],
   "link": "predictions/16round/civ-nor/analysis.md",
   "markets": [
    [
     "Gana Ivory Coast",
     0.264,
     "+285",
-    null
+    false
    ],
    [
     "Empate",
     0.276,
     "+250",
-    null
+    false
    ],
    [
     "Gana Norway",
     0.459,
     "+125",
-    null
+    true
    ],
    [
     "Doble oport. Ivory Coast",
     0.54,
-    "-125",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Doble oport. Norway",
     0.735,
-    "-286",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 1.5 goles",
     0.694,
-    "-312",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.433,
-    "+100",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.223,
-    "+245",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Ivory Coast",
     0.297,
-    "+195",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Norway",
     0.38,
-    "+105",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "BTTS (ambos marcan)",
     0.5,
-    "-130",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Prop: Alexander Sorloth o0.5 SoT",
     0.656,
     "-141",
-    null
+    false
    ]
   ]
  },

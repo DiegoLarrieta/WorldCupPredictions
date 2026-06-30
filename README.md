@@ -259,26 +259,26 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### Ivory Coast vs Norway — 2026-06-30 11:00 · [análisis](predictions/16round/civ-nor/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **1-2** (away) · checks **7/11**
 
 🎯 **1X2/goles sugerido:** home @ +285 (+5%); under @ +100 (+4%)
 
-💵 **Props recomendados:** **Alexander Sorloth** o2.5 tiros @ +115 (modelo 61%) — **$300 MXN** · _total $300 MXN_
+💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Ivory Coast | 26% | +285 | ⏳ |
-| Empate | 28% | +250 | ⏳ |
-| Gana Norway | 46% | +125 | ⏳ |
-| Doble oport. Ivory Coast | 54% | -125 | ⏳ |
-| Doble oport. Norway | 74% | -286 | ⏳ |
-| Over 1.5 goles | 69% | -312 | ⏳ |
-| Over 2.5 goles | 43% | +100 | ⏳ |
-| Over 3.5 goles | 22% | +245 | ⏳ |
-| Over 1.5 goles Ivory Coast | 30% | +195 | ⏳ |
-| Over 1.5 goles Norway | 38% | +105 | ⏳ |
-| BTTS (ambos marcan) | 50% | -130 | ⏳ |
-| Prop: Alexander Sorloth o0.5 SoT | 66% | -141 | ⏳ |
+| Gana Ivory Coast | 26% | +285 | ❌ |
+| Empate | 28% | +250 | ❌ |
+| Gana Norway | 46% | +125 | ✅ |
+| Doble oport. Ivory Coast | 54% | _(no fetcheado)_ | ❌ |
+| Doble oport. Norway | 74% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles | 69% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 43% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 22% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Ivory Coast | 30% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Norway | 38% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 50% | _(no fetcheado)_ | ✅ |
+| Prop: Alexander Sorloth o0.5 SoT | 66% | -141 | ❌ |
 
 ### Netherlands vs Morocco — 2026-06-29 19:00 · [análisis](predictions/16round/ned-mar/analysis.md)
 

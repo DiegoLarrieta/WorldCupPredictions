@@ -74,8 +74,14 @@ def amer(price) -> str:
     return f"+{round((d - 1) * 100)}" if d >= 2.0 else f"{round(-100 / (d - 1))}"
 
 
+BANK_REAL = ROOT / "data" / "bank_real.txt"   # Diego's authoritative sportsbook balance (optional)
+
+
 def _metrics() -> dict:
-    """Bank / #bets / P&L / in-play from the ledger, on top of the starting bankroll."""
+    """Bank / #bets / P&L / in-play from the ledger, on top of the starting bankroll. If
+    data/bank_real.txt exists, the bank/P&L are snapped to Diego's REAL balance (the ledger's
+    per-bet pnl can drift a few MXN from the book via odds rounding); the bet stats still
+    come from the ledger."""
     rows = []
     if LEDGER.exists():
         with LEDGER.open() as f:
@@ -91,8 +97,15 @@ def _metrics() -> dict:
     in_play = sum(num(r, "stake") for r in rows if (r.get("status") or "").lower() == "open")
     settled = [r for r in rows if (r.get("status") or "").lower() == "settled"]
     wins = sum(1 for r in settled if (r.get("result") or "").lower() == "win")
+    bank = BANKROLL + pnl
+    if BANK_REAL.exists():                          # Diego's real balance wins over the computed one
+        try:
+            bank = float(BANK_REAL.read_text().strip())
+            pnl = bank - BANKROLL
+        except ValueError:
+            pass
     return {
-        "bank": round(BANKROLL + pnl),
+        "bank": round(bank),
         "bankroll_start": BANKROLL,
         "n_bets": len(rows),
         "n_open": sum(1 for r in rows if (r.get("status") or "").lower() == "open"),

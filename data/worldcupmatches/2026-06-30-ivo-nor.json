@@ -1,0 +1,326 @@
+{
+  "match_key": "2026-06-30-ivo-nor",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-06-30-ivo-nor",
+    "date": "2026-06-30",
+    "home": "Ivory Coast",
+    "away": "Norway",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Ivory Coast vs Norway",
+    "home": "Ivory Coast",
+    "away": "Norway",
+    "as_of": "2026-06-30",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.264,
+      0.276,
+      0.459
+    ],
+    "components": {
+      "dixon_coles": [
+        0.295,
+        0.3,
+        0.405
+      ],
+      "elo": [
+        0.248,
+        0.265,
+        0.486
+      ]
+    },
+    "expected_goals": {
+      "Ivory Coast": 1.09,
+      "Norway": 1.32
+    },
+    "over25": 0.434,
+    "btts": 0.5,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.142
+      },
+      {
+        "score": "0-1",
+        "prob": 0.105
+      },
+      {
+        "score": "0-0",
+        "prob": 0.103
+      },
+      {
+        "score": "1-2",
+        "prob": 0.085
+      },
+      {
+        "score": "1-0",
+        "prob": 0.085
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-06-30T14:08:26-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760490",
+      "player_shots": [
+        {
+          "player": "Erling Haaland",
+          "side": "away",
+          "team": "Norway",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Emmanuel Agbadou",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Amad Diallo",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 30.5,
+          "starter": false,
+          "shots_p90": 5.89,
+          "sot_p90": 5.89
+        },
+        {
+          "player": "Nicolas Pépé",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 87.0,
+          "starter": true,
+          "shots_p90": 2.07,
+          "sot_p90": 1.04
+        },
+        {
+          "player": "Ghislain Konan",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Franck Kessié",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Torbjørn Heggem",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Antonio Nusa",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 70.7,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 1.27
+        },
+        {
+          "player": "Ibrahim Sangaré",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Guela Doué",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Yan Diomande",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Evann Guessand",
+          "side": "home",
+          "team": "Ivory Coast",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Martin Ødegaard",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alexander Sørloth",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.9,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Andreas Schjelderup",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.3,
+          "starter": false,
+          "shots_p90": 4.67,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 47.1,
+      "shots_home": 14,
+      "shots_on_target_home": 5,
+      "corners_home": 14,
+      "fouls_home": 6,
+      "saves_home": 1,
+      "offsides_home": 2,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 52.9,
+      "shots_away": 9,
+      "shots_on_target_away": 4,
+      "corners_away": 3,
+      "fouls_away": 7,
+      "saves_away": 4,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-06-30T14:08:30-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.18101,
+    "log_loss": 0.7777,
+    "brier": 0.43835,
+    "surprisal": 0.7777,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.18101,
+        "log_loss": 0.7777,
+        "brier": 0.43835,
+        "surprisal": 0.7777
+      },
+      "dixon_coles": {
+        "rps": 0.22052,
+        "log_loss": 0.90387,
+        "brier": 0.53105,
+        "surprisal": 0.90387
+      },
+      "elo": {
+        "rps": 0.16266,
+        "log_loss": 0.72055,
+        "brier": 0.39569,
+        "surprisal": 0.72055
+      }
+    }
+  }
+}

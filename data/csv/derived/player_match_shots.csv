@@ -1002,6 +1002,21 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,home,Germany,Nadiem Amiri,1,0,0,0,False
 2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Gustavo Gómez,1,0,0,0,True
 2026-06-29-ger-par,2026-06-29,Germany vs Paraguay,away,Paraguay,Miguel Almirón,1,0,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Erling Haaland,4,2,1,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Emmanuel Agbadou,3,1,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Amad Diallo,2,2,1,0,False
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Nicolas Pépé,2,1,0,1,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Ghislain Konan,2,0,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Franck Kessié,1,1,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Torbjørn Heggem,1,1,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Antonio Nusa,1,1,1,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Ibrahim Sangaré,1,0,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Guela Doué,1,0,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Yan Diomande,1,0,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,home,Ivory Coast,Evann Guessand,1,0,0,0,False
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Martin Ødegaard,1,0,0,1,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Alexander Sørloth,1,0,0,0,True
+2026-06-30-ivo-nor,2026-06-30,Ivory Coast vs Norway,away,Norway,Andreas Schjelderup,1,0,0,0,False
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Achraf Hakimi,3,1,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Micky van de Ven,2,1,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Ryan Gravenberch,2,0,0,0,True
