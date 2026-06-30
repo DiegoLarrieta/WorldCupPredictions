@@ -243,19 +243,22 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 💵 **Props recomendados:** ninguno
 
+⚠️ **Partido sin valor claro — mi lectura es PASO.** Props de Suecia (Isak/Elanga/Gyökeres) = SOSPECHOSOS: underdog (7%) vs Francia, el modelo sobrevalúa su volumen (patrón Japón/Enciso). Dembélé (favorito) es el único que encaja, pero mi tesis 'favorito subvaluado' va **0-2** (Undav, Sörloth perdieron) → baja confianza. Goles ya están bien preciados (modelo = mercado). Si quieres un dato de CLOV, Dembélé o2.5 chico — pero sin convicción.
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana France | 78% | _(no fetcheado)_ | ⏳ |
-| Empate | 15% | _(no fetcheado)_ | ⏳ |
-| Gana Sweden | 7% | _(no fetcheado)_ | ⏳ |
-| Doble oport. France | 93% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Sweden | 22% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 87% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 68% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 47% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles France | 72% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Sweden | 26% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 58% | _(no fetcheado)_ | ⏳ |
+| Gana France | 78% | -312 | ⏳ |
+| Empate | 15% | +540 | ⏳ |
+| Gana Sweden | 7% | +1150 | ⏳ |
+| Doble oport. France | 93% | -1250 | ⏳ |
+| Doble oport. Sweden | 22% | +320 | ⏳ |
+| Over 1.5 goles | 87% | -667 | ⏳ |
+| Over 2.5 goles | 68% | -217 | ⏳ |
+| Over 3.5 goles | 47% | +119 | ⏳ |
+| Over 2.5 goles France | 47% | +102 | ⏳ |
+| Over 0.5 goles Sweden | 62% | -149 | ⏳ |
+| BTTS (ambos marcan) | 58% | -125 | ⏳ |
+| Prop: Alexander Isak o0.5 SoT | 61% | -120 | ⏳ |
 
 ### Ivory Coast vs Norway — 2026-06-30 11:00 · [análisis](predictions/16round/civ-nor/analysis.md)
 
