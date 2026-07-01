@@ -217,23 +217,26 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** away @ +340 (+6%)
 
-💵 **Props recomendados:** ninguno
+💵 **Props recomendados:** **Enner Valencia** o2.5 tiros @ +135 (modelo 58%) — **$300 MXN** · **Julian Quinones** o2.5 tiros @ -120 (modelo 66%) — **$300 MXN** · _total $600 MXN_
+
+⚠️ **λ 1.43 = partido cerrado, pocos tiros** → los overs o2.5 (3+) bajan; las líneas o1.5 son más seguras. Shooters data-validados (Quiñones 5,1,4 / Valencia 3.3). **Quiñones = pick** (consistente). **Valencia da +valor pero su 3.3 es outlier** (un juego de 7, otros 1 y 2) → sobrevaluado. Stake chico.
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Mexico | 37% | _(no fetcheado)_ | ⏳ |
-| Empate | 33% | _(no fetcheado)_ | ⏳ |
-| Gana Ecuador | 30% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Mexico | 70% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Ecuador | 63% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 42% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 17% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 6% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Mexico | 14% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Ecuador | 18% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 27% | _(no fetcheado)_ | ⏳ |
+| Gana Mexico | 37% | +132 | ⏳ |
+| Empate | 33% | +194 | ⏳ |
+| Gana Ecuador | 30% | +340 | ⏳ |
+| Doble oport. Mexico | 70% | -345 | ⏳ |
+| Doble oport. Ecuador | 63% | -133 | ⏳ |
+| Over 1.5 goles | 42% | -139 | ⏳ |
+| Over 2.5 goles | 17% | +235 | ⏳ |
+| Over 3.5 goles | 6% | +660 | ⏳ |
+| Over 1.5 goles Mexico | 14% | +201 | ⏳ |
+| Over 0.5 goles Ecuador | 54% | -132 | ⏳ |
+| BTTS (ambos marcan) | 27% | +148 | ⏳ |
+| Prop: John Yeboah o0.5 SoT | 57% | +138 | ⏳ |
 
 ### France vs Sweden — 2026-06-30 15:00 · [análisis](predictions/16round/fra-swe/analysis.md)
 

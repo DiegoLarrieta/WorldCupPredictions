@@ -697,77 +697,101 @@
   "kickoff": "2026-07-01 01:00",
   "date": "2026-07-01",
   "result": "",
-  "sug": "",
-  "prop_recs": [],
+  "sug": "away @ +340 (+6%)",
+  "prop_recs": [
+   {
+    "player": "Enner Valencia",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 2.35,
+    "stake": 300,
+    "model": 0.576
+   },
+   {
+    "player": "Julian Quinones",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 1.83,
+    "stake": 300,
+    "model": 0.656
+   }
+  ],
   "link": "predictions/16round/mex-ecu/analysis.md",
   "markets": [
    [
     "Gana Mexico",
     0.369,
-    "_(no fetcheado)_",
+    "+132",
     null
    ],
    [
     "Empate",
     0.327,
-    "_(no fetcheado)_",
+    "+194",
     null
    ],
    [
     "Gana Ecuador",
     0.304,
-    "_(no fetcheado)_",
+    "+340",
     null
    ],
    [
     "Doble oport. Mexico",
     0.696,
-    "_(no fetcheado)_",
+    "-345",
     null
    ],
    [
     "Doble oport. Ecuador",
     0.631,
-    "_(no fetcheado)_",
+    "-133",
     null
    ],
    [
     "Over 1.5 goles",
     0.418,
-    "_(no fetcheado)_",
+    "-139",
     null
    ],
    [
     "Over 2.5 goles",
     0.174,
-    "_(no fetcheado)_",
+    "+235",
     null
    ],
    [
     "Over 3.5 goles",
     0.057,
-    "_(no fetcheado)_",
+    "+660",
     null
    ],
    [
     "Over 1.5 goles Mexico",
     0.139,
-    "_(no fetcheado)_",
+    "+201",
     null
    ],
    [
-    "Over 1.5 goles Ecuador",
-    0.184,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Ecuador",
+    0.542,
+    "-132",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.266,
-    "_(no fetcheado)_",
+    "+148",
+    null
+   ],
+   [
+    "Prop: John Yeboah o0.5 SoT",
+    0.573,
+    "+138",
     null
    ]
-  ]
+  ],
+  "caveat": "**λ 1.43 = partido cerrado, pocos tiros** → los overs o2.5 (3+) bajan; las líneas o1.5 son más seguras. Shooters data-validados (Quiñones 5,1,4 / Valencia 3.3). **Quiñones = pick** (consistente). **Valencia da +valor pero su 3.3 es outlier** (un juego de 7, otros 1 y 2) → sobrevaluado. Stake chico."
  },
  {
   "match": "France vs Sweden",
