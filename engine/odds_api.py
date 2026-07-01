@@ -41,8 +41,9 @@ class OddsAPIError(RuntimeError):
 
 
 def _norm(name: str) -> str:
-    """Normalise a team name for matching (accent-fold, lowercase, trim)."""
-    return unidecode(str(name)).strip().lower()
+    """Normalise a team name for matching (accent-fold, lowercase, '&'->'and', collapse spaces).
+    The '&'->'and' step makes 'Bosnia & Herzegovina' (Odds API) == 'Bosnia and Herzegovina' (ours)."""
+    return " ".join(unidecode(str(name)).lower().replace("&", " and ").split())
 
 
 # Team names that differ across sources (our warehouse / martj42 vs The Odds API).

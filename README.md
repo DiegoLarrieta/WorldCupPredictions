@@ -155,44 +155,45 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 💵 **Props recomendados:** ninguno
 
+⚠️ **Mayormente PASO.** USA favoritón (clasifica 84%) pero todo bien preciado. Props INAPOSTABLES: el mercado juicea a los tiradores de USA (Balogun o1.5 @ -833, Pulisic -435) → sin valor, no se replica el parlay Sarr+KDB. Goles (λ 3.04): mercado = modelo, sin edge. Único lean especulativo: Over 3.5 @ +190 (subestimamos goles + USA golea a Bosnia desesperada), pero chico.
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
 | Gana United States | 70% | _(no fetcheado)_ | ⏳ |
 | Empate | 19% | _(no fetcheado)_ | ⏳ |
 | Gana Bosnia and Herzegovina | 11% | _(no fetcheado)_ | ⏳ |
-| Doble oport. United States | 89% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Bosnia and Herzegovina | 30% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 81% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 59% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 36% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles United States | 63% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Bosnia and Herzegovina | 22% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 53% | _(no fetcheado)_ | ⏳ |
+| Doble oport. United States | 89% | -1000 | ⏳ |
+| Doble oport. Bosnia and Herzegovina | 30% | +250 | ⏳ |
+| Over 1.5 goles | 81% | -455 | ⏳ |
+| Over 2.5 goles | 59% | -139 | ⏳ |
+| Over 3.5 goles | 36% | +190 | ⏳ |
+| Over 1.5 goles United States | 63% | -233 | ⏳ |
+| Over 0.5 goles Bosnia and Herzegovina | 59% | -125 | ⏳ |
+| BTTS (ambos marcan) | 53% | +104 | ⏳ |
+| Prop: Malik Tillman o0.5 SoT | 60% | -115 | ⏳ |
 
 ### Belgium vs Senegal — 2026-07-01 14:00 · [análisis](predictions/16round/bel-sen/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **3-2** (home) · checks **5/11**
 
 🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 💵 **Props recomendados:** ninguno
 
-⚠️ **Partido parejo, sin edge fuerte.** Se clasifica: **Belgium 60% (fair -152) · Senegal 40% (fair +152)** — si el book paga mejor que eso, valorcito (Senegal +170+ el más interesante). Props = solo contexto (De Bruyne es el tirador pero bien preciado; sin edge). Goles: modelo dice under pero subestimamos goles → Over 2.5 roughly fair, NO paso con confianza.
-
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Belgium | 45% | +120 | ⏳ |
-| Empate | 27% | +252 | ⏳ |
-| Gana Senegal | 28% | +335 | ⏳ |
-| Doble oport. Belgium | 72% | -345 | ⏳ |
-| Doble oport. Senegal | 55% | -106 | ⏳ |
-| Over 1.5 goles | 71% | -385 | ⏳ |
-| Over 2.5 goles | 46% | -119 | ⏳ |
-| Over 3.5 goles | 24% | +210 | ⏳ |
-| Over 1.5 goles Belgium | 40% | -104 | ⏳ |
-| Over 0.5 goles Senegal | 68% | -250 | ⏳ |
-| BTTS (ambos marcan) | 51% | -137 | ⏳ |
-| Prop: Pape Alassane Gueye o0.5 SoT | 65% | +180 | ⏳ |
+| Gana Belgium | 45% | +120 | ✅ |
+| Empate | 27% | +252 | ❌ |
+| Gana Senegal | 28% | +335 | ❌ |
+| Doble oport. Belgium | 72% | _(no fetcheado)_ | ✅ |
+| Doble oport. Senegal | 55% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 71% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 46% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 24% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Belgium | 40% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Senegal | 31% | _(no fetcheado)_ | ✅ |
+| BTTS (ambos marcan) | 51% | _(no fetcheado)_ | ✅ |
+| Prop: Arthur Theate o0.5 SoT | 46% | +440 | ❌ |
 
 ### England vs DR Congo — 2026-07-01 10:00 · [análisis](predictions/16round/eng-drc/analysis.md)
 

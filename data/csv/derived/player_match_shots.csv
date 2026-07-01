@@ -1046,6 +1046,27 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Denzel Dumfries,1,0,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Azzedine Ounahi,1,0,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Anass Salah-Eddine,1,0,0,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Ismaïla Sarr,5,1,1,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Youri Tielemans,4,2,2,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Dodi Lukébakio,3,0,0,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Maxim De Cuyper,2,1,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Leandro Trossard,2,1,0,1,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Idrissa Gueye,2,1,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Habib Diarra,2,1,1,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Kevin De Bruyne,2,0,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Pape Gueye,2,0,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Pape Matar Sarr,2,0,0,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Ibrahim Mbaye,2,0,0,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Romelu Lukaku,1,1,1,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Sadio Mané,1,1,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Bara Sapoko Ndiaye,1,1,0,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Arthur Theate,1,0,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Brandon Mechele,1,0,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Timothy Castagne,1,0,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Thomas Meunier,1,0,0,1,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,home,Belgium,Nicolas Raskin,1,0,0,0,False
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Pathé Ciss,1,0,0,0,True
+2026-07-01-bel-sen,2026-07-01,Belgium vs Senegal,away,Senegal,Iliman Ndiaye,1,0,0,0,True
 2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Harry Kane,5,3,2,0,True
 2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Jude Bellingham,3,3,0,0,True
 2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Marcus Rashford,3,1,0,0,True

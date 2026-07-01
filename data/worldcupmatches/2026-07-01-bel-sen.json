@@ -1,0 +1,404 @@
+{
+  "match_key": "2026-07-01-bel-sen",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-01-bel-sen",
+    "date": "2026-07-01",
+    "home": "Belgium",
+    "away": "Senegal",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Belgium vs Senegal",
+    "home": "Belgium",
+    "away": "Senegal",
+    "as_of": "2026-07-01",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.447,
+      0.269,
+      0.284
+    ],
+    "components": {
+      "dixon_coles": [
+        0.416,
+        0.284,
+        0.3
+      ],
+      "elo": [
+        0.454,
+        0.267,
+        0.279
+      ]
+    },
+    "expected_goals": {
+      "Belgium": 1.37,
+      "Senegal": 1.13
+    },
+    "over25": 0.457,
+    "btts": 0.514,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.135
+      },
+      {
+        "score": "1-0",
+        "prob": 0.104
+      },
+      {
+        "score": "0-0",
+        "prob": 0.09
+      },
+      {
+        "score": "2-1",
+        "prob": 0.087
+      },
+      {
+        "score": "0-1",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 2,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-07-01T17:05:49-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760493",
+      "player_shots": [
+        {
+          "player": "Ismaïla Sarr",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Youri Tielemans",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 4,
+          "on_target": 2,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Dodi Lukébakio",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 34.4,
+          "starter": false,
+          "shots_p90": 7.85,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Maxim De Cuyper",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 77.7,
+          "starter": true,
+          "shots_p90": 2.32,
+          "sot_p90": 1.16
+        },
+        {
+          "player": "Leandro Trossard",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Idrissa Gueye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Habib Diarra",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 72.8,
+          "starter": true,
+          "shots_p90": 2.47,
+          "sot_p90": 1.24
+        },
+        {
+          "player": "Kevin De Bruyne",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.7,
+          "starter": true,
+          "shots_p90": 3.23,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pape Gueye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.8,
+          "starter": true,
+          "shots_p90": 2.74,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pape Matar Sarr",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 17.2,
+          "starter": false,
+          "shots_p90": 10.47,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ibrahim Mbaye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 17.8,
+          "starter": false,
+          "shots_p90": 10.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Romelu Lukaku",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Sadio Mané",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Bara Sapoko Ndiaye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Arthur Theate",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Brandon Mechele",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Timothy Castagne",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Thomas Meunier",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 12.3,
+          "starter": false,
+          "shots_p90": 7.29,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolas Raskin",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 34.3,
+          "starter": false,
+          "shots_p90": 2.62,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pathé Ciss",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "side": "away",
+          "team": "Senegal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 72.2,
+          "starter": true,
+          "shots_p90": 1.25,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 52.2,
+      "shots_home": 19,
+      "shots_on_target_home": 5,
+      "corners_home": 4,
+      "fouls_home": 22,
+      "saves_home": 3,
+      "offsides_home": 2,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 47.8,
+      "shots_away": 19,
+      "shots_on_target_away": 5,
+      "corners_away": 2,
+      "fouls_away": 12,
+      "saves_away": 3,
+      "offsides_away": 2,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-01T17:05:57-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.19323,
+    "log_loss": 0.8052,
+    "brier": 0.45883,
+    "surprisal": 0.8052,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.19323,
+        "log_loss": 0.8052,
+        "brier": 0.45883,
+        "surprisal": 0.8052
+      },
+      "dixon_coles": {
+        "rps": 0.21553,
+        "log_loss": 0.87707,
+        "brier": 0.51171,
+        "surprisal": 0.87707
+      },
+      "elo": {
+        "rps": 0.18798,
+        "log_loss": 0.78966,
+        "brier": 0.44725,
+        "surprisal": 0.78966
+      }
+    }
+  }
+}
