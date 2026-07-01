@@ -619,7 +619,7 @@
   "match": "England vs DR Congo",
   "kickoff": "2026-07-01 16:00",
   "date": "2026-07-01",
-  "result": "",
+  "result": "✅ Jugado: **2-1** (home) · checks **8/11**",
   "sug": "over @ +113 (+4%)",
   "prop_recs": [],
   "link": "predictions/16round/eng-drc/analysis.md",
@@ -628,76 +628,75 @@
     "Gana England",
     0.661,
     "-312",
-    null
+    true
    ],
    [
     "Empate",
     0.237,
     "+450",
-    null
+    false
    ],
    [
     "Gana DR Congo",
     0.102,
     "+1650",
-    null
+    false
    ],
    [
     "Doble oport. England",
     0.898,
-    "-1667",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. DR Congo",
     0.339,
-    "+310",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.519,
-    "-278",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.253,
-    "+112",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.099,
-    "+290",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles England",
     0.352,
-    "-179",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles DR Congo",
-    0.393,
-    "+154",
-    null
+    "Over 1.5 goles DR Congo",
+    0.09,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.285,
-    "+190",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Prop: Yoane Wissa o0.5 SoT",
-    0.651,
-    "+105",
-    null
+    "Prop: Nathanael Mbuku o0.5 SoT",
+    0.481,
+    "+260",
+    false
    ]
-  ],
-  "caveat": "**Sin valor en props — PASO.** El tirador real de England es **Kane** (4.3/j: 7,3,3), pero está **bien preciado** (o2.5 @ -370 = modelo 78%, EV ~0). Los flags de 'valor' (Rashford) son el secundario mal-preciado; DR Congo (Mbuku/Wissa) es underdog trap. Confirma la lección: **el mercado es eficiente en quién dispara → props sin edge.** Único flag menor: Over 2.5 @ +113 (CLOV+ chico), pero partido de pocos goles (λ 1.74)."
+  ]
  },
  {
   "match": "Mexico vs Ecuador",

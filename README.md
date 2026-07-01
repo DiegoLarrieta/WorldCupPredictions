@@ -193,28 +193,26 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### England vs DR Congo — 2026-07-01 10:00 · [análisis](predictions/16round/eng-drc/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **2-1** (home) · checks **8/11**
 
 🎯 **1X2/goles sugerido:** over @ +113 (+4%)
 
 💵 **Props recomendados:** ninguno
 
-⚠️ **Sin valor en props — PASO.** El tirador real de England es **Kane** (4.3/j: 7,3,3), pero está **bien preciado** (o2.5 @ -370 = modelo 78%, EV ~0). Los flags de 'valor' (Rashford) son el secundario mal-preciado; DR Congo (Mbuku/Wissa) es underdog trap. Confirma la lección: **el mercado es eficiente en quién dispara → props sin edge.** Único flag menor: Over 2.5 @ +113 (CLOV+ chico), pero partido de pocos goles (λ 1.74).
-
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana England | 66% | -312 | ⏳ |
-| Empate | 24% | +450 | ⏳ |
-| Gana DR Congo | 10% | +1650 | ⏳ |
-| Doble oport. England | 90% | -1667 | ⏳ |
-| Doble oport. DR Congo | 34% | +310 | ⏳ |
-| Over 1.5 goles | 52% | -278 | ⏳ |
-| Over 2.5 goles | 25% | +112 | ⏳ |
-| Over 3.5 goles | 10% | +290 | ⏳ |
-| Over 1.5 goles England | 35% | -179 | ⏳ |
-| Over 0.5 goles DR Congo | 39% | +154 | ⏳ |
-| BTTS (ambos marcan) | 28% | +190 | ⏳ |
-| Prop: Yoane Wissa o0.5 SoT | 65% | +105 | ⏳ |
+| Gana England | 66% | -312 | ✅ |
+| Empate | 24% | +450 | ❌ |
+| Gana DR Congo | 10% | +1650 | ❌ |
+| Doble oport. England | 90% | _(no fetcheado)_ | ✅ |
+| Doble oport. DR Congo | 34% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 52% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 25% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 10% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles England | 35% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles DR Congo | 9% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 28% | _(no fetcheado)_ | ✅ |
+| Prop: Nathanael Mbuku o0.5 SoT | 48% | +260 | ❌ |
 
 ### Mexico vs Ecuador — 2026-06-30 19:00 · [análisis](predictions/16round/mex-ecu/analysis.md)
 

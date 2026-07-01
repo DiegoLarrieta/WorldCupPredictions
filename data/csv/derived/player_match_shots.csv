@@ -1046,6 +1046,17 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Denzel Dumfries,1,0,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Azzedine Ounahi,1,0,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Anass Salah-Eddine,1,0,0,0,False
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Harry Kane,5,3,2,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Jude Bellingham,3,3,0,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Marcus Rashford,3,1,0,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,away,Congo DR,Brian Cipenga,3,1,1,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Noni Madueke,2,0,0,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,away,Congo DR,Yoane Wissa,2,0,0,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,away,Congo DR,Meschack Elia,1,1,0,0,False
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Nico O'Reilly,1,0,0,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Elliot Anderson,1,0,0,0,True
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,home,England,Anthony Gordon,1,0,0,2,False
+2026-07-01-eng-drc,2026-07-01,England vs DR Congo,away,Congo DR,Nathanaël Mbuku,1,0,0,0,True
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Raúl Jiménez,4,1,1,0,True
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Gilberto Mora,3,0,0,0,True
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Roberto Alvarado,3,0,0,1,True

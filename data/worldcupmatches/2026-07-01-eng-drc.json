@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-07-01-eng-drc",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-01-eng-drc",
+    "date": "2026-07-01",
+    "home": "England",
+    "away": "DR Congo",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "England vs DR Congo",
+    "home": "England",
+    "away": "DR Congo",
+    "as_of": "2026-07-01",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.661,
+      0.237,
+      0.102
+    ],
+    "components": {
+      "dixon_coles": [
+        0.543,
+        0.316,
+        0.141
+      ],
+      "elo": [
+        0.718,
+        0.189,
+        0.093
+      ]
+    },
+    "expected_goals": {
+      "England": 1.24,
+      "DR Congo": 0.5
+    },
+    "over25": 0.252,
+    "btts": 0.285,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.211
+      },
+      {
+        "score": "0-0",
+        "prob": 0.183
+      },
+      {
+        "score": "2-0",
+        "prob": 0.136
+      },
+      {
+        "score": "1-1",
+        "prob": 0.115
+      },
+      {
+        "score": "0-1",
+        "prob": 0.08
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-07-01T13:21:19-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760495",
+      "player_shots": [
+        {
+          "player": "Harry Kane",
+          "side": "home",
+          "team": "England",
+          "shots": 5,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Jude Bellingham",
+          "side": "home",
+          "team": "England",
+          "shots": 3,
+          "on_target": 3,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Marcus Rashford",
+          "side": "home",
+          "team": "England",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.2,
+          "starter": true,
+          "shots_p90": 4.49,
+          "sot_p90": 1.5
+        },
+        {
+          "player": "Brian Cipenga",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 75.5,
+          "starter": true,
+          "shots_p90": 3.58,
+          "sot_p90": 1.19
+        },
+        {
+          "player": "Noni Madueke",
+          "side": "home",
+          "team": "England",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Yoane Wissa",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Meschack Elia",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 26.5,
+          "starter": false,
+          "shots_p90": 3.4,
+          "sot_p90": 3.4
+        },
+        {
+          "player": "Nico O'Reilly",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Elliot Anderson",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Anthony Gordon",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 29.8,
+          "starter": false,
+          "shots_p90": 3.02,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nathanaël Mbuku",
+          "side": "away",
+          "team": "Congo DR",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.5,
+          "starter": true,
+          "shots_p90": 1.42,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 59.7,
+      "shots_home": 16,
+      "shots_on_target_home": 7,
+      "corners_home": 5,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 40.3,
+      "shots_away": 7,
+      "shots_on_target_away": 2,
+      "corners_away": 3,
+      "fouls_away": 12,
+      "saves_away": 5,
+      "offsides_away": 4,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-01T13:21:21-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.06266,
+    "log_loss": 0.414,
+    "brier": 0.18149,
+    "surprisal": 0.414,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.06266,
+        "log_loss": 0.414,
+        "brier": 0.18149,
+        "surprisal": 0.414
+      },
+      "dixon_coles": {
+        "rps": 0.11436,
+        "log_loss": 0.61065,
+        "brier": 0.32859,
+        "surprisal": 0.61065
+      },
+      "elo": {
+        "rps": 0.04409,
+        "log_loss": 0.33129,
+        "brier": 0.12389,
+        "surprisal": 0.33129
+      }
+    }
+  }
+}
