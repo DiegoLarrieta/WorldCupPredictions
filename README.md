@@ -177,19 +177,22 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 💵 **Props recomendados:** ninguno
 
+⚠️ **Partido parejo, sin edge fuerte.** Se clasifica: **Belgium 60% (fair -152) · Senegal 40% (fair +152)** — si el book paga mejor que eso, valorcito (Senegal +170+ el más interesante). Props = solo contexto (De Bruyne es el tirador pero bien preciado; sin edge). Goles: modelo dice under pero subestimamos goles → Over 2.5 roughly fair, NO paso con confianza.
+
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Belgium | 45% | _(no fetcheado)_ | ⏳ |
-| Empate | 27% | _(no fetcheado)_ | ⏳ |
-| Gana Senegal | 28% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Belgium | 72% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Senegal | 55% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 71% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 46% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 24% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Belgium | 40% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Senegal | 31% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 51% | _(no fetcheado)_ | ⏳ |
+| Gana Belgium | 45% | +120 | ⏳ |
+| Empate | 27% | +252 | ⏳ |
+| Gana Senegal | 28% | +335 | ⏳ |
+| Doble oport. Belgium | 72% | -345 | ⏳ |
+| Doble oport. Senegal | 55% | -106 | ⏳ |
+| Over 1.5 goles | 71% | -385 | ⏳ |
+| Over 2.5 goles | 46% | -119 | ⏳ |
+| Over 3.5 goles | 24% | +210 | ⏳ |
+| Over 1.5 goles Belgium | 40% | -104 | ⏳ |
+| Over 0.5 goles Senegal | 68% | -250 | ⏳ |
+| BTTS (ambos marcan) | 51% | -137 | ⏳ |
+| Prop: Pape Alassane Gueye o0.5 SoT | 65% | +180 | ⏳ |
 
 ### England vs DR Congo — 2026-07-01 10:00 · [análisis](predictions/16round/eng-drc/analysis.md)
 

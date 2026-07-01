@@ -550,70 +550,77 @@
    [
     "Gana Belgium",
     0.447,
-    "_(no fetcheado)_",
+    "+120",
     null
    ],
    [
     "Empate",
     0.269,
-    "_(no fetcheado)_",
+    "+252",
     null
    ],
    [
     "Gana Senegal",
     0.284,
-    "_(no fetcheado)_",
+    "+335",
     null
    ],
    [
     "Doble oport. Belgium",
     0.716,
-    "_(no fetcheado)_",
+    "-345",
     null
    ],
    [
     "Doble oport. Senegal",
     0.553,
-    "_(no fetcheado)_",
+    "-106",
     null
    ],
    [
     "Over 1.5 goles",
     0.713,
-    "_(no fetcheado)_",
+    "-385",
     null
    ],
    [
     "Over 2.5 goles",
     0.456,
-    "_(no fetcheado)_",
+    "-119",
     null
    ],
    [
     "Over 3.5 goles",
     0.242,
-    "_(no fetcheado)_",
+    "+210",
     null
    ],
    [
     "Over 1.5 goles Belgium",
     0.398,
-    "_(no fetcheado)_",
+    "-104",
     null
    ],
    [
-    "Over 1.5 goles Senegal",
-    0.312,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Senegal",
+    0.677,
+    "-250",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.514,
-    "_(no fetcheado)_",
+    "-137",
+    null
+   ],
+   [
+    "Prop: Pape Alassane Gueye o0.5 SoT",
+    0.646,
+    "+180",
     null
    ]
-  ]
+  ],
+  "caveat": "**Partido parejo, sin edge fuerte.** Se clasifica: **Belgium 60% (fair -152) · Senegal 40% (fair +152)** — si el book paga mejor que eso, valorcito (Senegal +170+ el más interesante). Props = solo contexto (De Bruyne es el tirador pero bien preciado; sin edge). Goles: modelo dice under pero subestimamos goles → Over 2.5 roughly fair, NO paso con confianza."
  },
  {
   "match": "England vs DR Congo",
