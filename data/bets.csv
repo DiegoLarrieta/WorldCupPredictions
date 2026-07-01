@@ -4,3 +4,4 @@ bet_id,date,match,market,selection,odds_taken,model_prob,ev,stake,book,result,cl
 3,2026-06-29,Germany vs Paraguay,parlay (SGP),Germany ML + Over 1.5 goles,1.538,0.64,-0.015,6143.25,parlay,loss,,,-6143.25,settled
 4,2026-06-30,Ivory Coast vs Norway,advance,Norway to advance (se clasifica),1.628,0.62,0.009,3330.0,live,win,,,2091.24,settled
 5,2026-06-30,France vs Sweden,player_shots,Ousmane Dembélé o2.5 tiros,1.67,0.68,0.136,2000.0,live,loss,,,-2000.0,settled
+6,2026-07-01,Mexico vs Ecuador,advance/other,Mexico (bet — confirmar tipo),3.975,0.54,1.147,2595.08,live,win,,,7720.36,settled

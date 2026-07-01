@@ -1046,3 +1046,17 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,home,Netherlands,Denzel Dumfries,1,0,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Azzedine Ounahi,1,0,0,0,True
 2026-06-30-net-mor,2026-06-30,Netherlands vs Morocco,away,Morocco,Anass Salah-Eddine,1,0,0,0,False
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Raúl Jiménez,4,1,1,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Gilberto Mora,3,0,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Roberto Alvarado,3,0,0,1,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,John Yeboah,2,1,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,César Montes,1,1,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Julián Quiñones,1,1,1,1,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Johan Vásquez,1,0,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Luis Romo,1,0,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,home,Mexico,Orbelín Pineda,1,0,0,0,False
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Pedro Vite,1,0,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Moisés Caicedo,1,0,0,0,True
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Yaimar Medina,1,0,0,0,False
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Kevin Rodríguez,1,0,0,0,False
+2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Jordy Caicedo,1,0,0,0,False

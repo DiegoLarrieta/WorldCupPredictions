@@ -73,7 +73,7 @@
       "away_goals": 0,
       "result": "home",
       "source": "espn-scores",
-      "captured_at": "2026-06-30T16:59:26-06:00"
+      "captured_at": "2026-07-01T09:12:00-06:00"
     },
     "rich": {
       "espn_event_id": "760492",
@@ -179,7 +179,7 @@
           "assists": 1,
           "minutes": 74.2,
           "starter": true,
-          "shots_p90": 2.42,
+          "shots_p90": 2.43,
           "sot_p90": 0.0
         },
         {
@@ -205,8 +205,8 @@
           "assists": 0,
           "minutes": 15.8,
           "starter": false,
-          "shots_p90": 5.71,
-          "sot_p90": 5.71
+          "shots_p90": 5.7,
+          "sot_p90": 5.7
         },
         {
           "player": "Viktor Gyökeres",
@@ -319,7 +319,7 @@
       "yellow_cards_away": 0,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-06-30T16:59:30-06:00"
+      "captured_at": "2026-07-01T09:12:08-06:00"
     }
   },
   "scores": {

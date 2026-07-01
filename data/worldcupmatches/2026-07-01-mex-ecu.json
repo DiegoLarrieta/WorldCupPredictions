@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-07-01-mex-ecu",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-01-mex-ecu",
+    "date": "2026-07-01",
+    "home": "Mexico",
+    "away": "Ecuador",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Mexico vs Ecuador",
+    "home": "Mexico",
+    "away": "Ecuador",
+    "as_of": "2026-07-01",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.369,
+      0.327,
+      0.304
+    ],
+    "components": {
+      "dixon_coles": [
+        0.266,
+        0.393,
+        0.34
+      ],
+      "elo": [
+        0.457,
+        0.267,
+        0.276
+      ]
+    },
+    "expected_goals": {
+      "Mexico": 0.65,
+      "Ecuador": 0.78
+    },
+    "over25": 0.173,
+    "btts": 0.266,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.248
+      },
+      {
+        "score": "0-1",
+        "prob": 0.178
+      },
+      {
+        "score": "1-0",
+        "prob": 0.148
+      },
+      {
+        "score": "1-1",
+        "prob": 0.129
+      },
+      {
+        "score": "0-2",
+        "prob": 0.072
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-07-01T09:12:01-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760491",
+      "player_shots": [
+        {
+          "player": "Raúl Jiménez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 73.1,
+          "starter": true,
+          "shots_p90": 4.93,
+          "sot_p90": 1.23
+        },
+        {
+          "player": "Gilberto Mora",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.9,
+          "starter": true,
+          "shots_p90": 4.66,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Roberto Alvarado",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 79.2,
+          "starter": true,
+          "shots_p90": 3.41,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "John Yeboah",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 78.2,
+          "starter": true,
+          "shots_p90": 2.3,
+          "sot_p90": 1.15
+        },
+        {
+          "player": "César Montes",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Julián Quiñones",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 79.1,
+          "starter": true,
+          "shots_p90": 1.14,
+          "sot_p90": 1.14
+        },
+        {
+          "player": "Johan Vásquez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Luis Romo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 72.9,
+          "starter": true,
+          "shots_p90": 1.23,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Orbelín Pineda",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 10.9,
+          "starter": false,
+          "shots_p90": 8.23,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedro Vite",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Moisés Caicedo",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Yaimar Medina",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kevin Rodríguez",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 31.8,
+          "starter": false,
+          "shots_p90": 2.83,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jordy Caicedo",
+          "side": "away",
+          "team": "Ecuador",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 11.8,
+          "starter": false,
+          "shots_p90": 7.65,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 42.8,
+      "shots_home": 15,
+      "shots_on_target_home": 3,
+      "corners_home": 3,
+      "fouls_home": 10,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 57.2,
+      "shots_away": 7,
+      "shots_on_target_away": 1,
+      "corners_away": 8,
+      "fouls_away": 14,
+      "saves_away": 1,
+      "offsides_away": 1,
+      "yellow_cards_away": 3,
+      "red_cards_away": 1,
+      "source": "espn",
+      "captured_at": "2026-07-01T09:12:10-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.24529,
+    "log_loss": 0.99696,
+    "brier": 0.59751,
+    "surprisal": 0.99696,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.24529,
+        "log_loss": 0.99696,
+        "brier": 0.59751,
+        "surprisal": 0.99696
+      },
+      "dixon_coles": {
+        "rps": 0.3271,
+        "log_loss": 1.32326,
+        "brier": 0.80896,
+        "surprisal": 1.32326
+      },
+      "elo": {
+        "rps": 0.18551,
+        "log_loss": 0.78307,
+        "brier": 0.44231,
+        "surprisal": 0.78307
+      }
+    }
+  }
+}

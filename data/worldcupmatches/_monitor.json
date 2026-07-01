@@ -1,38 +1,38 @@
 {
-  "n": 76,
+  "n": 77,
   "per_model": {
     "ensemble": {
-      "rps": 0.16469,
-      "log_loss": 0.9015,
-      "brier": 0.53959
+      "rps": 0.16574,
+      "log_loss": 0.90274,
+      "brier": 0.54034
     },
     "dixon_coles": {
-      "rps": 0.16377,
-      "log_loss": 0.89286,
-      "brier": 0.53323
+      "rps": 0.16589,
+      "log_loss": 0.89846,
+      "brier": 0.53681
     },
     "elo": {
-      "rps": 0.17066,
-      "log_loss": 0.92527,
-      "brier": 0.55448
+      "rps": 0.17085,
+      "log_loss": 0.92342,
+      "brier": 0.55302
     }
   },
   "vs_baseline": {
     "uniform": {
-      "rps": 0.22953,
+      "rps": 0.23016,
       "log_loss": 1.09861
     },
     "ensemble": {
-      "rps": 0.16469,
-      "log_loss": 0.9015
+      "rps": 0.16574,
+      "log_loss": 0.90274
     }
   },
   "calibration": [
     {
       "bin": "0.33-0.47",
-      "n": 18,
-      "predicted": 0.407,
-      "actual": 0.389
+      "n": 19,
+      "predicted": 0.405,
+      "actual": 0.421
     },
     {
       "bin": "0.47-0.60",
@@ -59,7 +59,7 @@
       "actual": 0.0
     }
   ],
-  "ensemble_beats_components": false,
+  "ensemble_beats_components": true,
   "most_surprising": [
     {
       "match": "Spain vs Cape Verde",

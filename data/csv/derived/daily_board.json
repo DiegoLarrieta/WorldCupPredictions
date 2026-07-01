@@ -620,178 +620,167 @@
   "kickoff": "2026-07-01 16:00",
   "date": "2026-07-01",
   "result": "",
-  "sug": "under @ +107 (+6%)",
+  "sug": "over @ +113 (+4%)",
   "prop_recs": [],
   "link": "predictions/16round/eng-drc/analysis.md",
   "markets": [
    [
     "Gana England",
     0.661,
-    "_(no fetcheado)_",
+    "-312",
     null
    ],
    [
     "Empate",
     0.237,
-    "_(no fetcheado)_",
+    "+450",
     null
    ],
    [
     "Gana DR Congo",
     0.102,
-    "_(no fetcheado)_",
+    "+1650",
     null
    ],
    [
     "Doble oport. England",
     0.898,
-    "_(no fetcheado)_",
+    "-1667",
     null
    ],
    [
     "Doble oport. DR Congo",
     0.339,
-    "_(no fetcheado)_",
+    "+310",
     null
    ],
    [
     "Over 1.5 goles",
     0.519,
-    "_(no fetcheado)_",
+    "-278",
     null
    ],
    [
     "Over 2.5 goles",
     0.253,
-    "_(no fetcheado)_",
+    "+112",
     null
    ],
    [
     "Over 3.5 goles",
     0.099,
-    "_(no fetcheado)_",
+    "+290",
     null
    ],
    [
     "Over 1.5 goles England",
     0.352,
-    "_(no fetcheado)_",
+    "-179",
     null
    ],
    [
-    "Over 1.5 goles DR Congo",
-    0.09,
-    "_(no fetcheado)_",
+    "Over 0.5 goles DR Congo",
+    0.393,
+    "+154",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.285,
-    "_(no fetcheado)_",
+    "+190",
+    null
+   ],
+   [
+    "Prop: Yoane Wissa o0.5 SoT",
+    0.651,
+    "+105",
     null
    ]
-  ]
+  ],
+  "caveat": "**Sin valor en props — PASO.** El tirador real de England es **Kane** (4.3/j: 7,3,3), pero está **bien preciado** (o2.5 @ -370 = modelo 78%, EV ~0). Los flags de 'valor' (Rashford) son el secundario mal-preciado; DR Congo (Mbuku/Wissa) es underdog trap. Confirma la lección: **el mercado es eficiente en quién dispara → props sin edge.** Único flag menor: Over 2.5 @ +113 (CLOV+ chico), pero partido de pocos goles (λ 1.74)."
  },
  {
   "match": "Mexico vs Ecuador",
   "kickoff": "2026-07-01 01:00",
   "date": "2026-07-01",
-  "result": "",
+  "result": "✅ Jugado: **2-0** (home) · checks **7/11**",
   "sug": "away @ +340 (+6%)",
-  "prop_recs": [
-   {
-    "player": "Enner Valencia",
-    "market": "tiros",
-    "line": 2.5,
-    "price": 2.35,
-    "stake": 300,
-    "model": 0.576
-   },
-   {
-    "player": "Julian Quinones",
-    "market": "tiros",
-    "line": 2.5,
-    "price": 1.83,
-    "stake": 300,
-    "model": 0.656
-   }
-  ],
+  "prop_recs": [],
   "link": "predictions/16round/mex-ecu/analysis.md",
   "markets": [
    [
     "Gana Mexico",
     0.369,
     "+132",
-    null
+    true
    ],
    [
     "Empate",
     0.327,
     "+194",
-    null
+    false
    ],
    [
     "Gana Ecuador",
     0.304,
     "+340",
-    null
+    false
    ],
    [
     "Doble oport. Mexico",
     0.696,
-    "-345",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Ecuador",
     0.631,
-    "-133",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.418,
-    "-139",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.174,
-    "+235",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.057,
-    "+660",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles Mexico",
     0.139,
-    "+201",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Ecuador",
-    0.542,
-    "-132",
-    null
+    "Over 1.5 goles Ecuador",
+    0.184,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.266,
-    "+148",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: John Yeboah o0.5 SoT",
     0.573,
     "+138",
-    null
+    true
    ]
-  ],
-  "caveat": "**λ 1.43 = partido cerrado, pocos tiros** → los overs o2.5 (3+) bajan; las líneas o1.5 son más seguras. Shooters data-validados (Quiñones 5,1,4 / Valencia 3.3). **Quiñones = pick** (consistente). **Valencia da +valor pero su 3.3 es outlier** (un juego de 7, otros 1 y 2) → sobrevaluado. Stake chico."
+  ]
  },
  {
   "match": "France vs Sweden",

@@ -195,48 +195,49 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **1X2/goles sugerido:** under @ +107 (+6%)
+🎯 **1X2/goles sugerido:** over @ +113 (+4%)
+
+💵 **Props recomendados:** ninguno
+
+⚠️ **Sin valor en props — PASO.** El tirador real de England es **Kane** (4.3/j: 7,3,3), pero está **bien preciado** (o2.5 @ -370 = modelo 78%, EV ~0). Los flags de 'valor' (Rashford) son el secundario mal-preciado; DR Congo (Mbuku/Wissa) es underdog trap. Confirma la lección: **el mercado es eficiente en quién dispara → props sin edge.** Único flag menor: Over 2.5 @ +113 (CLOV+ chico), pero partido de pocos goles (λ 1.74).
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana England | 66% | -312 | ⏳ |
+| Empate | 24% | +450 | ⏳ |
+| Gana DR Congo | 10% | +1650 | ⏳ |
+| Doble oport. England | 90% | -1667 | ⏳ |
+| Doble oport. DR Congo | 34% | +310 | ⏳ |
+| Over 1.5 goles | 52% | -278 | ⏳ |
+| Over 2.5 goles | 25% | +112 | ⏳ |
+| Over 3.5 goles | 10% | +290 | ⏳ |
+| Over 1.5 goles England | 35% | -179 | ⏳ |
+| Over 0.5 goles DR Congo | 39% | +154 | ⏳ |
+| BTTS (ambos marcan) | 28% | +190 | ⏳ |
+| Prop: Yoane Wissa o0.5 SoT | 65% | +105 | ⏳ |
+
+### Mexico vs Ecuador — 2026-06-30 19:00 · [análisis](predictions/16round/mex-ecu/analysis.md)
+
+✅ Jugado: **2-0** (home) · checks **7/11**
+
+🎯 **1X2/goles sugerido:** away @ +340 (+6%)
 
 💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana England | 66% | _(no fetcheado)_ | ⏳ |
-| Empate | 24% | _(no fetcheado)_ | ⏳ |
-| Gana DR Congo | 10% | _(no fetcheado)_ | ⏳ |
-| Doble oport. England | 90% | _(no fetcheado)_ | ⏳ |
-| Doble oport. DR Congo | 34% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 52% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 25% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 10% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles England | 35% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles DR Congo | 9% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 28% | _(no fetcheado)_ | ⏳ |
-
-### Mexico vs Ecuador — 2026-06-30 19:00 · [análisis](predictions/16round/mex-ecu/analysis.md)
-
-⏳ Por jugarse
-
-🎯 **1X2/goles sugerido:** away @ +340 (+6%)
-
-💵 **Props recomendados:** **Enner Valencia** o2.5 tiros @ +135 (modelo 58%) — **$300 MXN** · **Julian Quinones** o2.5 tiros @ -120 (modelo 66%) — **$300 MXN** · _total $600 MXN_
-
-⚠️ **λ 1.43 = partido cerrado, pocos tiros** → los overs o2.5 (3+) bajan; las líneas o1.5 son más seguras. Shooters data-validados (Quiñones 5,1,4 / Valencia 3.3). **Quiñones = pick** (consistente). **Valencia da +valor pero su 3.3 es outlier** (un juego de 7, otros 1 y 2) → sobrevaluado. Stake chico.
-
-| Mercado | Prob modelo | Odds | Check |
-|---|---|---|---|
-| Gana Mexico | 37% | +132 | ⏳ |
-| Empate | 33% | +194 | ⏳ |
-| Gana Ecuador | 30% | +340 | ⏳ |
-| Doble oport. Mexico | 70% | -345 | ⏳ |
-| Doble oport. Ecuador | 63% | -133 | ⏳ |
-| Over 1.5 goles | 42% | -139 | ⏳ |
-| Over 2.5 goles | 17% | +235 | ⏳ |
-| Over 3.5 goles | 6% | +660 | ⏳ |
-| Over 1.5 goles Mexico | 14% | +201 | ⏳ |
-| Over 0.5 goles Ecuador | 54% | -132 | ⏳ |
-| BTTS (ambos marcan) | 27% | +148 | ⏳ |
-| Prop: John Yeboah o0.5 SoT | 57% | +138 | ⏳ |
+| Gana Mexico | 37% | +132 | ✅ |
+| Empate | 33% | +194 | ❌ |
+| Gana Ecuador | 30% | +340 | ❌ |
+| Doble oport. Mexico | 70% | _(no fetcheado)_ | ✅ |
+| Doble oport. Ecuador | 63% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 42% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 17% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 6% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Mexico | 14% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Ecuador | 18% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 27% | _(no fetcheado)_ | ❌ |
+| Prop: John Yeboah o0.5 SoT | 57% | +138 | ✅ |
 
 ### France vs Sweden — 2026-06-30 15:00 · [análisis](predictions/16round/fra-swe/analysis.md)
 
