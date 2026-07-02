@@ -73,7 +73,7 @@
       "away_goals": 2,
       "result": "home",
       "source": "espn-scores",
-      "captured_at": "2026-07-01T17:05:49-06:00"
+      "captured_at": "2026-07-02T12:05:03-06:00"
     },
     "rich": {
       "espn_event_id": "760493",
@@ -352,7 +352,7 @@
           "sot_p90": 0.0
         }
       ],
-      "possession_home": 52.2,
+      "possession_home": 52.3,
       "shots_home": 19,
       "shots_on_target_home": 5,
       "corners_home": 4,
@@ -361,7 +361,7 @@
       "offsides_home": 2,
       "yellow_cards_home": 1,
       "red_cards_home": 0,
-      "possession_away": 47.8,
+      "possession_away": 47.7,
       "shots_away": 19,
       "shots_on_target_away": 5,
       "corners_away": 2,
@@ -371,7 +371,7 @@
       "yellow_cards_away": 1,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-07-01T17:05:57-06:00"
+      "captured_at": "2026-07-02T12:05:08-06:00"
     }
   },
   "scores": {

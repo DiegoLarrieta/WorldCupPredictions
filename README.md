@@ -149,28 +149,26 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### United States vs Bosnia and Herzegovina — 2026-07-01 18:00 · [análisis](predictions/16round/usa-bih/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **2-0** (home) · checks **9/11**
 
 🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
 💵 **Props recomendados:** ninguno
 
-⚠️ **Mayormente PASO.** USA favoritón (clasifica 84%) pero todo bien preciado. Props INAPOSTABLES: el mercado juicea a los tiradores de USA (Balogun o1.5 @ -833, Pulisic -435) → sin valor, no se replica el parlay Sarr+KDB. Goles (λ 3.04): mercado = modelo, sin edge. Único lean especulativo: Over 3.5 @ +190 (subestimamos goles + USA golea a Bosnia desesperada), pero chico.
-
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana United States | 70% | _(no fetcheado)_ | ⏳ |
-| Empate | 19% | _(no fetcheado)_ | ⏳ |
-| Gana Bosnia and Herzegovina | 11% | _(no fetcheado)_ | ⏳ |
-| Doble oport. United States | 89% | -1000 | ⏳ |
-| Doble oport. Bosnia and Herzegovina | 30% | +250 | ⏳ |
-| Over 1.5 goles | 81% | -455 | ⏳ |
-| Over 2.5 goles | 59% | -139 | ⏳ |
-| Over 3.5 goles | 36% | +190 | ⏳ |
-| Over 1.5 goles United States | 63% | -233 | ⏳ |
-| Over 0.5 goles Bosnia and Herzegovina | 59% | -125 | ⏳ |
-| BTTS (ambos marcan) | 53% | +104 | ⏳ |
-| Prop: Malik Tillman o0.5 SoT | 60% | -115 | ⏳ |
+| Gana United States | 70% | _(no fetcheado)_ | ✅ |
+| Empate | 19% | _(no fetcheado)_ | ❌ |
+| Gana Bosnia and Herzegovina | 11% | _(no fetcheado)_ | ❌ |
+| Doble oport. United States | 89% | _(no fetcheado)_ | ✅ |
+| Doble oport. Bosnia and Herzegovina | 30% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 81% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 59% | _(no fetcheado)_ | ❌ |
+| Over 3.5 goles | 36% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles United States | 63% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Bosnia and Herzegovina | 22% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 53% | _(no fetcheado)_ | ❌ |
+| Prop: Malik Tillman o0.5 SoT | 60% | -115 | ✅ |
 
 ### Belgium vs Senegal — 2026-07-01 14:00 · [análisis](predictions/16round/bel-sen/analysis.md)
 

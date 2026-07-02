@@ -1,0 +1,274 @@
+{
+  "match_key": "2026-07-02-uni-bos",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-02-uni-bos",
+    "date": "2026-07-02",
+    "home": "United States",
+    "away": "Bosnia and Herzegovina",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "United States vs Bosnia and Herzegovina",
+    "home": "United States",
+    "away": "Bosnia and Herzegovina",
+    "as_of": "2026-07-02",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.696,
+      0.191,
+      0.112
+    ],
+    "components": {
+      "dixon_coles": [
+        0.656,
+        0.206,
+        0.138
+      ],
+      "elo": [
+        0.675,
+        0.208,
+        0.118
+      ]
+    },
+    "expected_goals": {
+      "United States": 2.15,
+      "Bosnia and Herzegovina": 0.89
+    },
+    "over25": 0.587,
+    "btts": 0.528,
+    "top_scorelines": [
+      {
+        "score": "2-0",
+        "prob": 0.11
+      },
+      {
+        "score": "2-1",
+        "prob": 0.098
+      },
+      {
+        "score": "1-1",
+        "prob": 0.097
+      },
+      {
+        "score": "1-0",
+        "prob": 0.096
+      },
+      {
+        "score": "3-0",
+        "prob": 0.079
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-07-02T12:05:07-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760494",
+      "player_shots": [
+        {
+          "player": "Folarin Balogun",
+          "side": "home",
+          "team": "United States",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ermedin Demirovic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Malik Tillman",
+          "side": "home",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Kerim Alajbegovic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ermin Mahmic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 39.0,
+          "starter": false,
+          "shots_p90": 4.61,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Esmir Bajraktarevic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 39.5,
+          "starter": false,
+          "shots_p90": 2.28,
+          "sot_p90": 2.28
+        },
+        {
+          "player": "Alex Freeman",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Christian Pulisic",
+          "side": "home",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 87.4,
+          "starter": true,
+          "shots_p90": 1.03,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nikola Katic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.8,
+          "starter": true,
+          "shots_p90": 1.2,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Amar Dedic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Amar Memic",
+          "side": "away",
+          "team": "Bosnia-Herzegovina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 15.2,
+          "starter": false,
+          "shots_p90": 5.91,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 48.4,
+      "shots_home": 8,
+      "shots_on_target_home": 2,
+      "corners_home": 4,
+      "fouls_home": 7,
+      "saves_home": 3,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 1,
+      "possession_away": 51.6,
+      "shots_away": 10,
+      "shots_on_target_away": 3,
+      "corners_away": 3,
+      "fouls_away": 13,
+      "saves_away": 0,
+      "offsides_away": 0,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-02T12:05:15-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.05228,
+    "log_loss": 0.36141,
+    "brier": 0.14112,
+    "surprisal": 0.36141,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.05228,
+        "log_loss": 0.36141,
+        "brier": 0.14112,
+        "surprisal": 0.36141
+      },
+      "dixon_coles": {
+        "rps": 0.06869,
+        "log_loss": 0.42159,
+        "brier": 0.17982,
+        "surprisal": 0.42159
+      },
+      "elo": {
+        "rps": 0.05998,
+        "log_loss": 0.39404,
+        "brier": 0.16314,
+        "surprisal": 0.39404
+      }
+    }
+  }
+}

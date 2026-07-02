@@ -465,7 +465,7 @@
   "match": "United States vs Bosnia and Herzegovina",
   "kickoff": "2026-07-02 00:00",
   "date": "2026-07-02",
-  "result": "",
+  "result": "✅ Jugado: **2-0** (home) · checks **9/11**",
   "sug": "",
   "prop_recs": [],
   "link": "predictions/16round/usa-bih/analysis.md",
@@ -474,76 +474,75 @@
     "Gana United States",
     0.696,
     "_(no fetcheado)_",
-    null
+    true
    ],
    [
     "Empate",
     0.191,
     "_(no fetcheado)_",
-    null
+    false
    ],
    [
     "Gana Bosnia and Herzegovina",
     0.112,
     "_(no fetcheado)_",
-    null
+    false
    ],
    [
     "Doble oport. United States",
     0.887,
-    "-1000",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Bosnia and Herzegovina",
     0.303,
-    "+250",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.807,
-    "-455",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.586,
-    "-139",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 3.5 goles",
     0.362,
-    "+190",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles United States",
     0.633,
-    "-233",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Bosnia and Herzegovina",
-    0.589,
-    "-125",
-    null
+    "Over 1.5 goles Bosnia and Herzegovina",
+    0.224,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.528,
-    "+104",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: Malik Tillman o0.5 SoT",
     0.596,
     "-115",
-    null
+    true
    ]
-  ],
-  "caveat": "**Mayormente PASO.** USA favoritón (clasifica 84%) pero todo bien preciado. Props INAPOSTABLES: el mercado juicea a los tiradores de USA (Balogun o1.5 @ -833, Pulisic -435) → sin valor, no se replica el parlay Sarr+KDB. Goles (λ 3.04): mercado = modelo, sin edge. Único lean especulativo: Over 3.5 @ +190 (subestimamos goles + USA golea a Bosnia desesperada), pero chico."
+  ]
  },
  {
   "match": "Belgium vs Senegal",

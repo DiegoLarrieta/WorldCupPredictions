@@ -1092,3 +1092,14 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Yaimar Medina,1,0,0,0,False
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Kevin Rodríguez,1,0,0,0,False
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Jordy Caicedo,1,0,0,0,False
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,home,United States,Folarin Balogun,4,1,1,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Ermedin Demirovic,2,2,0,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,home,United States,Malik Tillman,2,1,1,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Kerim Alajbegovic,2,0,0,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Ermin Mahmic,2,0,0,0,False
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Esmir Bajraktarevic,1,1,0,0,False
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,home,United States,Alex Freeman,1,0,0,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,home,United States,Christian Pulisic,1,0,0,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Nikola Katic,1,0,0,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Amar Dedic,1,0,0,0,True
+2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Amar Memic,1,0,0,0,False
