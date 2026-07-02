@@ -388,7 +388,7 @@
   "match": "Spain vs Austria",
   "kickoff": "2026-07-02 19:00",
   "date": "2026-07-02",
-  "result": "",
+  "result": "✅ Jugado: **3-0** (home) · checks **10/11**",
   "sug": "home @ +340 (+233%)",
   "prop_recs": [],
   "link": "predictions/16round/esp-aut/analysis.md",
@@ -397,67 +397,67 @@
     "Gana Spain",
     0.704,
     "+340",
-    null
+    true
    ],
    [
     "Empate",
     0.194,
     "+485",
-    null
+    false
    ],
    [
     "Gana Austria",
     0.102,
     "+1200",
-    null
+    false
    ],
    [
     "Doble oport. Spain",
     0.898,
-    "-1250",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Doble oport. Austria",
     0.296,
-    "+300",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Over 1.5 goles",
     0.727,
-    "-417",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 2.5 goles",
     0.474,
-    "-133",
-    null
+    "_(no fetcheado)_",
+    true
    ],
    [
     "Over 3.5 goles",
     0.257,
-    "+198",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
-    "Over 2.5 goles Spain",
-    0.261,
-    "+148",
-    null
+    "Over 1.5 goles Spain",
+    0.528,
+    "_(no fetcheado)_",
+    true
    ],
    [
-    "Over 0.5 goles Austria",
-    0.551,
-    "-102",
-    null
+    "Over 1.5 goles Austria",
+    0.191,
+    "_(no fetcheado)_",
+    false
    ],
    [
     "BTTS (ambos marcan)",
     0.464,
-    "+120",
-    null
+    "_(no fetcheado)_",
+    false
    ],
    [
     "Prop: Michael Gregoritsch o0.5 SoT",
@@ -465,8 +465,7 @@
     "+130",
     null
    ]
-  ],
-  "caveat": "**Mayormente PASO (mismatch de favorito, como USA-Bosnia).** Spain clasifica 84% (juice). Props sin spot: Spain juiceado (Yamal o1.5 @ -2000, Oyarzabal -625); Austria Gregoritsch +100 = underdog trap. NO se replica el Sarr+KDB (eso fue partido parejo). Goles: modelo 47% vs mercado 57% en O2.5 — no paso el under con confianza (subestimamos goles + Austria debe atacar), pero ~fair. Único lean chico: Over 2.5 @ -133."
+  ]
  },
  {
   "match": "United States vs Bosnia and Herzegovina",

@@ -1092,6 +1092,19 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Yaimar Medina,1,0,0,0,False
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Kevin Rodríguez,1,0,0,0,False
 2026-07-01-mex-ecu,2026-07-01,Mexico vs Ecuador,away,Ecuador,Jordy Caicedo,1,0,0,0,False
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Mikel Oyarzabal,6,4,2,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Lamine Yamal,6,4,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Dani Olmo,3,0,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Álex Baena,2,1,0,1,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Aymeric Laporte,2,0,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Ferran Torres,2,0,0,0,False
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Pedro Porro,1,1,1,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,home,Spain,Rodri,1,0,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,away,Austria,David Alaba,1,0,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,away,Austria,Stefan Posch,1,0,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,away,Austria,Nicolas Seiwald,1,0,0,0,True
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,away,Austria,Carney Chukwuemeka,1,0,0,0,False
+2026-07-02-spa-aus,2026-07-02,Spain vs Austria,away,Austria,Sasa Kalajdzic,1,0,0,0,False
 2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,home,United States,Folarin Balogun,4,1,1,0,True
 2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Ermedin Demirovic,2,2,0,0,True
 2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,home,United States,Malik Tillman,2,1,1,0,True

@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-07-02-spa-aus",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-02-spa-aus",
+    "date": "2026-07-02",
+    "home": "Spain",
+    "away": "Austria",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "16 knockout",
+    "group": null
+  },
+  "prediction": {
+    "match": "Spain vs Austria",
+    "home": "Spain",
+    "away": "Austria",
+    "as_of": "2026-07-02",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.704,
+      0.194,
+      0.102
+    ],
+    "components": {
+      "dixon_coles": [
+        0.598,
+        0.244,
+        0.158
+      ],
+      "elo": [
+        0.743,
+        0.177,
+        0.079
+      ]
+    },
+    "expected_goals": {
+      "Spain": 1.77,
+      "Austria": 0.8
+    },
+    "over25": 0.474,
+    "btts": 0.464,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.128
+      },
+      {
+        "score": "2-0",
+        "prob": 0.12
+      },
+      {
+        "score": "1-1",
+        "prob": 0.116
+      },
+      {
+        "score": "2-1",
+        "prob": 0.096
+      },
+      {
+        "score": "0-0",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-07-02T16:08:33-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760497",
+      "player_shots": [
+        {
+          "player": "Mikel Oyarzabal",
+          "side": "home",
+          "team": "Spain",
+          "shots": 6,
+          "on_target": 4,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 6.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Lamine Yamal",
+          "side": "home",
+          "team": "Spain",
+          "shots": 6,
+          "on_target": 4,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.9,
+          "starter": true,
+          "shots_p90": 6.36,
+          "sot_p90": 4.24
+        },
+        {
+          "player": "Dani Olmo",
+          "side": "home",
+          "team": "Spain",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.1,
+          "starter": true,
+          "shots_p90": 3.85,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Álex Baena",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 70.0,
+          "starter": true,
+          "shots_p90": 2.57,
+          "sot_p90": 1.29
+        },
+        {
+          "player": "Aymeric Laporte",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ferran Torres",
+          "side": "home",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 20.0,
+          "starter": false,
+          "shots_p90": 9.01,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedro Porro",
+          "side": "home",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rodri",
+          "side": "home",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "David Alaba",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Stefan Posch",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.0,
+          "starter": true,
+          "shots_p90": 1.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nicolas Seiwald",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Carney Chukwuemeka",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Sasa Kalajdzic",
+          "side": "away",
+          "team": "Austria",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 30.9,
+          "starter": false,
+          "shots_p90": 2.92,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 64.5,
+      "shots_home": 23,
+      "shots_on_target_home": 10,
+      "corners_home": 9,
+      "fouls_home": 8,
+      "saves_home": 0,
+      "offsides_home": 2,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 35.5,
+      "shots_away": 5,
+      "shots_on_target_away": 0,
+      "corners_away": 0,
+      "fouls_away": 15,
+      "saves_away": 6,
+      "offsides_away": 5,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-02T16:08:36-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.04901,
+    "log_loss": 0.35098,
+    "brier": 0.13566,
+    "surprisal": 0.35098,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.04901,
+        "log_loss": 0.35098,
+        "brier": 0.13566,
+        "surprisal": 0.35098
+      },
+      "dixon_coles": {
+        "rps": 0.09328,
+        "log_loss": 0.51416,
+        "brier": 0.2461,
+        "surprisal": 0.51416
+      },
+      "elo": {
+        "rps": 0.03596,
+        "log_loss": 0.29606,
+        "brier": 0.10331,
+        "surprisal": 0.29606
+      }
+    }
+  }
+}

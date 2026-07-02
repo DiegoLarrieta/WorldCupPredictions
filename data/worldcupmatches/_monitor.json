@@ -1,30 +1,30 @@
 {
-  "n": 80,
+  "n": 81,
   "per_model": {
     "ensemble": {
-      "rps": 0.16338,
-      "log_loss": 0.88866,
-      "brier": 0.52985
+      "rps": 0.16197,
+      "log_loss": 0.88202,
+      "brier": 0.52499
     },
     "dixon_coles": {
-      "rps": 0.16465,
-      "log_loss": 0.88863,
-      "brier": 0.52943
+      "rps": 0.16377,
+      "log_loss": 0.88401,
+      "brier": 0.52593
     },
     "elo": {
-      "rps": 0.16809,
-      "log_loss": 0.90772,
-      "brier": 0.54146
+      "rps": 0.16646,
+      "log_loss": 0.90018,
+      "brier": 0.53605
     }
   },
   "vs_baseline": {
     "uniform": {
-      "rps": 0.23194,
+      "rps": 0.23251,
       "log_loss": 1.09861
     },
     "ensemble": {
-      "rps": 0.16338,
-      "log_loss": 0.88866
+      "rps": 0.16197,
+      "log_loss": 0.88202
     }
   },
   "calibration": [
@@ -42,9 +42,9 @@
     },
     {
       "bin": "0.60-0.73",
-      "n": 26,
-      "predicted": 0.666,
-      "actual": 0.731
+      "n": 27,
+      "predicted": 0.668,
+      "actual": 0.741
     },
     {
       "bin": "0.73-0.87",

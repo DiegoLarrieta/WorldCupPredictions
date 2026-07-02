@@ -127,27 +127,25 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ### Spain vs Austria — 2026-07-02 13:00 · [análisis](predictions/16round/esp-aut/analysis.md)
 
-⏳ Por jugarse
+✅ Jugado: **3-0** (home) · checks **10/11**
 
 🎯 **1X2/goles sugerido:** home @ +340 (+233%)
 
 💵 **Props recomendados:** ninguno
 
-⚠️ **Mayormente PASO (mismatch de favorito, como USA-Bosnia).** Spain clasifica 84% (juice). Props sin spot: Spain juiceado (Yamal o1.5 @ -2000, Oyarzabal -625); Austria Gregoritsch +100 = underdog trap. NO se replica el Sarr+KDB (eso fue partido parejo). Goles: modelo 47% vs mercado 57% en O2.5 — no paso el under con confianza (subestimamos goles + Austria debe atacar), pero ~fair. Único lean chico: Over 2.5 @ -133.
-
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Spain | 70% | +340 | ⏳ |
-| Empate | 19% | +485 | ⏳ |
-| Gana Austria | 10% | +1200 | ⏳ |
-| Doble oport. Spain | 90% | -1250 | ⏳ |
-| Doble oport. Austria | 30% | +300 | ⏳ |
-| Over 1.5 goles | 73% | -417 | ⏳ |
-| Over 2.5 goles | 47% | -133 | ⏳ |
-| Over 3.5 goles | 26% | +198 | ⏳ |
-| Over 2.5 goles Spain | 26% | +148 | ⏳ |
-| Over 0.5 goles Austria | 55% | -102 | ⏳ |
-| BTTS (ambos marcan) | 46% | +120 | ⏳ |
+| Gana Spain | 70% | +340 | ✅ |
+| Empate | 19% | +485 | ❌ |
+| Gana Austria | 10% | +1200 | ❌ |
+| Doble oport. Spain | 90% | _(no fetcheado)_ | ✅ |
+| Doble oport. Austria | 30% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles | 73% | _(no fetcheado)_ | ✅ |
+| Over 2.5 goles | 47% | _(no fetcheado)_ | ✅ |
+| Over 3.5 goles | 26% | _(no fetcheado)_ | ❌ |
+| Over 1.5 goles Spain | 53% | _(no fetcheado)_ | ✅ |
+| Over 1.5 goles Austria | 19% | _(no fetcheado)_ | ❌ |
+| BTTS (ambos marcan) | 46% | _(no fetcheado)_ | ❌ |
 | Prop: Michael Gregoritsch o0.5 SoT | 54% | +130 | ⏳ |
 
 ### United States vs Bosnia and Herzegovina — 2026-07-01 18:00 · [análisis](predictions/16round/usa-bih/analysis.md)
