@@ -312,77 +312,93 @@
   "kickoff": "2026-07-02 23:00",
   "date": "2026-07-02",
   "result": "",
-  "sug": "",
-  "prop_recs": [],
+  "sug": "draw @ +280 (+4%)",
+  "prop_recs": [
+   {
+    "player": "Ronaldo + Bruno",
+    "market": "o1.5 tiros (parlay)",
+    "line": 1.5,
+    "price": 1.66,
+    "model": 0.72,
+    "stake": 2000
+   }
+  ],
   "link": "predictions/16round/por-cro/analysis.md",
   "markets": [
    [
     "Gana Portugal",
     0.566,
-    "_(no fetcheado)_",
+    "-133",
     null
    ],
    [
     "Empate",
     0.239,
-    "_(no fetcheado)_",
+    "+280",
     null
    ],
    [
     "Gana Croatia",
     0.194,
-    "_(no fetcheado)_",
+    "+500",
     null
    ],
    [
     "Doble oport. Portugal",
     0.805,
-    "_(no fetcheado)_",
+    "-526",
     null
    ],
    [
     "Doble oport. Croatia",
     0.433,
-    "_(no fetcheado)_",
+    "+134",
     null
    ],
    [
     "Over 1.5 goles",
     0.762,
-    "_(no fetcheado)_",
+    "-357",
     null
    ],
    [
     "Over 2.5 goles",
     0.521,
-    "_(no fetcheado)_",
+    "-115",
     null
    ],
    [
     "Over 3.5 goles",
     0.299,
-    "_(no fetcheado)_",
+    "+220",
     null
    ],
    [
     "Over 1.5 goles Portugal",
     0.534,
-    "_(no fetcheado)_",
+    "-133",
     null
    ],
    [
-    "Over 1.5 goles Croatia",
-    0.253,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Croatia",
+    0.621,
+    "-179",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.525,
-    "_(no fetcheado)_",
+    "-125",
+    null
+   ],
+   [
+    "Prop: Ante Budimir o0.5 SoT",
+    0.609,
+    "-133",
     null
    ]
-  ]
+  ],
+  "caveat": "**SÍ hay spot (partido parejo, tipo Sarr+KDB).** Tiradores VALIDADOS: Ronaldo (3,7,3 → o1.5 3/3) + Bruno Fernandes (2,2,2 → o1.5 3/3). Parlay Ronaldo+Bruno o1.5 @ ~-152, combinada ~72% = +EV. **PASO en Neto (+138) y Budimir (-147): SIN data WC = trampa de tasa-club (error Dembélé).** Goles Over 2.5 @ -115 lean-over secundario."
  },
  {
   "match": "Spain vs Austria",

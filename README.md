@@ -107,23 +107,26 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** draw @ +280 (+4%)
 
-💵 **Props recomendados:** ninguno
+💵 **Props recomendados:** **Ronaldo + Bruno** o1.5 tiros (parlay) @ -152 (modelo 72%) — **$2,000 MXN**
+
+⚠️ **SÍ hay spot (partido parejo, tipo Sarr+KDB).** Tiradores VALIDADOS: Ronaldo (3,7,3 → o1.5 3/3) + Bruno Fernandes (2,2,2 → o1.5 3/3). Parlay Ronaldo+Bruno o1.5 @ ~-152, combinada ~72% = +EV. **PASO en Neto (+138) y Budimir (-147): SIN data WC = trampa de tasa-club (error Dembélé).** Goles Over 2.5 @ -115 lean-over secundario.
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Portugal | 57% | _(no fetcheado)_ | ⏳ |
-| Empate | 24% | _(no fetcheado)_ | ⏳ |
-| Gana Croatia | 19% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Portugal | 80% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Croatia | 43% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 76% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 52% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 30% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Portugal | 53% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Croatia | 25% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 52% | _(no fetcheado)_ | ⏳ |
+| Gana Portugal | 57% | -133 | ⏳ |
+| Empate | 24% | +280 | ⏳ |
+| Gana Croatia | 19% | +500 | ⏳ |
+| Doble oport. Portugal | 80% | -526 | ⏳ |
+| Doble oport. Croatia | 43% | +134 | ⏳ |
+| Over 1.5 goles | 76% | -357 | ⏳ |
+| Over 2.5 goles | 52% | -115 | ⏳ |
+| Over 3.5 goles | 30% | +220 | ⏳ |
+| Over 1.5 goles Portugal | 53% | -133 | ⏳ |
+| Over 0.5 goles Croatia | 62% | -179 | ⏳ |
+| BTTS (ambos marcan) | 52% | -125 | ⏳ |
+| Prop: Ante Budimir o0.5 SoT | 61% | -133 | ⏳ |
 
 ### Spain vs Austria — 2026-07-02 13:00 · [análisis](predictions/16round/esp-aut/analysis.md)
 
