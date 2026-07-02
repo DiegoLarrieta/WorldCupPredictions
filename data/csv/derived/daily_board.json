@@ -389,77 +389,84 @@
   "kickoff": "2026-07-02 19:00",
   "date": "2026-07-02",
   "result": "",
-  "sug": "",
+  "sug": "home @ +340 (+233%)",
   "prop_recs": [],
   "link": "predictions/16round/esp-aut/analysis.md",
   "markets": [
    [
     "Gana Spain",
     0.704,
-    "_(no fetcheado)_",
+    "+340",
     null
    ],
    [
     "Empate",
     0.194,
-    "_(no fetcheado)_",
+    "+485",
     null
    ],
    [
     "Gana Austria",
     0.102,
-    "_(no fetcheado)_",
+    "+1200",
     null
    ],
    [
     "Doble oport. Spain",
     0.898,
-    "_(no fetcheado)_",
+    "-1250",
     null
    ],
    [
     "Doble oport. Austria",
     0.296,
-    "_(no fetcheado)_",
+    "+300",
     null
    ],
    [
     "Over 1.5 goles",
     0.727,
-    "_(no fetcheado)_",
+    "-417",
     null
    ],
    [
     "Over 2.5 goles",
     0.474,
-    "_(no fetcheado)_",
+    "-133",
     null
    ],
    [
     "Over 3.5 goles",
     0.257,
-    "_(no fetcheado)_",
+    "+198",
     null
    ],
    [
-    "Over 1.5 goles Spain",
-    0.528,
-    "_(no fetcheado)_",
+    "Over 2.5 goles Spain",
+    0.261,
+    "+148",
     null
    ],
    [
-    "Over 1.5 goles Austria",
-    0.191,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Austria",
+    0.551,
+    "-102",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.464,
-    "_(no fetcheado)_",
+    "+120",
+    null
+   ],
+   [
+    "Prop: Michael Gregoritsch o0.5 SoT",
+    0.544,
+    "+130",
     null
    ]
-  ]
+  ],
+  "caveat": "**Mayormente PASO (mismatch de favorito, como USA-Bosnia).** Spain clasifica 84% (juice). Props sin spot: Spain juiceado (Yamal o1.5 @ -2000, Oyarzabal -625); Austria Gregoritsch +100 = underdog trap. NO se replica el Sarr+KDB (eso fue partido parejo). Goles: modelo 47% vs mercado 57% en O2.5 — no paso el under con confianza (subestimamos goles + Austria debe atacar), pero ~fair. Único lean chico: Over 2.5 @ -133."
  },
  {
   "match": "United States vs Bosnia and Herzegovina",
