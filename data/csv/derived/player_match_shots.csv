@@ -1116,3 +1116,42 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Nikola Katic,1,0,0,0,True
 2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Amar Dedic,1,0,0,0,True
 2026-07-02-uni-bos,2026-07-02,United States vs Bosnia and Herzegovina,away,Bosnia-Herzegovina,Amar Memic,1,0,0,0,False
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,away,Egypt,Emam Ashour,5,1,1,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,away,Egypt,Marawan Attia,3,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,away,Egypt,Mohamed Salah,2,1,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Nestory Irankunda,2,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Connor Metcalfe,2,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Cristian Volpato,2,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Ajdin Hrustic,2,0,0,0,False
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Mohamed Toure,2,0,0,0,False
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,away,Egypt,Omar Marmoush,2,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Aziz Behich,1,1,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,away,Egypt,Ramy Rabia,1,1,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Alessandro Circati,1,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Aiden O'Neill,1,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Jackson Irvine,1,0,0,0,True
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Kai Trewin,1,0,0,0,False
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,home,Australia,Awer Mabil,1,0,0,0,False
+2026-07-03-aus-egy,2026-07-03,Australia vs Egypt,away,Egypt,Haissem Hassan,1,0,0,0,False
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,away,Algeria,Ibrahim Maza,3,0,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Denis Zakaria,2,1,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Breel Embolo,2,1,1,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Fabian Rieder,2,1,0,0,False
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,away,Algeria,Houssem Aouar,2,1,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Remo Freuler,1,1,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Dan Ndoye,1,1,1,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,away,Algeria,Farès Chaïbi,1,1,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Nico Elvedi,1,0,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Ricardo Rodríguez,1,0,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,home,Switzerland,Noah Okafor,1,0,0,0,False
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,away,Algeria,Riyad Mahrez,1,0,0,0,True
+2026-07-03-swi-alg,2026-07-03,Switzerland vs Algeria,away,Algeria,Jaouen Hadjam,1,0,0,0,False
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,away,Morocco,Soufiane Rahimi,3,2,1,0,False
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Jonathan David,3,1,0,0,True
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,away,Morocco,Azzedine Ounahi,2,2,2,0,True
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Tani Oluwaseyi,2,1,0,0,True
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Tajon Buchanan,1,1,0,0,True
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Luc de Fougerolles,1,0,0,0,True
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Alistair Johnston,1,0,0,0,True
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Jonathan Osorio,1,0,0,0,False
+2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Jayden Nelson,1,0,0,0,False

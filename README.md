@@ -15,6 +15,51 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### France vs Paraguay — 2026-07-04 15:00 · [análisis](predictions/8round/fra-par/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** **Diego Alexander Gomez Amarilla** o0.5 tiros @ -169 (modelo 74%) — **$300 MXN** · _total $300 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana France | 70% | -455 | ⏳ |
+| Empate | 20% | +665 | ⏳ |
+| Gana Paraguay | 10% | +2199 | ⏳ |
+| Doble oport. France | 90% | -2500 | ⏳ |
+| Doble oport. Paraguay | 30% | +450 | ⏳ |
+| Over 1.5 goles | 67% | -476 | ⏳ |
+| Over 2.5 goles | 40% | -141 | ⏳ |
+| Over 3.5 goles | 20% | +186 | ⏳ |
+| Over 2.5 goles France | 21% | +109 | ⏳ |
+| Over 0.5 goles Paraguay | 52% | +140 | ⏳ |
+| BTTS (ambos marcan) | 42% | +154 | ⏳ |
+| Prop: Kylian Mbappe o0.5 SoT | 79% | -2000 | ⏳ |
+
+### Canada vs Morocco — 2026-07-04 11:00 · [análisis](predictions/8round/can-mar/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** ninguno
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Canada | 21% | _(no fetcheado)_ | ⏳ |
+| Empate | 30% | _(no fetcheado)_ | ⏳ |
+| Gana Morocco | 49% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Canada | 51% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Morocco | 79% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles | 49% | _(no fetcheado)_ | ⏳ |
+| Over 2.5 goles | 23% | _(no fetcheado)_ | ⏳ |
+| Over 3.5 goles | 9% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Canada | 14% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Morocco | 27% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 31% | _(no fetcheado)_ | ⏳ |
+
 ### Colombia vs Ghana — 2026-07-03 19:30 · [análisis](predictions/16round/col-gha/analysis.md)
 
 ⏳ Por jugarse
@@ -43,21 +88,22 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
 
-💵 **Props recomendados:** ninguno
+💵 **Props recomendados:** **Ryan Mendes da Graca** o0.5 tiros @ -182 (modelo 80%) — **$300 MXN** · _total $300 MXN_
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Argentina | 88% | _(no fetcheado)_ | ⏳ |
-| Empate | 10% | _(no fetcheado)_ | ⏳ |
-| Gana Cape Verde | 2% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Argentina | 98% | _(no fetcheado)_ | ⏳ |
-| Doble oport. Cape Verde | 12% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles | 73% | _(no fetcheado)_ | ⏳ |
-| Over 2.5 goles | 48% | _(no fetcheado)_ | ⏳ |
-| Over 3.5 goles | 26% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Argentina | 67% | _(no fetcheado)_ | ⏳ |
-| Over 1.5 goles Cape Verde | 3% | _(no fetcheado)_ | ⏳ |
-| BTTS (ambos marcan) | 22% | _(no fetcheado)_ | ⏳ |
+| Gana Argentina | 88% | -625 | ⏳ |
+| Empate | 10% | +880 | ⏳ |
+| Gana Cape Verde | 2% | +2903 | ⏳ |
+| Doble oport. Argentina | 98% | -3333 | ⏳ |
+| Doble oport. Cape Verde | 12% | +620 | ⏳ |
+| Over 1.5 goles | 73% | -500 | ⏳ |
+| Over 2.5 goles | 48% | -154 | ⏳ |
+| Over 3.5 goles | 26% | +184 | ⏳ |
+| Over 2.5 goles Argentina | 41% | -130 | ⏳ |
+| Over 0.5 goles Cape Verde | 24% | +178 | ⏳ |
+| BTTS (ambos marcan) | 22% | +220 | ⏳ |
+| Prop: Sidny Lopes Cabral o0.5 SoT | 47% | +550 | ⏳ |
 
 ### Australia vs Egypt — 2026-07-03 12:00 · [análisis](predictions/16round/aus-egy/analysis.md)
 
@@ -85,15 +131,15 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 ⏳ Por jugarse
 
-🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+🎯 **1X2/goles sugerido:** away @ +365 (+3%)
 
 💵 **Props recomendados:** ninguno
 
 | Mercado | Prob modelo | Odds | Check |
 |---|---|---|---|
-| Gana Switzerland | 44% | _(no fetcheado)_ | ⏳ |
-| Empate | 27% | _(no fetcheado)_ | ⏳ |
-| Gana Algeria | 30% | _(no fetcheado)_ | ⏳ |
+| Gana Switzerland | 44% | +105 | ⏳ |
+| Empate | 27% | +237 | ⏳ |
+| Gana Algeria | 30% | +365 | ⏳ |
 | Doble oport. Switzerland | 70% | _(no fetcheado)_ | ⏳ |
 | Doble oport. Algeria | 56% | _(no fetcheado)_ | ⏳ |
 | Over 1.5 goles | 75% | _(no fetcheado)_ | ⏳ |
@@ -109,7 +155,7 @@ _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds A
 
 🎯 **1X2/goles sugerido:** draw @ +280 (+4%)
 
-💵 **Props recomendados:** **Ronaldo + Bruno** o1.5 tiros (parlay) @ -152 (modelo 72%) — **$2,000 MXN**
+💵 **Props recomendados:** **Ronaldo + Bruno** o1.5 o1.5 tiros (parlay) @ -152 (modelo 72%) — **$2,000 MXN** · _total $2,000 MXN_
 
 ⚠️ **SÍ hay spot (partido parejo, tipo Sarr+KDB).** Tiradores VALIDADOS: Ronaldo (3,7,3 → o1.5 3/3) + Bruno Fernandes (2,2,2 → o1.5 3/3). Parlay Ronaldo+Bruno o1.5 @ ~-152, combinada ~72% = +EV. **PASO en Neto (+138) y Budimir (-147): SIN data WC = trampa de tasa-club (error Dembélé).** Goles Over 2.5 @ -115 lean-over secundario.
 

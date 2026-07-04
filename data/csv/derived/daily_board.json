@@ -1,5 +1,174 @@
 [
  {
+  "match": "France vs Paraguay",
+  "kickoff": "2026-07-04 21:00",
+  "date": "2026-07-04",
+  "result": "",
+  "sug": "",
+  "prop_recs": [
+   {
+    "player": "Diego Alexander Gomez Amarilla",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.59,
+    "stake": 300,
+    "model": 0.735
+   }
+  ],
+  "link": "predictions/8round/fra-par/analysis.md",
+  "markets": [
+   [
+    "Gana France",
+    0.697,
+    "-455",
+    null
+   ],
+   [
+    "Empate",
+    0.202,
+    "+665",
+    null
+   ],
+   [
+    "Gana Paraguay",
+    0.102,
+    "+2199",
+    null
+   ],
+   [
+    "Doble oport. France",
+    0.899,
+    "-2500",
+    null
+   ],
+   [
+    "Doble oport. Paraguay",
+    0.304,
+    "+450",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.669,
+    "-476",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.404,
+    "-141",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.201,
+    "+186",
+    null
+   ],
+   [
+    "Over 2.5 goles France",
+    0.209,
+    "+109",
+    null
+   ],
+   [
+    "Over 0.5 goles Paraguay",
+    0.518,
+    "+140",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.416,
+    "+154",
+    null
+   ],
+   [
+    "Prop: Kylian Mbappe o0.5 SoT",
+    0.792,
+    "-2000",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Canada vs Morocco",
+  "kickoff": "2026-07-04 17:00",
+  "date": "2026-07-04",
+  "result": "",
+  "sug": "",
+  "prop_recs": [],
+  "link": "predictions/8round/can-mar/analysis.md",
+  "markets": [
+   [
+    "Gana Canada",
+    0.213,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.3,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana Morocco",
+    0.487,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Canada",
+    0.513,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Morocco",
+    0.787,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.494,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.232,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.087,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Canada",
+    0.139,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Morocco",
+    0.268,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.31,
+    "_(no fetcheado)_",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Colombia vs Ghana",
   "kickoff": "2026-07-04 01:30",
   "date": "2026-07-04",
@@ -82,73 +251,88 @@
   "date": "2026-07-03",
   "result": "",
   "sug": "",
-  "prop_recs": [],
+  "prop_recs": [
+   {
+    "player": "Ryan Mendes da Graca",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.55,
+    "stake": 300,
+    "model": 0.805
+   }
+  ],
   "link": "predictions/16round/arg-cpv/analysis.md",
   "markets": [
    [
     "Gana Argentina",
     0.881,
-    "_(no fetcheado)_",
+    "-625",
     null
    ],
    [
     "Empate",
     0.101,
-    "_(no fetcheado)_",
+    "+880",
     null
    ],
    [
     "Gana Cape Verde",
     0.018,
-    "_(no fetcheado)_",
+    "+2903",
     null
    ],
    [
     "Doble oport. Argentina",
     0.982,
-    "_(no fetcheado)_",
+    "-3333",
     null
    ],
    [
     "Doble oport. Cape Verde",
     0.119,
-    "_(no fetcheado)_",
+    "+620",
     null
    ],
    [
     "Over 1.5 goles",
     0.729,
-    "_(no fetcheado)_",
+    "-500",
     null
    ],
    [
     "Over 2.5 goles",
     0.477,
-    "_(no fetcheado)_",
+    "-154",
     null
    ],
    [
     "Over 3.5 goles",
     0.26,
-    "_(no fetcheado)_",
+    "+184",
     null
    ],
    [
-    "Over 1.5 goles Argentina",
-    0.671,
-    "_(no fetcheado)_",
+    "Over 2.5 goles Argentina",
+    0.407,
+    "-130",
     null
    ],
    [
-    "Over 1.5 goles Cape Verde",
-    0.031,
-    "_(no fetcheado)_",
+    "Over 0.5 goles Cape Verde",
+    0.237,
+    "+178",
     null
    ],
    [
     "BTTS (ambos marcan)",
     0.217,
-    "_(no fetcheado)_",
+    "+220",
+    null
+   ],
+   [
+    "Prop: Sidny Lopes Cabral o0.5 SoT",
+    0.468,
+    "+550",
     null
    ]
   ]
@@ -235,26 +419,26 @@
   "kickoff": "2026-07-03 03:00",
   "date": "2026-07-03",
   "result": "",
-  "sug": "",
+  "sug": "away @ +365 (+3%)",
   "prop_recs": [],
   "link": "predictions/16round/sui-alg/analysis.md",
   "markets": [
    [
     "Gana Switzerland",
     0.437,
-    "_(no fetcheado)_",
+    "+105",
     null
    ],
    [
     "Empate",
     0.267,
-    "_(no fetcheado)_",
+    "+237",
     null
    ],
    [
     "Gana Algeria",
     0.296,
-    "_(no fetcheado)_",
+    "+365",
     null
    ],
    [
