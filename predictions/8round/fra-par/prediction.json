@@ -1,0 +1,68 @@
+{
+  "match": "France vs Paraguay",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-04",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "France": 0.697,
+      "Draw": 0.202,
+      "Paraguay": 0.102
+    },
+    "ensemble_uncalibrated": {
+      "France": 0.667,
+      "Draw": 0.217,
+      "Paraguay": 0.117
+    },
+    "dixon_coles": {
+      "France": 0.57,
+      "Draw": 0.266,
+      "Paraguay": 0.164
+    },
+    "elo": {
+      "France": 0.757,
+      "Draw": 0.171,
+      "Paraguay": 0.072
+    }
+  },
+  "elo": {
+    "France": 2203,
+    "Paraguay": 1872
+  },
+  "expected_goals": {
+    "France": 1.57,
+    "Paraguay": 0.73
+  },
+  "over_under_2_5": {
+    "over": 0.404,
+    "under": 0.596
+  },
+  "btts": 0.416,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.151
+    },
+    {
+      "score": "2-0",
+      "prob": 0.124
+    },
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "0-0",
+      "prob": 0.107
+    },
+    {
+      "score": "2-1",
+      "prob": 0.09
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}
