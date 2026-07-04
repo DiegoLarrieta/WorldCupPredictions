@@ -1,0 +1,76 @@
+{
+  "match": "Canada vs Morocco",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-04",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Canada": 0.213,
+      "Draw": 0.3,
+      "Morocco": 0.487
+    },
+    "ensemble_uncalibrated": {
+      "Canada": 0.223,
+      "Draw": 0.305,
+      "Morocco": 0.473
+    },
+    "dixon_coles": {
+      "Canada": 0.221,
+      "Draw": 0.352,
+      "Morocco": 0.427
+    },
+    "elo": {
+      "Canada": 0.224,
+      "Draw": 0.26,
+      "Morocco": 0.515
+    }
+  },
+  "elo": {
+    "Canada": 1880,
+    "Morocco": 2032
+  },
+  "expected_goals": {
+    "Canada": 0.65,
+    "Morocco": 1.01
+  },
+  "over_under_2_5": {
+    "over": 0.231,
+    "under": 0.769
+  },
+  "btts": 0.31,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.198
+    },
+    {
+      "score": "0-1",
+      "prob": 0.185
+    },
+    {
+      "score": "1-1",
+      "prob": 0.132
+    },
+    {
+      "score": "1-0",
+      "prob": 0.115
+    },
+    {
+      "score": "0-2",
+      "prob": 0.098
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-3",
+    "result": "away",
+    "scored_at": "2026-07-04T14:22:30-06:00",
+    "rps": 0.15427,
+    "log_loss": 0.71949,
+    "brier": 0.39854,
+    "surprisal": 0.71949
+  }
+}
