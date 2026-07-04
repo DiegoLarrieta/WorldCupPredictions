@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-07-03-aus-egy",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-03-aus-egy",
+    "date": "2026-07-03",
+    "home": "Australia",
+    "away": "Egypt",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r32",
+    "group": null
+  },
+  "prediction": {
+    "match": "Australia vs Egypt",
+    "home": "Australia",
+    "away": "Egypt",
+    "as_of": "2026-07-03",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.455,
+      0.311,
+      0.234
+    ],
+    "components": {
+      "dixon_coles": [
+        0.394,
+        0.371,
+        0.235
+      ],
+      "elo": [
+        0.489,
+        0.261,
+        0.25
+      ]
+    },
+    "expected_goals": {
+      "Australia": 0.94,
+      "Egypt": 0.66
+    },
+    "over25": 0.219,
+    "btts": 0.308,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.212
+      },
+      {
+        "score": "1-0",
+        "prob": 0.177
+      },
+      {
+        "score": "1-1",
+        "prob": 0.138
+      },
+      {
+        "score": "0-1",
+        "prob": 0.121
+      },
+      {
+        "score": "2-0",
+        "prob": 0.089
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "draw",
+      "source": "manual",
+      "captured_at": "2026-07-03T15:39:29-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760499",
+      "player_shots": [
+        {
+          "player": "Emam Ashour",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 5,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Marawan Attia",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mohamed Salah",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Nestory Irankunda",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.5,
+          "starter": true,
+          "shots_p90": 2.45,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Connor Metcalfe",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cristian Volpato",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.4,
+          "starter": true,
+          "shots_p90": 2.45,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ajdin Hrustic",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 16.6,
+          "starter": false,
+          "shots_p90": 10.85,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mohamed Toure",
+          "side": "home",
+          "team": "Australia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 16.5,
+          "starter": false,
+          "shots_p90": 10.88,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Omar Marmoush",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aziz Behich",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Ramy Rabia",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Alessandro Circati",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aiden O'Neill",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jackson Irvine",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Kai Trewin",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Awer Mabil",
+          "side": "home",
+          "team": "Australia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Haissem Hassan",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 23.4,
+          "starter": false,
+          "shots_p90": 3.85,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 41.7,
+      "shots_home": 16,
+      "shots_on_target_home": 1,
+      "corners_home": 4,
+      "fouls_home": 12,
+      "saves_home": 3,
+      "offsides_home": 0,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 58.3,
+      "shots_away": 14,
+      "shots_on_target_away": 3,
+      "corners_away": 7,
+      "fouls_away": 14,
+      "saves_away": 1,
+      "offsides_away": 3,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-03T15:39:36-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.13089,
+    "log_loss": 1.16796,
+    "brier": 0.7365,
+    "surprisal": 1.16796,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.13089,
+        "log_loss": 1.16796,
+        "brier": 0.7365,
+        "surprisal": 1.16796
+      },
+      "dixon_coles": {
+        "rps": 0.10523,
+        "log_loss": 0.99155,
+        "brier": 0.6061,
+        "surprisal": 0.99155
+      },
+      "elo": {
+        "rps": 0.15081,
+        "log_loss": 1.34323,
+        "brier": 0.84774,
+        "surprisal": 1.34323
+      }
+    }
+  }
+}
