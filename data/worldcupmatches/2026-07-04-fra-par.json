@@ -1,0 +1,261 @@
+{
+  "match_key": "2026-07-04-fra-par",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-04-fra-par",
+    "date": "2026-07-04",
+    "home": "France",
+    "away": "Paraguay",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "France vs Paraguay",
+    "home": "France",
+    "away": "Paraguay",
+    "as_of": "2026-07-04",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.697,
+      0.202,
+      0.102
+    ],
+    "components": {
+      "dixon_coles": [
+        0.57,
+        0.266,
+        0.164
+      ],
+      "elo": [
+        0.757,
+        0.171,
+        0.072
+      ]
+    },
+    "expected_goals": {
+      "France": 1.57,
+      "Paraguay": 0.73
+    },
+    "over25": 0.404,
+    "btts": 0.416,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.151
+      },
+      {
+        "score": "2-0",
+        "prob": 0.124
+      },
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "0-0",
+        "prob": 0.107
+      },
+      {
+        "score": "2-1",
+        "prob": 0.09
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "home",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:31:39-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760503",
+      "player_shots": [
+        {
+          "player": "Kylian Mbappé",
+          "side": "home",
+          "team": "France",
+          "shots": 5,
+          "on_target": 4,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 4.0
+        },
+        {
+          "player": "Manu Koné",
+          "side": "home",
+          "team": "France",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Adrien Rabiot",
+          "side": "home",
+          "team": "France",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Júnior Alonso",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.8,
+          "starter": true,
+          "shots_p90": 2.15,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Diego Gómez",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.5,
+          "starter": true,
+          "shots_p90": 1.28,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Miguel Almirón",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 71.0,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Maurício",
+          "side": "away",
+          "team": "Paraguay",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 19.5,
+          "starter": false,
+          "shots_p90": 4.62,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bradley Barcola",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.6,
+          "starter": true,
+          "shots_p90": 1.48,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Désiré Doué",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.4,
+          "starter": false,
+          "shots_p90": 3.07,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 75.9,
+      "shots_home": 15,
+      "shots_on_target_home": 5,
+      "corners_home": 12,
+      "fouls_home": 11,
+      "saves_home": 1,
+      "offsides_home": 0,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 24.1,
+      "shots_away": 5,
+      "shots_on_target_away": 1,
+      "corners_away": 2,
+      "fouls_away": 13,
+      "saves_away": 4,
+      "offsides_away": 0,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:50-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.05131,
+    "log_loss": 0.36197,
+    "brier": 0.14334,
+    "surprisal": 0.36197,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.05131,
+        "log_loss": 0.36197,
+        "brier": 0.14334,
+        "surprisal": 0.36197
+      },
+      "dixon_coles": {
+        "rps": 0.1059,
+        "log_loss": 0.56212,
+        "brier": 0.28255,
+        "surprisal": 0.56212
+      },
+      "elo": {
+        "rps": 0.03212,
+        "log_loss": 0.27839,
+        "brier": 0.09347,
+        "surprisal": 0.27839
+      }
+    }
+  }
+}
