@@ -1,0 +1,76 @@
+{
+  "match": "Belgium vs United States",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-06",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Belgium": 0.456,
+      "Draw": 0.258,
+      "United States": 0.286
+    },
+    "ensemble_uncalibrated": {
+      "Belgium": 0.444,
+      "Draw": 0.265,
+      "United States": 0.291
+    },
+    "dixon_coles": {
+      "Belgium": 0.471,
+      "Draw": 0.259,
+      "United States": 0.27
+    },
+    "elo": {
+      "Belgium": 0.419,
+      "Draw": 0.271,
+      "United States": 0.31
+    }
+  },
+  "elo": {
+    "Belgium": 1981,
+    "United States": 1961
+  },
+  "expected_goals": {
+    "Belgium": 1.68,
+    "United States": 1.23
+  },
+  "over_under_2_5": {
+    "over": 0.557,
+    "under": 0.443
+  },
+  "btts": 0.586,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.122
+    },
+    {
+      "score": "2-1",
+      "prob": 0.095
+    },
+    {
+      "score": "1-0",
+      "prob": 0.082
+    },
+    {
+      "score": "2-0",
+      "prob": 0.077
+    },
+    {
+      "score": "1-2",
+      "prob": 0.069
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "4-1",
+    "result": "home",
+    "scored_at": "2026-07-10T12:32:09-06:00",
+    "rps": 0.18887,
+    "log_loss": 0.78526,
+    "brier": 0.4443,
+    "surprisal": 0.78526
+  }
+}

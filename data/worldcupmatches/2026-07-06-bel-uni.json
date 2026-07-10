@@ -1,0 +1,287 @@
+{
+  "match_key": "2026-07-06-bel-uni",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-06-bel-uni",
+    "date": "2026-07-06",
+    "home": "Belgium",
+    "away": "United States",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "Belgium vs United States",
+    "home": "Belgium",
+    "away": "United States",
+    "as_of": "2026-07-06",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.456,
+      0.258,
+      0.286
+    ],
+    "components": {
+      "dixon_coles": [
+        0.471,
+        0.259,
+        0.27
+      ],
+      "elo": [
+        0.419,
+        0.271,
+        0.31
+      ]
+    },
+    "expected_goals": {
+      "Belgium": 1.68,
+      "United States": 1.23
+    },
+    "over25": 0.557,
+    "btts": 0.586,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.122
+      },
+      {
+        "score": "2-1",
+        "prob": 0.095
+      },
+      {
+        "score": "1-0",
+        "prob": 0.082
+      },
+      {
+        "score": "2-0",
+        "prob": 0.077
+      },
+      {
+        "score": "1-2",
+        "prob": 0.069
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 4,
+      "away_goals": 1,
+      "result": "home",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:32:09-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760507",
+      "player_shots": [
+        {
+          "player": "Leandro Trossard",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 4,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 88.6,
+          "starter": true,
+          "shots_p90": 4.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Charles De Ketelaere",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 3,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 1,
+          "minutes": 66.9,
+          "starter": true,
+          "shots_p90": 4.04,
+          "sot_p90": 4.04
+        },
+        {
+          "player": "Folarin Balogun",
+          "side": "away",
+          "team": "United States",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Alex Freeman",
+          "side": "away",
+          "team": "United States",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Youri Tielemans",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Dodi Lukébakio",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.9,
+          "starter": true,
+          "shots_p90": 2.69,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Malik Tillman",
+          "side": "away",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Timothy Castagne",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Nicolas Raskin",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 88.7,
+          "starter": true,
+          "shots_p90": 1.01,
+          "sot_p90": 1.01
+        },
+        {
+          "player": "Romelu Lukaku",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 23.1,
+          "starter": false,
+          "shots_p90": 3.9,
+          "sot_p90": 3.9
+        },
+        {
+          "player": "Hans Vanaken",
+          "side": "home",
+          "team": "Belgium",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 69.8,
+          "starter": false,
+          "shots_p90": 1.29,
+          "sot_p90": 1.29
+        },
+        {
+          "player": "Sebastian Berhalter",
+          "side": "away",
+          "team": "United States",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 31.8,
+          "starter": false,
+          "shots_p90": 2.83,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 44.1,
+      "shots_home": 15,
+      "shots_on_target_home": 7,
+      "corners_home": 5,
+      "fouls_home": 9,
+      "saves_home": 1,
+      "offsides_home": 1,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 55.9,
+      "shots_away": 7,
+      "shots_on_target_away": 2,
+      "corners_away": 3,
+      "fouls_away": 11,
+      "saves_away": 3,
+      "offsides_away": 0,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:49-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.18887,
+    "log_loss": 0.78526,
+    "brier": 0.4443,
+    "surprisal": 0.78526,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.18887,
+        "log_loss": 0.78526,
+        "brier": 0.4443,
+        "surprisal": 0.78526
+      },
+      "dixon_coles": {
+        "rps": 0.17637,
+        "log_loss": 0.7529,
+        "brier": 0.41982,
+        "surprisal": 0.7529
+      },
+      "elo": {
+        "rps": 0.21683,
+        "log_loss": 0.86988,
+        "brier": 0.5071,
+        "surprisal": 0.86988
+      }
+    }
+  }
+}
