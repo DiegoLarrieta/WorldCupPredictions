@@ -1,0 +1,313 @@
+{
+  "match_key": "2026-07-07-swi-col",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-07-swi-col",
+    "date": "2026-07-07",
+    "home": "Switzerland",
+    "away": "Colombia",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "Switzerland vs Colombia",
+    "home": "Switzerland",
+    "away": "Colombia",
+    "as_of": "2026-07-07",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.242,
+      0.257,
+      0.5
+    ],
+    "components": {
+      "dixon_coles": [
+        0.209,
+        0.258,
+        0.533
+      ],
+      "elo": [
+        0.29,
+        0.271,
+        0.438
+      ]
+    },
+    "expected_goals": {
+      "Switzerland": 0.96,
+      "Colombia": 1.67
+    },
+    "over25": 0.488,
+    "btts": 0.508,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.123
+      },
+      {
+        "score": "0-1",
+        "prob": 0.113
+      },
+      {
+        "score": "0-2",
+        "prob": 0.101
+      },
+      {
+        "score": "1-2",
+        "prob": 0.096
+      },
+      {
+        "score": "0-0",
+        "prob": 0.08
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "draw",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:32:36-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760508",
+      "player_shots": [
+        {
+          "player": "Fabian Rieder",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Luis Díaz",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Dan Ndoye",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Gustavo Puerta",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Jáminton Campaz",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 24.7,
+          "starter": false,
+          "shots_p90": 7.3,
+          "sot_p90": 3.65
+        },
+        {
+          "player": "Luis Suárez",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.0,
+          "starter": true,
+          "shots_p90": 2.2,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Granit Xhaka",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Djibril Sow",
+          "side": "home",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jhon Lucumí",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Davinson Sánchez",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Jhon Arias",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.3,
+          "starter": true,
+          "shots_p90": 1.38,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Richard Ríos",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 8.0,
+          "starter": false,
+          "shots_p90": 11.18,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cucho Hernández",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 8.0,
+          "starter": false,
+          "shots_p90": 11.23,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Juan Fernando Quintero",
+          "side": "away",
+          "team": "Colombia",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 24.8,
+          "starter": false,
+          "shots_p90": 3.63,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 53.4,
+      "shots_home": 7,
+      "shots_on_target_home": 2,
+      "corners_home": 3,
+      "fouls_home": 22,
+      "saves_home": 3,
+      "offsides_home": 5,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 46.6,
+      "shots_away": 15,
+      "shots_on_target_away": 3,
+      "corners_away": 7,
+      "fouls_away": 21,
+      "saves_away": 2,
+      "offsides_away": 4,
+      "yellow_cards_away": 2,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:52-06:00"
+    }
+  },
+  "scores": {
+    "y": 1,
+    "rps": 0.15459,
+    "log_loss": 1.35768,
+    "brier": 0.86085,
+    "surprisal": 1.35768,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.15459,
+        "log_loss": 1.35768,
+        "brier": 0.86085,
+        "surprisal": 1.35768
+      },
+      "dixon_coles": {
+        "rps": 0.16389,
+        "log_loss": 1.3548,
+        "brier": 0.87833,
+        "surprisal": 1.3548
+      },
+      "elo": {
+        "rps": 0.13825,
+        "log_loss": 1.30464,
+        "brier": 0.80754,
+        "surprisal": 1.30464
+      }
+    }
+  }
+}

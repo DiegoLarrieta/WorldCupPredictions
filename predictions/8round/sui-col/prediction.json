@@ -1,0 +1,76 @@
+{
+  "match": "Switzerland vs Colombia",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-07",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Switzerland": 0.242,
+      "Draw": 0.257,
+      "Colombia": 0.5
+    },
+    "ensemble_uncalibrated": {
+      "Switzerland": 0.251,
+      "Draw": 0.265,
+      "Colombia": 0.484
+    },
+    "dixon_coles": {
+      "Switzerland": 0.209,
+      "Draw": 0.258,
+      "Colombia": 0.533
+    },
+    "elo": {
+      "Switzerland": 0.29,
+      "Draw": 0.271,
+      "Colombia": 0.438
+    }
+  },
+  "elo": {
+    "Switzerland": 1993,
+    "Colombia": 2082
+  },
+  "expected_goals": {
+    "Switzerland": 0.96,
+    "Colombia": 1.67
+  },
+  "over_under_2_5": {
+    "over": 0.488,
+    "under": 0.512
+  },
+  "btts": 0.508,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.123
+    },
+    {
+      "score": "0-1",
+      "prob": 0.113
+    },
+    {
+      "score": "0-2",
+      "prob": 0.101
+    },
+    {
+      "score": "1-2",
+      "prob": 0.096
+    },
+    {
+      "score": "0-0",
+      "prob": 0.08
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-0",
+    "result": "draw",
+    "scored_at": "2026-07-10T12:32:36-06:00",
+    "rps": 0.15459,
+    "log_loss": 1.35768,
+    "brier": 0.86085,
+    "surprisal": 1.35768
+  }
+}
