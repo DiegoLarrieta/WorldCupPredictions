@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-07-05-mex-eng",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-05-mex-eng",
+    "date": "2026-07-05",
+    "home": "Mexico",
+    "away": "England",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "Mexico vs England",
+    "home": "Mexico",
+    "away": "England",
+    "as_of": "2026-07-05",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.308,
+      0.301,
+      0.392
+    ],
+    "components": {
+      "dixon_coles": [
+        0.271,
+        0.336,
+        0.394
+      ],
+      "elo": [
+        0.347,
+        0.274,
+        0.379
+      ]
+    },
+    "expected_goals": {
+      "Mexico": 0.8,
+      "England": 1.03
+    },
+    "over25": 0.276,
+    "btts": 0.36,
+    "top_scorelines": [
+      {
+        "score": "0-0",
+        "prob": 0.167
+      },
+      {
+        "score": "0-1",
+        "prob": 0.159
+      },
+      {
+        "score": "1-1",
+        "prob": 0.139
+      },
+      {
+        "score": "1-0",
+        "prob": 0.122
+      },
+      {
+        "score": "0-2",
+        "prob": 0.085
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "result": "away",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:31:52-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760505",
+      "player_shots": [
+        {
+          "player": "Raúl Jiménez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 8,
+          "on_target": 3,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 8.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Jude Bellingham",
+          "side": "away",
+          "team": "England",
+          "shots": 3,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Julián Quiñones",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 80.7,
+          "starter": true,
+          "shots_p90": 3.35,
+          "sot_p90": 1.12
+        },
+        {
+          "player": "Álvaro Fidalgo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 11.8,
+          "starter": false,
+          "shots_p90": 15.32,
+          "sot_p90": 7.66
+        },
+        {
+          "player": "Edson Álvarez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 4.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Harry Kane",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 89.5,
+          "starter": true,
+          "shots_p90": 1.01,
+          "sot_p90": 1.01
+        },
+        {
+          "player": "Anthony Gordon",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Jesús Gallardo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Luis Romo",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.6,
+          "starter": true,
+          "shots_p90": 1.48,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Gilberto Mora",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 60.5,
+          "starter": true,
+          "shots_p90": 1.49,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Santiago Gimenez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.5,
+          "starter": false,
+          "shots_p90": 3.05,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Brian Gutiérrez",
+          "side": "home",
+          "team": "Mexico",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 29.4,
+          "starter": false,
+          "shots_p90": 3.07,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nico O'Reilly",
+          "side": "away",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 73.8,
+          "starter": true,
+          "shots_p90": 1.22,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 66.9,
+      "shots_home": 20,
+      "shots_on_target_home": 5,
+      "corners_home": 12,
+      "fouls_home": 14,
+      "saves_home": 2,
+      "offsides_home": 1,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 33.1,
+      "shots_away": 6,
+      "shots_on_target_away": 5,
+      "corners_away": 2,
+      "fouls_away": 7,
+      "saves_away": 3,
+      "offsides_away": 0,
+      "yellow_cards_away": 4,
+      "red_cards_away": 1,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:51-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.23241,
+    "log_loss": 0.93749,
+    "brier": 0.55523,
+    "surprisal": 0.93749,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.23241,
+        "log_loss": 0.93749,
+        "brier": 0.55523,
+        "surprisal": 0.93749
+      },
+      "dixon_coles": {
+        "rps": 0.2205,
+        "log_loss": 0.9324,
+        "brier": 0.55368,
+        "surprisal": 0.9324
+      },
+      "elo": {
+        "rps": 0.25302,
+        "log_loss": 0.97022,
+        "brier": 0.58113,
+        "surprisal": 0.97022
+      }
+    }
+  }
+}

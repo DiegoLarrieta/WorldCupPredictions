@@ -1,0 +1,76 @@
+{
+  "match": "Mexico vs England",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-05",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Mexico": 0.308,
+      "Draw": 0.301,
+      "England": 0.392
+    },
+    "ensemble_uncalibrated": {
+      "Mexico": 0.31,
+      "Draw": 0.304,
+      "England": 0.386
+    },
+    "dixon_coles": {
+      "Mexico": 0.271,
+      "Draw": 0.336,
+      "England": 0.394
+    },
+    "elo": {
+      "Mexico": 0.347,
+      "Draw": 0.274,
+      "England": 0.379
+    }
+  },
+  "elo": {
+    "Mexico": 2085,
+    "England": 2124
+  },
+  "expected_goals": {
+    "Mexico": 0.8,
+    "England": 1.03
+  },
+  "over_under_2_5": {
+    "over": 0.276,
+    "under": 0.724
+  },
+  "btts": 0.36,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.167
+    },
+    {
+      "score": "0-1",
+      "prob": 0.159
+    },
+    {
+      "score": "1-1",
+      "prob": 0.139
+    },
+    {
+      "score": "1-0",
+      "prob": 0.122
+    },
+    {
+      "score": "0-2",
+      "prob": 0.085
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "2-3",
+    "result": "away",
+    "scored_at": "2026-07-10T12:31:52-06:00",
+    "rps": 0.23241,
+    "log_loss": 0.93749,
+    "brier": 0.55523,
+    "surprisal": 0.93749
+  }
+}
