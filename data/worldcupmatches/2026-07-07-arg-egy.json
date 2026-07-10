@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-07-07-arg-egy",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-07-arg-egy",
+    "date": "2026-07-07",
+    "home": "Argentina",
+    "away": "Egypt",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "Argentina vs Egypt",
+    "home": "Argentina",
+    "away": "Egypt",
+    "as_of": "2026-07-07",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.775,
+      0.174,
+      0.051
+    ],
+    "components": {
+      "dixon_coles": [
+        0.707,
+        0.228,
+        0.066
+      ],
+      "elo": [
+        0.779,
+        0.159,
+        0.062
+      ]
+    },
+    "expected_goals": {
+      "Argentina": 1.7,
+      "Egypt": 0.35
+    },
+    "over25": 0.337,
+    "btts": 0.247,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.214
+      },
+      {
+        "score": "2-0",
+        "prob": 0.186
+      },
+      {
+        "score": "0-0",
+        "prob": 0.134
+      },
+      {
+        "score": "3-0",
+        "prob": 0.105
+      },
+      {
+        "score": "1-1",
+        "prob": 0.082
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 2,
+      "result": "home",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:32:35-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760509",
+      "player_shots": [
+        {
+          "player": "Lionel Messi",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 5,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 5.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Lautaro Martínez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 24.3,
+          "starter": false,
+          "shots_p90": 11.13,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Alexis Mac Allister",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Enzo Fernández",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Julián Álvarez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Leandro Paredes",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Trézéguet",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 17.1,
+          "starter": false,
+          "shots_p90": 10.53,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Cristian Romero",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Rodrigo De Paul",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 65.7,
+          "starter": true,
+          "shots_p90": 1.37,
+          "sot_p90": 1.37
+        },
+        {
+          "player": "Yasser Ibrahim",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Mostafa Zico",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 79.6,
+          "starter": true,
+          "shots_p90": 1.13,
+          "sot_p90": 1.13
+        },
+        {
+          "player": "Lisandro Martínez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Karim Hafez",
+          "side": "away",
+          "team": "Egypt",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 63.6,
+      "shots_home": 19,
+      "shots_on_target_home": 7,
+      "corners_home": 6,
+      "fouls_home": 13,
+      "saves_home": 0,
+      "offsides_home": 3,
+      "yellow_cards_home": 0,
+      "red_cards_home": 0,
+      "possession_away": 36.4,
+      "shots_away": 5,
+      "shots_on_target_away": 2,
+      "corners_away": 1,
+      "fouls_away": 11,
+      "saves_away": 4,
+      "offsides_away": 0,
+      "yellow_cards_away": 4,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:48-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.02661,
+    "log_loss": 0.25489,
+    "brier": 0.0835,
+    "surprisal": 0.25489,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.02661,
+        "log_loss": 0.25489,
+        "brier": 0.0835,
+        "surprisal": 0.25489
+      },
+      "dixon_coles": {
+        "rps": 0.04531,
+        "log_loss": 0.34772,
+        "brier": 0.14249,
+        "surprisal": 0.34772
+      },
+      "elo": {
+        "rps": 0.02634,
+        "log_loss": 0.24974,
+        "brier": 0.07797,
+        "surprisal": 0.24974
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "match": "Argentina vs Egypt",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-07",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Argentina": 0.775,
+      "Draw": 0.174,
+      "Egypt": 0.051
+    },
+    "ensemble_uncalibrated": {
+      "Argentina": 0.744,
+      "Draw": 0.192,
+      "Egypt": 0.064
+    },
+    "dixon_coles": {
+      "Argentina": 0.707,
+      "Draw": 0.228,
+      "Egypt": 0.066
+    },
+    "elo": {
+      "Argentina": 0.779,
+      "Draw": 0.159,
+      "Egypt": 0.062
+    }
+  },
+  "elo": {
+    "Argentina": 2226,
+    "Egypt": 1867
+  },
+  "expected_goals": {
+    "Argentina": 1.7,
+    "Egypt": 0.35
+  },
+  "over_under_2_5": {
+    "over": 0.337,
+    "under": 0.663
+  },
+  "btts": 0.247,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.214
+    },
+    {
+      "score": "2-0",
+      "prob": 0.186
+    },
+    {
+      "score": "0-0",
+      "prob": 0.134
+    },
+    {
+      "score": "3-0",
+      "prob": 0.105
+    },
+    {
+      "score": "1-1",
+      "prob": 0.082
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "3-2",
+    "result": "home",
+    "scored_at": "2026-07-10T12:32:35-06:00",
+    "rps": 0.02661,
+    "log_loss": 0.25489,
+    "brier": 0.0835,
+    "surprisal": 0.25489
+  }
+}
