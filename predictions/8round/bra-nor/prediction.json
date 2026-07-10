@@ -1,0 +1,76 @@
+{
+  "match": "Brazil vs Norway",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-05",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Brazil": 0.59,
+      "Draw": 0.221,
+      "Norway": 0.189
+    },
+    "ensemble_uncalibrated": {
+      "Brazil": 0.566,
+      "Draw": 0.232,
+      "Norway": 0.202
+    },
+    "dixon_coles": {
+      "Brazil": 0.613,
+      "Draw": 0.208,
+      "Norway": 0.178
+    },
+    "elo": {
+      "Brazil": 0.522,
+      "Draw": 0.255,
+      "Norway": 0.223
+    }
+  },
+  "elo": {
+    "Brazil": 2115,
+    "Norway": 2012
+  },
+  "expected_goals": {
+    "Brazil": 2.18,
+    "Norway": 1.1
+  },
+  "over_under_2_5": {
+    "over": 0.636,
+    "under": 0.364
+  },
+  "btts": 0.597,
+  "top_scorelines": [
+    {
+      "score": "2-1",
+      "prob": 0.098
+    },
+    {
+      "score": "1-1",
+      "prob": 0.095
+    },
+    {
+      "score": "2-0",
+      "prob": 0.089
+    },
+    {
+      "score": "1-0",
+      "prob": 0.077
+    },
+    {
+      "score": "3-1",
+      "prob": 0.071
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "1-2",
+    "result": "away",
+    "scored_at": "2026-07-10T12:31:52-06:00",
+    "rps": 0.50291,
+    "log_loss": 1.66601,
+    "brier": 1.05466,
+    "surprisal": 1.66601
+  }
+}

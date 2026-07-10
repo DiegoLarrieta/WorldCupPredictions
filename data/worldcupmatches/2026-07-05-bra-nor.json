@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-07-05-bra-nor",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-05-bra-nor",
+    "date": "2026-07-05",
+    "home": "Brazil",
+    "away": "Norway",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "Brazil vs Norway",
+    "home": "Brazil",
+    "away": "Norway",
+    "as_of": "2026-07-05",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.59,
+      0.221,
+      0.189
+    ],
+    "components": {
+      "dixon_coles": [
+        0.613,
+        0.208,
+        0.178
+      ],
+      "elo": [
+        0.522,
+        0.255,
+        0.223
+      ]
+    },
+    "expected_goals": {
+      "Brazil": 2.18,
+      "Norway": 1.1
+    },
+    "over25": 0.636,
+    "btts": 0.597,
+    "top_scorelines": [
+      {
+        "score": "2-1",
+        "prob": 0.098
+      },
+      {
+        "score": "1-1",
+        "prob": 0.095
+      },
+      {
+        "score": "2-0",
+        "prob": 0.089
+      },
+      {
+        "score": "1-0",
+        "prob": 0.077
+      },
+      {
+        "score": "3-1",
+        "prob": 0.071
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "away",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:31:52-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760504",
+      "player_shots": [
+        {
+          "player": "Erling Haaland",
+          "side": "away",
+          "team": "Norway",
+          "shots": 4,
+          "on_target": 3,
+          "goals": 2,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 3.0
+        },
+        {
+          "player": "Martin Ødegaard",
+          "side": "away",
+          "team": "Norway",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Bruno Guimarães",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 78.4,
+          "starter": true,
+          "shots_p90": 2.3,
+          "sot_p90": 1.15
+        },
+        {
+          "player": "Rayan",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 66.9,
+          "starter": true,
+          "shots_p90": 2.69,
+          "sot_p90": 1.35
+        },
+        {
+          "player": "Vinícius Júnior",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Neymar",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 23.2,
+          "starter": false,
+          "shots_p90": 7.78,
+          "sot_p90": 3.89
+        },
+        {
+          "player": "Endrick",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 32.2,
+          "starter": false,
+          "shots_p90": 5.58,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Andreas Schjelderup",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 45.0,
+          "starter": false,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Danilo",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Casemiro",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Matheus Cunha",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 57.8,
+          "starter": true,
+          "shots_p90": 1.56,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Éderson",
+          "side": "home",
+          "team": "Brazil",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 11.6,
+          "starter": false,
+          "shots_p90": 7.74,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Patrick Berg",
+          "side": "away",
+          "team": "Norway",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 33.6,
+      "shots_home": 14,
+      "shots_on_target_home": 4,
+      "corners_home": 5,
+      "fouls_home": 7,
+      "saves_home": 3,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 66.4,
+      "shots_away": 9,
+      "shots_on_target_away": 5,
+      "corners_away": 5,
+      "fouls_away": 6,
+      "saves_away": 4,
+      "offsides_away": 1,
+      "yellow_cards_away": 0,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:49-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.50291,
+    "log_loss": 1.66601,
+    "brier": 1.05466,
+    "surprisal": 1.66601,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.50291,
+        "log_loss": 1.66601,
+        "brier": 1.05466,
+        "surprisal": 1.66601
+      },
+      "dixon_coles": {
+        "rps": 0.52596,
+        "log_loss": 1.72497,
+        "brier": 1.09526,
+        "surprisal": 1.72497
+      },
+      "elo": {
+        "rps": 0.43811,
+        "log_loss": 1.50058,
+        "brier": 0.94124,
+        "surprisal": 1.50058
+      }
+    }
+  }
+}
