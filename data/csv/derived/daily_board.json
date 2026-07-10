@@ -1,5 +1,213 @@
 [
  {
+  "match": "Belgium vs United States",
+  "kickoff": "2026-07-06",
+  "date": "2026-07-06",
+  "result": "",
+  "sug": "",
+  "prop_recs": [
+   {
+    "player": "Leandro Trossard",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.37,
+    "stake": 200,
+    "model": 0.782
+   }
+  ],
+  "link": "predictions/8round/bel-usa/analysis.md",
+  "markets": [
+   [
+    "Gana Belgium",
+    0.456,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Empate",
+    0.258,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Gana United States",
+    0.286,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Doble oport. Belgium",
+    0.714,
+    "-172",
+    null
+   ],
+   [
+    "Doble oport. United States",
+    0.544,
+    "-208",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.787,
+    "-385",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.556,
+    "-116",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.333,
+    "+215",
+    null
+   ],
+   [
+    "Over 1.5 goles Belgium",
+    0.501,
+    "+144",
+    null
+   ],
+   [
+    "Over 1.5 goles United States",
+    0.348,
+    "+118",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.586,
+    "-149",
+    null
+   ],
+   [
+    "Prop: Maxim de Cuyper o0.5 SoT",
+    0.502,
+    "+180",
+    null
+   ]
+  ]
+ },
+ {
+  "match": "Mexico vs England",
+  "kickoff": "2026-07-05",
+  "date": "2026-07-05",
+  "result": "",
+  "sug": "",
+  "prop_recs": [
+   {
+    "player": "Harry Kane",
+    "market": "tiros",
+    "line": 3.5,
+    "price": 2.55,
+    "stake": 300,
+    "model": 0.606
+   },
+   {
+    "player": "Raul Jimenez",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 2.25,
+    "stake": 250,
+    "model": 0.584
+   },
+   {
+    "player": "Bukayo Saka",
+    "market": "a puerta",
+    "line": 0.5,
+    "price": 2.2,
+    "stake": 250,
+    "model": 0.588
+   },
+   {
+    "player": "Julian Quinones",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 2.2,
+    "stake": 250,
+    "model": 0.571
+   }
+  ],
+  "link": "predictions/8round/mex-eng/analysis.md",
+  "markets": [
+   [
+    "Gana Mexico",
+    0.308,
+    "+225",
+    null
+   ],
+   [
+    "Empate",
+    0.301,
+    "+220",
+    null
+   ],
+   [
+    "Gana England",
+    0.392,
+    "+162",
+    null
+   ],
+   [
+    "Doble oport. Mexico",
+    0.609,
+    "-167",
+    null
+   ],
+   [
+    "Doble oport. England",
+    0.693,
+    "-227",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.546,
+    "-196",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.277,
+    "+166",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.114,
+    "+450",
+    null
+   ],
+   [
+    "Over 0.5 goles Mexico",
+    0.551,
+    "-208",
+    null
+   ],
+   [
+    "Over 1.5 goles England",
+    0.275,
+    "+195",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.36,
+    "+106",
+    null
+   ],
+   [
+    "Prop: Bukayo Saka o0.5 SoT",
+    0.588,
+    "+120",
+    null
+   ]
+  ]
+ },
+ {
   "match": "France vs Paraguay",
   "kickoff": "2026-07-04 21:00",
   "date": "2026-07-04",

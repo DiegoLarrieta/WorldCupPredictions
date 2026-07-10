@@ -1155,3 +1155,95 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Alistair Johnston,1,0,0,0,True
 2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Jonathan Osorio,1,0,0,0,False
 2026-07-04-can-mor,2026-07-04,Canada vs Morocco,home,Canada,Jayden Nelson,1,0,0,0,False
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,home,France,Kylian Mbappé,5,4,1,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,home,France,Manu Koné,3,1,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,home,France,Adrien Rabiot,3,0,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,away,Paraguay,Júnior Alonso,2,0,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,home,France,Ousmane Dembélé,2,0,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,away,Paraguay,Diego Gómez,1,0,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,away,Paraguay,Miguel Almirón,1,0,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,away,Paraguay,Maurício,1,0,0,0,False
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,home,France,Bradley Barcola,1,0,0,0,True
+2026-07-04-fra-par,2026-07-04,France vs Paraguay,home,France,Désiré Doué,1,0,0,0,False
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,away,Norway,Erling Haaland,4,3,2,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,away,Norway,Martin Ødegaard,3,1,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Bruno Guimarães,2,1,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Rayan,2,1,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Vinícius Júnior,2,1,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Neymar,2,1,1,0,False
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Endrick,2,0,0,0,False
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,away,Norway,Andreas Schjelderup,1,1,0,2,False
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Danilo,1,0,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Casemiro,1,0,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Matheus Cunha,1,0,0,0,True
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,home,Brazil,Éderson,1,0,0,0,False
+2026-07-05-bra-nor,2026-07-05,Brazil vs Norway,away,Norway,Patrick Berg,1,0,0,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Raúl Jiménez,8,3,1,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,away,England,Jude Bellingham,3,3,2,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Julián Quiñones,3,1,1,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Álvaro Fidalgo,2,1,0,0,False
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Edson Álvarez,2,0,0,0,False
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,away,England,Harry Kane,1,1,1,1,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,away,England,Anthony Gordon,1,1,0,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Jesús Gallardo,1,0,0,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Luis Romo,1,0,0,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Gilberto Mora,1,0,0,0,True
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Santiago Gimenez,1,0,0,0,False
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,home,Mexico,Brian Gutiérrez,1,0,0,0,False
+2026-07-05-mex-eng,2026-07-05,Mexico vs England,away,England,Nico O'Reilly,1,0,0,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Leandro Trossard,4,0,0,1,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Charles De Ketelaere,3,3,2,1,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,away,United States,Folarin Balogun,3,1,0,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,away,United States,Alex Freeman,2,0,0,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Youri Tielemans,2,0,0,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Dodi Lukébakio,2,0,0,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,away,United States,Malik Tillman,1,1,1,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Timothy Castagne,1,1,0,0,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Nicolas Raskin,1,1,0,1,True
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Romelu Lukaku,1,1,1,0,False
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,home,Belgium,Hans Vanaken,1,1,1,1,False
+2026-07-06-bel-uni,2026-07-06,Belgium vs United States,away,United States,Sebastian Berhalter,1,0,0,0,False
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,Cristiano Ronaldo,3,2,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Álex Baena,3,2,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Lamine Yamal,3,2,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Mikel Oyarzabal,2,1,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Dani Olmo,2,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Mikel Merino,1,1,1,0,False
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,Nuno Mendes,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,João Cancelo,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,Bruno Fernandes,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,João Neves,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,Vitinha,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,Pedro Neto,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,home,Portugal,Bernardo Silva,1,0,0,0,False
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Pedro Porro,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Pedri,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Rodri,1,0,0,0,True
+2026-07-06-por-spa,2026-07-06,Portugal vs Spain,away,Spain,Ferran Torres,1,0,0,1,False
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Lionel Messi,5,2,1,1,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Lautaro Martínez,3,0,0,1,False
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Alexis Mac Allister,2,1,0,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Enzo Fernández,2,1,1,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Julián Álvarez,2,1,0,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Leandro Paredes,2,0,0,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,away,Egypt,Trézéguet,2,0,0,0,False
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Cristian Romero,1,1,1,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Rodrigo De Paul,1,1,0,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,away,Egypt,Yasser Ibrahim,1,1,1,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,away,Egypt,Mostafa Zico,1,1,1,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,home,Argentina,Lisandro Martínez,1,0,0,0,True
+2026-07-07-arg-egy,2026-07-07,Argentina vs Egypt,away,Egypt,Karim Hafez,1,0,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,home,Switzerland,Fabian Rieder,3,1,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Luis Díaz,3,1,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,home,Switzerland,Dan Ndoye,2,1,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Gustavo Puerta,2,1,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Jáminton Campaz,2,1,0,0,False
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Luis Suárez,2,0,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,home,Switzerland,Granit Xhaka,1,0,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,home,Switzerland,Djibril Sow,1,0,0,0,False
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Jhon Lucumí,1,0,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Davinson Sánchez,1,0,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Jhon Arias,1,0,0,0,True
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Richard Ríos,1,0,0,0,False
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Cucho Hernández,1,0,0,0,False
+2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Juan Fernando Quintero,1,0,0,0,False

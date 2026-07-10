@@ -196,7 +196,7 @@
           "sot_p90": 0.0
         }
       ],
-      "possession_home": 44.6,
+      "possession_home": 44.7,
       "shots_home": 10,
       "shots_on_target_home": 3,
       "corners_home": 11,
@@ -205,7 +205,7 @@
       "offsides_home": 2,
       "yellow_cards_home": 4,
       "red_cards_home": 0,
-      "possession_away": 55.4,
+      "possession_away": 55.3,
       "shots_away": 5,
       "shots_on_target_away": 4,
       "corners_away": 1,
@@ -215,7 +215,7 @@
       "yellow_cards_away": 4,
       "red_cards_away": 0,
       "source": "espn",
-      "captured_at": "2026-07-04T14:22:40-06:00"
+      "captured_at": "2026-07-10T12:32:50-06:00"
     }
   },
   "scores": {

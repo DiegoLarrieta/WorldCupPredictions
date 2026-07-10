@@ -15,6 +15,52 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Belgium vs United States — 2026-07-06 — · [análisis](predictions/8round/bel-usa/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** **Leandro Trossard** o1.5 tiros @ -270 (modelo 78%) — **$200 MXN** · _total $200 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Belgium | 46% | _(no fetcheado)_ | ⏳ |
+| Empate | 26% | _(no fetcheado)_ | ⏳ |
+| Gana United States | 29% | _(no fetcheado)_ | ⏳ |
+| Doble oport. Belgium | 71% | -172 | ⏳ |
+| Doble oport. United States | 54% | -208 | ⏳ |
+| Over 1.5 goles | 79% | -385 | ⏳ |
+| Over 2.5 goles | 56% | -116 | ⏳ |
+| Over 3.5 goles | 33% | +215 | ⏳ |
+| Over 1.5 goles Belgium | 50% | +144 | ⏳ |
+| Over 1.5 goles United States | 35% | +118 | ⏳ |
+| BTTS (ambos marcan) | 59% | -149 | ⏳ |
+| Prop: Maxim de Cuyper o0.5 SoT | 50% | +180 | ⏳ |
+
+### Mexico vs England — 2026-07-05 — · [análisis](predictions/8round/mex-eng/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** **Harry Kane** o3.5 tiros @ +155 (modelo 61%) — **$300 MXN** · **Raul Jimenez** o2.5 tiros @ +125 (modelo 58%) — **$250 MXN** · **Bukayo Saka** o0.5 a puerta @ +120 (modelo 59%) — **$250 MXN** · **Julian Quinones** o2.5 tiros @ +120 (modelo 57%) — **$250 MXN** · _total $1,050 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Mexico | 31% | +225 | ⏳ |
+| Empate | 30% | +220 | ⏳ |
+| Gana England | 39% | +162 | ⏳ |
+| Doble oport. Mexico | 61% | -167 | ⏳ |
+| Doble oport. England | 69% | -227 | ⏳ |
+| Over 1.5 goles | 55% | -196 | ⏳ |
+| Over 2.5 goles | 28% | +166 | ⏳ |
+| Over 3.5 goles | 11% | +450 | ⏳ |
+| Over 0.5 goles Mexico | 55% | -208 | ⏳ |
+| Over 1.5 goles England | 28% | +195 | ⏳ |
+| BTTS (ambos marcan) | 36% | +106 | ⏳ |
+| Prop: Bukayo Saka o0.5 SoT | 59% | +120 | ⏳ |
+
 ### France vs Paraguay — 2026-07-04 15:00 · [análisis](predictions/8round/fra-par/analysis.md)
 
 ⏳ Por jugarse
