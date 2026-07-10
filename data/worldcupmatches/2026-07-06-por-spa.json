@@ -1,0 +1,352 @@
+{
+  "match_key": "2026-07-06-por-spa",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-06-por-spa",
+    "date": "2026-07-06",
+    "home": "Portugal",
+    "away": "Spain",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "r16",
+    "group": null
+  },
+  "prediction": {
+    "match": "Portugal vs Spain",
+    "home": "Portugal",
+    "away": "Spain",
+    "as_of": "2026-07-06",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.233,
+      0.264,
+      0.503
+    ],
+    "components": {
+      "dixon_coles": [
+        0.274,
+        0.286,
+        0.44
+      ],
+      "elo": [
+        0.213,
+        0.257,
+        0.53
+      ]
+    },
+    "expected_goals": {
+      "Portugal": 1.07,
+      "Spain": 1.42
+    },
+    "over25": 0.453,
+    "btts": 0.508,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.136
+      },
+      {
+        "score": "0-1",
+        "prob": 0.108
+      },
+      {
+        "score": "0-0",
+        "prob": 0.093
+      },
+      {
+        "score": "1-2",
+        "prob": 0.089
+      },
+      {
+        "score": "0-2",
+        "prob": 0.084
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "away",
+      "source": "manual",
+      "captured_at": "2026-07-10T12:32:08-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760506",
+      "player_shots": [
+        {
+          "player": "Cristiano Ronaldo",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Álex Baena",
+          "side": "away",
+          "team": "Spain",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 74.8,
+          "starter": true,
+          "shots_p90": 3.61,
+          "sot_p90": 2.41
+        },
+        {
+          "player": "Lamine Yamal",
+          "side": "away",
+          "team": "Spain",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "side": "away",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Dani Olmo",
+          "side": "away",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.7,
+          "starter": true,
+          "shots_p90": 2.12,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Mikel Merino",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 5.3,
+          "starter": false,
+          "shots_p90": 17.03,
+          "sot_p90": 17.03
+        },
+        {
+          "player": "Nuno Mendes",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 55.2,
+          "starter": true,
+          "shots_p90": 1.63,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "João Cancelo",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 70.8,
+          "starter": true,
+          "shots_p90": 1.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bruno Fernandes",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "João Neves",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Vitinha",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.7,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedro Neto",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.3,
+          "starter": true,
+          "shots_p90": 1.09,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bernardo Silva",
+          "side": "home",
+          "team": "Portugal",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 7.3,
+          "starter": false,
+          "shots_p90": 12.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedro Porro",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Pedri",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.5,
+          "starter": true,
+          "shots_p90": 1.07,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rodri",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ferran Torres",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 15.2,
+          "starter": false,
+          "shots_p90": 5.92,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 44.6,
+      "shots_home": 10,
+      "shots_on_target_home": 2,
+      "corners_home": 3,
+      "fouls_home": 9,
+      "saves_home": 5,
+      "offsides_home": 2,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 55.4,
+      "shots_away": 15,
+      "shots_on_target_away": 6,
+      "corners_away": 7,
+      "fouls_away": 13,
+      "saves_away": 2,
+      "offsides_away": 1,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-10T12:32:51-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.15065,
+    "log_loss": 0.68717,
+    "brier": 0.37099,
+    "surprisal": 0.68717,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.15065,
+        "log_loss": 0.68717,
+        "brier": 0.37099,
+        "surprisal": 0.68717
+      },
+      "dixon_coles": {
+        "rps": 0.19434,
+        "log_loss": 0.82098,
+        "brier": 0.47047,
+        "surprisal": 0.82098
+      },
+      "elo": {
+        "rps": 0.13313,
+        "log_loss": 0.63488,
+        "brier": 0.33232,
+        "surprisal": 0.63488
+      }
+    }
+  }
+}

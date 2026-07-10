@@ -1,0 +1,76 @@
+{
+  "match": "Portugal vs Spain",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-06",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Portugal": 0.233,
+      "Draw": 0.264,
+      "Spain": 0.503
+    },
+    "ensemble_uncalibrated": {
+      "Portugal": 0.242,
+      "Draw": 0.271,
+      "Spain": 0.486
+    },
+    "dixon_coles": {
+      "Portugal": 0.274,
+      "Draw": 0.286,
+      "Spain": 0.44
+    },
+    "elo": {
+      "Portugal": 0.213,
+      "Draw": 0.257,
+      "Spain": 0.53
+    }
+  },
+  "elo": {
+    "Portugal": 2066,
+    "Spain": 2231
+  },
+  "expected_goals": {
+    "Portugal": 1.07,
+    "Spain": 1.42
+  },
+  "over_under_2_5": {
+    "over": 0.453,
+    "under": 0.547
+  },
+  "btts": 0.508,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.136
+    },
+    {
+      "score": "0-1",
+      "prob": 0.108
+    },
+    {
+      "score": "0-0",
+      "prob": 0.093
+    },
+    {
+      "score": "1-2",
+      "prob": 0.089
+    },
+    {
+      "score": "0-2",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "0-1",
+    "result": "away",
+    "scored_at": "2026-07-10T12:32:08-06:00",
+    "rps": 0.15065,
+    "log_loss": 0.68717,
+    "brier": 0.37099,
+    "surprisal": 0.68717
+  }
+}
