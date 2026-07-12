@@ -1,0 +1,68 @@
+{
+  "match": "Argentina vs Switzerland",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-11",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Argentina": 0.682,
+      "Draw": 0.214,
+      "Switzerland": 0.104
+    },
+    "ensemble_uncalibrated": {
+      "Argentina": 0.653,
+      "Draw": 0.228,
+      "Switzerland": 0.119
+    },
+    "dixon_coles": {
+      "Argentina": 0.638,
+      "Draw": 0.247,
+      "Switzerland": 0.115
+    },
+    "elo": {
+      "Argentina": 0.667,
+      "Draw": 0.21,
+      "Switzerland": 0.122
+    }
+  },
+  "elo": {
+    "Argentina": 2233,
+    "Switzerland": 2001
+  },
+  "expected_goals": {
+    "Argentina": 1.73,
+    "Switzerland": 0.61
+  },
+  "over_under_2_5": {
+    "over": 0.414,
+    "under": 0.586
+  },
+  "btts": 0.383,
+  "top_scorelines": [
+    {
+      "score": "1-0",
+      "prob": 0.158
+    },
+    {
+      "score": "2-0",
+      "prob": 0.145
+    },
+    {
+      "score": "1-1",
+      "prob": 0.111
+    },
+    {
+      "score": "0-0",
+      "prob": 0.106
+    },
+    {
+      "score": "2-1",
+      "prob": 0.088
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

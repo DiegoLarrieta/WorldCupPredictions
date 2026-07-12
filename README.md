@@ -15,6 +15,29 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Argentina vs Switzerland — 2026-07-11 — · [análisis](predictions/4round/arg-swi/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** draw @ +260 (+6%)
+
+💵 **Props recomendados:** **Dan Ndoye** o1.5 tiros @ -139 (modelo 74%) — **$300 MXN** · **Breel Embolo** o1.5 tiros @ -133 (modelo 63%) — **$200 MXN** · _total $500 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Argentina | 68% | -130 | ⏳ |
+| Empate | 21% | +260 | ⏳ |
+| Gana Switzerland | 10% | +580 | ⏳ |
+| Doble oport. Argentina | 90% | -588 | ⏳ |
+| Doble oport. Switzerland | 32% | +128 | ⏳ |
+| Over 1.5 goles | 68% | -227 | ⏳ |
+| Over 2.5 goles | 42% | +142 | ⏳ |
+| Over 3.5 goles | 21% | +350 | ⏳ |
+| Over 1.5 goles Argentina | 52% | -106 | ⏳ |
+| Over 0.5 goles Switzerland | 46% | -130 | ⏳ |
+| BTTS (ambos marcan) | 38% | +115 | ⏳ |
+| Prop: Dan Ndoye o0.5 SoT | 60% | -105 | ⏳ |
+
 ### Spain vs Belgium — 2026-07-10 13:00 · [análisis](predictions/4round/esp-bel/analysis.md)
 
 ⏳ Por jugarse
