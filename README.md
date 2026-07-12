@@ -15,6 +15,29 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### Spain vs Belgium — 2026-07-10 13:00 · [análisis](predictions/4round/esp-bel/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** draw @ +317 (+6%)
+
+💵 **Props recomendados:** **Kevin De Bruyne** o1.5 tiros @ -135 (modelo 88%) — **$350 MXN** · **Leandro Trossard** o1.5 tiros @ +100 (modelo 80%) — **$350 MXN** · **Jeremy Doku** o0.5 tiros @ -278 (modelo 84%) — **$250 MXN** · _total $950 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana Spain | 62% | -141 | ⏳ |
+| Empate | 22% | +317 | ⏳ |
+| Gana Belgium | 15% | +490 | ⏳ |
+| Doble oport. Spain | 85% | -500 | ⏳ |
+| Doble oport. Belgium | 38% | +138 | ⏳ |
+| Over 1.5 goles | 73% | -370 | ⏳ |
+| Over 2.5 goles | 48% | -123 | ⏳ |
+| Over 3.5 goles | 26% | +215 | ⏳ |
+| Over 1.5 goles Spain | 49% | -149 | ⏳ |
+| Over 0.5 goles Belgium | 60% | -179 | ⏳ |
+| BTTS (ambos marcan) | 49% | -122 | ⏳ |
+| Prop: Maxim de Cuyper o0.5 SoT | 51% | +270 | ⏳ |
+
 ### Belgium vs United States — 2026-07-06 — · [análisis](predictions/8round/bel-usa/analysis.md)
 
 ⏳ Por jugarse

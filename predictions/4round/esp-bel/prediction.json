@@ -1,0 +1,68 @@
+{
+  "match": "Spain vs Belgium",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-10",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "Spain": 0.625,
+      "Draw": 0.225,
+      "Belgium": 0.15
+    },
+    "ensemble_uncalibrated": {
+      "Spain": 0.598,
+      "Draw": 0.237,
+      "Belgium": 0.165
+    },
+    "dixon_coles": {
+      "Spain": 0.54,
+      "Draw": 0.26,
+      "Belgium": 0.2
+    },
+    "elo": {
+      "Spain": 0.652,
+      "Draw": 0.216,
+      "Belgium": 0.132
+    }
+  },
+  "elo": {
+    "Spain": 2248,
+    "Belgium": 2031
+  },
+  "expected_goals": {
+    "Spain": 1.66,
+    "Belgium": 0.92
+  },
+  "over_under_2_5": {
+    "over": 0.476,
+    "under": 0.524
+  },
+  "btts": 0.494,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.124
+    },
+    {
+      "score": "1-0",
+      "prob": 0.118
+    },
+    {
+      "score": "2-0",
+      "prob": 0.105
+    },
+    {
+      "score": "2-1",
+      "prob": 0.096
+    },
+    {
+      "score": "0-0",
+      "prob": 0.084
+    }
+  ],
+  "lineups": null,
+  "actual_result": null
+}

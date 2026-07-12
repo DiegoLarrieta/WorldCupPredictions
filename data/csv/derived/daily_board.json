@@ -1,5 +1,113 @@
 [
  {
+  "match": "Spain vs Belgium",
+  "kickoff": "2026-07-10 19:00",
+  "date": "2026-07-10",
+  "result": "",
+  "sug": "draw @ +317 (+6%)",
+  "prop_recs": [
+   {
+    "player": "Kevin De Bruyne",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.74,
+    "stake": 350,
+    "model": 0.884
+   },
+   {
+    "player": "Leandro Trossard",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 2.0,
+    "stake": 350,
+    "model": 0.802
+   },
+   {
+    "player": "Jeremy Doku",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.36,
+    "stake": 250,
+    "model": 0.836
+   }
+  ],
+  "link": "predictions/4round/esp-bel/analysis.md",
+  "markets": [
+   [
+    "Gana Spain",
+    0.625,
+    "-141",
+    null
+   ],
+   [
+    "Empate",
+    0.225,
+    "+317",
+    null
+   ],
+   [
+    "Gana Belgium",
+    0.15,
+    "+490",
+    null
+   ],
+   [
+    "Doble oport. Spain",
+    0.85,
+    "-500",
+    null
+   ],
+   [
+    "Doble oport. Belgium",
+    0.375,
+    "+138",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.729,
+    "-370",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.477,
+    "-123",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.26,
+    "+215",
+    null
+   ],
+   [
+    "Over 1.5 goles Spain",
+    0.494,
+    "-149",
+    null
+   ],
+   [
+    "Over 0.5 goles Belgium",
+    0.601,
+    "-179",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.494,
+    "-122",
+    null
+   ],
+   [
+    "Prop: Maxim de Cuyper o0.5 SoT",
+    0.514,
+    "+270",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Belgium vs United States",
   "kickoff": "2026-07-06",
   "date": "2026-07-06",
