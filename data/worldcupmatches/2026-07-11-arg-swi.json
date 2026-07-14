@@ -1,0 +1,339 @@
+{
+  "match_key": "2026-07-11-arg-swi",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-11-arg-swi",
+    "date": "2026-07-11",
+    "home": "Argentina",
+    "away": "Switzerland",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "qf",
+    "group": null
+  },
+  "prediction": {
+    "match": "Argentina vs Switzerland",
+    "home": "Argentina",
+    "away": "Switzerland",
+    "as_of": "2026-07-11",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.682,
+      0.214,
+      0.104
+    ],
+    "components": {
+      "dixon_coles": [
+        0.638,
+        0.247,
+        0.115
+      ],
+      "elo": [
+        0.667,
+        0.21,
+        0.122
+      ]
+    },
+    "expected_goals": {
+      "Argentina": 1.73,
+      "Switzerland": 0.61
+    },
+    "over25": 0.414,
+    "btts": 0.383,
+    "top_scorelines": [
+      {
+        "score": "1-0",
+        "prob": 0.158
+      },
+      {
+        "score": "2-0",
+        "prob": 0.145
+      },
+      {
+        "score": "1-1",
+        "prob": 0.111
+      },
+      {
+        "score": "0-0",
+        "prob": 0.106
+      },
+      {
+        "score": "2-1",
+        "prob": 0.088
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "home",
+      "source": "espn-scores",
+      "captured_at": "2026-07-14T12:51:16-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760513",
+      "player_shots": [
+        {
+          "player": "Alexis Mac Allister",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Lionel Messi",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Thiago Almada",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        },
+        {
+          "player": "Dan Ndoye",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 3,
+          "on_target": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 85.7,
+          "starter": true,
+          "shots_p90": 3.15,
+          "sot_p90": 2.1
+        },
+        {
+          "player": "Julián Álvarez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Granit Xhaka",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Lautaro Martínez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 5.3,
+          "starter": false,
+          "shots_p90": 33.96,
+          "sot_p90": 16.98
+        },
+        {
+          "player": "Lisandro Martínez",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Nico González",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 12.6,
+          "starter": false,
+          "shots_p90": 14.27,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Breel Embolo",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Djibril Sow",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.6,
+          "starter": true,
+          "shots_p90": 1.05,
+          "sot_p90": 1.05
+        },
+        {
+          "player": "Cristian Romero",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nahuel Molina",
+          "side": "home",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 84.9,
+          "starter": true,
+          "shots_p90": 1.06,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Denis Zakaria",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Fabian Rieder",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 85.8,
+          "starter": true,
+          "shots_p90": 1.05,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ardon Jashari",
+          "side": "away",
+          "team": "Switzerland",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0.0,
+          "starter": false,
+          "shots_p90": null,
+          "sot_p90": null
+        }
+      ],
+      "possession_home": 59,
+      "shots_home": 22,
+      "shots_on_target_home": 7,
+      "corners_home": 8,
+      "fouls_home": 14,
+      "saves_home": 4,
+      "offsides_home": 4,
+      "yellow_cards_home": 3,
+      "red_cards_home": 0,
+      "possession_away": 41,
+      "shots_away": 11,
+      "shots_on_target_away": 5,
+      "corners_away": 2,
+      "fouls_away": 18,
+      "saves_away": 4,
+      "offsides_away": 3,
+      "yellow_cards_away": 1,
+      "red_cards_away": 1,
+      "source": "espn",
+      "captured_at": "2026-07-14T12:51:26-06:00"
+    }
+  },
+  "scores": {
+    "y": 0,
+    "rps": 0.05597,
+    "log_loss": 0.38273,
+    "brier": 0.15774,
+    "surprisal": 0.38273,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.05597,
+        "log_loss": 0.38273,
+        "brier": 0.15774,
+        "surprisal": 0.38273
+      },
+      "dixon_coles": {
+        "rps": 0.07213,
+        "log_loss": 0.44942,
+        "brier": 0.20528,
+        "surprisal": 0.44942
+      },
+      "elo": {
+        "rps": 0.06268,
+        "log_loss": 0.40396,
+        "brier": 0.16955,
+        "surprisal": 0.40396
+      }
+    }
+  }
+}

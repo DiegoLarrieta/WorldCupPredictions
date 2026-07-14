@@ -1,0 +1,76 @@
+{
+  "match": "France vs Morocco",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-09",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "France": 0.475,
+      "Draw": 0.291,
+      "Morocco": 0.233
+    },
+    "ensemble_uncalibrated": {
+      "France": 0.462,
+      "Draw": 0.296,
+      "Morocco": 0.242
+    },
+    "dixon_coles": {
+      "France": 0.34,
+      "Draw": 0.355,
+      "Morocco": 0.305
+    },
+    "elo": {
+      "France": 0.575,
+      "Draw": 0.241,
+      "Morocco": 0.184
+    }
+  },
+  "elo": {
+    "France": 2211,
+    "Morocco": 2063
+  },
+  "expected_goals": {
+    "France": 0.94,
+    "Morocco": 0.88
+  },
+  "over_under_2_5": {
+    "over": 0.275,
+    "under": 0.725
+  },
+  "btts": 0.371,
+  "top_scorelines": [
+    {
+      "score": "0-0",
+      "prob": 0.176
+    },
+    {
+      "score": "1-1",
+      "prob": 0.149
+    },
+    {
+      "score": "1-0",
+      "prob": 0.138
+    },
+    {
+      "score": "0-1",
+      "prob": 0.128
+    },
+    {
+      "score": "2-0",
+      "prob": 0.072
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "2-0",
+    "result": "home",
+    "scored_at": "2026-07-14T12:51:17-06:00",
+    "rps": 0.16476,
+    "log_loss": 0.74344,
+    "brier": 0.41437,
+    "surprisal": 0.74344
+  }
+}

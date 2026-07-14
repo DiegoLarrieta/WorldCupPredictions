@@ -1,0 +1,76 @@
+{
+  "match": "England vs Norway",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-11",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "England": 0.521,
+      "Draw": 0.254,
+      "Norway": 0.225
+    },
+    "ensemble_uncalibrated": {
+      "England": 0.503,
+      "Draw": 0.262,
+      "Norway": 0.235
+    },
+    "dixon_coles": {
+      "England": 0.486,
+      "Draw": 0.269,
+      "Norway": 0.245
+    },
+    "elo": {
+      "England": 0.518,
+      "Draw": 0.256,
+      "Norway": 0.226
+    }
+  },
+  "elo": {
+    "England": 2151,
+    "Norway": 2051
+  },
+  "expected_goals": {
+    "England": 1.62,
+    "Norway": 1.09
+  },
+  "over_under_2_5": {
+    "over": 0.509,
+    "under": 0.491
+  },
+  "btts": 0.543,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.129
+    },
+    {
+      "score": "1-0",
+      "prob": 0.097
+    },
+    {
+      "score": "2-1",
+      "prob": 0.095
+    },
+    {
+      "score": "2-0",
+      "prob": 0.087
+    },
+    {
+      "score": "0-0",
+      "prob": 0.078
+    }
+  ],
+  "lineups": null,
+  "actual_result": {
+    "score": "2-1",
+    "result": "home",
+    "scored_at": "2026-07-14T12:51:16-06:00",
+    "rps": 0.14003,
+    "log_loss": 0.65201,
+    "brier": 0.34458,
+    "surprisal": 0.65201
+  }
+}

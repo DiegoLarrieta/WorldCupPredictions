@@ -1247,3 +1247,63 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Richard Ríos,1,0,0,0,False
 2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Cucho Hernández,1,0,0,0,False
 2026-07-07-swi-col,2026-07-07,Switzerland vs Colombia,away,Colombia,Juan Fernando Quintero,1,0,0,0,False
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Kylian Mbappé,4,2,1,1,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Ousmane Dembélé,4,1,1,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Désiré Doué,3,2,0,1,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Michael Olise,3,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Jean-Philippe Mateta,2,1,0,0,False
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Dayot Upamecano,1,1,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Bradley Barcola,1,1,0,0,False
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,away,Morocco,Azzedine Ounahi,1,1,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Lucas Digne,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Jules Koundé,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Adrien Rabiot,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,home,France,Manu Koné,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,away,Morocco,Achraf Hakimi,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,away,Morocco,Neil El Aynaoui,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,away,Morocco,Brahim Díaz,1,0,0,0,True
+2026-07-09-fra-mor,2026-07-09,France vs Morocco,away,Morocco,Gessime Yassine,1,0,0,0,False
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Lamine Yamal,6,2,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Dani Olmo,2,1,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Fabián Ruiz,2,1,1,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,away,Belgium,Kevin De Bruyne,2,1,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,away,Belgium,Charles De Ketelaere,2,1,1,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Pau Cubarsí,1,1,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Marc Cucurella,1,1,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Mikel Oyarzabal,1,1,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Mikel Merino,1,1,1,0,False
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Pedro Porro,1,0,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Rodri,1,0,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,home,Spain,Álex Baena,1,0,0,0,True
+2026-07-10-spa-bel,2026-07-10,Spain vs Belgium,away,Belgium,Maxim De Cuyper,1,0,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Alexis Mac Allister,4,1,1,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Lionel Messi,4,1,0,1,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Thiago Almada,3,2,0,0,False
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Dan Ndoye,3,2,1,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Julián Álvarez,3,1,1,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Granit Xhaka,3,1,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Lautaro Martínez,2,1,1,0,False
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Lisandro Martínez,2,1,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Nico González,2,0,0,0,False
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Breel Embolo,1,1,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Djibril Sow,1,1,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Cristian Romero,1,0,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,home,Argentina,Nahuel Molina,1,0,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Denis Zakaria,1,0,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Fabian Rieder,1,0,0,0,True
+2026-07-11-arg-swi,2026-07-11,Argentina vs Switzerland,away,Switzerland,Ardon Jashari,1,0,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Jude Bellingham,5,2,2,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Harry Kane,3,2,0,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Bukayo Saka,3,2,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Antonio Nusa,3,1,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Erling Haaland,2,1,0,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Alexander Sørloth,2,0,0,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Martin Ødegaard,1,1,0,1,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Andreas Schjelderup,1,1,1,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Morgan Rogers,1,1,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Djed Spence,1,1,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Kristoffer Ajer,1,0,0,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Patrick Berg,1,0,0,0,True
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Fredrik Aursnes,1,0,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Oscar Bobb,1,0,0,0,False
+2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Eberechi Eze,1,0,0,0,False
