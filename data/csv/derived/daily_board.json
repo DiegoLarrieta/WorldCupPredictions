@@ -1,5 +1,121 @@
 [
  {
+  "match": "France vs Spain",
+  "kickoff": "2026-07-14 19:00",
+  "date": "2026-07-14",
+  "result": "",
+  "sug": "",
+  "prop_recs": [
+   {
+    "player": "Mikel Oyarzabal",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 2.4,
+    "stake": 350,
+    "model": 0.602
+   },
+   {
+    "player": "Kylian Mbappe",
+    "market": "tiros",
+    "line": 3.5,
+    "price": 1.7,
+    "stake": 250,
+    "model": 0.709
+   },
+   {
+    "player": "Dani Olmo",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.89,
+    "stake": 250,
+    "model": 0.638
+   },
+   {
+    "player": "Ousmane Dembele",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.56,
+    "stake": 150,
+    "model": 0.738
+   }
+  ],
+  "link": "predictions/2round/fra-esp/analysis.md",
+  "markets": [
+   [
+    "Gana France",
+    0.331,
+    "+172",
+    null
+   ],
+   [
+    "Empate",
+    0.277,
+    "+230",
+    null
+   ],
+   [
+    "Gana Spain",
+    0.391,
+    "+235",
+    null
+   ],
+   [
+    "Doble oport. France",
+    0.608,
+    "-233",
+    null
+   ],
+   [
+    "Doble oport. Spain",
+    0.668,
+    "-175",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.689,
+    "-333",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.428,
+    "-103",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.219,
+    "+240",
+    null
+   ],
+   [
+    "Over 1.5 goles France",
+    0.29,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Spain",
+    0.38,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.491,
+    "-143",
+    null
+   ],
+   [
+    "Prop: Michael Olise o0.5 SoT",
+    0.677,
+    "-108",
+    null
+   ]
+  ]
+ },
+ {
   "match": "Argentina vs Switzerland",
   "kickoff": "2026-07-11",
   "date": "2026-07-11",

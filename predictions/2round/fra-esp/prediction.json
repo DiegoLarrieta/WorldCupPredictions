@@ -1,0 +1,101 @@
+{
+  "match": "France vs Spain",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-14",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "France": 0.331,
+      "Draw": 0.277,
+      "Spain": 0.391
+    },
+    "ensemble_uncalibrated": {
+      "France": 0.332,
+      "Draw": 0.282,
+      "Spain": 0.386
+    },
+    "dixon_coles": {
+      "France": 0.295,
+      "Draw": 0.291,
+      "Spain": 0.414
+    },
+    "elo": {
+      "France": 0.366,
+      "Draw": 0.274,
+      "Spain": 0.36
+    }
+  },
+  "elo": {
+    "France": 2237,
+    "Spain": 2261
+  },
+  "expected_goals": {
+    "France": 1.07,
+    "Spain": 1.32
+  },
+  "over_under_2_5": {
+    "over": 0.429,
+    "under": 0.571
+  },
+  "btts": 0.491,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.138
+    },
+    {
+      "score": "0-1",
+      "prob": 0.112
+    },
+    {
+      "score": "0-0",
+      "prob": 0.1
+    },
+    {
+      "score": "1-0",
+      "prob": 0.09
+    },
+    {
+      "score": "1-2",
+      "prob": 0.085
+    }
+  ],
+  "lineups": {
+    "France": {
+      "formation": "4-2-3-1",
+      "xi": [
+        "16 Mike Maignan (GK)",
+        "5 Jules Koundé",
+        "4 Dayot Upamecano",
+        "17 William Saliba",
+        "3 Lucas Digne",
+        "8 Aurélien Tchouaméni",
+        "14 Adrien Rabiot",
+        "7 Ousmane Dembélé",
+        "11 Michael Olise",
+        "12 Bradley Barcola",
+        "10 Kylian Mbappé"
+      ]
+    },
+    "Spain": {
+      "formation": "4-2-3-1",
+      "xi": [
+        "23 Unai Simón (GK)",
+        "12 Pedro Porro",
+        "22 Pau Cubarsí",
+        "14 Aymeric Laporte",
+        "24 Marc Cucurella",
+        "16 Rodri",
+        "8 Fabián Ruiz",
+        "19 Lamine Yamal",
+        "10 Dani Olmo",
+        "15 Álex Baena",
+        "21 Mikel Oyarzabal"
+      ]
+    }
+  },
+  "actual_result": null
+}

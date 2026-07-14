@@ -15,6 +15,29 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### France vs Spain — 2026-07-14 13:00 · [análisis](predictions/2round/fra-esp/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** **Mikel Oyarzabal** o2.5 tiros @ +140 (modelo 60%) — **$350 MXN** · **Kylian Mbappe** o3.5 tiros @ -143 (modelo 71%) — **$250 MXN** · **Dani Olmo** o1.5 tiros @ -112 (modelo 64%) — **$250 MXN** · **Ousmane Dembele** o1.5 tiros @ -179 (modelo 74%) — **$150 MXN** · _total $1,000 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana France | 33% | +172 | ⏳ |
+| Empate | 28% | +230 | ⏳ |
+| Gana Spain | 39% | +235 | ⏳ |
+| Doble oport. France | 61% | -233 | ⏳ |
+| Doble oport. Spain | 67% | -175 | ⏳ |
+| Over 1.5 goles | 69% | -333 | ⏳ |
+| Over 2.5 goles | 43% | -103 | ⏳ |
+| Over 3.5 goles | 22% | +240 | ⏳ |
+| Over 1.5 goles France | 29% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Spain | 38% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 49% | -143 | ⏳ |
+| Prop: Michael Olise o0.5 SoT | 68% | -108 | ⏳ |
+
 ### Argentina vs Switzerland — 2026-07-11 — · [análisis](predictions/4round/arg-swi/analysis.md)
 
 ⏳ Por jugarse
