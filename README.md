@@ -15,6 +15,29 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### England vs Argentina — 2026-07-15 13:00 · [análisis](predictions/2round/arg-eng/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** draw @ +204 (+5%)
+
+💵 **Props recomendados:** **Lionel Messi** o3.5 tiros @ +130 (modelo 64%) — **$400 MXN** · **Harry Kane** o2.5 tiros @ -141 (modelo 72%) — **$300 MXN** · **Morgan Rogers** o0.5 tiros @ -294 (modelo 84%) — **$200 MXN** · _total $900 MXN_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana England | 24% | +178 | ⏳ |
+| Empate | 28% | +204 | ⏳ |
+| Gana Argentina | 47% | +220 | ⏳ |
+| Doble oport. England | 53% | -227 | ⏳ |
+| Doble oport. Argentina | 76% | -182 | ⏳ |
+| Over 1.5 goles | 59% | -200 | ⏳ |
+| Over 2.5 goles | 32% | +158 | ⏳ |
+| Over 3.5 goles | 14% | +380 | ⏳ |
+| Over 1.5 goles England | 16% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles Argentina | 36% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 37% | -105 | ⏳ |
+| Prop: Lionel Messi o0.5 SoT | 80% | -333 | ⏳ |
+
 ### France vs Spain — 2026-07-14 13:00 · [análisis](predictions/2round/fra-esp/analysis.md)
 
 ⏳ Por jugarse

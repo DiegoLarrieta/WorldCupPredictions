@@ -1,5 +1,113 @@
 [
  {
+  "match": "England vs Argentina",
+  "kickoff": "2026-07-15 19:00",
+  "date": "2026-07-15",
+  "result": "",
+  "sug": "draw @ +204 (+5%)",
+  "prop_recs": [
+   {
+    "player": "Lionel Messi",
+    "market": "tiros",
+    "line": 3.5,
+    "price": 2.3,
+    "stake": 400,
+    "model": 0.638
+   },
+   {
+    "player": "Harry Kane",
+    "market": "tiros",
+    "line": 2.5,
+    "price": 1.71,
+    "stake": 300,
+    "model": 0.722
+   },
+   {
+    "player": "Morgan Rogers",
+    "market": "tiros",
+    "line": 0.5,
+    "price": 1.34,
+    "stake": 200,
+    "model": 0.835
+   }
+  ],
+  "link": "predictions/2round/arg-eng/analysis.md",
+  "markets": [
+   [
+    "Gana England",
+    0.244,
+    "+178",
+    null
+   ],
+   [
+    "Empate",
+    0.285,
+    "+204",
+    null
+   ],
+   [
+    "Gana Argentina",
+    0.47,
+    "+220",
+    null
+   ],
+   [
+    "Doble oport. England",
+    0.529,
+    "-227",
+    null
+   ],
+   [
+    "Doble oport. Argentina",
+    0.755,
+    "-182",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.589,
+    "-200",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.318,
+    "+158",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.139,
+    "+380",
+    null
+   ],
+   [
+    "Over 1.5 goles England",
+    0.159,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles Argentina",
+    0.363,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.372,
+    "-105",
+    null
+   ],
+   [
+    "Prop: Lionel Messi o0.5 SoT",
+    0.8,
+    "-333",
+    null
+   ]
+  ]
+ },
+ {
   "match": "France vs Spain",
   "kickoff": "2026-07-14 19:00",
   "date": "2026-07-14",

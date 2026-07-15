@@ -1,0 +1,101 @@
+{
+  "match": "England vs Argentina",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-15",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "England": 0.244,
+      "Draw": 0.285,
+      "Argentina": 0.47
+    },
+    "ensemble_uncalibrated": {
+      "England": 0.252,
+      "Draw": 0.29,
+      "Argentina": 0.457
+    },
+    "dixon_coles": {
+      "England": 0.2,
+      "Draw": 0.31,
+      "Argentina": 0.49
+    },
+    "elo": {
+      "England": 0.301,
+      "Draw": 0.272,
+      "Argentina": 0.427
+    }
+  },
+  "elo": {
+    "England": 2172,
+    "Argentina": 2252
+  },
+  "expected_goals": {
+    "England": 0.71,
+    "Argentina": 1.27
+  },
+  "over_under_2_5": {
+    "over": 0.316,
+    "under": 0.684
+  },
+  "btts": 0.372,
+  "top_scorelines": [
+    {
+      "score": "0-1",
+      "prob": 0.168
+    },
+    {
+      "score": "0-0",
+      "prob": 0.147
+    },
+    {
+      "score": "1-1",
+      "prob": 0.132
+    },
+    {
+      "score": "0-2",
+      "prob": 0.111
+    },
+    {
+      "score": "1-0",
+      "prob": 0.09
+    }
+  ],
+  "lineups": {
+    "England": {
+      "formation": "4-2-3-1",
+      "xi": [
+        "1 Jordan Pickford (GK)",
+        "24 Reece James",
+        "5 John Stones",
+        "6 Marc Guéhi",
+        "25 Djed Spence",
+        "4 Declan Rice",
+        "8 Elliot Anderson",
+        "17 Morgan Rogers",
+        "10 Jude Bellingham",
+        "18 Anthony Gordon",
+        "9 Harry Kane"
+      ]
+    },
+    "Argentina": {
+      "formation": "4-4-2",
+      "xi": [
+        "23 Emiliano Martínez (GK)",
+        "26 Nahuel Molina",
+        "13 Cristian Romero",
+        "6 Lisandro Martínez",
+        "3 Nicolás Tagliafico",
+        "17 Giuliano Simeone",
+        "5 Leandro Paredes",
+        "20 Alexis Mac Allister",
+        "24 Enzo Fernández",
+        "10 Lionel Messi",
+        "9 Julián Álvarez"
+      ]
+    }
+  },
+  "actual_result": null
+}
