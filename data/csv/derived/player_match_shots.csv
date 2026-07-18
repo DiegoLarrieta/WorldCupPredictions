@@ -1307,3 +1307,29 @@ match_key,date,match,side,team,player,shots,on_target,goals,assists,starter
 2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Fredrik Aursnes,1,0,0,0,False
 2026-07-11-eng-nor,2026-07-11,England vs Norway,away,Norway,Oscar Bobb,1,0,0,0,False
 2026-07-11-eng-nor,2026-07-11,England vs Norway,home,England,Eberechi Eze,1,0,0,0,False
+2026-07-14-fra-spa,2026-07-14,France vs Spain,home,France,Kylian Mbappé,3,0,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,home,France,Ousmane Dembélé,2,2,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,home,France,Désiré Doué,2,1,0,0,False
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Pedro Porro,2,1,1,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Mikel Oyarzabal,2,1,1,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Álex Baena,2,0,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,home,France,Adrien Rabiot,1,0,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,home,France,Aurélien Tchouaméni,1,0,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,home,France,Bradley Barcola,1,0,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Dani Olmo,1,0,0,1,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Fabián Ruiz,1,0,0,0,True
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Ferran Torres,1,0,0,0,False
+2026-07-14-fra-spa,2026-07-14,France vs Spain,away,Spain,Nico Williams,1,0,0,0,False
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Enzo Fernández,4,1,1,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Alexis Mac Allister,3,1,0,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Julián Álvarez,3,1,0,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,home,England,Declan Rice,1,1,0,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,home,England,Anthony Gordon,1,1,1,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Lautaro Martínez,1,1,1,0,False
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Nico González,1,1,0,0,False
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,home,England,John Stones,1,0,0,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,home,England,Harry Kane,1,0,0,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,home,England,Morgan Rogers,1,0,0,1,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Leandro Paredes,1,0,0,0,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Lionel Messi,1,0,0,2,True
+2026-07-15-eng-arg,2026-07-15,England vs Argentina,away,Argentina,Rodrigo De Paul,1,0,0,0,False

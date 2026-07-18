@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-07-15-eng-arg",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-15-eng-arg",
+    "date": "2026-07-15",
+    "home": "England",
+    "away": "Argentina",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "sf",
+    "group": null
+  },
+  "prediction": {
+    "match": "England vs Argentina",
+    "home": "England",
+    "away": "Argentina",
+    "as_of": "2026-07-15",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.244,
+      0.285,
+      0.47
+    ],
+    "components": {
+      "dixon_coles": [
+        0.2,
+        0.31,
+        0.49
+      ],
+      "elo": [
+        0.301,
+        0.272,
+        0.427
+      ]
+    },
+    "expected_goals": {
+      "England": 0.71,
+      "Argentina": 1.27
+    },
+    "over25": 0.316,
+    "btts": 0.372,
+    "top_scorelines": [
+      {
+        "score": "0-1",
+        "prob": 0.168
+      },
+      {
+        "score": "0-0",
+        "prob": 0.147
+      },
+      {
+        "score": "1-1",
+        "prob": 0.132
+      },
+      {
+        "score": "0-2",
+        "prob": 0.111
+      },
+      {
+        "score": "1-0",
+        "prob": 0.09
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-07-18T14:14:11-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760515",
+      "player_shots": [
+        {
+          "player": "Enzo Fernández",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 4,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 4.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Alexis Mac Allister",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Julián Álvarez",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 3,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 1.0
+        },
+        {
+          "player": "Declan Rice",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 82.0,
+          "starter": true,
+          "shots_p90": 1.1,
+          "sot_p90": 1.1
+        },
+        {
+          "player": "Anthony Gordon",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 71.5,
+          "starter": true,
+          "shots_p90": 1.26,
+          "sot_p90": 1.26
+        },
+        {
+          "player": "Lautaro Martínez",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 9.4,
+          "starter": false,
+          "shots_p90": 9.54,
+          "sot_p90": 9.54
+        },
+        {
+          "player": "Nico González",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 26.1,
+          "starter": false,
+          "shots_p90": 3.44,
+          "sot_p90": 3.44
+        },
+        {
+          "player": "John Stones",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Harry Kane",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Morgan Rogers",
+          "side": "home",
+          "team": "England",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Leandro Paredes",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 63.9,
+          "starter": true,
+          "shots_p90": 1.41,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Lionel Messi",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Rodrigo De Paul",
+          "side": "away",
+          "team": "Argentina",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 18.0,
+          "starter": false,
+          "shots_p90": 4.99,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 35.8,
+      "shots_home": 5,
+      "shots_on_target_home": 2,
+      "corners_home": 2,
+      "fouls_home": 11,
+      "saves_home": 3,
+      "offsides_home": 1,
+      "yellow_cards_home": 1,
+      "red_cards_home": 0,
+      "possession_away": 64.2,
+      "shots_away": 15,
+      "shots_on_target_away": 5,
+      "corners_away": 6,
+      "fouls_away": 15,
+      "saves_away": 1,
+      "offsides_away": 3,
+      "yellow_cards_away": 3,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-18T14:14:20-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.17003,
+    "log_loss": 0.75402,
+    "brier": 0.42144,
+    "surprisal": 0.75402,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.17003,
+        "log_loss": 0.75402,
+        "brier": 0.42144,
+        "surprisal": 0.75402
+      },
+      "dixon_coles": {
+        "rps": 0.15005,
+        "log_loss": 0.71335,
+        "brier": 0.3962,
+        "surprisal": 0.71335
+      },
+      "elo": {
+        "rps": 0.20946,
+        "log_loss": 0.85097,
+        "brier": 0.49291,
+        "surprisal": 0.85097
+      }
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "match_key": "2026-07-14-fra-spa",
+  "schema_version": 1,
+  "identity": {
+    "match_key": "2026-07-14-fra-spa",
+    "date": "2026-07-14",
+    "home": "France",
+    "away": "Spain",
+    "neutral": true,
+    "venue": "neutral",
+    "competition": "World Cup",
+    "stage": "sf",
+    "group": null
+  },
+  "prediction": {
+    "match": "France vs Spain",
+    "home": "France",
+    "away": "Spain",
+    "as_of": "2026-07-14",
+    "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+    "ensemble_weight_on_dc": 0.481,
+    "calibration_temperature": 0.906,
+    "params_hash": "c1c66f4228238f1a",
+    "ensemble": [
+      0.331,
+      0.277,
+      0.391
+    ],
+    "components": {
+      "dixon_coles": [
+        0.295,
+        0.291,
+        0.414
+      ],
+      "elo": [
+        0.366,
+        0.274,
+        0.36
+      ]
+    },
+    "expected_goals": {
+      "France": 1.07,
+      "Spain": 1.32
+    },
+    "over25": 0.429,
+    "btts": 0.491,
+    "top_scorelines": [
+      {
+        "score": "1-1",
+        "prob": 0.138
+      },
+      {
+        "score": "0-1",
+        "prob": 0.112
+      },
+      {
+        "score": "0-0",
+        "prob": 0.1
+      },
+      {
+        "score": "1-0",
+        "prob": 0.09
+      },
+      {
+        "score": "1-2",
+        "prob": 0.085
+      }
+    ]
+  },
+  "outcome": {
+    "spine": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "away",
+      "source": "espn-scores",
+      "captured_at": "2026-07-18T14:14:12-06:00"
+    },
+    "rich": {
+      "espn_event_id": "760514",
+      "player_shots": [
+        {
+          "player": "Kylian Mbappé",
+          "side": "home",
+          "team": "France",
+          "shots": 3,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 3.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 2.0
+        },
+        {
+          "player": "Désiré Doué",
+          "side": "home",
+          "team": "France",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 33.8,
+          "starter": false,
+          "shots_p90": 5.32,
+          "sot_p90": 2.66
+        },
+        {
+          "player": "Pedro Porro",
+          "side": "away",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 83.2,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 1.08
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "side": "away",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 1,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 73.8,
+          "starter": true,
+          "shots_p90": 2.44,
+          "sot_p90": 1.22
+        },
+        {
+          "player": "Álex Baena",
+          "side": "away",
+          "team": "Spain",
+          "shots": 2,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 83.2,
+          "starter": true,
+          "shots_p90": 2.16,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Adrien Rabiot",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 45.0,
+          "starter": true,
+          "shots_p90": 2.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Aurélien Tchouaméni",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 90.0,
+          "starter": true,
+          "shots_p90": 1.0,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Bradley Barcola",
+          "side": "home",
+          "team": "France",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 56.2,
+          "starter": true,
+          "shots_p90": 1.6,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Dani Olmo",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 77.1,
+          "starter": true,
+          "shots_p90": 1.17,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Fabián Ruiz",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 77.2,
+          "starter": true,
+          "shots_p90": 1.17,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Ferran Torres",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 16.2,
+          "starter": false,
+          "shots_p90": 5.56,
+          "sot_p90": 0.0
+        },
+        {
+          "player": "Nico Williams",
+          "side": "away",
+          "team": "Spain",
+          "shots": 1,
+          "on_target": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 6.8,
+          "starter": false,
+          "shots_p90": 13.27,
+          "sot_p90": 0.0
+        }
+      ],
+      "possession_home": 49.1,
+      "shots_home": 10,
+      "shots_on_target_home": 3,
+      "corners_home": 7,
+      "fouls_home": 11,
+      "saves_home": 0,
+      "offsides_home": 4,
+      "yellow_cards_home": 2,
+      "red_cards_home": 0,
+      "possession_away": 50.9,
+      "shots_away": 10,
+      "shots_on_target_away": 2,
+      "corners_away": 1,
+      "fouls_away": 12,
+      "saves_away": 3,
+      "offsides_away": 5,
+      "yellow_cards_away": 1,
+      "red_cards_away": 0,
+      "source": "espn",
+      "captured_at": "2026-07-18T14:14:21-06:00"
+    }
+  },
+  "scores": {
+    "y": 2,
+    "rps": 0.24009,
+    "log_loss": 0.93805,
+    "brier": 0.55707,
+    "surprisal": 0.93805,
+    "per_model": {
+      "ensemble": {
+        "rps": 0.24009,
+        "log_loss": 0.93805,
+        "brier": 0.55707,
+        "surprisal": 0.93805
+      },
+      "dixon_coles": {
+        "rps": 0.21521,
+        "log_loss": 0.88189,
+        "brier": 0.5151,
+        "surprisal": 0.88189
+      },
+      "elo": {
+        "rps": 0.27178,
+        "log_loss": 1.02165,
+        "brier": 0.61863,
+        "surprisal": 1.02165
+      }
+    }
+  }
+}

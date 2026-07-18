@@ -97,5 +97,13 @@
       ]
     }
   },
-  "actual_result": null
+  "actual_result": {
+    "score": "1-2",
+    "result": "away",
+    "scored_at": "2026-07-18T14:14:11-06:00",
+    "rps": 0.17003,
+    "log_loss": 0.75402,
+    "brier": 0.42144,
+    "surprisal": 0.75402
+  }
 }
