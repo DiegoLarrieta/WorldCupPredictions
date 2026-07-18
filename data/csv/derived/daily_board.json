@@ -1,5 +1,105 @@
 [
  {
+  "match": "France vs England",
+  "kickoff": "2026-07-18 21:00",
+  "date": "2026-07-18",
+  "result": "",
+  "sug": "",
+  "prop_recs": [
+   {
+    "player": "Marcus Rashford",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 1.89,
+    "stake": 250,
+    "model": 0.763
+   },
+   {
+    "player": "Eberechi Eze",
+    "market": "tiros",
+    "line": 1.5,
+    "price": 2.25,
+    "stake": 200,
+    "model": 0.602
+   }
+  ],
+  "link": "predictions/1round/fra-eng/analysis.md",
+  "markets": [
+   [
+    "Gana France",
+    0.424,
+    "-123",
+    null
+   ],
+   [
+    "Empate",
+    0.276,
+    "+340",
+    null
+   ],
+   [
+    "Gana England",
+    0.3,
+    "+360",
+    null
+   ],
+   [
+    "Doble oport. France",
+    0.7,
+    "-370",
+    null
+   ],
+   [
+    "Doble oport. England",
+    0.576,
+    "+122",
+    null
+   ],
+   [
+    "Over 1.5 goles",
+    0.687,
+    "-667",
+    null
+   ],
+   [
+    "Over 2.5 goles",
+    0.425,
+    "-208",
+    null
+   ],
+   [
+    "Over 3.5 goles",
+    0.217,
+    "+126",
+    null
+   ],
+   [
+    "Over 1.5 goles France",
+    0.352,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "Over 1.5 goles England",
+    0.316,
+    "_(no fetcheado)_",
+    null
+   ],
+   [
+    "BTTS (ambos marcan)",
+    0.492,
+    "-208",
+    null
+   ],
+   [
+    "Prop: Bukayo Saka o0.5 SoT",
+    0.599,
+    "+123",
+    null
+   ]
+  ]
+ },
+ {
   "match": "England vs Argentina",
   "kickoff": "2026-07-15 19:00",
   "date": "2026-07-15",

@@ -1,0 +1,101 @@
+{
+  "match": "France vs England",
+  "competition": "World Cup",
+  "venue": "neutral",
+  "as_of": "2026-07-18",
+  "model": "Elo + Dixon-Coles ensemble, temperature-calibrated",
+  "ensemble_weight_on_dc": 0.481,
+  "calibration_temperature": 0.906,
+  "win_draw_loss": {
+    "ENSEMBLE": {
+      "France": 0.424,
+      "Draw": 0.276,
+      "England": 0.3
+    },
+    "ensemble_uncalibrated": {
+      "France": 0.415,
+      "Draw": 0.281,
+      "England": 0.304
+    },
+    "dixon_coles": {
+      "France": 0.375,
+      "Draw": 0.297,
+      "England": 0.328
+    },
+    "elo": {
+      "France": 0.452,
+      "Draw": 0.267,
+      "England": 0.281
+    }
+  },
+  "elo": {
+    "France": 2196,
+    "England": 2149
+  },
+  "expected_goals": {
+    "France": 1.24,
+    "England": 1.14
+  },
+  "over_under_2_5": {
+    "over": 0.425,
+    "under": 0.575
+  },
+  "btts": 0.492,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.14
+    },
+    {
+      "score": "1-0",
+      "prob": 0.105
+    },
+    {
+      "score": "0-0",
+      "prob": 0.102
+    },
+    {
+      "score": "0-1",
+      "prob": 0.096
+    },
+    {
+      "score": "2-1",
+      "prob": 0.081
+    }
+  ],
+  "lineups": {
+    "France": {
+      "formation": "4-2-3-1",
+      "xi": [
+        "Mike Maignan (GK)",
+        "Malo Gusto",
+        "Ibrahima Konaté",
+        "Maxence Lacroix",
+        "Théo Hernandez",
+        "N'Golo Kanté",
+        "Warren Zaïre-Emery",
+        "Ousmane Dembélé",
+        "Rayan Cherki",
+        "Bradley Barcola",
+        "Kylian Mbappé"
+      ]
+    },
+    "England": {
+      "formation": "4-2-3-1",
+      "xi": [
+        "Jordan Pickford (GK)",
+        "Djed Spence",
+        "Marc Guéhi",
+        "Ezri Konsa",
+        "Nico O'Reilly",
+        "Kobbie Mainoo",
+        "Eberechi Eze",
+        "Noni Madueke",
+        "Morgan Rogers",
+        "Marcus Rashford",
+        "Harry Kane"
+      ]
+    }
+  },
+  "actual_result": null
+}

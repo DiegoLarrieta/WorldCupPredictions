@@ -15,6 +15,29 @@ price*, validated on leakage-free held-out data, or it doesn't ship.
 
 _Acumula todo lo analizado (lo nuevo arriba). Prob = modelo · Odds = The Odds API · 1X2/doble-oport = registro. Detalle + checks: `analysis.md`._
 
+### France vs England — 2026-07-18 15:00 · [análisis](predictions/1round/fra-eng/analysis.md)
+
+⏳ Por jugarse
+
+🎯 **1X2/goles sugerido:** ninguno (sin edge soft-vs-sharp)
+
+💵 **Props recomendados:** **Marcus Rashford** o1.5 tiros @ -112 (modelo 76%) — **$250 MXN** · **Eberechi Eze** o1.5 tiros @ +125 (modelo 60%) — **$200 MXN** · _total $450 MXN_ · _(Saka y Toney marcaban EV alto pero no están en el XI proyectado — banca probable = error de minutos del modelo, no edge; descartados)_
+
+| Mercado | Prob modelo | Odds | Check |
+|---|---|---|---|
+| Gana France | 42% | -123 | ⏳ |
+| Empate | 28% | +340 | ⏳ |
+| Gana England | 30% | +360 | ⏳ |
+| Doble oport. France | 70% | -370 | ⏳ |
+| Doble oport. England | 58% | +122 | ⏳ |
+| Over 1.5 goles | 69% | -667 | ⏳ |
+| Over 2.5 goles | 42% | -208 | ⏳ |
+| Over 3.5 goles | 22% | +126 | ⏳ |
+| Over 1.5 goles France | 35% | _(no fetcheado)_ | ⏳ |
+| Over 1.5 goles England | 32% | _(no fetcheado)_ | ⏳ |
+| BTTS (ambos marcan) | 49% | -208 | ⏳ |
+| Prop: Bukayo Saka o0.5 SoT | 60% | +123 | ⏳ |
+
 ### England vs Argentina — 2026-07-15 13:00 · [análisis](predictions/2round/arg-eng/analysis.md)
 
 ⏳ Por jugarse
